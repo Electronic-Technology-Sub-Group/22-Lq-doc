@@ -1,0 +1,141 @@
+{
+  "main": {
+    "id": "62423b806d25a051",
+    "type": "split",
+    "children": [
+      {
+        "id": "19aeb4b5103a618b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8f2fdc3708e8593a",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ec77493e3d48d723",
+    "type": "split",
+    "children": [
+      {
+        "id": "df323170268c0f75",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "de9bc090605109e6",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "1d7f1614f6938656",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "3a1f237e4c6f07df",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "defd8feb6d929837",
+    "type": "split",
+    "children": [
+      {
+        "id": "f2f8136a1e911639",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6a5a06e059c4c79b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Babel/Babel.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "a99396c8f1436691",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Babel/Babel.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "cba9bfba2d4d286a",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "c7690fa38b984018",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Babel/Babel.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "de9bc090605109e6",
+  "lastOpenFiles": [
+    "Babel/配置 Babel.md",
+    "Babel/调用 Babel.md",
+    "Babel/Babel.md"
+  ]
+}
