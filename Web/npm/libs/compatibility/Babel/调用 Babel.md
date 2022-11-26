@@ -1,4 +1,4 @@
-1. 在项目中安装 Babel（需要 Node.js npm 环境）
+1. 在项目中安装 Babel
 ```bash
 npm install --save-dev babel-cil
 ```

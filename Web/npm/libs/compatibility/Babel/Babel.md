@@ -1,4 +1,6 @@
-Babel 是一个[[JavaScript]]转义器，提供将使用新版本标准书写的 `JavaScript` 代码转译成较低版本的 JS 规则，以保证浏览器的兼容性
+Babel 是一个[[JavaScript]]转义器，提供将使用新版本标准书写的 `JavaScript` 代码转译成较低版本的 JS 规则，以保证浏览器的兼容性。
+
+Babel 需要[[npm]]环境，安装到项目目录下即可，无需安装到全局。
 
 Babel 通过将当前代码解析成 AST，替换其中 ES6 的内容，最后重新生成 JS 代码，实现转义降级。
 
@@ -20,4 +22,4 @@ Babel 通过将当前代码解析成 AST，替换其中 ES6 的内容，最后�
 	- `babel-cli`：命令行工具
 	- `babel-register`：用于转义 `require` 引用的 JS 文件
 
-在使用 Babel 前，我们需要先[[配置 Babel]]，之后再[[调用 Babel]]
+在使用 Babel 前，我们需要先[[配置 Babel]]，之后再[[调用 Babel]]。

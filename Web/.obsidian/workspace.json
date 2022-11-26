@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "19aeb4b5103a618b",
+        "id": "8ee849a770c347ed",
         "type": "tabs",
         "children": [
           {
-            "id": "8f2fdc3708e8593a",
+            "id": "d2a944b3e1337039",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "npm/libs/pack/Webpack/Webpack.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Babel/Babel.md",
+                "file": "npm/libs/pack/Webpack/Webpack.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Babel/Babel.md",
+                "file": "npm/libs/pack/Webpack/Webpack.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -121,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Babel/Babel.md"
+                "file": "npm/libs/pack/Webpack/Webpack.md"
               }
             }
           }
@@ -134,8 +138,13 @@
   },
   "active": "de9bc090605109e6",
   "lastOpenFiles": [
-    "Babel/配置 Babel.md",
-    "Babel/调用 Babel.md",
-    "Babel/Babel.md"
+    "npm/libs/compatibility/Babel/Babel.md",
+    "npm/libs/ui/Element Plus/Element Plus.md",
+    "npm/libs/pack/Webpack/Webpack.md",
+    "npm/libs/pack/Webpack/配置 Webpack.md",
+    "npm/libs/pack/Webpack/安装 Webpack.md",
+    "npm.md",
+    "npm/libs/compatibility/Babel/配置 Babel.md",
+    "npm/libs/compatibility/Babel/调用 Babel.md"
   ]
 }
