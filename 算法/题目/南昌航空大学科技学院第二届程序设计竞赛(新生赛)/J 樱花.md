@@ -138,7 +138,8 @@ int main() {
         }  
     }  
   
-    // 计算质数的指数 c    int c[n + 1];  
+    // 计算质数的指数 c
+    int c[n + 1];  
     for (auto &i: c) i = 0;  
     for (int i = 1; i <= n; ++i) {  
         for (int j = i; j != 1; j /= v[j]) {  
