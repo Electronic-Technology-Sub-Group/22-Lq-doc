@@ -1,0 +1,146 @@
+{
+  "main": {
+    "id": "e5c546036146df66",
+    "type": "split",
+    "children": [
+      {
+        "id": "e554768315e08ba6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "141b89dee991e168",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "abfb58674d3e8170",
+    "type": "split",
+    "children": [
+      {
+        "id": "b0186307b33afc17",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d2e41fa7e58c79bd",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "5a3703181ea5bd9e",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "58049e08e45ce5f6",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "669457a6695a6dfa",
+    "type": "split",
+    "children": [
+      {
+        "id": "1a2f01a022bca2d5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "42c29154238dc4ae",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "插件/templater/templater.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "ca4c3d0ca3a252c3",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "插件/templater/templater.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "ac4897cfe0318337",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "3ae1495a40b4e907",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "插件/templater/templater.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "d2e41fa7e58c79bd",
+  "lastOpenFiles": [
+    "插件/templater/tamplates/template_sample.md",
+    "插件/templater/script/my_script.js.md",
+    "插件/templater/templater.md",
+    "插件/templater/notes/template_sample_note.md",
+    "插件/templater/objects/TFile.md",
+    "插件/templater/objects/FileStats.md",
+    "readme.md",
+    "插件/插件.md"
+  ]
+}

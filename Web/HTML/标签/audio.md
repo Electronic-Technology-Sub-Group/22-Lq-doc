@@ -6,9 +6,9 @@
 <audio src="音频文件地址"></audio>
 ```
 
-- src：音频地址，可以是相对路径或绝对路径
+- src：指向音频的[[资源路径]]
 - controls：显示播放控件
-- autoplay：自动播放，但大多数浏览器不支持
+- autoplay：自动播放，但很多浏览器不支持
 - loop：循环播放
 
-<audio>audio标签</audio>
+<audio src="../../resources/media/audio1.mp3" controls></audio>
