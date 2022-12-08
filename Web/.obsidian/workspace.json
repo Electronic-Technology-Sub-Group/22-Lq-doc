@@ -4,42 +4,37 @@
     "type": "split",
     "children": [
       {
-        "id": "6a09000ae454744a",
+        "id": "3cb0319e7e368247",
         "type": "tabs",
         "children": [
           {
-            "id": "ec72c1290bc08aa7",
+            "id": "4af74d8ce24ddeaf",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HTML/元信息.md",
+                "file": "CSS/CSS.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f56a40c8ab598834",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CSS/对齐与显示模式.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ]
-      },
-      {
-        "id": "4b004f4487bd5215",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "93ff64d8f8f094ed",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "HTML/表单.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -105,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HTML/表单.md",
+                "file": "CSS/对齐与显示模式.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HTML/表单.md",
+                "file": "CSS/对齐与显示模式.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HTML/表单.md"
+                "file": "CSS/对齐与显示模式.md"
               }
             }
           },
@@ -157,24 +152,25 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
     "width": 300,
     "collapsed": true
   },
-  "active": "93ff64d8f8f094ed",
+  "active": "f56a40c8ab598834",
   "lastOpenFiles": [
-    "HTML/page/video.md",
-    "HTML/page/ul.md",
-    "HTML/page/u.md",
-    "HTML/page/tr.md",
-    "HTML/page/title.md",
-    "HTML/page/th.md",
-    "HTML/page/textarea.md",
-    "HTML/page/td.md",
-    "HTML/page/table.md",
-    "HTML/page/strong.md"
+    "CSS/文本样式.md",
+    "CSS/对齐与显示模式.md",
+    "CSS/CSS.md",
+    "CSS/颜色与背景.md",
+    "CSS/选择器.md",
+    "resources/pages/css/background.md",
+    "resources/pages/css/background-position.md",
+    "resources/pages/css/font.md",
+    "resources/pages/css/background-repeat.md",
+    "resources/pages/css/background-image.md"
   ]
 }
