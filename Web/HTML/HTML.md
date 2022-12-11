@@ -101,3 +101,7 @@ HTML 标签通常分两种：
 <a href="https://www.baidu.com">通往百度</a>
 <a href="./表格.md">通往 表格 标签</a>（Obsidian 中无法跳转，他使用其他的协议）
 <a href="obsidian://open?vault=Web&file=HTML%2F%E8%A1%A8%E6%A0%BC">通往 表格 标签</a>（Obsidian 可用）
+
+# 其他
+
+- 当多个相同元素顺序排列（导航，展示列表等），常用 `<ul>` 或其他列表方法嵌套，而不是直接写元素，有利于提高浏览器渲染效率

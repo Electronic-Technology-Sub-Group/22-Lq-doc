@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "3cb0319e7e368247",
+        "id": "4384dcd3851f8e8b",
         "type": "tabs",
         "children": [
           {
-            "id": "4af74d8ce24ddeaf",
+            "id": "0be30131e9b83854",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -19,22 +19,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "f56a40c8ab598834",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CSS/对齐与显示模式.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -63,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#排版标签",
+                "query": "dashed",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -100,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CSS/对齐与显示模式.md",
+                "file": "CSS/CSS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CSS/对齐与显示模式.md",
+                "file": "CSS/CSS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CSS/对齐与显示模式.md"
+                "file": "CSS/CSS.md"
               }
             }
           },
@@ -152,25 +138,24 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
     "width": 300,
     "collapsed": true
   },
-  "active": "f56a40c8ab598834",
+  "active": "0be30131e9b83854",
   "lastOpenFiles": [
-    "CSS/文本样式.md",
-    "CSS/对齐与显示模式.md",
+    "CSS/盒模型.md",
     "CSS/CSS.md",
     "CSS/颜色与背景.md",
+    "CSS/定位.md",
+    "CSS/_pages/伪类 伪元素.md",
     "CSS/选择器.md",
-    "resources/pages/css/background.md",
-    "resources/pages/css/background-position.md",
-    "resources/pages/css/font.md",
-    "resources/pages/css/background-repeat.md",
-    "resources/pages/css/background-image.md"
+    "CSS/_pages/clear.md",
+    "HTML/HTML.md",
+    "HTML/列表.md",
+    "HTML/Emmet 语法.md"
   ]
 }
