@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "4384dcd3851f8e8b",
+        "id": "dec985da0c95db3c",
         "type": "tabs",
         "children": [
           {
-            "id": "0be30131e9b83854",
+            "id": "3959536a32f44cd3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSS/CSS.md",
+                "file": "HTML/_pages/a.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CSS/CSS.md",
+                "file": "HTML/_pages/a.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CSS/CSS.md",
+                "file": "HTML/_pages/a.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CSS/CSS.md"
+                "file": "HTML/_pages/a.md"
               }
             }
           },
@@ -142,20 +142,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
-  "active": "0be30131e9b83854",
+  "active": "3959536a32f44cd3",
   "lastOpenFiles": [
-    "CSS/盒模型.md",
-    "CSS/CSS.md",
-    "CSS/颜色与背景.md",
-    "CSS/定位.md",
+    "CSS/修饰.md",
     "CSS/_pages/伪类 伪元素.md",
-    "CSS/选择器.md",
-    "CSS/_pages/clear.md",
-    "HTML/HTML.md",
-    "HTML/列表.md",
-    "HTML/Emmet 语法.md"
+    "CSS/颜色与背景.md",
+    "CSS/_pages/background.md",
+    "CSS/_pages/background-color.md",
+    "CSS/_pages/background-image.md",
+    "CSS/_pages/background-attachment.md",
+    "CSS/_pages/shadow.md",
+    "HTML/_pages/link.md",
+    "CSS/CSS.md"
   ]
 }

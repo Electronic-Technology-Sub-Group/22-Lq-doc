@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "题目/南昌航空大学科技学院第二届程序设计竞赛(新生赛)/F 极差2.md",
+                "file": "排序/冒泡排序.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "题目/南昌航空大学科技学院第二届程序设计竞赛(新生赛)/F 极差2.md",
+                "file": "排序/冒泡排序.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "题目/南昌航空大学科技学院第二届程序设计竞赛(新生赛)/F 极差2.md",
+                "file": "排序/冒泡排序.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "题目/南昌航空大学科技学院第二届程序设计竞赛(新生赛)/F 极差2.md"
+                "file": "排序/冒泡排序.md"
               }
             }
           },
@@ -147,15 +147,15 @@
   },
   "active": "c48ff13f6a8fc6d3",
   "lastOpenFiles": [
+    "resources/sort-bobble.gif",
     "排序/冒泡排序.md",
+    "题目/南昌航空大学科技学院第二届程序设计竞赛(新生赛)/F 极差2.md",
     "排序/快速排序.md",
     "排序/TimSort.md",
     "排序/插入排序.md",
     "templates/sort.md",
     "题目/南昌航空大学科技学院第二届程序设计竞赛(新生赛)/J 樱花.md",
-    "题目/南昌航空大学科技学院第二届程序设计竞赛(新生赛)/F 极差2.md",
     "题目/洛谷/T296801 勇敢牛牛.md",
-    "题目/洛谷/T296805 幸运数字.md",
-    "排序/排序.md"
+    "题目/洛谷/T296805 幸运数字.md"
   ]
 }
