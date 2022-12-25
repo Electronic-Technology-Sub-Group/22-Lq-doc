@@ -26,7 +26,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSS/移动适配.md",
+                "file": "CSS/_pages/overflow.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ba5af139f518ae95",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CSS/_pages/伪类 伪元素.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -47,7 +60,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -113,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CSS/移动适配.md",
+                "file": "CSS/_pages/伪类 伪元素.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CSS/移动适配.md",
+                "file": "CSS/_pages/伪类 伪元素.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CSS/移动适配.md"
+                "file": "CSS/_pages/伪类 伪元素.md"
               }
             }
           },
@@ -172,17 +185,29 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "3b0b6b87a17094e8",
+  "left-ribbon": {
+    "hiddenItems": {
+      "templater-obsidian:Templater": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false
+    }
+  },
+  "active": "ba5af139f518ae95",
   "lastOpenFiles": [
-    "CSS/CSS.md",
-    "CSS/移动适配.md",
-    "HTML/HTML.md",
-    "CSS/Tips.md",
     "CSS/显示模式，浮动与定位.md",
-    "CSS/文本样式.md",
-    "CSS/盒模型.md",
-    "CSS/修饰.md",
-    "CSS/选择器.md",
-    "CSS/颜色与背景.md"
+    "CSS/_pages/position.md",
+    "CSS/_pages/padding.md",
+    "CSS/_pages/display.md",
+    "CSS/_pages/float.md",
+    "CSS/_pages/clip.md",
+    "CSS/_pages/overflow.md",
+    "CSS/移动适配.md",
+    "CSS/CSS.md",
+    "HTML/HTML.md"
   ]
 }
