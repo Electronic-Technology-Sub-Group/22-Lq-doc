@@ -30,7 +30,6 @@
 其他属性：
 - 文本输入（`text`，`password` 等）
 	- placeholder：占位符，输入的提示信息
-	- value：值，也用于按钮显示的文字
 	- maxlength：用户最多可输入字符的个数
 	- minlength：用户最少要输入字符的个数
 	- pattern：正则验证
@@ -38,7 +37,7 @@
 	- autocomplete：自动填充，可选 `off`, `on` 及其他补全类型，详见[autocomplete](https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element/input#attr-autocomplete)
 	- list：接受一个[[datalist]]标签的 `id` 属性，表示一组输入提示
 - 选择（`radio`，`checkbox`）
-	- checked：该元素当前是否为选中状态
+	- checked：该元素当前是否为选中状态。可以无属性值，或者用 `checked='checked'` 的写法
 - 文件（`file`）
 	- multiple：允许多选。该属性也可以用于邮件
 	- accept：接收文件类型
@@ -48,7 +47,6 @@
 		- 视频文件：`video/*`
 		- 图片文件：`image/*`
 - 按钮（`submit`，`reset`，`button`）
-	- value：按钮显示的文字。不存在时 `submit` 和 `reset` 本身带有提交和重置文字显示
 	- onclick：点击时执行的动作
 	- formmethod，formaction：使按钮提供 `submit` 功能且提交的方法和地址与 `form` 定义的不同
 - 范围（`date`, `week`, `time`, `range` 等）
@@ -56,5 +54,6 @@
 	- min：最小值
 	- step：数值增量
 - 其他
+	- value：值，按钮或文本时表示显示的文字，其他表示选项提交的文本内容
 	- readonly：只读，适用于除 `hidden`, `range`, `color`, `checkbox`, `radio`, `file` 外的其他属性（不以 `value` 属性作为值的元素）
 	- `require`：提交时用户必须填写，`submit`, `reset`, `button`, `input[type=image]` 不可用
