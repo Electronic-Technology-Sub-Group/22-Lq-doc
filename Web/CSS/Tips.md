@@ -137,6 +137,16 @@ table * {
 
 > 版心：网页有效内容
 
+## 绝对定位居中
+
+```CSS
+.absolute_box {
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+```
+
 ## 清除浮动（双伪元素）
 
 ```CSS

@@ -4,63 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "dec985da0c95db3c",
+        "id": "ad11571877599def",
         "type": "tabs",
         "children": [
           {
-            "id": "3959536a32f44cd3",
+            "id": "b3c5884a1b96c19b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HTML/HTML.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3b0b6b87a17094e8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CSS/_pages/overflow.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ba5af139f518ae95",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CSS/_pages/伪类 伪元素.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "905b9ef2c4cce25f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CSS/显示模式，浮动与定位.md",
+                "file": "CSS/2D&3D变换.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -126,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CSS/_pages/伪类 伪元素.md",
+                "file": "CSS/2D&3D变换.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CSS/_pages/伪类 伪元素.md",
+                "file": "CSS/2D&3D变换.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CSS/_pages/伪类 伪元素.md"
+                "file": "CSS/2D&3D变换.md"
               }
             }
           },
@@ -178,12 +138,12 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -197,17 +157,17 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "ba5af139f518ae95",
+  "active": "b3c5884a1b96c19b",
   "lastOpenFiles": [
-    "CSS/显示模式，浮动与定位.md",
-    "CSS/_pages/position.md",
-    "CSS/_pages/padding.md",
-    "CSS/_pages/display.md",
-    "CSS/_pages/float.md",
-    "CSS/_pages/clip.md",
-    "CSS/_pages/overflow.md",
-    "CSS/移动适配.md",
+    "CSS/动画.md",
     "CSS/CSS.md",
-    "HTML/HTML.md"
+    "CSS/2D&3D变换.md",
+    "CSS/_pages/transform-origin.md",
+    "CSS/_pages/坐标变换函数.md",
+    "CSS/Tips.md",
+    "CSS/移动适配.md",
+    "CSS/修饰.md",
+    "CSS/选择器.md",
+    "CSS/_pages/outline.md"
   ]
 }

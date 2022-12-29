@@ -18,21 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "91d42a6a1c4ce738",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "rsa 加密算法.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "rsa 加密算法.md",
+                "file": "排序/冒泡排序.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "rsa 加密算法.md",
+                "file": "排序/冒泡排序.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "rsa 加密算法.md"
+                "file": "排序/冒泡排序.md"
               }
             }
           },
@@ -170,8 +157,9 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "91d42a6a1c4ce738",
+  "active": "c48ff13f6a8fc6d3",
   "lastOpenFiles": [
+    "rsa 加密算法.md",
     "排序/冒泡排序.md",
     "resources/sort-bobble.gif",
     "题目/南昌航空大学科技学院第二届程序设计竞赛(新生赛)/F 极差2.md",
@@ -180,7 +168,6 @@
     "排序/插入排序.md",
     "templates/sort.md",
     "题目/南昌航空大学科技学院第二届程序设计竞赛(新生赛)/J 樱花.md",
-    "题目/洛谷/T296801 勇敢牛牛.md",
-    "题目/洛谷/T296805 幸运数字.md"
+    "题目/洛谷/T296801 勇敢牛牛.md"
   ]
 }
