@@ -14,6 +14,7 @@
 	- 网页文件.css
 - images：存放网站固定图片，如 logo，样式图等
 - updates：存放网站中随时会更新的图片，如首页 banner，商品图，宣传图，用户上传图片（头像等）等
+- lib：存放第三方内容
 - favicon.ico：网页图标
 
 # 全局样式
@@ -74,6 +75,14 @@ a {
 ```CSS
 img {
     vertical-align: middle;
+}
+```
+
+### 宽度与父元素相同
+
+```CSS
+img {
+    width: 100%;
 }
 ```
 
