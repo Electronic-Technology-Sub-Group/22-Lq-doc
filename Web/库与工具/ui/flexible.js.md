@@ -1,7 +1,7 @@
 [amfe/lib-flexible: 可伸缩布局方案 (github.com)](https://github.com/amfe/lib-flexible)
 
 ```HTML
-<script src="http://g.tbcdn.cn/mtb/lib-flexible/{{version}}/??flexible_css.js,flexible.js"></script>
+<script src="http://g.tbcdn.cn/mtb/lib-flexible/0.3.4/??flexible_css.js,flexible.js"></script>
 ```
 
 *已过时：使用 vw 单位可完美替代 rem 单位，且大多数浏览器已经支持*

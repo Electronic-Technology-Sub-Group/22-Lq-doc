@@ -34,6 +34,12 @@ lessc [option option=parameter ...] <source> [description]
 	- `-`：从控制台读入文件
 - description：输出文件，默认为当前目录同名 .css 文件
 
+若不需要 less 导出成 css，只需要在文件开头添加 `// out:false` 即可，常用于需要 `@import` 到其他文件中的公共样式：
+
+```Less
+// out:false
+```
+
 ## 浏览器
 
 浏览器环境中可以直接使用 Less，包括 IE 在内的几乎所有浏览器和移动端浏览器都支持

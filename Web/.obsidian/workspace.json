@@ -4,84 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "ad11571877599def",
+        "id": "3722a445b4f9735d",
         "type": "tabs",
         "children": [
           {
-            "id": "549d2a5b9e4b1be6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CSS/Less/Less.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8c7cf8ebcefa3f5f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CSS/Less/Less.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f9da33699ed5dcca",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CSS/Less/Less @import.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "153af6722b1642a4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CSS/Less/Less @import.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1aa9335865fe12b6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CSS/Less/Less @import.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4f30bce24bd5b60b",
+            "id": "5d6e14b13931b339",
             "type": "leaf",
             "state": {
               "type": "graph",
               "state": {}
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "vertical"
@@ -214,17 +148,17 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "4f30bce24bd5b60b",
+  "active": "5d6e14b13931b339",
   "lastOpenFiles": [
-    "CSS/_pages/text-transform.md",
-    "CSS/Less/Less 附录.md",
+    "resources/templates/html_tag_alias.md",
+    "CSS/_pages/CSS对象.md",
+    "库与工具/ui/flexible.js.md",
+    "CSS/响应式布局.md",
     "CSS/CSS.md",
-    "CSS/Less/Less.md",
-    "CSS/Less/Less Map.md",
-    "CSS/Less/Less @plugin.md",
-    "CSS/Less/Less @import.md",
-    "CSS/Less/Less 解绑规则.md",
-    "CSS/Less/Less 选择器.md",
-    "CSS/Less/Less 合并.md"
+    "CSS/移动适配.md",
+    "CSS/弹性布局.md",
+    "CSS/修饰.md",
+    "CSS/显示模式，浮动与定位.md",
+    "CSS/Less/Less.md"
   ]
 }
