@@ -11,8 +11,13 @@
             "id": "5d6e14b13931b339",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "CSS/CSS.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "CSS/CSS.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "CSS/CSS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +125,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "CSS/CSS.md"
+              }
             }
           },
           {
@@ -150,15 +159,15 @@
   },
   "active": "5d6e14b13931b339",
   "lastOpenFiles": [
-    "resources/templates/html_tag_alias.md",
-    "CSS/_pages/CSS对象.md",
-    "库与工具/ui/flexible.js.md",
-    "CSS/响应式布局.md",
+    "CSS/_pages/font-style.md",
+    "CSS/_pages/font.md",
+    "CSS/_pages/font-weight.md",
+    "CSS/_pages/justify-content.md",
+    "CSS/_pages/font-family.md",
+    "CSS/选择器.md",
+    "HTML/_pages/公共属性.md",
     "CSS/CSS.md",
-    "CSS/移动适配.md",
-    "CSS/弹性布局.md",
     "CSS/修饰.md",
-    "CSS/显示模式，浮动与定位.md",
-    "CSS/Less/Less.md"
+    "CSS/文本样式.md"
   ]
 }

@@ -1,19 +1,31 @@
 {
   "main": {
-    "id": "88eb61e1990c986e",
+    "id": "aa598b1e38cad1fa",
     "type": "split",
     "children": [
       {
-        "id": "a825599f9b9790fd",
+        "id": "f636c96192d7a693",
         "type": "tabs",
         "children": [
           {
-            "id": "359c721eb6919762",
+            "id": "01f4cd33664d099e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "题目/天梯赛/L2-2 三足鼎立.md",
+                "file": "Python3.11/Python 类型.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "cb0913aeb26b30d3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Python3.11/Python 类.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,15 +37,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "80cd75f5b831231a",
+    "id": "45917de13900d7c0",
     "type": "split",
     "children": [
       {
-        "id": "f3e1fac7cd2de952",
+        "id": "6590e7a0d71888ab",
         "type": "tabs",
         "children": [
           {
-            "id": "09466f5c4df70271",
+            "id": "b2374de7abfe6dfd",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -43,7 +55,7 @@
             }
           },
           {
-            "id": "31f99473817927a7",
+            "id": "23daff11188a39ab",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -58,7 +70,7 @@
             }
           },
           {
-            "id": "4402a0c01004fc72",
+            "id": "07ead03625359292",
             "type": "leaf",
             "state": {
               "type": "starred",
@@ -72,20 +84,20 @@
     "width": 300
   },
   "right": {
-    "id": "83c8111718ccecad",
+    "id": "d19e0dc5464faadf",
     "type": "split",
     "children": [
       {
-        "id": "54e7ee31e49c39bf",
+        "id": "5a7d6ff91de7b994",
         "type": "tabs",
         "children": [
           {
-            "id": "a0c609f73482c3e3",
+            "id": "82264808a00d6b5e",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "题目/天梯赛/L2-2 三足鼎立.md",
+                "file": "Python3.11/Python 类型.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,19 +109,19 @@
             }
           },
           {
-            "id": "58bb3dd92dabab84",
+            "id": "3790409df39a3842",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "题目/天梯赛/L2-2 三足鼎立.md",
+                "file": "Python3.11/Python 类型.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "df40f845275c52e8",
+            "id": "3554741a4bfc7b77",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -120,21 +132,13 @@
             }
           },
           {
-            "id": "b1f338cdfb6b3486",
+            "id": "257ccd21cd16088a",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "题目/天梯赛/L2-2 三足鼎立.md"
+                "file": "Python3.11/Python 类型.md"
               }
-            }
-          },
-          {
-            "id": "0ea2850e133c7782",
-            "type": "leaf",
-            "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {}
             }
           }
         ],
@@ -146,27 +150,26 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "templater-obsidian:Templater": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:Create new canvas": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
-      "command-palette:打开命令面板": false
+      "command-palette:打开命令面板": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "09466f5c4df70271",
+  "active": "01f4cd33664d099e",
   "lastOpenFiles": [
-    "_templates/_tmp_question.md",
-    "_templates/_tmp_sort.md",
-    "题目/天梯赛/L2-2 三足鼎立.md",
-    "素数.md",
-    "题目/天梯赛/L1-7 整除光棍.md",
-    "题目/南昌航空大学科技学院第二届程序设计竞赛(新生赛)/F 极差2.md",
-    "题目/南昌航空大学科技学院第二届程序设计竞赛(新生赛)/J 樱花.md",
-    "题目/洛谷/T296801 勇敢牛牛.md",
-    "题目/洛谷/T296805 幸运数字.md",
-    "_resources/v2-216bb312f6f8c9b272b329cc008c37ec_b.gif"
+    "Python3.11/Python.md",
+    "Python3.11/Python 类.md",
+    "Python3.11/Python 输入输出.md",
+    "Python3.11/Python 模块.md",
+    "Python3.11/Python 标准库.md",
+    "Python3.11/Python 类型.md",
+    "Python3.11/Python 函数.md",
+    "Python3.11/Python 解释器.md",
+    "Python3.11/Python 控制语句.md",
+    "Python3.11/Python 注释.md"
   ]
 }

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C++/C++.md",
+                "file": "C++/基本类型.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C++/C++.md",
+                "file": "C++/基本类型.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C++/C++.md",
+                "file": "C++/基本类型.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C++/C++.md"
+                "file": "C++/基本类型.md"
               }
             }
           },
@@ -155,15 +155,15 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "9183ff88d031d8ad",
+  "active": "fa5f06a51dbe800f",
   "lastOpenFiles": [
+    "C++/C++.md",
     "库/标准库/日期与时区.md",
     "库/标准库/标准库.md",
     "C++/运算符.md",
     "库/标准库/多线程模型.md",
     "库/标准库/memory.md",
     "协程.md",
-    "C++/C++.md",
     "C++/模块.md",
     "C++/属性.md",
     "C++/基本类型.md"
