@@ -1,4 +1,5 @@
 > <% await tp.system.prompt("from:") %>
+> <% await tp.system.prompt("url:") %>
 
 # 原题
 

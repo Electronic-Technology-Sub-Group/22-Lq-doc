@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "题目/天梯赛/L2-2 三足鼎立.md",
+                "file": "题目/L2-2 三足鼎立.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,14 +25,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "题目/南昌航空大学科技学院第二届程序设计竞赛(新生赛)/J 樱花.md",
+                "file": "题目/J 樱花.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "864638e1c16201fb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "题目/J 樱花.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "题目/南昌航空大学科技学院第二届程序设计竞赛(新生赛)/J 樱花.md",
+                "file": "题目/J 樱花.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "题目/南昌航空大学科技学院第二届程序设计竞赛(新生赛)/J 樱花.md",
+                "file": "题目/J 樱花.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "题目/南昌航空大学科技学院第二届程序设计竞赛(新生赛)/J 樱花.md"
+                "file": "题目/J 樱花.md"
               }
             }
           },
@@ -169,17 +181,17 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "8722c5268f54f98b",
+  "active": "864638e1c16201fb",
   "lastOpenFiles": [
-    "题目/南昌航空大学科技学院第二届程序设计竞赛(新生赛)/F 极差2.md",
-    "题目/洛谷/T296805 幸运数字.md",
-    "题目/洛谷/T296801 勇敢牛牛.md",
-    "题目/天梯赛/L2-3 清点代码库.md",
-    "题目/天梯赛/L1-7 整除光棍.md",
-    "题目/天梯赛/L2-2 三足鼎立.md",
+    "题目/F 极差2.md",
+    "题目/B-幂运数.md",
+    "题目/C-选择困难症.md",
     "_templates/_tmp_question.md",
     "_templates/_tmp_sort.md",
-    "素数.md",
-    "题目/南昌航空大学科技学院第二届程序设计竞赛(新生赛)/J 樱花.md"
+    "题目/J 樱花.md",
+    "题目/T296801 勇敢牛牛.md",
+    "题目/L2-3 清点代码库.md",
+    "题目/L2-2 三足鼎立.md",
+    "题目/L1-7 整除光棍.md"
   ]
 }
