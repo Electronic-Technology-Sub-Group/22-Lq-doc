@@ -42,125 +42,18 @@ fun foo(s: Any) {
 ```
 
 # 内联类
-#实验性功能 
 
-有些时候我们需要对某些类型创建包装器，但会造成额外的内存开销和运行时开销，若被包装的数据时原生类型也会使大量编译器优化失效。
-
-Kotlin 引入内联类用于包装类，在生成代码时，使用内联类的位置 Kotlin 会尽可能使用内部包含的元素去替换包装类，在不必要的情况下不会实际创建包装类对象。一般来说，只要将内联类用于另一种类型，他们就会被装箱（生成包装类对象）
-
-内联类使用 `value` 声明，使用 `@JvmInline` 注解，构造函数有且只有一个对象表示内联的对象
-
-```kotlin
-@JvmInline  
-value class Password(private val s: String)
-```
-
-内联类允许有属性和函数，以及 `init` 代码块，但属性不允许有 `field`，不允许有 `lateinit` 和代理属性
-
-```kotlin
-@JvmInline  
-value class Name(private val s: String) {  
-
-    init {  
-        require(s.isNotBlank())  
-    }  
-    
-    val length get() = s.length  
-    
-    fun greet() {  
-        println("Hello $s")  
-    }  
-}
-```
-
-内联类允许实现接口，但不允许继承其他类，且内联类始终都是 `final` 的
-
-涉及到函数重载时，由于内联类会被自动替换为原始类型，会在函数名后增加一个 hash 值；若需要与其他语言（Java 等）共同使用，应使用 `@JvmName` 为其重命名
-
-```kotlin
-@JvmInline  
-value class Name(private val s: String)  
-  
-fun call(name: Name) {  
-    println("Call name $name")  
-}  
-  
-fun call(name: String) {  
-    println("Call string $name")  
-}  
-  
-@JvmName("callName")  
-fun call2(name: Name) {  
-    println("Call name $name")  
-}  
-  
-fun call2(name: String) {  
-    println("Call string $name")  
-}
-```
-
-反编译生成 Java 代码后为
-
-```java
-public static final void call_75PUH38/* $FF was: call-75PUH38*/(@NotNull String name) {  
-   Intrinsics.checkNotNullParameter(name, "name");  
-   String var1 = "Call name " + Name.toString-impl(name);  
-   System.out.println(var1);  
-}  
-
-public static final void call(@NotNull String name) {  
-   Intrinsics.checkNotNullParameter(name, "name");  
-   String var1 = "Call string " + name;  
-   System.out.println(var1);  
-}  
-
-@JvmName(  
-   name = "callName"  
-)  
-public static final void callName(@NotNull String name) {  
-   Intrinsics.checkNotNullParameter(name, "name");  
-   String var1 = "Call name " + Name.toString-impl(name);  
-   System.out.println(var1);  
-}  
-
-public static final void call2(@NotNull String name) {  
-   Intrinsics.checkNotNullParameter(name, "name");  
-   String var1 = "Call string " + name;  
-   System.out.println(var1);  
-}
-```
-
-从某些方面来说，内联类很像类型别名，但内联类会创建新类型
+[[Kotlin 1.5 新特性#1.5.0#内联类]]
 
 # 无符号类型
-#实验性功能
 
-[无符号整型 · Kotlin 官方文档 中文版 (kotlincn.net)](https://book.kotlincn.net/text/unsigned-integer-types.html)
+[[Kotlin 1.5 新特性#1.5.0#无符号类型]]
 
-| 类型   | 说明            | 范围          |
-| ------ | --------------- | ------------- |
-| UByte  | 8 位无符号整数  | $[0, 255]$    |
-| UShort | 16 位无符号整数 | $[0, 65535]$  |
-| UInt   | 32 位无符号整数 | $[0, 2^{32})$ | 
-| ULong  | 64 位无符号整数 | $[0, 2^{64})$ |
-
-无符号整数实质上是内联类，支持大多数有符号整数的运算
-
-| 类型        | 说明        |
-| ----------- | ----------- |
-| UByteArray  | UByte 数组  |
-| UShortArray | UShort 数组 |
-| UIntArray   | UInt 数组   |
-| ULongArray  | ULong 数组  | 
-
-与此类似的，还有 `UIntRange`，`UIntProgression`，`ULongRange`，`ULongProgression` 等类型，类似原类型一样都没有开装箱开销
-
-无符号整型的字面量使用 `u/U`，`ul/UL` 为后缀，表示 `UInt`，`ULong` 类型
-
-## @JvmDefault
-#实验性功能 
+# @JvmDefault
 
 用于标注接口中的函数默认实现，生成 JVM 平台的 `default` 方法，会导致无法兼容 Java7 及之前版本
+
+*由于后期新版本 Kotlin 默认目标版本变更为 1.8，未来该注解被弃用*
 
 # 其他
 
