@@ -1,17 +1,17 @@
 {
   "command_timeout": 5,
-  "templates_folder": "插件/templater/tamplates",
+  "templates_folder": "_resources/template",
   "templates_pairs": [
     [
-      "echo",
-      "echo \"I love obsidian!\""
+      "",
+      ""
     ]
   ],
   "trigger_on_file_creation": false,
   "auto_jump_to_cursor": false,
-  "enable_system_commands": true,
+  "enable_system_commands": false,
   "shell_path": "",
-  "user_scripts_folder": "插件/templater/script",
+  "user_scripts_folder": "_resources/js",
   "enable_folder_templates": true,
   "folder_templates": [
     {

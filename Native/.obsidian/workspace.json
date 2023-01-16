@@ -1,18 +1,22 @@
 {
   "main": {
-    "id": "e5c546036146df66",
+    "id": "edf969bb290a9a89",
     "type": "split",
     "children": [
       {
-        "id": "e554768315e08ba6",
+        "id": "3c48b95d007397c5",
         "type": "tabs",
         "children": [
           {
-            "id": "141b89dee991e168",
+            "id": "fa5f06a51dbe800f",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "C++/协程.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -21,15 +25,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "abfb58674d3e8170",
+    "id": "ceb5e600db4e9626",
     "type": "split",
     "children": [
       {
-        "id": "b0186307b33afc17",
+        "id": "8469bf2f7d487690",
         "type": "tabs",
         "children": [
           {
-            "id": "d2e41fa7e58c79bd",
+            "id": "9183ff88d031d8ad",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -39,12 +43,12 @@
             }
           },
           {
-            "id": "5a3703181ea5bd9e",
+            "id": "4b5622d43f8bcc2d",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#include",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -54,7 +58,7 @@
             }
           },
           {
-            "id": "58049e08e45ce5f6",
+            "id": "53056348e44ea6da",
             "type": "leaf",
             "state": {
               "type": "starred",
@@ -68,20 +72,20 @@
     "width": 300
   },
   "right": {
-    "id": "669457a6695a6dfa",
+    "id": "bae0043d85874456",
     "type": "split",
     "children": [
       {
-        "id": "1a2f01a022bca2d5",
+        "id": "f54c3dc108bb49f6",
         "type": "tabs",
         "children": [
           {
-            "id": "42c29154238dc4ae",
+            "id": "4a5cbad1e590a036",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "插件/templater/templater.md",
+                "file": "C++/协程.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,19 +97,19 @@
             }
           },
           {
-            "id": "ca4c3d0ca3a252c3",
+            "id": "3ad4c207e79a9d03",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "插件/templater/templater.md",
+                "file": "C++/协程.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "ac4897cfe0318337",
+            "id": "16b573d23039a2c0",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -116,31 +120,52 @@
             }
           },
           {
-            "id": "3ae1495a40b4e907",
+            "id": "e30abacc2e98ce26",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "插件/templater/templater.md"
+                "file": "C++/协程.md"
               }
             }
+          },
+          {
+            "id": "9372569595b14d18",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
-  "active": "d2e41fa7e58c79bd",
+  "left-ribbon": {
+    "hiddenItems": {
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false
+    }
+  },
+  "active": "9183ff88d031d8ad",
   "lastOpenFiles": [
-    "插件/templater/tamplates/template_sample.md",
-    "插件/templater/script/my_script.js.md",
-    "插件/templater/templater.md",
-    "插件/templater/notes/template_sample_note.md",
-    "插件/templater/objects/TFile.md",
-    "插件/templater/objects/FileStats.md",
-    "readme.md",
-    "插件/插件.md"
+    "C++/基本类型.md",
+    "C++/C++.md",
+    "C++/标准库/日期与时区.md",
+    "C++/标准库/标准库.md",
+    "C++/运算符.md",
+    "C++/标准库/多线程模型.md",
+    "C++/标准库/memory.md",
+    "C++/协程.md",
+    "C++/模块.md",
+    "C++/属性.md"
   ]
 }
