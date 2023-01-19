@@ -13,14 +13,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSS/CSS.md",
+                "file": "CSS/颜色与背景.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d3c4ef4e2d405e5c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CSS/_pages/CSS对象.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CSS/CSS.md",
+                "file": "CSS/_pages/CSS对象.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CSS/CSS.md",
+                "file": "CSS/_pages/CSS对象.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CSS/CSS.md"
+                "file": "CSS/_pages/CSS对象.md"
               }
             }
           },
@@ -157,17 +171,17 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "5d6e14b13931b339",
+  "active": "d3c4ef4e2d405e5c",
   "lastOpenFiles": [
-    "CSS/_pages/font-style.md",
-    "CSS/_pages/font.md",
-    "CSS/_pages/font-weight.md",
-    "CSS/_pages/justify-content.md",
-    "CSS/_pages/font-family.md",
+    "CSS/颜色与背景.md",
+    "CSS/_pages/background-position.md",
+    "CSS/_pages/CSS对象.md",
+    "CSS/_pages/伪类 伪元素.md",
+    "CSS/显示模式，浮动与定位.md",
+    "CSS/_pages/行内元素.md",
+    "CSS/_pages/块级元素.md",
     "CSS/选择器.md",
-    "HTML/_pages/公共属性.md",
-    "CSS/CSS.md",
-    "CSS/修饰.md",
-    "CSS/文本样式.md"
+    "HTML/Emmet 语法.md",
+    "CSS/CSS.md"
   ]
 }
