@@ -4,28 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "c145770ff3b44341",
+        "id": "575fa1de99c402d8",
         "type": "tabs",
         "children": [
           {
-            "id": "b16050a4b51d99bd",
+            "id": "8c994060d2489f4e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Markdown/mermaid/Mermaid.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9e140fc334720f7c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Markdown/mermaid/Mermaid 时序图 sequenceDiagram.md",
+                "file": "Tools.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Markdown/mermaid/Mermaid.md",
+                "file": "Tools.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Markdown/mermaid/Mermaid.md",
+                "file": "Tools.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,16 +125,8 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Markdown/mermaid/Mermaid.md"
+                "file": "Tools.md"
               }
-            }
-          },
-          {
-            "id": "6b08467d4fb869a1",
-            "type": "leaf",
-            "state": {
-              "type": "mermaid-toolbar-view",
-              "state": {}
             }
           }
         ],
@@ -165,21 +145,20 @@
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
-      "templater-obsidian:Templater": false,
-      "mermaid-tools:Open Mermaid Toolbar": false
+      "templater-obsidian:Templater": false
     }
   },
-  "active": "b16050a4b51d99bd",
+  "active": "8c994060d2489f4e",
   "lastOpenFiles": [
-    "Markdown/mermaid/Mermaid 时序图 sequenceDiagram.md",
+    "git/Git.md",
+    "Tools.md",
+    "Markdown/LaTeX.md",
+    "Obsidian/插件/插件.md",
     "Markdown/mermaid/Mermaid.md",
-    "Markdown/mermaid/Mermaid 流程图 flowchat.md",
-    "Markdown/数学公式 LaTeX.md",
-    "Markdown/mermaid/Mermaid CSS 配置.md",
-    "Markdown/mermaid/Mermaid Javascript 配置.md",
-    "Obsidian/readme.md",
-    "_other/d3-shape.md",
-    "_other/img/ext[d3-shape]stepBefore.png",
-    "_other/img - 副本/area.png"
+    "Markdown/mermaid/Mermaid 思维导图 mindmap.md",
+    "Markdown/mermaid/Mermaid 甘特图 gantt.md",
+    "Markdown/mermaid/Mermaid C4图 C4Context.md",
+    "Markdown/mermaid/Mermaid Git图 gitGraph.md",
+    "Markdown/mermaid/Mermaid 时序图 sequenceDiagram.md"
   ]
 }

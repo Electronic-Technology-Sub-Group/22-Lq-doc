@@ -13,11 +13,30 @@ graph LR
 %% 这是一行注释
 A --> B %% 从 A 指向 B
 ```
+# 标题
+#渲染异常 
+
+图可以声明一个标题：
+```
+---
+title: 标题
+---
+```
+
 # 图
 
 - [[Mermaid 流程图 flowchat]]
 - [[Mermaid 时序图 sequenceDiagram]]
-- [[Mermaid 类图 classDiagram]] #未完成 ：[Class diagrams | Mermaid](https://mermaid.js.org/syntax/classDiagram.html)
+- [[Mermaid 类图 classDiagram]]
+- [[Mermaid 状态图 stateDiagram]]
+- [[Mermaid 实体关系图 erDiagram]]
+- [[Mermaid 时间轴 journey]]
+- [[Mermaid 甘特图 gantt]]
+- [[Mermaid 饼图 pie]]
+- [[Mermaid 需求图 requirementDiagram]]
+- [[Mermaid Git图 gitGraph]]
+- [[Mermaid C4图 C4Context]]
+- [[Mermaid 思维导图 mindmap]]
 
 # 配置与扩展
 
