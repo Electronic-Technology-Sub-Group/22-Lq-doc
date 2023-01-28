@@ -11,3 +11,4 @@
 	- 浏览器小图标要同时设置 `icon shortcut`
 	- CSS 使用 `stylesheet`
 - as：当 `ref` 为 `preload` 或 `prefetch` 时，在这里指定外部资源类型
+- media：对整个样式表应用媒体查询，其内容为 `媒体类型 and 媒体特性`，具体可选值详见[[@media]]

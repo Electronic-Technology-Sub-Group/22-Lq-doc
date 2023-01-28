@@ -1,7 +1,7 @@
 > <% await tp.system.prompt("from:") %>
 > <% await tp.system.prompt("url:") %>
 
-# 原题
+# 题目
 
 ## 输入格式
 
@@ -12,6 +12,8 @@
 ## 输出样例
 
 ## 样例解释
+
+## 说明
 
 ## 代码限制
 

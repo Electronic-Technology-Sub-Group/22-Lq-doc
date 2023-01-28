@@ -25,6 +25,9 @@
 	- forced-colors：用户代理是否限制使用调色板
 	- grid：设备使用的是网格屏还是点阵屏
 	- width/height：设备宽、高
+		- min/max-width/height
 	- orientation：视口旋转方向
+		- portrait：竖屏
+		- landscape：横屏
 	- resolution：设备分辨率
 	- scripting：设备是否允许使用 JavaScript 等脚本

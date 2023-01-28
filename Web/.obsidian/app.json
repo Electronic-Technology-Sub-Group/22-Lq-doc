@@ -1,4 +1,5 @@
 {
   "attachmentFolderPath": "resources/media",
-  "alwaysUpdateLinks": true
+  "alwaysUpdateLinks": true,
+  "newFileLocation": "current"
 }

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tools.md",
+                "file": "Markdown/LaTeX.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tools.md",
+                "file": "Markdown/LaTeX.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tools.md",
+                "file": "Markdown/LaTeX.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tools.md"
+                "file": "Markdown/LaTeX.md"
               }
             }
           }
@@ -150,8 +150,8 @@
   },
   "active": "8c994060d2489f4e",
   "lastOpenFiles": [
-    "git/Git.md",
     "Tools.md",
+    "git/Git.md",
     "Markdown/LaTeX.md",
     "Obsidian/插件/插件.md",
     "Markdown/mermaid/Mermaid.md",

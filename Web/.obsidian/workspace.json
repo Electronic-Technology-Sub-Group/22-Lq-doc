@@ -4,37 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "3722a445b4f9735d",
+        "id": "1dda9836c9611242",
         "type": "tabs",
         "children": [
           {
-            "id": "5d6e14b13931b339",
+            "id": "396d284c0cbbffa8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSS/颜色与背景.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d3c4ef4e2d405e5c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CSS/_pages/CSS对象.md",
+                "file": "JavaScript/JavaScript.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -63,8 +49,8 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "center",
-                "matchingCase": true,
+                "query": "媒体查询",
+                "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -100,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CSS/_pages/CSS对象.md",
+                "file": "JavaScript/JavaScript.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CSS/_pages/CSS对象.md",
+                "file": "JavaScript/JavaScript.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CSS/_pages/CSS对象.md"
+                "file": "JavaScript/JavaScript.md"
               }
             }
           },
@@ -171,17 +157,17 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "d3c4ef4e2d405e5c",
+  "active": "396d284c0cbbffa8",
   "lastOpenFiles": [
-    "CSS/颜色与背景.md",
-    "CSS/_pages/background-position.md",
-    "CSS/_pages/CSS对象.md",
-    "CSS/_pages/伪类 伪元素.md",
-    "CSS/显示模式，浮动与定位.md",
-    "CSS/_pages/行内元素.md",
-    "CSS/_pages/块级元素.md",
-    "CSS/选择器.md",
-    "HTML/Emmet 语法.md",
-    "CSS/CSS.md"
+    "库与工具/JQuery.md",
+    "库与工具/ECharts.md",
+    "JavaScript/JavaScript.md",
+    "CSS/Less/Less 变量.md",
+    "CSS/Less/Less.md",
+    "CSS/Less/Less @import.md",
+    "库与工具/Bootstrap/Bootstrap 组件.md",
+    "CSS/Less/Less 运算.md",
+    "库与工具/Bootstrap/Bootstrap.md",
+    "库与工具/Bootstrap/Bootstrap 全局样式.md"
   ]
 }
