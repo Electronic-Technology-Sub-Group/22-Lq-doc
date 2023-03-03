@@ -20,6 +20,30 @@
             }
           },
           {
+            "id": "6a17f192f7cc6ddc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "JVM/OpenJDK/编译 OpenJDK.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "00f05b21b41e40ac",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "JVM 内存管理.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "75e6a84f82a60eaa",
             "type": "leaf",
             "state": {
@@ -43,7 +67,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -109,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "新特性/Java 11 LTS 新特性.md",
+                "file": "JVM 内存管理.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "新特性/Java 11 LTS 新特性.md",
+                "file": "JVM 内存管理.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "新特性/Java 11 LTS 新特性.md"
+                "file": "JVM 内存管理.md"
               }
             }
           }
@@ -171,17 +196,17 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "905934d9122290a4",
+  "active": "00f05b21b41e40ac",
   "lastOpenFiles": [
+    "JVM/OpenJDK/JVM Hotspot.md",
+    "JVM/OpenJDK/编译 OpenJDK.md",
+    "新特性/Java 11 LTS 新特性.md",
     "新特性/Java 17 LTS 新特性.md",
     "新特性/Java 18-20 新特性.md",
     "新特性/Java 9-10 新特性.md",
-    "新特性/Java 11 LTS 新特性.md",
     "新特性/Java 12-16 新特性.md",
     "新特性/Kotlin 1.7 新特性.md",
     "新特性/Kotlin 1.8 新特性.md",
-    "新特性/Kotlin 1.6 新特性.md",
-    "新特性/Kotlin 1.5 新特性.md",
-    "新特性/Kotlin 1.4 新特性.md"
+    "新特性/Kotlin 1.6 新特性.md"
   ]
 }

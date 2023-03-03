@@ -1,5 +1,7 @@
 C 风格字符串相关函数位于 `cstring`/`string.h` 头文件中
 
+> 引入该头文件除了为了处理 c 风格字符串，还常用于 memcpy，memset 等函数的引入
+
 -   字符串长度
 	-   `strlen`/`wstrlen`：接受一个 `char*` 或 `wchar_t*`，返回一个到 `\0` 的长度
 	-   `strnlen`/`wcsnlen`：接受一个 `char*` 或 `wchar_t*` 和一个 `size_t` 类型的参数，指定最大长度

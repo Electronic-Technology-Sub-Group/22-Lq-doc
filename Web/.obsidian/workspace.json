@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "1dda9836c9611242",
+        "id": "b652010c0e0a3f23",
         "type": "tabs",
         "children": [
           {
-            "id": "b510c68ffe1bdeff",
+            "id": "4faaef8dd38511c5",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -21,32 +21,20 @@
             }
           },
           {
-            "id": "d463bb40af57e0e8",
+            "id": "a41ea8f106fe1957",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "XPath.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3815da4bc861c33c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "JavaScript/JS 类与对象.md",
+                "file": "CSS/弹性布局.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -75,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "border-co",
+                "query": "flex",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -92,7 +80,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -112,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JavaScript/JS WebAPI.md",
+                "file": "CSS/弹性布局.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JavaScript/JS WebAPI.md",
+                "file": "CSS/弹性布局.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JavaScript/JS WebAPI.md"
+                "file": "CSS/弹性布局.md"
               }
             }
           },
@@ -173,27 +162,37 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "canvas:新建白板": false,
       "templater-obsidian:Templater": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
-      "canvas:Create new canvas": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false
     }
   },
-  "active": "de9bc090605109e6",
+  "active": "a41ea8f106fe1957",
   "lastOpenFiles": [
-    "CSS/Tips.md",
-    "CSS/_pages/border.md",
-    "CSS/盒模型.md",
-    "CSS/颜色与背景.md",
-    "CSS/修饰.md",
     "CSS/文本样式.md",
-    "CSS/显示模式，浮动与定位.md",
-    "CSS/选择器.md",
     "CSS/CSS.md",
-    "XPath.md"
+    "CSS/未命名.md",
+    "CSS/显示模式，浮动与定位.md",
+    "CSS/修饰.md",
+    "CSS/Tips.md",
+    "JavaScript/JS WebAPI.md",
+    "HTML/表格.md",
+    "HTML/表单.md",
+    "HTML/_pages/select.md",
+    "HTML/_pages/table.md",
+    "JavaScript/JS 类与对象.md",
+    "XPath.md",
+    "CSS/弹性布局.md",
+    "HTML/_pages/link.md",
+    "HTML/_pages/链接类型.md",
+    "HTML/HTML.md",
+    "HTML/元信息.md",
+    "CSS/_pages/伪类 伪元素.md",
+    "CSS/_pages/vertical-align.md"
   ]
 }

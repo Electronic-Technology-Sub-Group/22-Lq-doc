@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "3c48b95d007397c5",
+        "id": "a7abf7027405bf8c",
         "type": "tabs",
         "children": [
           {
-            "id": "fa5f06a51dbe800f",
+            "id": "9bb68a8232c86ae6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C++/协程.md",
+                "file": "C++/模板.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C++/协程.md",
+                "file": "C++/模板.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C++/协程.md",
+                "file": "C++/模板.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C++/协程.md"
+                "file": "C++/模板.md"
               }
             }
           },
@@ -146,25 +146,37 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "canvas:新建白板": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
-      "canvas:Create new canvas": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false
     }
   },
-  "active": "9183ff88d031d8ad",
+  "active": "9bb68a8232c86ae6",
   "lastOpenFiles": [
-    "C++/基本类型.md",
     "C++/C++.md",
+    "C++/协程.md",
+    "C++/标准库/cstring.md",
+    "C++/标准库/random.md",
+    "C++/标准库/string.md",
+    "C++/标准库/iostream.md",
+    "C++/反射/静态反射.md",
+    "C++/基本类型.md",
+    "C++/运算符.md",
+    "C++/异常处理.md",
+    "C++/_pages/consteval.md",
+    "C++/_pages/文本类型.md",
+    "C++/_pages/关键字.md",
+    "C++/预处理指令.md",
+    "C++/模板.md",
+    "C++/反射",
     "C++/标准库/日期与时区.md",
     "C++/标准库/标准库.md",
-    "C++/运算符.md",
     "C++/标准库/多线程模型.md",
     "C++/标准库/memory.md",
-    "C++/协程.md",
     "C++/模块.md",
     "C++/属性.md"
   ]

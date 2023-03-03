@@ -45,11 +45,19 @@ DOM 中每个节点都对应一个对象，包括：
 
 ### 事件监听
 
-DOM L2：通过 `elem.addEventListener(event, func)` 注册事件
+DOM L2：通过 `elem.addEventListener(event, func)` 注册事件，`removeEventListener` 移除
 - elem：事件源，事件触发的元素
 - event：事件类型，是一个 string 字符串
 - func：事件回调函数，当事件触发时调用
-DOM L0：通过 `elem.on[event]=func` 注册
+	- **坑：传入一个 function 对象，this=事件源；传入 lambda 表达式，this=window**
+DOM L0：通过 `elem.on[event]=func` 注册，赋值为 `null` 可解绑
+
+### 常用事件
+- 鼠标：click，dbclick，mouseenter，mouseleave，mousemove
+	- mouseover，mouseout：带有冒泡版本的 enter/leave
+- 焦点：focus，blur
+- 键盘：keydown，keyup
+- 表单：input
 
 ### 事件对象
 注册事件监听的回调函数时可以接受一个变量，作为事件对象
@@ -60,15 +68,34 @@ DOM L0：通过 `elem.on[event]=func` 注册
 	- `altKey`，`ctrlKey`，`metaKey`，`shiftKey`：`Alt`，`Ctrl`，`Win`，`Shift` 键是否按下（用于组合键）
 - MouseEvent
 	- `offsetX, offsetY`：鼠标相对于 DOM 元素左上角位置
+	- `pageX, pageY`：鼠标相对于网页文档左上角位置
 	- `clientX, clientY`：鼠标相对于浏览器窗口左上角位置
 
 *后面 event 或 ev 代表在 js 中的事件对象*
 
-### 常用事件
-- 鼠标：click，mouseenter，mouseleave，mouseover，mousemove
-- 焦点：focus，blur
-- 键盘：keydown，keyup
-- 表单：input
+### 事件流
+
+> 事件完整执行过程中的流动路径
+
+事件流分捕获和冒泡两个阶段
+- 捕获：从 `document` 到具体触发元素依次触发对应事件
+	- 捕获阶段可被触发的事件，在注册时 `addEventListener` 函数第三个参数应当为 `true`，默认 `false`
+	- DOM L0 形式设置的事件只参与冒泡，不参与捕获
+- 冒泡：当元素事件被触发时，该事件会在该元素所有祖先元素中依次触发，直到 `document` 或被阻止
+	- 从触发元素到 `document`，依次触发他们的对应事件处理器
+
+使用 `event.stopPropagation()` 方法阻止事件传播（捕获/冒泡）
+
+使用 `event.preventDefault()` 方法阻止默认行为（链接的跳转，表单 submit 的提交等）
+
+### 事件委托
+#未完成  #JQuery
+
+事件委托由 JQuery 提供：
+
+使用 `$('祖先元素选择器').on('事件名', '子元素选择器', 事件函数)` 注册
+
+使用这种方法注册的事件注册在父元素中，利用冒泡+选择器选择子元素，且其 this 指向选择的子元素，可减少注册事件个数，便于动态添加元素的事件操作
 
 ## 渲染
 
@@ -84,5 +111,7 @@ DOM L0：通过 `elem.on[event]=func` 注册
 	- input 内容或图片大小变化造成的元素大小变化，添加或删除可见 DOM 元素
 6. 重绘：节点样式改变但不影响在文档布局中的位置时的重新渲染称为重绘，如 `color`，`outline`，`background-color` 等 CSS 属性变化
 *回流一定会引起重绘，重绘不一定需要回流*
+
+## 网页特效
 
 # BOM

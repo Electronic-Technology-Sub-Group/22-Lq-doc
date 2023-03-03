@@ -2,8 +2,10 @@
 
 一个书写习惯，按一下顺序写会提高渲染速度（???）
 - 浮动 / display
+- 布局定位相关：position，clear，float，visibility，overflow 等
 - 盒子模型，margin，border，padding，宽高，背景色
 - 文字样式
+- 其他 CSS3 属性：content，cursor，border-radius，box-shader，text-shader 等
 
 # 项目目录
 
@@ -152,6 +154,7 @@ table * {
 .absolute_box {
     left: 50%;
     top: 50%;
+    /* or margin-left: 盒子本身宽度 */ 
     transform: translate(-50%, -50%);
 }
 ```
