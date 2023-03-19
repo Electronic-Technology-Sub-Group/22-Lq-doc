@@ -765,6 +765,56 @@ pair：以 first 为第一关键字，second 为第二关键字
 
 树与图
 
+为了方便表达，定义图的基类为：
+
+```c++
+const int INF = 0x3f3f3f3f;
+
+struct Edge {
+    // 从 i 指向 j，距离（权重） 为 dist
+    int i, j, dist;
+    
+    // 默认 < 运算比较边的长度
+    bool operator<(const Edge &o) const {
+        return dist < o.dist;
+    }
+};
+
+class Graph {
+public:
+
+    /// 节点数
+    ///   假定所有节点为从 0 开始的连续数字
+    ///   假定当只有一个源点时，源点为 0
+    int n = 1;
+
+    /// 若图为有向图，表示节点 i 的所有出边指向的节点
+    /// 若图为无向图，表示节点 i 的所有边连通的节点
+    virtual std::vector<int> out(int i) const = 0;
+
+    /// 节点 i, j 之间的距离（边的权重），若无法直接连通则返回 INF
+    virtual int dist(int i, int j) const = 0;
+
+    /// 对图进行 for-in 循环时，循环的是其中的顶点
+    /// 约定，循环时，源点总是在最前面
+    typedef std::vector<int>::const_iterator const_iterator;
+    virtual const_iterator begin() const = 0;
+    virtual const_iterator end() const = 0;
+
+    /// 返回图中所有边的一个副本
+    virtual std::vector<Edge> edges() const = 0;
+
+    /// 向图中加入节点
+    virtual void put(int i) = 0;
+
+    /// 向图中加入边，或用于更新两个节点之间的距离（权重）
+    virtual void put(int i, int j, int dist) = 0;
+    virtual void put(const Edge &e) = 0;
+};
+```
+
+约定：n 表示节点数，m 表示边数，dist 数组表示从起点到某个节点的最短距离，0x3F3F3F3F 为正无穷
+
 ## DFS BFS
 
 都可以对整个空间搜索
@@ -794,8 +844,6 @@ pair：以 first 为第一关键字，second 为第二关键字
 
 ## 最短路
 
-约定：n 表示点数，m 表示边数
-
 最短路题目重点在于如何建图，如何定义点和边
 
 ![[Pasted image 20230301204243.png]]
@@ -818,26 +866,20 @@ dijkstra 算法基于贪心
 5. 重复 n 次 3，4，使所有点都在 S 中，查询结束
 
 ```c++
-/// n: 点的个数
-/// dist: 从 0 号点到 i 号点的最短距离
-/// ways: 第 i 号点的所有出边。重边则只保留最短的边
-/// weights: 第 i 号点每条边所对应的权重（长度）
-void dijkstra(int n, int *dist, vector<int> *ways, int **weights) {
-    bool st[n];
-    memset(dist, 0x3f, n * 4);
-    memset(st, 0, n * sizeof(bool));
+void dijkstra(const Graph &g, int *dist) {
+    bool st[g.n]; // st: 标记已检索完成的最短距离的节点
+    memset(dist, 0x3F, g.n * sizeof(int));
+    memset(st, 0, sizeof st);
+
     dist[0] = 0;
-
-    for (int i = 0; i < n; ++i) {
+    for (int i = 0; i < g.n; ++i) {
         int t = -1;
-        for (int j = 0; j < n; ++j)
-            if (!st[j] && (t == -1 || dist[j] < dist[t]))
-                t = j;
-        if (t == n) break;
+        for (const auto &j: g)
+            if (!st[j] && (t == -1 || dist[t] < dist[j]))
+                t = j; // 未被检索到且距离源点最近的节点
         st[t] = true;
-        for (int j = 0; j < ways[t].size(); ++j)
-            dist[j] = min(dist[j], dist[t] + weights[t][j]);
-
+        for (const auto &j: g.out(t)) // 更新最短距离
+            dist[j] = min(dist[j], dist[t] + g.dist(t, j));
     }
 }
 ```
@@ -850,32 +892,28 @@ void dijkstra(int n, int *dist, vector<int> *ways, int **weights) {
 *但由于使用该算法时通常 $m<n^2$，其时间复杂度在数量级上与手写堆同级*
 
 ```c++
-/// n: 点的个数
-/// dist: 从 0 号点到 i 号点的最短距离
-/// ways: 第 i 号点的所有出边
-/// weights: 第 i 号点每条边所对应的权重（长度）
-void dijkstra(int n, int *dist, vector<int> *ways, vector<int> *weights) {
-    bool st[n];
-    memset(dist, 0x3f, n * 4);
-    memset(st, 0, n * sizeof(bool));
-    dist[0] = 0;
+void dijkstra_heap(const Graph &g, int *dist) {
+    bool st[g.n]; // st: 标记已检索完成的最短距离的节点
+    memset(dist, 0x3F, g.n * sizeof(int));
+    memset(st, 0, sizeof st);
 
-    using PII = pair<int, int>;
+    using PII = pair<int, int>; // <距离, 节点 id>
     priority_queue<PII, vector<PII>, greater<>> heap;
-    heap.emplace(0, 1);
-    while (!heap.empty()) {
+    heap.emplace(0, 0);
+    st[0] = true;
+
+    while (!heap.empty()) { // 遍历堆，每次取堆顶一定是距离源点最近的节点
         auto &p = heap.top();
-        int t = p.first, d = p.second;
+        int i = p.second, d = p.first;
         heap.pop();
 
-        if (st[t]) continue;
-        st[t] = true;
+        if (st[i]) continue;
+        st[i] = true; // 由于存在同一个节点重复入堆的可能性，需要判断
 
-        for (int i = 0; i < ways[t].size(); ++i) {
-            int j = ways[t][i], w = weights[t][i];
-            if (dist[j] > d + w) {
-                dist[j] = d + w;
-                heap.emplace(dist[i], j);
+        for (const auto &j: g.out(i)) { // 更新距离及堆数据
+            if (dist[j] > d + g.dist(i, j)) {
+                dist[j] = d + g.dist(i, j);
+                heap.emplace(dist[j], j);
             }
         }
     }
@@ -898,19 +936,13 @@ void dijkstra(int n, int *dist, vector<int> *ways, vector<int> *weights) {
 **存在负权回路的情况下不一定有最短路**
 
 ```c++
-void bellman_ford(int n, int *dist, vector<int>* ways, int **weights) {  
-    memset(dist, 0x3F, n * sizeof(int));  
-    dist[0] = 0;  
-    for (int i = 0; i < n; ++i) {  
-        for (int p0 = 0; p0 < n; ++p0) {  
-            for (int j = 0; j < ways[p0].size(); ++j) {  
-                int p1 = ways[p0][j];  
-                if (dist[p1] > dist[p0] + weights[p0][j]) {  
-                    dist[p1] = dist[p0] + weights[p0][j];  
-                }  
-            }  
-        }  
-    }  
+void bellman_ford(const Graph &g, int *dist) {
+    memset(dist, 0x3F, g.n * sizeof(int));
+    dist[0] = 0;
+    for (int k = 0; k < g.n; ++k)
+        for (const auto &i: g)
+            for (const auto &j: g.out(i))
+                dist[j] = min(dist[j], dist[i] + g.dist[i, j]);
 }
 ```
 
@@ -928,26 +960,24 @@ void bellman_ford(int n, int *dist, vector<int>* ways, int **weights) {
 只要没有负环就可以用 SPFA。但某些情况，如求不超过 k 条边的最短路，不能用 SPFA
 
 ```C++
-void spfa(int n, int *dist, vector<int>* ways, int **weights) {
-    bool st[n]; // 避免重复向队中插入元素
-    memset(dist, 0x3F, n * sizeof(int));
+void spfa(const Graph &g, int *dist) {
+    bool st[g.n]; // 队列中的节点，防止重复入队
+    queue<int> q; // 队列：所有需要更新的节点
+    memset(dist, 0x3F, g.n * sizeof(int));
     memset(st, 0, sizeof st);
     dist[0] = 0;
-    queue<int> q; // 待更新节点
-    q.push(0);
     st[0] = true;
-    
+    q.push(0);
     while (!q.empty()) {
-        int p0 = q.front();
+        int i = q.front();
         q.pop();
-        st[p0] = false;
-        for (int i = 0; i < ways[p0].size(); ++i) {
-            int p1 = ways[p0][i];
-            if (dist[p1] > dist[p0] + weights[p0][i]) {
-                dist[p1] = dist[p0] + weights[p0][i];
-                if (!st[p1]) {
-                    q.push(p1);
-                    st[p1] = true;
+        st[i] = false;
+        for (const auto &j: g.out(i)) {
+            if (dist[j] > dist[i] + g.dist(i, j)) {
+                dist[j] = dist[i] + g.dist(i, j);
+                if (!st[j]) { // 仅入队更新过的节点，其余节点不影响其他节点的距离
+                    q.push(j);
+                    st[j] = true;
                 }
             }
         }
@@ -962,30 +992,29 @@ SPFA 也可以用于判断负环，原理与 bellman-Ford 算法相同
 ```C++
 /// spfa 判断负环
 /// return: 存在负环则返回 true
-bool spfa_ring(int n, vector<int>* ways, int **weights) {
-    bool st[n];
-    int cnt[n], dist[n];
-    memset(dist, 0, sizeof dist);
+bool spfa_ring(const Graph &g, int *dist) {
+    bool st[g.n];
+    int cnt[g.n]; // 记录更新次数
     queue<int> q;
-    for (int i = 0; i < n; ++i) {
-        st[i] = true;
-        q.push(i);
-    }
+    memset(dist, 0, g.n * sizeof(int));
+    memset(st, 0, sizeof st);
+    dist[0] = 0;
+    st[0] = true;
     cnt[0] = 0;
-    
+    q.push(0);
     while (!q.empty()) {
-        int p0 = q.front();
+        int i = q.front();
         q.pop();
-        st[p0] = false;
-        for (int i = 0; i < ways[p0].size(); ++i) {
-            int p1 = ways[p0][i];
-            if (dist[p1] > dist[p0] + weights[p0][i]) {
-                dist[p1] = dist[p0] + weights[p0][i];
-                cnt[p1] = cnt[p0] + 1;
-                if (cnt[p1] >= n) return true;
-                if (!st[p1]) {
-                    q.push(p1);
-                    st[p1] = true;
+        st[i] = false;
+        for (const auto &j: g.out(i)) {
+            if (dist[j] > dist[i] + g.dist(i, j)) {
+                dist[j] = dist[i] + g.dist(i, j);
+                cnt[j] = cnt[i] + 1;
+                // 更新 n 次，至少经过 n+1 个节点，说明有环
+                if (cnt[j] >= g.n) return true;
+                if (!st[j]) {
+                    q.push(j);
+                    st[j] = true;
                 }
             }
         }
@@ -1007,14 +1036,11 @@ bool spfa_ring(int n, vector<int>* ways, int **weights) {
 2. 三重 n 次循环 k, i, j 更新距离 `d[i][j]=min(d[i][j], d[i][k]+d[k][j])`
 
 ```c++
-void floyd(int n, int **dist) {
-    for (int k = 0; k < n; ++k) {
-        for (int i = 0; i < n; ++i) {
-            for (int j = 0; j < n; ++j) {
-                dist[i][j] = min(dist[i][j], dist[i][k] + dist[k][j]);
-            }
-        }
-    }
+void floyd(Graph &g) {
+    for (const auto &k: g)
+        for (const auto &i: g)
+            for (const auto &j: g)
+                g.put(i, j, min(g.dist(i, j), g.dist(i, k) + g.dist(k, j)));
 }
 ```
 
@@ -1030,44 +1056,606 @@ void floyd(int n, int **dist) {
 
 ## 最小生成树
 
+使所有点之间相互连通的最小距离
+
 ### 朴素 Prim 算法
 
 时间复杂度 $O(n^2)$，适用于稠密图
+1. 找到集合外距离距离集合最近的点 t
+2. 用 t 更新其他点到集合的距离后 `st[t] = true`
+	- 点到集合的距离：点到集合内部所有边中最短的边
+3. 重复 1 2，迭代 n 次，每一次 t 点中距离最近的边即生成树中的一条边
+
+该算法在迭代过程中与朴素 dijkstra 算法基本相同，只是在更新节点距离时有所不同
 
 ```C++
+/// 返回 false 表示不存在最小生成树
+bool prim(const Graph &g, Graph &ret) {
+    int dist[g.n]; // 该节点到图的距离
+    int conn[g.n]; // 当该节点到图的距离为 dist[i] 时连接的节点
+    bool st[g.n]; // 节点是否已经是最短生成树的一部分
+    memset(dist, 0x3f, sizeof dist);
+    memset(conn, -1, sizeof conn);
+    memset(st, 0, sizeof st);
+    dist[0] = 0;
 
+    for (int k = 0; k < g.n; ++k) {
+        int i = -1;
+        for (const auto &t: g) // 查找最近点
+            if (!st[t] && (i == -1 || dist[t] < dist[i]))
+                i = t;
+
+        if (dist[i] == 0x3f3f3f3f) // 存在节点不连通，无最小生成树
+            return false;
+
+        ret.put(i); // 节点接入最短生成树
+        st[i] = true;
+        if (i != 0)
+            ret.put(conn[i], i, dist[i]);
+        for (const auto &j: g) // 更新该节点所能连接到的点到图的距离
+            if (dist[j] > g.dist(i, j)) {
+                dist[j] = g.dist(i, j);
+                conn[j] = i;
+            }
+    }
+    return true;
+}
 ```
 
 ### 堆优化 Prim 算法
 
-时间复杂度 $O(mlogn)$，不常用，Kruskal 算法思路更清晰
+时间复杂度 $O(mlogn)$，**非常非常不常用**，Kruskal 算法思路更清晰更简单
 
 优化方式与 dijkstra 相似，使用堆优化排序步骤
 
 ### Kruskal 算法
 
 时间复杂度 $O(mlogm)$，大多数时间花费在排序上，常用于稀疏图
+1. 将所有边按权重（距离）从小到大排序
+2. 枚举每条边，若两端点 a b 不连通，则将该边加入集合（并查集）
 
 ```C++
-
+bool kruskal(const Graph &g, Graph &ret) {
+    for (const auto &i: g) ret.put(i);
+    // 对边集合排序
+    auto edges = g.edges();
+    sort(edges.begin(), edges.end());
+    // 构造并查集
+    int p[g.n];
+    for (const auto &i: g)
+        p[i] = i;
+    function<int(int)> find;
+    find = [&p, &find](int a) -> int {
+        if (p[a] != a) a = find(p[a]);
+        return p[a];
+    };
+    // 构建图
+    int count = 0;
+    for (const auto &edge: edges)
+        if (find(edge.i) != find(edge.j)) {
+            p[find(edge.i)] = p[find(edge.j)];
+            ret.put(edge);
+            count++;
+        }
+    // 加入的边数目少于 n-1 则有点未连接
+    return count == g.n - 1;
+}
 ```
 
 ## 二分图
 
+> 二分图：可以将所有顶点划分成两边，使每一边的所有节点之间没有边
+
 ### 染色法
 
 DFS，用于判断二分图，时间复杂度为 $O(m+n)$
+1. 遍历每个点 i
+2. 若 i 未被染色，用 dfs 为 i 点的所有连通块染色
+3. 若某个点有冲突，则不是二分图
+
+> 原理：一个图是二分图，当且仅当图中不含奇数环 => 能被 2 染色
+
+```c++
+bool dfs(Graph &g, int i, int color, int *colors) {
+    // 染色
+    colors[i] = color;
+    color = !color;
+    for (const auto &j: g.out(i)) {
+        if (colors[j] == -1) {             // 未染色
+            if (!dfs(g, j, color, colors)) // 染色失败
+                return false;
+        } else if (colors[j] != color)     // 颜色冲突
+            return false;
+    }
+    return true;
+}
+
+bool check(Graph &g) {
+    int cs[g.n];
+    memset(cs, -1, sizeof cs);
+    return dfs(g, 0, 0, cs);
+}
+```
 
 ### 匈牙利法
 
 用于求二分图的最大匹配，最坏情况下为 $O(mn)$，但实际运行时间远小于最坏值
+- 最大匹配：在所有点之间，选取一对任意相连的点，能选出的最多不同对数
+1. 对某一半面的节点遍历，找到可以配对的另一个点
+2. 若对面点已经被匹配了，尝试找到与之匹配的点是否可以匹配其他点
 
- > 扩展：最大流算法，二分图是最大流的一个特例
+ > 扩展：最大流算法，二分图是最大流的一个特例。大部分最大流算法的运行时间都远小于理论值
+
+```C++
+bool find(Graph &g, int i, bool *st, int *match) {
+    for (const auto &j: g.out(i)) {
+        if (!st[j]) {
+            st[j] = true;
+            if (match[j] == -1 || find(g, match[j], st, match)) {
+                match[j] = i;
+                return true;
+            }
+        }
+    }
+    return false;
+}
+
+/// part: 二分图的某一边
+vector<pair<int, int>> hungarian(Graph &g, set<int> &part) {
+    int match[g.n]; // 记录另一半面每个节点所匹配的节点
+    memset(match, -1, sizeof match);
+    bool st[g.n]; // 标记：保证节点每次只会遍历一次
+    for (const auto &i: part) {
+        memset(match, 0, sizeof st);
+        find(g, i, st, match); // 搜索配对节点
+    }
+
+    vector<pair<int, int>> ret;
+    for (int i = 0; i < g.n; ++i)
+        if (match[i] != -1)
+            ret.emplace_back(match[i], i);
+    return ret;
+}
+```
 
 # 数学
- 
+
+## 数论
+
+### 质数验证
+
+试除法，循环条件 `i <= n / i`，时间复杂度 $O(\sqrt n)$
+
+### 分解质因数
+
+试除法，循环条件 `i <= n / i`，时间复杂度最坏 $O(\sqrt n)$，最好 `log n`
+- 每次找到因数后去除 n 中所有该因数
+- n 中最多包含一个大于 $\sqrt n$ 的质因子，因此循环到 $\sqrt n$ 后剩余的数字若不是 1，则剩余那个也是质数
+
+### 质数筛法
+
+[[质数]]
+
+### 约数
+
+$$
+n = p_1^{\alpha_1}p_2^{\alpha_2}p_3^{\alpha_3}p_4^{\alpha_4}\cdots p_k^{\alpha_k}
+$$
+- 约数个数：$(\alpha_1+1)(\alpha_2+1)(\alpha_3+1)\cdots$
+- 由于约数个数 == 合数个数，又等于 $(n/p_1)+(n/p_2)+\cdots +(n/p_i)$
+- int 范围内的整数，约数个数最多个整数，大概在 1500-1600 个左右
+- 约数之和等于 $(p_1^0+p_1^1+\cdots+p_1^{\alpha_1})(p_2^0+p_2^1+\cdots+p_2^{\alpha_2})\cdots$
+
+### 辗转相除法
+
+```c++
+int gcd(int a, int b) {
+    return b ? gcd(b, a % b) : a;
+}
+```
+
+### 欧拉函数
+
+给定整数 n，求 1-n 中与 n 互质的数的个数
+
+$$
+n = p_1^{\alpha_1}p_2^{\alpha_2}p_3^{\alpha_3}p_4^{\alpha_4}\cdots p_k^{\alpha_k}
+$$
+$$
+\phi(n)=n(1-\dfrac{1}{p_1})(1-\dfrac{1}{p_2})\cdots(1-\dfrac{1}{p_k})
+$$
+
+在线性筛中，可以快速求出所有数的欧拉函数，其中：
+1. 1 的欧拉函数为 1
+2. 质数 n 的欧拉函数为 n-1
+3. 循环筛合数时，若 `i % p == 0`，`p * i` 的欧拉函数为 $\psi(i)\times p$
+4. 循环筛合数时，若 `i % p != 0`，`p * i` 的欧拉函数为 $\psi(i)\times(p-1)$
+
+#### 欧拉定理
+
+设 a 与 n 互质，则有
+$$
+a^{\psi(n)}\equiv1\pmod n
+$$
+#### 费马定理
+
+当 n 为质数时，$\psi(n)=n-1$，则有 $a^\psi(n)=a^{n-1}\equiv 1\pmod n$
+
+### 快速幂
+
+在 $O(\log(k))$ 的时间复杂度内求出 $a^k\mod p$ 的结果，其中 $1\leq a, p, k \leq 10^9$
+1. 预处理 $a^{2^0}\mod p$ 到 $a^{2^{\log k}}\mod p$，使用递推，$a^{2^n} \mod p=({a^{2^{n-1}}})^2\mod p$
+2. 将 k 转化成二进制表示，设 $k=\sum_{i=1}^t 2^{x_t}$，则有：$a^k=\prod_{i=1}^t a^{2^{x_i}}=a^{\sum_{i=1}^t 2^{x_t}}$
+
+```C++
+int qmi(int a, int k, int p) {
+    using ull = unsigned long long;
+    int res = 1;
+    while (k) {
+        if (k % 1) res = (ull) res * a % p;
+        k >>= 1;
+        a = (ull) a * a % p;
+    }
+    return res;
+}
+```
+
+### 扩展欧几里得算法
+
+对于任意正整数 a，b，总是存在非零整数 x，y，使 $ax+by=(a, b)$ 成立，求 x，y
+![[Pasted image 20230314205830.png]]
+
+```C++
+int exgcd(int a, int b, int &x, int &y) {
+    if (!b) { // b=0, x = 1
+        x = 1;
+        y = 0;
+        return a;
+    }
+
+    int d = exgcd(b, a % b, y, x);
+    // by + (a mod b)x = d
+    y -= a / b * x;
+    return d;
+}
+```
+
+该方法求出的是 x=1 时的一个特解，其通解为：
+$$
+\begin{align}
+x &= x_0 - \dfrac{b}{a}k\\
+y &= y_0 + \dfrac{b}{a}k
+\end{align}
+$$
+
+## 高斯消元
+
+在 $O(n^3)$ 的时间复杂度内，使用矩阵求解 n 元一次方程组
+$$
+\begin{cases}
+a_{11}x_1+a_{12}x_2+\cdots a_{1n}x_n=b_1\\
+a_{21}x_1+a_{22}x_2+\cdots a_{2n}x_n=b_2\\
+a_{31}x_1+a_{32}x_2+\cdots a_{3n}x_n=b_3\\
+\cdots\\
+a_{n1}x_1+a_{n2}x_2+\cdots a_{nn}x_n=b_n\\
+\end{cases}
+$$
+高斯消元后，可得到系数矩阵的阶梯矩阵（下三角矩阵），以此可得方程解的情况。矩阵 $M_{n,n+1}$ 为系数和结果共用的矩阵
+$$
+\begin{matrix}
+a_{11}&a_{12}&\cdots a_{1n}&b_1\\
+a_{21}&a_{22}&\cdots a_{2n}&b_2\\
+a_{31}&a_{32}&\cdots a_{3n}&b_3\\
+\cdots\\
+a_{n1}&a_{n2}&\cdots a_{nn}&b_n\\
+\end{matrix}
+$$
+1. 枚举矩阵第 1-n 列，循环第 k 列时找到所有行中该列绝对值最大的一行，将其交换到第一行
+2. 若 $a_{1k}\neq0$，第一行第 k 列 $a_{1k}$ 变成 1（该行所有数除 $a_{1k}$），并以此消除之后所有第 k 列数
+3. 若 $a_{1k}=0$，且 $a_{1,n+1}=0$ 则有无穷解；若 $a_{1,n+1}\neq0$ 则无解
+
+## 组合计数
+
+## 简单博弈论
+
 # 动态规划
+
+- 状态表示
+	- 所有可达状态的集合
+	- 集合的某种属性（最大值、最小值、数量等）
+- 状态计算：集合的划分，将当前集合划分为更小的子集，要求不漏，大多数情况下要求不重
+- dp优化：对 dp 问题的计算方程做等价变形
+	- 状态 i 只依赖于状态 i-1 的数据，对之前的值无依赖
+	- 状态更新时压缩更新量
+
+## 背包问题
+
+给出 n 个物品和容量为 v 的背包，每个物品有对应的体积和价值，求如何选取物品使价值最大，其中第 i 个物品的体积为 vi，价值为 wi
+
+### 0-1 背包
+
+**每件物品最只有一个**
+
+- 状态 f(i, j)，所有 f(i, j) 计算后答案就是 f(n, v)
+	- 集合：只考虑前 i 个物品，且总体积不大于 j 的所有物品选法
+	- 属性：最大值，所有选法价值的最大值
+- 计算：f(i, j) -> 所有不包含 i 物品和不包含 i 物品的集合
+	- 所有 1-i 且不包含 i 的物品，体积不超过 j ==> f(i-1, j)
+	- 所有 1-i 且包含 i 的物品，体积不超过 j  ==> f(i-1, j-vi) + wi
+	- f(i, j) = max(f(i-1, j), f(i-1, j-vi) + wi)
+
+```c++
+#include <iostream>
+
+using namespace std;
+
+const int M = 1010;
+int v[M], w[M];
+int dp[M][M];
+
+int main() {
+    int N, V;
+    cin >> N >> V;
+    for (int i = 1; i <= N; ++i) {
+        cin >> v[i] >> w[i];
+    }
+    // dp[i][w] 表示选择前 i 个物品装入体积为 w 的背包的最大价值
+    for (int i = 1; i <= N; ++i)
+        for (int j = 0; j <= V; ++j) {
+            dp[i][j] = dp[i - 1][j];
+            if (j >= v[i])
+                dp[i][j] = max(dp[i][j], dp[i - 1][j - v[i]] + w[i]);
+        }
+
+    cout << dp[N][V];
+    return 0;
+}
+```
+
+- 优化
+	- i 状态可删除，每次都是只用上一次的数据，注意此时体积应倒序循环，防止数据被覆盖
+	- j 只需要遍历不小于 `v[i]` 的体积即可
+
+```C++
+#include <iostream>
+
+using namespace std;
+
+const int M = 1010;
+int v[M], w[M];
+int dp[M];
+
+int main() {
+    int N, V;
+    cin >> N >> V;
+    for (int i = 1; i <= N; ++i) {
+        cin >> v[i] >> w[i];
+    }
+    // dp[i][w] 表示选择前 i 个物品装入体积为 w 的背包的最大价值
+    for (int i = 1; i <= N; ++i)
+        for (int j = V; j >= v[i]; --j)
+            dp[j] = max(dp[j], dp[j - v[i]] + w[i]);
+
+    cout << dp[V];
+    return 0;
+}
+```
+
+### 完全背包
+
+**每件物品有无限个**
+
+完全背包可以认为在 0-1 背包的基础上，将状态计算从有无到数量的推广
+- 计算：f(i, j) -> 所有包含若干个第 i 个物品的选法，总体积有限故而可选有限
+	- 所有 1-i 且包含 k 个 i 物品，体积不超过 j  ==> `f(i-1, j-k * vi) + wi * k`
+
+```C++
+#include <iostream>
+
+using namespace std;
+
+const int M = 1010;
+// v: 体积; w: 价值
+int v[M], w[M];
+int dp[M][M];
+
+int main() {
+    int N, V;
+    cin >> N >> V;
+    for (int i = 1; i <= N; ++i) {
+        cin >> v[i] >> w[i];
+    }
+    // dp[i][w] 表示选择前 i 个物品装入体积为 w 的背包的最大价值
+    for (int i = 1; i <= N; ++i) {
+        for (int j = 0; j <= V; ++j) {
+            for (int k = 0; k * v[i] <= j; ++k) {
+                dp[i][j] = max(dp[i][j], dp[i - 1][j - k * v[i]] + k * w[i]);
+            }
+        }
+    }
+    cout << dp[N][V];
+    return 0;
+}
+```
+
+优化：已知
+
+$$
+f[i, j]=f[i-1, j-v[i]\times k]+w[i]\times k
+$$
+可知
+$$
+f[i,j]=\max(f[i-1, j], f[i-1,j-v]+w, f[i-1,j-2v]+2w,\cdots)
+$$
+$$
+f[i,j-v]=\max(f[i-1, j-v], f[i-1,j-2v]+w, f[i-1,j-3v]+2w,\cdots)
+$$
+可推出，$f[i,j]=\max(f[i-1,j], f[i, j-v]+w)$，减少状态
+
+同时，根据 0-1 背包优化第 1 点，可以删除一层数组。这里因为状态计算只依赖于当前状态 j 之前的值，需要他们先更新，反而不能倒序循环 i
+
+```C++
+#include <iostream>
+
+using namespace std;
+
+const int M = 1010;
+// v: 体积; w: 价值
+int v[M], w[M];
+int dp[M];
+
+int main() {
+    int N, V;
+    cin >> N >> V;
+    for (int i = 1; i <= N; ++i) {
+        cin >> v[i] >> w[i];
+    }
+    // dp[i][w] 表示选择前 i 个物品装入体积为 w 的背包的最大价值
+    for (int i = 1; i <= N; ++i) {
+        for (int j = 0; j <= V; ++j) {
+            if (j >= v[i])
+                dp[j] = max(dp[j], dp[j - v[i]] + w[i]);
+        }
+    }
+    cout << dp[V];
+    return 0;
+}
+```
+
+### 多重背包
+
+**每件物品有有限个**
+
+多重背包在完全背包上，将状态计算部分做了限制，即每次问题拆分时不一定能拆分到理论最大值，而是给了一个拆分上限（第 i 件物品的数目）。
+
+只贴最内层 k 循环，其他与完全背包基本相同，除了前面需要额外输入一个 `s[i]` 用于存储第 i 个物品的数目
+
+```C++
+for (int k = 0; k * v[i] <= j && k <= s[i] /* k 上限 */; ++k)
+    dp[i][j] = max(dp[i][j], dp[i - 1][j - k * v[i]] + k * w[i]);
+```
+
+优化：由于 max 无法做减法，无法（直接）使用完全背包的思路优化多重背包。多重背包的优化思路为二进制优化：
+
+设 $s = \max(s[i])$，取整数 n，使 $k=\sum_{i=0}^n 2^i=2^{(n+1)}-1\leq s$，因此构造数列 $\{1,2,4,8,\cdots,2^i,s-k\}$ 即可组合出从 1 到 s 的所有数值（），可实现将循环次数从 s 降低到 $log_2(s)$ 的数量级。可使用 STL `bitmap` 容器。
+
+确定 n 后，将 s 件物品全部拆分，拆成 log(s) 个物品包，对其进行 0-1 背包问题计算即可。
+
+```C++
+#include <iostream>
+
+using namespace std;
+
+// pv: 包体积; pw: 包价值; pn: 包总数
+// 25000 = 1000 种物品 * log2(2000 个物品/种)
+int pv[25000], pw[25000], pn = 0;
+int dp[2010];
+
+int main() {
+    int N, V, v, w, s;
+    cin >> N >> V;
+    // 打包
+    for (int i = 1; i <= N; ++i) {
+        cin >> v >> w >> s;
+        int k = 1;
+        // 以 2 的指数个数打包
+        while (s >= k) {
+            pn++;
+            pv[pn] = v * k;
+            pw[pn] = w * k;
+            s -= k;
+            k *= 2;
+        }
+        // 打包剩余物品
+        if (s > 0) {
+            pn++;
+            pv[pn] = v * s;
+            pw[pn] = w * s;
+        }
+    }
+
+    // 对打包后的 pn 个包进行 0-1 背包
+    for (int i = 1; i <= pn; ++i)
+        for (int j = V; j >= pv[i]; --j)
+            dp[j] = max(dp[j], dp[j - pv[i]] + pw[i]);
+
+    cout << dp[V];
+    return 0;
+}
+```
+
+### 分组背包
+
+**每个物品有一个分类，每类物品最多只能选择一个**
+
+在 0-1 背包问题的基础上，集合为只考虑前 i 类物品，且总体积不大于 j 的所有物品选法，计算则选是选择第 i 组物品的某一个物品。按照 0-1 背包优化第一重循环后代码如下：
+
+```C++
+#include <iostream>
+
+using namespace std;
+
+const int M = 110;
+
+// k 表示第 i 组物品都包含哪些物品，v[i][0] 为该组物品个数
+int v[M][M], w[M][M];
+int dp[M];
+
+int main() {
+    int N, V;
+    cin >> N >> V;
+    for (int i = 1; i <= N; ++i) {
+        cin >> v[i][0];
+        for (int j = 1; j <= v[i][0]; ++j)
+            cin >> v[i][j] >> w[i][j];
+    }
+    // dp[i][w] 表示选择前 i 组物品装入体积为 w 的背包的最大价值
+    for (int i = 1; i <= N; ++i) {
+        for (int j = V; j >= 0; --j) {
+            for (int k = 1; k <= v[i][0]; ++k)
+                if (j >= v[i][k])
+                    dp[j] = max(dp[j], dp[j - v[i][k]] + w[i][k]);
+        }
+    }
+
+    cout << dp[V];
+    return 0;
+}
+```
+
+## 线性 DP
+
+递推方程有明显的线性关系，多个状态之间有明显的先后顺序
+- 最长、最短子序列问题
+	- 集合：`f[i]` - 所有以 i 结尾的子序列的最大长度
+	- 计算：`max(f[1]+f[2]+...+f[i-1]) + 1`
+		- 以 1, 2, ..., i-1 结尾的最长子序列长度 +1
+- 字符串最长公共子序列问题
+	- 集合：`f[i, j]` - 字符串 s1 中前 i 个字符组成的字符串，与字符串 s2 中前 j 个字符组成的字符串，其所有公共子串的最长长度
+	- 计算：`max(f[i-1,j], f[i,j-1], *f[i-1,j-1]+1)`
+		- 当 `a[i]==b[j]` 时包含 `f[i-1,j-1]+1` 项
+		- 状态集合根据公共子串是否包含 `s1[i]`，`s2[j]` 划分为四个子集
+		- `f[i-1, j-1]` 的情况包含在 `f[i-1,j]` 与 `f[i,i-1]` 中
+
+常用状态：
+- 数字对应坐标（网格，三角）
+- 起始/终止数字（最短/最长序列）
+- 字符位置（多个字符串，每个串占个状态）
+
+## 区间 DP
+
+定义的状态是一个区间
+
+## 计数类 DP
+
+## 数位统计 DP
+
+## 状态压缩 DP
+
+## 树形 DP
+
+## 记忆化搜索
 
 # 贪心
  
-# 复杂度分析
+# 复杂度分析 

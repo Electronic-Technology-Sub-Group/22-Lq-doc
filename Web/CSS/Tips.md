@@ -129,7 +129,7 @@ ul, ol {
 ### 合并边距
 
 ```CSS
-table * {
+table {
     border-collapse: collapse;
 }
 ```

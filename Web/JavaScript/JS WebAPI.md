@@ -35,6 +35,28 @@ DOM 中每个节点都对应一个对象，包括：
 - type
 - value，checked，selected 等
 
+### 自定义属性
+
+在 HTML 中可以使用带有 `data-` 前缀的属性，例如 `data-name`，可以在 JS 中该元素对象的 `dataset` 属性对象中的对应属性， 如 `data-name` 对应的就是 `dataset.name` 访问到
+
+```HTML
+<div class="box" data-id="10" />
+
+<script>
+let box = document.querySelector('.box')
+// 10, 因为元素上带有属性 data-id='10'
+let id = box.dataset.id
+</script>
+```
+
+### 位置与大小
+- `offsetLeft`，`offsetTop`：相对于定位元素的左、上位置
+- `scrollTop`，`scrollLeft` 对应方向被隐藏内容，可读写
+	- 整个页面：document.documentElement.scrollTop/Left（对应 `<html>` 标签）
+- `clientWidth`，`clientHeight`：内容+padding
+- `offsetWidth`，`offsetHeight`：内容+padding+border
+- `getBoundingClientRect()`：获取一个对象，包含**相对于视口**的位置和元素本身大小
+
 ### DOM 树编辑
 - 创建节点：`node = document.createElement(标签名)`，标签名如 `"div"`，`"a"` 等
 - 添加节点：`elem.appendChild(node)`，`elem.insertBefore(node, nodeExisted)` 等
@@ -58,6 +80,16 @@ DOM L0：通过 `elem.on[event]=func` 注册，赋值为 `null` 可解绑
 - 焦点：focus，blur
 - 键盘：keydown，keyup
 - 表单：input
+- 滚动：scroll，用于 window 或其他带有滚动行为（滚动条）的对象
+- 触屏：touchstart，touchmove，touchend
+- 媒体：ontimeupdate，onloadeddata
+	- ontimeupdate：播放位置（时间轴）发生变化时触发
+	- onloadeddata：当前帧数据加载完成且没有播放完时的下一帧触发
+
+- 文档：
+	- load：标签内资源（图片，外联 CSS/JS 等）全部加载完成，且文档已经解析完毕，可用于 window 或 img 等标签中
+	- DOMContentLoaded：仅 HTML 文档完全加载和解析完成，不保证外部资源加载完成，常用于 document 对象
+	- resize：应用于 window 或其他元素，当窗口或元素大小发生变化时触发
 
 ### 事件对象
 注册事件监听的回调函数时可以接受一个变量，作为事件对象
@@ -115,3 +147,74 @@ DOM L0：通过 `elem.on[event]=func` 注册，赋值为 `null` 可解绑
 ## 网页特效
 
 # BOM
+
+浏览器对象模式 BOM，最根本的对象是 window 对象，代表当前打开的浏览器
+
+window 也是当前浏览器的顶层对象（上下文），因此调用其内容可以省略 window 对象，且声明的函数和 var 声明的变量都会存储在 window 中
+
+BOM 一般包含以下内容：
+- document：DOM 模型
+- navigator：浏览器信息
+- location：地址跳转相关
+- history：历史记录
+- screen：屏幕
+
+## 内置函数
+
+- 间歇函数
+	- `id = setInterval(fun, delay)`：每隔 `delay` ms 调用一次 `func`，返回该定时器 id 非 0
+	- `clearInterval(id)`：停止一个定时器
+- 延时函数，类似 interval，但只会执行一次
+	- `id = setTimeout(fun, delay)`
+	- `clearTimeout(id)`
+
+## 异步
+
+JS 于 HTML5 开始允许通过 Web Worker 利用多线程，提高了异步任务的能力
+- 同步任务：执行栈
+- 异步任务：任务队列 + 回调，包括普通事件，资源加载，定时器等，由 js 的宿主环境执行（浏览器，nodejs 等），并在执行完毕后将回调函数插入任务栈
+
+事件循环：每次执行时，先执行同步任务，并将异步任务入队，循环查询任务栈内容
+
+![[Pasted image 20230318154014.png]]
+
+## location
+
+- `href`：保存了当前网站的 URL
+	- 跳转页面：修改 href 属性即可，**该方法跳转后不可后退**
+- `search`：返回表单查询或提交部分（字符串，`?` 后的部分，包括 ?）
+- `hash`：返回 `#` 后的部分，常用于路由，在不跳转页面的情况下显示不容页面，包括 `#`
+- `reload([bool])`：刷新，传入 true 时强制刷新，重新下载所有资源，类似 `[CTRL+]F5`
+
+## navigation
+
+包含浏览器和系统平台的相关信息
+- `userAgent`：UA，常用于判断平台
+![[Pasted image 20230318160313.png]]
+
+## history
+
+历史记录管理
+- forward()：前进
+- back()：后退
+- go(n)：前进几步，n 为负数时表示后退
+
+## 本地存储
+
+HTML 5 新增的，浏览器为每一个域名提供了大约 5MB 的 `sessionStorage` 和 `localStorage` 的存储空间，可保证在页面刷新等场景下仍保留数据，常用于 Web 应用
+
+`localStorage` 可在多窗口页面中共享，且以键值对形式存储，数据会持久化保存在客户端中，除非手动清除
+- `localStorage.setItem(key, value)`
+- `localStorage.getItem(key)`
+- `localStorage.remove(key)`
+- `localStorage.clear()`
+
+`sessionStorage` 类似 `localStorage`，但生命周期与浏览器窗口相同，即浏览器窗口关闭后数据将销毁
+
+注意，存储时候**只能存储字符串或其他基本类型，无法存储对象**，可通过 `JSON.stringify(obj)` 转换成 json 字符串，读取时通过 `JSON.parse(str)` 转换回对象
+
+
+# 性能优化
+
+- 防抖 `debounce`：单位时间内，对于频繁触发的事件，只执行最后一次触发效果
+- 节流 `throttle`：单位时间内，对于频繁触发的事件，两次触发的时间有一定间隔

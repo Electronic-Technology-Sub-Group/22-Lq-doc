@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python3.11/Python 类型.md",
+                "file": "Python3.11/Python.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python3.11/Python 类型.md",
+                "file": "Python3.11/Python.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python3.11/Python 类型.md",
+                "file": "Python3.11/Python.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python3.11/Python 类型.md"
+                "file": "Python3.11/Python.md"
               }
             }
           }
@@ -150,9 +150,9 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "canvas:新建白板": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
-      "canvas:Create new canvas": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
@@ -161,12 +161,12 @@
   },
   "active": "01f4cd33664d099e",
   "lastOpenFiles": [
+    "Python3.11/Python 类型.md",
     "Python3.11/Python.md",
     "Python3.11/Python 类.md",
     "Python3.11/Python 输入输出.md",
     "Python3.11/Python 模块.md",
     "Python3.11/Python 标准库.md",
-    "Python3.11/Python 类型.md",
     "Python3.11/Python 函数.md",
     "Python3.11/Python 解释器.md",
     "Python3.11/Python 控制语句.md",

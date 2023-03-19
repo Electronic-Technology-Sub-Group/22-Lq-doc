@@ -42,7 +42,7 @@ open module myModuleName {
 允许接口中存在私有方法，私有方法必须在接口中实现，且只能在接口中直接访问，用于对 `default` 函数实现调用
 
 ```java
-public interface Java9Interface {
+public interface PrivateMethod {
     // private 方法允许在接口中存在
     // 但是 protected 不允许，在实现类中也无法直接访问到
     private void privateMethod() {

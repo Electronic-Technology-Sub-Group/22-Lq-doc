@@ -8,7 +8,11 @@ Obsidian 本身的教程可以查看 [由此开始 - Obsidian 中文帮助 - Obs
 
 - [[Git]]
 
-# Markdown
+# 数据格式
 
-- LaTeX 数学公式：[[LaTeX]]
-- Mermaid 图：[[Mermaid]]
+包括各种数据类型格式
+- [[YAML]]
+- [[TOML]]
+- Markdown
+	- LaTeX 数学公式：[[LaTeX]]
+	- Mermaid 图：[[Mermaid]]

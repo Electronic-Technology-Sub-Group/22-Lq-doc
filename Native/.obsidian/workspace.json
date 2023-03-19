@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "a7abf7027405bf8c",
+        "id": "a52e7e1399f1598a",
         "type": "tabs",
         "children": [
           {
-            "id": "9bb68a8232c86ae6",
+            "id": "4a45e5b011b4a90d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C++/模板.md",
+                "file": "EasyX/EasyX.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "bae0043d85874456",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C++/模板.md",
+                "file": "EasyX/EasyX.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C++/模板.md",
+                "file": "EasyX/EasyX.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C++/模板.md"
+                "file": "EasyX/EasyX.md"
               }
             }
           },
@@ -142,7 +143,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -155,8 +157,13 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "9bb68a8232c86ae6",
+  "active": "4a45e5b011b4a90d",
   "lastOpenFiles": [
+    "EasyX 基本概念.md",
+    "EasyX/EasyX.md",
+    "C++/模板.md",
+    "EasyX",
+    "CMake",
     "C++/C++.md",
     "C++/协程.md",
     "C++/标准库/cstring.md",
@@ -171,7 +178,6 @@
     "C++/_pages/文本类型.md",
     "C++/_pages/关键字.md",
     "C++/预处理指令.md",
-    "C++/模板.md",
     "C++/反射",
     "C++/标准库/日期与时区.md",
     "C++/标准库/标准库.md",

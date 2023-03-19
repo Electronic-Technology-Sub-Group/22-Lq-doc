@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "初等数论/同余.md",
+                "file": "初等数论/同余式.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "初等数论/同余.md",
+                "file": "初等数论/同余式.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "初等数论/同余.md",
+                "file": "初等数论/同余式.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "初等数论/同余.md"
+                "file": "初等数论/同余式.md"
               }
             }
           }
@@ -138,9 +138,9 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "canvas:新建白板": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
-      "canvas:Create new canvas": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
@@ -149,13 +149,13 @@
   },
   "active": "929640a6e529381b",
   "lastOpenFiles": [
-    "初等数论/同余式.md",
     "初等数论/同余.md",
-    "初等数论/欧拉函数与简化剩余系.md",
+    "初等数论/同余式.md",
+    "初等数论/_初等数论.md",
     "初等数论/高次同余.md",
+    "初等数论/欧拉函数与简化剩余系.md",
     "抽象代数/_抽象代数.md",
     "抽象代数/半群与群.md",
-    "初等数论/_初等数论.md",
     "抽象代数/子群与商群.md",
     "抽象代数/运算及关系.md",
     "初等数论/_pages/解法.md"

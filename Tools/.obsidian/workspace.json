@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "575fa1de99c402d8",
+        "id": "40eda170cffbdadb",
         "type": "tabs",
         "children": [
           {
-            "id": "8c994060d2489f4e",
+            "id": "235a39576907bb2b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Markdown/LaTeX.md",
+                "file": "Tools.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Markdown/LaTeX.md",
+                "file": "Tools.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Markdown/LaTeX.md",
+                "file": "Tools.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Markdown/LaTeX.md"
+                "file": "Tools.md"
               }
             }
           }
@@ -148,18 +148,29 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "8c994060d2489f4e",
+  "active": "63bd40066456a1dc",
   "lastOpenFiles": [
-    "Markdown/mermaid/Mermaid 流程图 flowchat.md",
-    "Markdown/mermaid/Mermaid 类图 classDiagram.md",
-    "Markdown/mermaid/Mermaid 甘特图 gantt.md",
-    "Markdown/mermaid/Mermaid 饼图 pie.md",
-    "Markdown/mermaid/Mermaid Git图 gitGraph.md",
-    "Markdown/mermaid/Mermaid C4图 C4Context.md",
-    "Markdown/mermaid/Mermaid 思维导图 mindmap.md",
-    "Markdown/mermaid/Mermaid 状态图 stateDiagram.md",
-    "Markdown/mermaid/Mermaid 需求图 requirementDiagram.md",
-    "Markdown/mermaid/Mermaid 时序图 sequenceDiagram.md",
-    "Markdown/mermaid/Mermaid 实体关系图 erDiagram.md"
+    "Data/YAML.md",
+    "Data",
+    "Data/TOML.md",
+    "Tools.md",
+    "Regex/Regex.md",
+    "Data/Markdown/LaTeX.md",
+    "Regex",
+    "git/Git.md",
+    "git/远程仓库.md",
+    "git/分支操作.md",
+    "git/基本操作.md",
+    "Data/Markdown/mermaid/Mermaid 流程图 flowchat.md",
+    "Data/Markdown/mermaid/Mermaid 类图 classDiagram.md",
+    "Data/Markdown/mermaid/Mermaid 甘特图 gantt.md",
+    "Data/Markdown/mermaid/Mermaid 饼图 pie.md",
+    "Data/Markdown/mermaid/Mermaid Git图 gitGraph.md",
+    "Data/Markdown/mermaid/Mermaid C4图 C4Context.md",
+    "Data/Markdown/mermaid/Mermaid 思维导图 mindmap.md",
+    "Data/Markdown/mermaid/Mermaid 状态图 stateDiagram.md",
+    "Data/Markdown/mermaid/Mermaid 需求图 requirementDiagram.md",
+    "Data/Markdown/mermaid/Mermaid 时序图 sequenceDiagram.md",
+    "Data/Markdown/mermaid/Mermaid 实体关系图 erDiagram.md"
   ]
 }

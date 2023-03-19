@@ -1,4 +1,5 @@
 {
   "alwaysUpdateLinks": true,
-  "attachmentFolderPath": "_resources/_images"
+  "attachmentFolderPath": "_resources/_images",
+  "showLineNumber": false
 }
