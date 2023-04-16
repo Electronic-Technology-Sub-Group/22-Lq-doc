@@ -1,5 +1,7 @@
 {
   "alwaysUpdateLinks": true,
   "attachmentFolderPath": "_resources/_images",
-  "showLineNumber": false
+  "showLineNumber": false,
+  "newLinkFormat": "shortest",
+  "newFileLocation": "current"
 }

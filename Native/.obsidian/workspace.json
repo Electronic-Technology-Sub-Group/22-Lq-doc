@@ -11,12 +11,8 @@
             "id": "4a45e5b011b4a90d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "EasyX/EasyX.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -69,8 +65,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "bae0043d85874456",
@@ -86,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "EasyX/EasyX.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "EasyX/EasyX.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "EasyX/EasyX.md"
-              }
+              "state": {}
             }
           },
           {
@@ -157,8 +148,10 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "4a45e5b011b4a90d",
+  "active": "9183ff88d031d8ad",
   "lastOpenFiles": [
+    "Vulkan",
+    "OpenGL",
     "EasyX 基本概念.md",
     "EasyX/EasyX.md",
     "C++/模板.md",

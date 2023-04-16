@@ -4,23 +4,50 @@
     "type": "split",
     "children": [
       {
-        "id": "860ae456fb1491cb",
+        "id": "5805844bfe8945e6",
         "type": "tabs",
         "children": [
           {
-            "id": "c5c855edff07197f",
+            "id": "2814b3552e465e56",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "AcWing/AcWing 算法基础课.md",
                 "mode": "source",
-                "backlinks": false,
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a028cb0527711673",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AcWing/AcWing 算法基础课.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a0c4bd78be0575c6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AcWing/AcWing 算法基础课.md",
+                "mode": "source",
+                "backlinks": true,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -157,31 +184,37 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "c5c855edff07197f",
+  "active": "a0c4bd78be0575c6",
   "lastOpenFiles": [
+    "排序/TimSort.md",
+    "排序/快速排序.md",
+    "排序/插入排序.md",
+    "AcWing/AcWing 算法基础课.md",
+    "排序/堆排序.md",
+    "_resources/_images/sort-heap.gif",
+    "未命名.canvas",
+    "未命名 1.canvas",
+    "质数.md",
+    "排序/冒泡排序.md",
+    "语言/cpp 数学计算.md",
+    "_resources/_images/Pasted image 20230325150755.png",
+    "_resources/_images/Pasted image 20230325144725.png",
+    "语言/cpp 迭代器.md",
+    "_resources/_images/Pasted image 20230325115809.png",
+    "_resources/_images/Appraiserres.dll",
     "_resources/_images/Pasted image 20230314205830.png",
     "动态规划.md",
     "rsa 加密算法.md",
-    "质数.md",
     "AcWing/由数据范围反推算法复杂度以及算法内容.md",
     "语言/_pages/Compare.md",
     "语言/cpp 排序.md",
     "语言/_pages/RandomIt.md",
     "语言/cpp 输入输出.md",
-    "语言/cpp 迭代器.md",
     "语言/_pages/ForwardIt.md",
-    "语言/cpp 数学计算.md",
-    "AcWing/AcWing 算法基础课.md",
-    "排序/冒泡排序.md",
-    "排序/快速排序.md",
     "排序/归并排序.md",
     "排序/希尔排序.md",
     "排序/桶排序.md",
     "排序/计数排序.md",
-    "排序/堆排序.md",
-    "排序/插入排序.md",
-    "未命名 1.canvas",
-    "未命名.canvas",
     "_resources/_images/Pasted image 20230303073737.png",
     "_resources/_images/Pasted image 20230301204243.png",
     "未命名.md",
@@ -189,11 +222,6 @@
     "_resources/_images/Pasted image 20230227164732.png",
     "_resources/_images/Pasted image 20230227082808.png",
     "AcWing/AcWing 算法提高课.md",
-    "_resources/_images/v2-216bb312f6f8c9b272b329cc008c37ec_b.gif",
-    "_resources/_images/v2-aaa16eea8cf11b2957d207c249a49276_b.gif",
-    "_resources/_images/sort-counting.gif",
-    "_resources/_images/sort-backet.gif",
-    "_resources/_images/Pasted image 20230225164918.png",
     "AcWing",
     "_resources/_pages/01背包问题.md",
     "题目/P1434 (SHOI2002) 滑雪.md",

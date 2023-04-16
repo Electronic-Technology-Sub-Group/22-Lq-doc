@@ -431,7 +431,7 @@ KMP 主要优化以下情况：给定字符串 s 和模板字符串 t，求 s �
 
 *`next` 变量在 c++ 某些头文件中已被定义，可命名为 `ne`*
 
-要想实现 KMP 算法，我们需要求出当模板 t 任意位置匹配失败时，允许模板前移的个数 j，j 取值只与模板串 t 和失败位置有关，将其关联成一歌数组称为 `next` 数组，记为 `j = next[i]`，i  失败位置，设以 i 为终点的后缀字符串为 t'，可知 `next[i]` 表示 t' 中与 t' 的一个前缀完全相同的最长后缀长度。
+要想实现 KMP 算法，我们需要求出当模板 t 任意位置匹配失败时，允许模板前移的个数 j，j 取值只与模板串 t 和失败位置有关，将其关联成一歌数组称为 `next` 数组，记为 `j = next[i]`，i  失败位置，设以 i 为终点的后缀字符串为 t'，可知 `next[i]` 表示 t' 中与 t' 的一个前缀完全相同的最长后缀**长度**。
 
 ```c++
 const char *str, *pat;
@@ -442,7 +442,10 @@ int ne[lenPat];
 // 此处稍后再说
 
 // 假定 ne[lenPat] 已经求得
+// i: 正在检查的输入字符串位，str 下标从 1 开始
+// j: 正在检查的模板字符串位，pat 下标从 1 开始
 for (int i = 1, j = 0; i <= lenStr; ++i) {
+	// 匹配失败，利用 next 数组后退
     while (j && str[i] != pat[j + 1]) j = ne[j];
     if (str[i] == pat[j + 1]) j++;
     if (j == lenPat) {
@@ -454,15 +457,15 @@ for (int i = 1, j = 0; i <= lenStr; ++i) {
 }
 ```
 
-在计算 `next[]` 数组时，完全可以套用这套公式，原理类似，且要找 `next[i]` 时 `next[1]` 到 `next[i - 1]` 之前的一定已经计算出来了
+在计算 `next[]` 数组时，完全可以套用这套公式，原理类似，且要找 `next[i]` 时 `next[1]` 到 `next[i - 1]` 一定已经计算出来了
 
 ```c++
-// str, pat 是从下标 1 开始保存的字符串
 vector<int> kmp(const char* str, const char* pat, int lenStr, int lenPat) {
     vector<int> ret;
     int ne[lenPat];
-    memset(ne, 0, lenPat * 4);
+    memset(ne, 0, lenPat * sizeof(int));
 
+	// next 数组计算
     for (int i = 2, j = 0; i <= lenPat; ++i) {
         while (j && i && pat[i] != pat[j + 1]) j = ne[j];
         if (pat[i] == pat[j + 1]) j++;
@@ -627,7 +630,7 @@ struct MinHeap {
 
 调整整个堆的时间复杂度为 $O(n)$，适用于建堆，一次性输入所有元素后调整。其余操作时间复杂度均为 $O(log(n))$
 
-## Hash 表
+## Hash
 
 将一个庞大的值域映射到一个比较小的值域范围
 
@@ -942,7 +945,7 @@ void bellman_ford(const Graph &g, int *dist) {
     for (int k = 0; k < g.n; ++k)
         for (const auto &i: g)
             for (const auto &j: g.out(i))
-                dist[j] = min(dist[j], dist[i] + g.dist[i, j]);
+                dist[j] = min(dist[j], dist[i] + g.dist(i, j));
 }
 ```
 
@@ -1120,7 +1123,7 @@ bool kruskal(const Graph &g, Graph &ret) {
     // 对边集合排序
     auto edges = g.edges();
     sort(edges.begin(), edges.end());
-    // 构造并查集
+    // 构造并查集及 find 函数
     int p[g.n];
     for (const auto &i: g)
         p[i] = i;
@@ -1156,6 +1159,8 @@ DFS，用于判断二分图，时间复杂度为 $O(m+n)$
 > 原理：一个图是二分图，当且仅当图中不含奇数环 => 能被 2 染色
 
 ```c++
+// color: 0 或 1
+// colors: 染色结果，初始值全为 -1 表示未染色
 bool dfs(Graph &g, int i, int color, int *colors) {
     // 染色
     colors[i] = color;
@@ -1231,6 +1236,12 @@ vector<pair<int, int>> hungarian(Graph &g, set<int> &part) {
 试除法，循环条件 `i <= n / i`，时间复杂度最坏 $O(\sqrt n)$，最好 `log n`
 - 每次找到因数后去除 n 中所有该因数
 - n 中最多包含一个大于 $\sqrt n$ 的质因子，因此循环到 $\sqrt n$ 后剩余的数字若不是 1，则剩余那个也是质数
+
+将 $n!$ 分解成质数：
+$$
+n! = p_1^{\alpha_1} + p_2^{\alpha_2} + p_3^{\alpha_3} + \cdots + p_k^{\alpha_k}
+$$
+其中，$p_i$ 是第 i 个质数，$\alpha_i=\lfloor{\dfrac{a}{p_i}}\rfloor+\lfloor{\dfrac{a}{p_i^2}}\rfloor+\cdots+\lfloor{\dfrac{a}{p_i^m}}\rfloor$
 
 ### 质数筛法
 
@@ -1354,9 +1365,107 @@ $$
 2. 若 $a_{1k}\neq0$，第一行第 k 列 $a_{1k}$ 变成 1（该行所有数除 $a_{1k}$），并以此消除之后所有第 k 列数
 3. 若 $a_{1k}=0$，且 $a_{1,n+1}=0$ 则有无穷解；若 $a_{1,n+1}\neq0$ 则无解
 
+```C++
+
+/**
+ * @param N 数组最大长度
+ * @param n 共有 n 个未知数
+ * @param m 一个 (n+1) * (n+2) 的数组，要求行、列从下标 1 开始，前 n * n 是系数矩阵，后 1 * n 为等号右边的常数
+ * @return 解的个数，1 代表唯一解，0 代表无解，-1 代表无穷解，当有唯一解时第 k 个未知数解即 m[k][n+1]
+ */
+int gauss(int n, double m[N][N]) {
+    // 浮点 0 判断
+    const double eps = 1e-6;
+
+    for (int i = 1; i <= n; ++i) {
+        // 1. 找到第 i 列绝对值最大的行，将其移至第 i 行，顺带判断解的个数
+        int cr = i;
+        for (int j = i + 1; j <= n; ++j)
+            if (abs(m[j][i]) > abs(m[cr][i]))
+                cr = j;
+        if (abs(m[cr][i]) <= eps)
+            return m[cr][n + 1] == 0 ? -1 : 0;
+        if (cr != i) {
+            memcpy(m, m + i, (n + 2) * sizeof(double));         // i -> 0
+            memcpy(m + i, m + cr, (n + 2) * sizeof(double));    // cr -> i
+            memcpy(m + cr, m, (n + 2) * sizeof(double));        // 0 -> cr
+        }
+        // 2. 将 m[i][i] 归 1，并将其余所有行第 i 列归零
+        if (m[i][i] != 1)
+            for (int j = n + 1; j >= i; --j)
+                m[i][j] /= m[i][i];
+        for (int j = 1; j <= n; ++j)
+            if (j != i && abs(m[j][i]) > eps)
+                for (int k = n + 1; k >= i; --k)
+                    m[j][k] -= m[j][i] * m[i][k];
+    }
+    return 1;
+}
+```
+
 ## 组合计数
 
+$$
+C{b\atop{a}} = \dfrac{a!}{b!(a-b)!}
+$$
+$$
+C{b\atop{a}} = C{b-1\atop{a-1}} + C{b\atop{a-1}}
+$$
+
+卢卡斯定理 Lucas：
+$$
+C{b\atop{a}} \equiv C{{b\mod p}\atop{a\mod p}}C{{b/p}\atop{a/p}} \pmod p
+$$
+![[Pasted image 20230325115809.png]]
+
+常用思路:
+- 预处理：预处理所有值或阶乘（公式 1 2）
+- 分解成质数，消去分子分母相同部分（公式 1 +分解质数，通常+高精度）
+
+### 卡特兰数
+
+$$
+C{n\atop{2n}} - C{{n-1}\atop{2n}} = \dfrac{C{n\atop{2n}}}{n + 1}
+$$
+
+广泛用于求给定两个数的排列，对排列的前缀有要求的情况
+- 0-1序列
+- 火车进站
+- 合法括号序列
+- 。。。
+ 
+思路：将给定待求排列转化为网格中求路径问题，每一个排列对应一个路径，每一个路径对应一个排列
+![[Pasted image 20230325144725.png]]
+
+## 容斥原理
+
+n 个集合的并集的元素个数，等于1，3，5，。。。，所有奇数个集合交集的元素个数之和，减去 2，4，6，。。。，偶数个集合交集的元素个数
+
+![[Pasted image 20230325150755.png]]
+
 ## 简单博弈论
+
+### 公平组合游戏
+
+- 两名玩家交替行动
+- 每个玩家可进行的操作与轮到哪位玩家无关
+- 玩家不能行动时判负
+- 两个玩家都会选择最优方案
+
+任何公平组合游戏都可以转化为有向图游戏
+
+结论：若游戏分为 k 种操作，每种操作可进行 $a_k$ 次，则 $a_1$ 到 $a_k$ 全部异或后为 0 时先手必败，否则必胜
+
+#### SG 函数
+
+1. 已知非负整数集合 S，定义 mex(S) 表示不属于 S 的最小自然数
+3. SG 函数：在一个有向图种，
+	1. 定义终点状态的 SG 函数值为 0
+	2. 从一个状态 $x$ 出发，对于可以达到的所有状态 $y_1, y_2, \cdots, y_n$，$SG(x)=mex \{SG(y_1), SG(y_2), \cdots, SG(y_n)\}$
+
+设起点为 s，当 SG(s)=0 时，先手必败，否则必胜
+
+当有 N 个图，每个图的起点为 $s_1, s_2, \cdots, s_n$，将所有的 $SG(s_1), \cdots, SG(s_n)$ 异或后为 0 则先手必败，否则先手必胜
 
 # 动态规划
 
@@ -1610,13 +1719,11 @@ int main() {
             cin >> v[i][j] >> w[i][j];
     }
     // dp[i][w] 表示选择前 i 组物品装入体积为 w 的背包的最大价值
-    for (int i = 1; i <= N; ++i) {
-        for (int j = V; j >= 0; --j) {
+    for (int i = 1; i <= N; ++i)
+        for (int j = V; j >= 0; --j)
             for (int k = 1; k <= v[i][0]; ++k)
                 if (j >= v[i][k])
                     dp[j] = max(dp[j], dp[j - v[i][k]] + w[i][k]);
-        }
-    }
 
     cout << dp[V];
     return 0;
@@ -1650,12 +1757,49 @@ int main() {
 
 ## 数位统计 DP
 
+针对每个数字分情况讨论
+
 ## 状态压缩 DP
+
+常利用二进制位表示状态
 
 ## 树形 DP
 
+两个属性，从某棵子树选，以及方案特征，n 比较小
+
 ## 记忆化搜索
 
+（备忘录递归？）
+
 # 贪心
- 
-# 复杂度分析 
+
+贪心问题没有套路，难以证明///
+
+## 区间问题
+
+- 排序
+	- 按起点排序
+	- 按终点排序
+	- 双关键字排序
+- 选择与测试：按顺序对每个元素进行遍历
+- 证明：常用反证法
+  
+## 其他思路
+
+- 每次选择局部最优解进行合并
+- 推公式：将公式推导出来，使用各种不等式比较判断
+
+# 复杂度分析
+
+一般来说，题目要求在 1s 内解决问题，C++ 在 1s 内可执行约 $10^7-10^8$ 次运算，基于数据量常用算法为：
+1. 数量很少，$n\leq30$：DFS+剪枝，状压dp 等
+2. $n\leq100$：可用时间复杂度为 $O(n^3)$ 的算法：[[#Bellman-Ford]]，[[#动态规划]]
+3. $n\leq1000$：可用时间复杂度为 $O(n^2)$，$O(n^2logn)$ 的算法：[[#动态规划]]，[[#朴素 dijkstra 算法]]
+4. $n\leq10000$：可用时间复杂度为 $O(n\sqrt n)$ 的算法：块状链表
+5. $n\leq100000$：可用时间复杂度为 $O(n\log n)$ 的算法：各种[[#排序]]，树、[[#整数二分]]及基于它们的容器，[[#SPFA]]，凸包，半平面交等
+5. $n\leq1000000$：可用时间复杂度为 $O(n)$，常数比较小的 $O(n\log n)$ 的算法：
+	- 双指针，[[#Hash]]，[[#KMP 字符串]]，AC自动机，[[#质数筛法]]
+	- [[#整数二分]]及基于它们的容器，sort，树状数组，[[#堆]]，[[#朴素 dijkstra 算法]]，[[#堆优化 dijkstra 算法]]，[[#SPFA]]
+6. $n\leq10000000$：可用时间复杂度为 $O(n)$ 的算法：双指针，[[#KMP 字符串]]，AC自动机，[[#质数筛法]]
+6. $n\leq100000000$：可用时间复杂度为 $O(\sqrt n)$ 的算法：试除法求质数、约数、分解质因数等
+6. $n\leq1000000000$：可用时间复杂度为 $O(\log n)$ 的算法：[[#辗转相除法]]，[[#快速幂]]
