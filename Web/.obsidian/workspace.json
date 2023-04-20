@@ -4,37 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "6e9b8c9d25752774",
+        "id": "b2675d318b4c00a9",
         "type": "tabs",
         "children": [
           {
-            "id": "4798cfc79f8e21ac",
+            "id": "42def208a0ecc11f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "其他/Ajax 动态加载图片.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6f2ac1b1b794f939",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "其他/flex 每行元素个数.md",
+                "file": "库与工具/HTTP.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -100,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "其他/flex 每行元素个数.md",
+                "file": "库与工具/HTTP.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "其他/flex 每行元素个数.md",
+                "file": "库与工具/HTTP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "其他/flex 每行元素个数.md"
+                "file": "库与工具/HTTP.md"
               }
             }
           },
@@ -157,8 +143,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -172,47 +157,49 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "6f2ac1b1b794f939",
+  "active": "42def208a0ecc11f",
   "lastOpenFiles": [
-    "其他/robots.md",
-    "其他/Ajax 跨域访问问题.md",
-    "其他/Ajax 动态加载图片.md",
+    "HTML/HTTP 协议请求.md",
+    "库与工具/HTTP.md",
+    "库与工具/jQuery.md",
+    "库与工具/art-template.md",
+    "JavaScript/JS WebAPI.md",
+    "JavaScript/JavaScript.md",
+    "HTTP",
+    "库与工具/axios.md",
+    "库与工具/_pages/axios 响应结构.md",
+    "库与工具/_pages/axios 请求配置.md",
+    "库与工具/_pages",
     "库与工具/flexible.js.md",
-    "库与工具/JQuery.md",
+    "库与工具/ECharts.md",
     "库与工具/Swiper.md",
+    "JavaScript/JS 内置类与方法.md",
+    "CSS/_pages/CSS对象.md",
+    "CSS/弹性布局.md",
+    "其他/Ajax 动态加载图片.md",
+    "其他/Ajax 跨域访问问题.md",
+    "HTML/_pages/form.md",
+    "库与工具/库列表.md",
+    "其他/flex 每行元素个数.md",
+    "CSS/_pages/animation-play-state.md",
+    "CSS/_pages/border-image.md",
+    "resources/media/Pasted image 20230417072051.png",
+    "其他/robots.md",
     "_todo/Prototype.md",
     "_todo/zepto.md",
     "_todo/YUI.md",
-    "_todo/ExtJS.md",
-    "_todo/ECharts.md",
-    "_todo/DOJO.md",
     "resources/media/Pasted image 20230415023405.png",
     "resources/media/Pasted image 20230414110015.png",
-    "HTML/HTML.md",
-    "HTML/多媒体.md",
     "resources/media/-1d8a4c31e52071ba.jpg",
     "resources/media/Pasted image 20221208011012.png",
-    "XPath.md",
     "resources/media/Pasted image 20221218105540.png",
     "resources/media/Pasted image 20230123170329.png",
     "resources/media/Pasted image 20230126001610.png",
     "resources/media/Pasted image 20230126144919.png",
     "resources/media/video2.mp4",
-    "HTML/列表.md",
-    "HTML/排版标签.md",
-    "HTML/元信息.md",
-    "HTML/文本标签.md",
-    "CSS/弹性布局.md",
-    "CSS/动画与变换.md",
-    "CSS/移动适配.md",
-    "CSS/修饰.md",
-    "CSS/文本样式.md",
-    "其他/flex 每行元素个数.md",
-    "resources/source/Google 如何解读 robots.txt 规范.md",
     "resources/libs/bootstrap-3.4.1-dist/fonts/glyphicons-halflings-regular.svg",
     "resources/source",
     "其他",
-    "resources/media/Pasted image 20230318160313.png",
     "库与工具/swiper"
   ]
 }

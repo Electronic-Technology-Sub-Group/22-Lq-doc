@@ -110,6 +110,11 @@ jQuery 使用 `$('选择器')` 通过 CSS 的选择器选择元素，返回一�
 - `remove()` 用于从 DOM 树中移除该元素
 - `empty()` 相当于 `html('')`，可将该元素的内容清空
 
+## 元素方法
+
+- `<form>` 标签
+	- `serialize()`：快速获取表单所有数据，需要对应输入控件包含 name 属性
+
 # 事件
 
 ## 注册
@@ -138,6 +143,21 @@ jQuery 使用 `$('选择器')` 通过 CSS 的选择器选择元素，返回一�
 - 具有 `preventDefault()` 和 `stopPropagation()` 方法
 	- 事件处理器返回 `false` 时相当于调用了 `preventDefault()` 方法
 - 通过 `target` 属性可以返回触发的第一个对象，通过 `target(n)` 返回第 n 个对象，返回的都是 DOM 对象
+
+# Ajax
+
+jQuery 封装的实现[[JS WebAPI#Ajax|Ajax]]的简单方法，最常用的包括：
+- `$.get(url, [data], [callback: function(res)])`
+- `$.post(url, [data], [callback: function(res)])`
+- `$.ajax({type: 'GET'|'POST', url: string, data: object, success: function()})
+	- 传输带文件的表单数据，需要一些额外设置
+		- `data` 属性为 `FormData` 对象
+		- `contentType: false`：不修改 `Content-Type` 属性，使用 `FormData` 默认值
+		- `processData: false`：不对 `FormData` 的值进行 URL 编码操作
+	- `$(document).ajaxStart(function)`：当 Ajax 触发时调用，只能添加到 `document` 上
+	- 可通过该方法发起 jsonp 请求：`{ dataType: jsonp }`，请求结果将被反馈在 `success` 中
+		- 默认向 url 附加一个 `callback=随机回调函数名` 的查询参数，函数名以 jQuery 开头
+		- 可自定义回调函数名：`{ jsonp: "回调函数参数名", jsonpCallback: "回调函数名" }`
 
 # 其他工具
 

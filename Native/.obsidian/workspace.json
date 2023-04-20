@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "a52e7e1399f1598a",
+        "id": "a10bc75e570f8a37",
         "type": "tabs",
         "children": [
           {
-            "id": "4a45e5b011b4a90d",
+            "id": "17b0b6132bf3b506",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "C++/模板.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -60,6 +64,14 @@
               "type": "starred",
               "state": {}
             }
+          },
+          {
+            "id": "4a45e5b011b4a90d",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
           }
         ]
       }
@@ -81,6 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "C++/模板.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "C++/模板.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +132,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "C++/模板.md"
+              }
             }
           },
           {
@@ -148,7 +164,7 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "9183ff88d031d8ad",
+  "active": "17b0b6132bf3b506",
   "lastOpenFiles": [
     "Vulkan",
     "OpenGL",

@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AcWing/AcWing 算法基础课.md",
+                "file": "排序/冒泡排序.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -124,7 +124,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AcWing/AcWing 算法基础课.md"
+                "file": "排序/冒泡排序.md"
               }
             }
           },
@@ -142,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AcWing/AcWing 算法基础课.md",
+                "file": "排序/冒泡排序.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AcWing/AcWing 算法基础课.md",
+                "file": "排序/冒泡排序.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,10 +186,10 @@
   },
   "active": "a0c4bd78be0575c6",
   "lastOpenFiles": [
+    "AcWing/AcWing 算法基础课.md",
     "排序/TimSort.md",
     "排序/快速排序.md",
     "排序/插入排序.md",
-    "AcWing/AcWing 算法基础课.md",
     "排序/堆排序.md",
     "_resources/_images/sort-heap.gif",
     "未命名.canvas",

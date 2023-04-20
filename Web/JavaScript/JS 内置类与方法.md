@@ -109,3 +109,9 @@ JavaScript 原生支持正则匹配，使用 `/正则语法/` 字面量即可创
 - `fun.call(thisObj, ...args)`：将 this 修改成 thisObj 并调用
 - `fun.apply(thisObj, [] args)`：类似 call，第二个参数必须是数组
 - `fun.bind(thisObj, ...args)`：不立即调用函数，返回一个新函数，为原函数绑定 this 和参数后的新函数
+
+# JSON
+
+JSON 是一个数据对象与字符串之间序列化/反序列化工具类
+- `JSON.parse(string)`：序列化
+- `JSON.stringify()`：反序列化
