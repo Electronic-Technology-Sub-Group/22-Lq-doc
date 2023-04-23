@@ -4,18 +4,50 @@
     "type": "split",
     "children": [
       {
-        "id": "948251b36736e04d",
+        "id": "95f8c1feb2de1bae",
         "type": "tabs",
         "children": [
           {
-            "id": "8e24a8f169bdc2f0",
+            "id": "630a7fa3ff63d0e1",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "NodeJS/NodeJS.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e6a110a91374068d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "NodeJS/NodeJS.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3f78f971d7eef7da",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "NodeJS/Express.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -44,7 +76,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "const",
+                "query": "tag:#JS组件",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -81,6 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "NodeJS/Express.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "NodeJS/Express.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +152,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "NodeJS/Express.md"
+              }
             }
           },
           {
@@ -134,7 +170,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -148,39 +185,44 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "8e24a8f169bdc2f0",
+  "active": "3f78f971d7eef7da",
   "lastOpenFiles": [
-    "库与工具/HTTP.md",
+    "库与工具/Swiper.md",
+    "库与工具/NPM 全局工具.md",
+    "库与工具/flexible.js.md",
+    "库与工具/ECharts.md",
+    "库与工具/CommonJS.md",
+    "库与工具/axios.md",
+    "库与工具/art-template.md",
+    "NodeJS/NodeJS.md",
+    "NodeJS/Express.md",
+    "NodeJS",
+    "库与工具/i5ting_toc.md",
+    "未命名.canvas",
+    "库与工具/Bootstrap/Bootstrap 组件.md",
+    "JavaScript/JS ES6 标准.md",
+    "JavaScript/JavaScript.md",
+    "CSS/_pages/font-size.md",
+    "CSS/_pages/font.md",
+    "CSS/_pages/clear.md",
+    "CSS/_pages/color.md",
+    "CSS/_pages/border-width.md",
+    "CSS/_pages/border-style.md",
+    "CSS/_pages/border-right.md",
+    "CSS/_pages/border-left.md",
+    "CSS/_pages/border-image.md",
+    "CSS/_pages/border-color.md",
+    "CSS/_pages/border-box.md",
+    "CSS/盒模型.md",
+    "CSS/_pages/border-bottom.md",
+    "库与工具/未命名",
+    "NodeJS",
     "resources/media/Pasted image 20230420164539.png",
     "resources/media/Pasted image 20230420163526.png",
     "resources/media/Pasted image 20230420163003.png",
-    "HTML/HTTP 协议请求.md",
-    "库与工具/jQuery.md",
-    "库与工具/art-template.md",
-    "JavaScript/JS WebAPI.md",
-    "JavaScript/JavaScript.md",
     "HTTP",
-    "库与工具/axios.md",
-    "库与工具/_pages/axios 响应结构.md",
-    "库与工具/_pages/axios 请求配置.md",
     "库与工具/_pages",
-    "库与工具/flexible.js.md",
-    "库与工具/ECharts.md",
-    "库与工具/Swiper.md",
-    "JavaScript/JS 内置类与方法.md",
-    "CSS/_pages/CSS对象.md",
-    "CSS/弹性布局.md",
-    "其他/Ajax 动态加载图片.md",
-    "其他/Ajax 跨域访问问题.md",
-    "HTML/_pages/form.md",
-    "库与工具/库列表.md",
-    "其他/flex 每行元素个数.md",
-    "CSS/_pages/animation-play-state.md",
-    "CSS/_pages/border-image.md",
     "resources/media/Pasted image 20230417072051.png",
-    "其他/robots.md",
-    "_todo/Prototype.md",
-    "_todo/zepto.md",
     "resources/media/Pasted image 20230415023405.png",
     "resources/media/Pasted image 20230414110015.png",
     "resources/media/-1d8a4c31e52071ba.jpg",

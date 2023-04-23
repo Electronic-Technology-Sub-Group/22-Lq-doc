@@ -7,6 +7,8 @@ JS 分为两部分，ECMAScript 定义了 JS 的基础核心语法，WebAPIs 则
 - [[JS 语法]]
 - [[JS 内置类与方法]]
 - [[JS WebAPI]]
+- [[JS ES6 标准]]
+
 
 # 引入 JS
 

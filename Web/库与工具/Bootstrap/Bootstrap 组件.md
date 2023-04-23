@@ -317,7 +317,6 @@ Bootstrap 允许免费使用 `Glyphicons` 图标，所有图标详见：[组件 
 - 在 JavaScript 中，使用 `组件名(options)` 方法
 
 # 提示 弹出框
-#JS组件 
 
 **需要引入 Bootstrap JS 支持，对应 `tooltip.js` 文件或 `popover.js` 文件**
 
@@ -363,7 +362,6 @@ Bootstrap 允许免费使用 `Glyphicons` 图标，所有图标详见：[组件 
 | content   | string<br>function                | ""                                         | 内容，仅 `popover` 使用                                      |
 
 # 菜单
-#JS组件 
 
 **需要引入 Bootstrap JS 支持，对应 `dropdown.js` 文件**
 
@@ -412,7 +410,6 @@ Bootstrap 允许免费使用 `Glyphicons` 图标，所有图标详见：[组件 
 	- `$().button(string)`：更改文本内容
 
 # 按钮组
-#JS组件 
 
 **需要引入 Bootstrap JS 支持**
 
@@ -470,7 +467,6 @@ Bootstrap 允许免费使用 `Glyphicons` 图标，所有图标详见：[组件 
 ```
 
 # 导航
-#JS组件 
 
 **需要引入 Bootstrap JS 支持，对应 `tab.js` 文件**
 
@@ -589,7 +585,6 @@ Bootstrap 允许免费使用 `Glyphicons` 图标，所有图标详见：[组件 
 ![[Pasted image 20230125193442.png]]
 
 # 警告框
-#JS组件 
 
 **需要引入 Bootstrap JS 支持，对应 `alert.js` 文件**
 
@@ -608,7 +603,6 @@ Bootstrap 允许免费使用 `Glyphicons` 图标，所有图标详见：[组件 
 ![[Pasted image 20230125205544.png]]
 
 # 模态框
-#JS组件
 
 **导航需要引入 Bootstrap JS 支持，对应 `modal.js` 文件**
 
@@ -690,7 +684,6 @@ $(function() {
 - `modal('handleUpdate')`：重新计算模态框大小以更新滚动条状态，仅当模态框在打开时高度会发生变化时使用
 
 # 隐藏域
-#JS组件 
 
 **导航需要引入 Bootstrap JS 支持，对应 `collapse.js` 文件**
 
@@ -764,7 +757,6 @@ $(function() {
 | parent | false<br>选择器 | false  | 被选择器选中的元素内所有子元素中的隐藏域只会展开一个，当有新域展开时其他域都会关闭 |
 
 # 轮播
-#JS组件 
 
 **导航需要引入 Bootstrap JS 支持，对应 `carousel.js` 文件**
 

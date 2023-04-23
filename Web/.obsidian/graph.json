@@ -27,6 +27,13 @@
         "a": 1,
         "rgb": 14701138
       }
+    },
+    {
+      "query": "path:库与工具",
+      "color": {
+        "a": 1,
+        "rgb": 5431378
+      }
     }
   ],
   "collapse-display": false,
@@ -39,6 +46,6 @@
   "repelStrength": 15,
   "linkStrength": 1,
   "linkDistance": 233,
-  "scale": 0.22920135941749742,
-  "close": false
+  "scale": 0.22920135941749803,
+  "close": true
 }
