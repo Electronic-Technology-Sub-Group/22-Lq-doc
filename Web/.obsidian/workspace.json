@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "630a7fa3ff63d0e1",
+            "id": "ba4b215ebc6a21ed",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NodeJS/NodeJS.md",
+                "file": "JavaScript/JS WebAPI.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -21,20 +21,7 @@
             }
           },
           {
-            "id": "e6a110a91374068d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "NodeJS/NodeJS.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3f78f971d7eef7da",
+            "id": "a87e2f7c599c68c6",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -47,7 +34,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -170,8 +157,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -185,17 +171,27 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "3f78f971d7eef7da",
+  "active": "a87e2f7c599c68c6",
   "lastOpenFiles": [
-    "库与工具/Swiper.md",
+    "JavaScript/JS WebAPI.md",
+    "NodeJS/Express.md",
+    "NodeJS/NodeJS.md",
+    "resources/media/Pasted image 20230425004106.png",
     "库与工具/NPM 全局工具.md",
+    "库与工具/art-template.md",
+    "CSS/修饰.md",
+    "CSS/选择器.md",
+    "CSS/颜色与背景.md",
+    "CSS/移动适配.md",
+    "CSS/显示模式，浮动与定位.md",
+    "CSS/盒模型.md",
+    "CSS/Tips.md",
+    "CSS/CSS.md",
+    "库与工具/Swiper.md",
     "库与工具/flexible.js.md",
     "库与工具/ECharts.md",
     "库与工具/CommonJS.md",
     "库与工具/axios.md",
-    "库与工具/art-template.md",
-    "NodeJS/NodeJS.md",
-    "NodeJS/Express.md",
     "NodeJS",
     "库与工具/i5ting_toc.md",
     "未命名.canvas",
@@ -206,15 +202,6 @@
     "CSS/_pages/font.md",
     "CSS/_pages/clear.md",
     "CSS/_pages/color.md",
-    "CSS/_pages/border-width.md",
-    "CSS/_pages/border-style.md",
-    "CSS/_pages/border-right.md",
-    "CSS/_pages/border-left.md",
-    "CSS/_pages/border-image.md",
-    "CSS/_pages/border-color.md",
-    "CSS/_pages/border-box.md",
-    "CSS/盒模型.md",
-    "CSS/_pages/border-bottom.md",
     "库与工具/未命名",
     "NodeJS",
     "resources/media/Pasted image 20230420164539.png",
@@ -228,7 +215,6 @@
     "resources/media/-1d8a4c31e52071ba.jpg",
     "resources/media/Pasted image 20221208011012.png",
     "resources/media/Pasted image 20221218105540.png",
-    "resources/media/Pasted image 20230123170329.png",
     "resources/media/video2.mp4",
     "resources/source",
     "其他",

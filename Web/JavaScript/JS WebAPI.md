@@ -315,3 +315,34 @@ success({ ... })
 ### CORS
 
 W3C 标准，属于 Ajax 跨域解决方案，支持 GET 和 POST 请求，需要依赖服务器端配合
+
+#### 跨域限制
+
+要解除浏览器的跨域访问限制，只需要服务器在响应头中添加以下数据即可：
+
+```
+Access-Control-Allow-Origin: <origin>|*
+```
+
+- `<origin>|*`：允许的域名
+
+
+
+默认情况下，CORS 只支持有限几个请求头：
+- `Accept`
+- `Accept-Language`
+- `Content-Language`
+- `DPR`
+- `Downlink`
+- `Save-Data`
+- `Viewport-Width`
+- `Width`
+- `Content-Type=text/plan|mulitpart/form-data|application/x-www-form-urlencode`
+若需要其他响应头，使用 `Access-Control-Allow-Headers` 响应头进行声明，多个头之间用 `,` 分隔
+
+默认情况下，CORS 只支持 GET，POST，HEAD 请求，若要求其他请求，可在服务器返回的 `Access-Control-Allow-Methods` 响应头进行声明
+
+#### 请求类型
+
+- 简单请求：GET，POST，HEAD 之一请求方式，请求头只包含 CORS 支持的 9 个响应头，直接发送到服务器
+- 预检请求：浏览器先发送 OPTION 请求到服务器，服务器检查请求通过后服务器再发送实际请求

@@ -28,7 +28,17 @@ NodeJS 的模块遵循 [[CommonJS]]  的模块化规范；自 NodeJS 13.2 开始
 
 注意：路径使用相对路径时，起始路径为 node 命令执行时的目录
 - `__dirname`：当前文件所在目录
+	- ES Module 环境使用 `import.meta.url`，使用 `url` 模块的 `fileURLToPath` 转换成目录
 - `__filename`：当前文件所在地址
+	- ES Module 环境使用 `path` 和 `url` 共同获取
+
+```javascript
+import {dirname} from 'path'
+import {fileURLToPath} from 'url'
+
+const __filename = fileURLToPath(import.meta.url)
+const __dirname = dirname(__filename)
+```
 
 ## path
 
