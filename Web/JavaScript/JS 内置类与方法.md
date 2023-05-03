@@ -40,6 +40,7 @@ let a = [1, 2, "abc"]
 - `push(...)`，`unshift(...)`：向数组后/前添加若干元素并返回数组长度
 - `pop()`，`shift()`：删除最后一个/第一个元素并返回元素值
 - `splice(start, count=length-start)`：从 `start` 位置删除 `count` 个元素，也可以用于替换数组单元
+- `slice(first=0, last=arr.length)`：数组切片，返回部分数组数据，原数组不变
 - `map, forEach, filter` 等不会修改原始数组
 - `find, findIndex` 用于查找元素
 - `every, some` 用于检查元素是否符合某些条件
@@ -51,6 +52,15 @@ let a = [1, 2, "abc"]
 - `Array.from(obj)`：将伪数组转化为数组
 
 *伪数组：只有 `0, 1, ..., n` 个可通过索引访问的元素和 `length` 属性的对象，不要求实现方法*
+
+### ES6
+
+- `Array.from`, `Array.of` 工厂方法
+- `forEach`, `map`, `filter`, `some`, `every`, `reduce` 等流式处理方法
+- `indexOf`, `find`, `findIndex`, `includes` 等查找方法
+- `entries, keys`, `values` 等遍历方法
+- `fill` 填充
+- `flat` 平展
 
 ## 封装类
 

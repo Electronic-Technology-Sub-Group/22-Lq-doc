@@ -11,7 +11,7 @@ NodeJS 是一个用于的后端 [[JavaScript]] 运行时（运行环境），基
 - 自定义模块
 - 第三方模块
 
-NodeJS 的模块遵循 [[CommonJS]]  的模块化规范；自 NodeJS 13.2 开始，NodeJS 全面支持 ES6 Module 规范可用于替代 CommonJS
+NodeJS 的模块遵循 [[CommonJS]]  的模块化规范；自 NodeJS 13.2 开始，NodeJS 全面支持 ES6 Module 规范可用于替代 CommonJS，只需要在 `package.json` 中添加 `"type": "module"` 即可
 
 # 内置模块
 
@@ -151,3 +151,15 @@ nrm use 源名称
 - 加载项目
 	- 从当前项目的 `node_modules` 文件夹中加载
 	- 逐级向上，查找父文件夹的 `node_modules` 文件夹
+
+## NPM 全局工具
+
+### i5ting_toc
+
+该工具可用于将 markdown 文件转换为 HTML
+
+### nodemon
+
+用于在修改 node 项目后自动重启项目
+
+当运行项目时，使用 `nodemon` 而不是 `node` 即可

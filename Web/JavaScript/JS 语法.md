@@ -350,30 +350,26 @@ Child.prototype.constructor = Child
 
 `instanceof`：查找每一个原型对象的 constructor 对象，判断其是否包含给定构造函数
 
+### 组合继承
+
+原型继承不会继承父类的成员变量，只继承了原型（通常是方法）。可以在原型继承的基础上，通过调用父类的构造将默认成员复制过来，称为组合继承
+
+```javascript
+function Parent() { /* ... */}
+
+function Child() {
+	// 组合继承
+	Parent.call(this, ...)
+	// do something
+}
+
+// 原型继承
+Child.prototype = new Parent()
+Child.prototype.constructor = Child
+```
+
 # 异常处理
 
 - 抛异常：`throw 异常信息`，通常来说异常信息使用 `new Error(msg)` 包含栈信息
 - 捕获：`try { ... } catch(msg) { ... } finally { ... }`
 - `debugger`：关键字，通知浏览器添加一个调试断点
-
-# 专题
-
-## 对象拷贝
-
-- 浅拷贝
-	- 数组：`Array.concat([], arr)`，`[...arr]`
-	- 对象：`Object.assign({}, obj)`，`{...obj}`
-- 深拷贝：递归/三方库lodash或cloneDeep/JSON序列化后反序列化
-
-## this
-
-1. 对于一般函数，this 指向调用函数的对象，省略一般是 window（浏览器中）
-	- 事件回调中，this 指向触发事件的元素
-2. 对于箭头函数，其本身没有 this，this 为作用域链中的 this，为其最近作用域中的 this
-3. 原型函数和构造中指向调用的对象名
-4. 使用 `call`，`apply`，`bind` 可以修改 this 指向
-
-## 严格模式
-
-添加一句 `'user strict'`
-

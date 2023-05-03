@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "ba4b215ebc6a21ed",
+            "id": "e9d4bf6e0b8e6984",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JavaScript/JS WebAPI.md",
+                "file": "Vue/Vue - 基础用法.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -21,20 +21,45 @@
             }
           },
           {
-            "id": "a87e2f7c599c68c6",
+            "id": "cc74c4dcda717f8f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NodeJS/Express.md",
+                "file": "Vue/Vue.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d3e4abffa3f09aef",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Vue/Vue.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2283aff569569c7d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Vue/Vue - 基础用法.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -63,7 +88,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#JS组件",
+                "query": "npm",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -100,7 +125,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "NodeJS/Express.md",
+                "file": "Vue/Vue - 基础用法.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "NodeJS/Express.md",
+                "file": "Vue/Vue - 基础用法.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +165,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "NodeJS/Express.md"
+                "file": "Vue/Vue - 基础用法.md"
               }
             }
           },
@@ -171,37 +196,42 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "a87e2f7c599c68c6",
+  "active": "e9d4bf6e0b8e6984",
   "lastOpenFiles": [
-    "JavaScript/JS WebAPI.md",
+    "Vue/Vue.md",
+    "Vue/Vue - 基础用法.md",
+    "resources/media/Pasted image 20230430150723.png",
+    "Vue/Vue - vue.cli.md",
+    "NodeJS/JWT 相关.md",
     "NodeJS/Express.md",
-    "NodeJS/NodeJS.md",
-    "resources/media/Pasted image 20230425004106.png",
-    "库与工具/NPM 全局工具.md",
-    "库与工具/art-template.md",
-    "CSS/修饰.md",
-    "CSS/选择器.md",
-    "CSS/颜色与背景.md",
-    "CSS/移动适配.md",
-    "CSS/显示模式，浮动与定位.md",
-    "CSS/盒模型.md",
-    "CSS/Tips.md",
-    "CSS/CSS.md",
-    "库与工具/Swiper.md",
-    "库与工具/flexible.js.md",
-    "库与工具/ECharts.md",
-    "库与工具/CommonJS.md",
-    "库与工具/axios.md",
-    "NodeJS",
-    "库与工具/i5ting_toc.md",
-    "未命名.canvas",
-    "库与工具/Bootstrap/Bootstrap 组件.md",
-    "JavaScript/JS ES6 标准.md",
     "JavaScript/JavaScript.md",
-    "CSS/_pages/font-size.md",
-    "CSS/_pages/font.md",
-    "CSS/_pages/clear.md",
-    "CSS/_pages/color.md",
+    "NodeJS/NodeJS.md",
+    "NodeJS/Babel.md",
+    "库与工具/art-template.md",
+    "库与工具/axios.md",
+    "库与工具/CommonJS.md",
+    "库与工具/ECharts.md",
+    "库与工具/flexible.js.md",
+    "库与工具/jQuery.md",
+    "库与工具/Swiper.md",
+    "NodeJS/NPM 全局工具.md",
+    "NodeJS/Webpack.md",
+    "HTTP.md",
+    "JavaScript/JS WebAPI.md",
+    "开发模式.md",
+    "resources/media/Pasted image 20230430114805.png",
+    "Vue/VUE.md",
+    "NodeJS/Babel/配置 Babel.md",
+    "NodeJS/Babel/调用 Babel.md",
+    "resources/media/Pasted image 20230430110443.png",
+    "NodeJS/Webpack/安装 Webpack.md",
+    "NodeJS/Webpack/配置 Webpack.md",
+    "resources/media/Pasted image 20230430105309.png",
+    "resources/media/Pasted image 20230430104652.png",
+    "Vue",
+    "resources/media/Pasted image 20230425004106.png",
+    "NodeJS",
+    "未命名.canvas",
     "库与工具/未命名",
     "NodeJS",
     "resources/media/Pasted image 20230420164539.png",
@@ -210,11 +240,6 @@
     "HTTP",
     "库与工具/_pages",
     "resources/media/Pasted image 20230417072051.png",
-    "resources/media/Pasted image 20230415023405.png",
-    "resources/media/Pasted image 20230414110015.png",
-    "resources/media/-1d8a4c31e52071ba.jpg",
-    "resources/media/Pasted image 20221208011012.png",
-    "resources/media/Pasted image 20221218105540.png",
     "resources/media/video2.mp4",
     "resources/source",
     "其他",

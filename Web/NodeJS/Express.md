@@ -1,4 +1,4 @@
-#npm库
+#js库
 
 高度包容、快速而极简的 Node.js Web 框架，封装了 `http` 模块
 
@@ -138,6 +138,48 @@ function errMiddleware(err, req, res, next) {
 - body-parser：用于解析表单数据
 - cors：允许服务器跨域 Ajax 请求响应解除浏览器跨域访问限制
 	- 若服务器同时使用 CORS 和 JSONP，应当先注册 JSONP 处理接口后注册 CORS 插件，以防冲突
+- express-jwt：用于全局，允许服务器使用 JWT：[[JWT 相关#express-jwt]]
+- express-session：用于全局，允许服务器使用 Session，为 `req` 增加 `session` 对象
+
+```javascript
+import session from 'express-session'
+
+app.use(session({
+	secret: "任意字符串",
+	resave: false,
+	saveUninitialized: true
+}))
+```
+
+之后就可以在 `req` 上操作 `session` 了
+
+```javascript
+app.post('/login', (req, res) => {
+    // 身份校验
+    let pass = false
+    // ...
+
+	if (pass) {
+		// 保存 Session 信息
+		req.session.user = req.body
+		req.session.islogin = true
+	}
+	res.send({ ... })
+})
+
+app.get('/username', (req, res) => {
+	// 读取 Session 信息
+	if (req.session.islogin) {
+		return res.send({ ... , username = req.session.user })
+	}
+})
+
+app.get('/logout', (req, res) => {
+	// 销毁 Session 信息
+	req.session.destory()
+	res.send({ ... })
+})
+```
 
 ## 自定义中间件
 
