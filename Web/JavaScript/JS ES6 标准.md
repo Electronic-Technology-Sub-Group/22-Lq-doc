@@ -150,3 +150,6 @@ thenFs.loadFile('/file1', 'utf-8')
 将多个 `Promise` 聚合成一个 `Promise` 并使之并行运行的操作主要有 `Promise.all(...)` 和 `Promise.race(...)` 两个方法，其区别在于：
 - `all` 方法会在所有 `Promise` 都结束时调用 `then` 的回调进行处理
 - `race` 方法会在任意一个 `Promise` 结束时调用 `then` 回调处理
+
+# class
+#未完成 

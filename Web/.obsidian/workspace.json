@@ -4,59 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "95f8c1feb2de1bae",
+        "id": "186f5fac288eb6be",
         "type": "tabs",
         "children": [
           {
-            "id": "e9d4bf6e0b8e6984",
+            "id": "77631bd62945bd74",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Vue/Vue - 基础用法.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "cc74c4dcda717f8f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Vue/Vue.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d3e4abffa3f09aef",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Vue/Vue.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2283aff569569c7d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Vue/Vue - 基础用法.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -88,7 +44,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "npm",
+                "query": "perspective",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -102,6 +58,14 @@
             "type": "leaf",
             "state": {
               "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "714aeed128ac2701",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
               "state": {}
             }
           }
@@ -125,7 +89,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Vue/Vue - 基础用法.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -142,7 +105,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Vue/Vue - 基础用法.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -164,9 +126,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Vue/Vue - 基础用法.md"
-              }
+              "state": {}
             }
           },
           {
@@ -196,50 +156,51 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "e9d4bf6e0b8e6984",
+  "active": "77631bd62945bd74",
   "lastOpenFiles": [
+    "JavaScript/JS ES6 标准.md",
+    "Vue/Vue - Vue 项目.md",
+    "Vue/Vue - 应用基础.md",
+    "Vue/Vue - 模板语法.md",
     "Vue/Vue.md",
-    "Vue/Vue - 基础用法.md",
+    "resources/media/Pasted image 20230515175206.png",
+    "resources/media/Pasted image 20230515175154.png",
+    "resources/media/Pasted image 20230515174108.png",
+    "Vue/Vue - cli.md",
+    "resources/media/Pasted image 20230515131731.png",
+    "resources/media/Pasted image 20230515011048.png",
+    "JavaScript/JS WebAPI.md",
+    "CSS/动画与变换.md",
+    "CSS/_pages/position.md",
+    "CSS/_pages/坐标变换函数.md",
+    "JavaScript/Typescript/TS 坑.md",
+    "resources/media/Pasted image 20230510211352.png",
+    "JavaScript/Typescript/TypeScript 参考.md",
+    "JavaScript/Typescript/TypeScript 简介.md",
+    "JavaScript/Typescript/TypeScript.md",
+    "JavaScript/JS ES8 标准.md",
+    "NodeJS/NodeJS.md",
+    "JavaScript/JS 语法.md",
+    "JavaScript/JS 内置类与方法.md",
+    "JavaScript/JavaScript.md",
+    "resources/media/Pasted image 20230508153819.png",
+    "JavaScript/Typescript/TypeScript 声明.md",
+    "resources/media/Pasted image 20230504110211.png",
     "resources/media/Pasted image 20230430150723.png",
-    "Vue/Vue - vue.cli.md",
     "NodeJS/JWT 相关.md",
     "NodeJS/Express.md",
-    "JavaScript/JavaScript.md",
-    "NodeJS/NodeJS.md",
     "NodeJS/Babel.md",
     "库与工具/art-template.md",
     "库与工具/axios.md",
     "库与工具/CommonJS.md",
-    "库与工具/ECharts.md",
-    "库与工具/flexible.js.md",
-    "库与工具/jQuery.md",
-    "库与工具/Swiper.md",
-    "NodeJS/NPM 全局工具.md",
-    "NodeJS/Webpack.md",
-    "HTTP.md",
-    "JavaScript/JS WebAPI.md",
-    "开发模式.md",
     "resources/media/Pasted image 20230430114805.png",
-    "Vue/VUE.md",
-    "NodeJS/Babel/配置 Babel.md",
-    "NodeJS/Babel/调用 Babel.md",
-    "resources/media/Pasted image 20230430110443.png",
-    "NodeJS/Webpack/安装 Webpack.md",
-    "NodeJS/Webpack/配置 Webpack.md",
-    "resources/media/Pasted image 20230430105309.png",
-    "resources/media/Pasted image 20230430104652.png",
     "Vue",
-    "resources/media/Pasted image 20230425004106.png",
     "NodeJS",
     "未命名.canvas",
     "库与工具/未命名",
     "NodeJS",
-    "resources/media/Pasted image 20230420164539.png",
-    "resources/media/Pasted image 20230420163526.png",
-    "resources/media/Pasted image 20230420163003.png",
     "HTTP",
     "库与工具/_pages",
-    "resources/media/Pasted image 20230417072051.png",
     "resources/media/video2.mp4",
     "resources/source",
     "其他",

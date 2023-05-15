@@ -64,6 +64,14 @@
               "type": "starred",
               "state": {}
             }
+          },
+          {
+            "id": "3bee1a39effbde4d",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
           }
         ]
       }
@@ -148,7 +156,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "235a39576907bb2b",
+  "active": "63bd40066456a1dc",
   "lastOpenFiles": [
     "_resources/image/Appraiserres.dll",
     "Tools.md",

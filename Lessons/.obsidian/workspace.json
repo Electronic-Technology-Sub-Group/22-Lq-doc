@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "初等数论/同余式.md",
+                "file": "初等数论/质数与算数基本定理.md",
                 "mode": "source",
                 "source": false
               }
@@ -64,6 +64,14 @@
               "type": "starred",
               "state": {}
             }
+          },
+          {
+            "id": "2d8d4d01c16724a7",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
           }
         ]
       }
@@ -85,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "初等数论/同余式.md",
+                "file": "初等数论/质数与算数基本定理.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "初等数论/同余式.md",
+                "file": "初等数论/质数与算数基本定理.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "初等数论/同余式.md"
+                "file": "初等数论/质数与算数基本定理.md"
               }
             }
           }
@@ -149,8 +157,9 @@
   },
   "active": "929640a6e529381b",
   "lastOpenFiles": [
-    "初等数论/同余.md",
+    "初等数论/整数可除性.md",
     "初等数论/同余式.md",
+    "初等数论/同余.md",
     "初等数论/_初等数论.md",
     "初等数论/高次同余.md",
     "初等数论/欧拉函数与简化剩余系.md",

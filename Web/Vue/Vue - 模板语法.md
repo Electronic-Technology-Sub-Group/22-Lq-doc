@@ -262,9 +262,9 @@ const vm = Vue.createApp({
 - `.prevent.self` 会阻止当前元素及其子元素的所有对应事件默认行为
 - `.self.prevent` 仅会阻止当前元素对应事件默认行为，子元素无影响
 
-# 绑定样式
+## 绑定样式
 
-## 绑定 class
+### 绑定 class
 
 绑定的属性与原始属性是可以并存的，如 class 属性
 
@@ -297,7 +297,7 @@ let vm = Vue.createApp({
 
 `:class` 还允许接受一个数组，数组内存在多个对象，每个对象都遵循上述规则，以此接受多方控制
 
-## 绑定样式
+### 绑定样式
 
 Vue 同样支持绑定单独的 CSS 样式属性，使用 `:style='{ 属性名:值, ... }'` 即可。注意其中带连字符的属性要替换成小写驼峰，或用引号包围
 
@@ -318,3 +318,189 @@ let vm = Vue.createApp({
 ```
 
 类似 `:class`，`:style` 同样支持计算属性和数组
+
+## 条件渲染
+
+当且仅当条件为 `true` 时显示元素
+
+### v-if
+
+当值为 `false` 时从 DOM 中删除
+
+```html
+<div id='app'>
+	<div v-if='mode == 1'> 该块仅在 mode == 1 时显示 </div>
+</div>
+```
+
+```javascript
+let vm = Vue.createApp({
+	data() {
+		return {
+			mode: 1
+		}
+	}
+}).mount('#app')
+```
+
+同系列的标签还有 `v-else-if` 和 `v-else`，放在**同一层级**不同的标签上（即兄弟标签）用来决定显示哪一个
+
+```html
+<div id="app">  
+  <p v-if="mode == 1">Showing v-if directive content</p>  
+  <p v-else-if="mode == 2">Showing v-else-if directive content</p>  
+  <p v-else>Showing v-else directive content</p>  
+  
+  <script src="https://unpkg.com/vue@next"></script>  
+  <script src="app.js"></script>  
+</div>
+```
+
+注意：必须在同一层级，可以是不同类型的标签
+
+### 模板标签
+
+如果想在不破坏文档结构的情况下，同时控制多个元素的存在和删除，单一使用 `v-if` 系列标签则无法控制。这时候可以通过 Vue 提供的一个新标签 `<template>`
+
+`<template>` 标签中的元素会在实际运行中，同时位于其父节点（即可以认为该层标签不存在），但又可以受到 Vue 的 `v-if` 的影响
+
+```html
+<div class="app">
+  <p v-if="mode == 1">Showing v-if directive content</p>
+  <p v-else-if="mode == 2">Showing v-else-if directive content</p>
+  <template v-else-if="mode == 3">
+    <p>Bonus content</p>
+    <h3>v-else-if</h3>
+  </template>
+  <p v-else>Showing v-else directive content</p>
+
+  ...
+</div>
+```
+
+当 `mode == 3` 时，其文档实际是这样的：
+
+![[Pasted image 20230510211352.png]]
+
+可以看到，`template` 层标签实际是不存在的，只会用于条件渲染的判断用
+
+### v-show
+
+与 `v-if` 用法类似，但其使用的是 `display: none` 隐藏，而不是将标签从 DOM 树上移除。
+- `v-show` 只用于控制一个元素，不存在表示分支的 `v-show`
+- `v-show` 不支持 `<template>` 标签
+- 性能上，`v-if` 在加载时决定某分支更便捷，因为其他分支不需要加入 DOM，也就不需要处理他们的渲染问题；而 `v-show` 在显示时切换更廉价，因为不需要向 DOM 树添加或删除元素
+	- `v-if` 适合在加载时就确定的元素分支选择，或几乎不会再发生变化
+	- `v-show` 适合在显示时动态表示的元素显示/隐藏，即需要经常改变
+
+事实上，如果只有几个元素，性能影响不大，只有达到数百甚至更高的量级时才有明显的性能差异
+
+## 列表渲染
+
+列表渲染可以将一个数组、对象等数据按特定的模式和模板渲染到页面中，使用 `v-for` 指令
+
+### 遍历数组
+
+```javascript
+let vm = Vue.createApp({
+    data() {
+        return {
+            birds: ['Pigeons', 'Eagles', 'Doves', 'Parrots']
+        }
+    }
+}).mount('#app')
+```
+
+```html
+<div id="app">
+  <ul>
+	<!-- 将循环遍历 birds 数组中的每个元素，并输出多条诸如下面格式的 li -->
+	<!-- <li :class="Pigeons">Pigeons</li> -->
+    <li v-for="bird in birds" :class="bird">{{bird}}</li>
+  </ul>
+</div>
+```
+
+- 使用 `v-for="value in array"` 可以用于遍历数组，其中 value 为数组元素
+- 使用 `v-for="(value, index) in array"` 可带索引遍历数组元素
+
+使用 `v-for` 添加的变量，在所在元素及其子元素中都适用，支持 `.` 访问对象属性
+
+```javascript
+let vm = Vue.createApp({
+    data() {
+        return {
+            people: [
+                { name: "Join", age: 20 },
+                { name: "Rick", age: 18 },
+                { name: "Amy", age: 33 }
+            ]
+        }
+    }
+}).mount('#app')
+```
+
+```html
+<div id="app">
+  <ul>
+    <li v-for="person in people">
+      <div>{{person.name}}</div>
+      <div>{{person.age}}</div>
+    </li>
+  </ul>
+</div>
+```
+
+### 遍历对象  
+
+`v-for` 也可以用于遍历对象。当遍历的对象是一个非数组的普通对象时，其第一个变量代表属性值，第二个代表属性名，第三个变量代表索引
+
+```html
+<div id="app">
+  <ul>
+    <li v-for="person in people">
+      <div v-for="(value, key) in person">{{key}}={{value}}</div>
+    </li>
+  </ul>
+</div>
+```
+
+### :key
+
+仅使用 `v-for` 有时并不能完全符合我们的预期 - 由于操作 DOM 开销很大，VUE 通常只会改变列表中变化的值，而不会将整个动态生成的结构进行整体移动和更改，如
+
+```html
+<div id="app">
+  <ul>
+    <li v-for="person in people">
+      <div>{{person.name}}</div>
+      <div>{{person.age}}</div>
+      <!-- 这里，假设每个人都写了点东西 -->
+      <input type="text">
+    </li>
+  </ul>
+</div>
+```
+
+我们的预期可能是，当我 `people` 对象中的顺序发生了改变，我们想 `input` 的内容也会随着元素顺序的变化而变化。而实际上，只有两个 `<div>` 的值发生了变更
+
+这时候，我们需要将 `<li>` 标签绑定一个 `key`，表示该块将与对应的 `key` 进行绑定
+
+```html
+<div id="app">
+  <ul>
+    <!-- 绑定 key 属性，生成的 li 元素与根据对象算出的 key 相匹配 -->
+    <!-- 类似一个 Map -->
+    <li v-for="person in people" :key="person.name">
+      <div>{{person.name}}</div>
+      <div>{{person.age}}</div>
+      <!-- 这里，假设每个人都写了点东西 -->
+      <input type="text">
+    </li>
+  </ul>
+</div>
+```
+
+注意 `:key` 应修饰 `v-for` 所在的元素
+
+*当使用 `v-for` 时发生其他奇奇怪怪的问题，如动画不符合预期，可以试试 `:key` ，很大概率会解决*
