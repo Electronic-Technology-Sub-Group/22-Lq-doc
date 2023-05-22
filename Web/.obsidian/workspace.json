@@ -4,18 +4,37 @@
     "type": "split",
     "children": [
       {
-        "id": "186f5fac288eb6be",
+        "id": "97e0469e17190b0f",
         "type": "tabs",
         "children": [
           {
-            "id": "77631bd62945bd74",
+            "id": "11cdcc6e2187febc",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Vue/Vue.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b2b4cf839a17c3fc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Vue/Vue - CSS 动画.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -44,8 +63,8 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "perspective",
-                "matchingCase": false,
+                "query": "",
+                "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -89,6 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Vue/Vue - CSS 动画.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,6 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Vue/Vue - CSS 动画.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +147,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Vue/Vue - CSS 动画.md"
+              }
             }
           },
           {
@@ -156,47 +179,47 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "77631bd62945bd74",
+  "active": "b2b4cf839a17c3fc",
   "lastOpenFiles": [
-    "JavaScript/JS ES6 标准.md",
-    "Vue/Vue - Vue 项目.md",
+    "Vue/Vue.md",
+    "Vue/Vue - CSS 动画.md",
+    "Vue/Vue - 项目与组件.md",
     "Vue/Vue - 应用基础.md",
     "Vue/Vue - 模板语法.md",
-    "Vue/Vue.md",
+    "resources/media/Pasted image 20230522160841.png",
+    "未命名.canvas",
+    "resources/media/Pasted image 20230522081228.png",
+    "resources/media/Pasted image 20230522011417.png",
+    "resources/media/Pasted image 20230521210603.png",
+    "resources/media/Pasted image 20230521210124.png",
+    "resources/media/Pasted image 20230521203035.png",
+    "resources/media/Pasted image 20230521203026.png",
+    "resources/media/Pasted image 20230521202836.png",
+    "Vue/Vue - cli.md",
+    "JavaScript/Typescript/TypeScript 简介.md",
+    "JavaScript/Typescript/TypeScript 参考.md",
+    "JavaScript/Typescript/TypeScript.md",
+    "JavaScript/JS ES6 标准.md",
     "resources/media/Pasted image 20230515175206.png",
     "resources/media/Pasted image 20230515175154.png",
-    "resources/media/Pasted image 20230515174108.png",
-    "Vue/Vue - cli.md",
-    "resources/media/Pasted image 20230515131731.png",
-    "resources/media/Pasted image 20230515011048.png",
     "JavaScript/JS WebAPI.md",
     "CSS/动画与变换.md",
     "CSS/_pages/position.md",
     "CSS/_pages/坐标变换函数.md",
     "JavaScript/Typescript/TS 坑.md",
-    "resources/media/Pasted image 20230510211352.png",
-    "JavaScript/Typescript/TypeScript 参考.md",
-    "JavaScript/Typescript/TypeScript 简介.md",
-    "JavaScript/Typescript/TypeScript.md",
     "JavaScript/JS ES8 标准.md",
     "NodeJS/NodeJS.md",
     "JavaScript/JS 语法.md",
     "JavaScript/JS 内置类与方法.md",
     "JavaScript/JavaScript.md",
-    "resources/media/Pasted image 20230508153819.png",
     "JavaScript/Typescript/TypeScript 声明.md",
-    "resources/media/Pasted image 20230504110211.png",
-    "resources/media/Pasted image 20230430150723.png",
     "NodeJS/JWT 相关.md",
     "NodeJS/Express.md",
     "NodeJS/Babel.md",
     "库与工具/art-template.md",
     "库与工具/axios.md",
-    "库与工具/CommonJS.md",
-    "resources/media/Pasted image 20230430114805.png",
     "Vue",
     "NodeJS",
-    "未命名.canvas",
     "库与工具/未命名",
     "NodeJS",
     "HTTP",
