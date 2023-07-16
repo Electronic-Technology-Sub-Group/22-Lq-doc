@@ -155,6 +155,7 @@ print(word[-2]) # o
 下标中使用 `:` 连接两个数字表示切片，`str[m:n]` 返回字符串从 `str[m]` 开始到 `str[n]` （不含）的字符串。
 - 切片第一个值 `m` 省略时表示为 0
 - 切片最后一个值 `n` 省略时表示为字符串结尾
+- 可以有第三个 `:` 后接步长，默认 1
 
 ```python
 word = 'Python'  
@@ -170,6 +171,10 @@ print(word[3:])   # hon
 
 - `rjust`，`ljust`，`center`：使用空格扩充字符串长度并右/左/居中对齐，但字符串过长时不会截断字符串
 - `zfill`：字符串左侧充0，且可以识别正负号
+- `replace`, `split` 等
+- `strip(_chars=' ')`：去除前后的字符
+	- 默认去除空格，类似其它语言的 `trim`
+	- 去除的是前后参数字符串包含的所有字符，而不是参数字符串
 
 [文本序列类型 --- str](https://docs.python.org/zh-cn/3.11/library/stdtypes.html#textseq)
 [字符串的方法](https://docs.python.org/zh-cn/3.11/library/stdtypes.html#string-methods)
@@ -186,10 +191,17 @@ print(word[3:])   # hon
 使用 `[]` 创建，使用 `,` 分割每一个值，每个值的类型可以不同
 
 ```python
-list = [1, 2.0, 3 + 2j, "a", "b", "c"]  
+list = [1, 2.0, 3 + 2j, "a", "b", "c"]
 
 # [1, 2.0, (3+2j), 'a', 'b', 'c']
 print(list)
+```
+
+空列表使用 `list()` 或 `[]` 创建
+
+```python
+list1 = list()
+list2 = []
 ```
 
 也可以通过列表推导式创建，即通过循环或迭代的方式创建列表，通常表达为一个表达式，附带多个 `for` 和 `if` 子句：
@@ -265,10 +277,10 @@ print(list1)
 	- `lst.insert(p, x)`：在列表第 `p` 个元素之前插入元素 `x`
 - 移除
 	- `lst.remove(x)`：从列表中删除第一个值为 `x` 的元素，若未找到则抛出 `ValueError` 异常
-	- `lst.pop(i=len(lst)-1)`：从列表中删除指定位置的元素并返回被删除的元素
+	- `lst.pop(i=len(lst)-1)`：从列表中删除指定位置的元素并返回被删除的元素，相当于 `del lst[i]`
 	- `lst.clear()`：清空列表，相当于 `del a[:]`
-- 索引
-	- `lst.index(i, start=0, end=len(lst))`：返回列表中第 `i` 个元素，且 $start\leq i\leq end$
+- 查找
+	- `lst.index(i, start=0, end=len(lst))`：返回列表中第 `i` 个元素，且 $start\leq i\leq end$，找不到则抛出 `ValueError` 异常
 - 其他
 	- `lst.count(x)`：统计元素 `x` 出现的次数
 	- `lst.sort(*, key=None, reverse=False)`：排序，但不是所有的值都可以排序，要求列表内元素是互相可以比较大小的
@@ -328,7 +340,7 @@ q.popleft()
 元组通过一个括号创建，括号可省略，包含有限个元素，每个元素的类型可以不同
 
 ```python
-t = (1, 2.0, "hello")
+t = (1, 2.0, "hello") # 或 tuple()
 t2 = 1, 2.0, "hello"
 ```
 
@@ -363,6 +375,12 @@ range(start, stop, step=1)
 r = range(10)
 ```
 
+## 总结
+
+1. 序列都支持下标访问、切片等操作
+2. 可变序列都支持 pop、clear 等操作
+3. 使用 len 获取长度，max、min 可以获取最值，sorted 可用于排序
+
 # set
 
 集合 set 是一种由不重复元素组成的无序容器，通过 `{}` 或 `set()` 创建，但空集合只能通过 `set()` 创建
@@ -371,7 +389,7 @@ r = range(10)
 s = {1, 2, 3}
 ```
 
-集合的常见用法主要有成员检测，消除重复元素等，支持的操作包括合集，交集，差集，对称差分等数学运算
+集合的常见用法主要有成员检测，消除重复元素等，支持的操作包括合集（`union`），交集，差集（`difference`），对称差分等数学运算
 
 集合也支持通过列表推导式的形式创建
 
@@ -410,13 +428,11 @@ del tel["jack"]
 
 # 枚举
 
-# 类型与转换
-
-## type
+# type
 
 使用 `type(值)` 可以获取一个值的类型信息（class）
 
-## 转换
+# 转换
 
 使用 `类型(值)` 将对应值强转成某种类型
 - 任何对象都可以转换成字符串

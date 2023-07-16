@@ -46,6 +46,7 @@ f2.close()
 - `write()`：写入内容，返回写入的字符数
 - `readline()`：读取一行；若达到末尾，返回空字符串
 	- `readlines()`：读取所有行到一个列表中，相当于 `list(file)`
+	- 也可以直接通过 `for line in file` 按行遍历文件
 - `tell()`：当前文件位置，二进制下为字节数，文本模式下意义未知
 	- `seek(offset, whence=0)` 可改变文件对象位置，相对 `whence` 偏移 
 		- 0：相对于文件开头
@@ -62,7 +63,7 @@ import json
 
 通过 `json.dump(obj, f)` 将文件序列化到文件
 
-通过 `json.load(f)` 将文件反序列化到一个对象
+通过 `json.load(f)` 将文件反序列化到一个对象（返回 list 或 dict）
 
 ## pickle
 

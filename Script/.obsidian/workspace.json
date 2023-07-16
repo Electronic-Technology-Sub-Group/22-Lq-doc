@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Readme.md",
+                "file": "Python3.11/Python 函数.md",
                 "mode": "source",
                 "source": false
               }
@@ -37,14 +37,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python3.11/Python 控制语句.md",
+                "file": "Python3.11/Python.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "73cc213e83a5562f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Python3.11/Python 输入输出.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -73,7 +85,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "__all",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -118,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Readme.md",
+                "file": "Python3.11/Python 输入输出.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Readme.md",
+                "file": "Python3.11/Python 输入输出.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Readme.md"
+                "file": "Python3.11/Python 输入输出.md"
               }
             }
           }
@@ -180,18 +192,21 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "c7403811314d2c89",
+  "active": "73cc213e83a5562f",
   "lastOpenFiles": [
-    "Python3.11/Python 语句及注释.md",
-    "Readme.md",
-    "Python3.11/Python 控制语句.md",
-    "Python3.11/Python 内置类型.md",
-    "Python3.11/Python 标准库.md",
-    "Python3.11/Python 输入输出.md",
-    "Python3.11/Python 类.md",
+    "Python3.11/Python 模块.md",
+    "Python3.11/Python 异常处理.md",
     "Python3.11/Python.md",
+    "Python3.11/Python 控制语句.md",
+    "Python3.11/Python 输入输出.md",
     "Python3.11/Python 函数.md",
+    "Python3.11/Python 内置类型.md",
     "Python3.11/Python 解释器.md",
-    "Python3.11/Python 模块.md"
+    "Python3.11/Python 标准库.md",
+    "Python3.11/Python 类.md",
+    "_resources/Pasted image 20230716122802.png",
+    "Python3.11/Python 语句及注释.md",
+    "_resources/Pasted image 20230716121524.png",
+    "Readme.md"
   ]
 }
