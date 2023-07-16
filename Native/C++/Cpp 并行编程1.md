@@ -1,0 +1,340 @@
+# 多线程
+
+## 线程
+
+线程模型位于 std::therad，支持 `join` 和 `detach`，还包括了线程id、cpu个数、`thread_handle` 休眠等功能。
+- `join()`：保证线程函数生命周期与线程对象生命周期相同
+- `detach()`：将线程与线程对象分离，**无法再次通过 `join` 等待线程完成**
+
+```c++
+int main() {
+    thread t([] {
+        for (int i = 0; i < 10; ++i) {
+            cout << " t: " << i << endl;
+        }
+    });
+    if (t.joinable()) {
+        t.detach();
+    }
+
+    thread tt([](int k) {
+        for (int i = 0; i < k; ++i) {
+            cout << "tt: " << i << endl;
+        }
+    }, 20);
+    if (t.joinable()) {
+        t.join();
+    }
+}
+```
+
+![[Pasted image 20230104221906.png]]
+
+## 互斥量
+
+互斥量位于 `std::mutex`，是一种用于线程同步的手段，保存共享数据
+- `std::mutex`：独占的互斥量，无法递归使用，不带超时功能
+- `std::recursive_mutex`：递归互斥量，可重入，不带超时功能
+- `std::timed_mutex`：带超时的互斥量，不能递归使用
+- `std::recursive_timed_mutex`：带超时的可递归互斥量
+
+```c++
+int main() {
+    mutex m;
+
+    auto func = [&](const string& name, int k) {
+        m.lock();
+        cout << "Running: " << name << " ";
+        for (int i = 0; i < k; ++i) {
+            cout << i << " ";
+        }
+        cout << endl;
+        m.unlock();
+    };
+
+    thread threads[5];
+    for (int i = 0; i < 5; ++i) {
+        string name {"Thread "};
+        name.append(to_string(i)).push_back('-');
+        threads[i] = thread(func, name, 10);
+    }
+
+/*
+Running: Thread 0- 0 1 2 3 4 5 6 7 8 9
+Running: Thread 1- 0 1 2 3 4 5 6 7 8 9
+Running: Thread 2- 0 1 2 3 4 5 6 7 8 9
+Running: Thread 3- 0 1 2 3 4 5 6 7 8 9
+Running: Thread 4- 0 1 2 3 4 5 6 7 8 9
+*/
+    for (auto &item: threads) {
+        item.join();
+    }
+}
+```
+
+可以看出，线程依次有序执行，共享资源（m）限制线程执行。
+
+### 锁
+
+锁配合互斥量使用，位于 `std::lock` 。动态释放锁资源，防止线程由于编码失误导致无法释放锁，主要有 `std::lock_guard` 和`std::unique_lock` 两种模式
+
+```c++
+// ...
+auto func = [&](const string& name, int k) {
+    unique_lock<mutex> lock(m);
+    // ...
+};
+// ...
+```
+
+仅将 `m.lock();` 修改为 `unique_lock<mutex> lock(m);`，移除 `m.unlock` 即可，线程会自动在执行完成后释放锁。
+
+`std::lock_guard` 更加轻量级，但 `std::unique_lock`有 `unlock` 函数可用于手动释放锁。
+
+## 原子类
+
+原子类 `std::atomic`，在读写时候保证自身的原子性，在所有数据本身是原子性时可不需要锁（数据本身实现的更细粒度的锁）。
+
+## std::call_once
+
+配合 `std::once_flag` 用于保证某一函数在多线程中仅执行一次
+
+```c++
+#include <iostream>
+#include <thread>
+#include <mutex>
+
+using namespace std;
+
+once_flag flag;
+
+void initialize() {
+    call_once(flag, [] () {
+        cout << "Invoke this" << endl;
+    });
+}
+
+int main() {
+    // Invoke this
+    thread threads[5];
+    for (auto & i : threads) {
+        i = thread(initialize);
+    }
+
+    for (auto &item: threads) {
+        item.join();
+    }
+
+    // All finished
+    cout << "All finished" << endl;
+}
+```
+
+## 内存屏障
+
+`volatile` 关键字修饰可建立内存屏障，保证主内存与各线程缓存（工作内存）数据的一致性。
+
+## std::condition_variable
+
+阻塞一个线程，并在满足某些条件或超时时唤醒线程，需要配合锁实现。以下为一个 `CountDownLatch` 的一个实现：
+
+```c++
+#include <iostream>
+#include <thread>
+#include <mutex>
+#include <condition_variable>
+#include <atomic>
+
+using namespace std;
+
+int main() {
+    atomic_int count {10};
+
+    mutex m;
+    condition_variable cv;
+
+    thread awaiting = thread([&] () {
+        unique_lock<mutex> lock(m);
+        while (count > 0) {
+            // 每 5ms 检查一次
+            cv.wait_for(lock, chrono::milliseconds(5));
+        }
+        cout << "Latch opened!" << endl;
+    });
+
+    thread count_down = thread([&] () {
+        while (count > 0) {
+            // 每 1s 计数一次
+            this_thread::sleep_for(chrono::seconds(1));
+            count--;
+            cout << "Count = " << count << endl;
+        }
+        cout << "CountDown finished!" << endl;
+    });
+
+    awaiting.join();
+    count_down.join();
+}
+```
+
+## std::future
+
+该类用于解决异步问题，作为异步结果的传递通道。
+- `std::future`：不可复制的异步结果
+- `std::shared_future`：可复制的异步结果，可存于容器中
+- `std::paclaged_task`：包装一个调用对象，绑定函数和`future`
+
+```c++
+#include <iostream>
+#include <thread>
+#include <future>
+
+using namespace std;
+
+int main() {
+    packaged_task<int(int)> task ([] (int value) {return value * 2;});
+    future<int> f = task.get_future();
+
+    thread(std::move(task), 10).detach();
+    // Result is 20
+    cout << "Result is " << f.get() << endl;
+}
+```
+
+- `std::promise`：包装一个值，绑定值和`future`
+
+```c++
+#include <iostream>
+#include <thread>
+#include <future>
+
+using namespace std;
+
+int main() {
+
+    promise<int> p;
+    future<int> f = p.get_future();
+
+    thread t_show_value([&] () {
+        cout << "Waiting for value..." << endl;
+        cout << "Future value is " << f.get() << endl;
+    });
+
+    thread t_get_value([&] () {
+        cout << "Getting value..." << endl;
+        this_thread::sleep_for(chrono::seconds(5));
+        cout << "Value updated." << endl;
+        p.set_value(10);
+    });
+
+    t_show_value.join();
+    t_get_value.join();
+}
+```
+
+### async
+
+`async` 对异步操作进一步封装：
+
+```c++
+async(std::launch::async | std::launch::deferred, func, args...);
+```
+
+最重要的还是 `std::launch::async | std::launch::deferred` 策略
+-   `std::launch::async`：任务执行在另一线程
+-   `std::launch::deferred`：任务执行在当前线程，延迟执行，在调用 `get` 或 `wait` 方法才会执行
+
+## thread-local
+
+相当于一个以线程为 key 的表，不同线程获取的值不同，常用于静态或全局成员
+
+```c++
+#include <iostream>
+#include <thread>
+
+using namespace std;
+
+thread_local int value;
+
+int main() {
+    thread ta([](){
+        value = 5;
+        this_thread::sleep_for(chrono::seconds(1));
+        // [a] Value is 5
+        cout << "[a] Value is " << value << endl;
+    });
+    thread tb([](){
+        value = 15;
+        this_thread::sleep_for(chrono::seconds(3));
+        // [b] Value is 15
+        cout << "[b] Value is " << value << endl;
+    });
+    thread tc([](){
+        value = 55;
+        this_thread::sleep_for(chrono::seconds(5));
+        // [c] Value is 55
+        cout << "[c] Value is " << value << endl;
+    });
+
+    ta.join();
+    tb.join();
+    tc.join();
+}
+```
+
+## 自动合流
+
+`std::jthread` 提供 `std:thread` 的一个变种
+- 析构函数调用 `stop_source.request_stop()`
+- 析构函数自动调用 `join()`
+
+```c++
+void Test() {
+    std::jthread th;
+    {
+        th = std::jthread([]() {
+            for (unsigned i = 1; i < 10; ++i) {
+                std::cout << i << " ";
+                Sleep(500);
+            }
+        });
+    }
+    // 没有使用join也不会崩溃,因为std::jthread的析构函数默认调用join()
+}
+
+int main(int argc, char* argv[]) {
+    Test();
+    return 0;
+}
+```
+
+## 可协作中断
+
+通过外部请求，影响线程内部是否中断并退出
+- `std::stop_token`：查询线程是否中断
+- `std::stop_source`：请求线程停止运行
+- `std::stop_callback`：终止时触发的回调函数
+
+```c++
+void Test() {
+    std::jthread th;
+    {
+        th = std::jthread([](const std::stop_token st) {
+            while (!st.stop_requested()) {
+                // 没有收到中断请求，则执行
+                std::cout << "1";
+                Sleep(500);
+            }
+        });
+    }
+    Sleep(10 * 1000);
+    // 外部发起中断请求
+    auto ret = th.request_stop();
+}
+
+int main(int argc, char* argv[]) {
+    Test();
+    std::cout << std::endl;
+    return 0;
+}
+```

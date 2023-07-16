@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "a10bc75e570f8a37",
+        "id": "10f3bb43697d8898",
         "type": "tabs",
         "children": [
           {
-            "id": "17b0b6132bf3b506",
+            "id": "f1d6e499b7b7ef44",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C++/模板.md",
+                "file": "Readme.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#include",
+                "query": "iostream",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -72,6 +72,14 @@
               "type": "empty",
               "state": {}
             }
+          },
+          {
+            "id": "fb3f053307b73028",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
           }
         ]
       }
@@ -93,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C++/模板.md",
+                "file": "Readme.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C++/模板.md",
+                "file": "Readme.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C++/模板.md"
+                "file": "Readme.md"
               }
             }
           },
@@ -164,35 +172,84 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "17b0b6132bf3b506",
+  "floating": {
+    "id": "85aa50a2ca28361e",
+    "type": "floating",
+    "children": [
+      {
+        "id": "7414e067d742bec3",
+        "type": "window",
+        "children": [
+          {
+            "id": "fe58200fd2acd53d",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "6412312db754c2e3",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "C++/C++.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 1646,
+        "y": 115,
+        "width": 797,
+        "height": 812,
+        "maximize": true,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "f1d6e499b7b7ef44",
   "lastOpenFiles": [
+    "__resources/value.png",
+    "Readme.md",
+    "__resources/Pasted image 20230714213946.png",
+    "__resources/Pasted image 20230714181106.png",
+    "__resources/Pasted image 20230104221906.png",
+    "__resources/Pasted image 20230104215444.png",
+    "__resources/hello world.png",
+    "__resources/float.png",
+    "__resources/bool.png",
+    "__resources/auto_with_initializer.png",
+    "__resources/auto_type.png",
+    "C++/C++.md",
+    "C++/Cpp 函数2.md",
+    "C++/Cpp 编译期2.md",
+    "C++/Cpp 编译期3.md",
+    "C++/Cpp 编译期1.md",
+    "C++/Cpp 编译期 附录.md",
+    "C++/Cpp 变量与基本类型1.md",
+    "C++/运算符.md",
+    "C++/Cpp 类型操作2.md",
+    "C++/静态反射.md",
+    "C++/Cpp 模板3.md",
+    "C++/Cpp 模板4.md",
+    "C++/Cpp 模板1.md",
+    "C++/预处理指令.md",
+    "C++/Cpp 模块.md",
+    "C++/Cpp 并行编程1.md",
+    "C++/_pages/consteval.md",
+    "C++/_pages/标识符.md",
+    "C++/_pages/关键字.md",
+    "C++/属性.md",
+    "C++/Cpp 模板2.md",
+    "C++/模板.md",
+    "C++/Cpp 并行编程2.md",
+    "C++/Cpp 类与对象3.md",
     "Vulkan",
     "OpenGL",
-    "EasyX 基本概念.md",
-    "EasyX/EasyX.md",
-    "C++/模板.md",
     "EasyX",
     "CMake",
-    "C++/C++.md",
-    "C++/协程.md",
-    "C++/标准库/cstring.md",
-    "C++/标准库/random.md",
-    "C++/标准库/string.md",
-    "C++/标准库/iostream.md",
-    "C++/反射/静态反射.md",
-    "C++/基本类型.md",
-    "C++/运算符.md",
-    "C++/异常处理.md",
-    "C++/_pages/consteval.md",
-    "C++/_pages/文本类型.md",
-    "C++/_pages/关键字.md",
-    "C++/预处理指令.md",
-    "C++/反射",
-    "C++/标准库/日期与时区.md",
-    "C++/标准库/标准库.md",
-    "C++/标准库/多线程模型.md",
-    "C++/标准库/memory.md",
-    "C++/模块.md",
-    "C++/属性.md"
+    "C++/反射"
   ]
 }

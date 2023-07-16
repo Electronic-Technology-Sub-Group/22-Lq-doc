@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "40eda170cffbdadb",
+        "id": "ee556a067952bc02",
         "type": "tabs",
         "children": [
           {
-            "id": "235a39576907bb2b",
+            "id": "d1765ffece89ba45",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data/Markdown/LaTeX.md",
+                "file": "Readme.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data/Markdown/LaTeX.md",
+                "file": "Readme.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Data/Markdown/LaTeX.md",
+                "file": "Readme.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data/Markdown/LaTeX.md"
+                "file": "Readme.md"
               }
             }
           }
@@ -156,17 +156,24 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "63bd40066456a1dc",
+  "active": "d1765ffece89ba45",
   "lastOpenFiles": [
+    "Data/Markdown/LaTeX.md",
+    "Readme.md",
+    "UML/UML 用例图.md",
+    "UML/UML 元素.md",
+    "UML/UML 工具.md",
+    "_resources/image/Pasted image 20230611040402.png",
+    "_resources/image/Pasted image 20230611040304.png",
+    "UML",
+    "git/Github SSH 登录.md",
+    "git/Git.md",
     "_resources/image/Appraiserres.dll",
-    "Tools.md",
     "Data/YAML.md",
     "Data",
     "Data/TOML.md",
     "Regex/Regex.md",
-    "Data/Markdown/LaTeX.md",
     "Regex",
-    "git/Git.md",
     "git/远程仓库.md",
     "git/分支操作.md",
     "git/基本操作.md",

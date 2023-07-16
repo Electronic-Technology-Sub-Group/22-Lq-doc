@@ -1,32 +1,9 @@
-# 格式化字符串
-
-- 格式化字符串字面值 `f"..."`：[格式规格迷你语言](https://docs.python.org/zh-cn/3.11/library/string.html#formatspec)
-- `str.format()`：[格式字符串语法](https://docs.python.org/zh-cn/3.11/library/string.html#formatstrings)
-
-```python
-a = "aaa"  
-b = "bbb"  
-c = "ccc"  
-
-# aaa, bbb, ccc
-print("{}, {}, {}".format(a, b, c))  
-# bbb aaa aaa bbb
-print("{1} {0} {0} {1}".format(a, b))  
-# aaa bbb ccc
-print("{aa} {bb} {cc}".format(aa=a, bb=b, cc=c))  
-# aaa bbb ccc
-print("{0} {1} {other}".format(a, b, other=c))
-
-```
-
-- 字符串切片与连接
-- 其他字符串方法
-	- `rjust`，`ljust`，`center`：使用空格扩充字符串长度并右/左/居中对齐，但字符串过长时不会截断字符串
-	- `zfill`：字符串左侧充0，且可以识别正负号
-
 # 标准输入输出
 
-标准输入输出流为 `sys.stdin` 和 `sys.stdout`
+- 标准输入输出流为 `sys.stdin` 和 `sys.stdout`
+- 使用 `print` 方法可将表达式结果进行输出到控制台，使用 `input()` 可从控制台输入字符串
+	- `input(sth)` 等效于 `print(sth); input()`
+	- `end` 可用于替换换行符：`print(sth, end=',')`
 
 # 读写文件
 

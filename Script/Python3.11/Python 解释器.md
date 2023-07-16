@@ -1,3 +1,27 @@
+Python 是一种解释性脚本语言，可以直接通过命令行运行。基本运行脚本方法如下：
+
+```bash
+python -c [command] [args]
+```
+
+该命令将运行一条 Python 语句，其中 `[command]` 为一条合法的 Python 语句，`[args]` 为其参数
+
+```bash
+python -m [module] [args]
+```
+
+该命令用于执行一个 Python 模块，其中 `[module]` 为模块名，`[args]` 为参数
+
+模块可接受
+- 有效绝对模块名，但不需要 `.py` 扩展名
+- 包名，包括命名空间包，此时将以 `<pkg>.__main__` 作为主模块执行
+
+```bash
+python [file]
+```
+
+`[file]` 指向一个 Python 脚本，将直接执行该脚本；或指向一个目录或 `zip` 包，将执行 `__main__.py` 
+
 # 非交互模式
 
 ```bash

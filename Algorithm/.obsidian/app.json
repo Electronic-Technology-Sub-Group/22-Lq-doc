@@ -3,5 +3,12 @@
   "attachmentFolderPath": "_resources/_images",
   "showLineNumber": false,
   "newLinkFormat": "shortest",
-  "newFileLocation": "current"
+  "newFileLocation": "current",
+  "pdfExportSettings": {
+    "includeName": true,
+    "pageSize": "Letter",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  }
 }

@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "97e0469e17190b0f",
+        "id": "a32f033bccbba72c",
         "type": "tabs",
         "children": [
           {
-            "id": "11cdcc6e2187febc",
+            "id": "054110a563a184d7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Vue/Vue.md",
+                "file": "XPath.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -21,12 +21,12 @@
             }
           },
           {
-            "id": "b2b4cf839a17c3fc",
+            "id": "3b794f60ac66aabe",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Vue/Vue - CSS 动画.md",
+                "file": "Readme.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Vue/Vue - CSS 动画.md",
+                "file": "Readme.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Vue/Vue - CSS 动画.md",
+                "file": "Readme.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Vue/Vue - CSS 动画.md"
+                "file": "Readme.md"
               }
             }
           },
@@ -179,13 +179,24 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "b2b4cf839a17c3fc",
+  "active": "3b794f60ac66aabe",
   "lastOpenFiles": [
-    "Vue/Vue.md",
-    "Vue/Vue - CSS 动画.md",
-    "Vue/Vue - 项目与组件.md",
-    "Vue/Vue - 应用基础.md",
+    "XPath.md",
+    "Readme.md",
+    "HTTP.md",
+    "开发模式.md",
+    "Bootstrap/Bootstrap 全局样式.md",
+    "Bootstrap/Bootstrap 组件.md",
     "Vue/Vue - 模板语法.md",
+    "Vue/Vue - 应用基础.md",
+    "Vue/Vue - 项目与组件.md",
+    "Vue/Vue - 动画.md",
+    "Vue/Vue.md",
+    "Vue/Vue - cli.md",
+    "NodeJS/Express.md",
+    "库与工具/axios.md",
+    "库与工具/art-template.md",
+    "resources/media/Pasted image 20230522174645.png",
     "resources/media/Pasted image 20230522160841.png",
     "未命名.canvas",
     "resources/media/Pasted image 20230522081228.png",
@@ -195,13 +206,11 @@
     "resources/media/Pasted image 20230521203035.png",
     "resources/media/Pasted image 20230521203026.png",
     "resources/media/Pasted image 20230521202836.png",
-    "Vue/Vue - cli.md",
     "JavaScript/Typescript/TypeScript 简介.md",
     "JavaScript/Typescript/TypeScript 参考.md",
     "JavaScript/Typescript/TypeScript.md",
     "JavaScript/JS ES6 标准.md",
     "resources/media/Pasted image 20230515175206.png",
-    "resources/media/Pasted image 20230515175154.png",
     "JavaScript/JS WebAPI.md",
     "CSS/动画与变换.md",
     "CSS/_pages/position.md",
@@ -209,15 +218,6 @@
     "JavaScript/Typescript/TS 坑.md",
     "JavaScript/JS ES8 标准.md",
     "NodeJS/NodeJS.md",
-    "JavaScript/JS 语法.md",
-    "JavaScript/JS 内置类与方法.md",
-    "JavaScript/JavaScript.md",
-    "JavaScript/Typescript/TypeScript 声明.md",
-    "NodeJS/JWT 相关.md",
-    "NodeJS/Express.md",
-    "NodeJS/Babel.md",
-    "库与工具/art-template.md",
-    "库与工具/axios.md",
     "Vue",
     "NodeJS",
     "库与工具/未命名",

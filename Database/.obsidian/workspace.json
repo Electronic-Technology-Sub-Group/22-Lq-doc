@@ -42,9 +42,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "fcc61acaf411090d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Readme.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -89,6 +101,14 @@
               "type": "starred",
               "state": {}
             }
+          },
+          {
+            "id": "e61101aa292bdc97",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
           }
         ]
       }
@@ -110,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MySQL.md",
+                "file": "Readme.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MySQL.md",
+                "file": "Readme.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MySQL.md"
+                "file": "Readme.md"
               }
             }
           }
@@ -171,10 +191,11 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "7abf81b769c373d2",
+  "active": "fcc61acaf411090d",
   "lastOpenFiles": [
-    "SQL.md",
     "MySQL.md",
+    "Readme.md",
+    "SQL.md",
     "MongoDB.md"
   ]
 }
