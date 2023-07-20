@@ -128,9 +128,48 @@ Arguments: spam eggs
 'spam and eggs'
 ```
 
+类似 JavaScript，Python 也支持函数的嵌套和返回，函数有其单独的类型（function），多层函数嵌套通常用于闭包的创建。
+- 缺点：内部函数持有外部函数的引用，外部函数内存无法及时释放
+- 优点：保护数据
+
 # 变量作用域
 
 - 函数中的变量仅在函数中可被访问，若与全局变量重名则会覆盖全局变量
 - 使用 `global 变量名` 可以将函数中的变量声明为全局变量
 
 ![[Pasted image 20230716122802.png]]
+
+- 使用 `nolocal 变量名` 可以允许内层函数修改外层函数中的变量 
+
+![[Pasted image 20230720230502.png]]
+
+# 装饰器
+
+Python 允许定义函数时使用 @ 设置一个装饰器，装饰器名为一个函数名，被标记元素将作为参数传入装饰器
+
+```python
+def decorator_fun(f):
+    print("decorator_fun")
+
+    def fun():
+        print("------")
+        f()
+        print("------")
+        
+    return fun
+
+# 相当于 test_function = decorator_fun(test_function)
+# decorator_fun
+@decorator_fun
+def test_function():
+    print("test_function")
+
+
+# begin test
+print("begin test")
+# ------
+# test_function
+# ------
+test_function()
+
+```

@@ -91,7 +91,7 @@ from fibo import fib as fib_fun
 
 # 标准库
 
-标准库是 Python 自带的一系列标准模块，详见 [[Python 标准库]]
+标准库是 Python 自带的一系列标准模块，详见 [[Python 标准库简介]]
 
 # dir()
 
@@ -147,7 +147,26 @@ pkg1.pkg2.hello.hello()
 pip install 包名
 ```
 
-使用 `pip -i 三方源 包名` 可使用第三方包下载
+可以使用国内镜像提高安装速度
+
+```bash
+# 清华源地址为 https://pypi.tuna.tsinghua.edu.cn/simple
+pip install -i 镜像地址 包名
+```
+
+也可以使用三方源作为默认下载源
+
+```bash
+# 升级 pip 到最新版本
+python -m pip install --upgrade pip
+# 也可以使用三方源更新 pip
+# python -m pip install -i https://pypi.tuna.tsinghua.edu.cn/simple --upgrade pip
+
+# 设置源
+pip config set global.index-url 镜像地址
+# 也可以设置多个源，可以设置 https://mirrors.cernet.edu.cn/list/pypi
+pip config set global.extra-index-url "<url1> <url2>..."
+```
 
 ### echarts
 

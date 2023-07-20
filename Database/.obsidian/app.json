@@ -1,1 +1,6 @@
-{}
+{
+  "attachmentFolderPath": "_resources",
+  "promptDelete": false,
+  "newFileLocation": "current",
+  "alwaysUpdateLinks": true
+}
