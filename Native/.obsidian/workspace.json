@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Readme.md",
+                "file": "C++/Cpp 模板4.md",
                 "mode": "source",
                 "source": false
               }
@@ -101,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Readme.md",
+                "file": "C++/Cpp 模板4.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Readme.md",
+                "file": "C++/Cpp 模板4.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Readme.md"
+                "file": "C++/Cpp 模板4.md"
               }
             }
           },
@@ -172,47 +172,11 @@
       "command-palette:打开命令面板": false
     }
   },
-  "floating": {
-    "id": "85aa50a2ca28361e",
-    "type": "floating",
-    "children": [
-      {
-        "id": "7414e067d742bec3",
-        "type": "window",
-        "children": [
-          {
-            "id": "fe58200fd2acd53d",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "6412312db754c2e3",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "C++/C++.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 1646,
-        "y": 115,
-        "width": 797,
-        "height": 812,
-        "maximize": true,
-        "zoom": 0
-      }
-    ]
-  },
   "active": "f1d6e499b7b7ef44",
   "lastOpenFiles": [
-    "__resources/value.png",
+    "C++/C++.md",
     "Readme.md",
+    "__resources/value.png",
     "__resources/Pasted image 20230714213946.png",
     "__resources/Pasted image 20230714181106.png",
     "__resources/Pasted image 20230104221906.png",
@@ -222,7 +186,6 @@
     "__resources/bool.png",
     "__resources/auto_with_initializer.png",
     "__resources/auto_type.png",
-    "C++/C++.md",
     "C++/Cpp 函数2.md",
     "C++/Cpp 编译期2.md",
     "C++/Cpp 编译期3.md",
