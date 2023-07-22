@@ -2,7 +2,7 @@
 
 使用 `limit` 分页
 
-```sql
+```mysql
 select 字段 from 表 [where 条件] limit 起始索引, 每页记录数;
 ```
 
@@ -18,7 +18,7 @@ select 字段 from 表 [where 条件] limit 起始索引, 每页记录数;
 
 MySQL 中，所有用户信息及权限保存在 `mysql` 数据库的 `user` 表中
 
-```sql
+```mysql
 use mysql;
 select * from user;
 ```
@@ -29,13 +29,13 @@ select * from user;
 
 ### 创建
 
-```sql
+```mysql
 create user '用户名'@'主机名' identified by '密码';
 ```
 
 ### 修改密码
 
-```sql
+```mysql
 alter user '用户名'@'主机名' identified with 加密方式 by '新密码';
 ```
 
@@ -43,7 +43,7 @@ alter user '用户名'@'主机名' identified with 加密方式 by '新密码';
 
 ### 删除
 
-```sql
+```mysql
 drop user '用户名'@'主机名';
 ```
 
@@ -64,19 +64,19 @@ drop user '用户名'@'主机名';
 
 ### 查询
 
-```sql
+```mysql
 show grants for '用户名'@'主机名';
 ```
 
 ### 授予
 
-```sql
+```mysql
 grant 权限列表 on 数据库名.表名 to '用户名'@'主机名';
 ```
 
 ### 撤销
 
-```sql
+```mysql
 revoke 权限列表 on 数据库名.表名 from '用户名'@'主机名';
 ```
 

@@ -20,43 +20,19 @@
             }
           },
           {
-            "id": "49153c4aa9074918",
+            "id": "3865f8d9d462278d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python3.11/Python.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "df0eae1b78935ce4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Python3.11/Python.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3dc894185ca73d64",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Python3.11/Python 内置类型.md",
+                "file": "Python3.11/Python Flask.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -130,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python3.11/Python 内置类型.md",
+                "file": "Python3.11/Python Flask.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python3.11/Python 内置类型.md",
+                "file": "Python3.11/Python Flask.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python3.11/Python 内置类型.md"
+                "file": "Python3.11/Python Flask.md"
               }
             }
           }
@@ -192,12 +168,15 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "3dc894185ca73d64",
+  "active": "3865f8d9d462278d",
   "lastOpenFiles": [
-    "Python3.11/Python 正则表达式.md",
     "Python3.11/Python.md",
-    "Python3.11/Python 标准库简介.md",
+    "Python3.11/Python Flask.md",
     "Python3.11/Python SQL.md",
+    "Python3.11/Python 内置类型.md",
+    "Python3.11/flask",
+    "Python3.11/Python 正则表达式.md",
+    "Python3.11/Python 标准库简介.md",
     "Python3.11/Python 套接字.md",
     "Python3.11/Python 多线程.md",
     "Python3.11/Python 类.md",
@@ -215,7 +194,6 @@
     "_resources/Pasted image 20230720181430.png",
     "_resources/Pasted image 20230718101626.png",
     "_resources/Pasted image 20230718101402.png",
-    "Python3.11/Python 内置类型.md",
     "Python3.11/Python 异常处理.md",
     "Python3.11/Python 控制语句.md",
     "Python3.11/Python 解释器.md",

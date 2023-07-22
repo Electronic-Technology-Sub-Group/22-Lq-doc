@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "124ae1d035d5655b",
+        "id": "5cf6dfd5f78f5777",
         "type": "tabs",
         "children": [
           {
-            "id": "3003d861fa69438b",
+            "id": "3c05eddc60ee558c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MySQL/MySQL 8.0.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1dabd71a8d42009c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SQL/SQL DML.md",
+                "file": "Readme.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -90,7 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 224.5
   },
   "right": {
     "id": "e3312a9f5a871416",
@@ -106,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SQL/SQL DML.md",
+                "file": "Readme.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SQL/SQL DML.md",
+                "file": "Readme.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,16 +133,24 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SQL/SQL DML.md"
+                "file": "Readme.md"
               }
             }
+          },
+          {
+            "id": "17e5ddda0302fede",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -168,30 +163,40 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "1dabd71a8d42009c",
+  "active": "3c05eddc60ee558c",
   "lastOpenFiles": [
-    "SQL/SQL DQL.md",
-    "SQL/SQL DCL.md",
-    "MySQL/MySQL 数据类型.md",
-    "SQL/SQL DDL.md",
-    "MySQL/MySQL 约束.md",
-    "SQL/SQL.md",
-    "SQL/SQL DML.md",
     "MySQL/MySQL 8.0.md",
-    "MySQL/MySQL 函数.md",
-    "MySQL/MySQL 分页查询及DCL.md",
     "Database.md",
+    "Readme.md",
+    "MongoDB.md",
+    "MySQL/MySQL 索引.md",
+    "SQL/SQL.md",
+    "SQL/SQL 事务.md",
+    "SQL/SQL 优化.md",
+    "MySQL/MySQL 分页查询及DCL.md",
+    "MySQL/MySQL 函数.md",
+    "MySQL/MySQL 存储引擎.md",
+    "MySQL/MySQL 数据类型.md",
+    "MySQL/MySQL 约束.md",
+    "_resources/Pasted image 20230722125135.png",
+    "_resources/Pasted image 20230722123150.png",
+    "_resources/Pasted image 20230722122724.png",
+    "_resources/Pasted image 20230722121758.png",
+    "_resources/Pasted image 20230722000746.png",
+    "_resources/Pasted image 20230721224522.png",
+    "_resources/Pasted image 20230722002700.png",
+    "_resources/Pasted image 20230722002721.png",
+    "SQL/SQL DQL.md",
+    "MySQL/未命名.md",
+    "SQL/SQL 多表查询.md",
+    "_resources/Pasted image 20230721103915.png",
+    "SQL/SQL DML.md",
+    "SQL/SQL DDL.md",
+    "SQL/SQL DCL.md",
+    "_resources/Pasted image 20230721005116.png",
     "SQL/SQL 语句及注释.md",
     "未命名",
     "MySQL",
-    "MongoDB.md",
-    "_resources/Pasted image 20230718132302.png",
-    "_resources/Pasted image 20230718132232.png",
-    "_resources/Pasted image 20230718121859.png",
-    "_resources/Pasted image 20230718131941.png",
-    "_resources/Pasted image 20230718121715.png",
-    "_resources/Pasted image 20230718132159.png",
-    "Readme.md",
     "_resources",
     "SQL",
     "MySQL"

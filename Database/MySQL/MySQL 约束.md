@@ -23,7 +23,7 @@
 
 - 建表时添加：
 
-```sql
+```mysql
 create table A (
     -- ... 其中已完成 rid 的定义
     constraint 外键名 foreign key(rid) references B(id)
@@ -32,13 +32,13 @@ create table A (
 
 - 建表后添加：
 
-```sql
+```mysql
 alter table A add constraint 外键名 foreign key(rid) references B(id);
 ```
 
 ## 删除
 
-```sql
+```mysql
 alter table A drop foreign key 外键名;
 ```
 
@@ -56,7 +56,7 @@ alter table A drop foreign key 外键名;
 
 在添加外键时，在尾部添加 `on 行为` 即可设定其行为
 
-```sql
+```mysql
 alter table A add constraint 外键名 foreign key(rid) references B(id) on set null;
 ```
 

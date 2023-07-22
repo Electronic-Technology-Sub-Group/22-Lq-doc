@@ -26,5 +26,6 @@ print("Hello world")
 - [[Python 文件系统]]
 
 三方库：
-- [[Python SQL]]
-- [[Python PySpark]]
+- [[Python SQL]]：访问各类数据库的 API
+- [[Python PySpark]]：大数据计算 API
+- [[Python Flask]]：前端接口生成与调试
