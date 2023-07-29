@@ -17,6 +17,8 @@ print("Hello world")
 	- [[Python 标准库简介]]：Python 提供的一系列内置方法和内置类
 - [[Python 类]]：Python 中有 类 的概念，使用 `class` 声明
 - [[Python 异常处理]]
+- [[Python tkinter]]：Python 自带 UI 库
+- [[Python native]]：使用 Python 与本机交互，包括执行命令行（bash 同理），调用本地代码，Win32API/POSIX 方法等
 
 专题：
 - [[Python 编码规范]]

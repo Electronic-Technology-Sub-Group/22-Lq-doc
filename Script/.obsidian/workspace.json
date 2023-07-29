@@ -13,26 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python3.11/Python.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3865f8d9d462278d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Python3.11/Python Flask.md",
+                "file": "Python3.11/Python tkinter.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -90,7 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 226.51103591918945
   },
   "right": {
     "id": "d19e0dc5464faadf",
@@ -106,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python3.11/Python Flask.md",
+                "file": "Python3.11/Python tkinter.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python3.11/Python Flask.md",
+                "file": "Python3.11/Python tkinter.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python3.11/Python Flask.md"
+                "file": "Python3.11/Python tkinter.md"
               }
             }
           }
@@ -155,7 +142,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -168,24 +155,26 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "3865f8d9d462278d",
+  "active": "bade237d198afadd",
   "lastOpenFiles": [
+    "Python3.11/Python 多线程.md",
+    "Python3.11/Python 标准库简介.md",
+    "Python3.11/Python native.md",
     "Python3.11/Python.md",
+    "Python3.11/Python tkinter.md",
+    "Python3.11/Python 函数.md",
+    "Python3.11/Python 语句及注释.md",
+    "Python3.11/Python 类.md",
+    "Python3.11/Python 内置类型.md",
     "Python3.11/Python Flask.md",
     "Python3.11/Python SQL.md",
-    "Python3.11/Python 内置类型.md",
     "Python3.11/flask",
     "Python3.11/Python 正则表达式.md",
-    "Python3.11/Python 标准库简介.md",
     "Python3.11/Python 套接字.md",
-    "Python3.11/Python 多线程.md",
-    "Python3.11/Python 类.md",
-    "Python3.11/Python 函数.md",
     "Python3.11/Python 装饰器.md",
     "未命名.canvas",
     "Python3.11/Python 其他.md",
     "_resources/Pasted image 20230720230502.png",
-    "Python3.11/Python 语句及注释.md",
     "Python3.11/Python 编码规范.md",
     "Python3.11/Python 输入输出.md",
     "Python3.11/Python PySpark.md",

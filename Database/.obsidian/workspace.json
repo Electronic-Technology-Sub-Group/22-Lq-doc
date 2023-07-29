@@ -13,13 +13,38 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Readme.md",
+                "file": "MySQL/MySQL 8.0.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "aafc81abbdcd392e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MySQL/MySQL 存储对象.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ffbd270f5116a95c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MySQL/MySQL 锁.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -93,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Readme.md",
+                "file": "MySQL/MySQL 锁.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Readme.md",
+                "file": "MySQL/MySQL 锁.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Readme.md"
+                "file": "MySQL/MySQL 锁.md"
               }
             }
           },
@@ -163,37 +188,39 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "3c05eddc60ee558c",
+  "active": "ffbd270f5116a95c",
   "lastOpenFiles": [
     "MySQL/MySQL 8.0.md",
-    "Database.md",
+    "MySQL/MySQL 锁.md",
+    "MySQL/MySQL 存储对象.md",
+    "MySQL/MySQL 数据类型.md",
+    "_resources/Pasted image 20230729145916.png",
+    "_resources/Pasted image 20230729145819.png",
+    "MySQL/MySQL 其他SQL语句优化.md",
+    "SQL/SQL.md",
+    "_resources/Pasted image 20230727234235.png",
+    "_resources/Pasted image 20230727234158.png",
+    "_resources/Pasted image 20230727233929.png",
+    "_resources/Pasted image 20230727233857.png",
+    "_resources/Pasted image 20230727233846.png",
+    "_resources/Pasted image 20230727233816.png",
     "Readme.md",
+    "Database.md",
     "MongoDB.md",
     "MySQL/MySQL 索引.md",
-    "SQL/SQL.md",
     "SQL/SQL 事务.md",
-    "SQL/SQL 优化.md",
     "MySQL/MySQL 分页查询及DCL.md",
     "MySQL/MySQL 函数.md",
     "MySQL/MySQL 存储引擎.md",
-    "MySQL/MySQL 数据类型.md",
     "MySQL/MySQL 约束.md",
     "_resources/Pasted image 20230722125135.png",
     "_resources/Pasted image 20230722123150.png",
-    "_resources/Pasted image 20230722122724.png",
-    "_resources/Pasted image 20230722121758.png",
-    "_resources/Pasted image 20230722000746.png",
-    "_resources/Pasted image 20230721224522.png",
-    "_resources/Pasted image 20230722002700.png",
-    "_resources/Pasted image 20230722002721.png",
     "SQL/SQL DQL.md",
     "MySQL/未命名.md",
     "SQL/SQL 多表查询.md",
-    "_resources/Pasted image 20230721103915.png",
     "SQL/SQL DML.md",
     "SQL/SQL DDL.md",
     "SQL/SQL DCL.md",
-    "_resources/Pasted image 20230721005116.png",
     "SQL/SQL 语句及注释.md",
     "未命名",
     "MySQL",

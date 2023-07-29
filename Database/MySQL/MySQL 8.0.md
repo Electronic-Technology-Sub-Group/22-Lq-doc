@@ -47,6 +47,9 @@ net start mysql80
 
 # 停止
 net stop mysql80
+
+# 重启（MySQL 中）
+systemctl restart mysqld
 ```
 
 # 连接
@@ -62,7 +65,8 @@ net stop mysql80
 - [[MySQL 约束]]
 - [[MySQL 存储引擎]]
 - [[MySQL 索引]]
-- [[MySQL 视图、存储过程、触发器]]
+- [[MySQL 其他SQL语句优化]]
+- [[MySQL 存储对象]]
 - [[MySQL 锁]]
 - [[MySQL InnoDB引擎]]
 - [[MySQL 管理]]
