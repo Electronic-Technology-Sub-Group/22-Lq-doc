@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MySQL/MySQL 锁.md",
+                "file": "Readme.md",
                 "mode": "source",
                 "source": false
               }
@@ -102,7 +102,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 224.5
+    "width": 320.5
   },
   "right": {
     "id": "e3312a9f5a871416",
@@ -118,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MySQL/MySQL 锁.md",
+                "file": "Readme.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MySQL/MySQL 锁.md",
+                "file": "Readme.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MySQL/MySQL 锁.md"
+                "file": "Readme.md"
               }
             }
           },
@@ -190,20 +190,23 @@
   },
   "active": "ffbd270f5116a95c",
   "lastOpenFiles": [
-    "MySQL/MySQL 8.0.md",
-    "MySQL/MySQL 锁.md",
-    "MySQL/MySQL 存储对象.md",
-    "MySQL/MySQL 数据类型.md",
     "_resources/Pasted image 20230729145916.png",
     "_resources/Pasted image 20230729145819.png",
-    "MySQL/MySQL 其他SQL语句优化.md",
-    "SQL/SQL.md",
     "_resources/Pasted image 20230727234235.png",
     "_resources/Pasted image 20230727234158.png",
     "_resources/Pasted image 20230727233929.png",
     "_resources/Pasted image 20230727233857.png",
     "_resources/Pasted image 20230727233846.png",
     "_resources/Pasted image 20230727233816.png",
+    "_resources/Pasted image 20230722125135.png",
+    "_resources/Pasted image 20230722123150.png",
+    "_resources/Pasted image 20230722122724.png",
+    "MySQL/MySQL 锁.md",
+    "MySQL/MySQL 8.0.md",
+    "MySQL/MySQL 存储对象.md",
+    "MySQL/MySQL 数据类型.md",
+    "MySQL/MySQL 其他SQL语句优化.md",
+    "SQL/SQL.md",
     "Readme.md",
     "Database.md",
     "MongoDB.md",
@@ -213,8 +216,6 @@
     "MySQL/MySQL 函数.md",
     "MySQL/MySQL 存储引擎.md",
     "MySQL/MySQL 约束.md",
-    "_resources/Pasted image 20230722125135.png",
-    "_resources/Pasted image 20230722123150.png",
     "SQL/SQL DQL.md",
     "MySQL/未命名.md",
     "SQL/SQL 多表查询.md",

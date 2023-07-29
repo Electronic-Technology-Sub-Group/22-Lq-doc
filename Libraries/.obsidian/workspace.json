@@ -1,0 +1,174 @@
+{
+  "main": {
+    "id": "14da53880be6cafb",
+    "type": "split",
+    "children": [
+      {
+        "id": "4240ccd2f60759bf",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "afc740f34564ca61",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "29715d0fbd666393",
+    "type": "split",
+    "children": [
+      {
+        "id": "b0d992e7fe4b02d7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b614f7e9803397dc",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "23475c6f52d82e4f",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "150dcf42abba217f",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "815d45aa22c93121",
+    "type": "split",
+    "children": [
+      {
+        "id": "92bad30ff42dd8da",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6ad25191691efbb3",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "README.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "577db54f7ce57a2f",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "README.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "bcbf166f13604c58",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "eaf4ddda704d5b63",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "README.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false
+    }
+  },
+  "active": "b614f7e9803397dc",
+  "lastOpenFiles": [
+    "SQL/SQL 多表查询.md",
+    "SQL/SQL 事务.md",
+    "SQL/SQL.md",
+    "SQL/SQL 语句及注释.md",
+    "SQL/SQL DQL.md",
+    "SQL/SQL DML.md",
+    "SQL/SQL DDL.md",
+    "SQL/SQL DCL.md",
+    "SQL",
+    "Python/Python.md",
+    "Python/Python Flask.md",
+    "Python SQL.md",
+    "Python PySpark.md",
+    "Python Flask.md",
+    "README.md",
+    "Python/Python SQL.md",
+    "Python/Python PySpark.md",
+    "Python",
+    "新建文件夹",
+    "Vulkan",
+    "OpenGL",
+    "_resources"
+  ]
+}
