@@ -1,5 +1,3 @@
-# MySQL
-
 Python 使用 `pymysql` 操作 MySQL 数据库。
 
 ## 连接
@@ -96,3 +94,9 @@ conn = Connection(
 )
 ```
 
+# 其他可用驱动
+
+- MYSQL-python：仅支持 Python 2
+- mysqlclient：MYSQL-python 的 Python3 分支，执行效率最高，但需要配置环境
+- pymysql：纯 Python 实现，效率不如 mysqlclient 但可以与 Python 无缝衔接
+- mysql-connector-python：MySQL 提供的纯 Python 驱动，效率不如 pymysql

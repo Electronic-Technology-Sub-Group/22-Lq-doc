@@ -56,7 +56,7 @@ select [distinct] 字段1 [ [as] 别名1], 字段2 [ [as] 别名2], ... from 表
 ```sql
 select * from users where age = 88;
 select * from users where age > 20 && age < 50;
-select * from users where between 20 and 50;
+select * from users where age between 20 and 50;
 select * from users where id_card is null;
 select * from users where age in (18, 20, 40);
 -- 姓名为 2 个字
