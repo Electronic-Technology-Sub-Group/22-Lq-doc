@@ -20,6 +20,15 @@ def hello_world():  # put application's code here
    - `app.route('/hello')` 只能被 `/hello` 命中，不能被 `/hello/` 命中
 ```
 
+# 方法
+
+路由中传入一个字符串列表以定义其访问方法
+
+```python
+@app.route('...', methods=['GET', 'POST'])
+```
+
+若只需要 POST，也可以使用 `@app.post('...')`
 ## 参数
 
 ### 拼接在 URL 中
@@ -82,3 +91,37 @@ def baidu():
     # 重定向到 '当前主机/www.baidu.com'
     return app.redirect('www.baidu.com')
 ```
+
+# 蓝图
+
+蓝图用于将不同功能的路由分模块处理
+
+Flask 蓝图使用 `Blueprint` 类，其构造中重要参数包括：
+- name：蓝图名称
+- import_name：所在模块名，一般传入 `__name__`
+- url_prefix：路由前缀，后面设置的路由需要带此前缀，默认 '/'
+
+```python
+from flask import Blueprint
+
+bp = Blueprint('name', __name__, url_prefix='/')
+```
+
+后面的路由使用 `@qa.route` 修饰即可
+
+```python
+@bp.route('/')
+def hello()
+    # do something
+    pass
+```
+
+将蓝图绑定到 app 使用 `app.register_blueprint(bp)`
+
+# Request
+
+通过从 `flask` 包中导入 `request` 成员可以获取当前客户端访问的请求。
+- `request.method`：请求类型
+- `request.json`：请求附带的 JSON 数据
+	- `request.get_json()`，`request.is_json`
+- `request.form`：请求附带的表单数据

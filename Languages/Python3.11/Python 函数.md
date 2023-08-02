@@ -173,3 +173,27 @@ print("begin test")
 test_function()
 
 ```
+
+可通过 `functools` 中的 `wrap` 保存函数信息，使用 `*` `**` 模拟所有参数传递
+
+```python
+from functools import wraps
+from flask import g, request, redirect, url_for, jsonify
+
+def require_login(func):
+    # 保留 function 信息
+    @wraps(func)
+    def inner(*args, **kwargs):
+        if g.username:
+            # 已登录
+            func(*args, **kwargs)
+        else:
+            if 'GET' == request.method:
+                # GET 时直接跳转
+                return redirect(url_for('auth.login'))
+            else:
+                # POST 时返回跳转 JSON
+                return jsonify(code=302, message='require_login', data=url_for('auth.login'))
+
+    return inner
+```

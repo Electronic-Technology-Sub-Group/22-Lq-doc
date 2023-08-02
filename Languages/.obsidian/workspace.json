@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SQL/SQL 多表查询.md",
+                "file": "Python3.11/Python 函数.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SQL/SQL 多表查询.md",
+                "file": "Python3.11/Python 函数.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SQL/SQL 多表查询.md",
+                "file": "Python3.11/Python 函数.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SQL/SQL 多表查询.md"
+                "file": "Python3.11/Python 函数.md"
               }
             }
           }
@@ -149,6 +149,9 @@
   },
   "active": "ff108f19a3fd5159",
   "lastOpenFiles": [
+    "Python3.11/Python.md",
+    "Python3.11/Python 套接字.md",
+    "SQL/SQL 多表查询.md",
     "SQL/SQL DQL.md",
     "SQL/SQL DML.md",
     "README.md",
@@ -181,9 +184,6 @@
     "Java/ASM.md",
     "Java",
     "Python3.11/Python 函数.md",
-    "Python3.11/Python 多线程.md",
-    "Python3.11/Python 编码规范.md",
-    "Python3.11/Python 正则表达式.md",
     "_resources/Pasted image 20230720230502.png",
     "_resources/Pasted image 20230720181538.png",
     "_resources/Pasted image 20230718101626.png",

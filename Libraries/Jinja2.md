@@ -183,7 +183,7 @@ Jinja2 自带了一系列方法，称为*过滤器*。
 
 ```jinja2
 {# 假设父模板为 "html_template.html" #}
-{% extend "html_template.html" %}
+{% extends "html_template.html" %}
 {# 替换 title 块 #}
 {% block title %}网页标题啊{% endblock %}
 {# 替换 head 块 #}
@@ -207,7 +207,7 @@ Jinja2 自带了一系列方法，称为*过滤器*。
 
 ```jinja2
 {# 导入 项目目录/static/images/pic.png 图片 #}
-<img src="{{ url_for('static', 'images/pic.png') }}"></img>
+<img src="{{ url_for('static', filename='images/pic.png') }}"></img>
 ```
 
 # 渲染

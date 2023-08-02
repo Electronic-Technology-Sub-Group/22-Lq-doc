@@ -1,5 +1,3 @@
-#p19
-
 Flask 是 Python 的一个 Web 开发微框架
 
 ```python
@@ -30,10 +28,11 @@ if __name__ == '__main__':
 ```
 
 以下内容默认创建的 Flask 对象名为 `app`
-- [[Flask URL 与 路由]]
-- [[Flask HTTP]]
+- [[Flask 路由]]
+- [[Flask Session]]
+- [[Flask 修饰器]]
 - [[Flask 模板渲染]]
-- [[Flask 数据库]]
+- [[Flask 配套插件]]
 
 # Debug mode
 
