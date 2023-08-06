@@ -8,18 +8,31 @@
         "type": "tabs",
         "children": [
           {
-            "id": "ff108f19a3fd5159",
+            "id": "3b47045d4f0aa564",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python3.11/Python 函数.md",
+                "file": "Bash/Bash.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e08af10163e2eac2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Bash/Bash 常用工具.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python3.11/Python 函数.md",
+                "file": "Bash/Bash 常用工具.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python3.11/Python 函数.md",
+                "file": "Bash/Bash 常用工具.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,11 +138,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python3.11/Python 函数.md"
+                "file": "Bash/Bash 常用工具.md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -147,19 +161,40 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "ff108f19a3fd5159",
+  "active": "e08af10163e2eac2",
   "lastOpenFiles": [
+    "_resources/Pasted image 20230806230821.png",
+    "_resources/Pasted image 20230806230758.png",
+    "_resources/Pasted image 20230806230409.png",
+    "Bash/Bash.md",
+    "Bash/Bash 常用工具.md",
+    "Bash/Bash 目录与文件.md",
+    "Bash/Bash 用户与权限.md",
+    "_resources/Pasted image 20230806223704.png",
+    "_resources/Pasted image 20230806223551.png",
+    "_resources/Pasted image 20230806220955.png",
+    "_resources/Pasted image 20230806220510.png",
+    "_resources/Pasted image 20230806220507.png",
+    "_resources/Pasted image 20230806220451.png",
+    "_resources/Pasted image 20230806215824.png",
+    "_resources/Pasted image 20230806214915.png",
+    "SQL/SQL DQL.md",
+    "Io/Io.md",
+    "Ruby/Ruby.md",
+    "Io",
+    "Ruby/Ruby 基本语法.md",
+    "Ruby/Ruby 元编程.md",
+    "README.md",
+    "_articles/[转]深入理解ruby闭包.md",
+    "_articles",
+    "Ruby",
+    "Python3.11/Python 函数.md",
     "Python3.11/Python.md",
     "Python3.11/Python 套接字.md",
     "SQL/SQL 多表查询.md",
-    "SQL/SQL DQL.md",
     "SQL/SQL DML.md",
-    "README.md",
     "Class 字节码.md",
     "Java/新特性/Java 9-10 新特性.md",
-    "_resources/Pasted image 20230115105228.png",
-    "_resources/image-20211119151301606-16373059853301.png",
-    "_resources/1240.png",
     "Kotlin/新特性/Kotlin 1.8 新特性.md",
     "Kotlin/新特性/Kotlin 1.7 新特性.md",
     "Kotlin/新特性/Kotlin 1.6 新特性.md",
@@ -167,33 +202,12 @@
     "Kotlin/新特性/Kotlin 1.4 新特性.md",
     "Kotlin/新特性/Kotlin 1.3 新特性.md",
     "Kotlin/新特性/Kotlin 1.2 新特性.md",
-    "Kotlin/新特性/Kotlin 1.1 新特性.md",
     "Kotlin/新特性",
-    "Java/新特性/Java 12-16 新特性.md",
-    "Java/新特性/Java 11 LTS 新特性.md",
-    "Java/新特性/Java 18-20 新特性.md",
-    "Java/新特性/Java 17 LTS 新特性.md",
     "Java/新特性",
     "Java/更新",
     "Java/新建文件夹",
-    "Kotlin/Kotlin 协程.md",
     "Kotlin",
-    "Java/编译时注解.md",
-    "Java/反射.md",
-    "Java/instrumentation.md",
-    "Java/ASM.md",
     "Java",
-    "Python3.11/Python 函数.md",
-    "_resources/Pasted image 20230720230502.png",
-    "_resources/Pasted image 20230720181538.png",
-    "_resources/Pasted image 20230718101626.png",
-    "_resources/Pasted image 20230718101402.png",
-    "_resources/Pasted image 20230716122802.png",
-    "_resources/Pasted image 20230716121524.png",
-    "_resources/Pasted image 20230106102645.png",
-    "SQL",
-    "PowerShell",
-    "Bash",
-    "Python3.11"
+    "SQL"
   ]
 }

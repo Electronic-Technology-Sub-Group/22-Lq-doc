@@ -13,13 +13,38 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MySQL/MySQL 8.0.md",
+                "file": "Readme.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e0af637e1415baf2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "PostgreSQL/PostgreSQL.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "99acb4d45db86599",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "PostgreSQL/PostgreSQL.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -93,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MySQL/MySQL 8.0.md",
+                "file": "PostgreSQL/PostgreSQL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MySQL/MySQL 8.0.md",
+                "file": "PostgreSQL/PostgreSQL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MySQL/MySQL 8.0.md"
+                "file": "PostgreSQL/PostgreSQL.md"
               }
             }
           },
@@ -163,13 +188,25 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "ffbd270f5116a95c",
+  "active": "99acb4d45db86599",
   "lastOpenFiles": [
-    "MySQL/MySQL InnoDB引擎.md",
+    "MySQL/MySQL 存储对象.md",
+    "PostgreSQL/PostgreSQL.md",
+    "MySQL/MySQL 存储引擎.md",
     "MySQL/MySQL 8.0.md",
+    "MySQL/MySQL 函数.md",
+    "MySQL/MySQL 分页查询及DCL.md",
+    "MySQL/MySQL 索引.md",
+    "MySQL/MySQL 数据类型.md",
+    "MySQL/MySQL 其他SQL语句优化.md",
+    "MySQL/MySQL 约束.md",
+    "MySQL/MySQL InnoDB引擎.md",
+    "PostgreSQL/PostgreSQL SQL方言.md",
+    "PostgreSQL",
+    "Readme.md",
+    "PostgreSQL",
     "MySQL/MySQL 锁.md",
     "_resources/Pasted image 20230731184008.png",
-    "Readme.md",
     "_resources/Pasted image 20230729145916.png",
     "_resources/Pasted image 20230729145819.png",
     "_resources/Pasted image 20230727234235.png",
@@ -179,18 +216,10 @@
     "_resources/Pasted image 20230727233846.png",
     "_resources/Pasted image 20230727233816.png",
     "_resources/Pasted image 20230722125135.png",
-    "MySQL/MySQL 存储对象.md",
-    "MySQL/MySQL 数据类型.md",
-    "MySQL/MySQL 其他SQL语句优化.md",
     "SQL/SQL.md",
     "Database.md",
     "MongoDB.md",
-    "MySQL/MySQL 索引.md",
     "SQL/SQL 事务.md",
-    "MySQL/MySQL 分页查询及DCL.md",
-    "MySQL/MySQL 函数.md",
-    "MySQL/MySQL 存储引擎.md",
-    "MySQL/MySQL 约束.md",
     "SQL/SQL DQL.md",
     "MySQL/未命名.md",
     "SQL/SQL 多表查询.md",
@@ -198,7 +227,6 @@
     "SQL/SQL DDL.md",
     "SQL/SQL DCL.md",
     "SQL/SQL 语句及注释.md",
-    "未命名",
     "MySQL",
     "_resources",
     "SQL",
