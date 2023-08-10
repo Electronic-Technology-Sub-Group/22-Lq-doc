@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Linux.md",
+                "file": "Markdown/LaTeX.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux/Linux.md",
+                "file": "Markdown/LaTeX.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linux/Linux.md",
+                "file": "Markdown/LaTeX.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux/Linux.md"
+                "file": "Markdown/LaTeX.md"
               }
             }
           }
@@ -156,10 +156,15 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "182e937340366b6f",
+  "active": "63bd40066456a1dc",
   "lastOpenFiles": [
-    "Readme.md",
+    "Obsidian/templater/templater.md",
+    "Obsidian/templater/notes/template_sample_note.md",
+    "Obsidian/templater/objects/TFile.md",
+    "Obsidian/templater/objects/FileStats.md",
+    "Obsidian/templater/tamplates/template_sample.md",
     "Linux/Linux.md",
+    "Readme.md",
     "TOML.md",
     "YAML.md",
     "UML/UML.md",
@@ -168,7 +173,6 @@
     "Markdown/mermaid/Mermaid.md",
     "Markdown/mermaid/Mermaid 饼图 pie.md",
     "Markdown/LaTeX.md",
-    "Obsidian/templater/templater.md",
     "_other/d3-shape.md",
     "_other/img/ext[d3-shape]area.png",
     "_resources/image/Pasted image 20221213051110.png",
@@ -192,10 +196,6 @@
     "git/远程仓库.md",
     "git/分支操作.md",
     "Markdown/mermaid/Mermaid 流程图 flowchat.md",
-    "Markdown/mermaid/Mermaid 类图 classDiagram.md",
-    "Markdown/mermaid/Mermaid 甘特图 gantt.md",
-    "Markdown/mermaid/Mermaid Git图 gitGraph.md",
-    "Markdown/mermaid/Mermaid C4图 C4Context.md",
-    "Markdown/mermaid/Mermaid 思维导图 mindmap.md"
+    "Markdown/mermaid/Mermaid 类图 classDiagram.md"
   ]
 }

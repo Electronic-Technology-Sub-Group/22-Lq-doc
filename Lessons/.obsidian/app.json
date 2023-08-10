@@ -1,4 +1,5 @@
 {
-  "attachmentFolderPath": "resources/images",
-  "alwaysUpdateLinks": true
+  "attachmentFolderPath": "_resources/images",
+  "alwaysUpdateLinks": true,
+  "promptDelete": false
 }

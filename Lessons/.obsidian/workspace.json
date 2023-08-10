@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "127cc7a04a7a4b41",
+        "id": "887a9e9684fb0d19",
         "type": "tabs",
         "children": [
           {
-            "id": "929640a6e529381b",
+            "id": "1d4e46319df25bbd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "初等数论/质数与算数基本定理.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1628e643f049579d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Readme.md",
+                "file": "算法/题目/2023范式杯暑假多校训练营/Subdivision.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -106,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Readme.md",
+                "file": "算法/题目/2023范式杯暑假多校训练营/Subdivision.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Readme.md",
+                "file": "算法/题目/2023范式杯暑假多校训练营/Subdivision.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,16 +133,16 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Readme.md"
+                "file": "算法/题目/2023范式杯暑假多校训练营/Subdivision.md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -165,23 +152,56 @@
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "templater-obsidian:Templater": false
     }
   },
-  "active": "1628e643f049579d",
+  "active": "1d4e46319df25bbd",
   "lastOpenFiles": [
-    "初等数论/质数与算数基本定理.md",
-    "Readme.md",
-    "初等数论/整数可除性.md",
-    "初等数论/同余式.md",
-    "初等数论/同余.md",
-    "初等数论/_初等数论.md",
-    "初等数论/高次同余.md",
-    "初等数论/欧拉函数与简化剩余系.md",
-    "抽象代数/_抽象代数.md",
-    "抽象代数/半群与群.md",
-    "抽象代数/子群与商群.md",
-    "抽象代数/运算及关系.md",
-    "初等数论/_pages/解法.md"
+    "算法/题目/2023范式杯暑假多校训练营/Matches.md",
+    "算法/题目/2023范式杯暑假多校训练营/LCRS Transform.md",
+    "算法/题目/2023范式杯暑假多校训练营/Heap.md",
+    "算法/题目/2023范式杯暑假多校训练营/Carrot Trees.md",
+    "算法/题目/2023范式杯暑假多校训练营/Almost Correct.md",
+    "算法/题目/2023范式杯暑假多校训练营/Anticomplementary Triangle.md",
+    "_resources/images/Pasted image 20230809144252.png",
+    "算法/题目/2023范式杯暑假多校训练营/Three Permutations.md",
+    "算法/题目/2023范式杯暑假多校训练营/Subdivision.md",
+    "_resources/template/_tmp_question.md",
+    "_resources/images/Pasted image 20230809134239.png",
+    "算法/AcWing/AcWing 算法基础课.md",
+    "算法/题目/2023范式杯暑假多校训练营/Water.md",
+    "_resources/images/Pasted image 20230809104407.png",
+    "_resources/images/Pasted image 20230314205830.png",
+    "算法/扩展欧几里得算法.md",
+    "_resources/images/Pasted image 20230807170418.png",
+    "_resources/template/算法题目模板.md",
+    "_resources/template/_tmp_sort.md",
+    "_resources/template/Untitled.md",
+    "算法/题目/牛客/2023范式杯暑假多校训练营.md",
+    "_resources/template",
+    "算法/题目/2023范式杯暑假多校训练营",
+    "算法/排序/基数排序.md",
+    "_resources/images/Pasted image 20221222000529.png",
+    "算法/质数.md",
+    "算法/动态规划.md",
+    "算法/rsa 加密算法.md",
+    "算法/语言/_pages/RandomIt.md",
+    "算法/语言/_pages/ForwardIt.md",
+    "算法/语言/_pages/Compare.md",
+    "算法/语言/_pages",
+    "算法/语言/cpp 迭代器.md",
+    "算法/语言/cpp 输入输出.md",
+    "算法/语言",
+    "算法/题目/牛客",
+    "算法/题目/Codeforce",
+    "算法/题目/ACWing",
+    "算法/题目",
+    "算法/排序",
+    "算法/AcWing",
+    "_resources/images/Pasted image 20230123001115.png",
+    "_resources/images/Pasted image 20230123001048.png",
+    "_resources/images/Pasted image 20230123001031.png",
+    "_resources/images/Pasted image 20230123001019.png"
   ]
 }
