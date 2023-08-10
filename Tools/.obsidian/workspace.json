@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Markdown/LaTeX.md",
+                "file": "git/Github SSH 登录.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Markdown/LaTeX.md",
+                "file": "git/Github SSH 登录.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Markdown/LaTeX.md",
+                "file": "git/Github SSH 登录.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Markdown/LaTeX.md"
+                "file": "git/Github SSH 登录.md"
               }
             }
           }
@@ -156,8 +156,9 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "63bd40066456a1dc",
+  "active": "182e937340366b6f",
   "lastOpenFiles": [
+    "Markdown/LaTeX.md",
     "Obsidian/templater/templater.md",
     "Obsidian/templater/notes/template_sample_note.md",
     "Obsidian/templater/objects/TFile.md",
@@ -172,7 +173,6 @@
     "git/Git.md",
     "Markdown/mermaid/Mermaid.md",
     "Markdown/mermaid/Mermaid 饼图 pie.md",
-    "Markdown/LaTeX.md",
     "_other/d3-shape.md",
     "_other/img/ext[d3-shape]area.png",
     "_resources/image/Pasted image 20221213051110.png",

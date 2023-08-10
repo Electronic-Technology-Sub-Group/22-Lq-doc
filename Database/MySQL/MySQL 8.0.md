@@ -57,7 +57,7 @@ systemctl restart mysqld
 1. 可以通过 MySQL 自带的命令行（MySQL Command Line）或工作台（MySQL Workbench）连接
 2. 其他连接工具或库通过 `localhost:3306` 访问，其中 `localhost` 为数据库地址地址，`3306` 为之前设置的端口 `mysql -h 地址 -P 端口 -u 用户名 -p`
 
-# MySQL 特性/方言
+# MySQL
 
 - [[MySQL 数据类型]]
 - [[MySQL 分页查询及DCL]]
@@ -70,3 +70,7 @@ systemctl restart mysqld
 - [[MySQL 锁]]
 - [[MySQL InnoDB引擎]]
 - [[MySQL 管理]]
+- [[MySQL 日志]]
+- [[MySQL 主从复制]]
+- [[MySQL 分库分表]]
+- [[MySQL 读写分离]]
