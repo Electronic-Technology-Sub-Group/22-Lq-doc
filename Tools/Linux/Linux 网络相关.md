@@ -1,0 +1,79 @@
+# ifconfig
+
+可以用来查看本机各个网卡的 IP 地址，若无法使用则 `net-tools` 软件包
+![[Pasted image 20230811162433.png]]
+- 127.0.0.1：可以代表本机（localhost）
+- 0.0.0.0：可以指代本机，某些限制规则中表示所有 IP，也可以用来确定端口绑定关系
+# 主机名
+
+## hostname
+
+该命令可用于查看主机名
+
+```bash
+hostname
+```
+## hostnamectl
+
+该命令可用于修改主机名
+
+```bash
+hostnamectl set-hostname 新主机名
+```
+# 网络通信
+## ping
+
+用于测试网络服务器是否联通
+
+```bash
+ping [-c 次数] ip/主机
+```
+## wget
+
+命令行文件下载器
+
+```bash
+wget [-b] 下载链接
+```
+- `-b`：后台下载，并将日志写入 `wget-log` 文件中
+## curl
+
+发起 HTTP 网络请求
+
+```bash
+curl [-O] 地址
+```
+- `-O`：该请求用于下载文件
+# 端口
+
+Linux 内支持 65535 个端口：
+- 1,1023：公认端口，用于系统内置或知名程序，如 SSH 默认端口 22，HTTPS 默认端口 443
+- 1024,49151：注册端口，松散的绑定一些程序、服务
+- 49152,65535：动态端口，不会固定绑定特定程序，用于程序的临时网络请求
+## nmap
+
+用于查看端口占用情况，非系统自带需要手动安装
+
+```bash
+nmap 被查看IP地址
+```
+
+![[Pasted image 20230811171003.png]]
+## netstat
+
+查看每个进程使用的端口和连接的详细信息，属于 `net-tools` 包
+
+```bash
+netstat -anp
+```
+
+可使用 `| grep` 过滤
+# 其他
+
+- host 文件：/etc/hosts
+- 网卡配置：/etc/sysconfig/network-scripts/ifcfg-网卡名，*更改后需要重启 network 服务*
+	- bootproto：IP 获取方法，dhcp 为动态 IP，static 为静态 IP
+	- ipaddr：静态 IP 地址
+	- netmask：子网掩码，通常为 255.255.255.0
+	- gateway：网关地址
+	- dns1：DNS 地址，虚拟机为网关
