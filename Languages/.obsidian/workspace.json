@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "1620c9487dba4e49",
+        "id": "0b90aa8810e080a8",
         "type": "tabs",
         "children": [
           {
-            "id": "0d099b0509d1d963",
+            "id": "75cc7e8011da9300",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -65,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 229.5
   },
   "right": {
     "id": "64f0a3c929503f31",
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "README.md"
+              }
             }
           }
         ],
@@ -126,8 +134,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -140,53 +147,53 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "0d099b0509d1d963",
+  "active": "2bf393342dc6a99a",
   "lastOpenFiles": [
+    "Python3.11/library",
+    "Scala.md",
+    "README.md",
+    "Scala 旧笔记.md",
+    "Scala/Scala.md",
+    "Io/Io 其他应用.md",
+    "Io/Io 类与对象.md",
+    "Io/Io 控制语句.md",
+    "Io/Io.md",
+    "Java/instrumentation.md",
+    "Java/ASM.md",
+    "Java/反射.md",
+    "Java/编译时注解.md",
+    "SQL/SQL DDL.md",
+    "SQL/SQL 语句及注释.md",
+    "_resources/image-20200627145127884.png",
+    "Ruby/Ruby 基本语法.md",
+    "Ruby/Ruby.md",
+    "Prolog.md",
+    "Ruby/Ruby 元编程.md",
+    "_resources/unified-types-diagram.svg",
+    "_resources/type-casting-diagram.svg",
+    "_resources/image-20200627145252581.png",
+    "_resources/image-20200627145207479.png",
+    "Scala/Scala 旧笔记",
+    "Scala/旧笔记",
+    "Class 字节码.md",
+    "Scala",
+    "Prolog/Prolog 基本语法.md",
+    "_resources/Pasted image 20230817003620.png",
+    "_resources/Pasted image 20230817003553.png",
+    "_resources/Pasted image 20230817003524.png",
+    "_resources/Pasted image 20230817003513.png",
+    "_resources/Pasted image 20230817001700.png",
+    "Python3.11/Python tkinter.md",
+    "Prolog",
+    "Python3.11/未命名.md",
+    "Python3.11/Python native.md",
     "Bash/Bash 目录与文件.md",
     "Bash/Bash 用户与权限.md",
-    "Bash/Bash.md",
-    "Bash/Bash 常用工具.md",
-    "Bash/未命名.md",
-    "Io/Io.md",
-    "Io/Io 其他应用.md",
-    "Io/Io 控制语句.md",
-    "Io/Io 类与对象.md",
-    "_resources/Pasted image 20230810151930.png",
-    "Ruby/Ruby 基本语法.md",
-    "Ruby/Ruby 元编程.md",
-    "_resources/1240.png",
-    "_articles/[转]深入理解ruby闭包.md",
     "_resources/images",
-    "Ruby/Ruby.md",
-    "Class 字节码.md",
-    "_resources/Pasted image 20230810140522.png",
-    "_resources/Pasted image 20230810135032.png",
-    "_resources/Pasted image 20230810135004.png",
-    "_resources/Pasted image 20230810134929.png",
-    "_resources/Pasted image 20230810133652.png",
-    "_resources/Pasted image 20230810112936.png",
-    "_resources/Pasted image 20230810112720.png",
-    "_resources/Pasted image 20230810111733.png",
-    "SQL/SQL DQL.md",
     "Io",
-    "README.md",
     "_articles",
     "Ruby",
-    "Python3.11/Python 函数.md",
-    "Python3.11/Python.md",
-    "Python3.11/Python 套接字.md",
-    "SQL/SQL 多表查询.md",
-    "SQL/SQL DML.md",
-    "Java/新特性/Java 9-10 新特性.md",
-    "Kotlin/新特性/Kotlin 1.8 新特性.md",
-    "Kotlin/新特性/Kotlin 1.7 新特性.md",
-    "Kotlin/新特性/Kotlin 1.6 新特性.md",
-    "Kotlin/新特性/Kotlin 1.5 新特性.md",
     "Kotlin/新特性",
-    "Java/新特性",
-    "Java/更新",
-    "Java/新建文件夹",
-    "Kotlin",
-    "Java"
+    "Java/新特性"
   ]
 }

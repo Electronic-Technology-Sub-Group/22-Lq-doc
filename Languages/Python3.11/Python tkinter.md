@@ -13,8 +13,7 @@
 
 ## 列表 Listbox
 
-复选框组件为 `tkinter.Listbox` 类
-
+列表组件为 `tkinter.Listbox` 类
 ### 方法
 
 ### 属性

@@ -1,5 +1,5 @@
 > “范式杯”2023牛客暑期多校训练营1
-> https://ac.nowcoder.com/acm/contest/57355
+> https://ac.nowcoder.com/acm/contest/57355/M 
 
 难度：Mid
 # 题目
