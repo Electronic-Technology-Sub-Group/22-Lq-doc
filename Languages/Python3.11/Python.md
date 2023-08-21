@@ -25,3 +25,11 @@ print("Hello world")
 - [[Python 多线程]]
 - [[Python 套接字]]
 - [[Python 正则表达式]]
+- [[Python IO]]
+
+三方库
+- [[PySpark]]：Spark 库，大数据分布式计算框架
+- [[pymysql]]：连接 MySQL 数据库工具库
+- [[Flask]]：微型服务器
+- [[Jinja2]]：模板工具，可根据模板文件和具体参数拼装字符串，可用于生成网页源码、各种文档等
+- [[SQLAlchemy]]：Python 的 ORM 框架

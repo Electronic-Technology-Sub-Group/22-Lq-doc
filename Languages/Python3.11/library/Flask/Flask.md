@@ -31,8 +31,8 @@ if __name__ == '__main__':
 - [[Flask 路由]]
 - [[Flask Session]]
 - [[Flask 修饰器]]
-- [[Flask 模板渲染]]
-- [[Flask 配套插件]]
+- [[Flask 模板]]
+- [[Flask 插件]]
 
 # Debug mode
 

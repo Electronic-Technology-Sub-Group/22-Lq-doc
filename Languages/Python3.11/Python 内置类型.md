@@ -287,6 +287,9 @@ print(list1)
 	- `lst.reverse()`：翻转
 	- `lst.copy()`：浅拷贝，相当于 `lst[:]`
 
+```ad-note
+list 在头部插入数据比较缓慢，若需要模拟队列，可考虑使用 `deqeue` 类
+```
 ### 运算符
 
 - `lst1 + lst2`：返回两个列表连接后的新列表

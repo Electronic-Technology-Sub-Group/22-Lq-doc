@@ -22,7 +22,7 @@ finally:
 
 # 异常类
 
-所有异常类继承自 `Exception`
+所有异常类继承自 `Exception`，通常类名以 Error 结尾
 
 # 触发
 

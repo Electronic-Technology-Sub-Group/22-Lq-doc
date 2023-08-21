@@ -93,6 +93,93 @@ from fibo import fib as fib_fun
 
 标准库是 Python 自带的一系列标准模块，详见 [[Python 标准库简介]]
 
+- os：提供与操作系统交互的方法
+    - getcwd()：获取工作目录（current working directory）
+    - chdir()：修改工作目录
+    - system()：执行命令
+- shutil：日常文件与目录管理任务
+    - copyfile()：复制文件
+    - move()：移动文件
+- glob：在目录中使用通配符搜索文件
+    - glob()：使用通配符搜索文件列表
+- sys
+    - argv：所有执行参数
+    - ps1：字符串，命令行交互模式时的主要提示字符串，默认 ">>>"
+    - ps2：字符串，命令行交互模式时的辅助提示字符串，默认 "..."
+    - path：列表，默认为 PYHTONPATH 环境变量值，包含解释器搜索模块的位置
+    - stdin/stdout/stderr：标准 IO 流
+    - exit()：退出
+- argparse：处理命令行参数
+- re：正则工具
+- 数学
+    - math：对浮点数学的底层 C 库函数访问
+    - random：随机选择及随机数
+    - statistics：计算数值数据的基本统计属性（均值，中位数，方差等）
+    - decimal：十进制浮点数运算
+- urllib.request：从 URL 检索数据，网络访问
+- smtplib，poplib：收发邮件
+    - email：用于管理电子邮件的库，包括 MIME
+- datetime：操作日期和时间类
+- 数据压缩
+    - 支持 zlib，gzip，bz2，lzma，zipfile，tarfile
+- timeit：性能测试
+- doctest：扫描模块并验证程序文档字符串中嵌入的测试
+- unittest：允许在一个单独的文件中维护更全面的测试集
+- xmlrpc.client，xmlrpc.server
+- 数据序列化
+    - 支持 json，csv 等包
+    - xml 由 xml.etree.ElementTree，xml.dom，xml.sex 提供支持
+- sqlite3：SQLite 数据库包装
+- 国际化
+    - gettext，local，codecs
+- 格式化输出
+    - reprlib：提供定制化 repr() 方法
+    - pprint：更加复杂的输出方法
+    - textwrap：格式化段落
+    - locale：处理与特定地域文化相关的数据格式
+    - string.Template：模板类。若未提供对应占位符，会抛出 KeyError 异常；使用 safe_substitute() 方法可以在数据缺失时将占位符原样保留
+        ```python
+        >>> from string import Template
+        >>> t = Template('${village}folk send $$10 to $cause.')
+        >>> t.substitute(village='Nottingham', cause='the ditch fund')
+        'Nottinghamfolk send $10 to the ditch fund.'
+        ```
+        
+- struct：提供 pack() 与 unpack() 方法，处理不定长二进制数据
+- threading：线程，对于非顺序依赖的多个任务进行解耦的技术
+- logging：日志记录系统
+- weakref：弱引用
+    ```python
+    >>> import weakref, gc
+    >>> class A:
+    ...     def __init__(self, value):
+    ...         self.value = value
+    ...     def __repr__(self):
+    ...         return str(self.value)
+    ...
+    >>> a = A(10)                   # create a reference
+    >>> d = weakref.WeakValueDictionary()
+    >>> d['primary'] = a            # does not create a reference
+    >>> d['primary']                # fetch the object if it is still alive
+    10
+    >>> del a                       # remove the one reference
+    >>> gc.collect()                # run garbage collection right away
+    0
+    >>> d['primary']                # entry was automatically removed
+    Traceback (most recent call last):
+      File "<stdin>", line 1, in <module>
+        d['primary']                # entry was automatically removed
+      File "C:/python38/lib/weakref.py", line 46, in __getitem__
+        o = self.data[key]()
+    KeyError: 'primary'
+    ```
+    
+- 列表
+    - array：提供 array() 对象，只能存储类型一致的数据且存储密度更高
+    - collections：提供 deque 对象，类似列表，从左端添加/删除速度更快，中间查找较慢
+    - bisect：排序
+    - heapq：基于常规列表实现堆
+- builtins：内置函数和变量名称
 # dir()
 
 内置的 `dir` 函数可用于查看模块中定义的名称，包括 Python 自动创建的，返回值是一个经过排序的字符串列表
@@ -167,7 +254,3 @@ pip config set global.index-url 镜像地址
 # 也可以设置多个源，可以设置 https://mirrors.cernet.edu.cn/list/pypi
 pip config set global.extra-index-url "<url1> <url2>..."
 ```
-
-### echarts
-
-图表包，Python 使用 `pyecharts` 包
