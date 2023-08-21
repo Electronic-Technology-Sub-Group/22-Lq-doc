@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "dac4be9a7c527eb4",
+        "id": "94ee2779347ea826",
         "type": "tabs",
         "children": [
           {
-            "id": "2bc65fd5d21dbb72",
+            "id": "16315924897c7508",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "groovy/Groovy 类与接口.md",
+                "file": "Scala/Scala 内置类型.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "groovy/Groovy 类与接口.md",
+                "file": "Scala/Scala 内置类型.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "groovy/Groovy 类与接口.md",
+                "file": "Scala/Scala 内置类型.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "groovy/Groovy 类与接口.md"
+                "file": "Scala/Scala 内置类型.md"
               }
             }
           }
@@ -147,10 +147,65 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "2bc65fd5d21dbb72",
+  "floating": {
+    "id": "920e432ac4466e65",
+    "type": "floating",
+    "children": [
+      {
+        "id": "e4d49fdfb142efca",
+        "type": "window",
+        "children": [
+          {
+            "id": "9683ab617eb737f2",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "2bc65fd5d21dbb72",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Scala/Scala.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 2043,
+        "y": -85,
+        "width": 601,
+        "height": 600,
+        "maximize": true,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "16315924897c7508",
   "lastOpenFiles": [
-    "groovy/Groovy 闭包.md",
+    "Scala/Scala.md",
+    "Scala/Scala 包.md",
+    "Scala/Scala 注解.md",
+    "Scala/Scala 模式匹配.md",
+    "Scala/Scala 内置类型.md",
+    "Scala/Scala 类.md",
+    "Scala/Scala Trait.md",
+    "Scala/Scala 运算符.md",
+    "Scala/Scala 函数.md",
+    "Scala/Scala 并发.md",
+    "Scala/Scala 流程控制.md",
+    "Scala/Scala 类型.md",
+    "Scala/Scala 基本语法.md",
+    "Scala",
+    "Rust.md",
+    "Prolog.md",
+    "C# 笔记.md",
+    "Class 字节码.md",
     "groovy/Groovy 类与接口.md",
+    "groovy/Groovy 闭包.md",
     "groovy/Groovy 基本语法.md",
     "groovy/Groovy.md",
     "Kotlin/Kotlin 协程.md",
@@ -158,29 +213,12 @@
     "groovy/Groovy 测试.md",
     "groovy/Groovy DSL.md",
     "groovy/Groovy GDK.md",
-    "groovy/Groovy 脚本依赖.md",
-    "groovy/Groovy 动态执行.md",
-    "groovy/Groovy 控制语句.md",
     "_resources/127D6FB4.png",
-    "groovy/Groovy 运算符.md",
-    "groovy/Groovy Trait.md",
-    "groovy/Groovy 内置类型.md",
-    "groovy/Groovy 函数.md",
     "_resources/Pasted image 20230821093023.png",
     "_resources/Pasted image 20230821092932.png",
-    "groovy/Groovy具体语法.md",
-    "C# 笔记.md",
-    "Rust.md",
     "_resources/GroovyInterceptions.png",
-    "groovy/GroovyModule.md",
-    "groovy/Groovy命令工具.md",
     "groovy/Groovy.assets",
     "groovy",
-    "Scala.md",
-    "Python3.11/Python 类.md",
-    "Python3.11/Python 解释器.md",
-    "Python3.11/Python 异常处理.md",
-    "Python3.11/Python.md",
     "Python3.11/library/Flask",
     "_resources/Pasted image 20230730130431.png",
     "_resources/Pasted image 20230730090016.png",
@@ -193,7 +231,6 @@
     "Scala/旧笔记",
     "Scala",
     "Prolog",
-    "_resources/images",
-    "Io"
+    "_resources/images"
   ]
 }
