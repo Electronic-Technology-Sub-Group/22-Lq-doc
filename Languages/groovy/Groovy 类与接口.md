@@ -70,6 +70,7 @@ println new Person([name: 'p2', age: 2])
 # 内部类
 
 使用 `new Outer.Inner(outer)` 而不是 `outer.new Inner()` 创建内部类
+- Groovy 3 后支持 Java 方式的内部类创建
 
 ```groovy
 class Outer {
@@ -94,6 +95,7 @@ b.hello()
 # 接口
 
 - 不支持接口默认实现（default 方法）
+	- 自 Groovy 3 后支持 default 方法
 
 - 鸭子类型：若一个类中有接口对应方法，即使没有实现该接口，也可以使用 as 强转为该接口对象
 # 注解

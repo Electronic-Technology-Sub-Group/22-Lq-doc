@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Kotlin/Kotlin 协程.md",
+                "file": "groovy/Groovy 类与接口.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Kotlin/Kotlin 协程.md",
+                "file": "groovy/Groovy 类与接口.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Kotlin/Kotlin 协程.md",
+                "file": "groovy/Groovy 类与接口.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Kotlin/Kotlin 协程.md"
+                "file": "groovy/Groovy 类与接口.md"
               }
             }
           }
@@ -147,14 +147,16 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "2bf393342dc6a99a",
+  "active": "2bc65fd5d21dbb72",
   "lastOpenFiles": [
-    "groovy/Groovy 2.2.md",
-    "groovy/Groovy 元编程.md",
+    "groovy/Groovy 闭包.md",
+    "groovy/Groovy 类与接口.md",
     "groovy/Groovy 基本语法.md",
+    "groovy/Groovy.md",
+    "Kotlin/Kotlin 协程.md",
+    "groovy/Groovy 元编程.md",
     "groovy/Groovy 测试.md",
     "groovy/Groovy DSL.md",
-    "groovy/Groovy 闭包.md",
     "groovy/Groovy GDK.md",
     "groovy/Groovy 脚本依赖.md",
     "groovy/Groovy 动态执行.md",
@@ -162,7 +164,6 @@
     "_resources/127D6FB4.png",
     "groovy/Groovy 运算符.md",
     "groovy/Groovy Trait.md",
-    "groovy/Groovy 类与接口.md",
     "groovy/Groovy 内置类型.md",
     "groovy/Groovy 函数.md",
     "_resources/Pasted image 20230821093023.png",
@@ -180,7 +181,6 @@
     "Python3.11/Python 解释器.md",
     "Python3.11/Python 异常处理.md",
     "Python3.11/Python.md",
-    "Python3.11/Python IO.md",
     "Python3.11/library/Flask",
     "_resources/Pasted image 20230730130431.png",
     "_resources/Pasted image 20230730090016.png",

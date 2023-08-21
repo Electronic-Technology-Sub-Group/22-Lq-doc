@@ -1,4 +1,4 @@
-Groovy 不支持 Java 的 lambda 语法，而是使用闭包 Closure 实现
+自 Groovy 3 起支持 Java 风格的 lambda 表达式。对于动态Groovy，lambda表达式将转换为等效的Groovy闭包。
 
 ```groovy
 { 闭包参数 ->
