@@ -24,8 +24,6 @@ JsonSupplier 用于解析 Json 文本
 new JsonSupplier(type: JsonParserType.INDEX_OVERLAY)
 ```
 
-
-
 - JsonParserCharArray
 
   JsonParserType#CHAR_BUFFER，默认
@@ -53,15 +51,12 @@ new JsonSupplier(type: JsonParserType.INDEX_OVERLAY)
   JsonParserType#CHARACTER_SOURCE
 
   用于对 2MB 以上大文件的解析
-
 ### JsonOutput
 
 将 Groovy 对象转换为 Json 字符串，支持Map，List，POGO
-
 #### 格式化输出
 
 使用 prettyPrint 方法进行格式化输出
-
 #### Builder
 
 使用 JsonBuilder 或 StreamingJsonBuilder 用过 DSL 自定义输出
@@ -126,8 +121,6 @@ def sql = new Sql(dataSource)
 @GrabConfig(systemClassLoader=true)
 // create, use, and then close sql instance ...
 ```
-
-
 
 ### 执行 SQL 语句
 
@@ -228,9 +221,6 @@ def rs = md.getTables(null, null, 'AUTH%', null)
 assert rs.next()
 assert rs.getString('TABLE_NAME') == 'AUTHOR'
 ```
-
-
-
 #### 命名
 
 ```groovy
@@ -242,12 +232,6 @@ def pogo = new Rockstar(first: 'Paul', last: 'McCartney')
 def map = [lion: 'King']
 sql.execute "INSERT INTO Author (firstname, lastname) VALUES (?1.first, ?2.lion)", pogo, map
 ```
-
-
-
-#### 程序
-
-https://groovy-lang.org/databases.html#_stored_procedures
 
 ### CRUD 操作
 
@@ -643,21 +627,15 @@ def nodeAsText = XmlUtil.serialize(nodeToSerialize)
 assert nodeAsText ==
         XmlUtil.serialize('<?xml version="1.0" encoding="UTF-8"?><author id="1">Miguel de Cervantes</author>')
 ```
-
-
-
 ## Ant Task
 
 https://groovy-lang.org/scripting-ant.html
-
-## 模板是引擎
+## 模板引擎
 
 用于生成文本
-
 ### 模板框架
 
 继承自 TemplateEngine
-
 ### SimpleTemplateEngine
 
 允许使用类似 JSP Scriptlet，脚本和 EL 表达式生成文本
@@ -669,14 +647,11 @@ def template = new SimpleTemplateEngine().createTemplate(text).make(binding)
 def result = 'Dear "Sam Pullara",\nSo nice to meet you in San Francisco.\nSee you in December,\nGroovy-Dev'
 assert result == template.toString()
 ```
-
-
-
 ### StreamingTemplateEngine
 
 类似 SimpleTemplateEngine，可写闭包，可处理大于 64K 的字符串
 
-使用 <%%> 和 <%=%> 的 JSP 样式或 GString 样式处理表达式
+使用 `<%%>` 和 `<%=%>` 的 JSP 样式或 GString 样式处理表达式
 
 ```groovy
 def text = '''\
@@ -705,9 +680,6 @@ We are pleased to inform you that your paper entitled
 
 The conference committee.'''
 ```
-
- 
-
 ### GStringTemplateEngine
 
 文件：test.template
@@ -735,9 +707,6 @@ So nice to meet you in "The Big Apple".
 See you in December,
 Groovy-Dev
 ```
-
-
-
 ### XmlTemplateEngine
 
 输出 XML，使用 gsp 代表代码
@@ -766,31 +735,8 @@ println template.toString()
   How are you today?
 </document>
 ```
-
-
-
 ### MarkupTemplateEngine
 
 依赖于 DSL 生成类 XML 格式
 
 https://groovy-lang.org/templating.html#_the_markuptemplateengine
-
-
-
-### 其他
-
-FreeMaker，Velocity，StringTemplate 等
-
-## Swing
-
-用于 Swing UI 创建
-
-https://groovy-lang.org/swing.html
-
-## Servlet
-
-https://groovy-lang.org/servlet.html
-
-## JMX
-
-https://groovy-lang.org/jmx.html

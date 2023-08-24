@@ -310,25 +310,19 @@ The Groovy Swing Console allows a user to enter and run Groovy scripts.
   -pr, --enable-preview             Enable preview Java features (JEP 12) (jdk12+ only)
   -V, --version              Display the version
 ```
-
-
-
 ### 运行
 
 - Ctrl+Enter 或 Ctrl+R 运行，相当于 Run Script
 - 使用 View-Capture Xxx 打开或关闭输入输出流
-
 ### 编辑
 
 File 菜单的 Open、Save、New File 等
-
 ### 历史
 
 - Action-Inspect Last 查看
 - 控制台会记录最近的 10 个脚本，从 Edit-Next/Previous 查看，快捷键 Ctrl+N/P
 - 最后一个语句绑定到变量 _
 - 每次运行结果绑定到变量 __，可以通过 [] 访问
-
 ### 中断
 
 使用 interrupt 中断，若线程没有处理中断，需要 Script-Allow interruption
@@ -342,7 +336,6 @@ File 菜单的 Open、Save、New File 等
 - 可从 Script 菜单添加 jar  或目录改变脚本类路径
 - 允许异常
 - 可通过 Script-Enable Indy Compilation 启用 Invoke Dynamic（Idny） 编译模式
-
 ## 嵌入式控制台
 
 ```java
@@ -351,24 +344,3 @@ console.setVariable("var1", getValueOfVar1());
 console.setVariable("var2", getValueOfVar2());
 console.run();
 ```
-
-
-
-## 可视化输出
-
-View-Visualize Script Results
-
-# IDE 支持
-
-| Editor                                                       | Syntax highlighting | Code completion | Refactoring |
-| :----------------------------------------------------------- | :------------------ | :-------------- | :---------- |
-| [VSCode](https://code.visualstudio.com/)                     | Yes                 | No              | Yes         |
-| [Groovy Eclipse Plugin](https://github.com/groovy/groovy-eclipse) | Yes                 | Yes             | Yes         |
-| [IntelliJ IDEA](http://www.jetbrains.com/idea/features/groovy.html) | Yes                 | Yes             | Yes         |
-| [Netbeans](https://netbeans.org/features/groovy/)            | Yes                 | Yes             | Yes         |
-| [Groovy Emacs Modes](https://github.com/Groovy-Emacs-Modes/groovy-emacs-modes) | Yes                 | No              | No          |
-| [TextMate](https://github.com/textmate/groovy.tmbundle)      | Yes                 | No              | No          |
-| [vim](http://www.vim.org/)                                   | Yes                 | No              | No          |
-| [UltraEdit](http://www.ultraedit.com/)                       | Yes                 | No              | No          |
-| [SlickEdit](https://www.slickedit.com/products/slickedit/419-the-most-powerful-groovy-editor-in-the-world/) | Yes                 | No              | No          |
-| [EditRocket](https://editrocket.com/features/groovy_editor.html) | Yes                 | No              | No          |
