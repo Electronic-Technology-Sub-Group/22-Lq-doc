@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "87d485945a88c9a9",
+        "id": "12efc796d1b540a3",
         "type": "tabs",
         "children": [
           {
-            "id": "3db47ae8f974aaf4",
+            "id": "668cfb0b97620a50",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -148,8 +148,11 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "3db47ae8f974aaf4",
+  "active": "668cfb0b97620a50",
   "lastOpenFiles": [
+    "_other/TOML ABNF.md",
+    "TOML.md",
+    "YAML.md",
     "Markdown/Markdown.md",
     "Markdown/(url.md",
     "Linux/Linux.md",
@@ -183,9 +186,6 @@
     "Obsidian/templater/templater.md",
     "Obsidian/templater/notes/template_sample_note.md",
     "Obsidian/templater/objects/TFile.md",
-    "Obsidian/templater/objects/FileStats.md",
-    "Obsidian/templater/tamplates/template_sample.md",
-    "Readme.md",
     "Linux",
     "UML",
     "_resources/image/Appraiserres.dll",

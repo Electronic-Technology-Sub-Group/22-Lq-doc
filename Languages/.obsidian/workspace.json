@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "94ee2779347ea826",
+        "id": "a0de79cf2a8a5fc0",
         "type": "tabs",
         "children": [
           {
-            "id": "16315924897c7508",
+            "id": "847df20951f37637",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Scala/Scala 内置类型.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Scala/Scala 内置类型.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Scala/Scala 内置类型.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Scala/Scala 内置类型.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -147,90 +139,52 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "floating": {
-    "id": "920e432ac4466e65",
-    "type": "floating",
-    "children": [
-      {
-        "id": "e4d49fdfb142efca",
-        "type": "window",
-        "children": [
-          {
-            "id": "9683ab617eb737f2",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "2bc65fd5d21dbb72",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Scala/Scala.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 2043,
-        "y": -85,
-        "width": 601,
-        "height": 600,
-        "maximize": true,
-        "zoom": 0
-      }
-    ]
-  },
-  "active": "16315924897c7508",
+  "active": "847df20951f37637",
   "lastOpenFiles": [
-    "Scala/Scala.md",
-    "Scala/Scala 包.md",
-    "Scala/Scala 注解.md",
-    "Scala/Scala 模式匹配.md",
-    "Scala/Scala 内置类型.md",
-    "Scala/Scala 类.md",
-    "Scala/Scala Trait.md",
-    "Scala/Scala 运算符.md",
-    "Scala/Scala 函数.md",
-    "Scala/Scala 并发.md",
-    "Scala/Scala 流程控制.md",
-    "Scala/Scala 类型.md",
-    "Scala/Scala 基本语法.md",
-    "Scala",
-    "Rust.md",
-    "Prolog.md",
-    "C# 笔记.md",
+    "Java/专题/Jigsaw.md",
+    "_resources/4366140-1929153c342862c9.webp",
+    "Java/更新/Java 9-10 新特性.md",
+    "Java/专题/编译时注解.md",
+    "Java/专题/反射.md",
+    "Java/专题/ClassLoader.md",
+    "Java/专题/Java Compiler Plugin.md",
+    "Java/专题/instrumentation.md",
+    "_resources/2E218221.gif",
+    "Java/库/ASM.md",
     "Class 字节码.md",
-    "groovy/Groovy 类与接口.md",
-    "groovy/Groovy 闭包.md",
-    "groovy/Groovy 基本语法.md",
-    "groovy/Groovy.md",
-    "Kotlin/Kotlin 协程.md",
-    "groovy/Groovy 元编程.md",
-    "groovy/Groovy 测试.md",
-    "groovy/Groovy DSL.md",
-    "groovy/Groovy GDK.md",
+    "README.md",
+    "Untitled.loom",
+    "_articles/~$JVM 虚拟机字节码指令表.xlsx",
+    "JVM.md",
+    "_articles/ASM4手册中文版.pdf",
+    "Java/库/未命名.md",
+    "_resources/Pasted image 20230826085327.png",
+    "Class 字节码/Class 字节码 表结构.md",
+    "Class 字节码/Class 字节码 描述符与访问标志.md",
+    "Class 字节码/Class 字节码 虚拟机字节码指令表.md",
+    "Java/库",
+    "Java/专题",
+    "_resources/Pasted image 20230824234648.png",
+    "二进制文件结构",
+    "_articles/未命名.md",
+    "_resources/Pasted image 20230824222144.png",
+    "_articles/JVM.md",
+    "SQL/SQL.md",
+    "Java/更新/Java 18-20 新特性.md",
+    "Java/更新/Java 17 LTS 新特性.md",
+    "Java/更新/Java 12-16 新特性.md",
+    "Java/更新/Java 11 LTS 新特性.md",
+    "C++/Cpp 控制语句.md",
+    "Java/反射.md",
+    "_articles/JVM 虚拟机字节码指令表.xlsx",
+    "Scala/Scala 内置类型.md",
+    "Scala",
     "_resources/127D6FB4.png",
     "_resources/Pasted image 20230821093023.png",
     "_resources/Pasted image 20230821092932.png",
     "_resources/GroovyInterceptions.png",
     "groovy/Groovy.assets",
     "groovy",
-    "Python3.11/library/Flask",
-    "_resources/Pasted image 20230730130431.png",
-    "_resources/Pasted image 20230730090016.png",
-    "_resources/Pasted image 20230730085139.png",
-    "_resources/Pasted image 20230730084421.png",
-    "Python3.11/library",
-    "_resources/image-20200627145127884.png",
-    "_resources/unified-types-diagram.svg",
-    "Scala/Scala 旧笔记",
-    "Scala/旧笔记",
-    "Scala",
-    "Prolog",
-    "_resources/images"
+    "_resources/Pasted image 20230730130431.png"
   ]
 }
