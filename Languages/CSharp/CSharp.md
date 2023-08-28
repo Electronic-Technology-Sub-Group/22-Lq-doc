@@ -48,9 +48,12 @@ C# 会先编译成 .Net 平台的中间代码（IL），类似于 Java 的字节
 - [[CSharp 动态类型]]
 - [[CSharp 指针]]
 - [[CSharp 平台调用]]
-# 未完成
+# 更新记录
 
-- 安全验证：有关 Windows 身份相关 API，详见 `Principal` 类、`WindowsIdentity` 类
-- Composition
-- XML 和 JSON
-- 本地化
+本文档以 C# 6.0 为基础，但可能因为前后参考了不同的书导致不全是 C# 6.0 的语法。更新记录从 C# 7.0 开始
+- [[CSharp 7 更新记录]]
+- [[CSharp 8 更新记录]]
+- [[CSharp 9 更新记录]]
+- [[CSharp 10 更新记录]]
+- [[CSharp 11 更新记录]]
+- [[CSharp 12 更新记录]]

@@ -1,6 +1,6 @@
 # Java 9
 ## 语法
-### Jigsaw 模块系统
+### Jigsaw 模块
 
 在包 package 之上增加一级 模块 module，声明依赖及开放接口
 
@@ -46,7 +46,7 @@ public interface PrivateMethod {
     }
 }
 ```
-### try-with-resource 改进
+### try-with-resource
 
 Java 9 之前版本中 `try` 内变量必须是语句，通常是赋值语句；现在可以使用变量
 
@@ -58,7 +58,7 @@ try(resource) {
     // do something
 }
 ```
-### 匿名内部类泛型推断
+### 泛型推断
 
 Java 9 之前创建匿名内部类时，内部类的泛型类型必须指定。现在可以自动推断了。
 

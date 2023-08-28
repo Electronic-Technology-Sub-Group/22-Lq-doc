@@ -97,3 +97,19 @@ i1 = (I1)obj;    // i1 != null
 i2 = obj as I2;    // i2 = null
 i2 = (I2)obj;    // 抛出 InvalidCastException 异常
 ```
+# sizeof
+
+接收某一类型，返回该类型所需的字节数
+
+```csharp
+int s = sizeof(double) // s = 8
+```
+# stackalloc
+
+申请一块内存。该内存不会被 GC 销毁，因此不必使用 `fixed` 固定
+
+```csharp
+decimal* pDecimals = stackalloc decimal[10];
+```
+
+`stackalloc` 申请的内存可以赋值给指针，也可以赋值给 `System.Span<T>` 或 `System.ReadOnlySpan<T>` 变量。赋值给指针时需要 `unsafe` 上下文，详见[[CSharp 指针]]

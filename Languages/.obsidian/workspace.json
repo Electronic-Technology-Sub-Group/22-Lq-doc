@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "a0de79cf2a8a5fc0",
+        "id": "0e5b47c2c67d5c7e",
         "type": "tabs",
         "children": [
           {
-            "id": "847df20951f37637",
+            "id": "c2a1988ed47373d3",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "CSharp/CSharp 12 更新记录.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -44,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "命名空间",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "CSharp/CSharp 12 更新记录.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "CSharp/CSharp 12 更新记录.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "CSharp/CSharp 12 更新记录.md"
+              }
             }
           }
         ],
@@ -139,52 +147,53 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "847df20951f37637",
+  "active": "c2a1988ed47373d3",
   "lastOpenFiles": [
+    "CSharp/CSharp 11 更新记录.md",
+    "CSharp/CSharp 10 更新记录.md",
+    "CSharp/CSharp 9 更新记录.md",
+    "CSharp/CSharp.md",
+    "CSharp/CSharp 12 更新记录.md",
+    "CSharp/CSharp 8 更新记录.md",
+    "CSharp/CSharp 7 更新记录.md",
+    "未命名",
+    "CSharp/CSharp 类型.md",
+    "CSharp/CSharp 基本语法.md",
+    "CSharp/CSharp 指针.md",
+    "CSharp/CSharp 泛型.md",
+    "CSharp/CSharp 数组与元组.md",
+    "CSharp/CSharp 迭代器与集合.md",
+    "CSharp/CSharp 函数.md",
+    "CSharp/CSharp 类与继承.md",
+    "CSharp/CSharp 流程控制.md",
+    "Java/更新/Java 9-10 新特性.md",
+    "Java/专题/instrumentation.md",
+    "Java/专题/ClassLoader.md",
+    "Java/专题/反射.md",
+    "Java/专题/编译时注解.md",
     "Java/专题/Jigsaw.md",
     "_resources/4366140-1929153c342862c9.webp",
-    "Java/更新/Java 9-10 新特性.md",
-    "Java/专题/编译时注解.md",
-    "Java/专题/反射.md",
-    "Java/专题/ClassLoader.md",
     "Java/专题/Java Compiler Plugin.md",
-    "Java/专题/instrumentation.md",
     "_resources/2E218221.gif",
     "Java/库/ASM.md",
     "Class 字节码.md",
     "README.md",
     "Untitled.loom",
     "_articles/~$JVM 虚拟机字节码指令表.xlsx",
-    "JVM.md",
     "_articles/ASM4手册中文版.pdf",
-    "Java/库/未命名.md",
     "_resources/Pasted image 20230826085327.png",
-    "Class 字节码/Class 字节码 表结构.md",
-    "Class 字节码/Class 字节码 描述符与访问标志.md",
-    "Class 字节码/Class 字节码 虚拟机字节码指令表.md",
     "Java/库",
     "Java/专题",
     "_resources/Pasted image 20230824234648.png",
     "二进制文件结构",
-    "_articles/未命名.md",
     "_resources/Pasted image 20230824222144.png",
-    "_articles/JVM.md",
-    "SQL/SQL.md",
-    "Java/更新/Java 18-20 新特性.md",
-    "Java/更新/Java 17 LTS 新特性.md",
-    "Java/更新/Java 12-16 新特性.md",
-    "Java/更新/Java 11 LTS 新特性.md",
-    "C++/Cpp 控制语句.md",
-    "Java/反射.md",
     "_articles/JVM 虚拟机字节码指令表.xlsx",
-    "Scala/Scala 内置类型.md",
     "Scala",
     "_resources/127D6FB4.png",
     "_resources/Pasted image 20230821093023.png",
     "_resources/Pasted image 20230821092932.png",
     "_resources/GroovyInterceptions.png",
     "groovy/Groovy.assets",
-    "groovy",
     "_resources/Pasted image 20230730130431.png"
   ]
 }

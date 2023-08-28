@@ -19,7 +19,6 @@ MoveAndResize(y: 20, x: 10, h: 40, w: 30);
 ```
 
 - 可选参数：声明中带有默认值的参数，调用时可省略
-	- 可选参数必须是可变参数前最后的参数，多个参数如果要修改应使用命名参数
 - 可变参数：声明中带有 `params` 的数组参数，只能在末尾，且最多有一个
 
 ```c#
@@ -122,5 +121,7 @@ void Lambda()
     var mul = (param1, param2) => {
         return param1 * param2;
     };
+    
+    var mul = (param1, param2) => param1 * param2;
 }
 ```

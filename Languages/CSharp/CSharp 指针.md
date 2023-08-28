@@ -94,20 +94,6 @@ int* pointerToInt;
 void* pointerToVoid;
 pointerToVoid = (void*)pointerToInt;
 ```
-# sizeof
-
-接收某一类型，返回该类型所需的字节数
-
-```csharp
-int s = sizeof(double) // s = 8
-```
-# stackalloc
-
-申请一块内存
-
-```csharp
-decimal* pDecimals = stackalloc decimal[10];
-```
 # 结构体指针
 
 结构体中不能包含任何引用类型
