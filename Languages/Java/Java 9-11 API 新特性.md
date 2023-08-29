@@ -1,87 +1,6 @@
-# Java 9
-## 语法
-### Jigsaw 模块
+# Java9
 
-在包 package 之上增加一级 模块 module，声明依赖及开放接口
-
-```java
-// module-info.java
-// open 关键字允许从模块外通过反射访问模块内的任意内容
-open module myModuleName {
-    // 依赖于 module.requires1.name 模块
-    requires module.requires1.name;
-    // 静态依赖：仅编译时依赖于 module.requires2.name 模块
-    requires static module.requires2.name;
-    // 传递依赖：依赖于该模块的其他模块也能直接使用 module.requires3.name 模块
-    requires transitive module.requires2.name;
-    
-    // 开放 package.exports1.name 包对任意依赖于该模块的程序访问
-    exports package.exports1.name;
-    // 仅对 package.special 模块开放 package.exports2.name 包
-    exports package.exports2.name to package.special;
-    
-    // 依赖于 service.Interface 服务接口或抽象类
-    uses service.Interface;
-    
-    // 提供 service.Interface 服务的一个实现 service.InterfaceImpl
-    // 服务仍通过 ServiceLoader.load 获取
-    providers service.Interface with service.InterfaceImpl;
-    
-    // 开放 package.open1.name 包对任意依赖于该模块的程序反射访问
-    opens package.open1.name;
-    // 仅对 module.special1, module.special2, module.special3 模块开放 package.open2.name 包反射访问
-    opens package.open2.name to module.special1, module.special2, module.special3;
-}
-```
-### 接口私有方法
-
-允许接口中存在私有方法，私有方法必须在接口中实现，且只能在接口中直接访问，用于对 `default` 函数实现调用
-
-```java
-public interface PrivateMethod {
-    // private 方法允许在接口中存在
-    // 但是 protected 不允许，在实现类中也无法直接访问到
-    private void privateMethod() {
-
-    }
-}
-```
-### try-with-resource
-
-Java 9 之前版本中 `try` 内变量必须是语句，通常是赋值语句；现在可以使用变量
-
-```java
-AutoCloseable resource = /*...*/;
-
-// 允许直接使用变量而不是语句
-try(resource) {
-    // do something
-}
-```
-### 泛型推断
-
-Java 9 之前创建匿名内部类时，内部类的泛型类型必须指定。现在可以自动推断了。
-
-```java
-private void privateMethod() {
-    // A<> 推断为 A<String>
-    A<String> a = new A<>() {
-        @Override
-        public void a(String p) {
-            System.out.println(a);
-        }
-    };
-}
-
-interface A<T> {
-    void a(T p);
-}
-```
-### _ 关键字
-
-单独一个下划线现作为一个保留关键字
-## API
-### @Deprecated
+## @Deprecated
 
 `@Deprecated` 注解将包含过时原因及是否将移除该过时 API，可用于编译器和其他工具检查
 - `@SuppressWarnings("deprecation")` 仅抑制 `forRemoval=false` 的过时警告
@@ -102,7 +21,7 @@ void fun2() {
     // something deprecated
 }
 ```
-### @SafeVarargs 
+## @SafeVarargs 
 
 `@SafeVarargs` 注解允许应用于私有方法
 
@@ -118,7 +37,7 @@ private void method(List<String>... values) {
     }
 }
 ```
-### Collection
+## Collection
 
 Java9 新增了一系列创建集合的方法，位于 `List`，`Set`，`Map`，通过工厂方法实现了对 collection literals 的支持，但注意：
 - 创建的集合都是不可变集合，且不同虚拟机的具体实现类不做强制要求
@@ -131,7 +50,7 @@ List.of(1, 2, 3, 4).forEach(System.out::print);
 Map<Integer, String> map = Map.of(1, "a", 2, "b", 3, "c");
 map.get(1); // a
 ```
-### Process
+## Process
 
 Process 允许丢弃输出
 
@@ -154,13 +73,13 @@ new ProcessBuilder("java", "--version")
         .redirectError(ProcessBuilder.Redirect.DISCARD)
         .start().waitFor();
 ```
-### ProcessHandler
+## ProcessHandler
 
-Java 9 新增 `ProcessHandler` 标识一个本地进程，允许查询进程状态并管理进程
+Java 9 新增 `ProcessHandler` 标识一个本地进程，允许查询进程状态并管理进程，`Process` 可通过 `toHandler()` 方法转换为 `ProcessHandler`
 
-`Process` 可通过 `toHandler()` 方法转换为 `ProcessHandler`
-
-**`Process` 表示由 JVM 启动的本地进程，`ProcessHandler` 表示任意本地线程**
+```ad-info
+`Process` 表示由 JVM 启动的本地进程，`ProcessHandler` 表示任意本地线程
+```
 
 ```java
 ProcessHandle handle = ProcessHandle.current();
@@ -180,7 +99,7 @@ System.out.println("CurrentProcess: " +
         "\n    start=" + info.startInstant().map(Instant::toString).orElse("<null>") +
         "\n    user=" + info.user().orElse("<null>"));
 ```
-### StackWalker
+## StackWalker
 
 Java 9 之前要遍历当前栈帧通过 `Throwable.getStackTrack()` 获取
 - 返回整个栈帧快照，效率低
@@ -199,8 +118,7 @@ StackWalker.getInstance(StackWalker.Option.SHOW_REFLECT_FRAMES)
         // lq2007.tools.webdownloader.Java9Demo.main
         .forEach(frame -> System.out.println(frame.getClassName() + "." + frame.getMethodName()));
 ```
-
-### 响应式流
+## 响应式流
 
 ![[1240.png]]
 
@@ -336,7 +254,7 @@ static class PublisherThread extends Thread {
 > 注意：该实例未调用 `Flow.Subscription.cancel()` 方法，因此程序在发送完所有数据后并未退出
 
 `Flow.Processor` 既是发送者又是接收者，可用来作为接收数据，过滤并发送的过滤器
-### Stream API
+## Stream API
 
 | 类型            | 方法          | 说明                                                        |
 | --------------- | ------------- | ----------------------------------------------------------- |
@@ -380,14 +298,12 @@ List<? extends Serializable> list = Map.of("a", 1, "b", 2, "c", 3).entrySet().st
         Collectors.toList()));                    // 下级收集器
 list.forEach(System.out::println); // c 3 b 2 a 1
 ```
-### 日志 API
+## 日志 API
 
 - 一个服务接口`java.lang.System.LoggerFinder`，它是一个抽象的静态类
 - 一个接口`java.lang.System.Logger`，它提供了日志API
 - `java.lang.System`类中的重载方法`getLogger()`返回一个`System.Logger`
-
-[Java 9 揭秘（19. 平台和JVM日志） - 林本托 - 博客园 (cnblogs.com)](https://www.cnblogs.com/IcanFixIt/p/7259712.html)
-### 线程旋转等待
+## 线程旋转等待
 
 增加 `Thread.onSpinWait()` 方法，提示处理器该线程暂时无法继续，可优化资源
 
@@ -416,7 +332,7 @@ public class SpinWaitTest implements Runnable {
     }
 }
 ```
-### StrictMath 新方法
+## StrictMath 新方法
 
 | 方法            | 说明                                                                                                                                             |
 | --------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -457,85 +373,46 @@ System.out.println("\nUsing StrictMath.multiplyHigh(long, long):");
 System.out.printf("  multiplyHigh(29087L, 7897979L) = %d%n", multiplyHigh(29087L, 7897979L)); // 0
 System.out.printf("  multiplyHigh(Long.MAX_VALUE, 8) = %d%n", multiplyHigh(Long.MAX_VALUE, 8)); // 3
 ```
-### HTTP/2 Client API
+## HTTP/2 Client API
 
-实验性功能：[[Java 11 LTS 新特性#HTTP Client]]
-### JShell API
+实验性功能：[[#HTTP Client]]
+# Java11 LTS
+## HTTP Client
 
-通过 JShell API 可以模拟 JShell 在代码中直接执行 String 类型的 Java 代码
+`java.net.http` 模块。API 上有点类似于 Apache Http Client
+## Curve25519 及 Curve448 密钥协议
+
+新接口 `XECPublicKey` 和 `XECPrivateKey` 接口
 
 ```java
-// JShell 表示一个会话
-try (JShell shell = JShell.create()) {
-    for (SnippetEvent event : shell.eval("int i = 100;")) {
-        // Snippet 表示一个代码片段
-        Snippet snippet = event.snippet();
-        // Snippet: Snippet:VariableKey(i)#1-int i = 100;
-        System.out.println("Snippet: " + snippet);
-        // Kind: VAR
-        System.out.println("Kind: " + snippet.kind());
-        // Sub-Kind: VAR_DECLARATION_WITH_INITIALIZER_SUBKIND
-        System.out.println("Sub-Kind: " + snippet.subKind());
-        // Previous Status: NONEXISTENT
-        System.out.println("Previous Status: " + event.previousStatus());
-        // Current Status: VALID
-        System.out.println("Current Status: " + event.status());
-        // Value: 100
-        System.out.println("Value: " + event.value());
-    }
+public void curve25519()   
+        throws NoSuchAlgorithmException, InvalidAlgorithmParameterException, InvalidKeySpecException, InvalidKeyException {  
+    KeyPairGenerator kpg = KeyPairGenerator.getInstance("XDH");  
+    NamedParameterSpec paramSpec = new NamedParameterSpec("X25519"); // curve448: X448  
+    kpg.initialize(paramSpec);  
+    KeyPair kp = kpg.generateKeyPair();  
+    // 公钥  
+    KeyFactory kf = KeyFactory.getInstance("XDH");  
+    BigInteger u = ...; // u  
+    XECPublicKeySpec pubSpec = new XECPublicKeySpec(paramSpec, u);  
+    PublicKey pubKey = kf.generatePublic(pubSpec);  
+      
+    // 私钥  
+    KeyAgreement ka = KeyAgreement.getInstance("XDH");  
+    ka.init(kp.getPrivate());  
+    ka.doPhase(pubKey, true);  
+    byte[] secret = ka.generateSecret();  
 }
 ```
-## JShell
+## 移除某些已弃用内容
 
-JShell 是交互式访问 Java 语言的命令行工具（交互式编程语言环境 Read-Eval-Print Loop, REPL），也是一个开发与 JShell 类似功能的 API，位于 jdk/bin/jshell.exe
-
-![[image-20211119151301606-16373059853301.png]]
-- --start 启动参数
-	- --start DEFAULT 导入常用的几个 import
-	- --start PRINTING 增加 `print`, `println`, `printf` 方法，指向 `System.out` 的对应方法
-- /help 查看帮助
-	- /help intro 显示 JShell 本身的简单介绍
-- /exit 退出 JShell
-- JShell 可直接运行 Java 语句，不需要添加 `;`
-	- i，$2 都是变量名，可通过 getClass 或 改变反馈等级查看类型
-- /vars 可查看所有变量
-- /list 可查看已输入过的代码片段，/drop 可移除
-- /edit 可打开一个 GUI 编辑，可使用 /edit 名称
-- /imports 查看所有引用
-- /history 查看历史
-- /save /open 可保存、导入代码
-- /reset 重置状态（/set /env 将被保留）
-- /reload 将重置（会话开始/reset/reload）之后的所有命令并重新执行
+- CORBA
+- JavaEE：JAX-WS，JAXB，JAF，Common Annotations，通过 maven 仓库重新引用
+- Nashorn 引擎
+- Pack200 Tools
 ## 其他
 
-- 新的 Java 版本规则
-`$major.$minor.$security`, `$security` 安全级别不随前两个版本更新而重置
-
-```java
-String versionCode = System.getProperty("java.version");
-Runtime.Version version = Runtime.Version.parse(versionCode);
-System.out.println(version); // 17.0.1
-```
-
-- javadoc 支持 HTML5
-
-```bash
-javadoc -html5
-```
-
-- `java.io.ObjectInputFilter` 接口对反序列化进行控制，可中断
-# Java 10
-
-## 局部变量推断
-
-增加 `var` 关键字自动推断类型
-
-```java 
-var a = "This is a String";
-```
-
-仅用于方法的局部变量，for 和 增强 for 循环中，必须初始化
-## 其他
-
-- 并行垃圾回收器 G1
-- AppCDS 通过在不同的 Java 进程间共享公共类元数据来减少占用空间，改善启动时间。
+- 基于嵌套的访问控制：JEP181 Nest-Based Access Control，多个类同属于同一个代码块，但分散编译成多个 `class` 文件时，彼此访问各自私有成员时可直接访问（反射）
+- ChaCha20 与 Poly1305 加密算法
+- 支持 Unicode 10
+- 支持 TLS 1.3
