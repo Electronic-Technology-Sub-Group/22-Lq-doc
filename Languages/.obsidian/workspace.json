@@ -11,8 +11,12 @@
             "id": "a89ed5df407b626d",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "C++/Cpp 模板1.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "C++/Cpp 模板1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "C++/Cpp 模板1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "C++/Cpp 模板1.md"
+              }
             }
           }
         ],
@@ -141,6 +149,10 @@
   },
   "active": "a89ed5df407b626d",
   "lastOpenFiles": [
+    "C++/C++.md",
+    "C++/Cpp 模板1.md",
+    "C++/Cpp 模板3.md",
+    "C++/Cpp 模板2.md",
     "Kotlin/Kotlin 协程.md",
     "Kotlin/新特性/Kotlin 1.8 新特性.md",
     "Kotlin/新特性/Kotlin 1.7 新特性.md",
@@ -163,16 +175,12 @@
     "Java/专题/反射.md",
     "Java/专题/编译时注解.md",
     "Java/专题/Java Compiler Plugin.md",
-    "Java/库/JavaFX.md",
     "_resources/components.png",
     "_resources/Pasted image 20230902144618.png",
     "_resources/Pasted image 20230902124706.png",
     "_resources/Pasted image 20230902124645.png",
     "_resources/Pasted image 20230829233807.png",
     "_resources/Pasted image 20230829233108.png",
-    "README.md",
-    "Java/Java 18-23 API 新特性.md",
-    "Java/Java 18-23 新特性.md",
     "未命名",
     "_resources/4366140-1929153c342862c9.webp",
     "_resources/2E218221.gif",

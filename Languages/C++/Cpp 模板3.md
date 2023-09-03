@@ -7,10 +7,64 @@ extern template class std::vector<MyClass>;
 ```
 
 这表示，告诉编译器，**不要**在该文件中将该模板类实例化。
-
 # 模板特化
-#未完成 
 
+C++ 允许对特定的模板值设定特定的实现，称为模板特化。当函数模板特化时，又称重载函数模板。
+
+模板特化时，将需要特化的模板从尖括号中移除，并在特定位置将对应值替代即可。
+
+```c++
+#include <cstring>
+
+template<typename T>
+T add(T a, T b) {
+    return a + b;
+}
+
+// 将 T 为 const char* 的类型进行特化
+template<>
+const char *add(const char *a, const char *b) {
+    size_t len = strlen(a) + strlen(b);
+    char *new_str = new char[len];
+    memcpy(new_str, a, strlen(a) * sizeof(char));
+    strcat(new_str, b);
+    return new_str;
+}
+
+int main() {
+    // 8
+    cout << add(3, 5) << endl;
+    // Hello World
+    cout << add("Hello ", "World") << endl;
+    return 0;
+}
+```
+
+模板特化可以只特化部分模板参数。对于方法的部分特化又可以看作函数重载的一个特例，不被认为是模板特化
+
+```c++
+template<typename T, int time>
+T addAndMul(T a, T b) {
+    return (a + b) * time;
+}
+
+template<int time>
+const char *addAndMul(const char *a, const char *b) {
+    char *tmp_str = new char[strlen(a) + strlen(b)];
+    memcpy(tmp_str, a, strlen(a) * sizeof(char));
+    strcat(tmp_str, b);
+
+    char *new_str = new char[strlen(tmp_str) * time];
+    new_str[0] = '\0';
+    for (int i = 0; i < time; ++i) {
+        strcat(new_str, tmp_str);
+    }
+
+    return new_str;
+}
+```
+
+对于类的部分特化又称为局部特化
 # 断言
 
 用于在编译期对数据进行测试，若不通过则产生编译期异常，使用 `static_assert` 关键字触发
