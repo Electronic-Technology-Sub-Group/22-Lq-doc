@@ -147,7 +147,6 @@ Markdown LaTeX 数学公式与标准 LaTeX 公式类似
 - 在任意字符之前增加 `\not`，可以为其增加一条从左上到右下的删除线，但过大的字符渲染会有问题：$\not a$，$\not=$，$\not\alpha$，$\not\sum$
 - 使用 `\require{cancel}` 允许片段删除，好像也不用
 	- `\cancel{被删内容}`：$\cancel{a+b}$
-	- `\bcancel{被删内容}`：$\bcancel{a+b}$
 	- `\xcancel{被删内容}`：$\xcancel{a+b}$
 	- `\cancelto{左上角}{被删内容}`：$\cancelto{0}{a+b}$
 

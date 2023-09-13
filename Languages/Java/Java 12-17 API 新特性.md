@@ -32,20 +32,8 @@ System.out.println(NumberFormat.getCompactNumberInstance(Locale.ENGLISH, NumberF
 - `CompletionStage.exceptionallyAsync`, `CompletionStage.exceptionallyCompose`, `CompletionStage.exceptionallyComposeAsync`
 # Java 14
 ## Foreign-Memory Access API
-#实验性功能 
 
-操纵堆外内存的 API
-
-```java
-SequenceLayout intArrayLayout = MemoryLayout.ofSequence(25, MemoryLayout.ofValueBits(32, ByteOrder.nativeOrder()));
-VarHandle intElemHandle = intArrayLayout.varHandle(int.class, MemoryLayout.PathElement.sequenceElement());
-try (MemorySegment segment = MemorySegment.allocateNative(intArrayLayout)) {
-    MemoryAddress base = segment.baseAddress();
-    for (int i = 0; i < intArrayLayout.elementCount().getAsLong(); i++) {
-        intElemHandle.set(base, (long) i, i);
-    }
-}
-```
+[[#Java 17 LTS#外部函数和内存 API]]
 # Java 15
 
 - CharSequence.isEmpty()
@@ -74,9 +62,8 @@ public void EdDSA(String msg) throws NoSuchAlgorithmException, InvalidKeyExcepti
 	- 所有字段不可被修改；类对象不可被 `instrumentation` 等修改
 # Java 16
 ## Vector API
-#实验性功能
 
-提供 `jdk.incubator.vector` API 用于向量表示与运算
+[[Java 18-23 API 新特性#Java 20#VectorAPI]]
 # Java 17 LTS
 ## 伪随机发生器
 
@@ -89,7 +76,6 @@ RandomGeneratorFactory<RandomGenerator> rf = RandomGeneratorFactory.of("L128X256
 RandomGenerator random = rf.create(System.currentTimeMillis());
 ```
 ## 外部函数和内存 API
-#实验性功能 
 
 一系列用于访问堆外内存的 API，仍在孵化中，目前包括
 
@@ -97,6 +83,8 @@ RandomGenerator random = rf.create(System.currentTimeMillis());
 - JEP 383：Foreign-Memory Access API（2nd incubator）
 - JEP 393：Foreign Linker API
 - JEP 412：Foreign Function & Memory API
+
+[[Java 18-23 API 新特性#Java 20#FFM]]
 ## 其他 API
 
 - 移除 Appplet API

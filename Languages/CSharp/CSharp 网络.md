@@ -1,3 +1,7 @@
+---
+状态: 未完成
+未完成部分: 服务器，TCP，UDP
+---
 C# 中网络包主要有
 - `System.Net`：与较高层操作有关，上传下载，Web 请求等
 - `System.Net.Socket`：与较低层操作有关，直接使用套接字或 TCP/IP 协议等
@@ -113,8 +117,5 @@ void IPAddressSample(string ipAddressString)
 - HostName：返回主机名
 - AddressList：返回 IPAddress[]
 # WebListener 服务器
-#未完成 
 # TCP
-#未完成 
 # UDP
-#未完成 

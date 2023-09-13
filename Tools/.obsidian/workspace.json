@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "07fe5f8526064e05",
+        "id": "cfe85f9eb17a033c",
         "type": "tabs",
         "children": [
           {
-            "id": "bda1aed419fad123",
+            "id": "e0d2d3b27b237779",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MySQL/MySQL 锁.md",
+                "file": "Markdown/LaTeX.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MySQL/MySQL 锁.md",
+                "file": "Markdown/LaTeX.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MySQL/MySQL 锁.md",
+                "file": "Markdown/LaTeX.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MySQL/MySQL 锁.md"
+                "file": "Markdown/LaTeX.md"
               }
             }
           }
@@ -156,8 +156,17 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "bda1aed419fad123",
+  "active": "e0d2d3b27b237779",
   "lastOpenFiles": [
+    "Markdown/mermaid/Mermaid.md",
+    "Markdown/Markdown.md",
+    "IDE/Jetbrains 控制台乱码.md",
+    "Markdown/LaTeX.md",
+    "Gradle/Gradle 代理设置.md",
+    "Gradle/Gradle 修改缓存位置.md",
+    "Gradle/编码GBK的不可映射字符.md",
+    "git/Github SSH 登录.md",
+    "MySQL/MySQL 锁.md",
     "MySQL/MySQL 数据类型.md",
     "MySQL/MySQL 其他SQL语句优化.md",
     "MySQL/MySQL 分页查询及DCL.md",
@@ -178,7 +187,6 @@
     "_resources/image/Pasted image 20230727233857.png",
     "_resources/Appraiserres.dll",
     "MySQL/MySQL 约束.md",
-    "MySQL/MySQL 锁.md",
     "MySQL/MySQL 管理.md",
     "MySQL/MySQL 索引.md",
     "MySQL/MySQL 函数.md",
@@ -186,16 +194,9 @@
     "MySQL",
     "TOML.md",
     "YAML.md",
-    "Markdown/Markdown.md",
-    "Gradle/编码GBK的不可映射字符.md",
-    "Gradle/Gradle 代理设置.md",
-    "Gradle/Gradle 修改缓存位置.md",
     "其他/自建ss服务器教程.md",
     "其他/平板电脑安装Ubuntu教程.md",
     "其他",
-    "Linux/Linux 文件系统.md",
-    "Gradle/ShadowJar.md",
-    "Gradle/Maven Publish.md",
     "Javac",
     "Gradle",
     "IDE",

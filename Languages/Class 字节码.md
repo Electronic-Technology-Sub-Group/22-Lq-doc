@@ -1,3 +1,7 @@
+---
+状态: 未完成
+未完成部分: StackMapTable
+---
 Class 字节码指 Java 或其他运行于 JVM 平台上的语言编译的产物，通常为 `.class` 文件。class 文件可以通过 WinHex 等二进制编辑器打开，或通过 javap 反编译，或通过 jclasslib 等可视化工具查看。
 # javap
 
@@ -491,7 +495,6 @@ attribute_info {
 ```
 
 - 栈映射帧：StackMapTable
-  #未完成 
 
 ```
 attribute_info {
