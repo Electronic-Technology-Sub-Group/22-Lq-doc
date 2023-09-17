@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C++/Cpp 编译期1.md",
+                "file": "C++/Cpp 函数1.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b6e679e5884cb134",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "C++/库/OpenGL/OpenGL 模板测试.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -48,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "```ad-",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,8 +78,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -86,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C++/Cpp 编译期1.md",
+                "file": "C++/库/OpenGL/OpenGL 模板测试.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C++/Cpp 编译期1.md",
+                "file": "C++/库/OpenGL/OpenGL 模板测试.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C++/Cpp 编译期1.md"
+                "file": "C++/库/OpenGL/OpenGL 模板测试.md"
               }
             }
           },
@@ -166,53 +178,53 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "4d95cc327809b09d",
+  "active": "b6e679e5884cb134",
   "lastOpenFiles": [
-    "Java/专题/编译时注解.md",
-    "Java/库/JUnit5.md",
-    "Java/库/ASM.md",
-    "Java/库/javapoet.md",
-    "Java/库/Netty4.md",
-    "Java/库/测试",
-    "C++/库/OpenGL/OpenGL.md",
-    "CSharp/CSharp 12 更新记录.md",
-    "CSharp/CSharp 10 更新记录.md",
-    "CSharp/CSharp 9 更新记录.md",
-    "CSharp/CSharp 7 更新记录.md",
-    "CSharp/CSharp 反射.md",
-    "CSharp/CSharp 接口.md",
+    "C++/库/OpenGL/OpenGL 基础渲染.md",
+    "C++/库/OpenGL/OpenGL 高级光照模型.md",
+    "C++/库/OpenGL/OpenGL 变换.md",
+    "Scala/Scala 包.md",
+    "SQL/SQL DQL.md",
     "CSharp/CSharp 文件与流.md",
-    "CSharp/CSharp 命名空间.md",
-    "CSharp/CSharp 函数.md",
-    "CSharp/CSharp 结构体.md",
-    "CSharp/CSharp 内存与资源.md",
-    "CSharp/CSharp 异常处理.md",
-    "CSharp/CSharp 锁与同步.md",
-    "Java/库/Minecraft/DataFixerUpper.md",
-    "Java/库/Minecraft/DataFixerUpper Codec.md",
-    "Java/库/Minecraft/Minecraft 世界生成.md",
-    "C++/C++20/C++20.md",
-    "C++/C++20/未命名.md",
-    "C++/C++20",
-    "C++/C++.md",
-    "Java/库/Minecraft Forge/Codec.md",
+    "C++/C++.md.bak",
+    "Rust/Rust 测试.md",
+    "Rust/Rust 智能指针.md",
+    "Rust/Rust 所有权.md",
+    "Rust/Rust 并发模型.md",
+    "Rust/Rust 宏.md",
+    "Rust/Rust 基本语法.md",
+    "Rust/Rust 包与模块.md",
+    "Rust/Rust 函数.md",
+    "Rust/Rust unsafe.md",
+    "Rust/Rust Cargo.md",
+    "Python3/Python.md",
+    "Python3/Python 输入输出.md",
+    "Python3/Python 语句及注释.md",
+    "Python3/Python 编码规范.md",
+    "Python3/Python 类.md",
+    "Python3/Python 正则表达式.md",
+    "Python3/Python 标准库简介.md",
+    "Python3/Python 控制语句.md",
+    "Python3/Python 多线程.md",
+    "Python3/Python 函数.md",
+    "_articles/[转]深入理解ruby闭包.md.bak",
+    "_articles/OpenGL、VRML Materials.md.bak",
+    "_articles/Built-in Variable (GLSL).md.bak",
+    "SQL/SQL.md.bak",
+    "SQL/SQL 语句及注释.md.bak",
+    "SQL/SQL 多表查询.md.bak",
+    "SQL/SQL 事务.md.bak",
+    "SQL/SQL DQL.md.bak",
+    "SQL/SQL DML.md.bak",
     "_resources/Pasted image 20230914020740.png",
     "_resources/Pasted image 20230914020252.png",
     "_resources/Pasted image 20230914020228.png",
     "_resources/Pasted image 20230914015956.png",
     "_resources/Pasted image 20230914015826.png",
     "_resources/Pasted image 20230914015649.png",
-    "Java/库/Minecraft",
     "_resources/Pasted image 20230913155728.png",
     "_resources/Pasted image 20230913155714.png",
     "_resources/Pasted image 20230913155504.png",
-    "_resources/Pasted image 20230913155234.png",
-    "_resources/Appraiserres.dll",
-    "_articles/quaternion.pdf",
-    "_articles/未确认 813927.crdownload",
-    "www.lwjgl.org",
-    "C++/库/OpenGL",
-    "C++/库",
-    "未命名"
+    "_resources/Pasted image 20230913155234.png"
   ]
 }

@@ -4,9 +4,8 @@ JavaAgent 是 Instrumentation 的具体实现。Instrumentation 通过独立的�
 
 Instrumentation 基于 JVMTI（JVM Tool Interface），为 JVM 提供的本地编程接口集合，具有很多强大功能，使 Java 具有更强的动态控制、解释能力，提供基于虚拟机层面的 AOT 支持
 
-```ad-summary
-Java Agent = bytecode instrumentation
-```
+> [!summary]
+> Java Agent = bytecode instrumentation
 # Instrumentation
 
 JavaAgent 的类转换（Instrumentation）分为三种，对应类加载的三个不同时机
@@ -69,9 +68,8 @@ Can-Set-Native-Method-Prefix: true
 另外，若用到 JVM 自带的 ASM，还需要 `-XDignore.symbol.file` 参数忽略找不到的类
 - 原因：javac 默认不直接使用 `rt.jar` 而是使用 `lib/ct.sym` 中的符号表
 
-```ad-info
-若一个应用程序 jar 包（带 main 函数）自带 JavaAgent，应在 Manifest 中定义 `Launcher-Agent-Class` 属性，使用 `agentmain` 作为方法名，但起到 `Load-Time Instrumentation` 的效果，且第一个参数字符串总为空
-```
+> [!info]
+> 若一个应用程序 jar 包（带 main 函数）自带 JavaAgent，应在 Manifest 中定义 `Launcher-Agent-Class` 属性，使用 `agentmain` 作为方法名，但起到 `Load-Time Instrumentation` 的效果，且第一个参数字符串总为空
 # 转换
 
 JVM 内置了一套 ASM 类库（`jdk.internal.org.objectweb.asm` 可用于辅助修改）

@@ -2,11 +2,11 @@
 
 g++ 是 GCC 中 C++ 的编译器，该集合包括C，C++，Java，Go 等大多数常用语言的编译。 
 
-```ad-note
-GCC：GNU Compiler Collection，GNU 编译器集合
+> [!note]- GCC
+> GNU Compiler Collection，GNU 编译器集合
 
-gcc：GNU C Compiler，GCC 中 C 语言编译器
-```
+> [!note]- gcc
+> GNU C Compiler，GCC 中 C 语言编译器
 
 该编译器中与编译过程相关的参数包括：
 

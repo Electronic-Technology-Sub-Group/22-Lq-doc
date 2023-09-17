@@ -6,7 +6,7 @@
   ```
 
 - 使用 package 代码块
-  
+
   ```scala
   package users {
       package administrators {
@@ -31,9 +31,8 @@ import users.{UserPreferences => UPrefs} // 导入 users 包的 UserPreferences 
 import _root_.users._
 ```
 
-```ad-hint
-Scala 包命名惯例为：
- - 包名与文件目录名相同，但不强求
- - 包名应全部小写
- - 前三层包一般为 `<top-level-domain>.<domain-name>.<project-name>`
-```
+> [!hint]
+> Scala 包命名惯例为：
+>  - 包名与文件目录名相同，但不强求
+>  - 包名应全部小写
+>  - 前三层包一般为 `<top-level-domain>.<domain-name>.<project-name>`

@@ -63,11 +63,10 @@ int main() {
 
 至此，窗口即可创建成功。
 
-```ad-warning
-以上代码没有做异常处理。
-- `glfwInit` 返回 `GLFW_FALSE` 即 0 时表示 GLFW 初始化异常
-- `glfwCreateWindow` 返回空指针时表示窗口创建失败
-```
+> [!warning]
+> 以上代码没有做异常处理。
+> - `glfwInit` 返回 `GLFW_FALSE` 即 0 时表示 GLFW 初始化异常
+> - `glfwCreateWindow` 返回空指针时表示窗口创建失败
 # 窗口事件
 
 创建窗口后，还需要绑定必要的 GLFW 窗口事件回调。

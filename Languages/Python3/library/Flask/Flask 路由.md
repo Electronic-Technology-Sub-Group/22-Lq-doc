@@ -12,13 +12,12 @@ def hello_world():  # put application's code here
 
 ![[Pasted image 20230730090016.png]]
 
-```ad-tip
-1. 所有路由必须以 `/` 开头
-2. 给定路由若以 `/` 结尾，则访问地址可以省略 `/`
-   - `app.route('/hello/')` 既可以被 `/hello/` 命中，又可以被 `/hello` 命中
-3. 给定路由若不以 `/` 结尾，则访问地址也不可以加 `/`
-   - `app.route('/hello')` 只能被 `/hello` 命中，不能被 `/hello/` 命中
-```
+> [!tip]
+> 1. 所有路由必须以 `/` 开头
+> 2. 给定路由若以 `/` 结尾，则访问地址可以省略 `/`
+>    - `app.route('/hello/')` 既可以被 `/hello/` 命中，又可以被 `/hello` 命中
+> 3. 给定路由若不以 `/` 结尾，则访问地址也不可以加 `/`
+>    - `app.route('/hello')` 只能被 `/hello` 命中，不能被 `/hello/` 命中
 
 # 方法
 

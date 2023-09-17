@@ -2,12 +2,11 @@
 
 元组可以直接使用 `()` 声明，直接使用类型时通过 `ItemN` 访问，是值类型
 
-```ad-warning
-C# 7 的元组是 `System.ValueTuple` 类型，之前存在的是 `System.Tuple` 类元组
-- `System.ValueTuple` 是值类型，`System.Tuple` 是引用类型
-- `System.ValueTuple` 可变，`System.Tuple` 不可变
-- `System.ValueTuple` 内存储的是字段，`System.Tuple` 内存储的是属性
-```
+> [!warning]
+> C# 7 的元组是 `System.ValueTuple` 类型，之前存在的是 `System.Tuple` 类元组
+> - `System.ValueTuple` 是值类型，`System.Tuple` 是引用类型
+> - `System.ValueTuple` 可变，`System.Tuple` 不可变
+> - `System.ValueTuple` 内存储的是字段，`System.Tuple` 内存储的是属性
 
 ```c#
 (int, double) t = (4, 5.3);

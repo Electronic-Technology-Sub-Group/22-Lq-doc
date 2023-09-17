@@ -130,10 +130,9 @@ using (FileStream stream = File.OpenRead("./samplefile.data"))
 
 - 分析编码：BOM
 
-```ad-info
-BOM: Byte Order Mark, 字节顺序标记, 提供了文件如何编码的信息
-```
-  
+> [!note]- BOM
+> Byte Order Mark, 字节顺序标记, 提供了文件如何编码的信息
+
 ```csharp
 Encoding GetEncoding(FileStream stream)
 {

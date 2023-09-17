@@ -15,13 +15,12 @@ OpenGL 的坐标系是一个典型的右手系，z 轴垂直于屏幕向外。
 $$
 V_{clip} = M_{projection} \cdot M_{view} \cdot M_{model} \cdot V_{local}
 $$
-```ad-warning
-OpenGL 默认以调用 `draw` 方法的顺序绘制，最终输出时不会按 z 轴删除遮挡像素。可以通过深度测试开启剪裁：`glEnable(GL_DEPTH_TEST)`
-
-开启后，每次绘制前需要清空深度缓冲区：`glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT)`
-
-更多深度测试相关详见 [[OpenGL 深度测试]]
-```
+> [!warning]
+> OpenGL 默认以调用 `draw` 方法的顺序绘制，最终输出时不会按 z 轴删除遮挡像素。可以通过深度测试开启剪裁：`glEnable(GL_DEPTH_TEST)`
+> 
+> 开启后，每次绘制前需要清空深度缓冲区：`glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT)`
+> 
+> 更多深度测试相关详见 [[OpenGL 深度测试]]
 # 投影
 
 为了将顶点坐标从观察变换到裁剪空间，我们需要定义一个投影矩阵(Projection Matrix)，它指定了一个范围的坐标，比如在每个维度上的-1000到1000。投影矩阵接着会将在这个指定的范围内的坐标变换为标准化设备坐标的范围(-1.0, 1.0)。所有在范围外的坐标不会被映射到在-1.0到1.0的范围之间，所以会被裁剪掉。在上面这个投影矩阵所指定的范围内，坐标(1250, 500, 750)将是不可见的，这是由于它的x坐标超出了范围，它被转化为一个大于1.0的标准化设备坐标，所以被裁剪掉了。

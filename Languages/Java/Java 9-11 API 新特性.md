@@ -77,9 +77,8 @@ new ProcessBuilder("java", "--version")
 
 Java 9 新增 `ProcessHandler` 标识一个本地进程，允许查询进程状态并管理进程，`Process` 可通过 `toHandler()` 方法转换为 `ProcessHandler`
 
-```ad-info
-`Process` 表示由 JVM 启动的本地进程，`ProcessHandler` 表示任意本地线程
-```
+> [!info]
+> `Process` 表示由 JVM 启动的本地进程，`ProcessHandler` 表示任意本地线程
 
 ```java
 ProcessHandle handle = ProcessHandle.current();

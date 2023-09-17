@@ -223,16 +223,15 @@ glVertexAttribPointer(0, 3, GL_FLOAT, false, 0, nullptr);
 
 `glEnableVertexAttribArray` 表示开启一个顶点通道，`glEnableVertexAttribArray` 关闭顶点通道。一个顶点通道即顶点着色器中 `in` 类型变量 `layout` 中 `location` 属性的值，如果没有手动指定可以通过 `glGetAttribLocation` 根据变量名查找。
 
-```ad-seealso
-GL 4.5 之后，允许不进行绑定后进行开关配置，需要传入对应 vao 名
-
-| 新方法                     | 旧方法                     |
-| -------------------------- | -------------------------- |
-| glGenVertexArrays          | glCreateVertexArrays       | 
-| glEnableVertexArrayAttrib  | glEnableVertexAttribArray  |
-| glDisableVertexArrayAttrib | glDisableVertexAttribArray |
-
-```
+> [!seealso]
+> GL 4.5 之后，允许不进行绑定后进行开关配置，需要传入对应 vao 名
+> 
+> | 新方法                     | 旧方法                     |
+> | -------------------------- | -------------------------- |
+> | glGenVertexArrays          | glCreateVertexArrays       | 
+> | glEnableVertexArrayAttrib  | glEnableVertexAttribArray  |
+> | glDisableVertexArrayAttrib | glDisableVertexAttribArray |
+> 
 
 `glVertexAttribPointer` 定义了顶点缓冲区中的数据如何传入顶点着色器，一个 `in` 类型属性对应一次 `glVertexAttribPointer` 方法调用
 
@@ -254,40 +253,37 @@ void glVertexAttribPointer(GLuint index,
 
 stride 和 pointer 在不同组合的情况下有不同作用
 
-```ad-example
-顶点着色器：
-layout (location = 0) in vec3 pos;
+> [!example]
+> 顶点着色器：
+> layout (location = 0) in vec3 pos;
+> 
+> 顶点数组配置：
+> glVertexAttribPointer(0, 3, GL_FLOAT, false, 0, nullptr)
+> 
+> ![[Pasted image 20230909145745.png]]
+> 
 
-顶点数组配置：
-glVertexAttribPointer(0, 3, GL_FLOAT, false, 0, nullptr)
+> [!example]
+> 顶点着色器：
+> `layout (location = 0) in vec3 pos;`
+> `layout (location = 1) in vec3 color;`
+> 
+> 顶点数组配置：
+> `glVertexAttribPointer(0, 3, GL_FLOAT, false, 6 * sizeof(float), nullptr);`
+> `glVertexAttribPointer(1, 3, GL_FLOAT, false, 6 * sizeof(float), (void*) (3 * sizeof(float)));`
+> 
+> ![[Pasted image 20230909153441.png]]
 
-![[Pasted image 20230909145745.png]]
-
-```
-
-```ad-example
-顶点着色器：
-`layout (location = 0) in vec3 pos;`
-`layout (location = 1) in vec3 color;`
-
-顶点数组配置：
-`glVertexAttribPointer(0, 3, GL_FLOAT, false, 6 * sizeof(float), nullptr);`
-`glVertexAttribPointer(1, 3, GL_FLOAT, false, 6 * sizeof(float), (void*) (3 * sizeof(float)));`
-
-![[Pasted image 20230909153441.png]]
-```
-
-```ad-example
-顶点着色器：
-`layout (location = 0) in vec3 pos;`
-`layout (location = 1) in vec3 color;`
-
-顶点数组配置：
-`glVertexAttribPointer(0, 3, GL_FLOAT, false, 0, nullptr);`
-`glVertexAttribPointer(1, 3, GL_FLOAT, false, 0, (void*) (9 * sizeof(float)));`
-
-![[Pasted image 20230909154900.png]]
-```
+> [!example]
+> 顶点着色器：
+> `layout (location = 0) in vec3 pos;`
+> `layout (location = 1) in vec3 color;`
+> 
+> 顶点数组配置：
+> `glVertexAttribPointer(0, 3, GL_FLOAT, false, 0, nullptr);`
+> `glVertexAttribPointer(1, 3, GL_FLOAT, false, 0, (void*) (9 * sizeof(float)));`
+> 
+> ![[Pasted image 20230909154900.png]]
 # 绘制三角形
 
 ![[Pasted image 20230909161607.png]]

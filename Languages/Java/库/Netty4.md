@@ -4,9 +4,8 @@
 参考资料: https://waylau.gitbooks.io/netty-4-user-guide/content/
 包名: io.netty:netty-all、
 ---
-```ad-note
-Netty 5 由于设计问题停止开发，现在最新版就是 Netty 4
-```
+> [!note]
+> Netty 5 由于设计问题停止开发，现在最新版就是 Netty 4
 
 Netty 为一个使用异步事件驱动（asynchronous event-driven）的网络应用框架，基于 NIO，简化网络程序的开发过程，用于解决通用通信协议无法处理的问题，如通过网络通信处理大文件、邮件或实时信息，通过专有协议与旧系统进行通信等。
 

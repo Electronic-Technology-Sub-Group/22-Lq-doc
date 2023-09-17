@@ -211,7 +211,6 @@ C++ 兼容 C，而 C 语言的所有头文件成员在全局作用域中，包�
 # iostream
 
 负责来自 `C++` 的基本控制台输入输出功能，其地位相当于 `C` 中的.`stdio.h` 头文件。
-
 ## cin
 
 `cin`  相当于 `C` 中的 `scanf` 函数，用于从控制台输入数据。
@@ -228,7 +227,6 @@ int main() {
     cin >> num1 >> num2;
 }
 ```
-
 ## cout
 
 `cout` 相当于 `C` 中的 `printf` 函数，用于将数据输出到控制台
@@ -249,14 +247,11 @@ int main() {
 
 如果需要格式化输出，则可以使用 `iomanip` 头文件提供的控制函数和对象。
 
-```ad-important
-传统的 `scanf` 和 `printf` 仍然可以使用，且在数据量很大且没有其他设置的情况下，比 `cin`和 `cout` 快近一倍
-```
-
+> [!important]
+> 传统的 `scanf` 和 `printf` 仍然可以使用，且在数据量很大且没有其他设置的情况下，比 `cin`和 `cout` 快近一倍
 ## cerr
 
 异常输出
-
 ## endl
 
 `std::endl` 可直接输出到 `cout`，表示换行，相当于 `cout << '\n'`

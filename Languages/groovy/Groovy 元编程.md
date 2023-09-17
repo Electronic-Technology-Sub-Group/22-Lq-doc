@@ -13,9 +13,8 @@ Groovy 在运行时，对 POJO，POGO，Groovy 拦截器有特殊处理
 - GroovyObject：负责将方法调用转移到 MetaClass 上
 - invokeMethod：用于GroovyInterruptable 接口或 MetaClass 拦截方法时使用
 
-```ad-warning
-不建议重写该方法。若要拦截未实现方法，推荐重写 methodMissing 方法
-```
+> [!warning]
+> 不建议重写该方法。若要拦截未实现方法，推荐重写 methodMissing 方法
 
 - get/setProperty：用于对方法的成员变量的 getter/setter 操作拦截，覆盖 getXxx/setXxx 方法
 - get/setMetaClass：对 MetaClass 的访问，用以更改默认拦截机制
@@ -23,17 +22,15 @@ Groovy 在运行时，对 POJO，POGO，Groovy 拦截器有特殊处理
 - methodMissing：当找不到方法时，调用该方法，可在该方法中对这种情况特殊处理。
 	- `$static_methodMissing`：静态成员，对应静态方法缺失
 
-```ad-tip
-触发该方法时，向 MetaClass（ExpandoMetaClass） 中注册一下方法，下次调用该方法将不会产生额外开销
-```
+> [!tip]
+> 触发该方法时，向 MetaClass（ExpandoMetaClass） 中注册一下方法，下次调用该方法将不会产生额外开销
 
 - propertyMissing：当找不到属性时，调用该方法
 	- `$static_propertyMissing`：静态成员，对应静态属性缺失
 - GroovyInterceptable：若实现该接口，所有的方法将被 `invokeMethod` 方法拦截而不使用
 
-```ad-tip
-若要拦截所有方法，而不能实现 GroovyInterceptable 接口（如 POJO），可以重写 MetaClass.invokeMethod 方法
-```
+> [!tip]
+> 若要拦截所有方法，而不能实现 GroovyInterceptable 接口（如 POJO），可以重写 MetaClass.invokeMethod 方法
 
 ```groovy
 class InterceptionThroughMetaClassTest extends GroovyTestCase {

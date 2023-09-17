@@ -1,6 +1,5 @@
-```ad-note
-投光物：将光**投射**(Cast)到物体的光源叫做投光物(Light Caster)。
-```
+> [!note]- 投光物
+> 将光**投射**(Cast)到物体的光源叫做投光物(Light Caster)。
 
 添加投光物主要用于模拟不同种类的光源。
 # 平行光
@@ -12,9 +11,8 @@
 ![[Pasted image 20230912013222.png]]
 点光源是处于世界中某一个位置的光源，它会朝着所有方向发光，但光线会随着距离逐渐衰减。
 
-```ad-note
-衰减：随着光线传播距离的增长逐渐削减光的强度通常叫做衰减(Attenuation)
-```
+> [!note]- 衰减
+> 随着光线传播距离的增长逐渐削减光的强度通常叫做衰减(Attenuation)
 
 衰减值计算公式如下，其中 d 表示距离，其余参数可详见[-Point Light Attenuation | Ogre Wiki (ogre3d.org)](https://wiki.ogre3d.org/tiki-index.php?page=-Point+Light+Attenuation)
 $$

@@ -113,9 +113,8 @@ Selector 是选择器，一个选择器可以管理多个 IO 操作，即多个 
 
 Selector 是一个多路开关，当一个 Channel 有一个 IO 操作时会通知 Selector，并触发对应操作。
 
-```ad-warning
-若一个 Selector 配合 Channel 使用，必须保证 Channel 是非阻塞状态的，即 `configureBlocking(false)` 的。
-```
+> [!warning]
+> 若一个 Selector 配合 Channel 使用，必须保证 Channel 是非阻塞状态的，即 `configureBlocking(false)` 的。
 
 Selector 使用 `Selector.open()` 创建，使用 `Channel#register` 方法注册。
 - `int ops`：第二个参数，为 `SelectionKey` 中的 `OP_XXX` 的常数，通过 `|` 连接
@@ -137,9 +136,8 @@ Selector 使用 `Selector.open()` 创建，使用 `Channel#register` 方法注�
 | `attachment()`      | `Channel#register()` 中 att 参数                         |
 | `channel()`         | 调用 `Channel#register()` 的 `Channel` 对象              | 
 
-```ad-warning
-`Selector#select()` 方法阻塞等待 IO，且可以设置一个超时时间。若需要非阻塞直接返回，通过 `selectNow()` 方法。以上方法返回一个 int 表示待处理 Channel 的数量。
-```
+> [!warning]
+> `Selector#select()` 方法阻塞等待 IO，且可以设置一个超时时间。若需要非阻塞直接返回，通过 `selectNow()` 方法。以上方法返回一个 int 表示待处理 Channel 的数量。
 
 ```java
 // 准备多个通道
@@ -301,11 +299,10 @@ class ServerConnect {
 
 `MappedByteBuffer` 类用于内存映射，可以直接根据内存地址操作内存，对应操作系统的虚拟内存，可用于处理超大文件读写。
 
-```ad-info
-`ByteBuffer` 有两种方案
-- 间接模式：读写堆内存，使用 `ByteBuffer` 的静态函数申请内存或包装数组都是这种模式
-- 直接模式：直接读写操作系统的虚拟内存，无法直接创建，可以从其他 `Channel` 获取，如 `FileChannel` 的 `map` 方法
-```
+> [!info]
+> `ByteBuffer` 有两种方案
+> - 间接模式：读写堆内存，使用 `ByteBuffer` 的静态函数申请内存或包装数组都是这种模式
+> - 直接模式：直接读写操作系统的虚拟内存，无法直接创建，可以从其他 `Channel` 获取，如 `FileChannel` 的 `map` 方法
 
 使用 `MappedByteBuffer` 对操作系统内存映射的文件进行读写可以省去一次数据复制过程，主要由于操作系统可以直接将文件映射为内存由 `MappedByteBuffer` 管理，而不需要将被映射区域再次复制到堆内存中。
 

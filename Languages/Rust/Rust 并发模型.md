@@ -25,10 +25,9 @@ fn main() {
 ```
 # 消息队列
 
-```ad-tip
-不要通过共享内存来通讯，而是通过通讯来共享内存
-Do not communicate by sharing memory; instead, share memory by communicating.
-```
+> [!tip]
+> 不要通过共享内存来通讯，而是通过通讯来共享内存
+> Do not communicate by sharing memory; instead, share memory by communicating.
 
 通道使用 `mpsc::channel` 创建通道，每个通道可以有多个写入数据端，但只有一个读取数据端
 

@@ -23,9 +23,8 @@
 
 使用 `with` 语句，或使用 `close()` 方法关闭文件。
 
-```ad-danger
-调用 `write()` 修改文件后，若未关闭文件，即使程序正常退出也可能导致文件没有完全写入硬盘
-```
+> [!danger]
+> 调用 `write()` 修改文件后，若未关闭文件，即使程序正常退出也可能导致文件没有完全写入硬盘
 
 ```python
 with open("file", "rw", encoding="utf-8") as f:  

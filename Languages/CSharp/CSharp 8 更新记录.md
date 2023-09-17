@@ -83,9 +83,8 @@ public ref struct RefStruct {
 }
 ```
 
-```ad-note
-`ref` 与 `readonly` 共同修饰 `struct` 时，`readonly` 必须在 `ref` 之前
-```
+> [!note]
+> `ref` 与 `readonly` 共同修饰 `struct` 时，`readonly` 必须在 `ref` 之前
 # 可空引用类型
 
 可空类型现在可以用于引用类型，此时 `default(T)` 有效且为 `null`，且编译器会进行对 `null` 的静态分析

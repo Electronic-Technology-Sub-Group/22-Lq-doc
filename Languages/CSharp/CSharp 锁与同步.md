@@ -32,9 +32,8 @@ finally
 
 使用与 Monitor 基本相同，只是多了 `IsHide()` 和 `IsHeldByCurrentThread()` 即可
 
-```ad-warning
-SpinLock 为结构体，因此应通过 ref 传递
-```
+> [!warning]
+> SpinLock 为结构体，因此应通过 ref 传递
 # WaitHandle
 
 抽象类，用于等待不同的信号。等待的句柄也可以由简单的异步委托使用

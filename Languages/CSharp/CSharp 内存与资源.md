@@ -67,9 +67,8 @@ GC.EndNoGCRegion();
 
 使用 WeakReference 创建和使用对象，若 GC 工作，会回收对象并释放内存，因此应使用 IsAlive 判断是否持有对象。
 
-```ad-note
-弱引用一般不用，对小对象也没有意义，弱引用的开销可能比持有小对象更大。
-```
+> [!note]
+> 弱引用一般不用，对小对象也没有意义，弱引用的开销可能比持有小对象更大。
 
 ```csharp
 var myWeakRefrence = new WeakRefrence(new DataObject());

@@ -35,11 +35,10 @@ foreach(var i in buffer) {
 ```
 # 拦截器
 
-```ad-info
-拦截器是一项试验性功能，需要在项目文件中设置
-    `<Features>InterceptorsPreview</Features>`
-元素。
-```
+> [!info]
+> 拦截器是一项试验性功能，需要在项目文件中设置
+>     `<Features>InterceptorsPreview</Features>`
+> 元素。
 
 可以在编译时以声明方式将对_可拦截_方法的调用替换为对其自身的调用。 通过让拦截器声明所拦截调用的源位置，可以进行这种替换。 拦截器可以向编译中（例如在源生成器中）添加新代码，从而提供更改现有代码语义的有限能力。
 

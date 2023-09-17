@@ -52,19 +52,18 @@ DataResult<T> result = codec.parse(ops, S object);
 - ops：`DynamicOps<S>` 对象
 - object：待反序列化数据
 
-```ad-note
-`Codec` 类中包含一系列自带的通用 `Codec` 对象，包括
-- 适用于布尔值的 `BOOL`
-- 适用于基本数字类型的 `INT`，`LONG`，`FLOAT`，`DOUBLE` 等
-- 适用于字符串的 `STRING`
-- 适用于数字列表的 `BYTE_BUFFER`，`INT_STREAM` 等
-- 适用于数值范围的 `intRange(min, max)`, `floatRange(min, max)` 等
-- 适用于 `null` 的 `EMPTY`
-
-Minecraft 内部很多存储数据的类都有对应 Codec 对象，这些对象通常作为该类的常量，如 `ResourceLocation.CODEC`，`BlockPos.CODEC`
-
-对于方块、物品等需要注册的对象，`CODEC` 也存在于其对应的 `Registry` 中 
-```
+> [!note]
+> `Codec` 类中包含一系列自带的通用 `Codec` 对象，包括
+> - 适用于布尔值的 `BOOL`
+> - 适用于基本数字类型的 `INT`，`LONG`，`FLOAT`，`DOUBLE` 等
+> - 适用于字符串的 `STRING`
+> - 适用于数字列表的 `BYTE_BUFFER`，`INT_STREAM` 等
+> - 适用于数值范围的 `intRange(min, max)`, `floatRange(min, max)` 等
+> - 适用于 `null` 的 `EMPTY`
+> 
+> Minecraft 内部很多存储数据的类都有对应 Codec 对象，这些对象通常作为该类的常量，如 `ResourceLocation.CODEC`，`BlockPos.CODEC`
+> 
+> 对于方块、物品等需要注册的对象，`CODEC` 也存在于其对应的 `Registry` 中 
 # 创建 Codec
 
 通过 Codec 的实现类 `RecordCodecBuilder` 可创建用于任意类型的 Codec 对象。以下例子仅以 record 类作为例子，实际上可以用任何类型

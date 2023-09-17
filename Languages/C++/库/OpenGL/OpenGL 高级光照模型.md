@@ -30,13 +30,14 @@ float spec = pow(max(dot(normalize, halfwayDir), 0), 32);
 Blinn-Phong 的镜面光分量会比冯氏模型更锐利一些。Blinn-Phong 的反光度通常是 Phong 模型的 2-4 倍
 # Gamma 校正
 
-```ad-note
-Gamma：灰度系数，$设备输出亮度=电压^{Gamma}$
+> [!note]- Gamma
+> 灰度系数，$设备输出亮度=电压^{Gamma}$
 
-Gamma 校正：对每个像素取 $\frac{1}{2.2}$ 约为 0.45 次幂
+> [!note]- Gamma 校正
+> 对每个像素取 $\frac{1}{2.2}$ 约为 0.45 次幂
 
-sRGB 颜色空间：基于 Gamma 2.2 的颜色空间
-```
+> [!note]- sRGB 颜色空间
+> sRGB 颜色空间：基于 Gamma 2.2 的颜色空间
 
 对于CRT，Gamma通常为2.2。人类所感知的亮度恰好和CRT所显示出来相似的指数关系非常匹配，而与物理亮度的梯度不同
 
