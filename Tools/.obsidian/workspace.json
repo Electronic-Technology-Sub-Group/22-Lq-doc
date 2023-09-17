@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Markdown/LaTeX.md",
+                "file": "IDE/idea Module entity with name should be available.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Markdown/LaTeX.md",
+                "file": "IDE/idea Module entity with name should be available.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Markdown/LaTeX.md",
+                "file": "IDE/idea Module entity with name should be available.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,17 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Markdown/LaTeX.md"
+                "file": "IDE/idea Module entity with name should be available.md"
+              }
+            }
+          },
+          {
+            "id": "6f0cd9e543289fae",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency"
               }
             }
           }
@@ -142,7 +152,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -158,14 +169,20 @@
   },
   "active": "e0d2d3b27b237779",
   "lastOpenFiles": [
-    "Markdown/mermaid/Mermaid.md",
-    "Markdown/Markdown.md",
+    "_resources/image/Pasted image 20230915191210.png",
+    "_resources/image/Pasted image 20230915190850.png",
+    "IDE/idea Module entity with name should be available.md",
+    "_resources/image/Pasted image 20230915173255.png",
+    "git/github.com port 22 Connection refused.md",
+    "_resources/image/Pasted image 20230915172746.png",
+    "git/Github SSH 登录.md",
     "IDE/Jetbrains 控制台乱码.md",
     "Markdown/LaTeX.md",
+    "Markdown/mermaid/Mermaid.md",
+    "Markdown/Markdown.md",
     "Gradle/Gradle 代理设置.md",
     "Gradle/Gradle 修改缓存位置.md",
     "Gradle/编码GBK的不可映射字符.md",
-    "git/Github SSH 登录.md",
     "MySQL/MySQL 锁.md",
     "MySQL/MySQL 数据类型.md",
     "MySQL/MySQL 其他SQL语句优化.md",
@@ -181,10 +198,6 @@
     "_resources/image/Pasted image 20230731184008.png",
     "_resources/image/Pasted image 20230729145916.png",
     "_resources/image/Pasted image 20230729145819.png",
-    "_resources/image/Pasted image 20230727234235.png",
-    "_resources/image/Pasted image 20230727234158.png",
-    "_resources/image/Pasted image 20230727233929.png",
-    "_resources/image/Pasted image 20230727233857.png",
     "_resources/Appraiserres.dll",
     "MySQL/MySQL 约束.md",
     "MySQL/MySQL 管理.md",
@@ -193,9 +206,6 @@
     "MySQL/MySQL InnoDB引擎.md",
     "MySQL",
     "TOML.md",
-    "YAML.md",
-    "其他/自建ss服务器教程.md",
-    "其他/平板电脑安装Ubuntu教程.md",
     "其他",
     "Javac",
     "Gradle",

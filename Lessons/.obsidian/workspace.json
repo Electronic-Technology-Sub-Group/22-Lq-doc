@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "算法/题目/2023范式杯暑假多校训练营/1K Subdivision --.md",
+                "file": "算法/AcWing/AcWing 算法基础课.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "算法/题目/2023范式杯暑假多校训练营/1K Subdivision --.md",
+                "file": "算法/AcWing/AcWing 算法基础课.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "算法/题目/2023范式杯暑假多校训练营/1K Subdivision --.md",
+                "file": "算法/AcWing/AcWing 算法基础课.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "算法/题目/2023范式杯暑假多校训练营/1K Subdivision --.md"
+                "file": "算法/AcWing/AcWing 算法基础课.md"
               }
             }
           }
@@ -156,11 +156,11 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "1b45ba8ac224b071",
+  "active": "1d4e46319df25bbd",
   "lastOpenFiles": [
+    "算法/题目/2023范式杯暑假多校训练营/1K Subdivision --.md",
     "算法/题目/2023范式杯暑假多校训练营/1M Water.md",
     "算法/题目/2023范式杯暑假多校训练营/1L Three Permutations -.md",
-    "算法/题目/2023范式杯暑假多校训练营/1K Subdivision --.md",
     "算法/题目/2023范式杯暑假多校训练营/1H Matches.md",
     "算法/题目/2023范式杯暑假多校训练营/1G LCRS Transform -.md",
     "算法/题目/2023范式杯暑假多校训练营/1E Heap -.md",

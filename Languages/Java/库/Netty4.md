@@ -1,6 +1,9 @@
-参考资料：[Introduction · Netty 4.x User Guide 中文翻译《Netty 4.x 用户指南》 (gitbooks.io)](https://waylau.gitbooks.io/netty-4-user-guide/content/)
-版本：[Maven Repository: io.netty » netty-all » 4.1.97.Final (mvnrepository.com)](https://mvnrepository.com/artifact/io.netty/netty-all/4.1.97.Final)
-
+---
+类型: 网络
+版本: 4.1.97 Final
+参考资料: https://waylau.gitbooks.io/netty-4-user-guide/content/
+包名: io.netty:netty-all、
+---
 ```ad-note
 Netty 5 由于设计问题停止开发，现在最新版就是 Netty 4
 ```

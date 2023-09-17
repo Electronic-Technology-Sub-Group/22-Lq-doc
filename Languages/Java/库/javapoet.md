@@ -1,3 +1,8 @@
+---
+类型: 代码生成
+版本: "1.13"
+包名: com.squareup:javapoet
+---
 Javapoet 用于更方便的使用代码生成 Java 源代码，可用于以下多种情况：
 - Java 编译时注解
 - Gradle 插件
