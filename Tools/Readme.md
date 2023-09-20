@@ -25,6 +25,7 @@
 # 数据库
 
 - [[MySQL 8.0]]：MySQL 8.0 中小型数据库
+- [[PostgreSQL]]
 
 另补几个基本概念：
 - DB：Database，数据库，存储和组织数据的仓库

@@ -39,12 +39,14 @@ mysqladmin --help
 ```bash
 mysqlbinlog [options] file1 file2 ...
 ```
-- `-d`，`--database=数据库名`：只列出指定数据库相关的操作
+- `-d`，`--database=数据库名`：只列出指定数据库相关日志
 - `-o`，`--offset=行数`：忽略前 n 行日志
 - `-r`，`--result-file=文件名`：将日志以纯文本形式保存到指定文件
 - `-s`，`--short-form`：显示简单格式，会省略某些信息
 - `--start-datatime=起始日期 --stop-datetime=终止日期`：指定查询日期
 - `--start-position=起始行 --stop-position=终止行`：指定查询位置
+- `-v`：将行事件重构为 SQL 语句
+- `-vv`：将行事件重构为 SQL 语句并输出注释信息
 ## mysqlshow
 
 客户端对象查找工具，用于查找存在的数据库、表、列、索引等及其统计信息

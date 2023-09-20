@@ -123,7 +123,7 @@ show [session | global] status like 'Com_______';
 
 ## 慢查询日志
 
-慢查询日志记录了 MySQL 中执行时间超过指定参数（`long_query_time`，默认 10s）的所有语句日志，默认未开启，需要修改 `my.cnf` 开启
+慢查询日志记录了 MySQL 中执行时间超过指定参数（`long_query_time`，默认 10s）的所有语句日志。默认未开启，需要修改 `my.cnf` 开启
 
 查看慢查询日志是否开启，显示 `ON` 即开启。Windows 默认开启，Linux 默认关闭。
 
@@ -144,6 +144,9 @@ long_query_time = 2
 
 慢查询日志存放于 `主机名-slow.log` 中，Linux 下在 `/var/lib/mysql/` 目录中，Windows 下则在 `ProgramData\MySQL\MySQL Server 8.0\Data` 目录下。
 
+慢查询日志默认不记录管理语句和不使用索引的查找语句，可在 `my.cnf` 增加以下两项配置：
+- `log_show_admin_statements=1`
+- `log_queries_not_suing_indexes=1`
 ## profile
 
 通过 `show profiles` 指令可以显示每一条语句的耗时详情。

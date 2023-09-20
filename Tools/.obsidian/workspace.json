@@ -8,14 +8,43 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e0d2d3b27b237779",
+            "id": "36d25bf99025acbe",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "MySQL/MySQL 8.0.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c970a7d8dbb659f9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MySQL/MySQL 分库分表及读写分离.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a675a58614d1eccc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MySQL/MyCat 中间件.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -44,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#类",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -89,6 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "MySQL/MyCat 中间件.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,6 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "MySQL/MyCat 中间件.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +157,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "MySQL/MyCat 中间件.md"
+              }
             }
           },
           {
@@ -144,8 +177,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -159,45 +191,47 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "e0d2d3b27b237779",
+  "active": "a675a58614d1eccc",
   "lastOpenFiles": [
+    "_resources/image/Pasted image 20230921012732.png",
+    "_resources/image/Pasted image 20230921012422.png",
+    "MySQL/MySQL 分库分表及读写分离.md",
+    "MySQL/MySQL 8.0.md",
+    "MySQL/MySQL 读写分离.md",
+    "MySQL/MyCat 中间件.md",
+    "_resources/image/Pasted image 20230920121453.png",
+    "_resources/image/Pasted image 20230920115127.png",
+    "_resources/image/Pasted image 20230920013618.png",
+    "_resources/image/Pasted image 20230920011912.png",
+    "_resources/image/Pasted image 20230920011741.png",
+    "_resources/image/Pasted image 20230920011342.png",
+    "_resources/image/Pasted image 20230920011251.png",
+    "MySQL/MySQL 主从复制.md",
+    "Readme.md",
+    "PostgreSQL.md",
+    "MySQL/MySQL 日志.md",
+    "未命名.canvas",
+    "MySQL/MySQL 索引.md",
+    "MySQL/MySQL 管理工具.md",
+    "_resources/image/Pasted image 20230919180426.png",
+    "_resources/image/Pasted image 20230919180328.png",
+    "MySQL/MySQL 存储对象.md",
+    "MySQL/MySQL 其他SQL语句优化.md",
+    "MySQL/MySQL 存储引擎.md",
+    "MySQL/MySQL 约束.md",
+    "MySQL/MySQL 函数.md",
+    "MySQL/MySQL 分页查询及DCL.md",
+    "MySQL/MySQL 数据类型.md",
     "IDE/idea Module entity with name should be available.md",
-    "_resources/image/Pasted image 20230915173255.png",
-    "_resources/image/Pasted image 20230915191210.png",
-    "_resources/image/Pasted image 20230915190850.png",
     "git/github.com port 22 Connection refused.md",
-    "_resources/image/Pasted image 20230915172746.png",
     "git/Github SSH 登录.md",
     "IDE/Jetbrains 控制台乱码.md",
     "Markdown/LaTeX.md",
     "Markdown/mermaid/Mermaid.md",
     "Markdown/Markdown.md",
     "Gradle/Gradle 代理设置.md",
-    "Gradle/Gradle 修改缓存位置.md",
-    "Gradle/编码GBK的不可映射字符.md",
-    "MySQL/MySQL 锁.md",
-    "MySQL/MySQL 数据类型.md",
-    "MySQL/MySQL 其他SQL语句优化.md",
-    "MySQL/MySQL 分页查询及DCL.md",
-    "MySQL/MySQL 存储引擎.md",
-    "MySQL/MySQL 存储对象.md",
-    "MySQL/MySQL 8.0.md",
-    "PostgreSQL.md",
-    "Readme.md",
-    "_resources/image/Pasted image 20230810190029.png",
-    "_resources/image/Pasted image 20230810184943.png",
-    "_resources/image/Pasted image 20230810170030.png",
-    "_resources/image/Pasted image 20230731184008.png",
-    "_resources/image/Pasted image 20230729145916.png",
-    "_resources/image/Pasted image 20230729145819.png",
     "_resources/Appraiserres.dll",
-    "MySQL/MySQL 约束.md",
-    "MySQL/MySQL 管理.md",
-    "MySQL/MySQL 索引.md",
-    "MySQL/MySQL 函数.md",
-    "MySQL/MySQL InnoDB引擎.md",
     "MySQL",
-    "TOML.md",
     "其他",
     "Javac",
     "Gradle",
