@@ -31,9 +31,8 @@ System.out.println(NumberFormat.getCompactNumberInstance(Locale.ENGLISH, NumberF
 - `Collectors.teeing()` 聚合两个收集器的结果
 - `CompletionStage.exceptionallyAsync`, `CompletionStage.exceptionallyCompose`, `CompletionStage.exceptionallyComposeAsync`
 # Java 14
-## Foreign-Memory Access API
 
-[[#Java 17 LTS#外部函数和内存 API]]
+[[Java 18-21 API 新特性#Foreign Function & Memory API]]
 # Java 15
 
 - CharSequence.isEmpty()
@@ -63,7 +62,7 @@ public void EdDSA(String msg) throws NoSuchAlgorithmException, InvalidKeyExcepti
 # Java 16
 ## Vector API
 
-[[Java 18-23 API 新特性#Java 20#VectorAPI]]
+[[Java 18-21 API 新特性#Java 21 LTS#Vector API]]
 # Java 17 LTS
 ## 伪随机发生器
 
@@ -77,14 +76,7 @@ RandomGenerator random = rf.create(System.currentTimeMillis());
 ```
 ## 外部函数和内存 API
 
-一系列用于访问堆外内存的 API，仍在孵化中，目前包括
-
-- JEP 370：Foreign-Memory Access API
-- JEP 383：Foreign-Memory Access API（2nd incubator）
-- JEP 393：Foreign Linker API
-- JEP 412：Foreign Function & Memory API
-
-[[Java 18-23 API 新特性#Java 20#FFM]]
+[[Java 18-21 API 新特性#Java 21 LTS#Foreign Function & Memory API]]
 ## 其他 API
 
 - 移除 Appplet API

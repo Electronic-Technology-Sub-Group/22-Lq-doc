@@ -1,20 +1,23 @@
 # Java 18
 
-## 实验性功能
-
-- 虚拟线程：[[#Java 20#虚拟线程]]
-- VectorAPI：[[#Java 20#VectorAPI]]
-## 其他
-
+- 虚拟线程：[[#Java 21 LTS#Virtual Threads]]
+- VectorAPI：[[#Java 21 LTS#Vector API]]
 - 新增一个新的 SPI 用于地址解析，以便 `InetAddress` 可以使用平台外的三方解析器
 # Java 19
-## 实验性功能
 
-- 外部函数和内存 API：[[#Java 20#外部函数与内存 API]]
-- 结构化并发：[[#Java 20#结构化并发]]
+- 外部函数和内存 API：[[#Java 21 LTS#Foreign Function & Memory API]]
+- 结构化并发：[[#Java 21 LTS#Structured Concurrency]]
 # Java 20
-## 虚拟线程
-#实验性功能  #Loom
+
+- 虚拟线程：[[#Java 21 LTS#Virtual Threads]]
+- 作用域值：[[#Java 21 LTS#Scoped Values]]
+- 结构化并发：[[#Java 21 LTS#Structured Concurrency]]
+- FFM：[[#Java 21 LTS#Foreign Function & Memory API]]
+- VectorAPI：[[#Java 21 LTS#Vector API]]
+# Java 21 LTS
+## Virtual Threads
+
+Loom 子项目，JEP444
 
 > [!note]- 平台线程
 > 运行于底层操作系统线程，并在代码整个生命周期捕获操作系统线程
@@ -38,10 +41,10 @@ Virtual Thread，由 JVM 而非操作系统实现的轻量级线程，多虚拟�
 - 虚拟线程支持 `ThreadLocal`，且虚拟线程之间，虚拟线程与平台线程之间的对象是互相隔离的
 - 虚拟线程不应池化，因为虚拟线程非常轻量
 - `synchronized` 会使虚拟线程被固定在平台线程上，应使用 `ReentrantLock` 替换
-## 作用域值
-#实验性功能  #Loom
+## Scoped Values
+#实验性功能 
 
-属于虚拟线程的 `ThreadLocal`，但是不可变的
+Loom 子项目，JEP446，属于虚拟线程的 `ThreadLocal`，但是不可变的
 
 ```java
 import jdk.incubator.concurrent.ScopedValue;
@@ -61,10 +64,9 @@ public class Main {
     }
 }
 ```
-## 结构化并发
-#实验性功能  #Loom
+## Structured Concurrency
 
-当使用多个并发时，有时候很难处理多个任务的异常并取消其他任务
+Loom 子项目，JEP453，当使用多个并发时，有时候很难处理多个任务的异常并取消其他任务
 
 ```java
 Future<String> user = executor.submit(() -> {
@@ -104,10 +106,11 @@ public class Main {
 ```
 
 结构化并发中，`StructuredTaskScope` 允许将一批子任务作为一个单元调度
-## FFM
-#实验性功能  #Panama
 
-与 Java 运行时之外的代码和数据进行互操作，高效调用外部函数，安全访问外部内存，调用本机库并处理本机数据，而不会像 JNI 那样危险和脆弱。
+## Foreign Function & Memory API
+#实验性功能 
+
+Pamana 子项目，JEP442，与 Java 运行时之外的代码和数据进行互操作，高效调用外部函数，安全访问外部内存，调用本机库并处理本机数据，而不会像 JNI 那样危险和脆弱。
 - 分配外部内存 ：`MemorySegment` 和 `SegmentAllocator`
 - 操作和访问结构化的外部内存： `MemoryLayout`，`VarHandle`
 - 控制外部内存的分配和释放：`Arena` 与 `SegmentScope`
@@ -153,10 +156,10 @@ try (Arena offHeap = Arena.openConfined()) {
 	- `heap segments`：分配于 Java 堆中
 	- `native segments`：分配于 Java 堆外
 - `ValueLayout`：对基本数据类型进行建模，且对 Java 原始类型和地址定义了有用的布局常量
-## VectorAPI
-#实验性功能 #Panama 
+## Vector API
+#实验性功能 
 
-包含针对向量计算的一系列操作，通过对编译后的 CPU 指令优化以达到超过标量计算的性能
+Pamana 子项目，JEP448，包含针对向量计算的一系列操作，通过对编译后的 CPU 指令优化以达到超过标量计算的性能
 
 ```java
 void scalarComputation(float[] a, float[] b, float[] c) {
@@ -192,3 +195,6 @@ for (int i = 0; i < a.length; i++) {
     c[i] = (a[i] * a[i] + b[i] * b[i]) * -1.0f;  
 }
 ```
+## 其他
+
+- 顺序集合接口：`SequencedCollection` 系列接口，表示集合中的元素会按顺序出现，包括 Set，List，Map 等

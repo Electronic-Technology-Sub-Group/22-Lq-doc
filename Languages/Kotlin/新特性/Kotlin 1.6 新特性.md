@@ -99,7 +99,7 @@ fun main() {
 
 ## Duration API
 
-- 已稳定
+- 已部分稳定
 - 内部数据使用 `Long` 替代 `Double`
 - 增加 `Duration.seconds(Int)` 等一系列构建方法，`Int.seconds` 等扩展方法仍保留，但位于 `Duration` 中
 

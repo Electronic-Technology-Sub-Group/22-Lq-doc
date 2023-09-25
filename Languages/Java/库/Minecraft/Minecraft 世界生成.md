@@ -1,6 +1,7 @@
 ---
 版本: 1.20.1
 类型: Forge
+状态: 未完成
 ---
 Minecraft 世界生成主要分两部分 - `PlacedFeature` 和 `ConfiguredFeature`，二者都作为数据包存储
 # ConfiguredFeature
