@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "20f1e5cb953267f1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "算法/AcWing/AcWing 算法基础课.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -48,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#todo",
+                "query": "时间复杂度",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -146,18 +159,24 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "templater-obsidian:Templater": false,
       "canvas:新建白板": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
-      "command-palette:打开命令面板": false
+      "command-palette:打开命令面板": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "templater-obsidian:Templater": false
     }
   },
-  "active": "1d4e46319df25bbd",
+  "active": "20f1e5cb953267f1",
   "lastOpenFiles": [
+    "算法/动态规划.md",
+    "算法/rsa 加密算法.md",
+    "算法/质数.md",
+    "算法/AcWing/AcWing 算法基础课.md",
+    "算法/AcWing/AcWing 算法提高课.md",
+    "算法/AcWing/Readme.md",
     "算法/题目/2023范式杯暑假多校训练营/1K Subdivision --.md",
     "算法/题目/2023范式杯暑假多校训练营/1M Water.md",
     "算法/题目/2023范式杯暑假多校训练营/1L Three Permutations -.md",
@@ -170,7 +189,6 @@
     "_resources/images/Pasted image 20230809144252.png",
     "_resources/template/_tmp_question.md",
     "_resources/images/Pasted image 20230809134239.png",
-    "算法/AcWing/AcWing 算法基础课.md",
     "_resources/images/Pasted image 20230809104407.png",
     "_resources/images/Pasted image 20230314205830.png",
     "算法/扩展欧几里得算法.md",
@@ -183,15 +201,11 @@
     "算法/题目/2023范式杯暑假多校训练营",
     "算法/排序/基数排序.md",
     "_resources/images/Pasted image 20221222000529.png",
-    "算法/质数.md",
-    "算法/动态规划.md",
-    "算法/rsa 加密算法.md",
     "算法/语言/_pages/RandomIt.md",
     "算法/语言/_pages/ForwardIt.md",
     "算法/语言/_pages/Compare.md",
     "算法/语言/_pages",
     "算法/语言/cpp 迭代器.md",
-    "算法/语言/cpp 输入输出.md",
     "算法/语言",
     "算法/题目/牛客",
     "算法/题目/Codeforce",
