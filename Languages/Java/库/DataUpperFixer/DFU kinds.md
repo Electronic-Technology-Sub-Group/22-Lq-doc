@@ -28,12 +28,9 @@ public interface Functor<F extends K1, Mu extends Functor.Mu> extends Kind1<F, M
 }
 ```
 
-`Functor` 意为算子（函子），是对特定容器应用算子的工具，作用是透过容器，变换其中的数据。该接口定义了一个方法 `map`，通过一个 `Function` 根据一个容器中的数据创建新数据，并将新数据打包返回。
+`Functor` 意为函子，定义了一个方法 `map`，通过一个 `Function` 根据一个容器中的数据创建新数据，并将新数据打包返回。
 
-**可以说，`Functor` 是整个 DFU 实现数据变换工作的核心组件**。
-
-> [!note]
-> 函子：函子是函数式编程的基本运算单位和功能单位。函子是一种范畴，即一个容器，包含了值和变形关系。同时，函子的变形关系可以依次作用于每一个值，将当前容器转换成另一个容器（通常定义为 `map` 函数）
+**可以说，`Functor` 是整个 DFU 实现数据变换工作的核心接口**。
 
 `Functor` 两个泛型 F 和 Mu 分别表示操作的容器类型和算子本身类型。
 
@@ -101,12 +98,6 @@ public interface Applicative<F extends K1, Mu extends Applicative.Mu> extends Fu
     <A, B, R> App<F, R> apply2(BiFunction<A, B, R> func, App<F, A> a, App<F, B> b);
 }
 ```
-
-`Applicative` 接口继承自 `Functor`，用于操作某一类容器。该接口主要实现了以下几类方法：
-- `point`：将给定数据保存到对应容器中，并返回该容器，通常其他语言名为 `of`
-- `leftN`：抬升一个算子，将一个 `App<F, FunctionN>` 转换为 `Function<App<F, T1>, ..., App<F, Tn>, App<F, R>>`，N 取值范围为 1-16
-- `ap`：该函子适用于以下情况：一个函子是值，一个函子是函数，将值应用于函数
-- `applyN`：对 N 个容器应用 `FunctionN` 并将返回值装箱返回，可以认为是将函数装箱后直接调用 `apN`
 # 内置容器
 
 DFU 提供了几种内置容器，通常都含有 `create` 方法用于创建对应容器，以及 `unbox` 方法用于从 `App<Mu, ?>` 类型的对象转换为具体的实现类型。
@@ -122,7 +113,7 @@ public final class IdF<A> implements App<IdF.Mu, A> {
 }
 ```
 
-IdF 是一种最简单的容器，该容器只读的存储了一个值。
+IdF 即 `IndentityF` 是一种最简单的容器，该容器只读的存储了一个值。
 
 该类的静态方法中没有 `unbox` 方法，但有 `get` 方法可用于直接获取其中的值。
 ## Const
@@ -143,7 +134,7 @@ public final class Const<C, T> implements App<Const.Mu<C>, T> {
 }
 ```
 
-Const 也是存储一个常量，但他的数据通过一个 `Monoid` 构建。`Monoid` 表示一个容器，其行为符合数学上的幺半群（艹），自定义运算符为两个容器连接，即：
+Const 也是存储一个常量，但他的数据通过一个 `Monoid` 构建。`Monoid` 表示一个容器，其行为符合数学上的幺半群，自定义运算符为两个容器连接，即：
 - 两个内部元素类型为 T 的容器连接后的结果仍是一个内部元素类型为 T 的同类容器
 - 多个容器按顺序连接，符合结合律
 - 有一个容器与其他所有容器相连接都是原容器
@@ -155,8 +146,6 @@ Const 有一个 unbox 函数，但实际做的是 IdF 的 get 的事情，即取
 该类存储一个 List，但他的 Instance 实现了 `Traversable` 没有实现 `Application`
 ## Either
 
-`Either` 是一个二选一的容器，容器可以包含的 `L`、`T` 两种数据中的任意一种，类似 c 的 `union`。
-
 `Either` 本身包含两个泛型，其 App 类型为 `Either<L, R> implements App<Mu<R>, L>`。
 
 `Either` 实现的是 `if-else` 或 `try-catch` 模型。通常情况下，右值 `Right` 是正常情况下使用的值，左值 `Left` 是右值不存在时使用的值，或异常信息。
@@ -165,7 +154,7 @@ Const 有一个 unbox 函数，但实际做的是 IdF 的 get 的事情，即取
 ## Pair
 
 `Pair` 是一个包含两个值的容器，其 App 类型为 `Pair<F, S> implements App<Mu<S>, F>`，可以通过 `swap()` 方法交换 First、Second 值。
-## Monand
+## Monad
 
 ```java
 public interface Monoid<T> {

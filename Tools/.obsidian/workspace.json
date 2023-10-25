@@ -30,33 +30,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "a675a58614d1eccc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Maven/Maven.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "774a334e4bdba45c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Maven/Maven.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -130,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Maven/Maven.md",
+                "file": "MySQL/MySQL 分库分表及读写分离.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Maven/Maven.md",
+                "file": "MySQL/MySQL 分库分表及读写分离.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Maven/Maven.md"
+                "file": "MySQL/MySQL 分库分表及读写分离.md"
               }
             }
           },
@@ -203,16 +179,24 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "774a334e4bdba45c",
+  "active": "c970a7d8dbb659f9",
   "lastOpenFiles": [
-    "_resources/image/Pasted image 20230922122320.png",
-    "Readme.md",
+    "Android/AutoX.js.md",
+    "Android/Android调试.md",
+    "_resources/image/Pasted image 20231024021418.png",
+    "MySQL/MySQL 分库分表及读写分离.md",
+    "Android",
+    "PostgreSQL.md",
+    "Markdown/LaTeX.md",
     "Maven/Maven.md",
+    "Readme.md",
+    "git/Github SSH 登录.md",
+    "AutoJS",
+    "_resources/image/Pasted image 20230922122320.png",
     "MySQL/MyCat 中间件.md",
     "Maven",
     "_resources/image/Pasted image 20230921012732.png",
     "_resources/image/Pasted image 20230921012422.png",
-    "MySQL/MySQL 分库分表及读写分离.md",
     "MySQL/MySQL 8.0.md",
     "MySQL/MySQL 读写分离.md",
     "_resources/image/Pasted image 20230920121453.png",
@@ -221,14 +205,11 @@
     "_resources/image/Pasted image 20230920011912.png",
     "_resources/image/Pasted image 20230920011741.png",
     "_resources/image/Pasted image 20230920011342.png",
-    "_resources/image/Pasted image 20230920011251.png",
     "MySQL/MySQL 主从复制.md",
-    "PostgreSQL.md",
     "MySQL/MySQL 日志.md",
     "未命名.canvas",
     "MySQL/MySQL 索引.md",
     "MySQL/MySQL 管理工具.md",
-    "_resources/image/Pasted image 20230919180426.png",
     "MySQL/MySQL 存储对象.md",
     "MySQL/MySQL 其他SQL语句优化.md",
     "MySQL/MySQL 存储引擎.md",
@@ -238,19 +219,13 @@
     "MySQL/MySQL 数据类型.md",
     "IDE/idea Module entity with name should be available.md",
     "git/github.com port 22 Connection refused.md",
-    "git/Github SSH 登录.md",
     "IDE/Jetbrains 控制台乱码.md",
-    "Markdown/LaTeX.md",
-    "Markdown/mermaid/Mermaid.md",
-    "Markdown/Markdown.md",
     "_resources/Appraiserres.dll",
     "MySQL",
     "其他",
     "Javac",
     "Gradle",
     "IDE",
-    "Linux",
-    "UML",
-    "_resources/image/Appraiserres.dll"
+    "Linux"
   ]
 }

@@ -8,15 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "94ba84d9d5f731ee",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "137136c9d60554f1",
+            "id": "8f2000e90965a6c8",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -26,9 +18,44 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "1bb7d29818d2f48c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Java/库/DataUpperFixer/DFU kinds.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a229d643283da01c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Java/库/DataUpperFixer/DFU 函数式编程基础.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0ca3c41f581ec0ce",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Java/库/DataUpperFixer/DFU functions.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -174,15 +201,22 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "137136c9d60554f1",
+  "active": "8f2000e90965a6c8",
   "lastOpenFiles": [
-    "Java/库/DataUpperFixer/DFU types.md",
+    "Java/库/DataUpperFixer/DFU kinds.md",
     "Java/库/DataUpperFixer/DFU functions.md",
+    "Java/库/DataUpperFixer/DFU 函数式编程基础.md",
+    "_resources/Pasted image 20231023091816.png",
+    "_resources/Pasted image 20231023024525.png",
+    "_resources/Pasted image 20231023024435.png",
+    "Java/Java 18-21 API 新特性.md",
+    "_resources/Pasted image 20231022234931.png",
+    "_resources/Pasted image 20231022233403.png",
+    "Java/库/DataUpperFixer/DFU Codec.md",
+    "Java/库/DataUpperFixer/DFU types.md",
     "_resources/Pasted image 20231016031607.png",
     "_resources/Pasted image 20231016031500.png",
     "_resources/Pasted image 20231016031235.png",
-    "Java/库/DataUpperFixer/DFU kinds.md",
-    "Java/库/DataUpperFixer/DFU Codec.md",
     "Java/库/DataUpperFixer/DFU serializations.md",
     "Java/库/DataUpperFixer/未命名",
     "C++/C++.md",
@@ -193,7 +227,6 @@
     "Kotlin/新特性/Kotlin 1.7 新特性.md",
     "Kotlin/新特性/Kotlin 1.8 新特性.md",
     "Kotlin/新特性/Kotlin 1.5 新特性.md",
-    "Java/Java 18-21 API 新特性.md",
     "Kotlin/新特性/Kotlin 1.1 新特性.md",
     "Java/Java 18-21 新特性.md",
     "Java/Java 9-11 API 新特性.md",
@@ -207,8 +240,6 @@
     "SQL/SQL 多表查询.md",
     "Java/库/Spring",
     "SQL/SQL.md",
-    "SQL/SQL DDL.md",
-    "SQL/SQL DQL.md",
     "_resources/Pasted image 20230918011822.png",
     "C++/C++.md.bak",
     "_articles/[转]深入理解ruby闭包.md.bak",
@@ -216,11 +247,6 @@
     "_articles/Built-in Variable (GLSL).md.bak",
     "SQL/SQL.md.bak",
     "SQL/SQL 语句及注释.md.bak",
-    "SQL/SQL 多表查询.md.bak",
-    "_resources/Pasted image 20230914020740.png",
-    "_resources/Pasted image 20230914020252.png",
-    "_resources/Pasted image 20230914020228.png",
-    "_resources/Pasted image 20230914015956.png",
-    "_resources/Pasted image 20230914015826.png"
+    "SQL/SQL 多表查询.md.bak"
   ]
 }

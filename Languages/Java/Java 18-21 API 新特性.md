@@ -44,7 +44,7 @@ Virtual Thread，由 JVM 而非操作系统实现的轻量级线程，多虚拟�
 ## Scoped Values
 #实验性功能 
 
-Loom 子项目，JEP446，属于虚拟线程的 `ThreadLocal`，但是不可变的
+Loom 子项目，JEP446，属于虚拟线程的 `ThreadLocal`，但是不可变的。 也可以用于解决全局或部分上下文
 
 ```java
 import jdk.incubator.concurrent.ScopedValue;
@@ -106,7 +106,6 @@ public class Main {
 ```
 
 结构化并发中，`StructuredTaskScope` 允许将一批子任务作为一个单元调度
-
 ## Foreign Function & Memory API
 #实验性功能 
 
@@ -119,6 +118,7 @@ Pamana 子项目，JEP442，与 Java 运行时之外的代码和数据进行互�
 ```java
 // 初始化环境
 Linker linker = Linker.nativeLinker();
+// or SymbolLookup.loaderLookup();
 SymbolLookup stdlib = linker.defaultLookup();
 // 查找函数
 // void radixsort(char* s[], int length)
