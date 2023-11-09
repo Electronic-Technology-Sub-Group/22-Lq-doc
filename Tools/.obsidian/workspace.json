@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MySQL/MySQL 分库分表及读写分离.md",
+                "file": "Gradle/编码GBK的不可映射字符.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MySQL/MySQL 分库分表及读写分离.md",
+                "file": "Gradle/编码GBK的不可映射字符.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MySQL/MySQL 分库分表及读写分离.md",
+                "file": "Gradle/编码GBK的不可映射字符.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MySQL/MySQL 分库分表及读写分离.md"
+                "file": "Gradle/编码GBK的不可映射字符.md"
               }
             }
           },
@@ -179,47 +179,48 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "c970a7d8dbb659f9",
+  "active": "63bd40066456a1dc",
   "lastOpenFiles": [
+    "Gradle/Gradle 代理设置.md",
+    "Gradle/Gradle 修改缓存位置.md",
+    "Gradle/Maven Publish.md",
+    "Gradle/ShadowJar.md",
+    "Maven.md",
+    "Markdown/Markdown.md",
+    "Markdown/LaTeX.md",
+    "Markdown/mermaid/Mermaid Git图 gitGraph.md",
+    "Markdown/mermaid/Mermaid C4图 C4Context.md",
+    "Markdown/mermaid/Mermaid 状态图 stateDiagram.md",
+    "Markdown/mermaid/Mermaid 思维导图 mindmap.md",
+    "Markdown/mermaid/Mermaid 需求图 requirementDiagram.md",
+    "Markdown/mermaid/Mermaid 实体关系图 erDiagram.md",
+    "Markdown/mermaid/Mermaid 时序图 sequenceDiagram.md",
+    "Markdown/mermaid/Mermaid 时间轴 journey.md",
+    "Markdown/mermaid/Mermaid 流程图 flowchat.md",
+    "Markdown/mermaid/Mermaid 类图 classDiagram.md",
+    "Markdown/mermaid/Mermaid 甘特图 gantt.md",
+    "Markdown/mermaid/Mermaid 饼图 pie.md",
+    "Markdown/mermaid/Mermaid.md",
+    "MySQL/MySQL 分库分表及读写分离.md",
     "Android/AutoX.js.md",
     "Android/Android调试.md",
     "_resources/image/Pasted image 20231024021418.png",
-    "MySQL/MySQL 分库分表及读写分离.md",
     "Android",
     "PostgreSQL.md",
-    "Markdown/LaTeX.md",
-    "Maven/Maven.md",
     "Readme.md",
     "git/Github SSH 登录.md",
     "AutoJS",
     "_resources/image/Pasted image 20230922122320.png",
-    "MySQL/MyCat 中间件.md",
     "Maven",
     "_resources/image/Pasted image 20230921012732.png",
     "_resources/image/Pasted image 20230921012422.png",
-    "MySQL/MySQL 8.0.md",
-    "MySQL/MySQL 读写分离.md",
     "_resources/image/Pasted image 20230920121453.png",
     "_resources/image/Pasted image 20230920115127.png",
     "_resources/image/Pasted image 20230920013618.png",
     "_resources/image/Pasted image 20230920011912.png",
     "_resources/image/Pasted image 20230920011741.png",
     "_resources/image/Pasted image 20230920011342.png",
-    "MySQL/MySQL 主从复制.md",
-    "MySQL/MySQL 日志.md",
     "未命名.canvas",
-    "MySQL/MySQL 索引.md",
-    "MySQL/MySQL 管理工具.md",
-    "MySQL/MySQL 存储对象.md",
-    "MySQL/MySQL 其他SQL语句优化.md",
-    "MySQL/MySQL 存储引擎.md",
-    "MySQL/MySQL 约束.md",
-    "MySQL/MySQL 函数.md",
-    "MySQL/MySQL 分页查询及DCL.md",
-    "MySQL/MySQL 数据类型.md",
-    "IDE/idea Module entity with name should be available.md",
-    "git/github.com port 22 Connection refused.md",
-    "IDE/Jetbrains 控制台乱码.md",
     "_resources/Appraiserres.dll",
     "MySQL",
     "其他",
