@@ -97,6 +97,8 @@ int main() {
 
 ![[auto_with_initializer.png]]
 
+`auto` 声明变量也可以同时声明多个变量。
+
 `auto` 只能推断类型（包括指针），但不能推断 `const` 修饰的类型和引用类型。可通过 `auto` 向类型添加 `const` 和 `&`
 
 ```c++

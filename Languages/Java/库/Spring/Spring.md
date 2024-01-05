@@ -23,6 +23,19 @@ Spring 主要优点有：
 - 声明式事务，提高开发效率和质量
 - 便于调试，可使用非容器依赖的方式完成测试工作
 - 方便集成，对各种框架提供直接支持
+
+![[Pasted image 20230922012528.png]]
+
+Spring Framework 主要体系结构有：
+- 核心模块 Core Container：实现 IoC 容器，扩展 BeanFactory 并实现了 Context，提供表达式语言 EL 的支持
+- AOP 模块：提供 AOP Alliance 的规范实现，整合 AspectJ 框架
+- 数据库访问集成模块 Data Access/Integration：包括 JDBC，ORM，OXM，JMS 和事务管理
+	- JDBC：提供 JDBC 的样例模板，消除冗长的 JDBC 编码和事务控制
+	- ORM：与 对象-关系 模型框架集成，包括 Hibernate，JPA，MyBatis 等
+	- OXM：提供 Object/XML 映射实现，包括 AXB，Castor，XMLBeans 和 XStream
+	- JMS：Java Messaging Service，提供消息的 生产者-消费者 模板模型
+- Web 模块：建立在 ApplicationContext 上，提供 Web 功能，提供 Spring MVC 框架且可以整合 Struts2 等其他 MVC 框架
+- 测试模块 Test：用非容器依赖的方法实现几乎所有测试工作，支持 JUnit 和 TestNG 等框架
 # 说明
 
 笔记源码所用主要语言为 Kotlin，包管理使用 Gradle，脚本代码使用 Groovy
@@ -31,4 +44,4 @@ Java 版本：17
 # 目录
 
 - [[Spring Boot]]：快速构建、启动 Spring 应用程序
-- [[Spring Framework]]：提供 Spring 的基础功能
+- [[Spring Core]]：提供 Spring 的基础功能

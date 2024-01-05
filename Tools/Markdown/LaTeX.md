@@ -17,7 +17,7 @@ Markdown LaTeX 数学公式与标准 LaTeX 公式类似
 | `\beta`  | $\beta$  | `\phi`   | $\phi$   | `\theta` | $\theta$ |
 | `\delta` | $\delta$ | `\pi`    | $\pi$    | `\Delta` | $\Delta$ |
 | `\eta`   | $\eta$   | `\psi`   | $\psi$   | `\Sigma` | $\Sigma$ |
-| `\mu`    | $\mu$    | `\rho`   | $\rho$   | `\Pi`    | $\Pi$    | 
+| `\mu`    | $\mu$    | `\rho`   | $\rho$   | `\Pi`    | $\Pi$    |
 
 - 如果存在，首字母大写表示对应的大写字母，如 `\delta` 对应 `\Delta`，`\psi` 对应 `\Psi` 等
 - $o$ 符号就是字母 `o`，不需要转义

@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "887a9e9684fb0d19",
+        "id": "929d4842a81198f5",
         "type": "tabs",
         "children": [
           {
-            "id": "1d4e46319df25bbd",
+            "id": "e2825dbe29ab40ca",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "算法/AcWing/AcWing 算法基础课.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "20f1e5cb953267f1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "算法/AcWing/AcWing 算法基础课.md",
+                "file": "初等数论/_初等数论.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -106,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "算法/AcWing/AcWing 算法基础课.md",
+                "file": "初等数论/_初等数论.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "算法/AcWing/AcWing 算法基础课.md",
+                "file": "初等数论/_初等数论.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "算法/AcWing/AcWing 算法基础课.md"
+                "file": "初等数论/_初等数论.md"
               }
             }
           }
@@ -169,12 +156,27 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "20f1e5cb953267f1",
+  "active": "e2825dbe29ab40ca",
   "lastOpenFiles": [
+    "初等数论/欧拉函数与简化剩余系.md",
+    "初等数论/_初等数论.md",
+    "初等数论/同余式.md",
+    "初等数论/质数与算数基本定理.md",
+    "初等数论/两个重要函数.md",
+    "初等数论/同余.md",
+    "初等数论/不定方程.md",
+    "初等数论/高次同余.md",
+    "算法/AcWing/AcWing 算法基础课.md",
+    "算法/排序/快速排序.md",
+    "算法/排序/希尔排序.md",
+    "算法/排序/选择排序.md",
+    "算法/排序/TimSort.md",
+    "算法/排序/归并排序.md",
+    "算法/排序/堆排序.md",
+    "算法/排序/插入排序.md",
     "算法/动态规划.md",
     "算法/rsa 加密算法.md",
     "算法/质数.md",
-    "算法/AcWing/AcWing 算法基础课.md",
     "算法/AcWing/AcWing 算法提高课.md",
     "算法/AcWing/Readme.md",
     "算法/题目/2023范式杯暑假多校训练营/1K Subdivision --.md",
@@ -182,30 +184,15 @@
     "算法/题目/2023范式杯暑假多校训练营/1L Three Permutations -.md",
     "算法/题目/2023范式杯暑假多校训练营/1H Matches.md",
     "算法/题目/2023范式杯暑假多校训练营/1G LCRS Transform -.md",
-    "算法/题目/2023范式杯暑假多校训练营/1E Heap -.md",
-    "算法/题目/2023范式杯暑假多校训练营/1C Carrot Trees -.md",
-    "算法/题目/2023范式杯暑假多校训练营/1B Anticomplementary Triangle.md",
-    "算法/题目/2023范式杯暑假多校训练营/1A Almost Correct.md",
     "_resources/images/Pasted image 20230809144252.png",
-    "_resources/template/_tmp_question.md",
     "_resources/images/Pasted image 20230809134239.png",
     "_resources/images/Pasted image 20230809104407.png",
     "_resources/images/Pasted image 20230314205830.png",
-    "算法/扩展欧几里得算法.md",
     "_resources/images/Pasted image 20230807170418.png",
-    "_resources/template/算法题目模板.md",
-    "_resources/template/_tmp_sort.md",
-    "_resources/template/Untitled.md",
-    "算法/题目/牛客/2023范式杯暑假多校训练营.md",
     "_resources/template",
     "算法/题目/2023范式杯暑假多校训练营",
-    "算法/排序/基数排序.md",
     "_resources/images/Pasted image 20221222000529.png",
-    "算法/语言/_pages/RandomIt.md",
-    "算法/语言/_pages/ForwardIt.md",
-    "算法/语言/_pages/Compare.md",
     "算法/语言/_pages",
-    "算法/语言/cpp 迭代器.md",
     "算法/语言",
     "算法/题目/牛客",
     "算法/题目/Codeforce",
