@@ -40,10 +40,9 @@ using TemplateT = T;
 # 自动推断
 
 `C++`  是一种强类型语言，编译器在编译时所有数据的类型就已经明确了。
-
 ## auto
 
-代码中我们可以通过 `auto` 让编译器自动推断一个变量的类型，称为类型推断。其形式为 `auto x = expr`。
+代码中我们可以通过 `auto` 让编译器自动推断一个变量的类型，称为类型推断。其形式为 `auto x = expr`。更多详细使用方法详见 [[类型推导#auto]]
 
 ```c++
 auto a = 10;
@@ -97,26 +96,6 @@ int main() {
 
 ![[auto_with_initializer.png]]
 
-`auto` 声明变量也可以同时声明多个变量。
-
-`auto` 只能推断类型（包括指针），但不能推断 `const` 修饰的类型和引用类型。可通过 `auto` 向类型添加 `const` 和 `&`
-
-```c++
-int[100] arr;
-
-for (auto v1: arr) {
-    // v1：int 类型
-}
-
-for (auto &v2: arr) {
-    // v2：int& 类型
-}
-
-for (const auto &v3: arr) {
-    // v3：const int& 类型
-}
-```
-
 `auto` 关键字还可以用于元组解构。使用 `auto` 可为解构的元组变量统一增加 `const`，`&` 标记等
 
 ```c++
@@ -143,7 +122,6 @@ auto (*p)() -> int;
 // 返回值类型：根据 p 推导
 auto (*q)() -> auto = p;
 ```
-
 ## decltype
 
 使用 `decltype` 关键字可在编译期获取一个表达式的类型

@@ -8,24 +8,24 @@
         "type": "tabs",
         "children": [
           {
-            "id": "a057f244084fedbf",
+            "id": "7d07eb7124b4338c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Java/库/Spring/Spring.md",
+                "file": "C++/现代c++语言核心特性解析/现代c++语言核心特性解析.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "7d07eb7124b4338c",
+            "id": "b974269cac3d0e03",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C++/Cpp 类型操作1.md",
+                "file": "C++/现代c++语言核心特性解析/类型推导.md",
                 "mode": "source",
                 "source": false
               }
@@ -78,8 +78,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -99,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C++/Cpp 类型操作1.md",
+                "file": "C++/现代c++语言核心特性解析/类型推导.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C++/Cpp 类型操作1.md",
+                "file": "C++/现代c++语言核心特性解析/类型推导.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C++/Cpp 类型操作1.md"
+                "file": "C++/现代c++语言核心特性解析/类型推导.md"
               }
             }
           },
@@ -157,7 +156,9 @@
             "state": {
               "type": "all-properties",
               "state": {
-                "sortOrder": "frequency"
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
               }
             }
           }
@@ -179,13 +180,24 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "7d07eb7124b4338c",
+  "active": "b974269cac3d0e03",
   "lastOpenFiles": [
-    "C++/Cpp 函数2.md",
-    "C++/Cpp 变量与基本类型2.md",
     "C++/C++.md",
-    "C++/Cpp HelloWorld.md",
+    "C++/Cpp 模板元编程.md",
+    "C++/现代c++语言核心特性解析/类型推导.md",
+    "C++/现代c++语言核心特性解析/命名空间.md",
+    "C++/现代c++语言核心特性解析/现代c++语言核心特性解析.md",
+    "C++/现代c++语言核心特性解析/基本类型.md",
+    "C++/Cpp 类型操作1.md",
+    "C++/更新/C++23.md",
+    "C++/Cpp 变量与基本类型2.md",
     "C++/Cpp 变量与基本类型1.md",
+    "C++/更新",
+    "_resources/auto_type.png",
+    "C++/Cpp 函数2.md",
+    "Java/库/Spring/Spring.md",
+    "C++/现代c++语言核心特性解析",
+    "C++/Cpp HelloWorld.md",
     "C++/C++20/C++20.md",
     "SQL/SQL 多表查询.md",
     "Java/库/Spring/Spring Core.md",
@@ -199,14 +211,6 @@
     "Python3/Python IO.md",
     "Python3/Python 模块.md",
     "Python3/Python 控制语句.md",
-    "Python3/Python.md",
-    "Python3/Python 语句及注释.md",
-    "Python3/Python 标准库简介.md",
-    "Python3/Python 函数.md",
-    "Python3/Python 正则表达式.md",
-    "Python3/Python 类.md",
-    "Java/库/Spring/Spring.md",
-    "Java/库/Spring/Spring Boot.md",
     "_resources/Pasted image 20231023091816.png",
     "_resources/Pasted image 20231023024525.png",
     "_resources/Pasted image 20231023024435.png",
@@ -219,13 +223,10 @@
     "Java/库/DataUpperFixer",
     "_resources/Pasted image 20230922012528.png",
     "Java/库/Spring",
-    "_resources/Pasted image 20230918011822.png",
     "C++/C++.md.bak",
     "_articles/[转]深入理解ruby闭包.md.bak",
     "_articles/OpenGL、VRML Materials.md.bak",
     "_articles/Built-in Variable (GLSL).md.bak",
-    "SQL/SQL.md.bak",
-    "SQL/SQL 语句及注释.md.bak",
-    "SQL/SQL 多表查询.md.bak"
+    "SQL/SQL.md.bak"
   ]
 }

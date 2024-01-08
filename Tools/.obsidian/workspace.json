@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "其他/记数据库课设前后端开发与部署过程.md",
+                "file": "git/Github SSH 登录.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "其他/记数据库课设前后端开发与部署过程.md",
+                "file": "git/Github SSH 登录.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "其他/记数据库课设前后端开发与部署过程.md",
+                "file": "git/Github SSH 登录.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "其他/记数据库课设前后端开发与部署过程.md"
+                "file": "git/Github SSH 登录.md"
               }
             }
           },
@@ -143,7 +143,9 @@
             "state": {
               "type": "all-properties",
               "state": {
-                "sortOrder": "frequency"
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
               }
             }
           }
@@ -168,20 +170,20 @@
   },
   "active": "4ec809e24ae328b5",
   "lastOpenFiles": [
+    "git/Git 仓库服务器端搭建.md",
+    "其他/记数据库课设前后端开发与部署过程.md",
     "_resources/image/Pasted image 20231205021123.png",
     "_resources/image/Pasted image 20231203170514.png",
     "_resources/image/Pasted image 20231203154028.png",
     "_resources/image/Pasted image 20231203152802.png",
     "_resources/image/Pasted image 20231203152512.png",
     "_resources/image/Pasted image 20231202004332.png",
-    "其他/记数据库课设前后端开发与部署过程.md",
     "_resources/image/Pasted image 20231202004958.png",
     "_resources/image/Pasted image 20231202004347.png",
     "_resources/image/Pasted image 20231202004405.png",
     "MySQL/MySQL 分页查询及DCL.md",
     "MySQL/MySQL 管理工具.md",
     "_resources/image/Pasted image 20231201171129.png",
-    "_resources/image/Pasted image 20231201170424.png",
     "其他/平板电脑安装Ubuntu教程.md",
     "其他/自建ss服务器教程.md",
     "Linux/Linux 权限管理.md",
