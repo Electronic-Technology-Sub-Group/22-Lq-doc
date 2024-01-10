@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "git/Github SSH 登录.md",
+                "file": "Markdown/mermaid/Mermaid 流程图 flowchat.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,7 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 242.5
   },
   "right": {
     "id": "4a146f82d88a9737",
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "git/Github SSH 登录.md",
+                "file": "Markdown/mermaid/Mermaid 流程图 flowchat.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "git/Github SSH 登录.md",
+                "file": "Markdown/mermaid/Mermaid 流程图 flowchat.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "git/Github SSH 登录.md"
+                "file": "Markdown/mermaid/Mermaid 流程图 flowchat.md"
               }
             }
           },
@@ -154,7 +154,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 213.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -170,42 +170,43 @@
   },
   "active": "4ec809e24ae328b5",
   "lastOpenFiles": [
+    "Markdown/mermaid/Mermaid 思维导图 mindmap.md",
+    "Markdown/mermaid/Mermaid Git图 gitGraph.md",
+    "Markdown/mermaid/Mermaid C4图 C4Context.md",
+    "Markdown/mermaid/Mermaid 状态图 stateDiagram.md",
+    "Markdown/mermaid/Mermaid 需求图 requirementDiagram.md",
+    "Markdown/mermaid/Mermaid 实体关系图 erDiagram.md",
+    "Markdown/mermaid/Mermaid 时序图 sequenceDiagram.md",
+    "Markdown/mermaid/Mermaid 时间轴 journey.md",
+    "Markdown/mermaid/Mermaid 流程图 flowchat.md",
+    "Markdown/mermaid/Mermaid 类图 classDiagram.md",
+    "Markdown/mermaid/Mermaid 甘特图 gantt.md",
+    "Markdown/mermaid/Mermaid 饼图 pie.md",
+    "GCC/Mingw64 安装.md",
+    "_resources/image/Pasted image 20240108232541.png",
+    "IDE/Jetbrains 控制台乱码.md",
+    "GCC",
+    "其他/极路由3Pro获取永久root权限.md",
+    "_resources/image/Pasted image 20240108210013.png",
+    "_resources/image/Pasted image 20240108205855.png",
+    "_resources/image/Pasted image 20240108205702.png",
+    "_resources/image/Pasted image 20240108205647.png",
+    "_resources/image/Pasted image 20240108205632.png",
+    "_resources/image/Pasted image 20240108205520.png",
+    "_resources/image/Pasted image 20240108205445.png",
+    "_resources/image/Pasted image 20240108205414.png",
+    "git/Github SSH 登录.md",
     "git/Git 仓库服务器端搭建.md",
     "其他/记数据库课设前后端开发与部署过程.md",
     "_resources/image/Pasted image 20231205021123.png",
-    "_resources/image/Pasted image 20231203170514.png",
-    "_resources/image/Pasted image 20231203154028.png",
-    "_resources/image/Pasted image 20231203152802.png",
-    "_resources/image/Pasted image 20231203152512.png",
-    "_resources/image/Pasted image 20231202004332.png",
-    "_resources/image/Pasted image 20231202004958.png",
-    "_resources/image/Pasted image 20231202004347.png",
-    "_resources/image/Pasted image 20231202004405.png",
     "MySQL/MySQL 分页查询及DCL.md",
     "MySQL/MySQL 管理工具.md",
-    "_resources/image/Pasted image 20231201171129.png",
     "其他/平板电脑安装Ubuntu教程.md",
     "其他/自建ss服务器教程.md",
     "Linux/Linux 权限管理.md",
     "Markdown/LaTeX.md",
     "MySQL/MySQL 存储对象.md",
     "MySQL/MySQL 存储引擎.md",
-    "MySQL/MySQL 其他SQL语句优化.md",
-    "MySQL/MySQL 函数.md",
-    "MySQL/MySQL 索引.md",
-    "MySQL/MySQL 约束.md",
-    "MySQL/MySQL 主从复制.md",
-    "Markdown/Markdown.md",
-    "Gradle/Gradle 代理设置.md",
-    "Linux/Linux 文件读写.md",
-    "Linux/Linux.md",
-    "Linux/Linux 系统管理.md",
-    "Linux/Linux 网络相关.md",
-    "MySQL/MySQL 8.0.md",
-    "Gradle/Gradle 修改缓存位置.md",
-    "Gradle/Maven Publish.md",
-    "Gradle/ShadowJar.md",
-    "Maven.md",
     "Android",
     "AutoJS",
     "Maven",
@@ -215,7 +216,6 @@
     "其他",
     "Javac",
     "Gradle",
-    "IDE",
-    "Linux"
+    "IDE"
   ]
 }

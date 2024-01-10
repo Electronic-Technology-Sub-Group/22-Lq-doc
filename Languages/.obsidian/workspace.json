@@ -13,26 +13,50 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C++/现代c++语言核心特性解析/现代c++语言核心特性解析.md",
+                "file": "C++/现代c++语言核心特性解析/0现代c++语言核心特性解析.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "b974269cac3d0e03",
+            "id": "92e5caa8ca049e36",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C++/现代c++语言核心特性解析/类型推导.md",
+                "file": "C++/现代c++语言核心特性解析/0现代c++语言核心特性解析.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3db0d1bb18c69950",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "C++/现代c++语言核心特性解析/类与结构体.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8c2bf0537acad8ab",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "C++/Cpp 函数2.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C++/现代c++语言核心特性解析/类型推导.md",
+                "file": "C++/现代c++语言核心特性解析/类与结构体.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C++/现代c++语言核心特性解析/类型推导.md",
+                "file": "C++/现代c++语言核心特性解析/类与结构体.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C++/现代c++语言核心特性解析/类型推导.md"
+                "file": "C++/现代c++语言核心特性解析/类与结构体.md"
               }
             }
           },
@@ -180,13 +204,23 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "b974269cac3d0e03",
+  "active": "3db0d1bb18c69950",
   "lastOpenFiles": [
+    "_resources/Pasted image 20240110081353.png",
+    "C++/现代c++语言核心特性解析/0现代c++语言核心特性解析.md",
+    "C++/现代c++语言核心特性解析/类与结构体.md",
+    "C++/现代c++语言核心特性解析/lambda 表达式.md",
+    "C++/Cpp 函数2.md",
+    "C++/Cpp 函数1.md",
+    "C++/现代c++语言核心特性解析/引用.md",
+    "C++/现代c++语言核心特性解析/类型推导.md",
+    "_resources/Pasted image 20240108094440.png",
+    "_resources/Pasted image 20240108093953.png",
+    "_resources/Pasted image 20240108092232.png",
+    "_resources/Pasted image 20240108092223.png",
     "C++/C++.md",
     "C++/Cpp 模板元编程.md",
-    "C++/现代c++语言核心特性解析/类型推导.md",
     "C++/现代c++语言核心特性解析/命名空间.md",
-    "C++/现代c++语言核心特性解析/现代c++语言核心特性解析.md",
     "C++/现代c++语言核心特性解析/基本类型.md",
     "C++/Cpp 类型操作1.md",
     "C++/更新/C++23.md",
@@ -194,7 +228,6 @@
     "C++/Cpp 变量与基本类型1.md",
     "C++/更新",
     "_resources/auto_type.png",
-    "C++/Cpp 函数2.md",
     "Java/库/Spring/Spring.md",
     "C++/现代c++语言核心特性解析",
     "C++/Cpp HelloWorld.md",
@@ -206,22 +239,13 @@
     "SQL/SQL DML.md",
     "SQL/SQL DCL.md",
     "SQL/SQL 事务.md",
-    "SQL/SQL DDL.md",
-    "C++/Cpp 函数1.md",
-    "Python3/Python IO.md",
-    "Python3/Python 模块.md",
-    "Python3/Python 控制语句.md",
     "_resources/Pasted image 20231023091816.png",
     "_resources/Pasted image 20231023024525.png",
     "_resources/Pasted image 20231023024435.png",
     "_resources/Pasted image 20231022234931.png",
     "_resources/Pasted image 20231022233403.png",
-    "_resources/Pasted image 20231016031607.png",
-    "_resources/Pasted image 20231016031500.png",
-    "_resources/Pasted image 20231016031235.png",
     "Java/库/DataUpperFixer/未命名",
     "Java/库/DataUpperFixer",
-    "_resources/Pasted image 20230922012528.png",
     "Java/库/Spring",
     "C++/C++.md.bak",
     "_articles/[转]深入理解ruby闭包.md.bak",
