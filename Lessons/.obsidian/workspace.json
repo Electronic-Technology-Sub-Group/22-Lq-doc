@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "初等数论/_初等数论.md",
+                "file": "算法/动态规划.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "初等数论/_初等数论.md",
+                "file": "算法/动态规划.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "初等数论/_初等数论.md",
+                "file": "算法/动态规划.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "初等数论/_初等数论.md"
+                "file": "算法/动态规划.md"
               }
             }
           }
@@ -158,15 +158,24 @@
   },
   "active": "e2825dbe29ab40ca",
   "lastOpenFiles": [
-    "初等数论/欧拉函数与简化剩余系.md",
+    "算法/质数.md",
+    "算法/AcWing/Readme.md",
+    "算法/AcWing/AcWing 算法基础课.md",
+    "算法/语言/cpp 数学计算.md",
+    "算法/语言/cpp 输入输出.md",
+    "算法/语言/cpp 排序.md",
+    "算法/语言/cpp 迭代器.md",
+    "抽象代数/运算及关系.md",
+    "抽象代数/半群与群.md",
+    "抽象代数/子群与商群.md",
     "初等数论/_初等数论.md",
-    "初等数论/同余式.md",
     "初等数论/质数与算数基本定理.md",
+    "初等数论/欧拉函数与简化剩余系.md",
+    "初等数论/同余式.md",
     "初等数论/两个重要函数.md",
     "初等数论/同余.md",
     "初等数论/不定方程.md",
     "初等数论/高次同余.md",
-    "算法/AcWing/AcWing 算法基础课.md",
     "算法/排序/快速排序.md",
     "算法/排序/希尔排序.md",
     "算法/排序/选择排序.md",
@@ -175,15 +184,6 @@
     "算法/排序/堆排序.md",
     "算法/排序/插入排序.md",
     "算法/动态规划.md",
-    "算法/rsa 加密算法.md",
-    "算法/质数.md",
-    "算法/AcWing/AcWing 算法提高课.md",
-    "算法/AcWing/Readme.md",
-    "算法/题目/2023范式杯暑假多校训练营/1K Subdivision --.md",
-    "算法/题目/2023范式杯暑假多校训练营/1M Water.md",
-    "算法/题目/2023范式杯暑假多校训练营/1L Three Permutations -.md",
-    "算法/题目/2023范式杯暑假多校训练营/1H Matches.md",
-    "算法/题目/2023范式杯暑假多校训练营/1G LCRS Transform -.md",
     "_resources/images/Pasted image 20230809144252.png",
     "_resources/images/Pasted image 20230809134239.png",
     "_resources/images/Pasted image 20230809104407.png",

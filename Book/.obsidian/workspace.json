@@ -1,0 +1,192 @@
+{
+  "main": {
+    "id": "b62cfcd9c213a21b",
+    "type": "split",
+    "children": [
+      {
+        "id": "43c9dffd9153796f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d5ba3139c2174111",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "C 和指针/C和指针.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "fc386c466c660186",
+    "type": "split",
+    "children": [
+      {
+        "id": "b614b97d04f245f6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e8a90d6cb42557f3",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "87527cbfafccba14",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "c1fa9ff4ce7f9531",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "5a046142ad7114b6",
+    "type": "split",
+    "children": [
+      {
+        "id": "f6ad5e2a58c51fd9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c8b59e28b0c0800a",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "C 和指针/C和指针.md",
+                "collapseAll": false,
+                "extraContext": true,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "a13ca22f269308e8",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "C 和指针/C和指针.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "c8ec9753e398cd12",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "cf9d8ed7e4bc81a6",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "C 和指针/C和指针.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 221.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false
+    }
+  },
+  "active": "d5ba3139c2174111",
+  "lastOpenFiles": [
+    "C 和指针/C和指针-预处理器.md",
+    "C 和指针/C和指针.md",
+    "Book.md",
+    "函数式编程思维.md",
+    "代码不朽.md",
+    "现代c++语言核心特性解析/现代cpp-普通类构造与初始化.md",
+    "现代c++语言核心特性解析/现代C++语言核心特性解析.md",
+    "现代c++语言核心特性解析/现代cpp-虚函数.md",
+    "现代c++语言核心特性解析/现代cpp-右值引用.md",
+    "现代c++语言核心特性解析/现代cpp-auto 占位符.md",
+    "现代c++语言核心特性解析/现代cpp-decltype 说明符.md",
+    "现代c++语言核心特性解析/现代cpp-内联和嵌套命名空间.md",
+    "现代c++语言核心特性解析/现代cpp-新增基本类型.md",
+    "现代c++语言核心特性解析/现代cpp-控制语句.md",
+    "现代c++语言核心特性解析/现代cpp-聚合类型.md",
+    "现代c++语言核心特性解析/现代cpp-lambda 表达式.md",
+    "现代c++语言核心特性解析/现代cpp-枚举 enum.md",
+    "现代c++语言核心特性解析/现代cpp-联合类型 union.md",
+    "_resources/_note/Cpp 特殊类型.md",
+    "C 和指针/C和指针-字符串.md",
+    "C 和指针/C和指针-数组、指针.md",
+    "C 和指针/C和指针-数据.md",
+    "C 和指针/C和指针-快速上手.md",
+    "C 和指针/C和指针-结构和联合.md",
+    "C 和指针/C和指针-高级指针.md",
+    "C 和指针/C和指针-动态内存分配.md",
+    "_resources/_image/Pasted image 20240122150939.png",
+    "_resources/_book",
+    "C 和指针",
+    "_resources/_note",
+    "_resources/新建文件夹",
+    "_resources/_image/Pasted image 20240110081353.png",
+    "_resources/_image/Pasted image 20240108094440.png",
+    "_resources/_image/Pasted image 20240108093953.png",
+    "_resources/_image/Pasted image 20240108092232.png",
+    "_resources/_image/Pasted image 20240108092223.png",
+    "_resources/_image/未命名",
+    "_resources/_image",
+    "_resources",
+    "现代c++语言核心特性解析"
+  ]
+}

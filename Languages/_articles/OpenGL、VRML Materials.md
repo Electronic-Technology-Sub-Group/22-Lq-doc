@@ -1,6 +1,6 @@
 # OpenGL/VRML Materials
 
-These numbers come from the OpenGL teapots.c demo, ï¿½ Silicon Graphics, Inc., ï¿½ 1994, Mark J. Kilgard. See also [[1]](https://www.opengl.org/archives/resources/code/samples/sig99/advanced99/notes/node153.html), [[2]](http://web.archive.org/web/20100725103839/http://www.cs.utk.edu/~kuck/materials_ogl.htm), and [[3]](http://www.it.hiof.no/~borres/j3d/explain/light/p-materials.html).
+These numbers come from the OpenGL teapots.c demo, ï¿½ Silicon Graphics, Inc., ï¿½ 1994, Mark J. Kilgard. See also [1](https://www.opengl.org/archives/resources/code/samples/sig99/advanced99/notes/node153.html), [2](http://web.archive.org/web/20100725103839/http://www.cs.utk.edu/~kuck/materials_ogl.htm), and [3](http://www.it.hiof.no/~borres/j3d/explain/light/p-materials.html).
 ## The numbers
 
 |Name|Ambient|   |   |Diffuse|   |   |Specular|   |   |Shininess|

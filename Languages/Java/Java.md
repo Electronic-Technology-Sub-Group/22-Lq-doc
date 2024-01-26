@@ -1,0 +1,31 @@
+- 更新记录：以 LTS 版本为一个节点
+	- [[Java 9-11 新特性]]，[[Java 9-11 API 新特性]]
+	- [[Java 12-17 新特性]]，[[Java 12-17 API 新特性]]
+	- [[Java 18-21 新特性]]，[[Java 18-21 API 新特性]]
+- 库用法
+	- Minecraft Mod 相关
+		- DataUpperFixer：Minecraft 提供的一个函数式数据读取与更新库
+			- [[DFU 函数式编程基础]]
+			- [[DFU Codec]]
+			- [[DFU serializations]]
+			- [[DFU kinds]]
+		- [[Architectury]]：一个可以同时编译适用于 LexForge，NeoForge，Fabric 等各种常见 mod 加载器的 mod 的工具，基于 Fabric 的 Loom 构建
+		- [[CoreMod]]：使用非 Minecraft、非 Mod 加载器提供的接口，手动修改 Minecraft 类代码。主要有 Mixin 和 AT/AW，ASM 已经很少用了
+		- [[双端通信]]：多平台中自定义数据包的方法
+		- [[游戏注册表]]：多平台中注册游戏内元素（Item、Block 等）的方法
+		- [[Minecraft 世界生成]]：MC 1.20.1 世界生成过程
+	- [[Spring]]：依赖注入框架
+	- [[ASM]]：字节码库
+	- [[javapoet]]：代码生成库
+	- [[JUnit5]]：测试库
+	- [[Netty4]]：网络通信库
+- 语言专题
+	- [[编译时注解]]：允许在编译期对代码进行一些操作
+	- [[反射]]：运行时获取虚拟机类型信息，允许一定程度上打破封装、获取泛型类型等
+	- [[获取一个类的源文件]]：从一个类 class 对象获取源文件地址
+	- [[Class 字节码]]：Java 编译后的产物
+	- [[ClassLoader]]：Java 加载类的工具
+	- [[Java NIO]]：Java8 加入的高效的文件/网络流处理工具
+	- [[JavaAgent]]：Java 代理，允许以非侵入式的方法监视、控制虚拟机程序运行过程
+	- [[Jigsaw]]：Java9 加入的模块管理系统
+	- [[ToolProvider]]：允许在应用运行时编译 Java 源文件，配合反射可以完成动态编译Java源码并加载进虚拟机，或模拟脚本的形式执行Java源代码
