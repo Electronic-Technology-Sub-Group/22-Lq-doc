@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "929d4842a81198f5",
+        "id": "581e72a6391848ea",
         "type": "tabs",
         "children": [
           {
-            "id": "e2825dbe29ab40ca",
+            "id": "bbc3cfce6f04826f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "算法/动态规划.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -93,7 +89,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "算法/动态规划.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +105,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "算法/动态规划.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -132,9 +126,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "算法/动态规划.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -156,8 +148,17 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "e2825dbe29ab40ca",
+  "active": "bbc3cfce6f04826f",
   "lastOpenFiles": [
+    "算法/题目/第6届传智杯复赛第一场/小红和小紫的取数游戏.md",
+    "算法/题目/第6届传智杯复赛第一场/小红的区间查询.md",
+    "算法/题目/第6届传智杯复赛第一场/小红的树上赋值方案 dp.md",
+    "算法/题目/第6届传智杯复赛第一场/小红的树上赋值方案.md",
+    "_resources/template/_tmp_question.md",
+    "算法/题目/第6届传智杯复赛第一场/未命名.md",
+    "算法/动态规划.md",
+    "_resources/template/算法题目模板.md",
+    "算法/题目/第6届传智杯复赛第一场",
     "算法/质数.md",
     "算法/AcWing/Readme.md",
     "算法/AcWing/AcWing 算法基础课.md",
@@ -176,14 +177,6 @@
     "初等数论/同余.md",
     "初等数论/不定方程.md",
     "初等数论/高次同余.md",
-    "算法/排序/快速排序.md",
-    "算法/排序/希尔排序.md",
-    "算法/排序/选择排序.md",
-    "算法/排序/TimSort.md",
-    "算法/排序/归并排序.md",
-    "算法/排序/堆排序.md",
-    "算法/排序/插入排序.md",
-    "算法/动态规划.md",
     "_resources/images/Pasted image 20230809144252.png",
     "_resources/images/Pasted image 20230809134239.png",
     "_resources/images/Pasted image 20230809104407.png",
@@ -199,7 +192,6 @@
     "算法/题目/ACWing",
     "算法/题目",
     "算法/排序",
-    "算法/AcWing",
     "_resources/images/Pasted image 20230123001115.png",
     "_resources/images/Pasted image 20230123001048.png",
     "_resources/images/Pasted image 20230123001031.png",

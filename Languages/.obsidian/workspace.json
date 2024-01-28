@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "6854e07d473cf2a5",
+        "id": "6669cefb00e32396",
         "type": "tabs",
         "children": [
           {
-            "id": "9eccc514e0647a8a",
+            "id": "8be982f2db52e798",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Java/Java 18-21 新特性.md",
+                "file": "JavaScript/库/Melvor Idle/Melvor Idle Mod.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Java/Java 18-21 新特性.md",
+                "file": "JavaScript/库/Melvor Idle/Melvor Idle Mod.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Java/Java 18-21 新特性.md",
+                "file": "JavaScript/库/Melvor Idle/Melvor Idle Mod.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Java/Java 18-21 新特性.md"
+                "file": "JavaScript/库/Melvor Idle/Melvor Idle Mod.md"
               }
             }
           },
@@ -167,13 +167,21 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "9eccc514e0647a8a",
+  "active": "8be982f2db52e798",
   "lastOpenFiles": [
-    "Java/Java 12-17 API 新特性.md",
+    "Java/库/Minecraft/CoreMod.md",
+    "Java/库/ASM.md",
+    "Java/库/Minecraft/Architectury.md",
+    "JavaScript/库/Melvor Idle/Melvor Idle Mod.md",
+    "JavaScript/库/Melvor Idle/Melvor Idle Context.md",
+    "JavaScript/库/Melvor Idle",
+    "README.md",
+    "JavaScript/库",
+    "JavaScript",
     "Java/Java 18-21 新特性.md",
+    "Java/Java 12-17 API 新特性.md",
     "Java/Java 12-17 新特性.md",
     "Kotlin/Kotlin.md",
-    "README.md",
     "Java/未命名",
     "Kotlin/专题",
     "Java/Java.md",
@@ -192,10 +200,7 @@
     "C++/Cpp 函数2.md",
     "C++/C++.md",
     "_articles/OpenGL、VRML Materials.md",
-    "2.md",
     "_resources/Pasted image 20230914015826.png",
-    "C++/Cpp 特殊类型.md",
-    "C++/类与成员.md",
     "_resources/Pasted image 20230914020228.png",
     "_resources/Pasted image 20230914020252.png",
     "_resources/Pasted image 20230914020740.png",
@@ -205,15 +210,10 @@
     "_resources/Pasted image 20231022234931.png",
     "_resources/Pasted image 20231023024435.png",
     "_resources/Pasted image 20231023024525.png",
-    "C++/Cpp 类与对象1.md",
-    "C++/Cpp 编译期2.md",
     "_resources/architectury.common.json",
     "Java/库/Minecraft/coremod",
     "_resources/fabric.mod.json",
     "C++/现代c++语言核心特性解析",
-    "C++/现代c++语言核心特性解析",
-    "Java/库/DataUpperFixer/未命名",
-    "Java/库/Minecraft/DataUpperFixer",
-    "Java/库/Spring"
+    "C++/现代c++语言核心特性解析"
   ]
 }

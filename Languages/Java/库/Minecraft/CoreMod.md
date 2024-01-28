@@ -498,4 +498,17 @@ Fabric 的 Injected Interfaces 允许将 Mixin 创建的对象接口直接应用
     }
 }
 ```
+
+如果需要注入的依赖传递，需要调整 loom 配置
+
+```groovy
+// build.gradle
+loom {
+    interfaceInjection {
+        enableDependencyInterfaceInjection = true
+    }
+}
+```
 # ASM
+
+详见[[ASM]]

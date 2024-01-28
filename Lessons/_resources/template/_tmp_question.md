@@ -1,7 +1,7 @@
 > <% await tp.system.prompt("from:") %>
 > <% await tp.system.prompt("url:") %>
 
-难度：<% await tp.system.prompt("难度:") %>
+难度/题目：<% await tp.system.prompt("难度:") %>
 # 题目
 
 ## 输入格式
