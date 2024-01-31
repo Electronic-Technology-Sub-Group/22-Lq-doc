@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C 和指针/C和指针.md",
+                "file": "现代c++语言核心特性解析/现代cpp-类型别名.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C 和指针/C和指针.md",
+                "file": "现代c++语言核心特性解析/现代cpp-类型别名.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C 和指针/C和指针.md",
+                "file": "现代c++语言核心特性解析/现代cpp-类型别名.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C 和指针/C和指针.md"
+                "file": "现代c++语言核心特性解析/现代cpp-类型别名.md"
               }
             }
           }
@@ -148,13 +148,24 @@
   },
   "active": "d5ba3139c2174111",
   "lastOpenFiles": [
-    "C 和指针/C和指针-预处理器.md",
+    "现代c++语言核心特性解析/现代C++语言核心特性解析.md",
+    "现代c++语言核心特性解析/现代cpp-类型别名.md",
+    "现代c++语言核心特性解析/现代cpp-断言.md",
+    "现代c++语言核心特性解析/现代cpp-noexcept.md",
     "C 和指针/C和指针.md",
+    "现代c++语言核心特性解析/现代cpp-结构化绑定.md",
+    "C 和指针/C和指针-运行时环境.md",
+    "C 和指针/C和指针-抽象数据类型.md",
+    "C 和指针/C和指针-输入输出函数.md",
+    "C 和指针/C和指针-标准函数库.md",
+    "C 和指针/C和指针-字符串.md",
+    "C 和指针/C和指针-高级指针.md",
+    "C 和指针/C和指针-动态内存分配.md",
+    "C 和指针/C和指针-预处理器.md",
     "Book.md",
     "函数式编程思维.md",
     "代码不朽.md",
     "现代c++语言核心特性解析/现代cpp-普通类构造与初始化.md",
-    "现代c++语言核心特性解析/现代C++语言核心特性解析.md",
     "现代c++语言核心特性解析/现代cpp-虚函数.md",
     "现代c++语言核心特性解析/现代cpp-右值引用.md",
     "现代c++语言核心特性解析/现代cpp-auto 占位符.md",
@@ -163,17 +174,6 @@
     "现代c++语言核心特性解析/现代cpp-新增基本类型.md",
     "现代c++语言核心特性解析/现代cpp-控制语句.md",
     "现代c++语言核心特性解析/现代cpp-聚合类型.md",
-    "现代c++语言核心特性解析/现代cpp-lambda 表达式.md",
-    "现代c++语言核心特性解析/现代cpp-枚举 enum.md",
-    "现代c++语言核心特性解析/现代cpp-联合类型 union.md",
-    "_resources/_note/Cpp 特殊类型.md",
-    "C 和指针/C和指针-字符串.md",
-    "C 和指针/C和指针-数组、指针.md",
-    "C 和指针/C和指针-数据.md",
-    "C 和指针/C和指针-快速上手.md",
-    "C 和指针/C和指针-结构和联合.md",
-    "C 和指针/C和指针-高级指针.md",
-    "C 和指针/C和指针-动态内存分配.md",
     "_resources/_image/Pasted image 20240122150939.png",
     "_resources/_book",
     "C 和指针",

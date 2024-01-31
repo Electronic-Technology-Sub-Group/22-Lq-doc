@@ -37,7 +37,9 @@ export function setup(ctx) {
 ```
 # 设置选项
 
-通过 `ctx.settings` 创建设置菜单
+通过 `ctx.settings` 创建和访问设置菜单
+
+- `ctx.settings.section`：获取或创建设置菜单，通过 `add` 添加选项，通过 `get` 获取选项
 
 ```js
 export function setup(ctx) {
@@ -59,6 +61,8 @@ export function setup(ctx) {
     });
 }
 ```
+
+其中，`add` 方法可以接受一个对象或对象数组，`type` 表示类型，可选有：`Text`，`Number`，`Switch`，`Dropdown`，`Button`，`Checkbox Group`，`Radio Group`，`Label`
 # 发布
 
 将 `manifest.json` 和所有 JavaScript 代码打包到一个 `zip` 包根目录，上传到 [Mod](mod.io) 即可。
@@ -132,6 +136,217 @@ export function setup(ctx) {
 优点
 - 方便添加
 - 易于分离游戏逻辑与数据
-- 通过 `$schema` 允许某些编辑器支持代码提示
+- 通过 Json Schema 允许某些编辑器支持代码提示
 缺点
 - 有些游戏对象无法通过该方法创建
+
+```json
+{
+  "$schema": "https://melvoridle.com/assets/schema/gameData.json",
+  "data": {
+    // ...
+  }
+}
+```
+
+将定义好的 json 文件放入项目中，在游戏中加载即可
+
+- 通过 `load` 属性加载
+
+```json
+// manifest.json
+{
+  "namespace": "mod 命名空间",
+  "load": [
+    "物品 json 文件.json"
+    // ...
+  ],
+  // ...
+}
+```
+
+- 通过 `setup` 代码加载
+
+```js
+// setup.mjs
+export async function setup(ctx) {
+    await ctx.gameData.addPackage('物品 json 文件');
+}
+```
+### 运行时定义
+
+- 优点
+	- 可以注册任意类型游戏对象
+	- 允许动态创建对象
+- 缺点
+	- 更复杂
+	- 没有代码提示
+
+通过 `ctx.gameData.buildPackage` 创建
+
+```js
+// setup.mjs
+export function setup(ctx) {
+  ctx.gameData.buildPackage((package) => {
+    package.items.add({ ... })
+  }).add();
+}
+```
+## 自定义侧边栏
+
+使用全局变量 `sidebar` 设置侧边栏，侧边栏结层级按从外向内依此为：
+
+`Sidebar` -> `Categories` -> `Items` -> `Subitems`
+
+- `category(name)`，`item(name)`，`subitem(name)` 方法可以在对应层级获取或创建一个新项目
+- `remove()` 方法可以删除该项目
+- `category(name, ops)`，`item(name, ops)`，`subitem(name, ops)` 可以创建或修改对应项目
+- `categories()`，`items()`，`subitems()` 可以获取该层级中所有子项目
+## 自定义组件
+
+可以创建自定义组件添加到游戏中
+
+- 创建一个 HTML 模板文件，其中根标签使用 `<template>`，变量使用 `{{ 变量名 }}` 代替
+
+```html
+<!-- template.html -->
+<template>
+  <span class="text-light">{{ count }}</span>
+  <button class="btn btn-secondary" @click="inc">+</button>
+</template>
+```
+
+- 在 `manifest.json` 或 `setup()` 中加载（二选一）
+
+```json
+// manifest.json
+{
+  "load": ["template.html"]
+}
+```
+
+```js
+// setup.mjs
+export async function setup(ctx) {
+  ctx.loadTemplates('template.html')
+}
+```
+
+- 定义控件并创建 UI 对象
+
+```js
+function Counter(props) {
+  return {
+    $template: "#counter-component",
+    count: props.count,
+    inc() {
+      this.count++;
+    }
+  };
+}
+
+ui.create(Counter({ count: 0 }), document.getElementById('woodcutting-container'));
+```
+## 游戏数据
+### 数据存储
+
+- 角色数据存储在 `ctx.charactterStorage` 中
+- 账号数据存储在 `ctx.accountStorage` 中
+
+注意：
+- 数据存储大小限制为 8k
+	- 每个角色数据每个Mod可存储空间为 8k
+	- 每个账号数据总可存储空间为 8k
+- 可存储类型为可以被 Json 序列化的类型（仅限 JS 数据对象等，方法等无法保存）
+### 数据监听
+
+游戏数据对象变化可以通过 `patch(object, functionName)` 方法进行监听和修改。
+- 在数据变化之前或之后执行操作
+- 获取和修改变动值
+
+可监听对象包括 `Player`，`Enemy`，`CombatManager`，`Woodcutting`，`Skill` 等。支持注入的方法及其参数（一个回调函数）信息如下：
+
+- `before(callback)`
+	- 触发：被注入方法调用前触发
+	- 参数：被注入方法传入的参数
+	- 返回：一个数组，该数组将作为参数传入被注入参数
+
+```js
+// setup.mjs
+export function setup(ctx) {
+    // 在获取经验之前对原始经验值进行处理，达到双倍经验
+    ctx.patch(Skill, 'addXP').before((amount, masterAction) => {
+        return [amount * 2, masterAction];
+    });
+}
+```
+
+- `after(callback)`
+	- 触发：被注入方法调用后触发
+	- 参数：可选，被注入方法的返回值
+	- 返回：可选，该返回值将替代原返回值作为新的返回值
+
+```js
+// setup.mjs
+export function setup(ctx) {
+    // 当 rollToHit 函数返回值为 false 时打印 log，
+    // 并将的返回值强行修改为 true，达成 100% 命中
+    ctx.patch(Player, 'rollToHit').after((willHit) => {
+        if (!willHit)
+            console.log('A miss? I think not!');
+        return true;
+    });
+}
+```
+
+- `replace(callback)`
+	- 触发：调用被注入方法调用时，替换被注入方法（但仍会受 `before`，`after` 注入的回调影响）
+	- 参数：第一个参数是原始函数，剩下的是实际传入的参数
+	- 返回：实际需要的返回值
+
+```js
+// setup.mjs
+export function setup(ctx) {
+    ctx.patch(Skill, 'addXP').replace(function(o, amount, masterAction) {
+        // prevent any woodcutting XP
+        if (this.id == 'melvorD:Woodcutting') return;
+        // double any mining XP
+        if (this.id == 'melvorD:Mining')
+            return o(amount * 2, masterAction);
+        // grant all other XP as normal
+        return o(amount, masterAction);
+    });
+}
+```
+# API 依赖
+
+API 之间可以互相依赖，一个 Mod 可以给其他 Mod 提供 API 方法。
+
+向其他 Mod 提供 API 需要为 Mod 设置一个 `namespace`
+
+```json
+// manifest.json
+{
+  "namespace": "Mod命名空间"
+}
+```
+
+然后，通过 `ctx.api(object)` 公开 API；多次调用 `ctx.api` 可以不断追加 API
+
+```js
+// setup.mjs
+export function setup(ctx) {
+    ctx.api({ ... });
+}
+```
+
+如果需要调用其他 Mod 的 API，也可以通过 `ctx.api` 获取
+
+```js
+// setup.mjs
+export function setup(ctx) {
+    // 另一个 mod 提供的 api
+    const api1 = ctx.api.提供API的Mod的命名空间;
+    const api2 = ctx.api['提供API的Mod的命名空间'];
+}
+```

@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "6669cefb00e32396",
+        "id": "e9ccd8bc69cde8fc",
         "type": "tabs",
         "children": [
           {
-            "id": "8be982f2db52e798",
+            "id": "7311f0122b2b0c98",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "JavaScript/库/Melvor Idle/Melvor Idle Mod.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -69,7 +65,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 229.5
   },
   "right": {
     "id": "64f0a3c929503f31",
@@ -85,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JavaScript/库/Melvor Idle/Melvor Idle Mod.md",
+                "file": "JavaScript/库/Melvor Idle/Melvor Idle Context.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +98,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JavaScript/库/Melvor Idle/Melvor Idle Mod.md",
+                "file": "JavaScript/库/Melvor Idle/Melvor Idle Context.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +121,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JavaScript/库/Melvor Idle/Melvor Idle Mod.md"
+                "file": "JavaScript/库/Melvor Idle/Melvor Idle Context.md"
               }
             }
           },
@@ -167,13 +163,15 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "8be982f2db52e798",
+  "active": "2bf393342dc6a99a",
   "lastOpenFiles": [
+    "JavaScript/库/Melvor Idle/Melvor Idle Sidebar.md",
+    "_resources/Pasted image 20240129102745.png",
+    "JavaScript/库/Melvor Idle/Melvor Idle Context.md",
+    "JavaScript/库/Melvor Idle/Melvor Idle Mod.md",
     "Java/库/Minecraft/CoreMod.md",
     "Java/库/ASM.md",
     "Java/库/Minecraft/Architectury.md",
-    "JavaScript/库/Melvor Idle/Melvor Idle Mod.md",
-    "JavaScript/库/Melvor Idle/Melvor Idle Context.md",
     "JavaScript/库/Melvor Idle",
     "README.md",
     "JavaScript/库",
@@ -198,8 +196,6 @@
     "C++/Cpp 变量与基本类型2.md",
     "C++/Cpp 类型操作1.md",
     "C++/Cpp 函数2.md",
-    "C++/C++.md",
-    "_articles/OpenGL、VRML Materials.md",
     "_resources/Pasted image 20230914015826.png",
     "_resources/Pasted image 20230914020228.png",
     "_resources/Pasted image 20230914020252.png",
@@ -209,7 +205,6 @@
     "_resources/Pasted image 20231022233403.png",
     "_resources/Pasted image 20231022234931.png",
     "_resources/Pasted image 20231023024435.png",
-    "_resources/Pasted image 20231023024525.png",
     "_resources/architectury.common.json",
     "Java/库/Minecraft/coremod",
     "_resources/fabric.mod.json",
