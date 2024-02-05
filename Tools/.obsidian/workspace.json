@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Markdown/LaTeX.md",
+                "file": "Gradle/教程/Gradle 基础.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Markdown/LaTeX.md",
+                "file": "Gradle/教程/Gradle 基础.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Markdown/LaTeX.md",
+                "file": "Gradle/教程/Gradle 基础.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Markdown/LaTeX.md"
+                "file": "Gradle/教程/Gradle 基础.md"
               }
             }
           },
@@ -170,51 +170,52 @@
   },
   "active": "e561bfeecba7da9a",
   "lastOpenFiles": [
+    "Gradle/文档/Gradle 托管属性.md",
+    "Android/Android调试.md",
+    "GCC、VS/synergy 编译与使用.md",
+    "通用/语义化版本.md",
+    "通用",
+    "通用/约定式提交.md",
+    "Gradle/教程/Gradle 基础.md",
+    "_resources/image/msedge_20240203_36.png",
+    "_resources/image/Pasted image 20240203001313.png",
+    "_other/note/TOML ABNF.md",
+    "_other/note",
+    "_other/note/d3-shape.md",
+    "_other/note/Cache Directory Tagging Specification.md",
+    "Gradle/文档/Gradle 目录.md",
+    "Gradle/文档/Gradle 用户目录.md",
+    "_resources/image/Pasted image 20240202164330.png",
+    "Gradle/教程/自定义 Gradle 插件.md",
+    "_resources/image/Pasted image 20240202162225.png",
+    "Gradle/编码GBK的不可映射字符.md",
+    "Gradle/Gradle 代理设置.md",
+    "Gradle/Gradle 修改缓存位置.md",
+    "Readme.md",
+    "YAML.md",
+    "TOML.md",
+    "PostgreSQL.md",
+    "Maven.md",
+    "Gradle/插件/ShadowJar.md",
+    "Gradle/文档",
+    "Gradle/插件",
+    "Gradle/插件/Maven Publish.md",
+    "_resources/image/Pasted image 20240202141112.png",
+    "_resources/image/Pasted image 20240202140202.png",
+    "_resources/image/Pasted image 20240202090745.png",
+    "_resources/image/Pasted image 20240202090717.png",
+    "_resources/image/settings 1.gradle",
+    "_resources/image/settings.gradle",
+    "_resources/note",
+    "_other/img/ext[d3-shape]area-radial.png",
+    "_other/img/ext[d3-shape]bumpX.png",
+    "Gradle/教程",
+    "Markdown/LaTeX.md",
+    "Gradle/Gradle Plugin",
     "git/Github SSH 登录.md",
     "其他/为了对电脑进行保护，已经阻止此应用.md",
-    "_resources/image/Pasted image 20240120221157.png",
-    "_resources/image/Pasted image 20240120213223.png",
-    "_resources/image/Pasted image 20240120213025.png",
     "git/github.com port 22 Connection refused.md",
-    "git/Git 仓库服务器端搭建.md",
-    "其他/synergy 编译与使用.md",
-    "_resources/image/Pasted image 20240116134258.png",
-    "_resources/image/Pasted image 20240116131733.png",
-    "_resources/image/Pasted image 20240116115548.png",
-    "_resources/image/qtcreator_20240116_31.png",
-    "_resources/image/Pasted image 20240116115442.png",
-    "_resources/image/Pasted image 20240116114217.png",
-    "_resources/image/Pasted image 20240116111040.png",
     "未命名.canvas",
-    "Markdown/mermaid/Mermaid 流程图 flowchat.md",
-    "Markdown/mermaid/Mermaid 思维导图 mindmap.md",
-    "Markdown/mermaid/Mermaid Git图 gitGraph.md",
-    "Markdown/mermaid/Mermaid C4图 C4Context.md",
-    "Markdown/mermaid/Mermaid 状态图 stateDiagram.md",
-    "Markdown/mermaid/Mermaid 需求图 requirementDiagram.md",
-    "Markdown/mermaid/Mermaid 实体关系图 erDiagram.md",
-    "Markdown/mermaid/Mermaid 时序图 sequenceDiagram.md",
-    "Markdown/mermaid/Mermaid 时间轴 journey.md",
-    "Markdown/mermaid/Mermaid 类图 classDiagram.md",
-    "Markdown/mermaid/Mermaid 甘特图 gantt.md",
-    "Markdown/mermaid/Mermaid 饼图 pie.md",
-    "GCC/Mingw64 安装.md",
-    "IDE/Jetbrains 控制台乱码.md",
-    "GCC",
-    "其他/极路由3Pro获取永久root权限.md",
-    "其他/记数据库课设前后端开发与部署过程.md",
-    "MySQL/MySQL 分页查询及DCL.md",
-    "MySQL/MySQL 管理工具.md",
-    "其他/平板电脑安装Ubuntu教程.md",
-    "其他/自建ss服务器教程.md",
-    "Android",
-    "AutoJS",
-    "Maven",
-    "_resources/Appraiserres.dll",
-    "MySQL",
-    "其他",
-    "Javac",
-    "Gradle",
-    "IDE"
+    "GCC、VS"
   ]
 }

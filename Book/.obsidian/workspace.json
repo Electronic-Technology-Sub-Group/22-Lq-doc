@@ -146,8 +146,9 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "d5ba3139c2174111",
+  "active": "e8a90d6cb42557f3",
   "lastOpenFiles": [
+    "深入理解 JVM 虚拟机",
     "现代c++语言核心特性解析/现代C++语言核心特性解析.md",
     "现代c++语言核心特性解析/现代cpp-类型别名.md",
     "现代c++语言核心特性解析/现代cpp-断言.md",
@@ -173,7 +174,6 @@
     "现代c++语言核心特性解析/现代cpp-内联和嵌套命名空间.md",
     "现代c++语言核心特性解析/现代cpp-新增基本类型.md",
     "现代c++语言核心特性解析/现代cpp-控制语句.md",
-    "现代c++语言核心特性解析/现代cpp-聚合类型.md",
     "_resources/_image/Pasted image 20240122150939.png",
     "_resources/_book",
     "C 和指针",
