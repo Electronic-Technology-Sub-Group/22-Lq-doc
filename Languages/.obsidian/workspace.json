@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "e9ccd8bc69cde8fc",
+        "id": "16bbbedf15a59853",
         "type": "tabs",
         "children": [
           {
-            "id": "7311f0122b2b0c98",
+            "id": "98d8fe2d77db7435",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -81,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JavaScript/库/Melvor Idle/Melvor Idle Context.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JavaScript/库/Melvor Idle/Melvor Idle Context.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -120,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "JavaScript/库/Melvor Idle/Melvor Idle Context.md"
-              }
+              "state": {}
             }
           },
           {
@@ -163,8 +159,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "2bf393342dc6a99a",
+  "active": "98d8fe2d77db7435",
   "lastOpenFiles": [
+    "C++/其他/常见宏定义.md",
+    "C++/其他.md",
+    "C++/其他",
     "JavaScript/库/Melvor Idle/Melvor Idle Sidebar.md",
     "_resources/Pasted image 20240129102745.png",
     "JavaScript/库/Melvor Idle/Melvor Idle Context.md",
@@ -195,7 +194,6 @@
     "C++/Cpp 函数1.md",
     "C++/Cpp 变量与基本类型2.md",
     "C++/Cpp 类型操作1.md",
-    "C++/Cpp 函数2.md",
     "_resources/Pasted image 20230914015826.png",
     "_resources/Pasted image 20230914020228.png",
     "_resources/Pasted image 20230914020252.png",
@@ -208,7 +206,6 @@
     "_resources/architectury.common.json",
     "Java/库/Minecraft/coremod",
     "_resources/fabric.mod.json",
-    "C++/现代c++语言核心特性解析",
     "C++/现代c++语言核心特性解析"
   ]
 }
