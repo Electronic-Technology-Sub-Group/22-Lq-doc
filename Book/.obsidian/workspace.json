@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "4815858cc105cbea",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "C陷阱与缺陷.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "现代c++语言核心特性解析/现代cpp-类型别名.md",
+                "file": "C陷阱与缺陷.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "现代c++语言核心特性解析/现代cpp-类型别名.md",
+                "file": "C陷阱与缺陷.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "现代c++语言核心特性解析/现代cpp-类型别名.md"
+                "file": "C陷阱与缺陷.md"
               }
             }
           }
@@ -146,11 +159,16 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "e8a90d6cb42557f3",
+  "active": "4815858cc105cbea",
   "lastOpenFiles": [
+    "_resources/_image/29E5198C.png",
+    "_resources/_image/28567C71.png",
+    "C陷阱与缺陷.md",
+    "代码不朽.md",
+    "Book.md",
+    "现代c++语言核心特性解析/现代cpp-类型别名.md",
     "深入理解 JVM 虚拟机",
     "现代c++语言核心特性解析/现代C++语言核心特性解析.md",
-    "现代c++语言核心特性解析/现代cpp-类型别名.md",
     "现代c++语言核心特性解析/现代cpp-断言.md",
     "现代c++语言核心特性解析/现代cpp-noexcept.md",
     "C 和指针/C和指针.md",
@@ -163,9 +181,7 @@
     "C 和指针/C和指针-高级指针.md",
     "C 和指针/C和指针-动态内存分配.md",
     "C 和指针/C和指针-预处理器.md",
-    "Book.md",
     "函数式编程思维.md",
-    "代码不朽.md",
     "现代c++语言核心特性解析/现代cpp-普通类构造与初始化.md",
     "现代c++语言核心特性解析/现代cpp-虚函数.md",
     "现代c++语言核心特性解析/现代cpp-右值引用.md",
@@ -173,7 +189,6 @@
     "现代c++语言核心特性解析/现代cpp-decltype 说明符.md",
     "现代c++语言核心特性解析/现代cpp-内联和嵌套命名空间.md",
     "现代c++语言核心特性解析/现代cpp-新增基本类型.md",
-    "现代c++语言核心特性解析/现代cpp-控制语句.md",
     "_resources/_image/Pasted image 20240122150939.png",
     "_resources/_book",
     "C 和指针",

@@ -88,3 +88,4 @@ beforeSettings { settings ->
 8. 子项目目录
 9. 用于子项目的构建脚本
 # 生命周期
+
