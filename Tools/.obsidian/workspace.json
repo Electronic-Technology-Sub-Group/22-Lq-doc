@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Linux 文件读写.md",
+                "file": "Gradle/教程/Gradle 项目基础.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux/Linux 文件读写.md",
+                "file": "Gradle/教程/Gradle 项目基础.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linux/Linux 文件读写.md",
+                "file": "Gradle/教程/Gradle 项目基础.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux/Linux 文件读写.md"
+                "file": "Gradle/教程/Gradle 项目基础.md"
               }
             }
           },
@@ -170,26 +170,36 @@
   },
   "active": "e561bfeecba7da9a",
   "lastOpenFiles": [
+    "_resources/image/Pasted image 20240211140315.png",
+    "_resources/image/Pasted image 20240211140102.png",
+    "Gradle/教程/自定义 Gradle 插件.md",
+    "Gradle/教程/Gradle 项目基础.md",
+    "Gradle/教程/Gradle 基础结构.md",
+    "_resources/image/Pasted image 20240211134328.png",
+    "Gradle/教程/Gradle 项目.md",
+    "Gradle/文档/Gradle 托管属性.md",
+    "_resources/image/Pasted image 20240210231149.png",
+    "_resources/image/Pasted image 20240210225636.png",
+    "_resources/image/Pasted image 20240210224830.png",
+    "_resources/image/Pasted image 20240210164416.png",
+    "_resources/image/Pasted image 20240210163655.png",
+    "_resources/image/Pasted image 20240210163445.png",
+    "_resources/image/Pasted image 20240208001445.png",
+    "_resources/image/Pasted image 20240206165553.png",
+    "Linux/Linux 文件读写.md",
     "Markdown/LaTeX.md",
     "Markdown/Markdown.md",
-    "Gradle/教程/Gradle 基础.md",
-    "Gradle/文档/Gradle 托管属性.md",
     "Android/Android调试.md",
     "GCC、VS/synergy 编译与使用.md",
     "通用/语义化版本.md",
     "通用",
     "通用/约定式提交.md",
-    "_resources/image/msedge_20240203_36.png",
-    "_resources/image/Pasted image 20240203001313.png",
     "_other/note/TOML ABNF.md",
     "_other/note",
     "_other/note/d3-shape.md",
     "_other/note/Cache Directory Tagging Specification.md",
     "Gradle/文档/Gradle 目录.md",
     "Gradle/文档/Gradle 用户目录.md",
-    "_resources/image/Pasted image 20240202164330.png",
-    "Gradle/教程/自定义 Gradle 插件.md",
-    "_resources/image/Pasted image 20240202162225.png",
     "Gradle/编码GBK的不可映射字符.md",
     "Gradle/Gradle 代理设置.md",
     "Gradle/Gradle 修改缓存位置.md",
@@ -198,23 +208,13 @@
     "TOML.md",
     "PostgreSQL.md",
     "Maven.md",
-    "Gradle/插件/ShadowJar.md",
     "Gradle/文档",
     "Gradle/插件",
-    "Gradle/插件/Maven Publish.md",
-    "_resources/image/Pasted image 20240202141112.png",
-    "_resources/image/Pasted image 20240202140202.png",
-    "_resources/image/Pasted image 20240202090745.png",
-    "_resources/image/Pasted image 20240202090717.png",
     "_resources/image/settings 1.gradle",
     "_resources/image/settings.gradle",
     "_resources/note",
-    "_other/img/ext[d3-shape]area-radial.png",
-    "_other/img/ext[d3-shape]bumpX.png",
     "Gradle/教程",
     "Gradle/Gradle Plugin",
-    "git/Github SSH 登录.md",
-    "其他/为了对电脑进行保护，已经阻止此应用.md",
     "未命名.canvas",
     "GCC、VS"
   ]

@@ -36,7 +36,7 @@ gradle -q hello
 ```
 ## 脚本配置
 
-`Project` 对象带有一个 `extension` 属性，包含了所有插件的配置。我们可以创建一个[[Gradle 托管属性]]的接口作为属性
+`Project` 对象带有一个 `extension` 属性，包含了所有插件的配置。我们可以创建一个[[Gradle 托管属性]]的接口作为属性；也可以直接声明一个返回普通类型的函数，但必须有实现，且在配置脚本中只读。
 
 ```groovy
 // 包含 greeter，message 两个字符串属性
