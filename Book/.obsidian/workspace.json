@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "6ce4709b0e41a9fc",
+        "id": "fcd3d03f25c2f8b6",
         "type": "tabs",
         "children": [
           {
-            "id": "76d042258e357151",
+            "id": "d32fcb1f436b0d72",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "C陷阱与缺陷.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -44,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "数组",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 219.5
   },
   "right": {
     "id": "5a046142ad7114b6",
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "C陷阱与缺陷.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "C陷阱与缺陷.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "C陷阱与缺陷.md"
+              }
             }
           }
         ],
@@ -138,37 +146,39 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "76d042258e357151",
+  "active": "d32fcb1f436b0d72",
   "lastOpenFiles": [
-    "现代c++语言核心特性解析/现代cpp-增强 inline 说明符.md",
-    "现代c++语言核心特性解析/现代C++语言核心特性解析.md",
-    "现代c++语言核心特性解析/现代cpp-线程局部存储.md",
-    "现代c++语言核心特性解析/现代cpp-断言.md",
-    "现代c++语言核心特性解析/现代cpp-太空船运算符.md",
-    "现代c++语言核心特性解析/现代cpp-普通类构造与初始化.md",
-    "现代c++语言核心特性解析/现代cpp-nullptr.md",
+    "C 和指针/C和指针.md",
     "C陷阱与缺陷.md",
+    "C 和指针/C和指针-字符串.md",
+    "现代c++语言核心特性解析/现代cpp-内存管理.md",
+    "现代c++语言核心特性解析/现代C++语言核心特性解析.md",
+    "C 和指针/C和指针-结构和联合.md",
+    "现代c++语言核心特性解析/现代cpp-类型推断与类型引用.md",
+    "现代c++语言核心特性解析/现代cpp-类型转换.md",
+    "现代c++语言核心特性解析/现代cpp-联合类型 union.md",
+    "现代c++语言核心特性解析/现代cpp-枚举 enum.md",
+    "现代c++语言核心特性解析/现代cpp-基本类型与字面量.md",
+    "现代c++语言核心特性解析/现代cpp-结构化绑定.md",
+    "现代c++语言核心特性解析/现代cpp-模块.md",
+    "现代c++语言核心特性解析/现代cpp-模板.md",
+    "现代c++语言核心特性解析/现代cpp-类型别名.md",
+    "现代c++语言核心特性解析/现代cpp-decltype 说明符.md",
+    "现代c++语言核心特性解析/现代cpp-类型引用.md",
+    "现代c++语言核心特性解析/现代cpp-编译与运行时.md",
+    "现代c++语言核心特性解析/现代cpp-noexcept.md",
+    "现代c++语言核心特性解析/现代cpp-运算符.md",
+    "现代c++语言核心特性解析/现代cpp-构造与析构.md",
+    "现代c++语言核心特性解析/现代cpp-nullptr.md",
+    "现代c++语言核心特性解析/现代cpp-函数与 lambda 表达式.md",
+    "现代c++语言核心特性解析/现代cpp-虚函数.md",
+    "现代c++语言核心特性解析/现代cpp-并发和多线程.md",
+    "现代c++语言核心特性解析/现代cpp-预处理器与宏.md",
+    "_resources/_image/clion64_20240214_47.png",
+    "现代c++语言核心特性解析/C++更新图.canvas",
     "_resources/_image/29E5198C.png",
     "_resources/_image/28567C71.png",
-    "代码不朽.md",
-    "Book.md",
-    "现代c++语言核心特性解析/现代cpp-类型别名.md",
     "深入理解 JVM 虚拟机",
-    "现代c++语言核心特性解析/现代cpp-noexcept.md",
-    "C 和指针/C和指针.md",
-    "现代c++语言核心特性解析/现代cpp-结构化绑定.md",
-    "C 和指针/C和指针-运行时环境.md",
-    "C 和指针/C和指针-抽象数据类型.md",
-    "C 和指针/C和指针-输入输出函数.md",
-    "C 和指针/C和指针-标准函数库.md",
-    "C 和指针/C和指针-字符串.md",
-    "C 和指针/C和指针-高级指针.md",
-    "C 和指针/C和指针-动态内存分配.md",
-    "C 和指针/C和指针-预处理器.md",
-    "函数式编程思维.md",
-    "现代c++语言核心特性解析/现代cpp-虚函数.md",
-    "现代c++语言核心特性解析/现代cpp-右值引用.md",
-    "现代c++语言核心特性解析/现代cpp-auto 占位符.md",
     "_resources/_image/Pasted image 20240122150939.png",
     "_resources/_book",
     "C 和指针",

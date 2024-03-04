@@ -1,5 +1,6 @@
 {
   "alwaysUpdateLinks": true,
   "newFileLocation": "current",
-  "attachmentFolderPath": "_resources/_image"
+  "attachmentFolderPath": "_resources/_image",
+  "promptDelete": false
 }

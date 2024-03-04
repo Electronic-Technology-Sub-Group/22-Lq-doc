@@ -1,3 +1,5 @@
+# 线程局部存储
+
 > [!note]
 > 线程局部存储：独立于各个线程的存储对象，对象内存在线程开始后分配，线程结束时进行回收，且每个线程都有各自独立的对象实例
 
@@ -118,7 +120,7 @@ int main() {
     return 0;
 }
 ```
-# thread_local
+## thread_local
 
 C++11 新增 `thread_local` 声明，声明一个对象的生命周期是一个线程。该声明可以与 `static` 与 `extern` 结合。
 
@@ -153,4 +155,42 @@ int main() {
     return 0;
 }
 ```
+# 协程
 
+C++20 开始引入协程，带有 `co_await`，`co_return` 或 `co_yield` 任意关键字的函数称为协程函数,通常配合 `future`，`generator` 标准库使用。
+- 协程函数不能是 `main` 函数，构造函数，析构函数，`consteval`，`constexpr`
+- 协程函数不能使用 `return`
+- 协程函数不能使用变长参数
+
+> [!warning]
+> 注意：协程由于不需要操作系统参与调度，可以节省切换线程的开销。但协程不一定比线程快，协程程序根本上还是单线程，在做 IO 相关或类似的需要 CPU 等待的任务时有优势，但在做 CPU 运算密集型程序时，多线程通常比协程优势更大，此时线程切换开销相比硬件上的并行运算节省的时间可以忽略。
+
+有关协程的三个关键字：
+- `co_await` 触发一个挂起点。开始执行任务，后接一个等待器（任务）。
+- `co_return` 触发一个挂起点。方法执行完成
+- `co_yield` 触发一个挂起点。暂停执行并返回一个值
+设普通函数 A 调用了协程函数 B，B 中 `co_await` 触发一个耗时任务并返回 A，等待任务完成后重新回到 B；`co_return` 表示 B 执行完成，设置返回值后回到 A。`co_yield` 表示 B 产生了一个新的值并返回 A，但 B 还未完全完成。
+
+> [!warning]
+> 就 C++20 来说，标准库中还未有现成的用于返回的类型，需要自定义
+
+`co_await` 后接一个等待器（`awaiter`），要求存在以下成员：
+- `bool await_ready()`：当该函数返回 `true` 时，表示数据已经准备好，无需继续等待
+- `void await_suspend(std::coroutine_handle<> h)`：当数据未准备好时，执行此函数
+	- `std::coroutine_handle`：协程句柄，可用于控制协程流程，`operator()` 和 `resume()` 函数可以用于恢复协程
+	- 允许返回 `void`，`bool` 或 `coroutine_handle` 类型
+		- `void`，`true`：将执行权交给调用者，协程保持挂起
+		- `false`：恢复当前协程运行
+		- `coroutine_handle`：恢复 `handle` 对应的协程
+- `T await_resume()`：返回协程执行结果，该结果称为可等待体
+
+`co_yield`，`co_return` 要求函数返回类型是一个 `std::coroutine_trait<T>` 的一个子类，并有一个嵌套类型 `promise_type`
+- `promise_type`：用于存放数据的类型
+	- `T get_return_object()`：设协程函数 B 在 A 中调用，该函数的返回值就是调用后返回给 A 的值
+	- `awaiter initial_suspend()`，`awaiter final_suspend()`：用于给库代码编写者在协程前后挂起机会的等待器，通常返回：
+		- `suspend_always`：必然挂起，常用于 initial。final 使用这个时需要手动销毁协程句柄
+		- `suspend_never`：从不挂起，常用于 final
+	- `yield_value(T value)`：保存操作数的值，并返回等待器，通常返回 `suspend_always`
+	- `void return_void()` 或 `void return_value(T value)`：二选一，后者对应 `co_return` 有值的情况
+	- 可选：`V await_transform(expr e)`，使 `co_await expr` 转变为 `co_await await_transform(expr)`
+	- `void unhandled_exception()`：产生异常时调用

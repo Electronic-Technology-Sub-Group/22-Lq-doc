@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "16bbbedf15a59853",
+        "id": "c4bea6a5a744d80e",
         "type": "tabs",
         "children": [
           {
-            "id": "98d8fe2d77db7435",
+            "id": "17f218f7e78c5dd3",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "C++/Cpp 变量与基本类型2.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "C++/Cpp 变量与基本类型2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "C++/Cpp 变量与基本类型2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "C++/Cpp 变量与基本类型2.md"
+              }
             }
           },
           {
@@ -159,8 +167,31 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "98d8fe2d77db7435",
+  "active": "17f218f7e78c5dd3",
   "lastOpenFiles": [
+    "C++/C++.md",
+    "C++/Cpp 类与对象1.md",
+    "C++/Cpp 类与对象2.md",
+    "C++/Cpp 类与对象3.md",
+    "C++/Cpp 类型操作1.md",
+    "C++/更新/C++11-20.md",
+    "C++/更新/C++更新图.canvas",
+    "C++/更新/C++23.md",
+    "Java/专题/ToolProvider.md",
+    "_articles/C++23特性总结 - 上.md",
+    "_articles/C++23特性总结 - 下.md",
+    "_articles/ASM4手册中文版.pdf",
+    "_articles/Built-in Variable (GLSL).md",
+    "_articles/quaternion.pdf",
+    "_articles/OpenGL、VRML Materials.md",
+    "_articles/[转]深入理解ruby闭包.md",
+    "C++/更新/C++14.md",
+    "C++/更新/C++20.md",
+    "C++/更新/C++17.md",
+    "C++/Cpp 编译期2.md",
+    "C++/Cpp 编译期3.md",
+    "C++/Cpp 编译期 附录.md",
+    "C++/更新",
     "C++/其他/常见宏定义.md",
     "C++/其他.md",
     "C++/其他",
@@ -170,30 +201,11 @@
     "JavaScript/库/Melvor Idle/Melvor Idle Mod.md",
     "Java/库/Minecraft/CoreMod.md",
     "Java/库/ASM.md",
-    "Java/库/Minecraft/Architectury.md",
     "JavaScript/库/Melvor Idle",
-    "README.md",
     "JavaScript/库",
     "JavaScript",
-    "Java/Java 18-21 新特性.md",
-    "Java/Java 12-17 API 新特性.md",
-    "Java/Java 12-17 新特性.md",
-    "Kotlin/Kotlin.md",
     "Java/未命名",
     "Kotlin/专题",
-    "Java/Java.md",
-    "Java/专题/ToolProvider.md",
-    "Java/专题/JavaAgent.md",
-    "Java/库/Minecraft/Minecraft 世界生成.md",
-    "Java/库/Minecraft/DataUpperFixer/DFU types.md",
-    "Java/库/Minecraft/DataUpperFixer/DFU functions.md",
-    "Java/库/Minecraft/DataUpperFixer/DFU kinds.md",
-    "Java/库/Minecraft/DataUpperFixer/DFU serializations.md",
-    "Java/库/Minecraft/DataUpperFixer/DFU Codec.md",
-    "Java/库/Minecraft/DataUpperFixer/DFU 函数式编程基础.md",
-    "C++/Cpp 函数1.md",
-    "C++/Cpp 变量与基本类型2.md",
-    "C++/Cpp 类型操作1.md",
     "_resources/Pasted image 20230914015826.png",
     "_resources/Pasted image 20230914020228.png",
     "_resources/Pasted image 20230914020252.png",
@@ -203,9 +215,6 @@
     "_resources/Pasted image 20231022233403.png",
     "_resources/Pasted image 20231022234931.png",
     "_resources/Pasted image 20231023024435.png",
-    "_resources/architectury.common.json",
-    "Java/库/Minecraft/coremod",
-    "_resources/fabric.mod.json",
-    "C++/现代c++语言核心特性解析"
+    "_resources/architectury.common.json"
   ]
 }

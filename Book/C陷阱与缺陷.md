@@ -358,20 +358,216 @@ static int a;
 - `getchar` 多数情况下应返回一个 `char`，但若没有输入时返回 `EOF` 为一个整形
 ## 更新顺序文件
 
-## 缓冲区
-## errno
-## signal
-# 宏定义
-# 可移植性缺陷
-## C 标准变更
-## 标识符
-## 整数范围
-## char 符号
-## 位移
-## 内存位置 0
-## 除法
-## 随机数
-## 大小写
-## 释放与重分配
-# 建议
+- `fwrite` 后如果需要直接读取，应当插入一个 `fseek`
 
+```c
+struct record rec;
+FILE *fp;*
+fwrite(msg, ((char*) &rec, sizeof(rec), 1, fp);
+// fwrite -> fread 之间必须插入一个 fseek 用于改变文件状态
+fseek(fp, 0L, 1);
+fread(...);
+```
+## 缓冲区
+
+在使用 `setbuf` 设置流缓冲区时，不能使用局部的缓冲区数组
+
+```c
+int main() {
+    char buf[BUFSIZ];
+    setbuf(stdout, buf);
+
+    return 0;
+}
+```
+
+以上程序是错误的。在 `main` 函数执行完成后，C 会最后一次清空缓冲区，此时已经在 `buf` 生存周期之外。
+
+正确做法是使用静态成员变量，或者堆内存
+
+```c
+int main() {
+    // 静态成员
+    static char buf[BUFSIZ];
+    setbuf(stdout, buf);
+    // 堆内存
+    setbuf(stdout, malloc(BUFSIZ));
+}
+```
+## errno
+
+系统库失败时会将异常信息通过 `errno` 传递出。但标准库并未强制要求在没有失败时库函数一定要设置 `errno` 为 0，在调用成功时也不强制要求设置为 0。因此，我们应先检测作为错误指示的返回值，确定程序失败。
+## signal
+
+在使用信号量处理中断时，需要时刻注意：
+- 谨慎或禁止使用库函数，因为中断可能在一些复杂库函数中触发（如 `malloc`）
+- 在处理一些错误时，如算术运算错误，我们不可能在中断中修正操作数，中断返回后仍会触发错误，正确的办法是使用 `longjmp` 或 `exit` 立刻退出程序
+# 宏定义
+## 宏定义中的空格
+
+在创建宏时，宏名称与参数之间不能存在空格
+
+```c
+#define f (x) ((x)-1)
+```
+
+上面的宏中，`f` 与 `(x)` 之间多了一个空格，因此相当于：
+
+```c
+#define f (x)((x)-1)
+```
+## 宏不是函数
+
+宏只是查找替换，不是函数，因此可能出一些问题：
+
+- 优先级问题
+
+```c
+#define abs(x) x>0?x:-x
+```
+
+当调用 `abs(a-b)` 时，被替换为 `a-b>0?a-b:-a-b`，明显在 `-a-b` 实际应该为 `-(a-b)`。因此修改为：
+
+```c
+#define abs(x) (x)>0?(x):-(x)
+```
+
+上面的宏定义还有问题，即与外部其他内容的优先级问题，如 `a-abs(a-b)` 展开为 `a-a-b>0?a-b:-a-b`。因此修改为：
+
+```c
+#define abs(x) ((x)>0?(x):-(x))
+```
+
+- 副作用问题
+
+```c
+#define max(a,b) ((a)>(b)?(a):(b))
+```
+
+在下面的代码中：
+
+```c
+biggest = x[0];
+int i = 1;
+while(i < n) {
+    biggest = max(biggest, x[i++]);
+}
+```
+
+展开为
+
+```c
+biggest = x[0];
+int i = 1;
+while(i < n) {
+    biggest = ((biggest)>(x[i++])?(biggest):(x[i++]));
+}
+```
+
+可见，在某些分支中，`i++` 被执行了两次。
+
+- 当宏非常复杂或嵌套使用时，可能展开为一个很长的语句
+
+```c
+// ((a)>(((b)>(((c)>(d)?(c):(d)))?(b):(((c)>(d)?(c):(d))))?(a):(((b)>(((c)>(d)?(c):(d)))?(b):(((c)?(d)?(c):(d))))))
+max(a, max(b, max(c, d)));
+```
+## 宏不是语句
+
+假设我们要模拟 `assert` 创建一个宏定义：
+
+```c
+#define assert(e) if(!e) assert_error(__FILE__.__LINE__)
+```
+
+但当使用在 `if` 语句中时：
+
+```c
+if (x > 0 && y > 0)
+    assert(x > y);
+else 
+    assert(y > x);
+```
+
+替换后为：
+
+```c
+if (x > 0 && y > 0)
+    if (!x > y) assert_error("???.c", 99);
+else
+    if (!y > x) assert_error("???.c", 99);
+```
+
+重新缩进一下，即可看到我们改变了运行逻辑！
+
+```c
+if (x > 0 && y > 0)
+    if (!x > y)
+        assert_error("???.c", 99);
+    else if (!y > x)
+        assert_error("???.c", 99);
+```
+
+事实上其实现方式为：
+
+```c
+#define assert(e) ((void)((e)||assert_error(__FILE__.__LINE__)))
+```
+
+即使之变成一条表达式
+## 宏不是类型定义
+
+宏可以用于为类型起别名
+
+```c
+#define FOOTYPE struct foo
+FOOTYPE a, b, c;
+```
+
+但当我们为指针起别名时，
+
+```c
+#define T struct foo *
+T a, b;
+```
+
+其展开为 `struct foo *a, b`，可见 `b` 并不是指针。
+
+这种情况应当使用 `typedef` 替代 `#define`
+
+```c
+typedef struct foo *T;
+T a, b;
+```
+# 可移植性缺陷
+## 整数范围
+
+- `short`，`int`，`long` 类型长度是非递减的，只要 `short` 长度不高于 `int`，`int` 不高于 `long` 即可。事实上 `long` 通常与 `int` 相同。
+- `int` 类型足够大，足以容纳任何合法的数组下标
+- 字符长度由硬件特性决定，`long` 至少 32 为，`short`、`int` 至少 16 位
+## char 符号
+
+如果需要无符号字符类型，使用 `unsigned char`，不要使用 `(unsigned) c` 的写法，因为这样会先将原数字转换为 `int`
+## 位移运算符
+
+- 对于无符号数，向右移位时填充 0；有符号数填充 0 还是符号位未定义
+- 不可能在单次操作中将某个数值的所有位都移出 - 若长度 n 位，则被移位操作数 $0\le m\lt n$
+- 负数的位移不能完全取代除法：`(-1)>>1` 一般非 0，但 `(-1)/2` 为 0
+## 内存位置 0
+
+`NULL` 指针是否能访问，访问结果是未定义的
+## 除法
+
+```c
+q = a / b;
+r = a % b;
+```
+
+C 语言保证：
+- $q*b+r==a$
+- 当 $a\ge 0$ 且 $b>0$ 时，$|r|<|b|$ 且 $r\ge 0$
+不能保证：
+- 当 `b>0` 时，$r\ge 0$ 且 $r<b$
+## 随机数
+
+`rand` 函数生成的最大值为 `RAND_MAX`

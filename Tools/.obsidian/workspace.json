@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Gradle/教程/Gradle 项目基础.md",
+                "file": "Markdown/LaTeX.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Gradle/教程/Gradle 项目基础.md",
+                "file": "Markdown/LaTeX.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Gradle/教程/Gradle 项目基础.md",
+                "file": "Markdown/LaTeX.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Gradle/教程/Gradle 项目基础.md"
+                "file": "Markdown/LaTeX.md"
               }
             }
           },
@@ -170,11 +170,24 @@
   },
   "active": "e561bfeecba7da9a",
   "lastOpenFiles": [
-    "_resources/image/Pasted image 20240211140315.png",
-    "_resources/image/Pasted image 20240211140102.png",
-    "Gradle/教程/自定义 Gradle 插件.md",
+    "Markdown/Markdown.md",
+    "Linux/Linux 权限管理.md",
+    "Linux/Linux 时间与日期.md",
+    "Linux/Linux 其他命令.md",
+    "Linux/Linux 包管理器.md",
+    "Linux/Linux.md",
+    "Markdown/LaTeX.md",
+    "Markdown/mermaid/Mermaid 流程图 flowchat.md",
+    "Markdown/mermaid/Mermaid 类图 classDiagram.md",
+    "Markdown/mermaid/Mermaid.md",
     "Gradle/教程/Gradle 项目基础.md",
     "Gradle/教程/Gradle 基础结构.md",
+    "Gradle/教程/自定义 Gradle 插件.md",
+    "_resources/image/Pasted image 20240212003652.png",
+    "_resources/image/Pasted image 20240211235526.png",
+    "_resources/image/Pasted image 20240211232710.png",
+    "_resources/image/Pasted image 20240211140315.png",
+    "_resources/image/Pasted image 20240211140102.png",
     "_resources/image/Pasted image 20240211134328.png",
     "Gradle/教程/Gradle 项目.md",
     "Gradle/文档/Gradle 托管属性.md",
@@ -182,13 +195,7 @@
     "_resources/image/Pasted image 20240210225636.png",
     "_resources/image/Pasted image 20240210224830.png",
     "_resources/image/Pasted image 20240210164416.png",
-    "_resources/image/Pasted image 20240210163655.png",
-    "_resources/image/Pasted image 20240210163445.png",
-    "_resources/image/Pasted image 20240208001445.png",
-    "_resources/image/Pasted image 20240206165553.png",
     "Linux/Linux 文件读写.md",
-    "Markdown/LaTeX.md",
-    "Markdown/Markdown.md",
     "Android/Android调试.md",
     "GCC、VS/synergy 编译与使用.md",
     "通用/语义化版本.md",
@@ -201,13 +208,6 @@
     "Gradle/文档/Gradle 目录.md",
     "Gradle/文档/Gradle 用户目录.md",
     "Gradle/编码GBK的不可映射字符.md",
-    "Gradle/Gradle 代理设置.md",
-    "Gradle/Gradle 修改缓存位置.md",
-    "Readme.md",
-    "YAML.md",
-    "TOML.md",
-    "PostgreSQL.md",
-    "Maven.md",
     "Gradle/文档",
     "Gradle/插件",
     "_resources/image/settings 1.gradle",
