@@ -156,7 +156,7 @@ class 字节码前四字节为魔数，表示生成该字节码的编译器，�
 
 ```
 cp_info {
-  u2 tag;
+  u1 tag;
 }
 ```
 
@@ -165,13 +165,13 @@ cp_info {
 
 包括各类型字面量，final 声明的常量，基本数据类型值和其他
 
-| tag | 类型                  | 类型       | Java 类型    |
-| --- | --------------------- | ---------- | ------------ |
-| 1   | CONSTANT_Utf8_info    | 字符串常量 | 字符串字面量 |
-| 3   | CONSTANT_Integer_info | 4 字节整型 | int          |
-| 4   | CONSTANT_Float_info   | 4 字节浮点 | float        |
-| 5   | CONSTANT_Long_info    | 8 字节整型 | long         |
-| 6   | CONSTANT_Double_info  | 8 字节浮点 | double       |
+| tag | 类型                    | 类型     | Java 类型 |
+| --- | --------------------- | ------ | ------- |
+| 1   | CONSTANT_Utf8_info    | 字符串常量  | 字符串字面量  |
+| 3   | CONSTANT_Integer_info | 4 字节整型 | int     |
+| 4   | CONSTANT_Float_info   | 4 字节浮点 | float   |
+| 5   | CONSTANT_Long_info    | 8 字节整型 | long    |
+| 6   | CONSTANT_Double_info  | 8 字节浮点 | double  |
 
 - 4 字节整型与浮点：直接存储
 
@@ -205,20 +205,20 @@ CONSTANT_Utf8_info {
 
 类完全限定符，字段、方法名称和描述符
 
-| tag | 类型                             | 说明                   |
-| --- | -------------------------------- | ---------------------- |
-| 7   | CONSTANT_Class_info              | 类或接口的完全限定名   |
-| 8   | CONSTANT_String_info             | String 常量            | 
-| 9   | CONSTANT_Fieldref_info           | 类中字段引用           |
-| 10  | CONSTANT_Methodref_info          | 类中方法引用           |
-| 11  | CONSTANT_InterfaceMethodref_info | 类实现的接口方法       |
-| 12  | CONSTANT_NameAndType_info        | 字段或方法的名称和类型 |
-| 15  | CONSTANT_MethodHandle_info       | 方法句柄               |
-| 16  | CONSTANT_MethodType_info         | 方法类型               |
-| 17  | CONSTANT_Dynamic_info            | 动态计算常量           |
-| 18  | CONSTANT_InvokeDynamic_info      | 动态方法调用点         |
-| 19  | CONSTANT_Module_info             | 模块属性               |
-| 20  | CONSTANT_Package_info            | 模块中导出的包属性     |
+| tag | 类型                               | 说明          |     |
+| --- | -------------------------------- | ----------- | --- |
+| 7   | CONSTANT_Class_info              | 类或接口的完全限定名  |     |
+| 8   | CONSTANT_String_info             | String 常量   |     |
+| 9   | CONSTANT_Fieldref_info           | 类中字段引用      |     |
+| 10  | CONSTANT_Methodref_info          | 类中方法引用      |     |
+| 11  | CONSTANT_InterfaceMethodref_info | 类实现的接口方法    |     |
+| 12  | CONSTANT_NameAndType_info        | 字段或方法的名称和类型 |     |
+| 15  | CONSTANT_MethodHandle_info       | 方法句柄        |     |
+| 16  | CONSTANT_MethodType_info         | 方法类型        |     |
+| 17  | CONSTANT_Dynamic_info            | 动态计算常量      |     |
+| 18  | CONSTANT_InvokeDynamic_info      | 动态方法调用点     |     |
+| 19  | CONSTANT_Module_info             | 模块属性        |     |
+| 20  | CONSTANT_Package_info            | 模块中导出的包属性   |     |
 
 - 字符串引用：String 类型字符串常量，指向一个字符串字面量
 
@@ -341,36 +341,36 @@ attribute_info {
 
 其中，`info` 只是表示该属性内容占有 attribute_length 字节，实际不是 `u1[]` 的类型
 
-| 属性名                               | 位置                 | 含义                                     |
-| ------------------------------------ | -------------------- | ---------------------------------------- |
-| Code                                 | 方法                 | 翻译成字节码的 Java 代码                 |
-| ConstantValue                        | 字段                 | static 修饰的常量                        |
-| Deprecated                           | 类、方法、字段       | 被 deprecated 声明                       |
-| Exceptions                           | 方法                 | 异常列表                                 |
-| EnclosingMethod                      | 类                   | 当类为匿名类或内部类时，表示所在外围方法 |
-| InnerClasses                         | 类                   | 内部类列表                               |
-| LineNumberTable                      | Code                 | 源码行号与字节码指令的对应关系           |
-| LocalVariableTable                   | Code                 | 局部变量表                               |
-| StackMapTable                        | Code（最多一个）     | 用于类加载时的类型检查验证               |
-| Signature                            | 类、方法、字段       | 泛型签名                                 |
-| SourceFile                           | 类                   | 源文件名                                 |
-| SourceDebugExtension                 | 类（最多一个）       | 额外调试信息                             |
-| Synthetic                            | 类、方法、字段       | 修饰成员由编译器而非用户代码生成         |
-| LocalVariableTypeTable               | 类                   | 描述泛型参数化类型                       |
-| RuntimeVisibleAnnotations            | 类、方法、字段       | 运行时可见的注解                         |
-| RuntimeInvisibleAnnotations          | 类、方法、字段       | 运行时不可见注解                         |
-| RuntimeVisibleParameterAnnotations   | 方法                 | 运行时可见的参数注解                     |
-| RuntimeInvisibleParameterAnnotations | 方法                 | 运行时不可见的参数注解                   |
-| AnnotationDefault                    | 方法                 | 注解元信息默认值                         |
-| BootstrapMethod                      | 类                   | invokedynamic 引导方法                   |
-| RuntimeVisibleTypeAnnotations        | 类、方法、字段、Code | 运行时可见的类注解（JSR 308）            |
-| RuntimeInvisibleTypeAnnotations      | 类、方法、字段、Code | 运行时不可见的类注解（JSR 308）          |
-| MethodParameters                     | 方法                 | 支持将方法名编译进 Class                 |
-| Module                               | 类                   | 模块名称及相关信息                       |
-| ModulePackage                        | 类                   | 模块中被 exports 或 opens 的包           |
-| ModuleMainClass                      | 类                   | 模块主类                                 |
-| NestHost                             | 类                   | 内部类的宿主类                           |
-| NestMembers                          | 类                   | 宿主类的嵌套类                           |
+| 属性名                                  | 位置           | 含义                      |
+| ------------------------------------ | ------------ | ----------------------- |
+| Code                                 | 方法           | 翻译成字节码的 Java 代码         |
+| ConstantValue                        | 字段           | static 修饰的常量            |
+| Deprecated                           | 类、方法、字段      | 被 deprecated 声明         |
+| Exceptions                           | 方法           | 异常列表                    |
+| EnclosingMethod                      | 类            | 当类为匿名类或内部类时，表示所在外围方法    |
+| InnerClasses                         | 类            | 内部类列表                   |
+| LineNumberTable                      | Code         | 源码行号与字节码指令的对应关系         |
+| LocalVariableTable                   | Code         | 局部变量表                   |
+| StackMapTable                        | Code（最多一个）   | 用于类加载时的类型检查验证           |
+| Signature                            | 类、方法、字段      | 泛型签名                    |
+| SourceFile                           | 类            | 源文件名                    |
+| SourceDebugExtension                 | 类（最多一个）      | 额外调试信息                  |
+| Synthetic                            | 类、方法、字段      | 修饰成员由编译器而非用户代码生成        |
+| LocalVariableTypeTable               | 类            | 描述泛型参数化类型               |
+| RuntimeVisibleAnnotations            | 类、方法、字段      | 运行时可见的注解                |
+| RuntimeInvisibleAnnotations          | 类、方法、字段      | 运行时不可见注解                |
+| RuntimeVisibleParameterAnnotations   | 方法           | 运行时可见的参数注解              |
+| RuntimeInvisibleParameterAnnotations | 方法           | 运行时不可见的参数注解             |
+| AnnotationDefault                    | 方法           | 注解元信息默认值                |
+| BootstrapMethod                      | 类            | invokedynamic 引导方法      |
+| RuntimeVisibleTypeAnnotations        | 类、方法、字段、Code | 运行时可见的类注解（JSR 308）      |
+| RuntimeInvisibleTypeAnnotations      | 类、方法、字段、Code | 运行时不可见的类注解（JSR 308）     |
+| MethodParameters                     | 方法           | 支持将方法名编译进 Class         |
+| Module                               | 类            | 模块名称及相关信息               |
+| ModulePackage                        | 类            | 模块中被 exports 或 opens 的包 |
+| ModuleMainClass                      | 类            | 模块主类                    |
+| NestHost                             | 类            | 内部类的宿主类                 |
+| NestMembers                          | 类            | 宿主类的嵌套类                 |
 
 - Code：方法代码
 
