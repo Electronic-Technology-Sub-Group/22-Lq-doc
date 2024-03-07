@@ -392,223 +392,6 @@ attribute_info {
   attribute_info attributes[attributes_count];
 }
 ```
-
-- Exceptions：异常列表
-
-```
-attribute_info {
-  u2 attribute_name_index = &"Exceptions";
-  u4 attribute_length;
-  u2 number_of_exceptions;
-  // 指向 CONSTANT_Class_info 的列表
-  u2[] exception_index_table[number_of_exceptions];
-}
-```
-
-- LineNumberTable：字节码与源码行号的对应关系
-
-```
-attribute_info {
-  u2 attribute_name_index = &"LineNumberTable";
-  u4 attribute_length;
-  u2 line_number_table_length;
-  line_number_info[] line_number_table[line_number_table_length];
-}
-
-line_number_info {
-  u2 start_pc;    // 字节码行号
-  u2 line_number; // 源码行号
-}
-```
-
-- 局部变量表 LocalVariableTable 与 LocalVariableTypeTable
-	- LocalVariableTypeTable 的 `local_variable_table.descriptor_index` 指向特征签名描述泛型
-
-```
-attribute_info {
-  u2 attribute_name_index = &"LocalVariableTable" | &"LocalVariableTypeTable";
-  u4 attribute_length;
-  u2 local_variable_table_length;
-  local_variable_info[] local_variable_table[local_variable_table_length];
-}
-
-local_variable_info {
-  u2 start_pc;          // 生命周期开始位置
-  u2 length;            // 生命周期长度
-  u2 name_index;        // 指向 CONSTANT_Utf8_info，局部变量名
-  u2 descriptor_index;  // 指向 CONSTANT_Utf8_info，局部变量描述符
-  u2 index;             // 所在槽位置
-}
-```
-
-- 源码信息 SourceFile，SourceDebugExtension
-
-```
-attribute_info {
-  u2 attribute_name_index = &"SourceFile";
-  u4 attribute_length;
-  u2 sourcefile_index;  // 指向 CONSTANT_Utf8_info，源码文件名
-}
-
-attribute_info {
-  u2 attribute_name_index = &"SourceDebugExtension";
-  u4 attribute_length;
-  u1 debug_extension[attribute_length]
-}
-```
-
-- 常量：ConstantValue
-
-```
-attribute_info {
-  u2 attribute_name_index = &"ConstantValue";
-  u4 attribute_length = 2;
-  u2 constantvalue_index;
-}
-```
-
-- 内部类：InnerClasses
-
-```
-attribute_info {
-  u2 attribute_name_index = &"InnerClasses";
-  u4 attribute_length;
-  u2 number_of_classes;
-  inner_classes_info[] inner_classes[number_of_classes];
-}
-
-inner_classes_info {
-  u2 inner_class_info_index;    // 指向 CONSTANT_Class_info
-  u2 outer_class_info_index;    // 指向 CONSTANT_Class_info
-  u2 inner_name_index;          // 指向 CONSTANT_Utf8_info，匿名内部类为 0
-  u2 inner_class_access_flags;
-}
-```
-
-- 标志类型的布尔属性：Deprecated，Synthetic
-
-```
-attribute_info {
-  u2 attribute_name_index = &"Deprecated" | &"Synthetic";
-  u4 attribute_length = 0;
-}
-```
-
-- 栈映射帧：StackMapTable
-
-```
-attribute_info {
-  u2 attribute_name_index = &"StackMapTable";
-  u4 attribute_length;
-  u2 number_of_entries;
-  stack_map_frame[] stack_map_frame_entries[number_of_entries];
-}
-
-stack_map_frame {
-}
-```
-
-- 运行时反射的泛型信息：Signature
-
-```
-attribute_info {
-  u2 attribute_name_index = &"Signature";
-  u4 attribute_length;
-  u2 signature_index;    // 指向 CONSTANT_Utf8_info
-}
-```
-
-- invokedynamic 引导方法：BootstrapMethod
-
-```
-attribute_info {
-  u2 attribute_name_index = &"BootstrapMethod";
-  u4 attribute_length;
-  u2 num_bootstrap_methods;
-  bootstrap_method[] bootstrap_methods[num_bootstrap_methods];
-}
-
-bootstrap_method {
-  u2 bootstrap_method_ref;                           // 指向 CONSTANT_MethodHandle_info
-  u2 num_bootstrap_arguments;
-  n2[] bootstrap_arguments[num_bootstrap_arguments]; // 指向 cp_info(tag=1-7,10,16)
-}
-```
-
-- 变长参数信息：MethodParameters
-
-```
-attribute_info {
-  u2 attribute_name_index = &"MethodParameters";
-  u4 attribute_length;
-  u1 parameters_count;
-  parameter[] parameters[parameters_count];
-}
-
-parameter {
-  u2 name_index;     // 指向 CONSTANT_Utf8_info
-  u2 access_flags;
-}
-```
-
-- 模块化：Module，ModulePackages，ModuleMainClass
-
-```
-attribute_info {
-  u2 attribute_name_index = &"Module";
-  u4 attribute_length;
-  u2 module_name_index;
-  u2 module_flags;
-  u2 module_version_index;
-  u2 requires_count;
-  require[] requires[requires_count];
-  u2 exports_count;
-  export[] exports[exports_count];
-  u2 opens_count;
-  open[] opens[opens_count];
-  u2 uses_count;
-  use[] uses_index[uses_count];
-  u2 providers_count;
-  provider[] providers[providers_count];
-}
-
-exports {
-  u2 exports_index;
-  u2 exports_flags;
-  u2 exports_to_count;
-  export[] exports_to_index[exports_to_count];
-}
-
-attribute_info {
-  u2 attribute_name_index = &"ModulePackages";
-  u4 attribute_length;
-  u2 package_count;
-  u2[] packages[package_count];
-}
-
-attribute_info {
-  u2 attribute_name_index = &"ModuleMainClass";
-  u4 attribute_length = 2;
-  u2 main_class_index;         // 指向 CONSTANT_Class_info
-}
-```
-
-- 注解相关：各种 `XxxVisibleAnnotations`，`XxxInvisibleAnnotations`
-
-```
-attribute_info {
-  u2 attribute_name_index = &"...";
-  u4 attribute_length;
-  u2 num_annotations;
-  annotation[] annotations[num_annotations];
-}
-
-annotation {
-  u2 type_index;   // 指向 CONSTANT_Utf8_info
-  u2 num_element_value_pairs;
-  element_value_pair[] element_value_pairs[num_element_value_pairs];
-}
-```
 # 字节码指令
 ## 异常处理
 
@@ -664,17 +447,17 @@ catch:
 
 可用于类的访问标志：
 
-| 标识符         | 值     | 说明                           |
-| -------------- | ------ | ------------------------------ |
-| ACC_PUBLIC     | 0x0001 | public                         |
-| ACC_FINAL      | 0x0010 | final                          |
-| ACC_SUPER      | 0x0020 | 是否允许 invokespecial(总为真) |
-| ACC_INTERFACE  | 0x0200 | interface                      |
-| ACC_ABSTRACT   | 0x0400 | abstract 或接口也有            |
-| ACC_SYNTHETIC  | 0x1000 | 该类由编译器产生               | 
-| ACC_ANNOTATION | 0x2000 | @interface                     |
-| ACC_ENUM       | 0x4000 | enum                           |
-| ACC_MODULE     | 0x8000 | module                         |
+| 标识符            | 值      | 说明                      |     |
+| -------------- | ------ | ----------------------- | --- |
+| ACC_PUBLIC     | 0x0001 | public                  |     |
+| ACC_FINAL      | 0x0010 | final                   |     |
+| ACC_SUPER      | 0x0020 | 是否允许 invokespecial(总为真) |     |
+| ACC_INTERFACE  | 0x0200 | interface               |     |
+| ACC_ABSTRACT   | 0x0400 | abstract 或接口也有          |     |
+| ACC_SYNTHETIC  | 0x1000 | 该类由编译器产生                |     |
+| ACC_ANNOTATION | 0x2000 | @interface              |     |
+| ACC_ENUM       | 0x4000 | enum                    |     |
+| ACC_MODULE     | 0x8000 | module                  |     |
 
 可用于字段的访问标志：
 
@@ -709,19 +492,19 @@ catch:
 
 可用于方法参数的访问标志：
 
-| 标识符        | 值     | 说明                |
-| ------------- | ------ | ------------------- |
-| ACC_FINAL     | 0x0010 | final               |
-| ACC_SYNTHETIC | 0x1000 | 该类由编译器产生    |
-| ACC_MANDATED  | 0x8000 | 隐式定义（this 等） | 
+| 标识符           | 值      | 说明           |     |
+| ------------- | ------ | ------------ | --- |
+| ACC_FINAL     | 0x0010 | final        |     |
+| ACC_SYNTHETIC | 0x1000 | 该类由编译器产生     |     |
+| ACC_MANDATED  | 0x8000 | 隐式定义（this 等） |     |
 
 可用于模块的访问标志：
 
-| 标识符        | 值     | 说明               |
-| ------------- | ------ | ------------------ |
-| ACC_OPEN      | 0x0020 | open               |
-| ACC_SYNTHETIC | 0x1000 | 该模块由编译器产生 |
-| ACC_MANDATED  | 0x8000 | 该模块隐式定义     | 
+| 标识符           | 值      | 说明        |     |
+| ------------- | ------ | --------- | --- |
+| ACC_OPEN      | 0x0020 | open      |     |
+| ACC_SYNTHETIC | 0x1000 | 该模块由编译器产生 |     |
+| ACC_MANDATED  | 0x8000 | 该模块隐式定义   |     |
 ## 虚拟机字节码指令表
 
 ![[JVM 虚拟机字节码指令表.xlsx]]

@@ -4,20 +4,6 @@
 
 ![[Pasted image 20240306012524.png]]
 
-> [!note]- 使用 javap 反编译 class 文件
-> Class 字节码可通过 `javap` 从二进制格式反编译成可读文件格式。
-> ```bash
-> javap [options] class文件1 class文件2 ...
-> ```
-> - -v，-verbose：显示包含常量池的完整信息
-> - -l：只输出行号和局部变量表
-> - -public，-protected，-private/-p：显示 public、protected 或 private 成员
-> - -c：只输出代码
-> - -s：只输出签名
-> - -J：VM 选项
-> 
-> 不加选项则反编译成 Java 代码，通常使用 -v 查看完整的字节码信息。
-
 数据结构：
 - 基本类型：`u1`，`u2`，`u4` 分别表示 1,2,4 字节无符号整形
 - 表（table）：保存相同类型数据的变长结构，由一个代表长度的表头和紧跟着的 n 个数据组成
@@ -220,26 +206,31 @@ CONSTANT_Module_info, CONSTANT_Package_info {
 
 类访问标记，u2。共 16 个标记。这些标记并没有全部使用完成，且类、字段、方法的标记有重合复用
 
-| 十六进制值  | 访问标记名              | 对应标记               | 可修饰对象类型 |
-| ------ | ------------------ | ------------------ | ------- |
-| 0x0001 | `ACC_PUBLIC`       | `public`           | 类，字段，方法 |
-| 0x0002 | `ACC_PRIVATE`      | `private`          | 字段，方法   |
-| 0x0004 | `ACC_PROTECTED`    | `protected`        | 字段，方法   |
-| 0x0008 | `ACC_STATIC`       | `static`           | 字段，方法   |
-| 0x0010 | `ACC_FINAL`        | `final`            | 类，字段，方法 |
-| 0x0020 | `ACC_SUPER`        | `super`            | 类       |
-| 0x0020 | `ACC_SYNCHRONIZED` | `synchronized`     | 方法      |
-| 0x0040 | `ACC_VOLATILE`     | `volatile`         | 字段      |
-| 0x0040 | `ACC_BRIDGE`       | 无，编译器生成的 bridge 方法 | 方法      |
-| 0x0080 | `ACC_TRANSIENT`    | `transient`        | 字段      |
-| 0x0080 | `ACC_VARARGS`      | 无，使用了变长参数          | 方法      |
-| 0x0100 | `ACC_NATIVE`       | `native`           | 方法      |
-| 0x0200 | `ACC_INTERFACE`    | `interface`        | 类       |
-| 0x0400 | `ACC_ABSTRACT`     | `abstract`         | 类，方法    |
-| 0x0800 | `ACC_STRICT`       | `strictfp`         | 方法      |
-| 0x1000 | `ACC_SYNTHETIC`    | 无，标记代码由编译器生成       | 类，字段，方法 |
-| 0x2000 | `ACC_ANNOTATION`   | `@interface`       | 类       |
-| 0x4000 | `ACC_ENUM`         | `enum`             | 类，字段    |
+| 十六进制值  | 访问标记名              | 对应标记               | 可修饰对象类型       |
+| ------ | ------------------ | ------------------ | ------------- |
+| 0x0001 | `ACC_PUBLIC`       | `public`           | 类，字段，方法       |
+| 0x0002 | `ACC_PRIVATE`      | `private`          | 字段，方法         |
+| 0x0004 | `ACC_PROTECTED`    | `protected`        | 字段，方法         |
+| 0x0008 | `ACC_STATIC`       | `static`           | 字段，方法         |
+| 0x0010 | `ACC_FINAL`        | `final`            | 类，字段，方法，形参    |
+| 0x0020 | `ACC_SUPER`        | `super`            | 类             |
+| 0x0020 | `ACC_SYNCHRONIZED` | `synchronized`     | 方法            |
+| 0x0020 | `ACC_OPEN`         | `open`             | 模块            |
+| 0x0040 | `ACC_VOLATILE`     | `volatile`         | 字段            |
+| 0x0040 | `ACC_BRIDGE`       | 无，编译器生成的 bridge 方法 | 方法            |
+| 0x0080 | `ACC_TRANSIENT`    | `transient`        | 字段            |
+| 0x0080 | `ACC_VARARGS`      | 无，使用了变长参数          | 方法            |
+| 0x0100 | `ACC_NATIVE`       | `native`           | 方法            |
+| 0x0200 | `ACC_INTERFACE`    | `interface`        | 类             |
+| 0x0400 | `ACC_ABSTRACT`     | `abstract`         | 类，方法          |
+| 0x0800 | `ACC_STRICT`       | `strictfp`         | 方法            |
+| 0x1000 | `ACC_SYNTHETIC`    | 无，标记代码由编译器生成       | 类，字段，方法，形参，模块 |
+| 0x2000 | `ACC_ANNOTATION`   | `@interface`       | 类             |
+| 0x4000 | `ACC_ENUM`         | `enum`             | 类，字段          |
+| 0x8000 | `ACC_MANDATED`     | 无，隐式定义，如 this      | 形参，模块         |
+| 0x8000 | `ACC_MODULE`       | `module`           | 类             |
+
+
 
 ## 继承关系
 
@@ -326,16 +317,46 @@ attribute_info {
 属性表广泛存在于类、字段、方法中，不同虚拟机可以有自己的属性。
 ### ConstantValue
 
+位于 `field_info` 中，表示静态变量初始值
+
 ```
 ConstantValue_attribute {
-  u2 attribute_name_index;
-  u4 attribute_length;
-  u2 constantvalue_index;
+  u2 attribute_name_index;  // 指向常量池中 "ConstantValue" 字符串
+  u4 attribute_length;      // 2
+  u2 constantvalue_index;   // 指向常量池中 CONSTANT_xxx_info 结构
 }
 ```
 ### Code
 
+类文件中最重要组成部分，包含除 `native` 和 `abstract` 的方法代码
 
+```
+Code_attribute {
+  u2 attribute_name_index;  // 指向常量 "Code"
+  u4 attribute_length;      // 2
+  // 栈帧深度最大值，任何情况下操作数栈的深度都不超过该值
+  u2 max_stack;
+  // 局部变量表的变量槽（Slot）数，同时生存的最大局部变量数和类型
+  //   long, double 占用 2 个槽，其他基本类型或对象引用占用 1 个槽
+  //   注意包含指向自身的参数 this
+  u2 max_locals;
+  u4 code_length;
+  u1[] code[code_length];
+  u2 exception_table_length;
+  exception_info[] exception_table[exception_table_length];
+  u2 attributes_count;
+  attribute_info attributes[attributes_count];
+}
+
+exception_info {
+  // code 数组的索引
+  u2 start_pc;    // 起点位置（闭区间）
+  u2 end_pc;      // 终点位置（开区间）
+  u2 handler_pc;  // 异常位置
+  // catch 捕获的异常，指向 CONSTANT_Class_info 或 0 表示任意异常
+  u2 catch_type;
+}
+```
 ### 常见属性表
 
 | 属性名                                  | 位置           | 含义                      |
@@ -368,3 +389,228 @@ ConstantValue_attribute {
 | ModuleMainClass                      | 类            | 模块主类                    |
 | NestHost                             | 类            | 内部类的宿主类                 |
 | NestMembers                          | 类            | 宿主类的嵌套类                 |
+
+- Exceptions：异常列表
+
+```
+attribute_info {
+  u2 attribute_name_index = &"Exceptions";
+  u4 attribute_length;
+  u2 number_of_exceptions;
+  // 指向 CONSTANT_Class_info 的列表
+  u2[] exception_index_table[number_of_exceptions];
+}
+```
+
+- LineNumberTable：字节码与源码行号的对应关系
+
+```
+attribute_info {
+  u2 attribute_name_index = &"LineNumberTable";
+  u4 attribute_length;
+  u2 line_number_table_length;
+  line_number_info[] line_number_table[line_number_table_length];
+}
+
+line_number_info {
+  u2 start_pc;    // 字节码行号
+  u2 line_number; // 源码行号
+}
+```
+
+- 局部变量表 LocalVariableTable 与 LocalVariableTypeTable
+	- LocalVariableTypeTable 的 `local_variable_table.descriptor_index` 指向特征签名描述泛型
+
+```
+attribute_info {
+  u2 attribute_name_index = &"LocalVariableTable" | &"LocalVariableTypeTable";
+  u4 attribute_length;
+  u2 local_variable_table_length;
+  local_variable_info[] local_variable_table[local_variable_table_length];
+}
+
+local_variable_info {
+  u2 start_pc;          // 生命周期开始位置
+  u2 length;            // 生命周期长度
+  u2 name_index;        // 指向 CONSTANT_Utf8_info，局部变量名
+  u2 descriptor_index;  // 指向 CONSTANT_Utf8_info，局部变量描述符
+  u2 index;             // 所在槽位置
+}
+```
+
+- 源码信息 SourceFile，SourceDebugExtension
+
+```
+attribute_info {
+  u2 attribute_name_index = &"SourceFile";
+  u4 attribute_length;
+  u2 sourcefile_index;  // 指向 CONSTANT_Utf8_info，源码文件名
+}
+
+attribute_info {
+  u2 attribute_name_index = &"SourceDebugExtension";
+  u4 attribute_length;
+  u1 debug_extension[attribute_length]
+}
+```
+
+- 内部类：InnerClasses
+
+```
+attribute_info {
+  u2 attribute_name_index = &"InnerClasses";
+  u4 attribute_length;
+  u2 number_of_classes;
+  inner_classes_info[] inner_classes[number_of_classes];
+}
+
+inner_classes_info {
+  u2 inner_class_info_index;    // 指向 CONSTANT_Class_info
+  u2 outer_class_info_index;    // 指向 CONSTANT_Class_info
+  u2 inner_name_index;          // 指向 CONSTANT_Utf8_info，匿名内部类为 0
+  u2 inner_class_access_flags;
+}
+```
+
+- 标志类型的布尔属性：Deprecated，Synthetic
+
+```
+attribute_info {
+  u2 attribute_name_index = &"Deprecated" | &"Synthetic";
+  u4 attribute_length = 0;
+}
+```
+
+- 栈映射帧：StackMapTable
+
+```
+attribute_info {
+  u2 attribute_name_index = &"StackMapTable";
+  u4 attribute_length;
+  u2 number_of_entries;
+  stack_map_frame[] stack_map_frame_entries[number_of_entries];
+}
+
+stack_map_frame {
+}
+```
+
+- 运行时反射的泛型信息：Signature
+
+```
+attribute_info {
+  u2 attribute_name_index = &"Signature";
+  u4 attribute_length;
+  u2 signature_index;    // 指向 CONSTANT_Utf8_info
+}
+```
+
+- invokedynamic 引导方法：BootstrapMethod
+
+```
+attribute_info {
+  u2 attribute_name_index = &"BootstrapMethod";
+  u4 attribute_length;
+  u2 num_bootstrap_methods;
+  bootstrap_method[] bootstrap_methods[num_bootstrap_methods];
+}
+
+bootstrap_method {
+  u2 bootstrap_method_ref;                           // 指向 CONSTANT_MethodHandle_info
+  u2 num_bootstrap_arguments;
+  n2[] bootstrap_arguments[num_bootstrap_arguments]; // 指向 cp_info(tag=1-7,10,16)
+}
+```
+
+- 变长参数信息：MethodParameters
+
+```
+attribute_info {
+  u2 attribute_name_index = &"MethodParameters";
+  u4 attribute_length;
+  u1 parameters_count;
+  parameter[] parameters[parameters_count];
+}
+
+parameter {
+  u2 name_index;     // 指向 CONSTANT_Utf8_info
+  u2 access_flags;
+}
+```
+
+- 模块化：Module，ModulePackages，ModuleMainClass
+
+```
+attribute_info {
+  u2 attribute_name_index = &"Module";
+  u4 attribute_length;
+  u2 module_name_index;
+  u2 module_flags;
+  u2 module_version_index;
+  u2 requires_count;
+  require[] requires[requires_count];
+  u2 exports_count;
+  export[] exports[exports_count];
+  u2 opens_count;
+  open[] opens[opens_count];
+  u2 uses_count;
+  use[] uses_index[uses_count];
+  u2 providers_count;
+  provider[] providers[providers_count];
+}
+
+exports {
+  u2 exports_index;
+  u2 exports_flags;
+  u2 exports_to_count;
+  export[] exports_to_index[exports_to_count];
+}
+
+attribute_info {
+  u2 attribute_name_index = &"ModulePackages";
+  u4 attribute_length;
+  u2 package_count;
+  u2[] packages[package_count];
+}
+
+attribute_info {
+  u2 attribute_name_index = &"ModuleMainClass";
+  u4 attribute_length = 2;
+  u2 main_class_index;         // 指向 CONSTANT_Class_info
+}
+```
+
+- 注解相关：各种 `XxxVisibleAnnotations`，`XxxInvisibleAnnotations`
+
+```
+attribute_info {
+  u2 attribute_name_index = &"...";
+  u4 attribute_length;
+  u2 num_annotations;
+  annotation[] annotations[num_annotations];
+}
+
+annotation {
+  u2 type_index;   // 指向 CONSTANT_Utf8_info
+  u2 num_element_value_pairs;
+  element_value_pair[] element_value_pairs[num_element_value_pairs];
+}
+```
+# javap
+
+`javap` 是 Java 提供的工具，可以查看 class 文件内部细节。Class 字节码可通过 `javap` 从二进制格式反编译成可读文件格式。
+
+```bash
+javap [options] class文件1 class文件2 ...
+```
+
+- -v，-verbose：显示包含常量池的完整信息
+- -l：只输出行号和局部变量表
+	- 局部变量表要求 `javac` 编译时带有 `-g` 属性
+- -public，-protected，-private/-p：显示 public、protected 或 private 成员
+	- 默认显示 `public`，`protected`，和默认级别的方法
+- -c：只输出代码（反编译）
+- -s：只输出类型描述符签名
+- -J：VM 选项
+
+不加选项则反编译成 Java 代码，通常使用 -v 查看完整的字节码信息。

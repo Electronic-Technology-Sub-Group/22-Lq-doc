@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Bootstrap/Bootstrap.md",
+                "file": "CSS/选择器.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Bootstrap/Bootstrap.md",
+                "file": "CSS/选择器.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Bootstrap/Bootstrap.md",
+                "file": "CSS/选择器.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Bootstrap/Bootstrap.md"
+                "file": "CSS/选择器.md"
               }
             }
           },
@@ -156,34 +156,43 @@
   "left-ribbon": {
     "hiddenItems": {
       "canvas:新建白板": false,
-      "templater-obsidian:Templater": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
-      "command-palette:打开命令面板": false
+      "command-palette:打开命令面板": false,
+      "templater-obsidian:Templater": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
   "active": "3b794f60ac66aabe",
   "lastOpenFiles": [
-    "Bootstrap/Bootstrap 组件.md",
+    "CSS/CSS.md",
+    "CSS/颜色与背景.md",
     "JavaScript/JS WebAPI.md",
+    "JavaScript/JavaScript.md",
+    "JavaScript/Typescript/TS 坑.md",
+    "CSS/Tips.md",
+    "HTML/表格.md",
+    "CSS/修饰.md",
+    "CSS/文本样式.md",
+    "CSS/显示模式，浮动与定位.md",
+    "CSS/响应式布局.md",
+    "CSS/选择器.md",
+    "CSS/移动适配.md",
     "HTML/表单.md",
+    "CSS/盒模型.md",
+    "CSS/动画与变换.md",
+    "CSS/弹性布局.md",
+    "HTML/列表.md",
+    "Bootstrap/Bootstrap.md",
+    "Bootstrap/Bootstrap 组件.md",
     "Readme.md",
     "HTTP.md",
     "开发模式.md",
     "XPath.md",
     "Vue/Vue - 应用基础.md",
     "Vue/Vue - 项目与组件.md",
-    "Vue/Vue - 模板语法.md",
-    "Bootstrap/Bootstrap 全局样式.md",
-    "Vue/Vue - 动画.md",
-    "Vue/Vue.md",
-    "Vue/Vue - cli.md",
-    "NodeJS/Express.md",
-    "库与工具/axios.md",
-    "库与工具/art-template.md",
     "resources/media/Pasted image 20230522174645.png",
     "resources/media/Pasted image 20230522160841.png",
     "未命名.canvas",
@@ -194,16 +203,7 @@
     "resources/media/Pasted image 20230521203035.png",
     "resources/media/Pasted image 20230521203026.png",
     "resources/media/Pasted image 20230521202836.png",
-    "JavaScript/Typescript/TypeScript 简介.md",
-    "JavaScript/Typescript/TypeScript 参考.md",
-    "JavaScript/Typescript/TypeScript.md",
-    "JavaScript/JS ES6 标准.md",
     "resources/media/Pasted image 20230515175206.png",
-    "CSS/动画与变换.md",
-    "CSS/_pages/position.md",
-    "CSS/_pages/坐标变换函数.md",
-    "JavaScript/Typescript/TS 坑.md",
-    "JavaScript/JS ES8 标准.md",
     "Vue",
     "NodeJS",
     "库与工具/未命名",
