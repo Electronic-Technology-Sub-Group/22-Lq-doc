@@ -65,3 +65,10 @@ DI 注入的数据分为两种
 | prototype | 每次从 IoC 请求对象时，创建一个新对象 |
 | request   | （Web）单个 HTTP 请求       |
 | session   | （Web）单个会话内            |
+## 延迟初始化
+
+Spring IoC 容器默认在创建 `ApplicationContext` 时初始化对象，如果需要延迟初始化，即仅在被使用时才创建对象，可以使用 `lazy-init` 属性
+
+```xml
+<bean id="someId" class="someClass" lazy-init="true" />
+```
