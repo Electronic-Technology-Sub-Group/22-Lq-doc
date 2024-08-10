@@ -1,0 +1,399 @@
+# 迭代器
+
+- IEnumerable：枚举接口，定义了一个枚举器，以实现 foreach 等循环
+- IEnumerator：枚举器：用于对对象的迭代
+
+一个简易的迭代器可以用做一个方法
+- 返回 `IEnumerator` 类型
+- 通过 `yield return` 返回对应元素
+- 通过 `yield break` 退出循环
+- 每次请求一个元素会暂停到该 `yield` 处，没有更多 `yield` 时表示没有更多元素
+
+```csharp
+public IEnumerator GetEnumerator() {
+    yield return "hello";
+    yield return "world";
+}
+```
+# 集合
+## 常用集合
+
+C# 集合分别处于三个包中：
+- 泛型集合：`System.Collections.Generic`
+- 特定类型集合：`System.Collections.Specialized`
+- 线程安全集合：`System.Collections.Immutable`
+
+不同集合实现各种接口，规定了集合的行为
+
+|            接口             | 说明                                                     |
+|:---------------------------:| -------------------------------------------------------- |
+|      `IEnumerable<T>`       | 定义了 GetEnumerator(), 用于 foreach                     |
+|      `ICollection<T>`       | 定义了 Count, CopyTo, Add, Remove, Clear 等基本集合方法  |
+|         `IList<T>`          | 定义了索引器，用于插入（Insert）和删除（Remove）某些项   |
+|          `ISet<T>`          | 定义了集的合并，交集，检查重叠等 派生自 ICollection      |
+| `IDictionary<TKey, TValue>` | 定义了包含键值对的泛型集合，访问接口所有键和值，及索引器 | 
+|   `ILookup<TKey, TValue>`   | 定义了包含键值对的集合，以及其访问，允许一个键包含多个值 |
+|       `IComparer<T>`        | 定义了一个比较器，实现 Compare() 方法给集合排序          |
+|   `IEqualityComparer<T>`    | 实现一个比较器，用于字典中的键，对可以对象进行相等性比较 |
+|  `IReadOnlyCollection<T>`   | 只读集合                                                 |
+|     `IReadOnlyList<T>`      | 只读列表                                                 |
+
+- 列表 `List<T>` 实现 `IList`，`IEnumerable`，`ICollection`
+	- 构造函数参数为初始大小，容量不足的话调整为当前的两倍，`{}` 可用作初始化
+	- `Capacity` 可获取和设置列表容量
+	- `TrimExcess()` 可以删除集合内的不需要的容量，如果已占有量超过 90% 则不做任何事情
+	- `AsReadOnly()` 可转换为只读列表
+
+```csharp
+var intList = new List<int>(10) { 0, 1 };
+intList.Capacity = 10;
+intList.TrimExcess();
+var intListReadonly = intList.AsReadOnly();
+```
+
+- 队列 `Queue<T>`：先进先出的队列，基本操作包括：
+	- 出入列：Dequeue、Enqueue
+	- 出列但不删除：Peek
+
+```csharp
+var intQueue = new Queue<int>();
+intQueue.Enqueue(1);            // 入列
+var qg = intQueue.Dequeue();    // 出列
+var qr = intQueue.Peek();       // 出列但不删除
+```
+
+- 栈 `Stack<T>`：先进后出的队列，基本操作包含：
+	- 出入栈：Pop、Push
+	- 出栈但不删除：Peek
+
+```csharp
+var intStack = new Stack<int>();
+intStack.Push(1);               // 入栈
+var q = intStack.Pop();         // 出栈
+var e = intStack.Contains(1);   // 是否存在
+```
+
+- 链表 `LinkedList<T>`：一个双向链表
+
+```csharp
+LinkedList<int> intLinkedList = new LinkedList<int>();
+intLinkedList.AddFirst(1);
+int il = intLinkedList.First;
+```
+
+- 字典：以键值对形式存储
+	- 键类型必须重写 `GetHashCode` 方法 和 `IEquatable<T>.Equals` 或 `Object.Equals` 方法
+	- `Dictionary`：普通字典
+	- `SortedDictionary`：基于二叉搜索树的字典，使用内存比 `SortedList` 多但插入删除操作比其快，键类型应实现 `IComparable<T>` 接口
+	- `Lookup`：键指向一组值，只能用 `toLookup()` 创建
+
+```csharp
+var intDictionary = new Dictionary<string, int>()
+{
+    ["1"] = 1,
+    ["2"] = 2
+};
+var id1 = intDictionary["1"];
+var defInt = -1;
+var has1 = intDictionary.TryGetValue("3", out defInt);
+
+// 有序字典: 二叉搜索树
+// 使用内存比 SortedList 多但插入删除操作比其快
+// key 类型必须实现 IComparable<TKey> 接口
+var intSortedDictionary = new SortedDictionary<string, int>();
+
+// Lookup: Key -> [Value], 键指向的值是一组值
+// 不能用一般方法创建, 只能使用 toLookup(selector) 方法
+// selector 是一个选择器, value => key
+var lookup1 = racers.ToLookup(r => r.Country);
+foreach(Racer r in lookup1["ca"])
+{
+    Console.WriteLine(r);
+}
+```
+
+- 集 `HashSet`，`SortedSet`：可创建交集 并集 补集 子集 判断包含等
+## 位运算集合
+
+处理位运算的集合：`BitArray` 与 `BitVector32`
+
+`BitArray`：长度可变
+- `Count` 获取长度，`Length` 可重置大小
+- 包含 `Get`、`Set`、`SetAll` 操作位
+- 使用 `Not`、`And`、`Or`、`Xor` 可以对其进行运算
+
+`BitVector32`：固定长度 32 位，但是值类型，效率高
+- 使用 `Data` 可以转换为整数
+- `CreateMask`：创建位掩码
+- `CreateSection`：创建片段
+
+`Item`：获取位运算索引器，可通过掩码获取值
+
+```csharp
+void Bit()
+{
+    var bits1 = new BitArray(10);
+    bits1.Length = 11;
+    bits1.Not();
+    var bits2 = new BitVector32(10);
+    var bit1Mask = BitVector32.CreateMask();            // 第一位
+    var bit2Mask = BitVector32.CreateMask(bit1Mask);    // 第二位
+    var bit3Mask = BitVector32.CreateMask(bit2Mask);    // 第三位
+    var bit4Mask = BitVector32.CreateMask(bit3Mask);    // 第四位
+    bits2[bit1Mask] = true;
+    bits2[0xacdef] = true; // 自定义掩码 结果为 ‭0xabcdef
+    var bitSection1 = BitVector32.CreateSection(0xfff);
+    var bitSection2 = BitVector32.CreateSection(0xff, bitSection1);
+    var bitSection3 = BitVector32.CreateSection(0xf, bitSection2);
+    var bitSection4 = BitVector32.CreateSection(0x7, bitSection3);
+    var bitSection5 = BitVector32.CreateSection(0x7, bitSection4);
+    var bitSection6 = BitVector32.CreateSection(0x3, bitSection5);
+    var b2s1 = bits2[bitSection1];
+    var b2s2 = bits2[bitSection2];
+    var b2s3 = bits2[bitSection3];
+    var b2s4 = bits2[bitSection4];
+    var b2s5 = bits2[bitSection5];
+    var b2s6 = bits2[bitSection6];
+}
+```
+## 可观察集合
+
+`ObservableCollection<T>`，当集合发生变化时触发 `CollectionChanged` 事件
+
+```csharp
+var observableCollection = new ObservableCollection<int>();
+
+observableCollection.CollectionChanged += (sender, e) =>
+{
+    Console.WriteLine("Action: " + e.Action);
+    Console.WriteLine("Start Index: from " + e.NewStartingIndex + " to " + e.OldStartingIndex);
+    Console.WriteLine("Data Change: " + e.OldItems + " => " + e.NewItems);
+}
+```
+## 不变集合
+
+使用 `Add`, `Remove`, `Replace`, `Sort` 等方法时，不改变原集合，而是返回一个新集合
+- 不会复制集合，而是共享状态，仅在需要时创建集合
+- `ToImmutableList`：创建一个新的不变集合
+- `ToBuilder`：创建一个可变集合，修改完成后使用 `ToImmutable` 方法创建不可变集合
+
+```csharp
+var iArray1 = ImmutableArray.Create<string>();
+var iArray2 = iArray1.Add("hello");
+```
+## 并发集合
+
+`ConcurrentCollection`，线程安全的集合类
+- `ConcurrentXXX`：线程安全集合类，`TryXXX` 方法返回 `bool` 类型，表示是否失败
+- `BlockCollection<T>`：阻塞性集合类，会阻塞线程，迭代时应通过 GetConsumingEnumerable 获取阻塞迭代器
+
+```csharp
+class PipelineSample
+{
+    public static async Task StartPipelineAsync()
+    {
+        var fileNames = new BlockingCollection<string>();
+        var lines = new BlockingCollection<string>();
+        var words = new ConcurrentDictionary<string, int>();
+        var items = new BlockingCollection<Info>();
+        var coloredItems = new BlockingCollection<Info>();
+        Task t1 = PipelineStages.ReadFilenameAsync(@"../../..", fileNames);
+        ColoredConsole.WriteLine("started stage 1");
+        Task t2 = PipelineStages.LoadContentAsync(fileNames, lines);
+        ColoredConsole.WriteLine("started stage 2");
+        Task t3 = PipelineStages.ProcessContentAsync(lines, words);
+        await Task.WhenAll(t1, t2, t3);
+        ColoredConsole.WriteLine("stage 1, 2, 3 completed");
+
+        Task t4 = PipelineStages.TransferContentAsync(words, items);
+        Task t5 = PipelineStages.AddColorAsync(items, coloredItems);
+        Task t6 = PipelineStages.ShowContentAsync(coloredItems);
+        ColoredConsole.WriteLine("stage 4, 5, 6 started");
+        await Task.WhenAll(t4, t5, t6);
+        ColoredConsole.WriteLine("all stages finished");
+
+    }
+}
+```
+
+```csharp
+class Info
+{
+    public string Word { get; set; }
+    public int Count { get; set; }
+    public string Color { get; set; }
+    public override string ToString() => $"{Count} times: {Word}";
+}
+
+class PipelineStages
+{
+    public static Task ReadFilenameAsync(string path, BlockingCollection<string> output)
+    {
+        return Task.Factory.StartNew(() =>
+        {
+            foreach (string filename in Directory.EnumerateFiles(path, "*.cs", SearchOption.AllDirectories))
+            {
+                output.Add(filename);
+                ColoredConsole.WriteLine($"stage 1: added {filename}");
+            }
+            output.CompleteAdding();
+        }, TaskCreationOptions.LongRunning);
+    }
+
+    public static async Task LoadContentAsync(BlockingCollection<string> input, BlockingCollection<string> output)
+    {
+        foreach (var filename in input.GetConsumingEnumerable())
+        {
+            using (FileStream stream = File.OpenRead(filename))
+            {
+                var reader = new StreamReader(stream);
+                string line = null;
+                while ((line = await reader.ReadLineAsync()) != null)
+                {
+                    output.Add(line);
+                    ColoredConsole.WriteLine($"stage 2: added {line}");
+                }
+            }
+        }
+        output.CompleteAdding();
+    }
+
+    public static Task ProcessContentAsync(BlockingCollection<string> input, ConcurrentDictionary<string, int> output)
+    {
+        return Task.Factory.StartNew(() =>
+        {
+            foreach (var line in input.GetConsumingEnumerable())
+            {
+                string[] words = line.Split(' ', ';', '\t', '{', '}', '(', ')', ':', ',', '"');
+                foreach (var word in words.Where(w => !string.IsNullOrEmpty(w)))
+                {
+                    output.AddOrUpdate(key: word, addValue: 1, updateValueFactory: (s, i) => ++i);
+                    ColoredConsole.WriteLine($"stage3: added {word}");
+                }
+            }
+        }, TaskCreationOptions.LongRunning);
+    } 
+
+    public static Task TransferContentAsync(ConcurrentDictionary<string, int> input, BlockingCollection<Info> output)
+    {
+        return Task.Factory.StartNew(() =>
+        {
+            foreach (var word in input.Keys)
+            {
+                if (input.TryGetValue(word, out int value))
+                {
+                    var info = new Info
+                    {
+                        Word = word,
+                        Count = value
+                    };
+                    output.Add(info);
+                    ColoredConsole.WriteLine($"stage 4: added {info}");
+                }
+                output.CompleteAdding();
+            }
+        }, TaskCreationOptions.LongRunning);
+    }
+
+    public static Task AddColorAsync(BlockingCollection<Info> input, BlockingCollection<Info> output)
+    {
+        return Task.Factory.StartNew(() =>
+        {
+            foreach (var item in input.GetConsumingEnumerable())
+            {
+                if (item.Count > 40)
+                {
+                    item.Color = "Red";
+                }
+                else if (item.Count > 20)
+                {
+                    item.Color = "Yello";
+                }
+                else
+                {
+                    item.Color = "Green";
+                }
+                output.Add(item);
+                ColoredConsole.WriteLine($"stage 5: added color {item.Color} to {item}");
+            }
+            output.CompleteAdding();
+
+        }, TaskCreationOptions.LongRunning);
+    }
+
+    public static Task ShowContentAsync(BlockingCollection<Info> input)
+    {
+        return Task.Factory.StartNew(() =>
+        {
+            foreach (var item in input.GetConsumingEnumerable())
+            {
+                ColoredConsole.WriteLine($"stage 6: {item}", item.Color);
+            }
+        }, TaskCreationOptions.LongRunning);
+    }
+}
+
+class ColoredConsole
+{
+    private static object syncOutput = new object();
+
+    public static void WriteLine(string message)
+    {
+        lock (syncOutput)
+        {
+            Console.WriteLine(message);
+        }
+    }
+
+    public static void WriteLine(string message, string color)
+    {
+        lock (syncOutput)
+        {
+            Console.ForegroundColor = (ConsoleColor)Enum.Parse(typeof(ConsoleColor), color);
+            Console.WriteLine(message);
+            Console.ResetColor();
+        }
+    }
+}
+```
+# LinQ
+
+Language Integrated Query, 语言集成查询，使用相同的语法访问不同的数据源
+- 查询表达式以 from 子句开头, 以 select 或 group 子句结束
+- 两个子句之间可用 where, orderby, join, let 及其他 from 子句
+- 定义查询表达式时, 查询不会运行, 而是在迭代时运行
+
+- 查询
+
+```csharp
+var list = new List<string>();
+var query = from r in list where r.StartsWith("a") orderby r descending select r;
+```
+
+- 扩展方法：为 `IEnumerable<T>` 接口提供的扩展方法
+
+| 方法                                                                                                                                                                                                      | 说明            |
+|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:-------------:|
+| Where & `OFType<TResult>`                                                                                                                                                                                 | 筛选内容/类型       |
+| Selet & SelectManySelet & SelectMany                                                                                                                                                                    | 转换类型 (类似 map) |
+| OrderBy & OrderByDescending                                                                                                                                                                             | 排序            |
+| ThenBy & ThenByDescending                                                                                                                                                                               | 二次排序          |
+| Reverse                                                                                                                                                                                                 | 反向            |
+| Join & GroupJoin                                                                                                                                                                                        | 连接两个集合        |
+| GroupBy & ToLookup                                                                                                                                                                                      | 组合 分组         |
+| All & Any & Contains                                                                                                                                                                                    | 检查是否满足特定条件    |
+| Take & Skip & TakeWhile & SkipWhile                                                                                                                                                                     | 返回集合的一个子集     |
+| Distint                                                                                                                                                                                                 | 删除重复元素        |
+| Union                                                                                                                                                                                                   | 并集            |
+| Intersect                                                                                                                                                                                               | 交集            |
+| Except                                                                                                                                                                                                  | 只出现在一个集合中的元素  |
+| Zip                                                                                                                                                                                                     | 合并集合          |
+| First & FirstOrNull & Last & ElementAt & Single<br />Count & Sum & Max & Min & Average & Aggregate<br />ToArray & AsEnumerable & ToList & ToDirectory & `Cast<TResult>`<br />Empty & Range & Repeat<br /> |               |
+
+```csharp
+var list = new List<string>();
+list
+    .Where(v => v.StartsWith("a"))
+    .OrderByDescending(v => v)
+    .Select(v => v);
+```

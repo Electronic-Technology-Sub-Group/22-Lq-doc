@@ -1,0 +1,7 @@
+#obsidian
+.trash
+
+# js
+**/node_modules
+**/dist
+package-lock.json

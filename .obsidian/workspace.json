@@ -1,0 +1,262 @@
+{
+  "main": {
+    "id": "0880c97603515ecb",
+    "type": "split",
+    "children": [
+      {
+        "id": "f3db10d998d024ab",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a8ced22a7f72fdb3",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "246a213e9a87984c",
+    "type": "split",
+    "children": [
+      {
+        "id": "bb9a2ef70970c8d2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "da0ea89a9f61f80f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "2b9655d45a16b900",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#未完成",
+                "matchingCase": true,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "1eca26961964d323",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          },
+          {
+            "id": "86e99e835b2e9cff",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 240.51103591918945
+  },
+  "right": {
+    "id": "2f5d582e60864eba",
+    "type": "split",
+    "children": [
+      {
+        "id": "b8f73eab9f4d72af",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "32174437f2e8aa52",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "任务.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "51c2453771a0e239",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "任务.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "f418d6f464f3445b",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "424ac04d676ce9be",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "任务.md"
+              }
+            }
+          },
+          {
+            "id": "8f9086ea5f191273",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              }
+            }
+          },
+          {
+            "id": "af7384eb43c32511",
+            "type": "leaf",
+            "state": {
+              "type": "code-execute-manage-executors",
+              "state": {}
+            }
+          },
+          {
+            "id": "679a06a6b6bbc7c8",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          },
+          {
+            "id": "2c5ab77f41c9eba1",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "412e5b1871a69c5a",
+            "type": "leaf",
+            "state": {
+              "type": "todo",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 279.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "3d-graph-new:Global 3D Graph": false,
+      "switcher:打开快速切换": true,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": true,
+      "templates:插入模板": true,
+      "command-palette:打开命令面板": true,
+      "workspaces:管理工作区布局": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
+      "obsidian-importer:Open Importer": false,
+      "mermaid-tools:Open Mermaid Toolbar": false,
+      "sheet-plus:创建 Excel 文件": true,
+      "templater-obsidian:Templater": false,
+      "obsidian-spaced-repetition:复习卡片": false,
+      "obsidian-gallery:Gallery": false,
+      "homepage:Open homepage": true,
+      "obsidian-projects:打开项目": false,
+      "terminal:Open terminal": false
+    }
+  },
+  "active": "da0ea89a9f61f80f",
+  "lastOpenFiles": [
+    "库/JS与CSS库/JS与CSS库.md",
+    "工具/Obsidian/Plugins/Dataview/元数据查询/表达式.md",
+    "任务.md",
+    "语言/CSS/CSS/CSS.md",
+    "语言/CSS/元素/clip.md",
+    "库/游戏相关/Minecraft Java Mod/DataUpperFixer/kinds/Functor 与 Kind/Representable.md",
+    "语言/Java/Java.md",
+    "库/Java 库/Java 库.md",
+    "语言/Java/jakarta/JSR330 依赖注入.md",
+    "语言/Java/jakarta/jakarta.md",
+    "语言/Java/JDK API/Http Client.md",
+    "库/库.md",
+    "库/OpenGL/GLSL.md",
+    "库/OpenGL/OpenGL.md",
+    "OpenGL 高级 GLSL.md",
+    "库/Java 库/Thymeleaf/Thymeleaf.md",
+    "库/Java 库/Thymeleaf/标准表达式语法/使用变量/使用变量.md",
+    "库/Java 库/Spring/Spring Security 保护应用程序/ACL 模块保护域对象安全性/ACL 模块保护域对象安全性.md",
+    "库/Java 库/Spring/Java 容器配置/路径扫描与组件索引.md",
+    "库/Java 库/Spring/注解驱动开发/注解驱动开发.md",
+    "工具/工具.md",
+    "语言/CSS/Less/Less.md",
+    "assets/Pasted.md",
+    "工具/Maven.md",
+    "工具/素材提取工具.md",
+    "标准/CommonJS.md",
+    "库/Java 库",
+    "库/C Cpp 库",
+    "库/游戏相关",
+    "库/JS与CSS库",
+    "库/Python 库",
+    "_resources/documents/quaternion-20240513152037-r0s44gn.pdf",
+    "assets",
+    "_resources/images/image-20240702132401-poea4cb.png",
+    "库/JS与CSS库/Vue3/组件/组件通信/自定义事件/中央事件总线 mitt",
+    "课程/函数式编程基础/容器/Applicative functor",
+    "库/Java 库/Thymeleaf/标准表达式语法/片段/参数化片段",
+    "_resources/images/Pasted image 20230318160313.png",
+    "_resources/images/Pasted image 20230318154014.png",
+    "_resources/images/Pasted image 20230318093949.png",
+    "_resources/images/Pasted image 20230124170737.png",
+    "_resources/images/Pasted image 20230124163541.png",
+    "_resources/images/Pasted image 20230124153755.png",
+    "_resources/images/Pasted image 20230123234522.png",
+    "_resources/images/Pasted image 20230123234520.png",
+    "_resources/images/Pasted image 20230123233634.png",
+    "语言/C Cpp/C++更新图.canvas",
+    "语言/Class 字节码/Untitled.canvas",
+    "_resources/canvas/未命名.canvas"
+  ]
+}

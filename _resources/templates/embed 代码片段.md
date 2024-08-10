@@ -1,0 +1,4 @@
+```embed-<% await tp.system.prompt('语言：') %>
+PATH: "vault://_resources/codes/<% await tp.system.prompt('子项目：') %>/<% await tp.system.prompt('代码文件：') %>"
+LINES: "<% await tp.system.prompt('行号：') %>"
+```

@@ -1,0 +1,17 @@
+---
+_filters: []
+_contexts: []
+_links: []
+_sort:
+  field: rank
+  asc: false
+  group: false
+_template: ""
+_templateName: ""
+---
+Rust 是一个高效、安全的语言
+
+- 安全：Rust 通过生命周期避免悬垂指针，通过所有权与借用保证读写安全
+- 高效：
+    - Rust 通过零开销抽象、深入到底层的优化潜力、优质的库实现保证易用性同时保证效率
+    - Rust 通过所有权系统避免了 GC

@@ -1,0 +1,8 @@
+{
+  "promptDelete": false,
+  "alwaysUpdateLinks": true,
+  "newFileLocation": "current",
+  "newFileFolderPath": "_resources/images",
+  "attachmentFolderPath": "_resources/images",
+  "useMarkdownLinks": false
+}

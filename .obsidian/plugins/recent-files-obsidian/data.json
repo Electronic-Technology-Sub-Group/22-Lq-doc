@@ -1,0 +1,205 @@
+{
+  "recentFiles": [
+    {
+      "basename": "任务",
+      "path": "任务.md"
+    },
+    {
+      "basename": "JS与CSS库",
+      "path": "库/JS与CSS库/JS与CSS库.md"
+    },
+    {
+      "basename": "表达式",
+      "path": "工具/Obsidian/Plugins/Dataview/元数据查询/表达式.md"
+    },
+    {
+      "basename": "CSS",
+      "path": "语言/CSS/CSS/CSS.md"
+    },
+    {
+      "basename": "clip",
+      "path": "语言/CSS/元素/clip.md"
+    },
+    {
+      "basename": "Representable",
+      "path": "库/游戏相关/Minecraft Java Mod/DataUpperFixer/kinds/Functor 与 Kind/Representable.md"
+    },
+    {
+      "basename": "Java",
+      "path": "语言/Java/Java.md"
+    },
+    {
+      "basename": "Java 库",
+      "path": "库/Java 库/Java 库.md"
+    },
+    {
+      "basename": "JSR330 依赖注入",
+      "path": "语言/Java/jakarta/JSR330 依赖注入.md"
+    },
+    {
+      "basename": "jakarta",
+      "path": "语言/Java/jakarta/jakarta.md"
+    },
+    {
+      "basename": "库",
+      "path": "库/库.md"
+    },
+    {
+      "basename": "GLSL",
+      "path": "库/OpenGL/GLSL.md"
+    },
+    {
+      "basename": "OpenGL",
+      "path": "库/OpenGL/OpenGL.md"
+    },
+    {
+      "basename": "Thymeleaf",
+      "path": "库/Java 库/Thymeleaf/Thymeleaf.md"
+    },
+    {
+      "basename": "使用变量",
+      "path": "库/Java 库/Thymeleaf/标准表达式语法/使用变量/使用变量.md"
+    },
+    {
+      "basename": "ACL 模块保护域对象安全性",
+      "path": "库/Java 库/Spring/Spring Security 保护应用程序/ACL 模块保护域对象安全性/ACL 模块保护域对象安全性.md"
+    },
+    {
+      "basename": "路径扫描与组件索引",
+      "path": "库/Java 库/Spring/Java 容器配置/路径扫描与组件索引.md"
+    },
+    {
+      "basename": "注解驱动开发",
+      "path": "库/Java 库/Spring/注解驱动开发/注解驱动开发.md"
+    },
+    {
+      "basename": "工具",
+      "path": "工具/工具.md"
+    },
+    {
+      "basename": "Less",
+      "path": "语言/CSS/Less/Less.md"
+    },
+    {
+      "basename": "Maven",
+      "path": "工具/Maven.md"
+    },
+    {
+      "basename": "素材提取工具",
+      "path": "工具/素材提取工具.md"
+    },
+    {
+      "basename": "CommonJS",
+      "path": "标准/CommonJS.md"
+    },
+    {
+      "basename": "Node.js",
+      "path": "工具/Node.js/Node.js.md"
+    },
+    {
+      "basename": "JWT 相关",
+      "path": "库/JS与CSS库/JWT 相关.md"
+    },
+    {
+      "basename": "Express",
+      "path": "库/JS与CSS库/Express.md"
+    },
+    {
+      "basename": "mysql2",
+      "path": "库/JS与CSS库/mysql2.md"
+    },
+    {
+      "basename": "Babel",
+      "path": "库/JS与CSS库/Babel.md"
+    },
+    {
+      "basename": "Python 库",
+      "path": "库/Python 库/Python 库.md"
+    },
+    {
+      "basename": "Qt 项目实例",
+      "path": "库/Python 库/PyQt6/项目实例/Qt 项目实例.md"
+    },
+    {
+      "basename": "文档",
+      "path": "文档/文档.md"
+    },
+    {
+      "basename": "JavaAgent",
+      "path": "语言/Java/JavaAgent.md"
+    },
+    {
+      "basename": "继承",
+      "path": "语言/C Cpp/C++ 语法/类/继承.md"
+    },
+    {
+      "basename": "Process",
+      "path": "语言/Java/JDK API/Process.md"
+    },
+    {
+      "basename": "语言",
+      "path": "语言/语言.md"
+    },
+    {
+      "basename": "C Cpp 库",
+      "path": "库/C Cpp 库/C Cpp 库.md"
+    },
+    {
+      "basename": "标准",
+      "path": "标准/标准.md"
+    },
+    {
+      "basename": "Linux",
+      "path": "工具/Linux/Linux.md"
+    },
+    {
+      "basename": "Spring",
+      "path": "库/Java 库/Spring/Spring.md"
+    },
+    {
+      "basename": "IoC 容器",
+      "path": "库/Java 库/Spring/IoC 容器/IoC 容器.md"
+    },
+    {
+      "basename": "Echo 服务器",
+      "path": "库/Java 库/Netty/netty4 user guide/Echo 服务器.md"
+    },
+    {
+      "basename": "SQLAlchemy",
+      "path": "库/Python 库/SQLAlchemy/SQLAlchemy.md"
+    },
+    {
+      "basename": "Vue3",
+      "path": "库/JS与CSS库/Vue3/Vue3.md"
+    },
+    {
+      "basename": "DataUpperFixer",
+      "path": "库/游戏相关/Minecraft Java Mod/DataUpperFixer/DataUpperFixer.md"
+    },
+    {
+      "basename": "Applicative functor",
+      "path": "课程/函数式编程基础/容器/Applicative functor/Applicative functor.md"
+    },
+    {
+      "basename": "函子 Functor",
+      "path": "课程/函数式编程基础/容器/函子 Functor.md"
+    },
+    {
+      "basename": "函数式编程基础",
+      "path": "课程/函数式编程基础/函数式编程基础.md"
+    },
+    {
+      "basename": "Codec",
+      "path": "库/游戏相关/Minecraft Java Mod/DataUpperFixer/Codec.md"
+    },
+    {
+      "basename": "内置容器",
+      "path": "库/游戏相关/Minecraft Java Mod/DataUpperFixer/内置容器.md"
+    },
+    {
+      "basename": "serializations",
+      "path": "库/游戏相关/Minecraft Java Mod/DataUpperFixer/serializations.md"
+    }
+  ],
+  "omittedPaths": []
+}
