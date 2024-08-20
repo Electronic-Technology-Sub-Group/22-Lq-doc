@@ -1,4 +1,5 @@
 在 [SDK 平台工具版本说明  |  Android 开发者  |  Android Developers](https://developer.android.com/studio/releases/platform-tools?hl=zh-cn) 下载 Android 平台工具，解压后设置 PATH 环境变量
+
 # 特殊手机
 
 * 荣耀（旧版本）  

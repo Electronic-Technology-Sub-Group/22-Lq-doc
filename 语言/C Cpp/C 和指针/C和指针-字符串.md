@@ -16,7 +16,7 @@
 
 - `strlen(str)` 返回值类型为 `size_t`，是一个无符号整形，因此与 0 进行大小比较是没有意义的
 
-```c++
+```cpp
 const char* str1, str2;
 
 if (strlen(str1) - strlen(str2) >= 0) {

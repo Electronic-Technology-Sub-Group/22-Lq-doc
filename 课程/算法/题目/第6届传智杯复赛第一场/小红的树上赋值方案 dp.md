@@ -61,7 +61,7 @@ RRR
 > 树形dp：树形存储 dp 结果，使用 dfs 遍历，先初始化所有叶节点，然后自下而上合并数据
 # 答案
 
-```c++
+```cpp
 #include <bits/stdc++.h>
 
 using ll = long long;

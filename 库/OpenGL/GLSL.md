@@ -1,7 +1,7 @@
 > [!note] GLSL
 > OpenGL Shader Language，OpenGL 着色器语言。类似 C 语言，额外提供针对向量和矩阵的操作。
 
-```c++
+```cpp
 #version 460 core
 
 layout (location = 0) in vec3 pos;
@@ -36,7 +36,7 @@ GLSL 支持各种基本类型、结构体，并额外原生支持向量和矩阵
 
 向量各分量可以通过 `rgba`、`xyzw` 或 `stpq` 访问，但不能混合使用
 
-```c++
+```cpp
 vec4 v4 = vec4(1, 2, 3, 4);
 vec3 v3rgb = v4.rgb;
 vec3 v3xyz = v4.xyz;
@@ -47,7 +47,7 @@ vec3 v3 = rgx;            // 编译错误
 
 通过向量的构造，可以将各向量互相组合
 
-```c++
+```cpp
 vec3 color = vec3(1, 0.5f, 1);
 vec4 colorRGBA = vec4(color, 1); // 1 0.5 1 1
 ```
@@ -55,7 +55,7 @@ vec4 colorRGBA = vec4(color, 1); // 1 0.5 1 1
 矩阵也可以拆分为向量，或者由向量通过构造函数创建。
 # 内建变量
 
-OpenGL 在着色器中有一些内建变量，完整版详见 [[Built-in Variable (GLSL)]]
+OpenGL 在着色器中有一些内建变量，完整版详见 [[../../_resources/documents/OpenGL/Built-in Variable (GLSL)]]
 * 顶点着色器
   * `gl_Position`：顶点着色器输出，记录顶点坐标
   * `gl_PointSize`：点作为图元时绘制的大小，当且仅当 `glEnable(GL_PROGRAM_POINT_SIZE)` 时可写
@@ -71,7 +71,7 @@ OpenGL 在着色器中有一些内建变量，完整版详见 [[Built-in Variabl
   * `gl_FragDepth`：深度值
     * OpenGL 4.2 之前的版本只要修改了此值，提前深度测试便会禁用，GL42 后可配置
 
-```c++
+```cpp
 layout(depth [condition]) out float gl_FragDepth;
 ```
 
@@ -120,7 +120,7 @@ in VS_OUT {
       * 数组内每个元素的基准对齐量为 16
       * 结构体根据规则计算，并将结果扩展到 16 的倍数
 
-  ```c++
+  ```cpp
   layout (std140, binding=2) uniform ExampleBlock {
                        //基本对齐量   对齐偏移量
       float value;     //        4            0
@@ -134,7 +134,7 @@ in VS_OUT {
 
 * Uniform 缓冲区对象：在代码中访问 Uniform 块
 
-  ```c++
+  ```cpp
   // 创建和初始化缓冲区
   GLuint ubo;
   glGenBuffers(1, &ubo);

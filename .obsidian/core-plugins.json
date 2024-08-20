@@ -1,7 +1,6 @@
 [
   "file-explorer",
   "global-search",
-  "switcher",
   "graph",
   "backlink",
   "canvas",
@@ -9,7 +8,6 @@
   "tag-pane",
   "properties",
   "page-preview",
-  "daily-notes",
   "templates",
   "note-composer",
   "command-palette",
@@ -17,7 +15,6 @@
   "editor-status",
   "bookmarks",
   "outline",
-  "word-count",
   "workspaces",
   "file-recovery"
 ]

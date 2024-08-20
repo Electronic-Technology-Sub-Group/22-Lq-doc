@@ -4,5 +4,10 @@
   "newFileLocation": "current",
   "newFileFolderPath": "_resources/images",
   "attachmentFolderPath": "_resources/images",
-  "useMarkdownLinks": false
+  "useMarkdownLinks": false,
+  "defaultViewMode": "preview",
+  "userIgnoreFilters": [
+    "_resources/"
+  ],
+  "newLinkFormat": "relative"
 }

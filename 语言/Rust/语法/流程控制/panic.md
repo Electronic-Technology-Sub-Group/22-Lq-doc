@@ -1,6 +1,6 @@
 可以使用 `panic!​` 宏生成一个 `panic`​，程序遇到 `panic`​ 时会自动展开，即对方法进行回溯并清理工作。
 
-```run-rust
+```rust
 fn main() {
     panic!("This is a panic!");
 }

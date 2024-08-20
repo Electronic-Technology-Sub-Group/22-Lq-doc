@@ -1,0 +1,8 @@
+- 光影
+    - [SEUS PTGI](https://www.sonicether.com/seus/)
+    - [BSL](https://www.curseforge.com/minecraft/shaders/bsl-shaders)
+    - [Complementary](https://www.bilibili.com/read/cv26414719/)
+    - derivative
+- 材质包
+    - [fresh animations](https://www.curseforge.com/minecraft/texture-packs/fresh-animations)：为实体添加更多动画，依赖于 [Optifine](https://optifine.net/downloads) 或 [Entity Model Features](https://modrinth.com/mod/entity-model-features) + [Entity Texture Features](https://modrinth.com/mod/entitytexturefeatures)
+    - [Patrix](https://www.curseforge.com/minecraft/texture-packs/patrix-32x)

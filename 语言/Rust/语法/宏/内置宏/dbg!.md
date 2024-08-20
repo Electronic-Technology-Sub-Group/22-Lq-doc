@@ -2,7 +2,7 @@
 
 该方法输出在 `stderr`​ 中
 
-```run-rust
+```rust
 #[derive(Debug)]
 struct Rectangle {
     width: u32,

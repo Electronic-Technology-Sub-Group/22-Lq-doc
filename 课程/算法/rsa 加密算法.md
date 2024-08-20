@@ -28,7 +28,9 @@ $$x=y^d\mod n$$
 之后通过一定规律将其重新转化为明文即可
 
 # 证明
-#todo [RSA —— 经典的非对称加密算法 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/450180396)
+
+[RSA —— 经典的非对称加密算法 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/450180396)
+
 $$\begin{aligned}
 y^d&\equiv x^{ed}\\
   &\equiv x^{km+1}&\text {$ed\equiv1\pmod m$}\\
@@ -36,4 +38,3 @@ y^d&\equiv x^{ed}\\
   &\equiv x\cdot x^{k\psi(p)\psi(q)}\pmod n
 \end{aligned}$$
 
-1. $(x,n)=1$，

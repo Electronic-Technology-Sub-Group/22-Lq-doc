@@ -78,6 +78,6 @@ Here is the illustration for the second example.
 - 某分支存在已访问过的点：分裂补全 k（该点有另一条分支保护，此处可放心分裂）
 # 答案
 
-```c++
+```cpp
 
 ```

@@ -1,3 +1,19 @@
 {
-  "easy-typing-obsidian:easy-typing-paste-without-format": []
+  "easy-typing-obsidian:easy-typing-paste-without-format": [],
+  "obsidian-footnotes:insert-autonumbered-footnote": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "1"
+    }
+  ],
+  "obsidian-footnotes:insert-named-footnote": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "-"
+    }
+  ]
 }

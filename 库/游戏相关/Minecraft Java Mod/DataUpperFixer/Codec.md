@@ -138,7 +138,7 @@ public static final Codec<MyData> CODEC = RecordCodecBuilder.create(instance ->
   ```
 * 等效类型：在存在 `Codec<A>` 的情况下，若我们有一个类型 B，A 与 B 之间可以一对一转换，则可以通过 `Codec<A>.xmap(Function<A, B>, Function<B, A>)` 创建 `Codec<B>`
 
-  ```c++
+  ```cpp
   Codec<Pair<String, Integer>> CODEC_PAIR;
   Codec<MyData> CODEC_XMAP = CODEC_PAIR.xmap(
               // Function<Pair<String, Integer>, MyData>

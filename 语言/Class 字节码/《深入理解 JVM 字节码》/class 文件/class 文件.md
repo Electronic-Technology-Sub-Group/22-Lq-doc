@@ -1,14 +1,3 @@
----
-_filters: []
-_contexts: []
-_links: []
-_sort:
-  field: rank
-  asc: false
-  group: false
-_template: ""
-_templateName: ""
----
 使用 `javac` 将源文件编译成 `.class` ​​ 文件，使用十六进制工具即可打开查看。也可以或通过 `javap` 反编译，或通过 `jclasslib` 等可视化工具直接查看 `.class` ​​ 文件。
 
 ![[Pasted image 20240306012524-20240312004140-44tyf0g.png]]

@@ -4,7 +4,7 @@
 
 在使用 `Process` 执行命令行时，可以直接将输出丢弃
 
-```run-java
+```java
 void main() throws Exception {
     System.out.println("Using Redirect.INHERIT");
     new ProcessBuilder("java", "--version")
@@ -29,7 +29,7 @@ void main() throws Exception {
 
 Process 可通过 `toHandler()` 方法转换为 `ProcessHandler`
 
-```run-java
+```java
 void main() {
     ProcessHandle handle = ProcessHandle.current();
     ProcessHandle.Info info = handle.info();

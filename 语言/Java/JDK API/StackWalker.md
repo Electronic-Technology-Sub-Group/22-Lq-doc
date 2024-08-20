@@ -2,7 +2,7 @@
 
 简单有效的遍历栈帧方法，自上而下遍历记录，高效而便利
 
-```run-java
+```java
 void main() {
     // RETAIN_CLASS_REFERENCE 包含对调用的 Class 类对象的引用
     // SHOW_HIDDEN_FRAMES 包含所有隐藏帧

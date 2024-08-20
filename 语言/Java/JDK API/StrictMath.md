@@ -6,7 +6,7 @@
 
 * `floorDiv`：小于或等于 $x\div y$ 代数商最大长度
 
-```run-java
+```java
 import static java.lang.StrictMath.floorDiv;
 
 void main(String[] args) {
@@ -20,7 +20,7 @@ void main(String[] args) {
 
 * `floorMod`：最小模数，$x-(floorDiv(x,y) * y)$  
 
-```run-java
+```java
 import static java.lang.StrictMath.floorMod;
   
 void main(String[] args) {
@@ -33,7 +33,7 @@ void main(String[] args) {
 
 * `fma`：IEEE 754-2008 `fusedMultiplyAdd`（$a\times b+c$）
 
-```run-java
+```java
 import static java.lang.StrictMath.fma;
 
 void main() {
@@ -44,7 +44,7 @@ void main() {
 
 * `multiplyExact`：乘
 
-```run-java
+```java
 void main() {
     System.out.println("Using StrictMath.multiplyExact(long, int):");
     System.out.printf("  multiplyExact(29087L, 7897979) = %d%n", StrictMath.multiplyExact(29087L, 7897979));
@@ -58,7 +58,7 @@ void main() {
 
 * `multiplyFull`：确切乘
 
-```run-java
+```java
 void main() {
     System.out.println("Using StrictMath.multiplyFull(int, int):");
     System.out.printf("  multiplyFull(29087, 7897979) = %d%n", StrictMath.multiplyFull(29087, 7897979));
@@ -67,7 +67,7 @@ void main() {
 
 * `multiplyHigh`：长度是两个 64 位参数的 128 位乘积的最高有效 64 位。当乘以两个 64 位长的值时，结果可能是 128 位值。因此，该方法返回 `significant (high)` 64 位。
 
-```run-java
+```java
 import static java.lang.StrictMath.multiplyHigh;
 
 void main() {

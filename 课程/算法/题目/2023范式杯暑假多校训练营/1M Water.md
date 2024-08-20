@@ -84,7 +84,7 @@ In the first example, Walk Alone will do the following operations:
 综上，使用 `exgcd` 计算出 $r_s, s_s$ 后，对附近的 $(r_s+kB,s_s-kA)$ 取最小值即可
 # 答案
 
-```c++
+```cpp
 #include <iostream>
 
 using namespace std;

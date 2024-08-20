@@ -4,7 +4,7 @@
 
 使用 `unique()` 函数可将重复元素集中放置到迭代器尾端，之后可通过 `erase` 方法去重或进行其他处理，位于 `algorithm` 头文件中
 
-```c++
+```cpp
 ForwardIt unique(ForwardIt first, ForwardIt last[, BinaryPredicate p]);
 ```
 
@@ -12,7 +12,7 @@ ForwardIt unique(ForwardIt first, ForwardIt last[, BinaryPredicate p]);
 - 不存在 p 时使用 `==` 运算符判断元素是否相等
 - 去重之前应当保证列表中的元素是有序的
 
-```c++
+```cpp
 int nums[] {0, 1, 1, 2, 2, 2, 3, 4, 5, 6, 6, 7, 8, 9};
 auto *p = unique(nums, nums + sizeof(nums) / sizeof(int));
 // 0 1 2 3 4 5 6 7 8 9 6 7 8 9
@@ -26,7 +26,7 @@ cout << "removed after " << pos;
 
 - 可方便使用该方法配合 `erase` 进行去重
 
-```c++
+```cpp
 vector<int> nums;
 nums.reserve(10);
 for (int i = 0; i < 10; ++i) {
@@ -51,7 +51,7 @@ for (const auto &item: nums) cout << ' ' << item;
 
 范围 `[first, last)` 必须已相对于表达式 `element < value` 或 `comp(element, value)` 划分，即所有令该表达式为 true 的元素必须在所有令该表达式为 false 的元素的前面。
 
-```c++
+```cpp
 ForwardIt lower_bound( ForwardIt first, ForwardIt last, const T& value);
 ForwardIt lower_bound( ForwardIt first, ForwardIt last, const T& value, Compare comp);
 ForwardIt upper_bound( ForwardIt first, ForwardIt last, const T& value);

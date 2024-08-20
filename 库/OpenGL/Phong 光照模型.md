@@ -173,7 +173,7 @@ uniform Material material;
 ```
 
 * 使用 `glGetUniformLocation("material.ambient")` 获取每个分量的 `location`
-* 不同材料的参数可以直接查询 [[OpenGL or VRML Materials]]，**注意反光度需要扩大 128 倍**
+* 不同材料的参数可以直接查询 [[../../_resources/documents/OpenGL/OpenGL or VRML Materials]]，**注意反光度需要扩大 128 倍**
 
 另一种表现材质的光照效果为光照贴图。当填充纹理时，采样的结果即当前点的颜色，可直接用于光照颜色。
 

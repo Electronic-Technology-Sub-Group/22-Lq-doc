@@ -33,7 +33,7 @@ DFU 库的序列化、反序列化指的是从普通 Java 数据对象与一类�
 
   * `Codec`：组合 `Encoder` 与 `Decoder`，具体实现在 `serialization.codecs` 包中并在 `Codec` 中留有快捷方式
 
-    * `RecordCodecBuilder`：这是最常用的 Codec，详见 [[DFU Codec#创建 Codec]]
+    * `RecordCodecBuilder`：这是最常用的 Codec，详见 [[Codec#创建 Codec]]
   * `MapCodec`：组合 `MapEncoder` 与 `MapDecoder`
 * 操作类：针对序列化目标对象的操作类
 

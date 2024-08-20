@@ -2,7 +2,7 @@
 
 针对不同地区格式化数字
 
-```run-java
+```java
 import static java.text.NumberFormat.Style;  
 import static java.text.NumberFormat.getCompactNumberInstance;  
 import static java.util.Locale.*;

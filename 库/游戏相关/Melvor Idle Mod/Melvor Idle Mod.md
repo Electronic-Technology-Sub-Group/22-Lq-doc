@@ -1,14 +1,3 @@
----
-_filters: []
-_contexts: []
-_links: []
-_sort:
-  field: rank
-  asc: false
-  group: false
-_template: ""
-_templateName: ""
----
 # 环境构建
 
 一个 Mod 至少含有以下两个文件：

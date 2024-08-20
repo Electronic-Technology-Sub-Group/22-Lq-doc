@@ -8,7 +8,7 @@
 3. 初始化 GLAD
 4. 显示窗口
 
-```c++
+```cpp
 #include <glad/glad.h>
 #include <GLFW/glfw3.h>
 
@@ -47,7 +47,7 @@ int main() {
 
 创建窗口后，还需要绑定必要的 GLFW 窗口事件回调。
 
-```c++
+```cpp
 // 窗口初始化完成
 // 绑定窗口事件
 glfwSetFramebufferSizeCallback(window_, [](GLFWwindow*, const int width, const int height)
@@ -80,7 +80,7 @@ glfwSetFramebufferSizeCallback(window_, [](GLFWwindow*, const int width, const i
 
 我们通过将颜色缓冲区的颜色清空成一个纯色，使窗口显示一个纯色的背景。
 
-```c++
+```cpp
 // 窗口事件绑定完成
 // 窗口绘制循环
 while (!glfwWindowShouldClose(window))
@@ -100,7 +100,7 @@ glfwTerminate();
 ```
 # 窗口销毁
 
-```c++
+```cpp
 // 销毁 GLFW 窗口
 glfwDestroyWindow(window);
 // 结束 GLFW

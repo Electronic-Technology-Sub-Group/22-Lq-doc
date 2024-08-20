@@ -6,7 +6,7 @@
 
 # sort
 
-```c++
+```cpp
 void sort(RandomIt first, RandomIt last[, Compare comp]);
 ```
 
@@ -16,7 +16,7 @@ void sort(RandomIt first, RandomIt last[, Compare comp]);
 
 # nth_element
 
-```c++
+```cpp
 void sort(RandomIt first, RandomIt middle, RandomIt last[, Compare comp]);
 ```
 
@@ -28,7 +28,7 @@ void sort(RandomIt first, RandomIt middle, RandomIt last[, Compare comp]);
 
 # stable_sort
 
-```c++
+```cpp
 void stable_sort(RandomIt first, RandomIt last[, Compare comp]);
 ```
 
@@ -38,7 +38,7 @@ void stable_sort(RandomIt first, RandomIt last[, Compare comp]);
 
 # partial_sort
 
-```c++
+```cpp
 void partial_sort(RandomIt first, RandomIt middle, RandomIt last[, Compare comp]);
 ```
 

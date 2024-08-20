@@ -71,7 +71,7 @@ Special Judge, 64bit IO Format: %lld
 5. 重复 2-4，直到不再需要调整即可
 # 答案
 
-```c++
+```cpp
 #include <iostream>
 
 using namespace std;

@@ -1,6 +1,6 @@
 ​`Result<T, E>​` 是一个枚举，包含 `Ok`​ 和 `Err`​ 两个值。
 
-```run-rust
+```rust
 use std::fs::File;
 
 fn main() {
@@ -15,7 +15,7 @@ fn main() {
 
 ​`Result`​ 存在一系列简写方法: `unwarp`​ 系列方法和 `expect`​ 方法，`expect`​ 允许自定义错误信息
 
-```run-rust
+```rust
 use std::fs::File;
 
 fn main() {

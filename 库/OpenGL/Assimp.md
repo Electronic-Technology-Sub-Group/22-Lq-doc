@@ -11,7 +11,7 @@ Assimp 解析后的模型结构如下：
 
 使用 NuGet 添加依赖，或从 [assimp/assimp: The official Open-Asset-Importer-Library Repository (github.com)](https://github.com/assimp/assimp) 下载，解压后将 `include` 目录加入头文件，并添加 assimp 作为依赖。
 
-```c++
+```cpp
 Assimp::Importer importer;
 
 // 加载模型

@@ -4,15 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "f3db10d998d024ab",
+        "id": "3b027a4c9310b74b",
         "type": "tabs",
         "children": [
           {
-            "id": "a8ced22a7f72fdb3",
+            "id": "d345534671db51c4",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "库/JS与CSS库/Vue3/Vue3.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
             }
           }
         ]
@@ -44,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#未完成",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -73,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240.51103591918945
+    "width": 259.51103591918945
   },
   "right": {
     "id": "2f5d582e60864eba",
@@ -89,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "任务.md",
+                "file": "库/JS与CSS库/Vue3/Vue3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "任务.md",
+                "file": "库/JS与CSS库/Vue3/Vue3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -129,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "任务.md"
+                "file": "库/JS与CSS库/Vue3/Vue3.md"
               }
             }
           },
@@ -170,7 +175,7 @@
             }
           },
           {
-            "id": "412e5b1871a69c5a",
+            "id": "67db8a2767b56420",
             "type": "leaf",
             "state": {
               "type": "todo",
@@ -182,15 +187,14 @@
       }
     ],
     "direction": "horizontal",
-    "width": 279.5
+    "width": 276.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "3d-graph-new:Global 3D Graph": false,
       "switcher:打开快速切换": true,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
-      "daily-notes:打开/创建今天的日记": true,
       "templates:插入模板": true,
       "command-palette:打开命令面板": true,
       "workspaces:管理工作区布局": false,
@@ -201,61 +205,64 @@
       "sheet-plus:创建 Excel 文件": true,
       "templater-obsidian:Templater": false,
       "obsidian-spaced-repetition:复习卡片": false,
-      "obsidian-gallery:Gallery": false,
       "homepage:Open homepage": true,
       "obsidian-projects:打开项目": false,
-      "terminal:Open terminal": false
+      "terminal:Open terminal": false,
+      "notion-like-tables:Create loom": false,
+      "media-extended:Open media": false,
+      "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "da0ea89a9f61f80f",
+  "active": "d345534671db51c4",
   "lastOpenFiles": [
-    "库/JS与CSS库/JS与CSS库.md",
-    "工具/Obsidian/Plugins/Dataview/元数据查询/表达式.md",
-    "任务.md",
-    "语言/CSS/CSS/CSS.md",
-    "语言/CSS/元素/clip.md",
-    "库/游戏相关/Minecraft Java Mod/DataUpperFixer/kinds/Functor 与 Kind/Representable.md",
-    "语言/Java/Java.md",
-    "库/Java 库/Java 库.md",
-    "语言/Java/jakarta/JSR330 依赖注入.md",
-    "语言/Java/jakarta/jakarta.md",
-    "语言/Java/JDK API/Http Client.md",
-    "库/库.md",
-    "库/OpenGL/GLSL.md",
-    "库/OpenGL/OpenGL.md",
-    "OpenGL 高级 GLSL.md",
-    "库/Java 库/Thymeleaf/Thymeleaf.md",
-    "库/Java 库/Thymeleaf/标准表达式语法/使用变量/使用变量.md",
-    "库/Java 库/Spring/Spring Security 保护应用程序/ACL 模块保护域对象安全性/ACL 模块保护域对象安全性.md",
-    "库/Java 库/Spring/Java 容器配置/路径扫描与组件索引.md",
-    "库/Java 库/Spring/注解驱动开发/注解驱动开发.md",
-    "工具/工具.md",
-    "语言/CSS/Less/Less.md",
-    "assets/Pasted.md",
-    "工具/Maven.md",
-    "工具/素材提取工具.md",
-    "标准/CommonJS.md",
-    "库/Java 库",
-    "库/C Cpp 库",
-    "库/游戏相关",
-    "库/JS与CSS库",
-    "库/Python 库",
-    "_resources/documents/quaternion-20240513152037-r0s44gn.pdf",
-    "assets",
-    "_resources/images/image-20240702132401-poea4cb.png",
-    "库/JS与CSS库/Vue3/组件/组件通信/自定义事件/中央事件总线 mitt",
-    "课程/函数式编程基础/容器/Applicative functor",
-    "库/Java 库/Thymeleaf/标准表达式语法/片段/参数化片段",
-    "_resources/images/Pasted image 20230318160313.png",
-    "_resources/images/Pasted image 20230318154014.png",
-    "_resources/images/Pasted image 20230318093949.png",
-    "_resources/images/Pasted image 20230124170737.png",
-    "_resources/images/Pasted image 20230124163541.png",
-    "_resources/images/Pasted image 20230124153755.png",
-    "_resources/images/Pasted image 20230123234522.png",
-    "_resources/images/Pasted image 20230123234520.png",
-    "_resources/images/Pasted image 20230123233634.png",
+    "库/JS与CSS库/art-template.md",
+    "库/JS与CSS库/Swiper.md",
+    "库/JS与CSS库/mysql2.md",
+    "库/JS与CSS库/JWT 相关.md",
+    "库/JS与CSS库/jQuery.md",
+    "库/JS与CSS库/flexible.js.md",
+    "库/JS与CSS库/Express.md",
+    "库/JS与CSS库/ECharts.md",
+    "库/JS与CSS库/Bootstrap.md",
+    "库/JS与CSS库/Bootstrap/情景样式.md",
+    "库/JS与CSS库/Bootstrap/Bootstrap.md",
+    "库/JS与CSS库/Bootstrap/组件.md",
+    "库/JS与CSS库/Bootstrap/全局样式.md",
+    "库/JS与CSS库/Bootstrap/_pages/过渡动画.md",
+    "库/JS与CSS库/Bootstrap/栅格系统.md",
+    "_resources/excalidraw/JVM 字节码 2024-08-01 17.59.13.excalidraw.md",
+    "_resources/excalidraw/javac 编译过程 2024-08-02 08.12.39.excalidraw.md",
+    "_resources/excalidraw/Docker Swarm 2024-08-06 23.02.18.excalidraw.md",
+    "_resources/excalidraw/cglib 2024-08-02 23.21.58.excalidraw.md",
+    "_resources/excalidraw/网络模式 2024-08-06 22.32.32.excalidraw.md",
+    "_resources/excalidraw/日志管理 2024-08-06 22.44.41.excalidraw.md",
+    "_resources/excalidraw/全链路分布式跟踪与 APM 2024-08-03 15.26.57.excalidraw.md",
+    "_resources/excalidraw/常量池 2024-08-01 14.04.58.excalidraw.md",
+    "_resources/excalidraw/插件化注解 2024-08-02 22.25.55.excalidraw.md",
+    "_resources/images/image-20240522174936-kn4rtwu.png",
+    "_resources/images/image-20240428150907-8fju816.png",
+    "_resources/images/image-20240312204115-gzecl31.png",
+    "_resources/images/components-20240311173710-o6zuhj3.png",
+    "_resources/images/image-20240523162854-qaifng8.png",
+    "_resources/images/images.md",
+    "_resources/images/image-20240523154533-c7u297t.png",
+    "_resources/images/image-20240523135040-85v76sg.png",
+    "_resources/images/image-20240522145942-n5rqwtz.png",
+    "_resources/images/image-20240522145801-svvdgmz.png",
+    "_resources/images/image-20240522124907-f157u2g.png",
+    "库/JS与CSS库/Bootstrap/引入.md",
+    "工具/Linux/系统组件",
+    "工具/OpenWrt",
+    "_resources/images/video2.mp4",
+    "_resources/documents/C++",
+    "_resources/documents/quaternion.pdf",
+    "_resources/documents/quaternion.pdf",
+    "_resources/documents/OpenGL",
+    "_resources/documents/HTML",
+    "语言/CSS/CSS/选择器",
+    "语言/CSS/CSS/布局",
     "语言/C Cpp/C++更新图.canvas",
+    "语言/C Cpp/C++ 语法/C++ 语法.canvas",
     "语言/Class 字节码/Untitled.canvas",
     "_resources/canvas/未命名.canvas"
   ]

@@ -1,22 +1,37 @@
 {
-  "collapse-filter": true,
+  "collapse-filter": false,
   "search": "",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": true,
-  "colorGroups": [],
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "[\"语法类型\":根",
+      "color": {
+        "a": 1,
+        "rgb": 16711680
+      }
+    },
+    {
+      "query": "[\"语法类型\":",
+      "color": {
+        "a": 1,
+        "rgb": 16689577
+      }
+    }
+  ],
   "collapse-display": true,
   "showArrow": false,
-  "textFadeMultiplier": 0,
-  "nodeSizeMultiplier": 1,
+  "textFadeMultiplier": -1.3,
+  "nodeSizeMultiplier": 1.12072727272727,
   "lineSizeMultiplier": 1,
   "collapse-forces": true,
-  "centerStrength": 0.518713248970312,
-  "repelStrength": 10,
+  "centerStrength": 0.540779220779221,
+  "repelStrength": 9.67569573283859,
   "linkStrength": 1,
-  "linkDistance": 250,
-  "scale": 0.2588386562181647,
-  "close": false
+  "linkDistance": 152,
+  "scale": 0.4307576878569384,
+  "close": true
 }

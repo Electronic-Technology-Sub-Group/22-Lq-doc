@@ -117,5 +117,4 @@ declare var foo: number
 declare function greet(greeing: string): void
 ```
 
-# 库结构
-#未完成 
+- [ ] # 库结构

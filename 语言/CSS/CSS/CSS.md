@@ -1,8 +1,10 @@
+---
+语言: css
+语法类型: 根
+---
 Cascading Style Sheets，层叠样式表，负责网页的样式，
 
 # 引入
-
-CSS 需要引入到[[HTML]]中才会产生效果，引入方式通常分为：
 
 - 外联式：通过 `<link>` 标签，引入单独的 css 文件
 
@@ -10,17 +12,14 @@ CSS 需要引入到[[HTML]]中才会产生效果，引入方式通常分为：
 <link rel="stylesheet" href="*.css*">
 ```
 
-![[link]]
-
-- 内嵌式：使用 `<style>` 标签，在标签内直接写 CSS 样式。通常位于 `<head>` 标签中。
+- 内嵌式：在 `<style>` 标签内直接写 CSS，常位于 `<head>` 中。
+	- type：默认 `text/css`，样式表 MIME 类型
 
 ```HTML
 <style>
     /* 在这里写 CSS 代码 */
 </style>
 ```
-
-![[style]]
 
 - 行内式：直接写在标签的 `style` 属性中
 
@@ -34,6 +33,8 @@ CSS 需要引入到[[HTML]]中才会产生效果，引入方式通常分为：
 
 CSS 样式中使用 `选择器 { 属性: 值; }` 的形式
 
+`````col
+````col-md
 ```CSS
 选择器 {
     属性1: 值1;
@@ -41,21 +42,19 @@ CSS 样式中使用 `选择器 { 属性: 值; }` 的形式
     属性3: 值3;
 }
 ```
-
-- [[选择器]]：用于选择要修饰的标签
-- 属性：用于调整样式，主要包括：
-	- CSS基础入门：[[CSS/文本样式]]，[[颜色与背景]]，[[显示模式，浮动与定位]]，[[盒模型]]，[[修饰]]
-	- 移动 Web 开发：[[动画与变换]]，[[弹性布局]]，[[移动适配]]，[[响应式布局]]
-	- [[Tips|一些通用的技巧、模板等]]
-	- CSS 扩展语言：[[Less]]，[[SASS]]
-
-例如：
-
+````
+````col-md
 ```CSS
 p {
   color: red;
 }
 ```
+````
+`````
+- [[选择器/选择器|选择器]]：选择要修饰的内容
+- 属性：用于调整样式
+	- 通用：[[文本/文本|文本]]，[[背景]]，[[盒模型]]，[[布局/浮动|浮动]]，[[布局/定位|定位]]，[[剪裁]]，[[修饰]]，[[动画/动画|动画]]，[[变换]]
+	- 移动端：[[布局/弹性布局|弹性布局]]，[[移动适配]]，[[布局/响应式布局|响应式布局]]
 
 ## 注释
 
@@ -65,10 +64,20 @@ CSS 中，使用 `/* ... */` 的形式作为注释
 /* 这是注释 */
 ```
 
+## 复合属性
+
+CSS 某些属性集成一类属性的功能，可以使用一个属性设置多个属性的参数。
+
+> [!note] 复合属性中的每个子属性可以单独拿出来作为一个属性使用
+
+通常复合属性各参数之间没有顺序关系，但有些属性值类型相同或有重合，会规定顺序以免引起歧义
+
+大多数复合属性的子属性是可以省略的
+
 ## 特性
 
 - 继承性：父元素的某些属性会自动在子元素上生效。大部分控制文字渲染行为的可继承，而控制标签的属性不可继承
-	- `color`，`font` 系列， text-indent，text-align， line-height 都可以继承
+	- `color`，`font` 系列， `text-indent`，`text-align`， `line-height` 都可以继承
 	- `<a>` 标签会覆盖 `color` 属性
 	- `<h1>`，`<h2>`，`<h3>` 等会覆盖 `font-size` 属性
 	- 可手动指定 `inherit` 属性应用继承
@@ -80,10 +89,20 @@ CSS 中，使用 `/* ... */` 的形式作为注释
 ## 导入
 
 可以通过 `@import` 向当前 CSS 导入其他 CSS 文件，但该语句必须在其他语句之前
+- `@import CSS地址;`
+- `@import url(CSS地址);`
 
-![[@import]]
-
-# 其他相关语言
+# 方言
 
 - [[Less]]
-- [[SASS]]
+- [ ] ⏬ [[SASS]]
+# 参考
+
+```cardlink
+url: https://developer.mozilla.org/zh-CN/
+title: "MDN Web Docs"
+description: "The MDN Web Docs site provides information about Open Web technologies including HTML, CSS, and APIs for both Web sites and progressive web apps."
+host: developer.mozilla.org
+favicon: https://developer.mozilla.org/favicon-48x48.cbbd161b.png
+image: https://developer.mozilla.org/mdn-social-share.cd6c4a5a.png
+```

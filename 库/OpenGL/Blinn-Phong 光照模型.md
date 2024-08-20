@@ -32,7 +32,7 @@ flexGrow=1
 ```
 ````
 
-```c++
+```cpp
 lightDir = normalize(lightPos - vFrogPos);
 viewDir = normalize(viewPos - vFrogPos);
 // Blinn-Phong 模型

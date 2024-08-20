@@ -14,7 +14,38 @@
   "leftRibbon": [],
   "rightRibbon": [],
   "titleBar": [],
-  "statusBar": [],
+  "statusBar": [
+    {
+      "id": "tabs:convert-to-tabs",
+      "icon": "book",
+      "name": "将选中文本转换转换为标签",
+      "mode": "any"
+    },
+    {
+      "id": "obsidian-columns:insert-column-wrapper",
+      "icon": "bar-chart-2",
+      "name": "多列",
+      "mode": "any"
+    },
+    {
+      "id": "note-composer:split-file",
+      "icon": "lucide-scissors",
+      "name": "笔记重组: 将当前选中内容移动到其他文件中",
+      "mode": "any"
+    },
+    {
+      "id": "workspace:toggle-pin",
+      "icon": "lucide-pin",
+      "name": "解锁/锁定",
+      "mode": "any"
+    },
+    {
+      "id": "file-explorer:new-file",
+      "icon": "lucide-file-plus",
+      "name": "新建笔记",
+      "mode": "any"
+    }
+  ],
   "pageHeader": [],
   "macros": [],
   "explorer": [],

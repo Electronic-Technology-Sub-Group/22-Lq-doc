@@ -8,7 +8,7 @@
 |SnippetEvent| `JShell#eval` |一次执行事件|
 |Snippet| `SnippetEvent#snippet` |一个代码片段|
 
-```run-java
+```java
 import jdk.jshell.*;
 
 void main() {

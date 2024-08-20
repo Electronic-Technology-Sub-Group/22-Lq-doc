@@ -1,4 +1,0 @@
-- row：默认，水平，自左向右
-- row-reverse：水平，自右向左
-- column：垂直，自上而下
-- column-reverse：垂直，自下而上

@@ -872,13 +872,16 @@ type Lang = "en" | "zh"
 type LocaleMessageIds = `${Lang}_${AllLocaleIds}`
 ```
 
-#未完成 
-[模板字面类型 - TypeScript 中文文档 (nodejs.cn)](https://nodejs.cn/typescript/handbook/template-literal-types/#)
+```cardlink
+url: https://nodejs.cn/typescript/handbook/template-literal-types/#
+title: "模板字面类型 - TypeScript 中文文档"
+host: nodejs.cn
+favicon: https://img.nodejs.cn/logo/typescript.png
+```
 
 # 类
 
 TypeScript 支持 ES2015 的 `class` 关键字
-#未完成 
 
 # 模块
 

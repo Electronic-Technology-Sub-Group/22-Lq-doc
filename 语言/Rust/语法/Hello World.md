@@ -1,4 +1,4 @@
-```run-rust
+```rust
 // Rust 程序入口函数
 fn main() {
     let a = 10;
@@ -25,7 +25,7 @@ fn add(i: i32, j: i32) -> i32 {
 
 运行时的参数可以通过 env​​ 包获取
 
-```run-rust
+```rust
 use std::env;  
   
 fn main() {  

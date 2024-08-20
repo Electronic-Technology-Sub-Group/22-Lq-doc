@@ -301,7 +301,7 @@
       "codeblock": {
         "lineNumbers": true,
         "unwrapLines": true,
-        "wrapLinesActive": true,
+        "wrapLinesActive": false,
         "curvature": 4
       },
       "gutter": {
@@ -386,8 +386,9 @@
           "activeEditorLineColour": "--color-base-20",
           "defaultColour": "--text-highlight-bg",
           "alternativeHighlights": {
-            "error": "#72983EFF",
-            "warning": "#90ACCEFF"
+            "error": "#E02525",
+            "info": "#01E211",
+            "warn": "#FCFC99"
           }
         },
         "inline": {
@@ -433,7 +434,8 @@
           "defaultColour": "--text-highlight-bg",
           "alternativeHighlights": {
             "error": "#ED481A",
-            "warning": "#EBDE45"
+            "info": "#E28301FF",
+            "warn": "#348E5FFF"
           }
         },
         "inline": {

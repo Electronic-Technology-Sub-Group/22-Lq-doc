@@ -10,7 +10,7 @@
 | 收集器         | `flatMapping` | 扁平化元素                                                |
 |             |               |                                                      |
 
-```run-java
+```java
 void main() {  
     System.out.println("--- Stream.dropWhile");  
     Stream.of(0, 1, 2, 3, 4, 5, 6, 7, 8, 9)  

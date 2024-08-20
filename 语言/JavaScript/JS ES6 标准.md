@@ -93,9 +93,8 @@ export * as otherIdentifier from 'emmmm' // ES2020 后支持
 ```
 
 ## 继承
-#未完成 
 
-模块之间允许继承
+- [ ] 模块之间允许继承
 
 ## 动态加载
 
@@ -152,4 +151,5 @@ thenFs.loadFile('/file1', 'utf-8')
 - `race` 方法会在任意一个 `Promise` 结束时调用 `then` 回调处理
 
 # class
-#未完成 
+
+- [ ] class

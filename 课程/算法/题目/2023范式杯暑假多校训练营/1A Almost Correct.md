@@ -74,7 +74,7 @@ Special Judge, 64bit IO Format: %lld
 - 将 r 与 $[n,r)$ 倒序比较
 # 答案
 
-```c++
+```cpp
 #include <iostream>
 #include <vector>
 

@@ -2,7 +2,7 @@
 
 c++ `cin` 和 `cout` 非常方便，但效率偏低，主要是因为 c++ 为了兼容 `stdio` 将其输入输出流绑定到了一起。可通过以下方法取消绑定
 
-```c++
+```cpp
 std::ios::sync_with_stdio(false);
 ```
 
@@ -12,7 +12,7 @@ std::ios::sync_with_stdio(false);
 
 c++ 将 `cin` 和 `cout` 也绑定到了一起，每次执行 `cout` 的 `<<` 运算符后都会清空一次缓冲区，在需要短时间多次输出大量数据时也会造成一定的 IO 压力，可使用 `tie` 方法解绑。
 
-```c++
+```cpp
 cin.tie(0);
 ```
 

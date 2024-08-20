@@ -22,8 +22,6 @@ Babel 需要 npm 环境，安装到项目目录下即可，无需安装到全局
 	- `babel-cli`：命令行工具
 	- `babel-register`：用于转义 `require` 引用的 JS 文件
 
-在使用 Babel 前，我们需要先[[配置 Babel]]，之后再[[调用 Babel]]。
-
 # 配置
 
 配置内容可以包含在 `package.json` 中，但更常见的是在项目中创建一个名为 `.babelrc` 的文件，之后再向内添加配置内容，配置文件的格式是 `json` 格式
