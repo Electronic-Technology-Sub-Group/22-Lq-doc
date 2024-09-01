@@ -76,11 +76,15 @@ CSS 某些属性集成一类属性的功能，可以使用一个属性设置多�
 
 ## 特性
 
-- 继承性：父元素的某些属性会自动在子元素上生效。大部分控制文字渲染行为的可继承，而控制标签的属性不可继承
+
+- 继承性：父元素的某些属性会自动在子元素上生效。
 	- `color`，`font` 系列， `text-indent`，`text-align`， `line-height` 都可以继承
 	- `<a>` 标签会覆盖 `color` 属性
 	- `<h1>`，`<h2>`，`<h3>` 等会覆盖 `font-size` 属性
 	- 可手动指定 `inherit` 属性应用继承
+
+> [!note] 大部分控制文字渲染行为的可继承，而控制标签的属性不可继承
+
 - 层叠性：对于不同位置为标签设置的样式，样式会层叠叠加到标签上
 	- 当多个样式不冲突时，会自动整合到标签上
 	- 当多个样式冲突时，后设置的属性会覆盖前面的属性
@@ -92,7 +96,15 @@ CSS 某些属性集成一类属性的功能，可以使用一个属性设置多�
 - `@import CSS地址;`
 - `@import url(CSS地址);`
 
-# 方言
+# 书写顺序
+
+一个书写习惯，按一下顺序写会提高渲染速度（???）
+- 浮动 / display
+- 布局定位相关：position，clear，float，visibility，overflow 等
+- 盒子模型，margin，border，padding，宽高，背景色
+- 文字样式
+- 其他 CSS 属性：content，cursor，border-radius，box-shader，text-shader 等
+
 
 - [[Less]]
 - [ ] ⏬ [[SASS]]

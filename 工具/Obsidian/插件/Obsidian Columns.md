@@ -1,3 +1,6 @@
+---
+icon: SiObsidian
+---
 Obsidian 多列显示插件，有三种设置语法
 # 标注
 

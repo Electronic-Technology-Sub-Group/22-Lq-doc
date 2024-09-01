@@ -11,8 +11,6 @@
 - neoforge: Neoforge 平台代码
 ```
 
-
-
 `common` 模块中，使用 `@ExpectPlatform` 注解标记的 `static` 方法 Architectury 会自动查找具体平台实现。
 
 对应平台目录中，至少需要包含以下内容：

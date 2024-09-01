@@ -1,3 +1,6 @@
+---
+icon: SiGradle
+---
 ShadowJar 是一个辅助 java/groovy 打包设置的 Gradle 插件，可以方便的控制 `jar` 任务打包时的行为，常用于以下情况：
 - 创建可执行的 Jar 包
 	- 包含所有依赖

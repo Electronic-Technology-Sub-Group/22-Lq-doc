@@ -360,9 +360,9 @@ file: "@/_resources/codes/node.js/webpack/loaders/index.html"
 ```
 # 插件
 
-插件 `Plugins` ​ 可实现自定义的 `webpack` ​ 功能，类似 loader​，在  `module.rules.use` ​ 中传入对应的 `loader` ​ 对象。
+插件 `Plugins`  可实现自定义的 `webpack`  功能，类似 loader，在  `module.rules.use`  中传入对应的 `loader`  对象。
 
-某些插件需要在 `exports.plugins` ​ 内配置插件设置，以 `MiniCssExtractPlugin` ​ 为例：
+某些插件需要在 `exports.plugins`  内配置插件设置，以 `MiniCssExtractPlugin`  为例：
 
 ```js
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
@@ -382,7 +382,7 @@ module.exports {
 ```
 ## 例：生成 common.css
 
-利用 `MiniCssExtractPlugin` ​ 插件将各目录下 CSS 文件收集合并成 `common.css` ​
+利用 `MiniCssExtractPlugin`  插件将各目录下 CSS 文件收集合并成 `common.css` 
 
 1. 安装加载器和插件
 
@@ -406,13 +406,13 @@ file: "@/_resources/codes/node.js/webpack/plugins/src/style.css"
 file: "@/_resources/codes/node.js/webpack/plugins/src/main.js"
 ```
 
-4. 创建配置文件 `webpack.config.js` ​ 并构建生成 `bundle.js` ​
+4. 创建配置文件 `webpack.config.js`  并构建生成 `bundle.js` 
 
 ```reference title:webpack.config.js fold
 file: "@/_resources/codes/node.js/webpack/plugins/webpack.config.js"
 ```
 
-5. 创建 `index.html` ​
+5. 创建 `index.html` 
 
 ```reference title:index.html fold
 file: "@/_resources/codes/node.js/webpack/plugins/index.html"

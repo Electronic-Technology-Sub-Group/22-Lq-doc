@@ -1,10 +1,10 @@
-执行器负责管理和调用 `Future` ​。
+执行器负责管理和调用 `Future` 。
 
-一般来说，执行器会轮询一次所有的 `Future` ​，调用他们的 `poll()` ​ 函数，之后等待任务调用 `waker()` ​ 方法唤醒轮询器，轮询器才继续调用 `poll()` ​。
+一般来说，执行器会轮询一次所有的 `Future` ，调用他们的 `poll()`  函数，之后等待任务调用 `waker()`  方法唤醒轮询器，轮询器才继续调用 `poll()` 。
 
-下面使用消息队列实现一个简单的 `Executor` ​：
+下面使用消息队列实现一个简单的 `Executor` ：
 
-1. 创建任务结构体 `Task` ​。任务实现 `ArcWake` ​ 使自身成为一个 `Waker` ​
+1. 创建任务结构体 `Task` 。任务实现 `ArcWake`  使自身成为一个 `Waker` 
 
 ```rust
 struct Task {
@@ -22,7 +22,7 @@ impl ArcWake for Task {
 }
 ```
 
-2. 创建一个 `Executor` ​ 和 `Spawner` ​。执行器负责从消息通道中拉取事件。任务就绪时从消息通道中取出任务并执行。
+2. 创建一个 `Executor`  和 `Spawner` 。执行器负责从消息通道中拉取事件。任务就绪时从消息通道中取出任务并执行。
 
 ```rust
 struct Executor {
@@ -72,7 +72,7 @@ fn new_executor_and_spawner() -> (Executor, Spawner) {
 }
 ```
 
-3. 在 `main` ​ 中执行
+3. 在 `main`  中执行
 
 ```rust
 fn main() {

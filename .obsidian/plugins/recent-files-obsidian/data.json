@@ -1,204 +1,200 @@
 {
   "recentFiles": [
     {
-      "basename": "Vue3",
-      "path": "库/JS与CSS库/Vue3/Vue3.md"
+      "basename": "KDE 安装",
+      "path": "工具/Linux/Arch/KDE 安装.md"
     },
     {
-      "basename": "art-template",
-      "path": "库/JS与CSS库/art-template.md"
+      "basename": "Arch 安装",
+      "path": "工具/Linux/Arch/Arch 安装.md"
     },
     {
-      "basename": "Swiper",
-      "path": "库/JS与CSS库/Swiper.md"
+      "basename": "任务",
+      "path": "任务.md"
     },
     {
-      "basename": "mysql2",
-      "path": "库/JS与CSS库/mysql2.md"
+      "basename": "Nvidia 驱动",
+      "path": "工具/Linux/Arch/Nvidia 驱动.md"
     },
     {
-      "basename": "JWT 相关",
-      "path": "库/JS与CSS库/JWT 相关.md"
+      "basename": "Network Manager 配置",
+      "path": "工具/Linux/Arch/Network Manager 配置.md"
     },
     {
-      "basename": "jQuery",
-      "path": "库/JS与CSS库/jQuery.md"
+      "basename": "权限管理",
+      "path": "工具/Linux/bash/权限管理.md"
     },
     {
-      "basename": "flexible.js",
-      "path": "库/JS与CSS库/flexible.js.md"
+      "basename": "系统管理",
+      "path": "工具/Linux/bash/系统管理.md"
     },
     {
-      "basename": "Express",
-      "path": "库/JS与CSS库/Express.md"
+      "basename": "文件系统",
+      "path": "工具/Linux/bash/文件系统.md"
     },
     {
-      "basename": "ECharts",
-      "path": "库/JS与CSS库/ECharts.md"
+      "basename": "文件读写",
+      "path": "工具/Linux/bash/文件读写.md"
     },
     {
-      "basename": "Bootstrap",
-      "path": "库/JS与CSS库/Bootstrap.md"
+      "basename": "网络相关",
+      "path": "工具/Linux/bash/网络相关.md"
     },
     {
-      "basename": "JVM 字节码 2024-08-01 17.59.13.excalidraw",
-      "path": "_resources/excalidraw/JVM 字节码 2024-08-01 17.59.13.excalidraw.md"
+      "basename": "Union File System",
+      "path": "工具/Linux/系统组件/Union File System.md"
     },
     {
-      "basename": "javac 编译过程 2024-08-02 08.12.39.excalidraw",
-      "path": "_resources/excalidraw/javac 编译过程 2024-08-02 08.12.39.excalidraw.md"
+      "basename": "Namespace",
+      "path": "工具/Linux/系统组件/Namespace.md"
     },
     {
-      "basename": "Docker Swarm 2024-08-06 23.02.18.excalidraw",
-      "path": "_resources/excalidraw/Docker Swarm 2024-08-06 23.02.18.excalidraw.md"
+      "basename": "Cgroups",
+      "path": "工具/Linux/系统组件/Cgroups.md"
     },
     {
-      "basename": "cglib 2024-08-02 23.21.58.excalidraw",
-      "path": "_resources/excalidraw/cglib 2024-08-02 23.21.58.excalidraw.md"
+      "basename": "sudo 配置",
+      "path": "工具/Linux/sudo 配置.md"
     },
     {
-      "basename": "网络模式 2024-08-06 22.32.32.excalidraw",
-      "path": "_resources/excalidraw/网络模式 2024-08-06 22.32.32.excalidraw.md"
+      "basename": "Alibaba Cloud Linux 安装 MySql",
+      "path": "工具/Linux/Alibaba Cloud Linux 安装 MySql.md"
     },
     {
-      "basename": "日志管理 2024-08-06 22.44.41.excalidraw",
-      "path": "_resources/excalidraw/日志管理 2024-08-06 22.44.41.excalidraw.md"
+      "basename": "平板电脑安装Ubuntu教程",
+      "path": "工具/Linux/Debian 系/平板电脑安装Ubuntu教程.md"
     },
     {
-      "basename": "全链路分布式跟踪与 APM 2024-08-03 15.26.57.excalidraw",
-      "path": "_resources/excalidraw/全链路分布式跟踪与 APM 2024-08-03 15.26.57.excalidraw.md"
+      "basename": "systemd",
+      "path": "工具/Linux/自动执行/systemd.md"
     },
     {
-      "basename": "常量池 2024-08-01 14.04.58.excalidraw",
-      "path": "_resources/excalidraw/常量池 2024-08-01 14.04.58.excalidraw.md"
+      "basename": "sh 文件无法运行",
+      "path": "工具/Linux/sh 文件无法运行.md"
     },
     {
-      "basename": "插件化注解 2024-08-02 22.25.55.excalidraw",
-      "path": "_resources/excalidraw/插件化注解 2024-08-02 22.25.55.excalidraw.md"
+      "basename": "自动执行",
+      "path": "工具/Linux/自动执行/自动执行.md"
     },
     {
-      "basename": "image-20240522174936-kn4rtwu",
-      "path": "_resources/images/image-20240522174936-kn4rtwu.png"
+      "basename": "Linux",
+      "path": "工具/Linux/Linux.md"
     },
     {
-      "basename": "image-20240428150907-8fju816",
-      "path": "_resources/images/image-20240428150907-8fju816.png"
+      "basename": "ZeroTier 内网穿透",
+      "path": "工具/Linux/OpenWrt/ZeroTier 内网穿透.md"
     },
     {
-      "basename": "image-20240312204115-gzecl31",
-      "path": "_resources/images/image-20240312204115-gzecl31.png"
+      "basename": "网络唤醒",
+      "path": "工具/Linux/OpenWrt/网络唤醒.md"
     },
     {
-      "basename": "components-20240311173710-o6zuhj3",
-      "path": "_resources/images/components-20240311173710-o6zuhj3.png"
+      "basename": "网络唤醒",
+      "path": "工具/Windows/网络唤醒.md"
     },
     {
-      "basename": "image-20240523162854-qaifng8",
-      "path": "_resources/images/image-20240523162854-qaifng8.png"
+      "basename": "为了对电脑进行保护，已经阻止此应用",
+      "path": "工具/Windows/为了对电脑进行保护，已经阻止此应用.md"
     },
     {
-      "basename": "image-20240523154533-c7u297t",
-      "path": "_resources/images/image-20240523154533-c7u297t.png"
+      "basename": "跳过 Win11 安装联网",
+      "path": "工具/Windows/跳过 Win11 安装联网.md"
     },
     {
-      "basename": "image-20240523135040-85v76sg",
-      "path": "_resources/images/image-20240523135040-85v76sg.png"
+      "basename": "管理工具",
+      "path": "工具/MySQL 8.0/管理工具.md"
     },
     {
-      "basename": "image-20240522145942-n5rqwtz",
-      "path": "_resources/images/image-20240522145942-n5rqwtz.png"
+      "basename": "事务原理",
+      "path": "工具/MySQL 8.0/InnoDB/事务原理.md"
     },
     {
-      "basename": "image-20240522145801-svvdgmz",
-      "path": "_resources/images/image-20240522145801-svvdgmz.png"
+      "basename": "多版本并发控制",
+      "path": "工具/MySQL 8.0/InnoDB/多版本并发控制.md"
     },
     {
-      "basename": "image-20240522124907-f157u2g",
-      "path": "_resources/images/image-20240522124907-f157u2g.png"
+      "basename": "权限控制",
+      "path": "工具/MySQL 8.0/权限控制.md"
     },
     {
-      "basename": "image-20240521165129-iuzmhgm",
-      "path": "_resources/images/image-20240521165129-iuzmhgm.png"
+      "basename": "存储引擎",
+      "path": "工具/MySQL 8.0/存储引擎.md"
     },
     {
-      "basename": "image-20240521153840-npwpols",
-      "path": "_resources/images/image-20240521153840-npwpols.png"
+      "basename": "架构",
+      "path": "工具/MySQL 8.0/InnoDB/架构.md"
     },
     {
-      "basename": "image-20240426014007-70svuti",
-      "path": "_resources/images/image-20240426014007-70svuti.png"
+      "basename": "分页查询",
+      "path": "工具/MySQL 8.0/分页查询.md"
     },
     {
-      "basename": "image-20240425135559-cofq8fq",
-      "path": "_resources/images/image-20240425135559-cofq8fq.png"
+      "basename": "配置无线中继",
+      "path": "工具/Linux/OpenWrt/配置无线中继.md"
     },
     {
-      "basename": "image-20240405182415-n4979kv",
-      "path": "_resources/images/image-20240405182415-n4979kv.png"
+      "basename": "MAC 克隆",
+      "path": "工具/Linux/OpenWrt/MAC 克隆.md"
     },
     {
-      "basename": "image-20240401010621-gyfla01",
-      "path": "_resources/images/image-20240401010621-gyfla01.png"
+      "basename": "1.2 兼容 1.1 垫片",
+      "path": "工具/洛雪/1.2 兼容 1.1 垫片.md"
     },
     {
-      "basename": "image-20240329081104-vztnglp",
-      "path": "_resources/images/image-20240329081104-vztnglp.png"
+      "basename": "基本语法",
+      "path": "语言/CSharp/CSharp 语法/基本语法.md"
     },
     {
-      "basename": "image-20240322012116-kyn3zmh",
-      "path": "_resources/images/image-20240322012116-kyn3zmh.png"
+      "basename": "CSharp 语法",
+      "path": "语言/CSharp/CSharp 语法/CSharp 语法.md"
     },
     {
-      "basename": "image-20240322012054-44plipy",
-      "path": "_resources/images/image-20240322012054-44plipy.png"
+      "basename": "CSharp 并行任务",
+      "path": "语言/CSharp/CSharp 语法/CSharp 并行任务.md"
     },
     {
-      "basename": "image-20240322005116-3rv3p4m",
-      "path": "_resources/images/image-20240322005116-3rv3p4m.png"
+      "basename": "CSharp 网络",
+      "path": "语言/CSharp/CSharp 语法/CSharp 网络.md"
     },
     {
-      "basename": "image-20240320022009-bfcjwu4",
-      "path": "_resources/images/image-20240320022009-bfcjwu4.png"
+      "basename": "CSharp 密封类",
+      "path": "语言/CSharp/CSharp 语法/CSharp 密封类.md"
     },
     {
-      "basename": "image-20240313001310-sjtz35a",
-      "path": "_resources/images/image-20240313001310-sjtz35a.png"
+      "basename": "CSharp 动态类型",
+      "path": "语言/CSharp/CSharp 语法/CSharp 动态类型.md"
     },
     {
-      "basename": "image-20240313001131-prsqxh8",
-      "path": "_resources/images/image-20240313001131-prsqxh8.png"
+      "basename": "枚举",
+      "path": "语言/Rust/Rust 语法/数据类型/枚举.md"
     },
     {
-      "basename": "image-20240312235826-ks4nd0a",
-      "path": "_resources/images/image-20240312235826-ks4nd0a.png"
+      "basename": "数据类型",
+      "path": "语言/Rust/Rust 语法/数据类型/数据类型.md"
     },
     {
-      "basename": "image-20240312235424-rw4tzqd",
-      "path": "_resources/images/image-20240312235424-rw4tzqd.png"
+      "basename": "对象",
+      "path": "语言/JavaScript/ECMAScript 语法/对象.md"
     },
     {
-      "basename": "image-20240312204727-30whvzb",
-      "path": "_resources/images/image-20240312204727-30whvzb.png"
+      "basename": "Rust 语法",
+      "path": "语言/Rust/Rust 语法/Rust 语法.md"
     },
     {
-      "basename": "image-20240312204534-um5mgsj",
-      "path": "_resources/images/image-20240312204534-um5mgsj.png"
+      "basename": "并发基础",
+      "path": "语言/Rust/Rust 语法/并发基础.md"
     },
     {
-      "basename": "image-20240312204522-iymmqip",
-      "path": "_resources/images/image-20240312204522-iymmqip.png"
+      "basename": "模块私有性",
+      "path": "语言/Rust/Rust 语法/模块私有性.md"
     },
     {
-      "basename": "image-20240312204352-60g6r3f",
-      "path": "_resources/images/image-20240312204352-60g6r3f.png"
+      "basename": "Workspace",
+      "path": "语言/Rust/Rust 语法/Workspace.md"
     },
     {
-      "basename": "image-20240312204212-ebqq27h",
-      "path": "_resources/images/image-20240312204212-ebqq27h.png"
-    },
-    {
-      "basename": "image-20240312204009-nhg0l3t",
-      "path": "_resources/images/image-20240312204009-nhg0l3t.png"
+      "basename": "发布",
+      "path": "语言/Rust/Rust 语法/发布.md"
     }
   ],
   "omittedPaths": []

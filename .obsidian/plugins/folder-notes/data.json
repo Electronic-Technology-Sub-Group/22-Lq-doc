@@ -19,6 +19,19 @@
       "excludeFromFolderOverview": false,
       "string": "",
       "hideInSettings": false
+    },
+    {
+      "type": "folder",
+      "path": "语言/Rust/Rust 语法/数据类型/结构体",
+      "subFolders": true,
+      "disableSync": true,
+      "disableAutoCreate": true,
+      "disableFolderNote": false,
+      "enableCollapsing": false,
+      "position": 1,
+      "excludeFromFolderOverview": false,
+      "string": "",
+      "hideInSettings": false
     }
   ],
   "whitelistFolders": [],

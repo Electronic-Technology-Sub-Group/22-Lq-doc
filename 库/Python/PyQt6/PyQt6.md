@@ -19,13 +19,13 @@ Qt 控件包括：
 
 | 分类                  | Qt Designer 部件盒            |
 | ------------------- | -------------------------- |
-| [[布局管理/布局管理\|布局管理]] | ​Layouts​                  |
-| 分隔符                 | ​Spacers​                  |
-| 按钮控件                | ​Buttons​                  |
-| 表项控件                | ​Item Views​、Item Widgets​ |
-| 容器控件                | ​Containers​               |
-| 输入控件                | ​Input Widgets​            |
-| 显示控件                | ​Display Widgets​          |
+| [[布局管理/布局管理\|布局管理]] | Layouts                  |
+| 分隔符                 | Spacers                  |
+| 按钮控件                | Buttons                  |
+| 表项控件                | Item Views、Item Widgets |
+| 容器控件                | Containers               |
+| 输入控件                | Input Widgets            |
+| 显示控件                | Display Widgets          |
 > [!success]
 > 控件内容可以直接使用 HTML 标签内容
 

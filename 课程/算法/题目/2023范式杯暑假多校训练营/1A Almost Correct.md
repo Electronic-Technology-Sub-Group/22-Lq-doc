@@ -19,7 +19,7 @@ The next line contains `s`, the 01-sequence of length `n`. It is guaranteed that
 ## 输出格式
 
 For each test case, output $m\ (0 \leq m \leq 120)$ in the first line, indicating the length of array `x` and `y`.  
-In the `i`-th of the next `m` lines, print $x_i$​ and $y_i\ (1 \leq x_i<y_i \leq n)$ separated by a space.
+In the `i`-th of the next `m` lines, print $x_i$ and $y_i\ (1 \leq x_i<y_i \leq n)$ separated by a space.
 ## 输入样例
 
 ```

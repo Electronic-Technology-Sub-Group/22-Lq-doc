@@ -20,7 +20,7 @@ MySQL 8.0.33 在安装完成后会自动启动配置过程。
 
 ## 安装位置
 
-默认下，MySQL 安装到 C 盘中。在安装时选择 Custom，添加组件时选中右侧组件，点选下方 `Advanced Options`​ 可设置每个组件的安装目录
+默认下，MySQL 安装到 C 盘中。在安装时选择 Custom，添加组件时选中右侧组件，点选下方 `Advanced Options` 可设置每个组件的安装目录
 
 ## 端口
 
@@ -50,7 +50,7 @@ systemctl restart mysqld
 # 连接
 
 1. 可以通过 MySQL 自带的命令行（MySQL Command Line）或工作台（MySQL Workbench）连接
-2. 其他连接工具或库通过 `localhost:3306`​ 访问，其中 `localhost`​ 为数据库地址地址，`3306`​ 为之前设置的端口 `mysql -h 地址 -P 端口 -u 用户名 -p`​
+2. 其他连接工具或库通过 `localhost:3306` 访问，其中 `localhost` 为数据库地址地址，`3306` 为之前设置的端口 `mysql -h 地址 -P 端口 -u 用户名 -p`
 # 目录
 
 - [[数据类型]]

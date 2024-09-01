@@ -1,4 +1,4 @@
-树，继承自 `QTreeView` ​，数据值为 `QTreeWidgetItem` ​ 类型
+树，继承自 `QTreeView` ，数据值为 `QTreeWidgetItem`  类型
 # QTreeWidget
 
 > [!note]

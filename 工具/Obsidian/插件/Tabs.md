@@ -1,3 +1,6 @@
+---
+icon: SiObsidian
+---
 # 创建
 
 - 使用 `tabs` 类型代码块或 `~~~tabs` 块创建

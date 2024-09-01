@@ -4,20 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "3b027a4c9310b74b",
+        "id": "4a2163c93416a4bd",
         "type": "tabs",
         "children": [
           {
-            "id": "d345534671db51c4",
+            "id": "def3b04ea098fb68",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "库/JS与CSS库/Vue3/Vue3.md",
-                "mode": "preview",
+                "file": "工具/Linux/Arch/KDE 安装.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
-              }
+              },
+              "pinned": true
             }
           }
         ]
@@ -49,10 +51,10 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "<?xml version=\"1.0\"?> <fontconfig>   <alias>     <family>sans-serif</family>     <prefer>       <family>Noto Sans</family>       <family>Noto Sans CJK SC</family>       <family>Noto Sans CJK TC</family>       <family>Noto Sans CJK JP</family>       <family>Noto Sans CJK KR</family>       <family>Noto Color Emoji</family>       <family>Noto Emoji</family>     </prefer>   </alias>   <alias>     <family>serif</family>     <prefer>       <family>Noto Serif</family>       <family>Noto Serif CJK SC</family>       <family>Noto Serif CJK TC</family>       <family>Noto Serif CJK JP</family>       <family>Noto Serif CJK KR</family>       <family>Noto Color Emoji</family>       <family>Noto Emoji</family>     </prefer>   </alias>   <alias>     <family>monospace</family>     <prefer>       <family>Hack</family>       <family>Noto Sans Mono CJK SC</family>       <family>Noto Sans Mono CJK TC</family>       <family>Noto Sans Mono CJK JP</family>       <family>Noto Sans Mono CJK KR</family>       <family>Noto Color Emoji</family>       <family>Noto Emoji</family>     </prefer>   </alias> </fontconfig>",
                 "matchingCase": true,
                 "explainSearch": false,
-                "collapseAll": false,
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               }
@@ -74,11 +76,12 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 259.51103591918945
+    "width": 258.51103591918945
   },
   "right": {
     "id": "2f5d582e60864eba",
@@ -94,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "库/JS与CSS库/Vue3/Vue3.md",
+                "file": "工具/Linux/Arch/KDE 安装.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "库/JS与CSS库/Vue3/Vue3.md",
+                "file": "工具/Linux/Arch/KDE 安装.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "库/JS与CSS库/Vue3/Vue3.md"
+                "file": "工具/Linux/Arch/KDE 安装.md"
               }
             }
           },
@@ -181,18 +184,25 @@
               "type": "todo",
               "state": {}
             }
+          },
+          {
+            "id": "9f5f906ec097c1f7",
+            "type": "leaf",
+            "state": {
+              "type": "mermaid-toolbar-view",
+              "state": {}
+            }
           }
         ],
         "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 276.5,
+    "width": 278.5,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:打开快速切换": true,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
       "templates:插入模板": true,
@@ -213,54 +223,54 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "d345534671db51c4",
+  "active": "2b9655d45a16b900",
   "lastOpenFiles": [
-    "库/JS与CSS库/art-template.md",
-    "库/JS与CSS库/Swiper.md",
-    "库/JS与CSS库/mysql2.md",
-    "库/JS与CSS库/JWT 相关.md",
-    "库/JS与CSS库/jQuery.md",
-    "库/JS与CSS库/flexible.js.md",
-    "库/JS与CSS库/Express.md",
-    "库/JS与CSS库/ECharts.md",
-    "库/JS与CSS库/Bootstrap.md",
-    "库/JS与CSS库/Bootstrap/情景样式.md",
-    "库/JS与CSS库/Bootstrap/Bootstrap.md",
-    "库/JS与CSS库/Bootstrap/组件.md",
-    "库/JS与CSS库/Bootstrap/全局样式.md",
-    "库/JS与CSS库/Bootstrap/_pages/过渡动画.md",
-    "库/JS与CSS库/Bootstrap/栅格系统.md",
-    "_resources/excalidraw/JVM 字节码 2024-08-01 17.59.13.excalidraw.md",
-    "_resources/excalidraw/javac 编译过程 2024-08-02 08.12.39.excalidraw.md",
-    "_resources/excalidraw/Docker Swarm 2024-08-06 23.02.18.excalidraw.md",
-    "_resources/excalidraw/cglib 2024-08-02 23.21.58.excalidraw.md",
-    "_resources/excalidraw/网络模式 2024-08-06 22.32.32.excalidraw.md",
-    "_resources/excalidraw/日志管理 2024-08-06 22.44.41.excalidraw.md",
-    "_resources/excalidraw/全链路分布式跟踪与 APM 2024-08-03 15.26.57.excalidraw.md",
-    "_resources/excalidraw/常量池 2024-08-01 14.04.58.excalidraw.md",
-    "_resources/excalidraw/插件化注解 2024-08-02 22.25.55.excalidraw.md",
-    "_resources/images/image-20240522174936-kn4rtwu.png",
-    "_resources/images/image-20240428150907-8fju816.png",
-    "_resources/images/image-20240312204115-gzecl31.png",
-    "_resources/images/components-20240311173710-o6zuhj3.png",
-    "_resources/images/image-20240523162854-qaifng8.png",
-    "_resources/images/images.md",
-    "_resources/images/image-20240523154533-c7u297t.png",
-    "_resources/images/image-20240523135040-85v76sg.png",
-    "_resources/images/image-20240522145942-n5rqwtz.png",
-    "_resources/images/image-20240522145801-svvdgmz.png",
-    "_resources/images/image-20240522124907-f157u2g.png",
-    "库/JS与CSS库/Bootstrap/引入.md",
-    "工具/Linux/系统组件",
-    "工具/OpenWrt",
-    "_resources/images/video2.mp4",
-    "_resources/documents/C++",
-    "_resources/documents/quaternion.pdf",
-    "_resources/documents/quaternion.pdf",
-    "_resources/documents/OpenGL",
-    "_resources/documents/HTML",
-    "语言/CSS/CSS/选择器",
-    "语言/CSS/CSS/布局",
+    "工具/Linux/Arch/Arch 安装.md",
+    "工具/Linux/Arch/KDE 安装.md",
+    "工具/Linux/Arch/X11.md",
+    "任务.md",
+    "工具/Linux/Arch/Nvidia 驱动.md",
+    "_resources/images/Pasted image 20240901105857.png",
+    "工具/Linux/Arch/Network Manager 配置.md",
+    "_resources/images/Pasted image 20240901103322.png",
+    "工具/Linux/bash/权限管理.md",
+    "工具/Linux/bash/系统管理.md",
+    "工具/Linux/bash/文件系统.md",
+    "工具/Linux/bash/文件读写.md",
+    "工具/Linux/bash/网络相关.md",
+    "工具/Linux/系统组件/Union File System.md",
+    "工具/Linux/系统组件/Namespace.md",
+    "工具/Linux/系统组件/Cgroups.md",
+    "工具/Linux/sudo 配置.md",
+    "工具/Linux/Alibaba Cloud Linux 安装 MySql.md",
+    "工具/Linux/Arch",
+    "工具/Linux/CentOS 系",
+    "_resources/images/Pasted image 20231203170514-20240513025822-7dtl52z 1.png",
+    "_resources/images/Pasted image 20231201163847-20240513025657-7pwqs5n 1.png",
+    "_resources/images/Pasted image 20231201162714-20240513025636-sx3mwk3.png",
+    "assets/Pasted.md",
+    "assets",
+    "工具/Linux/Debian 系/平板电脑安装Ubuntu教程.md",
+    "工具/Linux/Debian 系",
+    "工具/Linux/窗口管理",
+    "工具/Linux/自动执行/systemd.md",
+    "工具/Linux/sh 文件无法运行.md",
+    "工具/Linux/自动执行/自动执行.md",
+    "工具/Linux/Linux.md",
+    "工具/Linux/自动执行",
+    "工具/Linux/OpenWrt/ZeroTier 内网穿透.md",
+    "工具/Linux/OpenWrt/网络唤醒.md",
+    "工具/Windows/网络唤醒.md",
+    "_resources/images/Pasted image 20240831223700.png",
+    "_resources/images/Pasted image 20240831223611.png",
+    "_resources/images/Pasted image 20240831222641.png",
+    "_resources/images/Pasted image 20240831214658.png",
+    "_resources/images/Pasted image 20240831213132.png",
+    "工具/Windows/为了对电脑进行保护，已经阻止此应用.md",
+    "语言/Rust/Rust 语法/宏/自定义宏",
+    "语言/Rust/Rust 语法/数据类型/结构体",
+    "语言/Rust/Rust 语法/泛型",
+    "语言/Rust/Rust 语法/函数",
     "语言/C Cpp/C++更新图.canvas",
     "语言/C Cpp/C++ 语法/C++ 语法.canvas",
     "语言/Class 字节码/Untitled.canvas",

@@ -1,3 +1,6 @@
+---
+icon: SiObsidian
+---
 Dataview JavaScript API 提供一个包含 Dataview 变量 `dv` 的完整 JavaScript 执行环境，分为内联和插件两部分。
 # DataArray
 

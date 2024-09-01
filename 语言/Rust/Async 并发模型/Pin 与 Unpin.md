@@ -1,16 +1,16 @@
 # Pin 与 Unpin
 
-实现了 `Unpin` ​ 表示该结构在内存中可以安全移动，`Pin` ​ 表示该结构在内存中不能任意移动
+实现了 `Unpin`  表示该结构在内存中可以安全移动，`Pin`  表示该结构在内存中不能任意移动
 
 > [!note]
->  `Unpin` ​ 是一个 Trait，`Pin` ​ 是一个结构体
+>  `Unpin`  是一个 Trait，`Pin`  是一个结构体
 
-`Pin` ​ 结构体内包含一个指针。如果 `Pin` ​ 内指针指向的数据实现了 `!Unpin` ​，`Pin` ​ 保证内部实现了的指针对应的数据不会被任意移动。
+`Pin`  结构体内包含一个指针。如果 `Pin`  内指针指向的数据实现了 `!Unpin` ，`Pin`  保证内部实现了的指针对应的数据不会被任意移动。
 
 > [!note]
-> 可以使用 `_marker: PhantomPinned` ​ 表示实现 `!Pin` ​
+> 可以使用 `_marker: PhantomPinned`  表示实现 `!Pin` 
 
-`Pin` ​ 多用于自引用类型
+`Pin`  多用于自引用类型
 
 ```rust
 struct Test {
@@ -33,7 +33,7 @@ impl Test {
 }
 ```
 
-在没有 `Pin` ​ 的情况下交换：
+在没有 `Pin`  的情况下交换：
 
 `````col
 ````col-md
@@ -63,7 +63,7 @@ fn main() {
 ````
 `````
 
-实现 `Pin` ​：
+实现 `Pin` ：
 
 ```rust
 struct Test {

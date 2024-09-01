@@ -1,4 +1,4 @@
-PyInstaller 是一个将 Python 脚本打包成应用程序的工具，会在项目目录下会产生 `dist` ​ 目录，包含可执行程序
+PyInstaller 是一个将 Python 脚本打包成应用程序的工具，会在项目目录下会产生 `dist`  目录，包含可执行程序
 
 ```bash
 pip install Pyinstaller

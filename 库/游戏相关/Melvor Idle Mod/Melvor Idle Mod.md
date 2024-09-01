@@ -2,7 +2,7 @@
 
 一个 Mod 至少含有以下两个文件：
 
-​`manifest.json`​：Mod 加载入口，至少包含一个 `setup`​ 或 `load`​ 属性
+`manifest.json`：Mod 加载入口，至少包含一个 `setup` 或 `load` 属性
 
 ```json title:manifest.json
 {
@@ -12,12 +12,12 @@
 
 | 属性          | 值类型                    | 说明                                                                                                  |
 | ----------- | ---------------------- | --------------------------------------------------------------------------------------------------- |
-| `namespace` | `string?`              | Mod 命名空间，一些工具需要使用，不能以 `melvor`​ 开头                                                                  |
+| `namespace` | `string?`              | Mod 命名空间，一些工具需要使用，不能以 `melvor` 开头                                                                  |
 | `icon`      | `string?`              | Mod 图标，位于 Mod 根目录，最大 38px 的 png 或 svg 图片                                                            |
-| `setup`     | `string?`              | （`setup`​、`load`​二选一）JS Mod 模块入口，优先级高于 `load`​                                                      |
-| `load`      | `string?` 或 `string[]` | （`setup`​、`load`​二选一）按顺序加载资源。不推荐，推荐在 `setup`​ 中定义的入口里加载。可用资源包括：js（JS文件）, mjs（JS模块）, css, json, html |
+| `setup`     | `string?`              | （`setup`、`load`二选一）JS Mod 模块入口，优先级高于 `load`                                                      |
+| `load`      | `string?` 或 `string[]` | （`setup`、`load`二选一）按顺序加载资源。不推荐，推荐在 `setup` 中定义的入口里加载。可用资源包括：js（JS文件）, mjs（JS模块）, css, json, html |
 
-​`setup.mjs`​：前面 `manifest.json`​ 中 `setup`​ 属性定义的入口文件，至少导出一个 `setup`​ 方法
+`setup.mjs`：前面 `manifest.json` 中 `setup` 属性定义的入口文件，至少导出一个 `setup` 方法
 
 ```js title:setup.mjs
 export function setup(ctx) {
@@ -40,9 +40,9 @@ export function setup(ctx) {
 
 # 设置选项
 
-通过 `ctx.settings`​ 创建和访问设置菜单
+通过 `ctx.settings` 创建和访问设置菜单
 
-* ​`ctx.settings.section`​：获取或创建设置菜单，通过 `add`​ 添加选项，通过 `get`​ 获取选项
+* `ctx.settings.section`：获取或创建设置菜单，通过 `add` 添加选项，通过 `get` 获取选项
 
 ```js title:setup.mjs
 export function setup(ctx) {
@@ -65,17 +65,17 @@ export function setup(ctx) {
 }
 ```
 
-其中，`add`​ 方法可以接受一个对象或对象数组，`type`​ 表示类型，可选有：`Text`​，`Number`​，`Switch`​，`Dropdown`​，`Button`​，`Checkbox Group`​，`Radio Group`​，`Label`​
+其中，`add` 方法可以接受一个对象或对象数组，`type` 表示类型，可选有：`Text`，`Number`，`Switch`，`Dropdown`，`Button`，`Checkbox Group`，`Radio Group`，`Label`
 
 # 发布
 
-将 `manifest.json`​ 和所有 JavaScript 代码打包到一个 `zip`​ 包根目录，上传到 [Mod](mod.io) 即可。
+将 `manifest.json` 和所有 JavaScript 代码打包到一个 `zip` 包根目录，上传到 [Mod](mod.io) 即可。
 
 # 使用资源
 
 ## 使用模块
 
-通过 `ctx.loadModule` ​ 导入 JS 模块文件
+通过 `ctx.loadModule`  导入 JS 模块文件
 
 ````tabs
 tab: setup.mjs
@@ -94,7 +94,7 @@ const ctx = mod.getContext(import.meta);
 ````
 ## 使用脚本
 
-通过 `ctx.loadScript`​ 导入 JS 脚本文件
+通过 `ctx.loadScript` 导入 JS 脚本文件
 
 ````tabs
 tab: setup.mjs
@@ -112,16 +112,16 @@ mod.register(ctx => {
 ```
 ````
 
-使用 `manifest.json`​ 的 `load`​ 属性也能引入 `js`​ 文件，与 `ctx.loadScript`​ 作用相同
+使用 `manifest.json` 的 `load` 属性也能引入 `js` 文件，与 `ctx.loadScript` 作用相同
 
 ## 其他资源
 
-​`context`​ 有各种方法可以导入不同资源：
+`context` 有各种方法可以导入不同资源：
 
-* ​`loadTemplates`​：导入 `html`​ 文件中的所有 `<template>`​ 标签
-* ​`loadStylesheet`​：导入一个 `css`​ 文件到当前页面
-* ​`loadData`​：导入一个 `json`​ 对象（返回该对象）
-* ​`getResourceUrl`​：导入图片、声音和其他类型资源，返回一个可以引用该资源的 url
+* `loadTemplates`：导入 `html` 文件中的所有 `<template>` 标签
+* `loadStylesheet`：导入一个 `css` 文件到当前页面
+* `loadData`：导入一个 `json` 对象（返回该对象）
+* `getResourceUrl`：导入图片、声音和其他类型资源，返回一个可以引用该资源的 url
 
 # 修改游戏
 
@@ -133,10 +133,10 @@ mod.register(ctx => {
 tab: 生命周期函数
 |生命周期函数|说明|
 | --------------| ----------------------------------------------------|
-|​ `onModsLoaded` ​|所有 Mod 加载完成|
-|​ `onCharacterSelectionLoaded` ​|角色选择界面加载完成|
-|​ `onCharacterLoaded` ​|角色选择完成，所有游戏对象创建，但离线收益还未计算|
-|​ `onInterfaceReady` ​|离线收益计算完成，游戏内 UI 可以被安全修改|
+| `onModsLoaded` |所有 Mod 加载完成|
+| `onCharacterSelectionLoaded` |角色选择界面加载完成|
+| `onCharacterLoaded` |角色选择完成，所有游戏对象创建，但离线收益还未计算|
+| `onInterfaceReady` |离线收益计算完成，游戏内 UI 可以被安全修改|
 tab: 示例 setup.mjs
 ```js
 export function setup(ctx) {
@@ -170,7 +170,7 @@ export function setup(ctx) {
 
 将定义好的 json 文件放入项目中，在游戏中加载即可
 
-* 通过 `load`​ 属性加载
+* 通过 `load` 属性加载
 
 ```json title:manifest.json
 {
@@ -183,7 +183,7 @@ export function setup(ctx) {
 }
 ```
 
-* 通过 `setup`​ 代码加载
+* 通过 `setup` 代码加载
 
 ```js title:setup.mjs
 export async function setup(ctx) {
@@ -193,7 +193,7 @@ export async function setup(ctx) {
 
 ### 运行时定义
 
-通过 `ctx.gameData.buildPackage` ​ 创建
+通过 `ctx.gameData.buildPackage`  创建
 
 * 优点
   * 可以注册任意类型游戏对象
@@ -212,20 +212,20 @@ export function setup(ctx) {
 
 ## 自定义侧边栏
 
-使用全局变量 `sidebar`​ 设置侧边栏，侧边栏结层级按从外向内依此为：
+使用全局变量 `sidebar` 设置侧边栏，侧边栏结层级按从外向内依此为：
 
-​`Sidebar`​ -> `Categories`​ -> `Items`​ -> `Subitems`​
+`Sidebar` -> `Categories` -> `Items` -> `Subitems`
 
-* ​`category(name)`​，`item(name)`​，`subitem(name)`​ 方法可以在对应层级获取或创建一个新项目
-* ​`remove()`​ 方法可以删除该项目
-* ​`category(name, ops)`​，`item(name, ops)`​，`subitem(name, ops)`​ 可以创建或修改对应项目
-* ​`categories()`​，`items()`​，`subitems()`​ 可以获取该层级中所有子项目
+* `category(name)`，`item(name)`，`subitem(name)` 方法可以在对应层级获取或创建一个新项目
+* `remove()` 方法可以删除该项目
+* `category(name, ops)`，`item(name, ops)`，`subitem(name, ops)` 可以创建或修改对应项目
+* `categories()`，`items()`，`subitems()` 可以获取该层级中所有子项目
 
 ## 自定义组件
 
 可以创建自定义组件添加到游戏中
 
-* 创建一个 HTML 模板文件，其中根标签使用 `<template>`​，变量使用 `{{ 变量名 }}`​ 代替
+* 创建一个 HTML 模板文件，其中根标签使用 `<template>`，变量使用 `{{ 变量名 }}` 代替
 
 ```html title:template.html
 <template>
@@ -234,7 +234,7 @@ export function setup(ctx) {
 </template>
 ```
 
-* 在 `manifest.json`​ 或 `setup()`​ 中加载（二选一）
+* 在 `manifest.json` 或 `setup()` 中加载（二选一）
 
 ````tabs
 tab: manifest.json
@@ -268,8 +268,8 @@ ui.create(Counter({ count: 0 }), document.getElementById('woodcutting-container'
 ```
 ## 游戏数据
 
-* 角色数据存储在 `ctx.charactterStorage`​ 中
-* 账号数据存储在 `ctx.accountStorage`​ 中
+* 角色数据存储在 `ctx.charactterStorage` 中
+* 账号数据存储在 `ctx.accountStorage` 中
 
 > [!warning]
 > * 数据存储大小限制为 8k
@@ -279,14 +279,14 @@ ui.create(Counter({ count: 0 }), document.getElementById('woodcutting-container'
 
 ### 数据监听
 
-游戏数据对象变化可以通过 `patch(object, functionName)`​ 方法进行监听和修改。
+游戏数据对象变化可以通过 `patch(object, functionName)` 方法进行监听和修改。
 
 * 在数据变化之前或之后执行操作
 * 获取和修改变动值
 
-可监听对象包括 `Player`​，`Enemy`​，`CombatManager`​，`Woodcutting`​，`Skill`​ 等。支持注入的方法及其参数（一个回调函数）信息如下：
+可监听对象包括 `Player`，`Enemy`，`CombatManager`，`Woodcutting`，`Skill` 等。支持注入的方法及其参数（一个回调函数）信息如下：
 
-* ​`before(callback)`​
+* `before(callback)`
     * 触发：被注入方法调用前触发
     * 参数：被注入方法传入的参数
     * 返回：一个数组，该数组将作为参数传入被注入参数
@@ -300,7 +300,7 @@ export function setup(ctx) {
 }
 ```
 
-* ​`after(callback)`​
+* `after(callback)`
     * 触发：被注入方法调用后触发
     * 参数：可选，被注入方法的返回值
     * 返回：可选，该返回值将替代原返回值作为新的返回值
@@ -317,8 +317,8 @@ export function setup(ctx) {
 }
 ```
 
-* ​`replace(callback)`​
-    * 触发：调用被注入方法调用时，替换被注入方法（但仍会受 `before` ​，`after` ​ 注入的回调影响）
+* `replace(callback)`
+    * 触发：调用被注入方法调用时，替换被注入方法（但仍会受 `before` ，`after`  注入的回调影响）
     * 参数：第一个参数是原始函数，剩下的是实际传入的参数
     * 返回：实际需要的返回值
 
@@ -340,7 +340,7 @@ export function setup(ctx) {
 
 API 之间可以互相依赖，一个 Mod 可以给其他 Mod 提供 API 方法。
 
-向其他 Mod 提供 API 需要为 Mod 设置一个 `namespace`​
+向其他 Mod 提供 API 需要为 Mod 设置一个 `namespace`
 
 ```json title:manifest.json
 {
@@ -348,7 +348,7 @@ API 之间可以互相依赖，一个 Mod 可以给其他 Mod 提供 API 方法�
 }
 ```
 
-然后，通过 `ctx.api(object)`​ 公开 API；多次调用 `ctx.api`​ 可以不断追加 API
+然后，通过 `ctx.api(object)` 公开 API；多次调用 `ctx.api` 可以不断追加 API
 
 ```js title:setup.mjs
 export function setup(ctx) {
@@ -356,7 +356,7 @@ export function setup(ctx) {
 }
 ```
 
-如果需要调用其他 Mod 的 API，也可以通过 `ctx.api`​ 获取
+如果需要调用其他 Mod 的 API，也可以通过 `ctx.api` 获取
 
 ```js title:setup.mjs
 export function setup(ctx) {

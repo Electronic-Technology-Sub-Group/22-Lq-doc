@@ -5,7 +5,13 @@
     "fontSize": 16,
     "emojiStyle": "native",
     "iconColor": null,
-    "recentlyUsedIcons": [],
+    "recentlyUsedIcons": [
+      "SiNvidia",
+      "SiKde",
+      "LiNetwork",
+      "SiArchlinux",
+      "LiArchive"
+    ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
     "extraMargin": {
@@ -14,10 +20,10 @@
       "bottom": 0,
       "left": 0
     },
-    "iconInTabsEnabled": false,
+    "iconInTabsEnabled": true,
     "iconInTitleEnabled": false,
     "iconInTitlePosition": "above",
-    "iconInFrontmatterEnabled": false,
+    "iconInFrontmatterEnabled": true,
     "iconInFrontmatterFieldName": "icon",
     "iconColorInFrontmatterFieldName": "iconColor",
     "iconsBackgroundCheckEnabled": false,
@@ -26,5 +32,376 @@
     "iconIdentifier": ":",
     "debugMode": false,
     "lucideIconPackType": "native"
-  }
+  },
+  "工具/git/Github SSH 登录.md": "SiGithub",
+  "工具/git/github.com port 22 Connection refused.md": "SiGithub",
+  "工具/git/Git 服务器搭建.md": "SiGit",
+  "工具/git": "SiGit",
+  "工具/远程连接与共享": "LiSyncSmall",
+  "工具/Android": "SiAndroid",
+  "工具/Android/Android调试.md": "SiAndroid",
+  "工具/Docker": "SiDocker",
+  "工具/Docker/Docker Compose": "SiDocker",
+  "工具/Docker/应用容器化.md": {
+    "iconName": "SiDocker"
+  },
+  "工具/Docker/操作容器.md": {
+    "iconName": "SiDocker"
+  },
+  "工具/Docker/日志管理.md": "SiDocker",
+  "工具/Docker/网络模式.md": "SiDocker",
+  "工具/Docker/Docker 存储.md": {
+    "iconName": "SiDocker"
+  },
+  "工具/Docker/Docker 镜像.md": {
+    "iconName": "SiDocker"
+  },
+  "工具/Docker/Docker 容器.md": {
+    "iconName": "SiDocker"
+  },
+  "工具/Docker/Docker Swarm.md": {
+    "iconName": "SiDocker"
+  },
+  "工具/Docker/Docker Compose/模板文件.md": {
+    "iconName": "SiDocker"
+  },
+  "工具/Docker/Docker Compose/指令.md": {
+    "iconName": "SiDocker"
+  },
+  "工具/洛雪": "ApLxmusic",
+  "工具/洛雪/1.2 兼容 1.1 垫片.md": {
+    "iconName": "ApLxmusic"
+  },
+  "工具/远程连接与共享/ZeroTier": "ApZerotier",
+  "工具/远程连接与共享/ZeroTier/自建服务器.md": {
+    "iconName": "ApZerotier"
+  },
+  "工具/远程连接与共享/syncthing.md": "ApSyncthing",
+  "工具/远程连接与共享/synergy.md": "ApSynergy",
+  "工具/GCC": "SiGnu",
+  "工具/GCC/g++.md": {
+    "iconName": "SiGnu"
+  },
+  "工具/GCC/Mingw64 安装.md": "ApMingw64",
+  "工具/Gradle": "SiGradle",
+  "工具/Gradle/Gradle 8.5": "SiGradle",
+  "工具/Gradle/编码GBK的不可映射字符.md": {
+    "iconName": "SiGradle"
+  },
+  "工具/Gradle/Gradle 代理设置.md": {
+    "iconName": "SiGradle"
+  },
+  "工具/Gradle/Gradle 修改缓存位置.md": {
+    "iconName": "SiGradle"
+  },
+  "工具/Gradle/Gradle 8.5/文档/Gradle 托管属性.md": {
+    "iconName": "SiGradle"
+  },
+  "工具/Gradle/Gradle 8.5/教程/自定义 Gradle 插件.md": {
+    "iconName": "SiGradle"
+  },
+  "工具/Gradle/Gradle 8.5/教程/Gradle 基础结构.md": {
+    "iconName": "SiGradle"
+  },
+  "工具/Gradle/Gradle 8.5/教程/Gradle 项目基础.md": {
+    "iconName": "SiGradle"
+  },
+  "工具/Gradle/Gradle 8.5/插件/Maven Publish.md": {
+    "iconName": "SiGradle"
+  },
+  "工具/Gradle/Gradle 8.5/插件/ShadowJar.md": {
+    "iconName": "SiGradle"
+  },
+  "工具/Gradle/Gradle 8.5/插件": "SiGradle",
+  "工具/Gradle/Gradle 8.5/教程": "SiGradle",
+  "工具/Gradle/Gradle 8.5/文档": "SiGradle",
+  "工具/Jetbrains": "SiJetbrains",
+  "工具/Jetbrains/Jetbrains 控制台乱码.md": "SiJetbrains",
+  "工具/Linux": "SiLinux",
+  "工具/Linux/系统组件": "SiLinux",
+  "工具/Linux/系统组件/Union File System.md": {
+    "iconName": "SiLinux"
+  },
+  "工具/Linux/bash": "LiTerminal",
+  "工具/Linux/关闭默认钥匙环密码.md": "SiLinux",
+  "工具/Linux/极路由获取永久root权限.md": "ApGee",
+  "工具/Linux/Alibaba Cloud Linux 安装 MySql.md": "SiAlibabacloud",
+  "工具/MySQL 8.0": "SiMysql",
+  "工具/Node.js": "SiNodedotjs",
+  "工具/Node.js/NPM 常用命令.md": "SiNpm",
+  "工具/Node.js/webpack.md": "SiWebpack",
+  "工具/Obsidian": "SiObsidian",
+  "工具/Obsidian/插件": "SiObsidian",
+  "工具/Obsidian/插件/Dataview": "SiObsidian",
+  "工具/Obsidian/插件/Dataview/元数据": "SiObsidian",
+  "工具/Obsidian/插件/Dataview/元数据/添加字段.md": {
+    "iconName": "SiObsidian"
+  },
+  "工具/Obsidian/插件/Dataview/元数据/字段类型.md": {
+    "iconName": "SiObsidian"
+  },
+  "工具/Obsidian/插件/Dataview/元数据查询": "SiObsidian",
+  "工具/Obsidian/插件/Dataview/元数据查询/表达式.md": {
+    "iconName": "SiObsidian"
+  },
+  "工具/Obsidian/插件/Dataview/元数据查询/DataviewJS.md": {
+    "iconName": "SiObsidian"
+  },
+  "工具/Obsidian/插件/Dataview/元数据查询/DQL.md": {
+    "iconName": "SiObsidian"
+  },
+  "工具/Obsidian/插件/Code Styler.md": {
+    "iconName": "SiObsidian"
+  },
+  "工具/Obsidian/插件/Console Markdown.md": {
+    "iconName": "SiObsidian"
+  },
+  "工具/Obsidian/插件/Dirtreeist.md": {
+    "iconName": "SiObsidian"
+  },
+  "工具/Obsidian/插件/Embed Code File.md": {
+    "iconName": "SiObsidian"
+  },
+  "工具/Obsidian/插件/Execute Code.md": {
+    "iconName": "SiObsidian"
+  },
+  "工具/Obsidian/插件/Iconize.md": {
+    "iconName": "SiObsidian"
+  },
+  "工具/Obsidian/插件/Minitabs.md": {
+    "iconName": "SiObsidian"
+  },
+  "工具/Obsidian/插件/Obsidian Columns.md": {
+    "iconName": "SiObsidian"
+  },
+  "工具/Obsidian/插件/Spaced Repetition.md": {
+    "iconName": "SiObsidian"
+  },
+  "工具/Obsidian/插件/Tabs.md": {
+    "iconName": "SiObsidian"
+  },
+  "工具/Obsidian/插件/Templater.md": {
+    "iconName": "SiObsidian"
+  },
+  "工具/Obsidian/关系图谱.md": {
+    "iconName": "SiObsidian"
+  },
+  "工具/Obsidian/Callout.md": {
+    "iconName": "SiObsidian"
+  },
+  "工具/Obsidian/插件/AnyBlock.md": {
+    "iconName": "SiObsidian"
+  },
+  "工具/Photoshop": "SiAdobephotoshop",
+  "工具/Photoshop/Photoshop 图形图像处理项目教程": "SiAdobephotoshop",
+  "工具/Photoshop/Photoshop 图形图像处理项目教程/常用工具.md": {
+    "iconName": "SiAdobePhotoshop"
+  },
+  "工具/Photoshop/Photoshop 图形图像处理项目教程/基本操作.md": {
+    "iconName": "SiAdobePhotoshop"
+  },
+  "工具/Photoshop/Photoshop 图形图像处理项目教程/滤镜.md": {
+    "iconName": "SiAdobePhotoshop"
+  },
+  "工具/Photoshop/Photoshop 图形图像处理项目教程/蒙版.md": {
+    "iconName": "SiAdobePhotoshop"
+  },
+  "工具/Photoshop/Photoshop 图形图像处理项目教程/通道.md": {
+    "iconName": "SiAdobePhotoshop"
+  },
+  "工具/Photoshop/Photoshop 图形图像处理项目教程/图层.md": {
+    "iconName": "SiAdobePhotoshop"
+  },
+  "工具/Photoshop/更换物品颜色.md": {
+    "iconName": "SiAdobePhotoshop"
+  },
+  "工具/Photoshop/纠正歪斜物体.md": {
+    "iconName": "SiAdobePhotoshop"
+  },
+  "工具/Photoshop/磨皮.md": {
+    "iconName": "SiAdobePhotoshop"
+  },
+  "工具/Photoshop/内容识别.md": {
+    "iconName": "SiAdobePhotoshop"
+  },
+  "工具/Photoshop/选择毛发.md": {
+    "iconName": "SiAdobePhotoshop"
+  },
+  "工具/Steam/linux 使用 proton 安装 Windows 游戏.md": "SiSteam",
+  "工具/Steam": "SiSteam",
+  "工具/Steam/删除成就.md": "SiSteam",
+  "工具/Windows": "SiWindows",
+  "工具/Maven.md": "SiApachemaven",
+  "工具/PyInstaller.md": "SiPython",
+  "工具/Ventoy.md": "ApVentoy",
+  "工具/Vite.md": "SiVite",
+  "工具/Vue CLI.md": "SiVuedotjs",
+  "库/游戏相关/Melvor Idle Mod": "ApMelvor",
+  "库/游戏相关/Melvor Idle Mod/Melvor Idle Context.md": "ApMelvor",
+  "库/游戏相关/Minecraft Core Mod": "ApMinecraft",
+  "库/游戏相关/Minecraft Core Mod/Mixin": "ApSponge",
+  "库/游戏相关/Minecraft Core Mod/Mixin/编译配置.md": {
+    "iconName": "ApSponge"
+  },
+  "库/游戏相关/Minecraft Core Mod/Mixin/调试.md": {
+    "iconName": "ApSponge"
+  },
+  "库/游戏相关/Minecraft Core Mod/Mixin/方法局部修改.md": {
+    "iconName": "ApSponge"
+  },
+  "库/游戏相关/Minecraft Core Mod/Mixin/方法重写.md": {
+    "iconName": "ApSponge"
+  },
+  "库/游戏相关/Minecraft Core Mod/Mixin/方法注入.md": {
+    "iconName": "ApSponge"
+  },
+  "库/游戏相关/Minecraft Core Mod/Mixin/访问受限成员.md": {
+    "iconName": "ApSponge"
+  },
+  "库/游戏相关/Minecraft Core Mod/Mixin/添加成员.md": {
+    "iconName": "ApSponge"
+  },
+  "库/游戏相关/Minecraft Core Mod/Mixin/原始类成员访问.md": {
+    "iconName": "ApSponge"
+  },
+  "库/游戏相关/Minecraft Core Mod/Mixin/Mixin 配置.md": {
+    "iconName": "ApSponge"
+  },
+  "库/游戏相关/Minecraft Core Mod/Mixin/隐式接口实现.md": {
+    "iconName": "ApSponge"
+  },
+  "库/游戏相关/Minecraft Core Mod/接口注入.md": "ApFabric",
+  "库/游戏相关/Minecraft Java Mod": "ApMinecraft",
+  "库/游戏相关/Minecraft Java Mod/构建问题": "ApMinecraft",
+  "库/游戏相关/Minecraft Java Mod/构建问题/找不到或无法加载主类.md": "ApArchitectury",
+  "库/游戏相关/Minecraft Java Mod/Architectury.md": "ApArchitectury",
+  "库/游戏相关/Minecraft Java Mod/游戏注册表.md": "ApMinecraft",
+  "库/游戏相关/Minecraft Java Mod/双端通信.md": "ApMinecraft",
+  "库/游戏相关/Minecraft Java Mod/DataUpperFixer": "ApMinecraft",
+  "库/C Cpp": "SiC",
+  "库/C Cpp/FreeType.md": "ApFreetype",
+  "库/C Cpp/MySQL Connector C++.md": "SiMysql",
+  "库/C Cpp/wxWidgets.md": "ApWxWidgets",
+  "库/Java/Spring": "SiSpring",
+  "库/Java/Thymeleaf": "SiThymeleaf",
+  "库/Java/JUnit 5.md": "SiJunit5",
+  "库/JS与CSS库": "SiJavascript",
+  "库/OpenGL": "SiOpengl",
+  "库/Python": "SiPython",
+  "库/ReactiveX.md": "SiReactivex",
+  "库/游戏相关": "LiGamepad",
+  "库/Java": "RiJavaFill",
+  "库/Java/Netty": "ApNetty",
+  "库/Java/Netty/netty4 user guide": "ApNetty",
+  "库/Java/Netty/netty4 user guide/时间服务器.md": {
+    "iconName": "ApNetty"
+  },
+  "库/Java/Netty/netty4 user guide/Buffer.md": {
+    "iconName": "ApNetty"
+  },
+  "库/Java/Netty/netty4 user guide/ChannelHandler.md": {
+    "iconName": "ApNetty"
+  },
+  "库/Java/Netty/netty4 user guide/Decoder.md": {
+    "iconName": "ApNetty"
+  },
+  "库/Java/Netty/netty4 user guide/DISCARD 服务器.md": {
+    "iconName": "ApNetty"
+  },
+  "库/Java/Netty/netty4 user guide/Echo 服务器.md": {
+    "iconName": "ApNetty"
+  },
+  "库/Java/Netty/netty4 user guide/Encoder.md": {
+    "iconName": "ApNetty"
+  },
+  "库/JS与CSS库/Vue3": "SiVuedotjs",
+  "库/JS与CSS库/art-template.md": "SiJavascript",
+  "库/JS与CSS库/Babel.md": "SiBabel",
+  "库/JS与CSS库/Bootstrap.md": "RiBootstrapLine",
+  "库/JS与CSS库/ECharts.md": "SiApacheecharts",
+  "库/JS与CSS库/Express.md": "SiExpress",
+  "库/JS与CSS库/flexible.js.md": "SiJavascript",
+  "库/JS与CSS库/jQuery.md": "SiJquery",
+  "库/JS与CSS库/JWT 相关.md": "SiJavascript",
+  "库/JS与CSS库/mysql2.md": "SiJavascript",
+  "库/JS与CSS库/Swiper.md": "SiSwiper",
+  "库/Python/Flask": "SiFlask",
+  "库/Python/PyQt6": "SiQt",
+  "库/Python/SQLAlchemy": "SiSqlalchemy",
+  "库/Python/axios.md": "SiAxios",
+  "库/Python/Jinja2.md": "SiJinja",
+  "库/Python/pymysql.md": "SiMysql",
+  "库/Python/PySpark.md": "SiApachespark",
+  "文档/LaTeX.md": "SiLatex",
+  "文档/Markdown.md": "SiMarkdown",
+  "文档/TOML.md": "SiToml",
+  "文档/YAML.md": "SiYaml",
+  "语言/C Cpp": "SiC",
+  "语言/C Cpp/C 和指针": "SiC",
+  "语言/C Cpp/C++": "SiCplusplus",
+  "语言/Class 字节码": "RiJavaFill",
+  "语言/CSharp": "SiCsharp",
+  "语言/CSS": "SiCss3",
+  "语言/GoLang": "SiGo",
+  "语言/groovy": "SiApachegroovy",
+  "语言/HTML": "SiHtml5",
+  "语言/Java": "RiJavaFill",
+  "语言/JavaScript": "SiJavascript",
+  "语言/Kotlin": "SiKotlin",
+  "语言/Python": "SiPython",
+  "语言/Rust": "SiRust",
+  "语言/Scala": "SiScala",
+  "语言/SQL": "LiDatabase",
+  "工具/包管理器/winget.md": "SiWindows",
+  "工具/包管理器": "LiPackage",
+  "语言/CSS/CSS": "SiCss3",
+  "语言/CSS/Less": "SiLess",
+  "语言/JavaScript/ECMAScript 语法/ECMAScript 语法.md": "SiJavascript",
+  "语言/JavaScript/ECMAScript 语法": "SiJavascript",
+  "语言/JavaScript/Typescript 语法": "SiTypescript",
+  "语言/HTML/HTML 语法": "SiHtml5",
+  "语言/HTML/HTML API": "RiHtml5Line",
+  "工具/Linux/OpenWrt": "SiOpenwrt",
+  "工具/git/基本操作": "SiGit",
+  "语言/Rust/Rust 语法": "SiRust",
+  "语言/CSharp/CSharp 语法": "SiCsharp",
+  "工具/Linux/Debian 系": "SiDebian",
+  "工具/Linux/Debian 系/平板电脑安装Ubuntu教程.md": "SiUbuntu",
+  "工具/Linux/Debian 系/Linux mint 安装 snap.md": "SiLinuxmint",
+  "工具/Linux/Debian 系/Linux Mint 修复搜狗输入法.md": "SiLinuxmint",
+  "工具/MySQL 8.0/主从复制.md": {
+    "iconName": "SiMysql"
+  },
+  "工具/MySQL 8.0/分库分表及读写分离.md": {
+    "iconName": "SiMysql"
+  },
+  "工具/MySQL 8.0/存储对象/视图.md": {
+    "iconName": "SiMysql"
+  },
+  "工具/MySQL 8.0/存储引擎.md": {
+    "iconName": "SiMysql"
+  },
+  "工具/MySQL 8.0/日志.md": {
+    "iconName": "SiMysql"
+  },
+  "工具/MySQL 8.0/索引.md": {
+    "iconName": "SiMysql"
+  },
+  "工具/MySQL 8.0/语句优化.md": {
+    "iconName": "SiMysql"
+  },
+  "工具/MySQL 8.0/锁.md": {
+    "iconName": "SiMysql"
+  },
+  "工具/Linux/Arch": "SiArchlinux",
+  "工具/Linux/系统组件/Cgroups.md": {
+    "iconName": "SiLinux"
+  },
+  "工具/Linux/系统组件/Namespace.md": {
+    "iconName": "SiLinux"
+  },
+  "工具/Linux/Arch/Network Manager 配置.md": "LiNetwork",
+  "工具/Linux/Arch/Arch 安装.md": "SiArchlinux",
+  "工具/Linux/Arch/Nvidia 驱动.md": "SiNvidia",
+  "工具/Linux/Arch/KDE 安装.md": "SiKde"
 }

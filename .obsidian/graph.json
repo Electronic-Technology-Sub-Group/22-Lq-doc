@@ -1,6 +1,6 @@
 {
-  "collapse-filter": false,
-  "search": "",
+  "collapse-filter": true,
+  "search": "path:\"语言/Rust/Rust 语法\"  ",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
@@ -20,6 +20,20 @@
         "a": 1,
         "rgb": 16689577
       }
+    },
+    {
+      "query": "path:\"语言/Rust/Rust 语法/Trait\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 682239
+      }
+    },
+    {
+      "query": "path:\"语言/Rust/Rust 语法\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 11202218
+      }
     }
   ],
   "collapse-display": true,
@@ -32,6 +46,6 @@
   "repelStrength": 9.67569573283859,
   "linkStrength": 1,
   "linkDistance": 152,
-  "scale": 0.4307576878569384,
-  "close": true
+  "scale": 0.5863949095055184,
+  "close": false
 }

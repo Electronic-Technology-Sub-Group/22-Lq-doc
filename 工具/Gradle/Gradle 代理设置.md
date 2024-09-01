@@ -1,3 +1,6 @@
+---
+icon: SiGradle
+---
 ```properties title:gradle.properties
 systemProp.http.proxyHost=代理主机
 systemProp.http.proxyPort=代理端口

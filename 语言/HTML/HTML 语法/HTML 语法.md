@@ -50,10 +50,11 @@ HTML 标签通常分两种：
 <a href="https://www.baidu.com">百度</a>
 ```
 
-当属性值为布尔值时，属性值可以省略，代表 `true`
+当属性值为布尔值时，属性值可以省略，代表该属性值为布尔类型，值与属性名相同
 
 ```HTML
 <video src="..." controls></video>
+<video src="..." controls="controls"></video>
 ```
 
 `<html>` 的 `lang` 属性表示网页语言，用于浏览器、搜索或其他地方识别网页语言
@@ -70,6 +71,7 @@ HTML 标签通常分两种：
 	- 以字母或下划线开头，只能包含数字，字母，下划线，连字符
 	- 一个标签可以有多个类：`<a class="aaa bbb ccc"></a>`
 - 无障碍属性：以 `aria-` 开头
+- `contenteditable`：元素可编辑，配合 JS 常用于创建富文本框
 
 # DOCTYPE
 
@@ -118,6 +120,15 @@ HTML 标签通常分两种：
 | &euro;     | `&euro;`  |
 | &sect;     | `&sect;`  |
 | &copy;     | `&copy;`  |
+
+# 引入 JS
+
+自上而下优先级递减，一般放在 `<body>` 底部，保证网页元素加载完成
+- 内联 JS：在每个标签的事件属性引号中直接写的 JS 代码
+- 内部 JS：`<script>JS 代码</script>`
+- 外部 JS：`<script src="JS 文件地址"></script>`
+
+> [!attention] 当 `<script>` 同时包含代码和 `src` 属性，以代码为准
 
 # 其他
 

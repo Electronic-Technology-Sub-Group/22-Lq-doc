@@ -4,15 +4,15 @@
 难度：Mid
 # 题目
 
-There are `n` points $P_1,P_2,\dots,P_n$​ in a plane forming a convex polygon. The coordinates of the `i`-th point $P_i$​ are $(x_i,y_i)$. You need to find three pairwise distinct indices $r,s,t\in\{1,2,\dots,n\}$, such that there exists a triangle $\triangle ABC$ satisfying  
-- $\triangle ABC$ is the anticomplementary triangle of $\triangle P_rP_sP_t$​.
-- $P_i$​ is inside or on the edge of $\triangle ABC$ for all $1 \leq i \leq n$.
+There are `n` points $P_1,P_2,\dots,P_n$ in a plane forming a convex polygon. The coordinates of the `i`-th point $P_i$ are $(x_i,y_i)$. You need to find three pairwise distinct indices $r,s,t\in\{1,2,\dots,n\}$, such that there exists a triangle $\triangle ABC$ satisfying  
+- $\triangle ABC$ is the anticomplementary triangle of $\triangle P_rP_sP_t$.
+- $P_i$ is inside or on the edge of $\triangle ABC$ for all $1 \leq i \leq n$.
 
 $\triangle ABC$ is the anticomplementary triangle of $\triangle XYZ$ if $X,Y,Z$ are the midpoints of edge $BC,CA,AB$ respectively.
 ## 输入格式
 
 The first line contains an integer $n\ (3 \leq n \leq 10^6)$, indicating the number of points.  
-The $i$-th of the next $n$ lines contains two integers $x_i$​ and $y_i\ (|x_i|,|y_i|\leq 10^9)$, indicating the coordinates of $P_i$​. The vertices are guaranteed to form a convex polygon, and are given in counterclockwise order.
+The $i$-th of the next $n$ lines contains two integers $x_i$ and $y_i\ (|x_i|,|y_i|\leq 10^9)$, indicating the coordinates of $P_i$. The vertices are guaranteed to form a convex polygon, and are given in counterclockwise order.
 ## 输出格式
 
 Output three integers $r,s$ and $t$ indicating the selected indices. If there are multiple solutions, print any of them. You can output $r,s,t$ in an arbitrary order.

@@ -1,23 +1,12 @@
----
-_filters: []
-_contexts: []
-_links: []
-_sort:
-  field: rank
-  asc: false
-  group: false
-_template: ""
-_templateName: ""
----
 Async 模型是一种异步操作模型，需要依赖 futures 包
 
 > [!note]
-> `async` ​与基于共享内存、锁的多线程模型并非二选一，只是一种风格。
+> `async` 与基于共享内存、锁的多线程模型并非二选一，只是一种风格。
 
-在函数前面添加 `async` ​ 修饰，表示该函数是一个异步函数。此时函数的返回值隐式为 Future​
+在函数前面添加 `async`  修饰，表示该函数是一个异步函数。此时函数的返回值隐式为 Future
 
 > [!success]
-> 在一个代码块前加 `async` ​ 表示一个异步表达式，类似闭包，也支持 `async move` ​
+> 在一个代码块前加 `async`  表示一个异步表达式，类似闭包，也支持 `async move` 
 
 ```rust
 async fn downloads() {
@@ -28,7 +17,7 @@ async fn downloads() {
 }
 ```
 
-运行时，执行器会通过 `Future::poll()` ​ 轮询任务是否执行完成
+运行时，执行器会通过 `Future::poll()`  轮询任务是否执行完成
 
 ```rust
 use futures::executor::block_on;
@@ -42,9 +31,9 @@ fn main() {
 }
 ```
 
-在 `async` ​ 方法中通过 `.await` ​，可以等待另一个异步方法完成。
+在 `async`  方法中通过 `.await` ，可以等待另一个异步方法完成。
 
-等待异步任务完成时，线程并非阻塞，而是在异步等待状态，还是可以执行其他 `future` ​ 达到并发效果的
+等待异步任务完成时，线程并非阻塞，而是在异步等待状态，还是可以执行其他 `future`  达到并发效果的
 
 ```rust
 async fn hello_world() {
@@ -57,9 +46,9 @@ async fn hello_kitty() {
 }
 ```
 
-`join!` ​ 宏可以异步的等待多个任务完成
-- 如果多个任务在一个数组中，使用 `futures::future::join_all` ​
-- `try_join!` ​ 返回 `Result` ​
+`join!`  宏可以异步的等待多个任务完成
+- 如果多个任务在一个数组中，使用 `futures::future::join_all` 
+- `try_join!`  返回 `Result` 
 
 ```rust
 async fn enjoy_book_and_music() -> (Book, Music) {
@@ -70,7 +59,7 @@ async fn enjoy_book_and_music() -> (Book, Music) {
 }
 ```
 
-`select!` ​ 宏表示当有任意一个任务完成时，执行其处理器
+`select!`  宏表示当有任意一个任务完成时，执行其处理器
 
 ```rust
 async fn enjoy_book_and_music() {

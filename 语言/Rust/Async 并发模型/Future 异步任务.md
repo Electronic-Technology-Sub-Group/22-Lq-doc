@@ -1,11 +1,11 @@
-`Future` ​ 代表一个能产出值的异步计算，产生后需要通过执行器 `executor` ​ 执行
+`Future`  代表一个能产出值的异步计算，产生后需要通过执行器 `executor`  执行
 
 > [!note]
-> Rust 实现的 Future 实现 `Pin` ​，表示数据指向的可变引用的内存地址是不变的
+> Rust 实现的 Future 实现 `Pin` ，表示数据指向的可变引用的内存地址是不变的
 
 一个简单的 Future 实现计时功能如下：
 
-1. `SharedState` ​ 用于记录任务状态，`completed` ​ 表示任务是否完成
+1. `SharedState`  用于记录任务状态，`completed`  表示任务是否完成
 
 ```rust
 struct SharedState {
@@ -14,10 +14,10 @@ struct SharedState {
 }
 ```
 
-2. `Future` ​ 实现类中持有一个 `shared_state` ​ 以便检查
+2. `Future`  实现类中持有一个 `shared_state`  以便检查
 
 > [!danger]
-> 当执行器是多线程执行器时，应使用 `futures::lock` ​ 替代 `Mutex` ​ 防止线程池死锁
+> 当执行器是多线程执行器时，应使用 `futures::lock`  替代 `Mutex`  防止线程池死锁
 
 ```rust
 pub struct TimeFuture {
@@ -25,7 +25,7 @@ pub struct TimeFuture {
 }
 ```
  
-3. 实现 `new` ​ 方法，新开一个线程作为计时器，并在必要的时候调用 `Waker` ​ 唤醒任务
+3. 实现 `new`  方法，新开一个线程作为计时器，并在必要的时候调用 `Waker`  唤醒任务
 
 > [!note]
 > 这里给出的实例中，只需要调用一次任务即可完成。实际情况下可能要多次调用线程中的代码才能完成
@@ -54,7 +54,7 @@ impl TimeFuture {
 }
 ```
 
-4. 实现 `poll` ​ 方法，检查 `SharedState` ​ 判断任务是否完成，未完成时向 `SharedState` ​ 提供 `Waker` ​
+4. 实现 `poll`  方法，检查 `SharedState`  判断任务是否完成，未完成时向 `SharedState`  提供 `Waker` 
 
 ```rust
 impl Future for TimeFuture {

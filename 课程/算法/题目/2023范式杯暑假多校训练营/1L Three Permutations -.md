@@ -5,12 +5,12 @@
 # 题目
   
 You are given three permutations $a,b,c$ of length $n$. Recall that a permutation is a sequence of $n$ integers from $1$ to $n$, in which each number occurs exactly once.  
-There are three integers $x,y$ and $z$. Initially, all of them equal to $1$. After each second, $x,y,z$ become $a_y,b_z,c_x$​ respectively and simultaneously (**note that the subscripts are** $y,z,x$).  
+There are three integers $x,y$ and $z$. Initially, all of them equal to $1$. After each second, $x,y,z$ become $a_y,b_z,c_x$ respectively and simultaneously (**note that the subscripts are** $y,z,x$).  
 You need to answer multiple independent queries. For each query, you are given three integers $x',y'$ and $z'$. Tell Walk Alone the minimum time needed for tuple $(x,y,z)$ to become $(x',y',z')$ if possible.
 ## 输入格式
   
 The first contains an integer $n\ (1\le n\le 10^5)$, indicating the length of the permutations.  
-Each of the next three lines contains nnn integers. The $i$-th number of the second line, the third line and the fourth line indicate $a_i,b_i$​ and $c_i\ (1 \le a_i,b_i,c_i \le n)$, respectively.  
+Each of the next three lines contains nnn integers. The $i$-th number of the second line, the third line and the fourth line indicate $a_i,b_i$ and $c_i\ (1 \le a_i,b_i,c_i \le n)$, respectively.  
 The next line contains an integer $Q\ (1\le Q\le 10^5)$, indicating the number of queries.  
 Each of the next $Q$ lines contains three integers $x',y'$ and $z'\ (1\le x',y',z'\le n)$.
 ## 输出格式

@@ -1,3 +1,6 @@
+---
+icon: SiGradle
+---
 Maven Publish 是一个使 gradle 构建的产物自动发布到 `maven` 仓库的插件。在 `build.gradle` 中添加以下内容即可。
 
 ```groovy

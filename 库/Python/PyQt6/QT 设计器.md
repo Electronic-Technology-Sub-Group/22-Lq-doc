@@ -1,21 +1,21 @@
-QT Designer 需要安装 qt6-tools​
+QT Designer 需要安装 qt6-tools
 
 ```bash
 pip install pyqt6-tools
 ```
 
-QT Designer 位于 `.local/lib/<python>/site-packages/qt6_applications/Qt/bin/designer​`
+QT Designer 位于 `.local/lib/<python>/site-packages/qt6_applications/Qt/bin/designer`
 
 > [!note]
-> 虚拟环境在 `venv/lib/<python>/site-packages/qt6_applications/Qt/bin/designer` ​​
+> 虚拟环境在 `venv/lib/<python>/site-packages/qt6_applications/Qt/bin/designer` 
 
-通过 `.local/bin/qt6-tools designer​​` 打开
+通过 `.local/bin/qt6-tools designer` 打开
 
 QT 设计器打开后默认先要选择窗体
 
 窗体：Dialog、Main Window、Widget 统称窗体，其他称为窗口
 
-- 窗体模板 templates/forms​ 包含一些预定义窗体，可以在右侧预览
+- 窗体模板 templates/forms 包含一些预定义窗体，可以在右侧预览
 	- 对话框 dialog 是顶层窗体，不能做为其他窗体组件
 	- 主窗体 Main Window 包含中央部件区（Centeral Widget）、菜单栏、状态栏
 - 窗口组件：除 Dialog、Main Window、Widget 外的显示页面
@@ -40,20 +40,20 @@ QT 设计器打开后默认先要选择窗体
 
 # 窗口代码
 
-​`.ui​` 文件通过 `PyUic` 转换成 py 文件，位于 `<env>/bin/pyuic6​`
+`.ui` 文件通过 `PyUic` 转换成 py 文件，位于 `<env>/bin/pyuic6`
 
 ```bash
 pyuic6 -o <.py 文件> <.ui 文件>
 ```
 
-生成的 `.py`​ 文件包含一个 `Ui_Dialog`​ 类，使用 `setupUi`​ 方法创建和初始化界面
+生成的 `.py` 文件包含一个 `Ui_Dialog` 类，使用 `setupUi` 方法创建和初始化界面
 
-- ​`retranslateUi`​ 用于设置对话框标题和控件文本
-- ​`QtCore.QMetaObject.connectSlotsByName(Dialog)​` 用于按控件名称绑定槽
+- `retranslateUi` 用于设置对话框标题和控件文本
+- `QtCore.QMetaObject.connectSlotsByName(Dialog)` 用于按控件名称绑定槽
 
-创建一个新 `QDialog` ​ 类，该类做以下两件事：
+创建一个新 `QDialog`  类，该类做以下两件事：
 
-- 创建 `Ui_Dialog`​ 类并调用 `setupUi`​ 方法
+- 创建 `Ui_Dialog` 类并调用 `setupUi` 方法
 
 ```embed-python
 PATH: "https://gitee.com/lq2007/py-qt6-demo/raw/master/circleCal2.py"
