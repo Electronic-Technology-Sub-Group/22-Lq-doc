@@ -76,7 +76,6 @@ image: https://learn.microsoft.com/en-us/media/open-graph-image.png
 
 使用 `pin` 将指定应用版本，可以指定升级到的版本，也可以阻止升级包
 
-固定有三种模式：
 - `pinning`：默认，从 `upgrade --all` 中排除，但允许使用 `upgrade <应用>`
 - `blocking`：禁止 `upgrade --all` 和 `upgrade <应用>`
 - `gating`：固定到某个确定版本或某个版本范围
@@ -92,9 +91,30 @@ image: https://learn.microsoft.com/en-us/media/open-graph-image.png
 
 # 卸载
 
-`winget uninstall `
+`winget uninstall/delete/rm <应用>`
 
 # 设置
+
+`winget settings/config` 命令使用默认 JSON 文件编辑器打开 Winget 配置文件
+
+## 源配置  `source`
+
+`autoUpdateIntervalInMinutes` 表示更新间隔（单位：分钟），也可以使用 `winget source update` 手动更新
+
+## 安装行为  `installBehavior`
+
+- `portablePackageUserRoot`：安装到当前用户的应用默认安装位置
+	- 默认 `%LOCALAPPDATA%/Microsoft/WinGet/Packages`
+- `portablePackageMachineRoot`：安装到全局的应用默认安装位置
+	- 默认 `%PROGRAMFILES%/WinGet/Packages`
+- 首选项：`preferences` 表示优先选择，`requirements` 表示必选
+	- `scope`：安装位置，`user` 或 `machine`，默认 `user`
+	- `architectures`：硬件体系，数组，如 `["x64"]`
+	- `installerTypes`：安装包类型，数组，如 `["msix", "msi"]`
+	- `downloadBehavior`：下载行为
+		- `defaultDownloadDirectory`：默认下载位置
+- `logging`：日志
+	- `level`：日志等级，默认 `info`，可选 `verbose/info/warning/error/critical`
 
 # 脚本
 

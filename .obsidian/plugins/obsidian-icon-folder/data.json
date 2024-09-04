@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
-      "SiNvidia",
-      "SiKde",
-      "LiNetwork",
-      "SiArchlinux",
-      "LiArchive"
+      "ApAutox",
+      "SiMermaid",
+      "LiCommand",
+      "LiBluetooth",
+      "SiPostgresql"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -39,7 +39,6 @@
   "工具/git": "SiGit",
   "工具/远程连接与共享": "LiSyncSmall",
   "工具/Android": "SiAndroid",
-  "工具/Android/Android调试.md": "SiAndroid",
   "工具/Docker": "SiDocker",
   "工具/Docker/Docker Compose": "SiDocker",
   "工具/Docker/应用容器化.md": {
@@ -78,43 +77,6 @@
   },
   "工具/远程连接与共享/syncthing.md": "ApSyncthing",
   "工具/远程连接与共享/synergy.md": "ApSynergy",
-  "工具/GCC": "SiGnu",
-  "工具/GCC/g++.md": {
-    "iconName": "SiGnu"
-  },
-  "工具/GCC/Mingw64 安装.md": "ApMingw64",
-  "工具/Gradle": "SiGradle",
-  "工具/Gradle/Gradle 8.5": "SiGradle",
-  "工具/Gradle/编码GBK的不可映射字符.md": {
-    "iconName": "SiGradle"
-  },
-  "工具/Gradle/Gradle 代理设置.md": {
-    "iconName": "SiGradle"
-  },
-  "工具/Gradle/Gradle 修改缓存位置.md": {
-    "iconName": "SiGradle"
-  },
-  "工具/Gradle/Gradle 8.5/文档/Gradle 托管属性.md": {
-    "iconName": "SiGradle"
-  },
-  "工具/Gradle/Gradle 8.5/教程/自定义 Gradle 插件.md": {
-    "iconName": "SiGradle"
-  },
-  "工具/Gradle/Gradle 8.5/教程/Gradle 基础结构.md": {
-    "iconName": "SiGradle"
-  },
-  "工具/Gradle/Gradle 8.5/教程/Gradle 项目基础.md": {
-    "iconName": "SiGradle"
-  },
-  "工具/Gradle/Gradle 8.5/插件/Maven Publish.md": {
-    "iconName": "SiGradle"
-  },
-  "工具/Gradle/Gradle 8.5/插件/ShadowJar.md": {
-    "iconName": "SiGradle"
-  },
-  "工具/Gradle/Gradle 8.5/插件": "SiGradle",
-  "工具/Gradle/Gradle 8.5/教程": "SiGradle",
-  "工具/Gradle/Gradle 8.5/文档": "SiGradle",
   "工具/Jetbrains": "SiJetbrains",
   "工具/Jetbrains/Jetbrains 控制台乱码.md": "SiJetbrains",
   "工具/Linux": "SiLinux",
@@ -122,7 +84,6 @@
   "工具/Linux/系统组件/Union File System.md": {
     "iconName": "SiLinux"
   },
-  "工具/Linux/bash": "LiTerminal",
   "工具/Linux/关闭默认钥匙环密码.md": "SiLinux",
   "工具/Linux/极路由获取永久root权限.md": "ApGee",
   "工具/Linux/Alibaba Cloud Linux 安装 MySql.md": "SiAlibabacloud",
@@ -231,11 +192,7 @@
   "工具/Steam": "SiSteam",
   "工具/Steam/删除成就.md": "SiSteam",
   "工具/Windows": "SiWindows",
-  "工具/Maven.md": "SiApachemaven",
-  "工具/PyInstaller.md": "SiPython",
   "工具/Ventoy.md": "ApVentoy",
-  "工具/Vite.md": "SiVite",
-  "工具/Vue CLI.md": "SiVuedotjs",
   "库/游戏相关/Melvor Idle Mod": "ApMelvor",
   "库/游戏相关/Melvor Idle Mod/Melvor Idle Context.md": "ApMelvor",
   "库/游戏相关/Minecraft Core Mod": "ApMinecraft",
@@ -403,5 +360,56 @@
   "工具/Linux/Arch/Network Manager 配置.md": "LiNetwork",
   "工具/Linux/Arch/Arch 安装.md": "SiArchlinux",
   "工具/Linux/Arch/Nvidia 驱动.md": "SiNvidia",
-  "工具/Linux/Arch/KDE 安装.md": "SiKde"
+  "工具/Linux/Arch/KDE 安装.md": "SiKde",
+  "工具/PlantUML.md": "SiUml",
+  "工具/Vim/Vim.md": "SiVim",
+  "工具/Vim": "SiVim",
+  "工具/Vue CLI.md": "SiVuedotjs",
+  "工具/PyInstaller.md": "SiPython",
+  "工具/Vite.md": "SiVite",
+  "工具/编译器": "SiCompilerexplorer",
+  "工具/编译器/g++.md": "SiGnu",
+  "工具/编译器/Mingw64 安装.md": "ApMingw64",
+  "工具/编译器/Gradle": "SiGradle",
+  "工具/编译器/Gradle/Gradle 8.5": "SiGradle",
+  "工具/编译器/Gradle/Gradle 代理设置.md": {
+    "iconName": "SiGradle"
+  },
+  "工具/编译器/Gradle/Gradle 修改缓存位置.md": {
+    "iconName": "SiGradle"
+  },
+  "工具/编译器/Gradle/编码GBK的不可映射字符.md": {
+    "iconName": "SiGradle"
+  },
+  "工具/编译器/Gradle/Gradle 8.5/教程": "SiGradle",
+  "工具/编译器/Gradle/Gradle 8.5/插件": "SiGradle",
+  "工具/编译器/Gradle/Gradle 8.5/文档": "SiGradle",
+  "工具/编译器/Gradle/Gradle 8.5/教程/Gradle 基础结构.md": {
+    "iconName": "SiGradle"
+  },
+  "工具/编译器/Gradle/Gradle 8.5/教程/Gradle 项目基础.md": {
+    "iconName": "SiGradle"
+  },
+  "工具/编译器/Gradle/Gradle 8.5/教程/自定义 Gradle 插件.md": {
+    "iconName": "SiGradle"
+  },
+  "工具/编译器/Gradle/Gradle 8.5/插件/Maven Publish.md": {
+    "iconName": "SiGradle"
+  },
+  "工具/编译器/Gradle/Gradle 8.5/文档/Gradle 托管属性.md": {
+    "iconName": "SiGradle"
+  },
+  "工具/编译器/Gradle/Gradle 8.5/插件/ShadowJar.md": {
+    "iconName": "SiGradle"
+  },
+  "工具/编译器/Maven.md": "SiApachemaven",
+  "工具/编译器/CMake.md": "SiCmake",
+  "工具/PostgreSQL.md": "SiPostgresql",
+  "工具/Android/a2dp.md": "LiBluetooth",
+  "工具/编译器/GNUMake/GNUMake.md": "SiMake",
+  "工具/编译器/GNUMake": "SiMake",
+  "工具/命令行/bash": "LiTerminal",
+  "工具/命令行": "LiCommand",
+  "文档/Mermaid.md": "SiMermaid",
+  "工具/AutoX.md": "ApAutox"
 }

@@ -1,200 +1,204 @@
 {
   "recentFiles": [
     {
-      "basename": "KDE 安装",
-      "path": "工具/Linux/Arch/KDE 安装.md"
-    },
-    {
-      "basename": "Arch 安装",
-      "path": "工具/Linux/Arch/Arch 安装.md"
+      "basename": "语言",
+      "path": "语言/语言.md"
     },
     {
       "basename": "任务",
       "path": "任务.md"
     },
     {
-      "basename": "Nvidia 驱动",
-      "path": "工具/Linux/Arch/Nvidia 驱动.md"
+      "basename": "bash",
+      "path": "工具/命令行/bash/bash.md"
     },
     {
-      "basename": "Network Manager 配置",
-      "path": "工具/Linux/Arch/Network Manager 配置.md"
+      "basename": "命令行的艺术",
+      "path": "_resources/documents/命令行的艺术.md"
+    },
+    {
+      "basename": "_resources",
+      "path": "_resources/_resources.md"
+    },
+    {
+      "basename": "Qt 项目实例",
+      "path": "库/Python/PyQt6/项目实例/Qt 项目实例.md"
+    },
+    {
+      "basename": "简版微信",
+      "path": "库/Python/PyQt6/项目实例/简版微信.md"
+    },
+    {
+      "basename": "kinds",
+      "path": "库/游戏相关/Minecraft Java Mod/DataUpperFixer/kinds/kinds.md"
+    },
+    {
+      "basename": "App2 与 K2",
+      "path": "库/游戏相关/Minecraft Java Mod/DataUpperFixer/kinds/App2 与 K2.md"
+    },
+    {
+      "basename": "Representable",
+      "path": "库/游戏相关/Minecraft Java Mod/DataUpperFixer/kinds/Functor 与 Kind/Representable.md"
+    },
+    {
+      "basename": "Functor 与 Kind",
+      "path": "库/游戏相关/Minecraft Java Mod/DataUpperFixer/kinds/Functor 与 Kind/Functor 与 Kind.md"
+    },
+    {
+      "basename": "CartesianLike",
+      "path": "库/游戏相关/Minecraft Java Mod/DataUpperFixer/kinds/Functor 与 Kind/CartesianLike.md"
+    },
+    {
+      "basename": "CocartesianLike",
+      "path": "库/游戏相关/Minecraft Java Mod/DataUpperFixer/kinds/Functor 与 Kind/CocartesianLike.md"
+    },
+    {
+      "basename": "Traversable",
+      "path": "库/游戏相关/Minecraft Java Mod/DataUpperFixer/kinds/Functor 与 Kind/Traversable.md"
+    },
+    {
+      "basename": "Minecraft Core Mod",
+      "path": "库/游戏相关/Minecraft Core Mod/Minecraft Core Mod.md"
+    },
+    {
+      "basename": "CMake",
+      "path": "工具/编译器/CMake.md"
+    },
+    {
+      "basename": "GNUMake",
+      "path": "工具/编译器/GNUMake/GNUMake.md"
+    },
+    {
+      "basename": "AutoX",
+      "path": "工具/AutoX.md"
+    },
+    {
+      "basename": "Mermaid",
+      "path": "文档/Mermaid.md"
+    },
+    {
+      "basename": "库文件",
+      "path": "工具/编译器/GNUMake/库文件.md"
+    },
+    {
+      "basename": "隐含规则",
+      "path": "工具/编译器/GNUMake/隐含规则.md"
+    },
+    {
+      "basename": "make",
+      "path": "工具/编译器/GNUMake/make.md"
+    },
+    {
+      "basename": "makefile",
+      "path": "工具/编译器/GNUMake/makefile.md"
+    },
+    {
+      "basename": "函数",
+      "path": "工具/编译器/GNUMake/函数.md"
+    },
+    {
+      "basename": "变量",
+      "path": "工具/编译器/GNUMake/变量.md"
+    },
+    {
+      "basename": "条件判断",
+      "path": "工具/编译器/GNUMake/条件判断.md"
+    },
+    {
+      "basename": "命令",
+      "path": "工具/编译器/GNUMake/命令.md"
+    },
+    {
+      "basename": "规则",
+      "path": "工具/编译器/GNUMake/规则.md"
+    },
+    {
+      "basename": "LaTeX",
+      "path": "文档/LaTeX.md"
+    },
+    {
+      "basename": "两列代码",
+      "path": "_resources/templates/两列代码.md"
+    },
+    {
+      "basename": "声明",
+      "path": "语言/JavaScript/Typescript 语法/声明.md"
+    },
+    {
+      "basename": "命令别名",
+      "path": "工具/命令行/命令别名.md"
+    },
+    {
+      "basename": "Markdown",
+      "path": "文档/Markdown.md"
+    },
+    {
+      "basename": "函数",
+      "path": "语言/JavaScript/ECMAScript 语法/函数.md"
+    },
+    {
+      "basename": "CSS",
+      "path": "语言/CSS/CSS/CSS.md"
+    },
+    {
+      "basename": "C Cpp",
+      "path": "库/C Cpp/C Cpp.md"
+    },
+    {
+      "basename": "质数",
+      "path": "课程/算法/质数.md"
+    },
+    {
+      "basename": "AcWing 算法基础课",
+      "path": "课程/算法/AcWing/AcWing 算法基础课.md"
+    },
+    {
+      "basename": "工具",
+      "path": "工具/工具.md"
+    },
+    {
+      "basename": "a2dp",
+      "path": "工具/Android/a2dp.md"
+    },
+    {
+      "basename": "Android调试",
+      "path": "工具/Android/Android调试.md"
+    },
+    {
+      "basename": "PostgreSQL",
+      "path": "工具/PostgreSQL.md"
+    },
+    {
+      "basename": "a2dp",
+      "path": "_resources/documents/a2dp.md"
     },
     {
       "basename": "权限管理",
-      "path": "工具/Linux/bash/权限管理.md"
+      "path": "工具/命令行/bash/权限管理.md"
     },
     {
-      "basename": "系统管理",
-      "path": "工具/Linux/bash/系统管理.md"
+      "basename": "Obsidian",
+      "path": "工具/Obsidian/Obsidian.md"
     },
     {
-      "basename": "文件系统",
-      "path": "工具/Linux/bash/文件系统.md"
+      "basename": "webpack",
+      "path": "工具/Node.js/webpack.md"
     },
     {
-      "basename": "文件读写",
-      "path": "工具/Linux/bash/文件读写.md"
+      "basename": "NPM 常用命令",
+      "path": "工具/Node.js/NPM 常用命令.md"
     },
     {
-      "basename": "网络相关",
-      "path": "工具/Linux/bash/网络相关.md"
+      "basename": "PyInstaller",
+      "path": "工具/PyInstaller.md"
     },
     {
-      "basename": "Union File System",
-      "path": "工具/Linux/系统组件/Union File System.md"
+      "basename": "Ventoy",
+      "path": "工具/Ventoy.md"
     },
     {
-      "basename": "Namespace",
-      "path": "工具/Linux/系统组件/Namespace.md"
-    },
-    {
-      "basename": "Cgroups",
-      "path": "工具/Linux/系统组件/Cgroups.md"
-    },
-    {
-      "basename": "sudo 配置",
-      "path": "工具/Linux/sudo 配置.md"
-    },
-    {
-      "basename": "Alibaba Cloud Linux 安装 MySql",
-      "path": "工具/Linux/Alibaba Cloud Linux 安装 MySql.md"
-    },
-    {
-      "basename": "平板电脑安装Ubuntu教程",
-      "path": "工具/Linux/Debian 系/平板电脑安装Ubuntu教程.md"
-    },
-    {
-      "basename": "systemd",
-      "path": "工具/Linux/自动执行/systemd.md"
-    },
-    {
-      "basename": "sh 文件无法运行",
-      "path": "工具/Linux/sh 文件无法运行.md"
-    },
-    {
-      "basename": "自动执行",
-      "path": "工具/Linux/自动执行/自动执行.md"
-    },
-    {
-      "basename": "Linux",
-      "path": "工具/Linux/Linux.md"
-    },
-    {
-      "basename": "ZeroTier 内网穿透",
-      "path": "工具/Linux/OpenWrt/ZeroTier 内网穿透.md"
-    },
-    {
-      "basename": "网络唤醒",
-      "path": "工具/Linux/OpenWrt/网络唤醒.md"
-    },
-    {
-      "basename": "网络唤醒",
-      "path": "工具/Windows/网络唤醒.md"
-    },
-    {
-      "basename": "为了对电脑进行保护，已经阻止此应用",
-      "path": "工具/Windows/为了对电脑进行保护，已经阻止此应用.md"
-    },
-    {
-      "basename": "跳过 Win11 安装联网",
-      "path": "工具/Windows/跳过 Win11 安装联网.md"
-    },
-    {
-      "basename": "管理工具",
-      "path": "工具/MySQL 8.0/管理工具.md"
-    },
-    {
-      "basename": "事务原理",
-      "path": "工具/MySQL 8.0/InnoDB/事务原理.md"
-    },
-    {
-      "basename": "多版本并发控制",
-      "path": "工具/MySQL 8.0/InnoDB/多版本并发控制.md"
-    },
-    {
-      "basename": "权限控制",
-      "path": "工具/MySQL 8.0/权限控制.md"
-    },
-    {
-      "basename": "存储引擎",
-      "path": "工具/MySQL 8.0/存储引擎.md"
-    },
-    {
-      "basename": "架构",
-      "path": "工具/MySQL 8.0/InnoDB/架构.md"
-    },
-    {
-      "basename": "分页查询",
-      "path": "工具/MySQL 8.0/分页查询.md"
-    },
-    {
-      "basename": "配置无线中继",
-      "path": "工具/Linux/OpenWrt/配置无线中继.md"
-    },
-    {
-      "basename": "MAC 克隆",
-      "path": "工具/Linux/OpenWrt/MAC 克隆.md"
-    },
-    {
-      "basename": "1.2 兼容 1.1 垫片",
-      "path": "工具/洛雪/1.2 兼容 1.1 垫片.md"
-    },
-    {
-      "basename": "基本语法",
-      "path": "语言/CSharp/CSharp 语法/基本语法.md"
-    },
-    {
-      "basename": "CSharp 语法",
-      "path": "语言/CSharp/CSharp 语法/CSharp 语法.md"
-    },
-    {
-      "basename": "CSharp 并行任务",
-      "path": "语言/CSharp/CSharp 语法/CSharp 并行任务.md"
-    },
-    {
-      "basename": "CSharp 网络",
-      "path": "语言/CSharp/CSharp 语法/CSharp 网络.md"
-    },
-    {
-      "basename": "CSharp 密封类",
-      "path": "语言/CSharp/CSharp 语法/CSharp 密封类.md"
-    },
-    {
-      "basename": "CSharp 动态类型",
-      "path": "语言/CSharp/CSharp 语法/CSharp 动态类型.md"
-    },
-    {
-      "basename": "枚举",
-      "path": "语言/Rust/Rust 语法/数据类型/枚举.md"
-    },
-    {
-      "basename": "数据类型",
-      "path": "语言/Rust/Rust 语法/数据类型/数据类型.md"
-    },
-    {
-      "basename": "对象",
-      "path": "语言/JavaScript/ECMAScript 语法/对象.md"
-    },
-    {
-      "basename": "Rust 语法",
-      "path": "语言/Rust/Rust 语法/Rust 语法.md"
-    },
-    {
-      "basename": "并发基础",
-      "path": "语言/Rust/Rust 语法/并发基础.md"
-    },
-    {
-      "basename": "模块私有性",
-      "path": "语言/Rust/Rust 语法/模块私有性.md"
-    },
-    {
-      "basename": "Workspace",
-      "path": "语言/Rust/Rust 语法/Workspace.md"
-    },
-    {
-      "basename": "发布",
-      "path": "语言/Rust/Rust 语法/发布.md"
+      "basename": "Vite",
+      "path": "工具/Vite.md"
     }
   ],
   "omittedPaths": []
