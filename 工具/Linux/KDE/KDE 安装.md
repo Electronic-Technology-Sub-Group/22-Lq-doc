@@ -66,16 +66,3 @@ systemctl enable sddm.service
 User=<用户名>
 Session=plasma
 ```
-
-# 中文字体
-
-- 用户配置：
-- 全局配置：
-
-刷新字体缓存
-
-```bash
-fc-cache -fv
-```
-
-然后注销重新登录即可

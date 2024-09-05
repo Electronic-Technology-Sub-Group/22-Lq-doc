@@ -1,6 +1,3 @@
----
-icon: ApNetty
----
 `ChannelHandler` 接口定义了 `handlerAdded`，`handlerRemoved`，`exceptionCaught` 方法，便于实现自定义业务，如日志、编解码、过滤等。
 * `handlerAdded`：添加到实际上下文并开始处理事件时调用
 * `handlerRemoved`：从上下文中移除时调用

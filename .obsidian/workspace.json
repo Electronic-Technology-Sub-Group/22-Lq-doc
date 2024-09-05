@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "b5177760b3b6a4cd",
+        "id": "829c6b1d2ff6e8c4",
         "type": "tabs",
         "children": [
           {
-            "id": "f1c02d3a48500985",
+            "id": "3b8eb1472c4cafd8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "语言/语言.md",
+                "file": "工具/包管理器/Pacman.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 258.51103591918945
+    "width": 200
   },
   "right": {
     "id": "2f5d582e60864eba",
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "语言/语言.md",
+                "file": "工具/包管理器/Pacman.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "语言/语言.md",
+                "file": "工具/包管理器/Pacman.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "语言/语言.md"
+                "file": "工具/包管理器/Pacman.md"
               }
             }
           },
@@ -195,7 +195,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 278.5
+    "width": 278.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -204,54 +205,60 @@
       "templates:插入模板": true,
       "command-palette:打开命令面板": true,
       "workspaces:管理工作区布局": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": false,
-      "obsidian-importer:Open Importer": false,
-      "mermaid-tools:Open Mermaid Toolbar": false,
-      "sheet-plus:创建 Excel 文件": true,
+      "obsidian-projects:打开项目": false,
+      "sheet-plus:创建 Excel 文件": false,
       "templater-obsidian:Templater": false,
       "obsidian-spaced-repetition:复习卡片": false,
-      "homepage:Open homepage": true,
-      "obsidian-projects:打开项目": false,
       "terminal:Open terminal": false,
+      "mermaid-tools:Open Mermaid Toolbar": false,
+      "obsidian-importer:Open Importer": false,
+      "homepage:Open homepage": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
       "notion-like-tables:Create loom": false,
       "media-extended:Open media": false,
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "f1c02d3a48500985",
+  "active": "da0ea89a9f61f80f",
   "lastOpenFiles": [
+    "工具/包管理器/Pacman.md",
+    "库/Java/Netty/netty4 user guide/netty4 user guide.md",
+    "库/Java/Netty/netty4 user guide/Encoder.md",
+    "库/Java/Netty/netty4 user guide/Echo 服务器.md",
+    "库/Java/Netty/netty4 user guide/DISCARD 服务器.md",
+    "库/Java/Netty/netty4 user guide/Decoder.md",
+    "库/Java/Netty/netty4 user guide/ChannelHandler.md",
+    "库/Java/Netty/netty4 user guide/时间服务器.md",
+    "库/Java/Netty/netty4 user guide/Buffer.md",
+    "工具/依赖版本管理/Java.md",
+    "工具/Linux/Arch/运行环境切换.md",
+    "工具/Linux/KDE/Electron 应用 fcitx5 无法切换语言.md",
+    "工具/依赖版本管理/依赖版本管理.md",
+    "工具/依赖版本管理",
+    "_resources/images/Pasted image 20240905154001.png",
+    "_resources/images/Pasted image 20240905153635.png",
+    "_resources/images/Pasted image 20240905153433.png",
+    "_resources/images/Pasted image 20240905153214.png",
+    "工具/Linux/KDE/KDE 安装.md",
     "任务.md",
+    "工具/Linux/KDE",
+    "工具/编译器/Maven.md",
+    "工具/Linux/Arch/Arch xiassss.md",
+    "工具/Linux/Arch/Arch 安装.md",
+    "语言/语言.md",
+    "工具/Linux/Arch/Arch.md",
     "工具/命令行/bash/bash.md",
     "_resources/documents/命令行的艺术.md",
     "_resources/images/Pasted image 20240905012706.png",
     "_resources/_resources.md",
-    "语言/语言.md",
     "库/Python/PyQt6/项目实例/Qt 项目实例.md",
     "库/Python/PyQt6/项目实例/简版微信.md",
     "库/游戏相关/Minecraft Java Mod/DataUpperFixer/kinds/kinds.md",
-    "库/游戏相关/Minecraft Java Mod/DataUpperFixer/kinds/App2 与 K2.md",
-    "库/游戏相关/Minecraft Java Mod/DataUpperFixer/kinds/Functor 与 Kind/Representable.md",
-    "库/游戏相关/Minecraft Java Mod/DataUpperFixer/kinds/Functor 与 Kind/Functor 与 Kind.md",
-    "库/游戏相关/Minecraft Java Mod/DataUpperFixer/kinds/Functor 与 Kind/CartesianLike.md",
-    "库/游戏相关/Minecraft Java Mod/DataUpperFixer/kinds/Functor 与 Kind/CocartesianLike.md",
-    "库/游戏相关/Minecraft Java Mod/DataUpperFixer/kinds/Functor 与 Kind/Traversable.md",
-    "库/游戏相关/Minecraft Core Mod/Minecraft Core Mod.md",
-    "工具/编译器/CMake.md",
-    "工具/编译器/GNUMake/GNUMake.md",
-    "工具/AutoX.md",
-    "文档/Mermaid.md",
-    "工具/编译器/GNUMake/库文件.md",
-    "工具/编译器/GNUMake/隐含规则.md",
     "_resources/images/Pasted image 20240905003420.png",
     "_resources/images/Pasted image 20240905003350.png",
     "_resources/images/Pasted image 20240904235110.png",
     "_resources/images/Pasted image 20240904235102.png",
-    "工具/编译器/GNUMake/make.md",
-    "工具/编译器/GNUMake/makefile.md",
-    "工具/编译器/GNUMake/函数.md",
-    "工具/编译器/GNUMake/变量.md",
-    "工具/编译器/GNUMake/条件判断.md",
     "_resources/codes/make/variable3/1.txt",
     "_resources/codes/make/variable3/makefile3",
     "_resources/codes/make/variable3/makefile2 copy",
@@ -260,13 +267,7 @@
     "_resources/codes/make/variable3/makefile",
     "_resources/codes/make/variable3",
     "_resources/codes/make/variable2 copy/makefile",
-    "_resources/codes/make/variable2 copy/makefile2",
-    "_resources/codes/make/variable2 copy",
     "_resources/images/ca41eb644696163e9d065c6b1b7819f2.gif",
-    "_resources/images/Pasted image 20240903132718.jpg",
-    "_resources/images/Pasted image 20240903132715.jpg",
-    "_resources/images/Pasted image 20240903132707.png",
-    "_resources/images/Pasted image 20240903132633.png",
     "语言/C Cpp/C++更新图.canvas",
     "语言/C Cpp/C++ 语法/C++ 语法.canvas",
     "语言/Class 字节码/Untitled.canvas",

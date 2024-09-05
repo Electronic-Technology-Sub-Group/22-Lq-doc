@@ -1,12 +1,68 @@
 {
   "recentFiles": [
     {
-      "basename": "语言",
-      "path": "语言/语言.md"
+      "basename": "Pacman",
+      "path": "工具/包管理器/Pacman.md"
+    },
+    {
+      "basename": "netty4 user guide",
+      "path": "库/Java/Netty/netty4 user guide/netty4 user guide.md"
+    },
+    {
+      "basename": "Encoder",
+      "path": "库/Java/Netty/netty4 user guide/Encoder.md"
+    },
+    {
+      "basename": "Echo 服务器",
+      "path": "库/Java/Netty/netty4 user guide/Echo 服务器.md"
+    },
+    {
+      "basename": "DISCARD 服务器",
+      "path": "库/Java/Netty/netty4 user guide/DISCARD 服务器.md"
+    },
+    {
+      "basename": "Decoder",
+      "path": "库/Java/Netty/netty4 user guide/Decoder.md"
+    },
+    {
+      "basename": "ChannelHandler",
+      "path": "库/Java/Netty/netty4 user guide/ChannelHandler.md"
+    },
+    {
+      "basename": "时间服务器",
+      "path": "库/Java/Netty/netty4 user guide/时间服务器.md"
+    },
+    {
+      "basename": "Buffer",
+      "path": "库/Java/Netty/netty4 user guide/Buffer.md"
+    },
+    {
+      "basename": "Java",
+      "path": "工具/依赖版本管理/Java.md"
+    },
+    {
+      "basename": "Electron 应用 fcitx5 无法切换语言",
+      "path": "工具/Linux/KDE/Electron 应用 fcitx5 无法切换语言.md"
+    },
+    {
+      "basename": "KDE 安装",
+      "path": "工具/Linux/KDE/KDE 安装.md"
     },
     {
       "basename": "任务",
       "path": "任务.md"
+    },
+    {
+      "basename": "Maven",
+      "path": "工具/编译器/Maven.md"
+    },
+    {
+      "basename": "Arch 安装",
+      "path": "工具/Linux/Arch/Arch 安装.md"
+    },
+    {
+      "basename": "语言",
+      "path": "语言/语言.md"
     },
     {
       "basename": "bash",
@@ -143,62 +199,6 @@
     {
       "basename": "C Cpp",
       "path": "库/C Cpp/C Cpp.md"
-    },
-    {
-      "basename": "质数",
-      "path": "课程/算法/质数.md"
-    },
-    {
-      "basename": "AcWing 算法基础课",
-      "path": "课程/算法/AcWing/AcWing 算法基础课.md"
-    },
-    {
-      "basename": "工具",
-      "path": "工具/工具.md"
-    },
-    {
-      "basename": "a2dp",
-      "path": "工具/Android/a2dp.md"
-    },
-    {
-      "basename": "Android调试",
-      "path": "工具/Android/Android调试.md"
-    },
-    {
-      "basename": "PostgreSQL",
-      "path": "工具/PostgreSQL.md"
-    },
-    {
-      "basename": "a2dp",
-      "path": "_resources/documents/a2dp.md"
-    },
-    {
-      "basename": "权限管理",
-      "path": "工具/命令行/bash/权限管理.md"
-    },
-    {
-      "basename": "Obsidian",
-      "path": "工具/Obsidian/Obsidian.md"
-    },
-    {
-      "basename": "webpack",
-      "path": "工具/Node.js/webpack.md"
-    },
-    {
-      "basename": "NPM 常用命令",
-      "path": "工具/Node.js/NPM 常用命令.md"
-    },
-    {
-      "basename": "PyInstaller",
-      "path": "工具/PyInstaller.md"
-    },
-    {
-      "basename": "Ventoy",
-      "path": "工具/Ventoy.md"
-    },
-    {
-      "basename": "Vite",
-      "path": "工具/Vite.md"
     }
   ],
   "omittedPaths": []

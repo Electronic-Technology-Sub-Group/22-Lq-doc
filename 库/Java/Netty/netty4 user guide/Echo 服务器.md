@@ -1,6 +1,3 @@
----
-icon: ApNetty
----
 应答服务器，接收数据并原样返回。
 
 比起 Discard 抛弃服务多了一步返回数据，所以只需要将 `DiscardServerHandler` 改动一下即可。这里将其名称重命名为 `EchoServerHandler`
