@@ -1,35 +1,26 @@
-# util 模式
+> [!note] xmlns 与 xsi
 
-`xmlns:util="http://www.springframework.org/schema/util"`
+```reference
+file: "@/_resources/codes/spring/ioc-util/src/main/resources/applicationContext.xml"
+start: 4
+end: 5
+```
 
-`xsi:schemaLocation="... http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd"`
+简化配置 `bean`，直接在容器中直接创建对应对象
 
-`util` 模式可用于简化配置 `bean`，用于直接在容器中直接创建对应对象
+> [!note] `util` 模式是 [[FactoryBean]] 的快捷方式
 
-|元素|描述|
-| ---------------------| -------------------------------|
-|<list>|创建一个 `java.util.List` 作为一个 `bean`|
-|<map>|创建一个 `java.util.Map` 作为一个 `bean`|
-|<set>|创建一个 `java.util.Set` 作为一个 `bean`|
-|<constant>|将一个 `public static` 字段暴露为一个 `bean`|
-|<property-path>|将一个 `beanmy-notebooks` 的属性暴露为一个 `bean`|
-|<properties>|创建一个 `java.util.Properties` 作为一个 `bean`|
+| 元素                                    | 描述                     | FactoryBean 类型               |
+| ------------------------------------- | ---------------------- | ---------------------------- |
+| [[list\|<list>]]                   | `java.util.List`       | `ListFactoryBean`            |
+| [[map\|<map>]]                     | `java.util.Map`        | `MapFactoryBean`             |
+| [[set\|<set>]]                     | `java.util.Set`        | `SetFactoryBean`             |
+| [[constant\|<constant>]]              | `public static` 字段     | `FieldRetrievingFactoryBean` |
+| [[property-path\|<property-path>]] | `bean` 属性              | `PropertyPathFactoryBean`    |
+| [[properties\|<properties>]]       | `java.util.Properties` | `PropertiesFactoryBean`      |
 
 通用属性：
 
 |属性|说明|
 | ------| -----------------------|
 |`scope`|暴露 `bean` 范围，默认 `singleton`|
-
-`util` 模式是 FactoryBean 的快捷方式
-
-|元素|FactoryBean 类型|
-| ------| ------------------|
-|`<list>`|`ListFactoryBean`|
-|`<map>`|`MapFactoryBean`|
-|`<set>`|`SetFactoryBean`|
-|`<constant>`|`FieldRetrievingFactoryBean`|
-|`<property-path>`|`PropertyPathFactoryBean`|
-|`<properties>`|`PropertiesFactoryBean`|
-
-‍

@@ -4,23 +4,41 @@
     "type": "split",
     "children": [
       {
-        "id": "829c6b1d2ff6e8c4",
+        "id": "7f1e7c61ceb1c582",
         "type": "tabs",
         "children": [
           {
-            "id": "3b8eb1472c4cafd8",
+            "id": "35fb6a69926398b0",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "工具/包管理器/Pacman.md",
-                "mode": "source",
+                "file": "库/Java/Thymeleaf/Thymeleaf.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
-              }
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "1cf8522f308d25e3",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "库/Java/Thymeleaf/HTML 模式/HTML 模式.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              },
+              "pinned": true
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -78,7 +96,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 269.51103591918945
   },
   "right": {
     "id": "2f5d582e60864eba",
@@ -94,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "工具/包管理器/Pacman.md",
+                "file": "库/Java/Thymeleaf/HTML 模式/HTML 模式.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "工具/包管理器/Pacman.md",
+                "file": "库/Java/Thymeleaf/HTML 模式/HTML 模式.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "工具/包管理器/Pacman.md"
+                "file": "库/Java/Thymeleaf/HTML 模式/HTML 模式.md"
               }
             }
           },
@@ -220,54 +238,54 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "da0ea89a9f61f80f",
+  "active": "1cf8522f308d25e3",
   "lastOpenFiles": [
-    "工具/包管理器/Pacman.md",
-    "库/Java/Netty/netty4 user guide/netty4 user guide.md",
-    "库/Java/Netty/netty4 user guide/Encoder.md",
-    "库/Java/Netty/netty4 user guide/Echo 服务器.md",
-    "库/Java/Netty/netty4 user guide/DISCARD 服务器.md",
-    "库/Java/Netty/netty4 user guide/Decoder.md",
-    "库/Java/Netty/netty4 user guide/ChannelHandler.md",
-    "库/Java/Netty/netty4 user guide/时间服务器.md",
-    "库/Java/Netty/netty4 user guide/Buffer.md",
-    "工具/依赖版本管理/Java.md",
-    "工具/Linux/Arch/运行环境切换.md",
-    "工具/Linux/KDE/Electron 应用 fcitx5 无法切换语言.md",
-    "工具/依赖版本管理/依赖版本管理.md",
-    "工具/依赖版本管理",
+    "库/Java/Thymeleaf/标准表达式语法/标准表达式语法.md",
+    "库/Java/Thymeleaf/HTML 模式/HTML 模式.md",
+    "库/Java/Thymeleaf/循环迭代.md",
+    "库/Java/Thymeleaf/Thymeleaf.md",
+    "库/Java/Thymeleaf/配置和集成模板引擎/配置和集成模板引擎.md",
+    "库/Java/Thymeleaf/内联/内联.md",
+    "库/Java/Thymeleaf/HTML 模式/修改 HTML 属性.md",
+    "库/Java/Thymeleaf/HTML 模式/设置 HTML 标签内容.md",
+    "库/Java/Thymeleaf/注释块.md",
+    "库/Java/Thymeleaf/配置和集成模板引擎/上下文 Context.md",
+    "库/Java/Thymeleaf/配置和集成模板引擎/模板引擎 TemplateEngine.md",
+    "库/Java/Thymeleaf/配置和集成模板引擎/模板解析器 TemplateResolver.md",
+    "库/Java/JUnit 5.md",
+    "库/ReactiveX.md",
+    "库/Java/Thymeleaf/标准表达式语法/片段/断言.md",
+    "库/Java/Thymeleaf/标准表达式语法/片段/片段选择器.md",
+    "库/Java/Spring/Spring.md",
+    "库/Java/Spring/反应式 RESTful Web 服务/Spring WebFlux 配置.md",
+    "库/Java/Spring/反应式 RESTful Web 服务/反应式 RESTful Web 服务.md",
+    "库/Java/Spring/反应式 RESTful Web 服务/响应式操作 MongoDB.md",
+    "库/Java/Spring/Spring Security 保护应用程序/Spring Security 保护应用程序.md",
+    "库/Java/Spring/Spring Security 保护应用程序/WebClient 权限测试.md",
+    "库/Java/Spring/Spring Security 保护应用程序/Web 请求安全配置.md",
+    "库/Java/Spring/Spring Web MVC/Spring Web MVC.md",
+    "库/Java/Spring/消息与异步任务/异步任务调度.md",
+    "库/Java/Spring/数据库交互/Spring JDBC/使用 Hibernate 框架.md",
+    "_resources/codes/spring-web/modelattribute/src/test/resources",
+    "_resources/codes/spring-web/modelattribute/src/test/java",
+    "_resources/codes/spring-web/modelattribute/src/test",
+    "_resources/codes/spring-web/modelattribute/src/main/resources/templates/access-denied.html",
+    "_resources/codes/spring-web/modelattribute/src/main/resources/templates",
+    "_resources/codes/spring-web/modelattribute/src/main/resources",
+    "_resources/codes/spring-web/modelattribute/src/main/java/com/example/mybank/service/FixedDepositServiceImpl.java",
+    "_resources/codes/spring-web/modelattribute/src/main/java/com/example/mybank/service/FixedDepositService.java",
+    "_resources/codes/spring-web/modelattribute/src/main/java/com/example/mybank/service",
+    "_resources/codes/spring-web/modelattribute/src/main/java/com/example/mybank/domain/FixedDepositDetails.java",
+    "_resources/images/Pasted image 20240907170039.png",
     "_resources/images/Pasted image 20240905154001.png",
     "_resources/images/Pasted image 20240905153635.png",
     "_resources/images/Pasted image 20240905153433.png",
     "_resources/images/Pasted image 20240905153214.png",
-    "工具/Linux/KDE/KDE 安装.md",
-    "任务.md",
-    "工具/Linux/KDE",
-    "工具/编译器/Maven.md",
-    "工具/Linux/Arch/Arch xiassss.md",
-    "工具/Linux/Arch/Arch 安装.md",
-    "语言/语言.md",
-    "工具/Linux/Arch/Arch.md",
-    "工具/命令行/bash/bash.md",
-    "_resources/documents/命令行的艺术.md",
     "_resources/images/Pasted image 20240905012706.png",
-    "_resources/_resources.md",
-    "库/Python/PyQt6/项目实例/Qt 项目实例.md",
-    "库/Python/PyQt6/项目实例/简版微信.md",
-    "库/游戏相关/Minecraft Java Mod/DataUpperFixer/kinds/kinds.md",
     "_resources/images/Pasted image 20240905003420.png",
     "_resources/images/Pasted image 20240905003350.png",
     "_resources/images/Pasted image 20240904235110.png",
     "_resources/images/Pasted image 20240904235102.png",
-    "_resources/codes/make/variable3/1.txt",
-    "_resources/codes/make/variable3/makefile3",
-    "_resources/codes/make/variable3/makefile2 copy",
-    "_resources/codes/make/variable3/makefile2",
-    "_resources/codes/make/variable3/makefile copy",
-    "_resources/codes/make/variable3/makefile",
-    "_resources/codes/make/variable3",
-    "_resources/codes/make/variable2 copy/makefile",
-    "_resources/images/ca41eb644696163e9d065c6b1b7819f2.gif",
     "语言/C Cpp/C++更新图.canvas",
     "语言/C Cpp/C++ 语法/C++ 语法.canvas",
     "语言/Class 字节码/Untitled.canvas",

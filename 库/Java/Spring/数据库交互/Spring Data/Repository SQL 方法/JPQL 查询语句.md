@@ -1,8 +1,6 @@
-# JPQL 查询语句
+> [!note] JPQL，JavaPersistence Query Language，Java持久化查询语言，针对关系数据库创建 SQL 查询语言。
 
-JPQL，JavaPersistence Query Language，Java持久化查询语言，针对关系数据库创建 SQL 查询语言。
-
-JPQL 可以使用一条或批量的 `select`，`update`，`delete` 子句，语法与 sql 基本相同。
+JPQL 可以使用一条或批量的 `select`，`update`，`delete` 子句，语法与 `sql` 基本相同。
 
 # EJB-QL
 

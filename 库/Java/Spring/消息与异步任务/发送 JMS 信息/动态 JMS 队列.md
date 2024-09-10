@@ -1,5 +1,3 @@
-# 动态 JMS 队列
-
 通过设置 `JmsTemplate` 的 `pubSubDomain` 为 `true`，允许在运行时创建 `JMS` 队列。
 
 ```xml

@@ -1,44 +1,29 @@
-# replaced-method 标签
+使用 `<replaced-method>` 标签可以重新实现某个方法。
 
-可以使 Spring 重新实现 bean 对象的某个特定方法，使用 `<replaced-method>` 标签指定。
+1. 创建 `bean` 类，`getMyBean` 方法即要重写的方法
 
-首先，创建 `bean` 类，下面的 `getMyBean` 方法即要重写的方法
-
-```java
-public class ReplacedMethodBean {
-  
-    public Object getMyBean(String beanName) {
-        return null;
-    }
-}
+```reference
+file: "@/_resources/codes/spring/applicationcontext-replaced-method/src/main/java/com/example/mybank/ReplacedMethodBean.java"
+start: 3
+end: 8
 ```
 
-然后，我们要生成重写该方法的代理类。该类应实现 `MethodReplacer` 接口。由于这也是一个 `bean` 类，我们也可以让他实现 `ApplicationContextAware` 接口。`reimplement` 的返回值即代理方法的返回值。
+2. 创建代理类，实现 `MethodReplacer` 接口，重写 `reimplement` 方法
 
-```java
-@Setter
-public class MyMethodReplacer implements MethodReplacer, ApplicationContextAware {
+> [!note] 代理类也是一个普通 `bean` 类，因此也支持 `ApplicationContextAware` 等生命周期接口
 
-    private ApplicationContext applicationContext;
-
-    @Override
-    public Object reimplement(Object obj, Method method, Object[] args) throws Throwable {
-        if ("getMyBean".equals(method.getName())) {
-            return applicationContext.getBean((String) args[0]);
-        }
-        return null;
-    }
-}
+```reference
+file: "@/_resources/codes/spring/applicationcontext-replaced-method/src/main/java/com/example/mybank/MyMethodReplacer.java"
+start: 10
+end: 20
 ```
 
-最后，在 `XML` 中进行配置：
+3. 在 `XML` 中注册
 
-```xml
-<bean id="myMethodReplacer" class="com.example.mybank.bean.MyMethodReplacer" />
-<bean id="replacedMethod" class="com.example.mybank.bean.ReplacedMethodBean">
-    <!-- 使用 myMethodReplacer 代理 getMyBean  -->
-    <replaced-method name="getMyBean" replacer="myMethodReplacer" />
-</bean>
+```reference
+file: "@/_resources/codes/spring/applicationcontext-replaced-method/src/main/resources/applicationContext.xml"
+start: 8
+end: 12
 ```
 
 除了根据名称选择 `MethodReplacer`，我们还可以通过参数选择函数重载
@@ -46,7 +31,7 @@ public class MyMethodReplacer implements MethodReplacer, ApplicationContextAware
 ```xml
 <bean id="replacedMethod" class="com.example.mybank.bean.ReplacedMethodBean">
     <!-- 选择重载: getMyBean(String, String) -->
-    <replaced-method name="getMyBean" replacer="myMethodReplacer">
+    <replaced-method name="anotherMethod" replacer="myMethodReplacer">
         <arg-type>java.lang.String</arg-type>
         <arg-type>java.lang.String</arg-type>
     </replaced-method>

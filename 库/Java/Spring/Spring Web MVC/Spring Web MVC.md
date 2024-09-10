@@ -1,55 +1,33 @@
-# Spring Web MVC
+> [!note] MVC：Model-View-Controller
 
-Spring Web MVC 框架是一个非侵入式 MVC<sup>(Model-View-Controller)</sup> 框架,可用于开发基于 Servlet 的 Web 应用。一个 Spring Web MVC 项目的目录结构可能如下：
+Spring Web MVC 框架是一个非侵入式 MVC 框架。
 
-|目录|说明|
-| ------| --------------------------------------------------------------|
-|`src/main/resources/META-INF/spring`|根 Web 应用上下文的 Spring XML 文件，定义 服务和 Dao 类|
-|`src/main/webapp/WEB-INF/spring`|Web 应用上下文的 Spring XML 文件，定义控制器、处理程序映射等|
-|`src/main/webapp/WEB-INF/jsp`|Web 应用的 JSP 文件|
-|`src/main/java`|Java 类|
-|`src/test`|调试目录|
-
-一个简单的 `helloworld` 项目只需要包含以下几个文件：
-
-* `HelloWorldController`：请求 MVC 控制器
-* `helloworld.jsp`：用于显示的 jsp 文件
-* `myapp-config.xml`：Web 应用程序上下文 XML 文件，包含控制器的 bean 定义
-* `web.xml`：Web 应用程序部署描述符
-
-```java
-public class HelloWorldController implements Controller {
-
-    @Override
-    public ModelAndView handleRequest(HttpServletRequest request, HttpServletResponse response) throws Exception {
-        Map<String, String> modelData = new HashMap<>();
-        modelData.put("message", "Hello World!");
-        return new ModelAndView("helloworld", modelData);
-    }
-}
-```
-
-`HelloWorldController` 为一个 Spring 控制器，负责根据请求处理逻辑，可以实现 `Controller` 接口或 `@Controller` 注解，其中控制函数返回 `ModelAndView` 对象：
-
+[[Controller 控制器/Controller 控制器|Spring 控制器]]负责根据请求处理逻辑，可以实现 `Controller` 接口或 `@Controller` 注解，其中控制函数返回 `ModelAndView` 对象：
 * 模型数据：向用户显示数据，通常为一个 Map 作为 JSP 模板的各个值。
-* 逻辑名称：展示模型数据的 JSP 页面
+* 逻辑名称：展示模型数据的页面
 
-<iframe src="/widgets/widget-excalidraw/" data-src="/widgets/widget-excalidraw/" data-subtype="widget" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="width: 1076px; height: 412px;"></iframe>
+![[../../../../_resources/images/Spring Web MVC 2024-09-10 00.36.41.excalidraw|50%]]
 
-使用 `pageContext` 可以获取当前请求的目录，可用于组装链接：  
+> [!hint] 使用 `pageContext` 可以获取当前请求的目录，可用于组装链接：
 `<form name="fixedDepositList" method="post" action="${pageContext.request.contextPath}/fixedDeposit/list}">`
 
-```jsp
-<%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+> [!error] 新版本 Spring 不再支持 jsp，使用 Thymeleaf 替代
+> 依赖：`org.springframework.boot:spring-boot-starter-thymeleaf`
+> 配置：
+> ```properties title:application.properties
+> spring.thymeleaf.prefix=classpath:/templates/
+> spring.thymeleaf.suffix=.html
+> spring.thymeleaf.mode=HTML5
+> spring.thymeleaf.encoding=UTF-8
+> spring.thymeleaf.cache=true
+> ```
 
-<c:out value="${message}" />
-```
+`HandlerMapping` 负责将 HTTP 请求映射到控制器。
 
-`helloworld.jsp` 使用 `c:out` 输出 `message` 参数的值
+````tabs
+tab: XML
 
-新版本 Spring 不再支持 jsp，后面使用 <span data-type="text" parent-style="color: var(--b3-card-error-color);background-color: var(--b3-card-error-background);">Thymeleaf</span> 替代。Spring 使用 Thymeleaf 只需要<span data-type="text" parent-style="color: var(--b3-card-error-color);background-color: var(--b3-card-error-background);">简单配置</span>即可。
-
-旧版本 Spring 对于 JSP 提供 `form` 标签支持（`<form:xxx>`），由于 Spring 不再支持 JSP，此部分不再描述
+`SimpleUrlHandlerMapping` 子类将 URL 请求转发给指定控制器
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -66,21 +44,27 @@ public class HelloWorldController implements Controller {
             </map>
         </property>
     </bean>
-
-    <bean id="viewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver">
-        <property name="prefix" value="/WEB-INF/jsp/" />
-        <property name="suffix" value=".jsp" />
-    </bean>
 </beans>
 ```
 
-`myapp-config.xml` 声明控制器定义，声明和配置了三个控制 bean 类。
+tab: Java
 
-`HandlerMapping` 类负责将传入的 HTTP 请求映射到负责处理的控制器，`SimpleUrlHandlerMapping` 根据 URL 将请求直接转发给控制器 - 实例中将 `/sayHello` 重定向到了控制器 `helloWorldController`
+注解配置只需在对应控制器上使用 `@RequestMapping` 配置即可 
 
-<iframe src="/widgets/widget-excalidraw/" data-src="/widgets/widget-excalidraw/" data-subtype="widget" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="width: 1143px; height: 392px;"></iframe>
+```embed-java
+PATH: "vault://_resources/codes/spring-web/web-helloworld/src/main/java/com/example/mybank/controller/HelloWorldController.java"
+LINES: "10-12"
+```
+````
 
-`InternalResourceViewResolver` 类负责根据 `ModelAndView` 中包含的视图名称查找实际视图，这里指定了前缀和后缀。
+`ViewResolver` 类负责根据 `ModelAndView` 中包含的视图名称查找实际视图
+- `InternalResourceViewResolver` 可以指定前缀和后缀
+- `ThymeleafViewResolver` 用于 `thymeleaf`
+
+![[../../../../_resources/images/Spring Web MVC 2024-09-10 02.13.42.excalidraw|50%]]
+
+`web.xml` 为 Web 应用部署描述，该文档根标签为 `<web-app>`。使用 SpringBoot 时不需要该配置
+-  `<servlet>` 标签声明了一个 Servlet，这里使用 [[DispatcherServlet]]，请求由该 Servlet 截取并发送到相应服务器。
 
 ```xml
 <web-app xmlns="http://java.sun.com/xml/ns/javaee"
@@ -105,14 +89,6 @@ public class HelloWorldController implements Controller {
 </web-app>
 ```
 
-`web.xml` 为 Web 应用部署描述。该文档根标签为 `<web-app>`。
-
-`<servlet>` 标签声明了一个 Servlet，这里使用 DispatcherServlet，请求由该 Servlet 截取并发送到相应服务器。
-
-`contextConfigLocation` 配置一个 Servlet XML 文件，默认为 WEB-INF 中的 `<servlet-name>-servlet.xml`。
-
-`<mvc:annotation-driven />` 标签对应 `@EnableWebMvc` 注解
-
 Web 应用程序共享 `<web-app>` 配置的对象。可以将程序的 XML 配置在此处通过 `ContextLoaderListener` 加载
 
 ```xml
@@ -133,3 +109,13 @@ Web 应用程序共享 `<web-app>` 配置的对象。可以将程序的 XML 配�
     </listener>
 </web-app>
 ```
+
+> [!note] `<mvc:annotation-driven />` 标签对应 `@EnableWebMvc` 注解
+
+---
+
+- [[Controller 控制器/Controller 控制器|Controller 控制器]]
+- [[验证与数据绑定/验证与数据绑定|验证与数据绑定]]
+- [[RESTful Web 服务/RESTful Web 服务|RESTful Web 服务]]
+- [[类型转换与格式化]]
+- [[文件上传]]

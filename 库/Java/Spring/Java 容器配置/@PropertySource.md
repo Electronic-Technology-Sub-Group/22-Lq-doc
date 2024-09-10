@@ -1,5 +1,3 @@
-# @PropertySource
-
 使用 `@PropertySource` 加载配置文件，可以通过 `@Value("${属性}")` 的方式访问
 
 ```java

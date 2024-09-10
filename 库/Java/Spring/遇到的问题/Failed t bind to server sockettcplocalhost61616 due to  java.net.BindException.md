@@ -1,4 +1,4 @@
-# Failed t bind to server socket:tcp:localhost:61616 due to : java.net.BindException
+> [!error] Failed t bind to server socket:tcp:localhost: 61616 due to : java. net. BindException
 
 开启 ActiveMQ 失败，问题在于 61616 端口被占用。
 

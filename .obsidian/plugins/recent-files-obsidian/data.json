@@ -1,204 +1,204 @@
 {
   "recentFiles": [
     {
-      "basename": "Pacman",
-      "path": "工具/包管理器/Pacman.md"
+      "basename": "HTML 模式",
+      "path": "库/Java/Thymeleaf/HTML 模式/HTML 模式.md"
     },
     {
-      "basename": "netty4 user guide",
-      "path": "库/Java/Netty/netty4 user guide/netty4 user guide.md"
+      "basename": "标准表达式语法",
+      "path": "库/Java/Thymeleaf/标准表达式语法/标准表达式语法.md"
     },
     {
-      "basename": "Encoder",
-      "path": "库/Java/Netty/netty4 user guide/Encoder.md"
+      "basename": "循环迭代",
+      "path": "库/Java/Thymeleaf/循环迭代.md"
     },
     {
-      "basename": "Echo 服务器",
-      "path": "库/Java/Netty/netty4 user guide/Echo 服务器.md"
+      "basename": "Thymeleaf",
+      "path": "库/Java/Thymeleaf/Thymeleaf.md"
     },
     {
-      "basename": "DISCARD 服务器",
-      "path": "库/Java/Netty/netty4 user guide/DISCARD 服务器.md"
+      "basename": "配置和集成模板引擎",
+      "path": "库/Java/Thymeleaf/配置和集成模板引擎/配置和集成模板引擎.md"
     },
     {
-      "basename": "Decoder",
-      "path": "库/Java/Netty/netty4 user guide/Decoder.md"
+      "basename": "内联",
+      "path": "库/Java/Thymeleaf/内联/内联.md"
     },
     {
-      "basename": "ChannelHandler",
-      "path": "库/Java/Netty/netty4 user guide/ChannelHandler.md"
+      "basename": "修改 HTML 属性",
+      "path": "库/Java/Thymeleaf/HTML 模式/修改 HTML 属性.md"
     },
     {
-      "basename": "时间服务器",
-      "path": "库/Java/Netty/netty4 user guide/时间服务器.md"
+      "basename": "设置 HTML 标签内容",
+      "path": "库/Java/Thymeleaf/HTML 模式/设置 HTML 标签内容.md"
     },
     {
-      "basename": "Buffer",
-      "path": "库/Java/Netty/netty4 user guide/Buffer.md"
+      "basename": "注释块",
+      "path": "库/Java/Thymeleaf/注释块.md"
     },
     {
-      "basename": "Java",
-      "path": "工具/依赖版本管理/Java.md"
+      "basename": "上下文 Context",
+      "path": "库/Java/Thymeleaf/配置和集成模板引擎/上下文 Context.md"
     },
     {
-      "basename": "Electron 应用 fcitx5 无法切换语言",
-      "path": "工具/Linux/KDE/Electron 应用 fcitx5 无法切换语言.md"
+      "basename": "模板引擎 TemplateEngine",
+      "path": "库/Java/Thymeleaf/配置和集成模板引擎/模板引擎 TemplateEngine.md"
     },
     {
-      "basename": "KDE 安装",
-      "path": "工具/Linux/KDE/KDE 安装.md"
+      "basename": "模板解析器 TemplateResolver",
+      "path": "库/Java/Thymeleaf/配置和集成模板引擎/模板解析器 TemplateResolver.md"
     },
     {
-      "basename": "任务",
-      "path": "任务.md"
+      "basename": "JUnit 5",
+      "path": "库/Java/JUnit 5.md"
     },
     {
-      "basename": "Maven",
-      "path": "工具/编译器/Maven.md"
+      "basename": "ReactiveX",
+      "path": "库/ReactiveX.md"
     },
     {
-      "basename": "Arch 安装",
-      "path": "工具/Linux/Arch/Arch 安装.md"
+      "basename": "断言",
+      "path": "库/Java/Thymeleaf/标准表达式语法/片段/断言.md"
     },
     {
-      "basename": "语言",
-      "path": "语言/语言.md"
+      "basename": "片段选择器",
+      "path": "库/Java/Thymeleaf/标准表达式语法/片段/片段选择器.md"
     },
     {
-      "basename": "bash",
-      "path": "工具/命令行/bash/bash.md"
+      "basename": "Spring",
+      "path": "库/Java/Spring/Spring.md"
     },
     {
-      "basename": "命令行的艺术",
-      "path": "_resources/documents/命令行的艺术.md"
+      "basename": "Spring WebFlux 配置",
+      "path": "库/Java/Spring/反应式 RESTful Web 服务/Spring WebFlux 配置.md"
     },
     {
-      "basename": "_resources",
-      "path": "_resources/_resources.md"
+      "basename": "反应式 RESTful Web 服务",
+      "path": "库/Java/Spring/反应式 RESTful Web 服务/反应式 RESTful Web 服务.md"
     },
     {
-      "basename": "Qt 项目实例",
-      "path": "库/Python/PyQt6/项目实例/Qt 项目实例.md"
+      "basename": "响应式操作 MongoDB",
+      "path": "库/Java/Spring/反应式 RESTful Web 服务/响应式操作 MongoDB.md"
     },
     {
-      "basename": "简版微信",
-      "path": "库/Python/PyQt6/项目实例/简版微信.md"
+      "basename": "Spring Security 保护应用程序",
+      "path": "库/Java/Spring/Spring Security 保护应用程序/Spring Security 保护应用程序.md"
     },
     {
-      "basename": "kinds",
-      "path": "库/游戏相关/Minecraft Java Mod/DataUpperFixer/kinds/kinds.md"
+      "basename": "WebClient 权限测试",
+      "path": "库/Java/Spring/Spring Security 保护应用程序/WebClient 权限测试.md"
     },
     {
-      "basename": "App2 与 K2",
-      "path": "库/游戏相关/Minecraft Java Mod/DataUpperFixer/kinds/App2 与 K2.md"
+      "basename": "Web 请求安全配置",
+      "path": "库/Java/Spring/Spring Security 保护应用程序/Web 请求安全配置.md"
     },
     {
-      "basename": "Representable",
-      "path": "库/游戏相关/Minecraft Java Mod/DataUpperFixer/kinds/Functor 与 Kind/Representable.md"
+      "basename": "Spring Web MVC",
+      "path": "库/Java/Spring/Spring Web MVC/Spring Web MVC.md"
     },
     {
-      "basename": "Functor 与 Kind",
-      "path": "库/游戏相关/Minecraft Java Mod/DataUpperFixer/kinds/Functor 与 Kind/Functor 与 Kind.md"
+      "basename": "异步任务调度",
+      "path": "库/Java/Spring/消息与异步任务/异步任务调度.md"
     },
     {
-      "basename": "CartesianLike",
-      "path": "库/游戏相关/Minecraft Java Mod/DataUpperFixer/kinds/Functor 与 Kind/CartesianLike.md"
+      "basename": "使用 Hibernate 框架",
+      "path": "库/Java/Spring/数据库交互/Spring JDBC/使用 Hibernate 框架.md"
     },
     {
-      "basename": "CocartesianLike",
-      "path": "库/游戏相关/Minecraft Java Mod/DataUpperFixer/kinds/Functor 与 Kind/CocartesianLike.md"
+      "basename": "声明式事务管理",
+      "path": "库/Java/Spring/数据库交互/Spring JDBC/事务管理/声明式事务管理.md"
     },
     {
-      "basename": "Traversable",
-      "path": "库/游戏相关/Minecraft Java Mod/DataUpperFixer/kinds/Functor 与 Kind/Traversable.md"
+      "basename": "配置 ActiveMQ",
+      "path": "库/Java/Spring/消息与异步任务/配置 ActiveMQ.md"
     },
     {
-      "basename": "Minecraft Core Mod",
-      "path": "库/游戏相关/Minecraft Core Mod/Minecraft Core Mod.md"
+      "basename": "接收 JMS 信息",
+      "path": "库/Java/Spring/消息与异步任务/接收 JMS 信息.md"
     },
     {
-      "basename": "CMake",
-      "path": "工具/编译器/CMake.md"
+      "basename": "方法级安全配置",
+      "path": "库/Java/Spring/Spring Security 保护应用程序/方法级安全配置.md"
     },
     {
-      "basename": "GNUMake",
-      "path": "工具/编译器/GNUMake/GNUMake.md"
+      "basename": "发送 JMS 信息",
+      "path": "库/Java/Spring/消息与异步任务/发送 JMS 信息/发送 JMS 信息.md"
     },
     {
-      "basename": "AutoX",
-      "path": "工具/AutoX.md"
+      "basename": "ACL 模块保护域对象安全性",
+      "path": "库/Java/Spring/Spring Security 保护应用程序/ACL 模块保护域对象安全性/ACL 模块保护域对象安全性.md"
     },
     {
-      "basename": "Mermaid",
-      "path": "文档/Mermaid.md"
+      "basename": "国际化",
+      "path": "库/Java/Spring/Spring Web MVC/Controller 控制器/国际化.md"
     },
     {
-      "basename": "库文件",
-      "path": "工具/编译器/GNUMake/库文件.md"
+      "basename": "RESTful Web 服务",
+      "path": "库/Java/Spring/Spring Web MVC/RESTful Web 服务/RESTful Web 服务.md"
     },
     {
-      "basename": "隐含规则",
-      "path": "工具/编译器/GNUMake/隐含规则.md"
+      "basename": "文件上传",
+      "path": "库/Java/Spring/Spring Web MVC/文件上传.md"
     },
     {
-      "basename": "make",
-      "path": "工具/编译器/GNUMake/make.md"
+      "basename": "类型转换与格式化",
+      "path": "库/Java/Spring/Spring Web MVC/类型转换与格式化.md"
     },
     {
-      "basename": "makefile",
-      "path": "工具/编译器/GNUMake/makefile.md"
+      "basename": "RESTful 客户端",
+      "path": "库/Java/Spring/Spring Web MVC/RESTful Web 服务/RESTful 客户端.md"
     },
     {
-      "basename": "函数",
-      "path": "工具/编译器/GNUMake/函数.md"
+      "basename": "构建状态信息",
+      "path": "库/Java/Spring/Spring Web MVC/RESTful Web 服务/构建状态信息.md"
     },
     {
-      "basename": "变量",
-      "path": "工具/编译器/GNUMake/变量.md"
+      "basename": "验证与数据绑定",
+      "path": "库/Java/Spring/Spring Web MVC/验证与数据绑定/验证与数据绑定.md"
     },
     {
-      "basename": "条件判断",
-      "path": "工具/编译器/GNUMake/条件判断.md"
+      "basename": "模型特性",
+      "path": "库/Java/Spring/Spring Web MVC/验证与数据绑定/模型特性/模型特性.md"
     },
     {
-      "basename": "命令",
-      "path": "工具/编译器/GNUMake/命令.md"
+      "basename": "缓存模型特性",
+      "path": "库/Java/Spring/Spring Web MVC/验证与数据绑定/模型特性/缓存模型特性.md"
     },
     {
-      "basename": "规则",
-      "path": "工具/编译器/GNUMake/规则.md"
+      "basename": "解析模型特性",
+      "path": "库/Java/Spring/Spring Web MVC/验证与数据绑定/模型特性/解析模型特性.md"
     },
     {
-      "basename": "LaTeX",
-      "path": "文档/LaTeX.md"
+      "basename": "创建模型特性",
+      "path": "库/Java/Spring/Spring Web MVC/验证与数据绑定/模型特性/创建模型特性.md"
     },
     {
-      "basename": "两列代码",
-      "path": "_resources/templates/两列代码.md"
+      "basename": "数据绑定",
+      "path": "库/Java/Spring/Spring Web MVC/验证与数据绑定/数据绑定/数据绑定.md"
     },
     {
-      "basename": "声明",
-      "path": "语言/JavaScript/Typescript 语法/声明.md"
+      "basename": "Controller 控制器",
+      "path": "库/Java/Spring/Spring Web MVC/Controller 控制器/Controller 控制器.md"
     },
     {
-      "basename": "命令别名",
-      "path": "工具/命令行/命令别名.md"
+      "basename": "处理拦截器",
+      "path": "库/Java/Spring/Spring Web MVC/Controller 控制器/处理拦截器.md"
     },
     {
-      "basename": "Markdown",
-      "path": "文档/Markdown.md"
+      "basename": "@ExceptionHandler",
+      "path": "库/Java/Spring/Spring Web MVC/Controller 控制器/@ExceptionHandler.md"
     },
     {
-      "basename": "函数",
-      "path": "语言/JavaScript/ECMAScript 语法/函数.md"
+      "basename": "异步处理",
+      "path": "库/Java/Spring/Spring Web MVC/Controller 控制器/@RequestMapping/异步处理.md"
     },
     {
-      "basename": "CSS",
-      "path": "语言/CSS/CSS/CSS.md"
+      "basename": "请求参数",
+      "path": "库/Java/Spring/Spring Web MVC/Controller 控制器/@RequestMapping/请求参数.md"
     },
     {
-      "basename": "C Cpp",
-      "path": "库/C Cpp/C Cpp.md"
+      "basename": "路径参数",
+      "path": "库/Java/Spring/Spring Web MVC/Controller 控制器/@RequestMapping/路径参数.md"
     }
   ],
   "omittedPaths": []

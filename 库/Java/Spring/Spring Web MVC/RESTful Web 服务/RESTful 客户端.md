@@ -1,6 +1,4 @@
-# RESTful 客户端
-
-Spring 提供 `RestTemplate` 用于同步访问 RESTful 服务，`WebClient` 用于异步访问 RESTful 服务。
+`RestTemplate` 用于同步访问 RESTful 服务，`WebClient` 用于异步访问 RESTful 服务。
 
 # `RestTemplate`
 
@@ -58,9 +56,9 @@ void getFixedDepositList(RestTemplate restTemplate) {
 
 异步访问 RESTful 服务
 
-依赖：  
-`implementation 'org.springframework.boot:spring-boot-starter-webflux'`  
-`testImplementation 'io.projectreactor:reactor-test'`
+>[!note] 依赖：
+> - `implementation 'org.springframework.boot:spring-boot-starter-webflux'`  
+> - `testImplementation 'io.projectreactor:reactor-test'`
 
 ```java
 WebClient webClient = WebClient.create("http://localhost:8080");

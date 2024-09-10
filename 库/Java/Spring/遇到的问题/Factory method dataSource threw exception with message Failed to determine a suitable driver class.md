@@ -1,4 +1,4 @@
-# Factory method 'dataSource' threw exception with message: Failed to determine a suitable driver class
+> [!error] Factory method 'dataSource' threw exception with message: Failed to determine a suitable driver class
 
 ```
 Exception in thread "main" org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception with message: Failed to determine a suitable driver class

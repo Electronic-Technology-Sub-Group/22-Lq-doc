@@ -1,5 +1,3 @@
-# 修改 HTML 属性
-
 # 设置属性值
 
 通过 `th:attr` 或 `data-th-attr` 属性设置标签的某个属性：`th:attr="属性=值"`
@@ -16,7 +14,7 @@
 <img src="../../images/gtvglogo.png" th:attr="src=@{/images/gtvglogo.png},title=#{logo},alt=#{logo}" />
 ```
 
-也可以直接使用 `th:属性` 或 `data-th-属性` 的形式直接设置属性值
+可以直接使用 `th:属性` 或 `data-th-属性` 的形式直接设置属性值
 
 ```html
 <img src="../../images/gtvglogo.png" th:src="@{/images/gtvglogo.png}" th:title="#{logo}" th:alt="#{logo}" />

@@ -1,6 +1,6 @@
-# JdbcTemplate
+`JdbcTemplate` 管理 `Connection`，`Statement` 和 `ResultSet`，捕获 JDBC 异常转化为易于理解的异常，批处理操作等。
 
-`JdbcTemplate` 负责管理 `Connection`，`Statement` 和 `ResultSet`，捕获 JDBC 异常转化为易于理解的异常，批处理操作等。
+在依赖了 `spring-boot-starter-jdbc` 且注入了 `DataSource` 对象后，Spring 会创建一个默认 `JdbcTemplate`，类似如下：
 
 ```java
 @Bean 
@@ -16,28 +16,12 @@ public JdbcTemplate jdbcTemplate(DataSource dataSource) {
 * `PreparedStatementCreator`：提供 `Connection`，执行 SQL 语句
 * `KeyHolder`：在插入 SQL 语句时自动生成的键，默认实现是 `GeneratedKeyHolder`
 
-  可以通过 KeyHolder 获取 GENERATED_KEY 获取主键自增的主键，返回值是一个 BigInteger
+>[!note] 可以通过 KeyHolder 获取 GENERATED_KEY 获取主键自增的主键，具体返回类可在 `PreparedStatement` 的构造函数中设置
 
-```java
-private static final String SQL_CREATE_FIXED_DETAIL =
-        "insert into fixed_deposit_details(ACCOUNT_ID, FD_CREATION_DATE, AMOUNT, TENURE, ACTIVE) values (?, ?, ?, ?, ?)";
-
-@Autowired
-private JdbcTemplate jdbcTemplate;
-
-public int createFixedDetail(FixedDepositDetails fdd) {
-    KeyHolder keyHolder = new GeneratedKeyHolder();
-    // 返回值是本次调用影响数据库的行数
-    return jdbcTemplate.update(conn -> {
-        PreparedStatement ps = conn.prepareStatement(SQL_CREATE_FIXED_DETAIL);
-        ps.setInt(1, fdd.getBankAccountId());
-        ps.setDate(2, new Date(fdd.getCreationDate().getTime()));
-        ps.setInt(3, fdd.getDepositAmount());
-        ps.setInt(4, fdd.getTenure());
-        ps.setCharacterStream(5, new StringReader(fdd.isActive() ? "Y" : "N"));
-        return ps;
-    }, keyHolder);
-}
+```reference
+file: "@/_resources/codes/spring/jdbc-jdbctemplate/src/main/java/com/example/mybank/FixedDepositDao.java"
+start: 16
+end: 33
 ```
 
 利用 `batchUpdate` 方法可以在同一个 `PreparedStatement` 上批量执行 `update` 语句

@@ -1,12 +1,10 @@
-# p 与 c 命名空间
-
-为简化 `bean` <span data-type="text">📦</span>配置，使之不至于过于冗长，Spring 提供 **p 命名空间** 和 **c 命名空间**。
+为简化 `bean` 配置，Spring 提供 **p 命名空间** 和 **c 命名空间**。
 
 # p 命名空间
 
 p 命名空间的属性可以将简单的 `<property>` 标签简化成 `<bean>` 的一个属性
 
-xmlns：`http://www.springframework.org/schema/p`
+>[!summary] xmlns：`http://www.springframework.org/schema/p`
 
 p 命名空间属性有两种模式：`<property-name>` 表示注入的属性名，`<property-value>` 表示注入的值，`<property-ref>` 表示注入的对象引用。
 
@@ -30,7 +28,7 @@ p 命名空间属性有两种模式：`<property-name>` 表示注入的属性名
 
 c 命名空间属性可以将简单的 `<constructor-arg>` 标签简化成 `<bean>` 的一个属性。
 
-xmlns：`http://www.springframework.org/schema/c`
+> [!summary] xmlns：`http://www.springframework.org/schema/c`
 
 c 命名空间属性支持参数按名称注入和按位置注入，与 `ref` 模式共组成 4 种形式：
 
@@ -55,6 +53,10 @@ c 命名空间属性支持参数按名称注入和按位置注入，与 `ref` �
   ```
 
 * 按位置注入：
+	-  `<constructor-arg-name>`：构造函数（或工厂方法）参数名
+	- `<n>`：参数位置（从 0 开始）
+	- `<constructor-arg-value>`：直接注入的一个值
+	- `<constructor-arg-ref>`：注入的引用 `bean id`
 
   ```xml
   <bean ... c:_<n>="<constructor-arg-value>" />
@@ -72,6 +74,6 @@ c 命名空间属性支持参数按名称注入和按位置注入，与 `ref` �
   </bean>
   ```
 
-上面例子中，`<constructor-arg-name>` 表示构造函数（或工厂方法）参数名，`<n>` 表示参数位置（从 0 开始），`<constructor-arg-value>` 表示直接注入的一个值，`<constructor-arg-ref>` 表示注入的引用 `bean id`
+
 
 ‍

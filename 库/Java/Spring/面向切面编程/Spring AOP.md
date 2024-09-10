@@ -1,8 +1,8 @@
-# Spring AOP
+Spring AOP 基于代理，将目标对象创建一个代理对象。运行时，对目标对象的调用被代理拦截，由代理执行适用于目标方法的通知。
 
-Spring AOP 基于代理<sup>（若目标对象没有实现任何接口时，使用 GCLIB 代理；否则，使用 JavaSE 代理）</sup>，将目标对象创建一个代理对象。运行时，对目标对象的调用被代理拦截，由代理执行适用于目标方法的通知。
+> [!note] 若目标对象没有实现任何接口时，使用 GCLIB 代理；否则，使用 JavaSE 代理
 
-<iframe src="/widgets/widget-excalidraw/" data-src="/widgets/widget-excalidraw/" data-subtype="widget" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="width: 1088px; height: 400px;"></iframe>
+![[../../../../_resources/images/Spring AOP 2024-09-09 22.15.48.excalidraw|80%]]
 
 要开启 Spring AOP，需要创建 `<aop:aspectj-autoproxy />` 元素或存在一个 `@EnableAspectJAutoProxy` 注解
 
@@ -11,7 +11,7 @@ Spring AOP 基于代理<sup>（若目标对象没有实现任何接口时，使�
 |`proxyTargetClass`|`proxy-target-class`|是否阻止生成目标对象的代理。若为 `true`，则不会使用代理替代目标对象，而是通过 `AopContext` 的 `currentProxy` 静态方法访问 AOP 代理。默认 false|
 |`exposeProxy`|`expose-proxy`|是否暴露代理对象给程序，确保代理类内部调用也可以触发切片。默认 false|
 
-这是一个 `@EnableAspectJAutoProxy(proxyTargetClass=true, exposeProxy=true)` 的实例。我们通过 `AopContext` 拿到当前对象的代理，并手动调用代理类的方法确保内部调用时切片正常触发
+例：通过 `AopContext` 拿到当前对象的代理，并手动调用代理类的方法确保内部调用时切片正常触发
 
 ```java
 public class BankAccountServiceJpaDataImpl implements BankAccountService {

@@ -1,5 +1,3 @@
-# 403 forbidden error
-
 使用 POST 方式访问时，产生 403 Forbidden 异常：
 
 ```log

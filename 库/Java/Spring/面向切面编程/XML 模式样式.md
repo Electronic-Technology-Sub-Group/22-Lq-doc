@@ -1,5 +1,3 @@
-# XML 模式样式
-
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <beans ...

@@ -1,23 +1,13 @@
-# constructor 自动装配
-
-```java
-public class CustomerRegistrationServiceImpl implements CustomerRegistrationService {
-    private CustomerRegistrationDetails customerRegistrationDetails;
-    private CustomerRegistrationDao customerRegistrationDao;
-
-    @ConstructorProperties({"customerRegistrationDetails", "customerRegistrationDao"})
-    public CustomerRegistrationServiceImpl(CustomerRegistrationDetails customerRegistrationDetails, CustomerRegistrationDao customerRegistrationDao) {
-        this.customerRegistrationDetails = customerRegistrationDetails;
-        this.customerRegistrationDao = customerRegistrationDao;
-    }
-}
+```reference
+file: "@/_resources/codes/spring/autowire-constructor/src/main/java/com/example/mybank/service/CustomerRegistrationServiceImpl.java"
+start: 13
+end: 16
 ```
 
-```xml
-<bean id="customerRegistrationDetails" class="com.example.mybank.domain.CustomerRegistrationDetails" scope="prototype" />
-<bean id="customerRegistrationDao" class="com.example.mybank.dao.CustomerRegistrationDaoImpl" />
-
-<bean id="customerRegistrationService" class="com.example.mybank.service.CustomerRegistrationServiceImpl" autowire="constructor" />
+```reference
+file: "@/_resources/codes/spring/autowire-constructor/src/main/resources/applicationContext.xml"
+start: 6
+end: 8
 ```
 
 注意：

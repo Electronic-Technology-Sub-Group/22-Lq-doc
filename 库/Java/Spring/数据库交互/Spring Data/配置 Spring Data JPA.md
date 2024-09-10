@@ -1,12 +1,9 @@
-# 配置 Spring Data JPA
+> [!note] 依赖：`org.springframework.boot:spring-boot-starter-data-jpa`
 
-依赖：`org.springframework.boot:spring-boot-starter-data-jpa`
+* `@EnableJpaRepositories` 注解表示启用 Spring Data JPA
+	* `transactionManagerRef`：`TransactionManager` 对象，默认 `transactionManager`
 
-与其他 `bean` 类相似，Spring Data  JPA 直接声明 `@Bean` 类即可
-
-`TransactionManager` 类型 bean 对象的名称必须与 `@EnableJpaRepositories(transactionManagerRef)` 的值相同，默认 `transactionManager`
-
-```java
+```java fold
 @Configuration
 @EnableJpaRepositories(basePackages = "com.example.mybank.dao")
 public class JpaDataProfileConfig {
@@ -38,25 +35,30 @@ public class JpaDataProfileConfig {
 }
 ```
 
-使用 Spring Boot 3 以后上面的代码都可以省略，只保留 `@EnableJpaRepositories(basePackages = "com.example.mybank.dao")` 就行了，其余都是默认创建  
-Spring 默认 JPA 提供器就是 `hibernate`，`properties` 在 `application.properties` 中配置
+>[!success] Spring Boot 3 后只用 `@EnableJpaRepositories` 即可，默认 JPA 提供器为 `hibernate`，在 `application.properties` 中进行额外配置
 
-```properties
-# jpa
-spring.jpa.show-sql=true
-spring.jpa.properties.hibernate.id.new-generator-mappings=false
+| 参数                                | 说明                                           |
+| --------------------------------- | -------------------------------------------- |
+| `basePackages`                    | 指定实现了 `Repository` 接口的类所在包                   |
+| `repositoryImplementationPostfix` | 查找实现了 `Repository` 接口的类的后缀，默认 `Impl`         |
+| `transactionManagerRef`           | 事务管理的 `PlatformTransactionManager` bean 对象引用 |
+| `queryLookupStrategy`             | 查询策略，即从方法名称解析 SQL 语句的方法                      |
+
+```reference
+file: "@/_resources/codes/spring/data-jpa/src/main/java/com/example/mybank/config/MyBankConfig.java"
+start: 6
+end: 9
 ```
 
-* `@EnableJpaRepositories` 注解表示启用 Spring Data JPA
+```reference
+file: "@/_resources/codes/spring/data-jpa/src/main/resources/application.properties"
+```
 
-  |参数|说明|
-  | ------| -------------------------------------------|
-  |`basePackages`|指定实现了 `Repository` 接口的类所在包|
-  |`repositoryImplementationPostfix`|查找实现了 `Repository` 接口的类的后缀，默认 `Impl`|
-  |`transactionManagerRef`|事务管理的 `PlatformTransactionManager` bean 对象引用|
-  |`queryLookupStrategy`|查询策略，即从方法名称解析 SQL 语句的方法|
-
-  使用 XML 注册，则需要使用 `xmlns:jpa` 命名空间
+XML 注册使用 `xmlns:jpa` 命名空间
+- `jpa:repositories base-package`：指定注册的 `Repository` 实现
+- `LocalContainerEntityManagerFactoryBean`：配置 JPA 的 `EntityManagerFactory`
+	- `setJpaVendorAdapter` 设置 JPA `PersistenceProvider` 实现
+	- `setJpaProperties` 配置 JPA 属性
 
   ```xml
   <beans ... 
@@ -67,5 +69,4 @@ spring.jpa.properties.hibernate.id.new-generator-mappings=false
       <jpa:repositories base-package="..." />
   </beans>
   ```
-  使用 `jpa:repositories base-package` 指定注册的 `Repository` 实现可以通过 `ref="首字母小写的类名"` 引用
-* `LocalContainerEntityManagerFactoryBean`：配置 JPA 的 `EntityManagerFactory`，使用 `setJpaVendorAdapter` 设置 JPA `PersistenceProvider` 实现，并使用 `setJpaProperties` 配置 JPA
+

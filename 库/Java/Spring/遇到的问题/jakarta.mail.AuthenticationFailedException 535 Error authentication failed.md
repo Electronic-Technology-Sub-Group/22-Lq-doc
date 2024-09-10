@@ -1,4 +1,4 @@
-# jakarta.mail.AuthenticationFailedException: 535 Error: authentication failed
+> [!error] jakarta. mail. AuthenticationFailedException: 535 Error: authentication failed
 
 ```
 org.springframework.jms.listener.adapter.ListenerExecutionFailedException: Listener method 'public void com.example.mybank.listener.EmailMessageListeners.onSendEmail(jakarta.jms.Message)' threw exception

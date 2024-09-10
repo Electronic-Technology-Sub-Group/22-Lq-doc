@@ -1,38 +1,9 @@
 一个接收任何数据，并将其直接抛弃，不响应任何数据的服务器
 
-```java
-public class DiscardServer {
-
-    private final int port;
-
-    public DiscardServer(int port) {
-        this.port = port;
-    }
-
-    public void run() throws InterruptedException {
-        EventLoopGroup boss = new NioEventLoopGroup();
-        EventLoopGroup worker = new NioEventLoopGroup();
-        try {
-            ServerBootstrap bootstrap = new ServerBootstrap();
-            bootstrap.group(boss, worker)
-                    .channel(NioServerSocketChannel.class)
-                    .childHandler(new ChannelInitializer<SocketChannel>() {
-                        @Override
-                        protected void initChannel(SocketChannel ch) {
-                            ch.pipeline().addLast(new DiscardServerHandler());
-                        }
-                    })
-                    .option(ChannelOption.SO_BACKLOG, 128)
-                    .childOption(ChannelOption.SO_KEEPALIVE, true);
-
-            ChannelFuture future = bootstrap.bind(port).sync();
-            future.channel().closeFuture().sync();
-        } finally {
-            worker.shutdownGracefully();
-            boss.shutdownGracefully();
-        }
-    }
-}
+```reference
+file: "@/_resources/codes/netty4/src/main/java/com/example/discard_server/DiscardServer.java"
+start: 10
+end: 38
 ```
 
 `EventLoopGroup`：处理传输的 IO 多线程事件循环器，通常使用 `NioEventLoopGroup`，负责线程池和接收信息的调度。
@@ -58,18 +29,8 @@ public class DiscardServer {
 
 注册了一个 `ChannelInitializer` 类型的处理器，初始化了一个处理管道，使一个 `Channel` 依次经过多个处理器。管线中只有一个 `DiscardServerHandler` 自定义的处理器，仅丢弃数据
 
-```java
-class DiscardServerHandler extends ChannelInboundHandlerAdapter {
-
-    @Override
-    public void channelRead(ChannelHandlerContext ctx, Object msg) {
-        ReferenceCountUtil.release(msg);
-    }
-
-    @Override
-    public void exceptionCaught(ChannelHandlerContext ctx, Throwable cause) {
-        cause.printStackTrace();
-        ctx.close();
-    }
-}
+```reference
+file: "@/_resources/codes/netty4/src/main/java/com/example/discard_server/DiscardServer.java"
+start: 40
+end: 54
 ```

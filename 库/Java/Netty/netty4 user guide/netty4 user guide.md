@@ -3,6 +3,15 @@
 >[!danger] Netty 5 由于设计问题停止开发，现在最新版就是 Netty 4
 
 ![[components-20240311173710-o6zuhj3.png]]
+
+- [[ChannelHandler]]
+- [[Buffer]]
+- [[Encoder]]
+- [[Decoder]]
+- [[DISCARD 服务器]]
+- [[Echo 服务器]]
+- [[时间服务器]]
+
 # 参考
 
 ```cardlink

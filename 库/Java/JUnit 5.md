@@ -30,6 +30,7 @@ public class FirstJUnit5Tests {
     }
 }
 ```
+
 # 注解配置
 
 JUnit Jupiter 注解用于配置和扩展测试
@@ -65,12 +66,14 @@ JUnit Jupiter 注解用于配置和扩展测试
 * 组合注解：JUnit Jupiter 支持的注解都可以用作元注解，因此可以创建自定义的组合注解
 
 凡是可以用于测试类的注解也可以用于接口，大多数用于测试的注解都是可以继承的
+
 # 函数参数
 
 测试方法和测试类的构造函数可以包含以下类型参数：
 * `TestInfo`
 * `RepeatedTest`：用于 `@RepeatedTest`，`@BeforeEach` 或 `@AfterEach`
 * `TestReporter`：使用 `publishEntry` 方法输出当前测试运行的额外数据
+
 # 断言与假设
 
 * 断言：`org.junit.jupiter.Assertions` 类的静态方法，仅当断言通过时测试通过
@@ -122,6 +125,7 @@ void assertWithHamcrestMatcher() {
     assertThat(2 + 1, is(equalTo(3)));
 }
 ```
+
 # 重复测试
 
 使用 `@RepeatedTest(value, name)` 注解的方法用于重复测试
@@ -135,6 +139,7 @@ void assertWithHamcrestMatcher() {
 # 参数化测试
 
 使用 `@ParameterizedTest` 注解标记的类型作为参数化测试方法。参数化测试允许对同一方法使用不同参数进行测试，需要添加对 `junit-jupiter-params` 的依赖
+
 ## 参数来源
 
 * `@ValueSource`：多组 Java 注解可直接支持的类型数组
@@ -158,6 +163,7 @@ static Stream<String> stringProvider() { ... }
     * 隐式转换：字符串可以隐式转换为数字，字符，枚举，时间与日期等类型
     * 显示转换：使用 `@ConvertWith` 修饰某个参数，指定一个继承自 `SimpleArgumentConverter` 的类
 * `@ArgumentsSource`：指定一个实现 `ArgumentsProvider` 接口的类
+
 ## 显示名
 
 使用 `@ParameterizedTest` 注解的 `name` 参数指定，可使用占位符：
@@ -169,6 +175,7 @@ static Stream<String> stringProvider() { ... }
 # 模板测试
 
 与 `TestTemplateInvocationContextProvider` 搭配使用
+
 # 动态测试
 
 使用 `@TestFactory` 工厂方法在运行时生成测试方法的测试称为动态测试。

@@ -1,8 +1,6 @@
-# 响应式操作 MongoDB
-
 传统 SQL 数据库通常使用声明式的查询方式，而 NoSQL 提供响应式驱动。这里使用 MongoDB。
 
-依赖：响应式 MongoDB 数据库驱动 `org.mongodb:mongodb-driver-reactivestreams`
+> [!note] 依赖：响应式 MongoDB 数据库驱动 `org.mongodb:mongodb-driver-reactivestreams`
 
 MongoDB 的配置使用 `com.mongodb.reactivestreams` 包的对象，创建 `ReactiveMongoTemplate` 用于操作数据库
 
@@ -22,8 +20,10 @@ public ReactiveMongoTemplate reactiveMongoTemplate(MongoClient mongoClient) {
 ```
 
 使用 SpringData 时，使 `Repository` 类接口继承自 `ReactiveMongoRepository`，返回 RxJava 的对象类型
+- 如果没有返回值，则返回 `Completable`
+- 如果原本返回值为 `Optional`，则返回 `MayBe`
 
-响应式数据库编程暂不支持 Querydsl
+> [!attention] 响应式数据库编程暂不支持 Querydsl
 
 ```java
 public interface BankAccountRepository extends ReactiveMongoRepository<BankAccountDetails, String> {
@@ -38,9 +38,9 @@ public interface BankAccountRepository extends ReactiveMongoRepository<BankAccou
 
 ```
 
-如果没有返回值，则返回 `Completable`；如果原本返回值为 `Optional`，则返回 `MayBe`
-
 也可以使用 Reactor 替代 RxJava，返回 `Mono` 和 `Flux`
+- 如果没有返回值，则返回 `Mono<Void>`
+- 如果原本返回值为 `Optional`，返回 `Mono`
 
 ```java
 public interface BankAccountRepository extends ReactiveMongoRepository<BankAccountDetails, String> {
@@ -53,8 +53,6 @@ public interface BankAccountRepository extends ReactiveMongoRepository<BankAccou
     Flux<BankAccountDetails> findByCustomQuery(int balanceAmount);
 }
 ```
-
-如果没有返回值，则返回 `Mono<Void>`；如果原本返回值为 `Optional`，返回 `Mono`
 
 ```java
 public interface BankAccountRepositoryCustom {
@@ -98,4 +96,4 @@ private Mono<BankAccountDetails> addFd(BankAccountDetails bankAccount, int amoun
 
 如果使用 RxJava，可以使用 `rxjava-adapter` 库的 `RxJava3Adapter` 中的工具方法将 Reactor 的类转换成 RxJava 的类
 
-依赖：`io.projectreactor.addons:reactor-adapter`
+> [!note] 依赖：`io.projectreactor.addons:reactor-adapter`

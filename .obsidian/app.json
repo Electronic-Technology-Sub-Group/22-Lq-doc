@@ -9,5 +9,6 @@
   "userIgnoreFilters": [
     "_resources/"
   ],
-  "newLinkFormat": "relative"
+  "newLinkFormat": "relative",
+  "readableLineLength": false
 }

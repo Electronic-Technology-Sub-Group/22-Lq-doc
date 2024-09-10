@@ -1,5 +1,3 @@
-# Spring boot 多数据库源配置
-
 在 `application.properties` 中可以配置多个数据源，使用不同的名称
 
 ```properties

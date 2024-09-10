@@ -1,6 +1,4 @@
-# Spring Data
-
-Spring Data 是一个抽象层，支持关系型数据库、NoSQL、大数据数据库等，减少样板代码实现持久存储的数据访问层。
+Spring Data 是一个关系型数据库、NoSQL、大数据数据库等各类数据库的抽象层，减少样板代码，实现持久存储的数据访问层。
 
 |项目|描述|
 | -----------------------| -----------------------------------------------|
@@ -10,7 +8,7 @@ Spring Data 是一个抽象层，支持关系型数据库、NoSQL、大数据数
 |Spring Data Aerospike|简化使用 Aerospike 的应用程序开发|
 |Spring Data Hadoop|简化使用 Apache Hadoop 的应用程序开发|
 
-Spring Data 的核心接口为 `Repository`，由 Spring 实现存储库对实体进行 CRUD 操作的方法。
+Spring Data 核心接口为 `Repository`，由 Spring 实现对实体进行 CRUD 操作。
 
 ```plantuml
 interface Repository<T, ID>
@@ -71,5 +69,10 @@ public interface FixedDepositSpringDataDao {
 
 实现 Spring Data 步骤如下：
 
-1. 配置 Spring Data JPA
-2. 设置 `Repository` 类的查询方法
+1. [[配置 Spring Data JPA]]
+2. 设置 `Repository` 类的[[Repository SQL 方法/Repository SQL 方法|查询方法]]
+
+---
+
+- [[Querydsl]]
+- [[Spring Data MongoDB]]
