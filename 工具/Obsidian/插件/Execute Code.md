@@ -1,6 +1,3 @@
----
-icon: SiObsidian
----
 # C++
 
 - Cling：可以从以下地方下载编译好的

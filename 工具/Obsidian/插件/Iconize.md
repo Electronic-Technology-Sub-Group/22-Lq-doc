@@ -1,6 +1,3 @@
----
-icon: SiObsidian
----
 将任意 `.svg` 文件或图标包转换为 Obsidian 图标，并添加到文档或目录
 
 # 图标包

@@ -1,6 +1,3 @@
----
-icon: SiObsidian
----
 提供多标签页视图和四象限视图
 - 使用 `minitabs` 类型代码块创建
 - 代码块中第一行表示视图类型，包括 `tabs`，`tabsButtom` 和 `fourQuadrant`

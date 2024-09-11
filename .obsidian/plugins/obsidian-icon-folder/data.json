@@ -93,64 +93,10 @@
   "工具/Node.js/webpack.md": "SiWebpack",
   "工具/Obsidian": "SiObsidian",
   "工具/Obsidian/插件": "SiObsidian",
-  "工具/Obsidian/插件/Dataview": "SiObsidian",
-  "工具/Obsidian/插件/Dataview/元数据": "SiObsidian",
-  "工具/Obsidian/插件/Dataview/元数据/添加字段.md": {
-    "iconName": "SiObsidian"
-  },
-  "工具/Obsidian/插件/Dataview/元数据/字段类型.md": {
-    "iconName": "SiObsidian"
-  },
-  "工具/Obsidian/插件/Dataview/元数据查询": "SiObsidian",
-  "工具/Obsidian/插件/Dataview/元数据查询/表达式.md": {
-    "iconName": "SiObsidian"
-  },
-  "工具/Obsidian/插件/Dataview/元数据查询/DataviewJS.md": {
-    "iconName": "SiObsidian"
-  },
-  "工具/Obsidian/插件/Dataview/元数据查询/DQL.md": {
-    "iconName": "SiObsidian"
-  },
-  "工具/Obsidian/插件/Code Styler.md": {
-    "iconName": "SiObsidian"
-  },
-  "工具/Obsidian/插件/Console Markdown.md": {
-    "iconName": "SiObsidian"
-  },
-  "工具/Obsidian/插件/Dirtreeist.md": {
-    "iconName": "SiObsidian"
-  },
-  "工具/Obsidian/插件/Embed Code File.md": {
-    "iconName": "SiObsidian"
-  },
-  "工具/Obsidian/插件/Execute Code.md": {
-    "iconName": "SiObsidian"
-  },
-  "工具/Obsidian/插件/Iconize.md": {
-    "iconName": "SiObsidian"
-  },
-  "工具/Obsidian/插件/Minitabs.md": {
-    "iconName": "SiObsidian"
-  },
-  "工具/Obsidian/插件/Obsidian Columns.md": {
-    "iconName": "SiObsidian"
-  },
-  "工具/Obsidian/插件/Spaced Repetition.md": {
-    "iconName": "SiObsidian"
-  },
-  "工具/Obsidian/插件/Tabs.md": {
-    "iconName": "SiObsidian"
-  },
-  "工具/Obsidian/插件/Templater.md": {
-    "iconName": "SiObsidian"
-  },
   "工具/Obsidian/关系图谱.md": {
     "iconName": "SiObsidian"
   },
   "工具/Obsidian/Callout.md": {
-    "iconName": "SiObsidian"
-  },
-  "工具/Obsidian/插件/AnyBlock.md": {
     "iconName": "SiObsidian"
   },
   "工具/Photoshop": "SiAdobephotoshop",

@@ -8,13 +8,13 @@
         "type": "tabs",
         "children": [
           {
-            "id": "35fb6a69926398b0",
+            "id": "12387b94613d9abd",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "库/Java/Thymeleaf/Thymeleaf.md",
+                "file": "任务.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -23,18 +23,16 @@
             }
           },
           {
-            "id": "1cf8522f308d25e3",
+            "id": "822cacd64f33ed04",
             "type": "leaf",
-            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "库/Java/Thymeleaf/HTML 模式/HTML 模式.md",
-                "mode": "preview",
+                "file": "工具/Obsidian/插件/Advanced URI.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
-              },
-              "pinned": true
+              }
             }
           }
         ],
@@ -96,7 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 269.51103591918945
+    "width": 219.49999618530273
   },
   "right": {
     "id": "2f5d582e60864eba",
@@ -112,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "库/Java/Thymeleaf/HTML 模式/HTML 模式.md",
+                "file": "工具/Obsidian/插件/Advanced URI.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "库/Java/Thymeleaf/HTML 模式/HTML 模式.md",
+                "file": "工具/Obsidian/插件/Advanced URI.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "库/Java/Thymeleaf/HTML 模式/HTML 模式.md"
+                "file": "工具/Obsidian/插件/Advanced URI.md"
               }
             }
           },
@@ -238,34 +236,34 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "1cf8522f308d25e3",
+  "active": "822cacd64f33ed04",
   "lastOpenFiles": [
-    "库/Java/Thymeleaf/标准表达式语法/标准表达式语法.md",
+    "工具/Obsidian/插件/AnyBlock.md",
+    "工具/Obsidian/插件/Advanced URI.md",
+    "工具/Obsidian/插件/Templater.md",
+    "工具/Obsidian/插件/Minitabs.md",
+    "工具/Obsidian/插件/Tabs.md",
+    "工具/Obsidian/插件/Spaced Repetition.md",
+    "工具/Obsidian/插件/Obsidian Columns.md",
+    "工具/Obsidian/插件/Iconize.md",
+    "工具/Obsidian/插件/Execute Code.md",
+    "工具/Obsidian/插件/Embed Code File.md",
+    "工具/Obsidian/插件/Dirtreeist.md",
+    "工具/Obsidian/插件/Console Markdown.md",
+    "工具/Obsidian/插件/Code Styler.md",
+    "工具/Obsidian/插件/Dataview/Dataview.md",
+    "工具/Obsidian/插件/插件.md",
+    "任务.md",
+    "工具/Linux/KDE/Electron 应用 fcitx5 无法切换语言.md",
+    "工具/编译器/CMake.md",
+    "工具/Obsidian/插件/Dataview/元数据查询/元数据查询.md",
+    "工具/Obsidian/插件/Dataview/元数据查询/表达式.md",
+    "工具/Obsidian/插件/Dataview/元数据查询/DQL.md",
+    "工具/Obsidian/插件/Dataview/元数据查询/DataviewJS.md",
+    "工具/Obsidian/插件/Dataview/元数据/元数据.md",
+    "工具/Obsidian/插件/Dataview/元数据/字段类型.md",
+    "工具/Obsidian/插件/Dataview/元数据/添加字段.md",
     "库/Java/Thymeleaf/HTML 模式/HTML 模式.md",
-    "库/Java/Thymeleaf/循环迭代.md",
-    "库/Java/Thymeleaf/Thymeleaf.md",
-    "库/Java/Thymeleaf/配置和集成模板引擎/配置和集成模板引擎.md",
-    "库/Java/Thymeleaf/内联/内联.md",
-    "库/Java/Thymeleaf/HTML 模式/修改 HTML 属性.md",
-    "库/Java/Thymeleaf/HTML 模式/设置 HTML 标签内容.md",
-    "库/Java/Thymeleaf/注释块.md",
-    "库/Java/Thymeleaf/配置和集成模板引擎/上下文 Context.md",
-    "库/Java/Thymeleaf/配置和集成模板引擎/模板引擎 TemplateEngine.md",
-    "库/Java/Thymeleaf/配置和集成模板引擎/模板解析器 TemplateResolver.md",
-    "库/Java/JUnit 5.md",
-    "库/ReactiveX.md",
-    "库/Java/Thymeleaf/标准表达式语法/片段/断言.md",
-    "库/Java/Thymeleaf/标准表达式语法/片段/片段选择器.md",
-    "库/Java/Spring/Spring.md",
-    "库/Java/Spring/反应式 RESTful Web 服务/Spring WebFlux 配置.md",
-    "库/Java/Spring/反应式 RESTful Web 服务/反应式 RESTful Web 服务.md",
-    "库/Java/Spring/反应式 RESTful Web 服务/响应式操作 MongoDB.md",
-    "库/Java/Spring/Spring Security 保护应用程序/Spring Security 保护应用程序.md",
-    "库/Java/Spring/Spring Security 保护应用程序/WebClient 权限测试.md",
-    "库/Java/Spring/Spring Security 保护应用程序/Web 请求安全配置.md",
-    "库/Java/Spring/Spring Web MVC/Spring Web MVC.md",
-    "库/Java/Spring/消息与异步任务/异步任务调度.md",
-    "库/Java/Spring/数据库交互/Spring JDBC/使用 Hibernate 框架.md",
     "_resources/codes/spring-web/modelattribute/src/test/resources",
     "_resources/codes/spring-web/modelattribute/src/test/java",
     "_resources/codes/spring-web/modelattribute/src/test",

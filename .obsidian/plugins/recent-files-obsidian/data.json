@@ -1,6 +1,106 @@
 {
   "recentFiles": [
     {
+      "basename": "Advanced URI",
+      "path": "工具/Obsidian/插件/Advanced URI.md"
+    },
+    {
+      "basename": "AnyBlock",
+      "path": "工具/Obsidian/插件/AnyBlock.md"
+    },
+    {
+      "basename": "Templater",
+      "path": "工具/Obsidian/插件/Templater.md"
+    },
+    {
+      "basename": "Minitabs",
+      "path": "工具/Obsidian/插件/Minitabs.md"
+    },
+    {
+      "basename": "Tabs",
+      "path": "工具/Obsidian/插件/Tabs.md"
+    },
+    {
+      "basename": "Spaced Repetition",
+      "path": "工具/Obsidian/插件/Spaced Repetition.md"
+    },
+    {
+      "basename": "Obsidian Columns",
+      "path": "工具/Obsidian/插件/Obsidian Columns.md"
+    },
+    {
+      "basename": "Iconize",
+      "path": "工具/Obsidian/插件/Iconize.md"
+    },
+    {
+      "basename": "Execute Code",
+      "path": "工具/Obsidian/插件/Execute Code.md"
+    },
+    {
+      "basename": "Embed Code File",
+      "path": "工具/Obsidian/插件/Embed Code File.md"
+    },
+    {
+      "basename": "Dirtreeist",
+      "path": "工具/Obsidian/插件/Dirtreeist.md"
+    },
+    {
+      "basename": "Console Markdown",
+      "path": "工具/Obsidian/插件/Console Markdown.md"
+    },
+    {
+      "basename": "Code Styler",
+      "path": "工具/Obsidian/插件/Code Styler.md"
+    },
+    {
+      "basename": "Dataview",
+      "path": "工具/Obsidian/插件/Dataview/Dataview.md"
+    },
+    {
+      "basename": "插件",
+      "path": "工具/Obsidian/插件/插件.md"
+    },
+    {
+      "basename": "任务",
+      "path": "任务.md"
+    },
+    {
+      "basename": "Electron 应用 fcitx5 无法切换语言",
+      "path": "工具/Linux/KDE/Electron 应用 fcitx5 无法切换语言.md"
+    },
+    {
+      "basename": "CMake",
+      "path": "工具/编译器/CMake.md"
+    },
+    {
+      "basename": "元数据查询",
+      "path": "工具/Obsidian/插件/Dataview/元数据查询/元数据查询.md"
+    },
+    {
+      "basename": "表达式",
+      "path": "工具/Obsidian/插件/Dataview/元数据查询/表达式.md"
+    },
+    {
+      "basename": "DQL",
+      "path": "工具/Obsidian/插件/Dataview/元数据查询/DQL.md"
+    },
+    {
+      "basename": "DataviewJS",
+      "path": "工具/Obsidian/插件/Dataview/元数据查询/DataviewJS.md"
+    },
+    {
+      "basename": "元数据",
+      "path": "工具/Obsidian/插件/Dataview/元数据/元数据.md"
+    },
+    {
+      "basename": "字段类型",
+      "path": "工具/Obsidian/插件/Dataview/元数据/字段类型.md"
+    },
+    {
+      "basename": "添加字段",
+      "path": "工具/Obsidian/插件/Dataview/元数据/添加字段.md"
+    },
+    {
       "basename": "HTML 模式",
       "path": "库/Java/Thymeleaf/HTML 模式/HTML 模式.md"
     },
@@ -99,106 +199,6 @@
     {
       "basename": "异步任务调度",
       "path": "库/Java/Spring/消息与异步任务/异步任务调度.md"
-    },
-    {
-      "basename": "使用 Hibernate 框架",
-      "path": "库/Java/Spring/数据库交互/Spring JDBC/使用 Hibernate 框架.md"
-    },
-    {
-      "basename": "声明式事务管理",
-      "path": "库/Java/Spring/数据库交互/Spring JDBC/事务管理/声明式事务管理.md"
-    },
-    {
-      "basename": "配置 ActiveMQ",
-      "path": "库/Java/Spring/消息与异步任务/配置 ActiveMQ.md"
-    },
-    {
-      "basename": "接收 JMS 信息",
-      "path": "库/Java/Spring/消息与异步任务/接收 JMS 信息.md"
-    },
-    {
-      "basename": "方法级安全配置",
-      "path": "库/Java/Spring/Spring Security 保护应用程序/方法级安全配置.md"
-    },
-    {
-      "basename": "发送 JMS 信息",
-      "path": "库/Java/Spring/消息与异步任务/发送 JMS 信息/发送 JMS 信息.md"
-    },
-    {
-      "basename": "ACL 模块保护域对象安全性",
-      "path": "库/Java/Spring/Spring Security 保护应用程序/ACL 模块保护域对象安全性/ACL 模块保护域对象安全性.md"
-    },
-    {
-      "basename": "国际化",
-      "path": "库/Java/Spring/Spring Web MVC/Controller 控制器/国际化.md"
-    },
-    {
-      "basename": "RESTful Web 服务",
-      "path": "库/Java/Spring/Spring Web MVC/RESTful Web 服务/RESTful Web 服务.md"
-    },
-    {
-      "basename": "文件上传",
-      "path": "库/Java/Spring/Spring Web MVC/文件上传.md"
-    },
-    {
-      "basename": "类型转换与格式化",
-      "path": "库/Java/Spring/Spring Web MVC/类型转换与格式化.md"
-    },
-    {
-      "basename": "RESTful 客户端",
-      "path": "库/Java/Spring/Spring Web MVC/RESTful Web 服务/RESTful 客户端.md"
-    },
-    {
-      "basename": "构建状态信息",
-      "path": "库/Java/Spring/Spring Web MVC/RESTful Web 服务/构建状态信息.md"
-    },
-    {
-      "basename": "验证与数据绑定",
-      "path": "库/Java/Spring/Spring Web MVC/验证与数据绑定/验证与数据绑定.md"
-    },
-    {
-      "basename": "模型特性",
-      "path": "库/Java/Spring/Spring Web MVC/验证与数据绑定/模型特性/模型特性.md"
-    },
-    {
-      "basename": "缓存模型特性",
-      "path": "库/Java/Spring/Spring Web MVC/验证与数据绑定/模型特性/缓存模型特性.md"
-    },
-    {
-      "basename": "解析模型特性",
-      "path": "库/Java/Spring/Spring Web MVC/验证与数据绑定/模型特性/解析模型特性.md"
-    },
-    {
-      "basename": "创建模型特性",
-      "path": "库/Java/Spring/Spring Web MVC/验证与数据绑定/模型特性/创建模型特性.md"
-    },
-    {
-      "basename": "数据绑定",
-      "path": "库/Java/Spring/Spring Web MVC/验证与数据绑定/数据绑定/数据绑定.md"
-    },
-    {
-      "basename": "Controller 控制器",
-      "path": "库/Java/Spring/Spring Web MVC/Controller 控制器/Controller 控制器.md"
-    },
-    {
-      "basename": "处理拦截器",
-      "path": "库/Java/Spring/Spring Web MVC/Controller 控制器/处理拦截器.md"
-    },
-    {
-      "basename": "@ExceptionHandler",
-      "path": "库/Java/Spring/Spring Web MVC/Controller 控制器/@ExceptionHandler.md"
-    },
-    {
-      "basename": "异步处理",
-      "path": "库/Java/Spring/Spring Web MVC/Controller 控制器/@RequestMapping/异步处理.md"
-    },
-    {
-      "basename": "请求参数",
-      "path": "库/Java/Spring/Spring Web MVC/Controller 控制器/@RequestMapping/请求参数.md"
-    },
-    {
-      "basename": "路径参数",
-      "path": "库/Java/Spring/Spring Web MVC/Controller 控制器/@RequestMapping/路径参数.md"
     }
   ],
   "omittedPaths": []
