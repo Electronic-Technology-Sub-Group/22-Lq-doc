@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "SiGo",
       "SiSpring",
       "SiSpringboot",
       "SiArchlinux",
-      "RiJavaFill",
-      "SiGooglecampaignmanager360"
+      "RiJavaFill"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -250,30 +250,6 @@
   "工具/Linux/Debian 系/平板电脑安装Ubuntu教程.md": "SiUbuntu",
   "工具/Linux/Debian 系/Linux mint 安装 snap.md": "SiLinuxmint",
   "工具/Linux/Debian 系/Linux Mint 修复搜狗输入法.md": "SiLinuxmint",
-  "工具/MySQL 8.0/主从复制.md": {
-    "iconName": "SiMysql"
-  },
-  "工具/MySQL 8.0/分库分表及读写分离.md": {
-    "iconName": "SiMysql"
-  },
-  "工具/MySQL 8.0/存储对象/视图.md": {
-    "iconName": "SiMysql"
-  },
-  "工具/MySQL 8.0/存储引擎.md": {
-    "iconName": "SiMysql"
-  },
-  "工具/MySQL 8.0/日志.md": {
-    "iconName": "SiMysql"
-  },
-  "工具/MySQL 8.0/索引.md": {
-    "iconName": "SiMysql"
-  },
-  "工具/MySQL 8.0/语句优化.md": {
-    "iconName": "SiMysql"
-  },
-  "工具/MySQL 8.0/锁.md": {
-    "iconName": "SiMysql"
-  },
   "工具/Linux/系统组件/Cgroups.md": {
     "iconName": "SiLinux"
   },
@@ -331,48 +307,16 @@
   "工具/命令行": "LiCommand",
   "文档/Mermaid.md": "SiMermaid",
   "工具/AutoX.md": "ApAutox",
-  "工具/MySQL 8.0/存储对象/存储过程/存储函数.md": {
-    "iconName": "SiMysql"
-  },
-  "工具/MySQL 8.0/存储对象/存储过程/条件处理程序.md": {
-    "iconName": "SiMysql"
-  },
-  "工具/MySQL 8.0/存储对象/存储过程/流程控制.md": {
-    "iconName": "SiMysql"
-  },
-  "工具/MySQL 8.0/存储对象/存储过程/游标.md": {
-    "iconName": "SiMysql"
-  },
   "工具/Linux/Arch": "SiArchlinux",
   "工具/Linux/Arch/Arch 安装.md": "SiArchlinux",
   "工具/Linux/Arch/Network Manager 配置.md": "LiNetwork",
   "工具/Linux/Arch/Nvidia 驱动.md": "SiNvidia",
-  "工具/MySQL 8.0/内部函数.md": {
-    "iconName": "SiMysql"
-  },
-  "工具/MySQL 8.0/分页查询.md": {
-    "iconName": "SiMysql"
-  },
-  "工具/MySQL 8.0/存储对象/触发器.md": {
-    "iconName": "SiMysql"
-  },
-  "工具/MySQL 8.0/数据类型.md": {
-    "iconName": "SiMysql"
-  },
-  "工具/MySQL 8.0/权限控制.md": {
-    "iconName": "SiMysql"
-  },
-  "工具/MySQL 8.0/管理工具.md": {
-    "iconName": "SiMysql"
-  },
-  "工具/MySQL 8.0/约束.md": {
-    "iconName": "SiMysql"
-  },
   "工具/Linux/KDE/KDE 安装.md": "SiKde",
   "工具/Linux/KDE": "SiKde",
   "工具/Linux/KDE/Electron 应用 fcitx5 无法切换语言.md": "SiElectron",
   "工具/依赖版本管理": "SiGooglecampaignmanager360",
   "工具/依赖版本管理/Java.md": "RiJavaFill",
   "工具/包管理器/Pacman.md": "SiArchlinux",
-  "库/Java/Spring": "SiSpring"
+  "库/Java/Spring": "SiSpring",
+  "语言/GoLang/Go 语法": "SiGo"
 }

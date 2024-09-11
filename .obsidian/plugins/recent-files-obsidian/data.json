@@ -1,6 +1,110 @@
 {
   "recentFiles": [
     {
+      "basename": "集合",
+      "path": "语言/GoLang/Go 语法/集合.md"
+    },
+    {
+      "basename": "控制结构",
+      "path": "语言/GoLang/Go 语法/控制结构.md"
+    },
+    {
+      "basename": "Go 语法",
+      "path": "语言/GoLang/Go 语法/Go 语法.md"
+    },
+    {
+      "basename": "数据类型",
+      "path": "语言/GoLang/Go 语法/数据类型.md"
+    },
+    {
+      "basename": "变量",
+      "path": "语言/GoLang/Go 语法/变量.md"
+    },
+    {
+      "basename": "锁",
+      "path": "工具/MySQL 8.0/锁.md"
+    },
+    {
+      "basename": "主从复制",
+      "path": "工具/MySQL 8.0/主从复制.md"
+    },
+    {
+      "basename": "约束",
+      "path": "工具/MySQL 8.0/约束.md"
+    },
+    {
+      "basename": "语句优化",
+      "path": "工具/MySQL 8.0/语句优化.md"
+    },
+    {
+      "basename": "索引",
+      "path": "工具/MySQL 8.0/索引.md"
+    },
+    {
+      "basename": "数据类型",
+      "path": "工具/MySQL 8.0/数据类型.md"
+    },
+    {
+      "basename": "日志",
+      "path": "工具/MySQL 8.0/日志.md"
+    },
+    {
+      "basename": "权限控制",
+      "path": "工具/MySQL 8.0/权限控制.md"
+    },
+    {
+      "basename": "内部函数",
+      "path": "工具/MySQL 8.0/内部函数.md"
+    },
+    {
+      "basename": "管理工具",
+      "path": "工具/MySQL 8.0/管理工具.md"
+    },
+    {
+      "basename": "分页查询",
+      "path": "工具/MySQL 8.0/分页查询.md"
+    },
+    {
+      "basename": "分库分表及读写分离",
+      "path": "工具/MySQL 8.0/分库分表及读写分离.md"
+    },
+    {
+      "basename": "存储引擎",
+      "path": "工具/MySQL 8.0/存储引擎.md"
+    },
+    {
+      "basename": "触发器",
+      "path": "工具/MySQL 8.0/存储对象/触发器.md"
+    },
+    {
+      "basename": "存储函数",
+      "path": "工具/MySQL 8.0/存储对象/存储过程/存储函数.md"
+    },
+    {
+      "basename": "流程控制",
+      "path": "工具/MySQL 8.0/存储对象/存储过程/流程控制.md"
+    },
+    {
+      "basename": "游标",
+      "path": "工具/MySQL 8.0/存储对象/存储过程/游标.md"
+    },
+    {
+      "basename": "条件处理程序",
+      "path": "工具/MySQL 8.0/存储对象/存储过程/条件处理程序.md"
+    },
+    {
+      "basename": "MySQL 8.0",
+      "path": "工具/MySQL 8.0/MySQL 8.0.md"
+    },
+    {
+      "basename": "GoLang",
+      "path": "语言/GoLang/GoLang.md"
+    },
+    {
+      "basename": "任务",
+      "path": "任务.md"
+    },
+    {
       "basename": "Advanced URI",
       "path": "工具/Obsidian/插件/Advanced URI.md"
     },
@@ -61,10 +165,6 @@
       "path": "工具/Obsidian/插件/插件.md"
     },
     {
-      "basename": "任务",
-      "path": "任务.md"
-    },
-    {
       "basename": "Electron 应用 fcitx5 无法切换语言",
       "path": "工具/Linux/KDE/Electron 应用 fcitx5 无法切换语言.md"
     },
@@ -99,106 +199,6 @@
     {
       "basename": "添加字段",
       "path": "工具/Obsidian/插件/Dataview/元数据/添加字段.md"
-    },
-    {
-      "basename": "HTML 模式",
-      "path": "库/Java/Thymeleaf/HTML 模式/HTML 模式.md"
-    },
-    {
-      "basename": "标准表达式语法",
-      "path": "库/Java/Thymeleaf/标准表达式语法/标准表达式语法.md"
-    },
-    {
-      "basename": "循环迭代",
-      "path": "库/Java/Thymeleaf/循环迭代.md"
-    },
-    {
-      "basename": "Thymeleaf",
-      "path": "库/Java/Thymeleaf/Thymeleaf.md"
-    },
-    {
-      "basename": "配置和集成模板引擎",
-      "path": "库/Java/Thymeleaf/配置和集成模板引擎/配置和集成模板引擎.md"
-    },
-    {
-      "basename": "内联",
-      "path": "库/Java/Thymeleaf/内联/内联.md"
-    },
-    {
-      "basename": "修改 HTML 属性",
-      "path": "库/Java/Thymeleaf/HTML 模式/修改 HTML 属性.md"
-    },
-    {
-      "basename": "设置 HTML 标签内容",
-      "path": "库/Java/Thymeleaf/HTML 模式/设置 HTML 标签内容.md"
-    },
-    {
-      "basename": "注释块",
-      "path": "库/Java/Thymeleaf/注释块.md"
-    },
-    {
-      "basename": "上下文 Context",
-      "path": "库/Java/Thymeleaf/配置和集成模板引擎/上下文 Context.md"
-    },
-    {
-      "basename": "模板引擎 TemplateEngine",
-      "path": "库/Java/Thymeleaf/配置和集成模板引擎/模板引擎 TemplateEngine.md"
-    },
-    {
-      "basename": "模板解析器 TemplateResolver",
-      "path": "库/Java/Thymeleaf/配置和集成模板引擎/模板解析器 TemplateResolver.md"
-    },
-    {
-      "basename": "JUnit 5",
-      "path": "库/Java/JUnit 5.md"
-    },
-    {
-      "basename": "ReactiveX",
-      "path": "库/ReactiveX.md"
-    },
-    {
-      "basename": "断言",
-      "path": "库/Java/Thymeleaf/标准表达式语法/片段/断言.md"
-    },
-    {
-      "basename": "片段选择器",
-      "path": "库/Java/Thymeleaf/标准表达式语法/片段/片段选择器.md"
-    },
-    {
-      "basename": "Spring",
-      "path": "库/Java/Spring/Spring.md"
-    },
-    {
-      "basename": "Spring WebFlux 配置",
-      "path": "库/Java/Spring/反应式 RESTful Web 服务/Spring WebFlux 配置.md"
-    },
-    {
-      "basename": "反应式 RESTful Web 服务",
-      "path": "库/Java/Spring/反应式 RESTful Web 服务/反应式 RESTful Web 服务.md"
-    },
-    {
-      "basename": "响应式操作 MongoDB",
-      "path": "库/Java/Spring/反应式 RESTful Web 服务/响应式操作 MongoDB.md"
-    },
-    {
-      "basename": "Spring Security 保护应用程序",
-      "path": "库/Java/Spring/Spring Security 保护应用程序/Spring Security 保护应用程序.md"
-    },
-    {
-      "basename": "WebClient 权限测试",
-      "path": "库/Java/Spring/Spring Security 保护应用程序/WebClient 权限测试.md"
-    },
-    {
-      "basename": "Web 请求安全配置",
-      "path": "库/Java/Spring/Spring Security 保护应用程序/Web 请求安全配置.md"
-    },
-    {
-      "basename": "Spring Web MVC",
-      "path": "库/Java/Spring/Spring Web MVC/Spring Web MVC.md"
-    },
-    {
-      "basename": "异步任务调度",
-      "path": "库/Java/Spring/消息与异步任务/异步任务调度.md"
     }
   ],
   "omittedPaths": []

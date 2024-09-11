@@ -46,7 +46,14 @@
       "mode": "any"
     }
   ],
-  "pageHeader": [],
+  "pageHeader": [
+    {
+      "id": "obsidian-icon-folder:iconize:set-icon-for-file",
+      "icon": "image",
+      "name": "Iconize: Set icon for file",
+      "mode": "any"
+    }
+  ],
   "macros": [],
   "explorer": [],
   "hide": {
