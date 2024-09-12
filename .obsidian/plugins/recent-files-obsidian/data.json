@@ -1,24 +1,52 @@
 {
   "recentFiles": [
     {
-      "basename": "集合",
-      "path": "语言/GoLang/Go 语法/集合.md"
-    },
-    {
-      "basename": "控制结构",
-      "path": "语言/GoLang/Go 语法/控制结构.md"
-    },
-    {
       "basename": "Go 语法",
       "path": "语言/GoLang/Go 语法/Go 语法.md"
+    },
+    {
+      "basename": "错误处理",
+      "path": "语言/GoLang/Go 语法/错误处理.md"
+    },
+    {
+      "basename": "类型断言",
+      "path": "语言/GoLang/Go 语法/结构体与接口/类型断言.md"
+    },
+    {
+      "basename": "函数",
+      "path": "语言/GoLang/Go 语法/函数.md"
+    },
+    {
+      "basename": "组合",
+      "path": "语言/GoLang/Go 语法/结构体与接口/组合.md"
+    },
+    {
+      "basename": "接口",
+      "path": "语言/GoLang/Go 语法/结构体与接口/接口.md"
+    },
+    {
+      "basename": "结构体",
+      "path": "语言/GoLang/Go 语法/结构体与接口/结构体.md"
     },
     {
       "basename": "数据类型",
       "path": "语言/GoLang/Go 语法/数据类型.md"
     },
     {
-      "basename": "变量",
-      "path": "语言/GoLang/Go 语法/变量.md"
+      "basename": "控制结构",
+      "path": "语言/GoLang/Go 语法/控制结构.md"
+    },
+    {
+      "basename": "Code Styler",
+      "path": "工具/Obsidian/插件/Code Styler.md"
+    },
+    {
+      "basename": "任务",
+      "path": "任务.md"
+    },
+    {
+      "basename": "集合",
+      "path": "语言/GoLang/Go 语法/集合.md"
     },
     {
       "basename": "锁",
@@ -101,10 +129,6 @@
       "path": "语言/GoLang/GoLang.md"
     },
     {
-      "basename": "任务",
-      "path": "任务.md"
-    },
-    {
       "basename": "Advanced URI",
       "path": "工具/Obsidian/插件/Advanced URI.md"
     },
@@ -153,10 +177,6 @@
       "path": "工具/Obsidian/插件/Console Markdown.md"
     },
     {
-      "basename": "Code Styler",
-      "path": "工具/Obsidian/插件/Code Styler.md"
-    },
-    {
       "basename": "Dataview",
       "path": "工具/Obsidian/插件/Dataview/Dataview.md"
     },
@@ -179,26 +199,6 @@
     {
       "basename": "表达式",
       "path": "工具/Obsidian/插件/Dataview/元数据查询/表达式.md"
-    },
-    {
-      "basename": "DQL",
-      "path": "工具/Obsidian/插件/Dataview/元数据查询/DQL.md"
-    },
-    {
-      "basename": "DataviewJS",
-      "path": "工具/Obsidian/插件/Dataview/元数据查询/DataviewJS.md"
-    },
-    {
-      "basename": "元数据",
-      "path": "工具/Obsidian/插件/Dataview/元数据/元数据.md"
-    },
-    {
-      "basename": "字段类型",
-      "path": "工具/Obsidian/插件/Dataview/元数据/字段类型.md"
-    },
-    {
-      "basename": "添加字段",
-      "path": "工具/Obsidian/插件/Dataview/元数据/添加字段.md"
     }
   ],
   "omittedPaths": []
