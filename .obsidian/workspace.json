@@ -4,39 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "0d623cbf408fdb2d",
+        "id": "8cd9cd93ffb20e75",
         "type": "tabs",
         "children": [
           {
-            "id": "157381daa4a5773a",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "任务.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "6b67151542098666",
+            "id": "a9ba885187c46b20",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "库/JS与CSS库/Vue3/单文件组件/script setup 写法.md",
-                "mode": "preview",
+                "file": "库/JS与CSS库/Vue3/Vue Router/Vue Router.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "库/JS与CSS库/Vue3/单文件组件/script setup 写法.md",
+                "file": "库/JS与CSS库/Vue3/Vue Router/Vue Router.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "库/JS与CSS库/Vue3/单文件组件/script setup 写法.md",
+                "file": "库/JS与CSS库/Vue3/Vue Router/Vue Router.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "库/JS与CSS库/Vue3/单文件组件/script setup 写法.md"
+                "file": "库/JS与CSS库/Vue3/Vue Router/Vue Router.md"
               }
             }
           },
@@ -236,8 +220,33 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "6b67151542098666",
+  "active": "a9ba885187c46b20",
   "lastOpenFiles": [
+    "库/JS与CSS库/Vue3/Vue Router/重定向.md",
+    "库/JS与CSS库/Vue3/Vue Router/Vue Router.md",
+    "库/JS与CSS库/Vue3/Vue Router/HTML5 历史记录模式.md",
+    "库/JS与CSS库/Vue3/Vue Router/props 传参.md",
+    "库/JS与CSS库/Vue3/Vue Router/嵌套路由.md",
+    "库/JS与CSS库/Vue3/Vue Router/命名路由.md",
+    "库/JS与CSS库/Vue3/Vue Router/路由元信息.md",
+    "库/JS与CSS库/Vue3/Vue Router/路由钩子函数.md",
+    "库/JS与CSS库/Vue3/Vue Router/例：登录权限验证.md",
+    "库/JS与CSS库/Vue3/Vue Router/编程式导航.md",
+    "库/JS与CSS库/Vue3/Vue Router/$route.md",
+    "库/JS与CSS库/Vue3/Vue3.md",
+    "库/JS与CSS库/Vue3/渲染函数/渲染函数.md",
+    "库/JS与CSS库/Vue3/渲染函数/指令等价方案/v-on 等价方案.md",
+    "库/JS与CSS库/Vue3/渲染函数/指令等价方案/v-model 等价方案.md",
+    "库/JS与CSS库/Vue3/渲染函数/指令等价方案/指令等价方案.md",
+    "任务.md",
+    "_resources/codes/Vue/Vue3/hellovue/counter.html",
+    "_resources/codes/Vue/Vue3/hellovue/js/vue.global.js",
+    "_resources/codes/Vue/Vue3/hellovue/js",
+    "_resources/codes/Vue/Vue3/hellovue/index.html",
+    "_resources/codes/Vue/Vue3/hellovue",
+    "_resources/codes/Vue/Vue3",
+    "_resources/codes/Vue",
+    "库/JS与CSS库/Vue3/单文件组件/script setup 写法.md",
     "库/JS与CSS库/Vue3/单文件组件/webpack.md",
     "库/JS与CSS库/Vue3/单文件组件/单文件组件.md",
     "库/JS与CSS库/Vue3/内置指令/内置指令.md",
@@ -246,34 +255,9 @@
     "库/JS与CSS库/mysql2.md",
     "库/JS与CSS库/JWT 相关.md",
     "库/JS与CSS库/过时/jQuery.md",
-    "库/JS与CSS库/过时/flexible.js.md",
     "库/JS与CSS库/过时",
-    "库/JS与CSS库/Express.md",
-    "库/JS与CSS库/art-template.md",
-    "库/JS与CSS库/Vue3/Vue3.md",
-    "库/JS与CSS库/ECharts.md",
-    "库/JS与CSS库/Bootstrap.md",
-    "库/JS与CSS库/Babel.md",
-    "工具/Obsidian/插件/Advanced URI/Advanced URI.md",
-    "工具/Obsidian/插件/Dataview/Dataview.md",
-    "工具/Obsidian/插件/AnyBlock.md",
-    "工具/Obsidian/插件/Code Styler.md",
-    "工具/Obsidian/插件/Console Markdown.md",
-    "工具/Obsidian/插件/Dirtreeist.md",
-    "工具/Obsidian/插件/Embed Code File.md",
-    "工具/Obsidian/插件/Iconize.md",
-    "工具/Obsidian/插件/Minitabs.md",
-    "工具/Obsidian/插件/Obsidian Columns.md",
-    "工具/Obsidian/插件/Advanced URI/动作.md",
     "语言/GoLang/Go 语法",
     "语言/Go",
-    "_resources/codes/spring-web/modelattribute/src/test/resources",
-    "_resources/codes/spring-web/modelattribute/src/test/java",
-    "_resources/codes/spring-web/modelattribute/src/test",
-    "_resources/codes/spring-web/modelattribute/src/main/resources/templates/access-denied.html",
-    "_resources/codes/spring-web/modelattribute/src/main/resources/templates",
-    "_resources/codes/spring-web/modelattribute/src/main/resources",
-    "_resources/codes/spring-web/modelattribute/src/main/java/com/example/mybank/service/FixedDepositServiceImpl.java",
     "_resources/images/Pasted image 20240907170039.png",
     "_resources/images/Pasted image 20240905154001.png",
     "_resources/images/Pasted image 20240905153635.png",

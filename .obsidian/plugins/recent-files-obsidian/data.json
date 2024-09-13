@@ -1,6 +1,78 @@
 {
   "recentFiles": [
     {
+      "basename": "Vue Router",
+      "path": "库/JS与CSS库/Vue3/Vue Router/Vue Router.md"
+    },
+    {
+      "basename": "重定向",
+      "path": "库/JS与CSS库/Vue3/Vue Router/重定向.md"
+    },
+    {
+      "basename": "HTML5 历史记录模式",
+      "path": "库/JS与CSS库/Vue3/Vue Router/HTML5 历史记录模式.md"
+    },
+    {
+      "basename": "props 传参",
+      "path": "库/JS与CSS库/Vue3/Vue Router/props 传参.md"
+    },
+    {
+      "basename": "嵌套路由",
+      "path": "库/JS与CSS库/Vue3/Vue Router/嵌套路由.md"
+    },
+    {
+      "basename": "命名路由",
+      "path": "库/JS与CSS库/Vue3/Vue Router/命名路由.md"
+    },
+    {
+      "basename": "路由元信息",
+      "path": "库/JS与CSS库/Vue3/Vue Router/路由元信息.md"
+    },
+    {
+      "basename": "路由钩子函数",
+      "path": "库/JS与CSS库/Vue3/Vue Router/路由钩子函数.md"
+    },
+    {
+      "basename": "例：登录权限验证",
+      "path": "库/JS与CSS库/Vue3/Vue Router/例：登录权限验证.md"
+    },
+    {
+      "basename": "编程式导航",
+      "path": "库/JS与CSS库/Vue3/Vue Router/编程式导航.md"
+    },
+    {
+      "basename": "$route",
+      "path": "库/JS与CSS库/Vue3/Vue Router/$route.md"
+    },
+    {
+      "basename": "Vue3",
+      "path": "库/JS与CSS库/Vue3/Vue3.md"
+    },
+    {
+      "basename": "渲染函数",
+      "path": "库/JS与CSS库/Vue3/渲染函数/渲染函数.md"
+    },
+    {
+      "basename": "v-on 等价方案",
+      "path": "库/JS与CSS库/Vue3/渲染函数/指令等价方案/v-on 等价方案.md"
+    },
+    {
+      "basename": "v-model 等价方案",
+      "path": "库/JS与CSS库/Vue3/渲染函数/指令等价方案/v-model 等价方案.md"
+    },
+    {
+      "basename": "指令等价方案",
+      "path": "库/JS与CSS库/Vue3/渲染函数/指令等价方案/指令等价方案.md"
+    },
+    {
+      "basename": "任务",
+      "path": "任务.md"
+    },
+    {
+      "basename": "script setup 写法",
+      "path": "库/JS与CSS库/Vue3/单文件组件/script setup 写法.md"
+    },
+    {
       "basename": "Go 语法",
       "path": "语言/GoLang/Go 语法/Go 语法.md"
     },
@@ -39,10 +111,6 @@
     {
       "basename": "Code Styler",
       "path": "工具/Obsidian/插件/Code Styler.md"
-    },
-    {
-      "basename": "任务",
-      "path": "任务.md"
     },
     {
       "basename": "集合",
@@ -131,74 +199,6 @@
     {
       "basename": "Advanced URI",
       "path": "工具/Obsidian/插件/Advanced URI.md"
-    },
-    {
-      "basename": "AnyBlock",
-      "path": "工具/Obsidian/插件/AnyBlock.md"
-    },
-    {
-      "basename": "Templater",
-      "path": "工具/Obsidian/插件/Templater.md"
-    },
-    {
-      "basename": "Minitabs",
-      "path": "工具/Obsidian/插件/Minitabs.md"
-    },
-    {
-      "basename": "Tabs",
-      "path": "工具/Obsidian/插件/Tabs.md"
-    },
-    {
-      "basename": "Spaced Repetition",
-      "path": "工具/Obsidian/插件/Spaced Repetition.md"
-    },
-    {
-      "basename": "Obsidian Columns",
-      "path": "工具/Obsidian/插件/Obsidian Columns.md"
-    },
-    {
-      "basename": "Iconize",
-      "path": "工具/Obsidian/插件/Iconize.md"
-    },
-    {
-      "basename": "Execute Code",
-      "path": "工具/Obsidian/插件/Execute Code.md"
-    },
-    {
-      "basename": "Embed Code File",
-      "path": "工具/Obsidian/插件/Embed Code File.md"
-    },
-    {
-      "basename": "Dirtreeist",
-      "path": "工具/Obsidian/插件/Dirtreeist.md"
-    },
-    {
-      "basename": "Console Markdown",
-      "path": "工具/Obsidian/插件/Console Markdown.md"
-    },
-    {
-      "basename": "Dataview",
-      "path": "工具/Obsidian/插件/Dataview/Dataview.md"
-    },
-    {
-      "basename": "插件",
-      "path": "工具/Obsidian/插件/插件.md"
-    },
-    {
-      "basename": "Electron 应用 fcitx5 无法切换语言",
-      "path": "工具/Linux/KDE/Electron 应用 fcitx5 无法切换语言.md"
-    },
-    {
-      "basename": "CMake",
-      "path": "工具/编译器/CMake.md"
-    },
-    {
-      "basename": "元数据查询",
-      "path": "工具/Obsidian/插件/Dataview/元数据查询/元数据查询.md"
-    },
-    {
-      "basename": "表达式",
-      "path": "工具/Obsidian/插件/Dataview/元数据查询/表达式.md"
     }
   ],
   "omittedPaths": []
