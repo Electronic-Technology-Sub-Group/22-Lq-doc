@@ -1,6 +1,82 @@
 {
   "recentFiles": [
     {
+      "basename": "同步原语",
+      "path": "语言/GoLang/Go 语法/并发/同步原语.md"
+    },
+    {
+      "basename": "集合",
+      "path": "语言/GoLang/Go 语法/集合.md"
+    },
+    {
+      "basename": "协程与管道",
+      "path": "语言/GoLang/Go 语法/并发/协程与管道.md"
+    },
+    {
+      "basename": "Go 语法",
+      "path": "语言/GoLang/Go 语法/Go 语法.md"
+    },
+    {
+      "basename": "并发模式",
+      "path": "语言/GoLang/Go 语法/并发/并发模式.md"
+    },
+    {
+      "basename": "并发控制",
+      "path": "语言/GoLang/Go 语法/并发/并发控制.md"
+    },
+    {
+      "basename": "变量",
+      "path": "语言/GoLang/Go 语法/变量.md"
+    },
+    {
+      "basename": "控制结构",
+      "path": "语言/GoLang/Go 语法/控制结构.md"
+    },
+    {
+      "basename": "GoLang",
+      "path": "语言/GoLang/GoLang.md"
+    },
+    {
+      "basename": "字节池",
+      "path": "语言/GoLang/Go 语法/并发/字节池.md"
+    },
+    {
+      "basename": "Error",
+      "path": "语言/GoLang/Go 语法/异常处理/Error.md"
+    },
+    {
+      "basename": "异常处理",
+      "path": "语言/GoLang/Go 语法/异常处理/异常处理.md"
+    },
+    {
+      "basename": "数据类型",
+      "path": "语言/GoLang/Go 语法/数据类型.md"
+    },
+    {
+      "basename": "panic",
+      "path": "语言/GoLang/Go 语法/异常处理/panic.md"
+    },
+    {
+      "basename": "接口",
+      "path": "语言/GoLang/Go 语法/结构体与接口/接口.md"
+    },
+    {
+      "basename": "组合",
+      "path": "语言/GoLang/Go 语法/结构体与接口/组合.md"
+    },
+    {
+      "basename": "结构体",
+      "path": "语言/GoLang/Go 语法/结构体与接口/结构体.md"
+    },
+    {
+      "basename": "类型断言",
+      "path": "语言/GoLang/Go 语法/结构体与接口/类型断言.md"
+    },
+    {
+      "basename": "任务",
+      "path": "任务.md"
+    },
+    {
       "basename": "Vue Router",
       "path": "库/JS与CSS库/Vue3/Vue Router/Vue Router.md"
     },
@@ -65,56 +141,16 @@
       "path": "库/JS与CSS库/Vue3/渲染函数/指令等价方案/指令等价方案.md"
     },
     {
-      "basename": "任务",
-      "path": "任务.md"
-    },
-    {
       "basename": "script setup 写法",
       "path": "库/JS与CSS库/Vue3/单文件组件/script setup 写法.md"
-    },
-    {
-      "basename": "Go 语法",
-      "path": "语言/GoLang/Go 语法/Go 语法.md"
-    },
-    {
-      "basename": "错误处理",
-      "path": "语言/GoLang/Go 语法/错误处理.md"
-    },
-    {
-      "basename": "类型断言",
-      "path": "语言/GoLang/Go 语法/结构体与接口/类型断言.md"
     },
     {
       "basename": "函数",
       "path": "语言/GoLang/Go 语法/函数.md"
     },
     {
-      "basename": "组合",
-      "path": "语言/GoLang/Go 语法/结构体与接口/组合.md"
-    },
-    {
-      "basename": "接口",
-      "path": "语言/GoLang/Go 语法/结构体与接口/接口.md"
-    },
-    {
-      "basename": "结构体",
-      "path": "语言/GoLang/Go 语法/结构体与接口/结构体.md"
-    },
-    {
-      "basename": "数据类型",
-      "path": "语言/GoLang/Go 语法/数据类型.md"
-    },
-    {
-      "basename": "控制结构",
-      "path": "语言/GoLang/Go 语法/控制结构.md"
-    },
-    {
       "basename": "Code Styler",
       "path": "工具/Obsidian/插件/Code Styler.md"
-    },
-    {
-      "basename": "集合",
-      "path": "语言/GoLang/Go 语法/集合.md"
     },
     {
       "basename": "锁",
@@ -163,42 +199,6 @@
     {
       "basename": "分库分表及读写分离",
       "path": "工具/MySQL 8.0/分库分表及读写分离.md"
-    },
-    {
-      "basename": "存储引擎",
-      "path": "工具/MySQL 8.0/存储引擎.md"
-    },
-    {
-      "basename": "触发器",
-      "path": "工具/MySQL 8.0/存储对象/触发器.md"
-    },
-    {
-      "basename": "存储函数",
-      "path": "工具/MySQL 8.0/存储对象/存储过程/存储函数.md"
-    },
-    {
-      "basename": "流程控制",
-      "path": "工具/MySQL 8.0/存储对象/存储过程/流程控制.md"
-    },
-    {
-      "basename": "游标",
-      "path": "工具/MySQL 8.0/存储对象/存储过程/游标.md"
-    },
-    {
-      "basename": "条件处理程序",
-      "path": "工具/MySQL 8.0/存储对象/存储过程/条件处理程序.md"
-    },
-    {
-      "basename": "MySQL 8.0",
-      "path": "工具/MySQL 8.0/MySQL 8.0.md"
-    },
-    {
-      "basename": "GoLang",
-      "path": "语言/GoLang/GoLang.md"
-    },
-    {
-      "basename": "Advanced URI",
-      "path": "工具/Obsidian/插件/Advanced URI.md"
     }
   ],
   "omittedPaths": []

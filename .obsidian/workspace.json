@@ -4,23 +4,67 @@
     "type": "split",
     "children": [
       {
-        "id": "8cd9cd93ffb20e75",
+        "id": "286218b8eb2172ca",
         "type": "tabs",
         "children": [
           {
-            "id": "a9ba885187c46b20",
+            "id": "f5468060f87b2c3b",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "任务.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "1491d74d7a727084",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "语言/GoLang/Go 语法/Go 语法.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "870ceebbf13d7144",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "库/JS与CSS库/Vue3/Vue Router/Vue Router.md",
+                "file": "语言/GoLang/Go 语法/并发/同步原语.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
+          },
+          {
+            "id": "f03fdeaa4f92d464",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "语言/GoLang/Go 语法/集合.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -94,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "库/JS与CSS库/Vue3/Vue Router/Vue Router.md",
+                "file": "语言/GoLang/Go 语法/并发/同步原语.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +155,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "库/JS与CSS库/Vue3/Vue Router/Vue Router.md",
+                "file": "语言/GoLang/Go 语法/并发/同步原语.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +178,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "库/JS与CSS库/Vue3/Vue Router/Vue Router.md"
+                "file": "语言/GoLang/Go 语法/并发/同步原语.md"
               }
             }
           },
@@ -220,44 +264,44 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "a9ba885187c46b20",
+  "active": "870ceebbf13d7144",
   "lastOpenFiles": [
-    "库/JS与CSS库/Vue3/Vue Router/重定向.md",
+    "语言/GoLang/Go 语法/集合.md",
+    "语言/GoLang/Go 语法/并发/同步原语.md",
+    "_resources/codes/go/go_cond.go",
+    "_resources/codes/go/main.go",
+    "_resources/codes/go/go_waitgroup.go",
+    "_resources/codes/go/go_wait.go",
+    "_resources/codes/go/go_rwmutex.go",
+    "_resources/codes/go/go_mutex.go",
+    "语言/GoLang/Go 语法/并发/协程与管道.md",
+    "语言/GoLang/Go 语法/Go 语法.md",
+    "_resources/codes/go/go_shared_value.go",
+    "_resources/codes/go/go_.mod",
+    "_resources/codes/go/go.mod",
+    "_resources/codes/go",
+    "语言/GoLang/Go 语法/并发/并发模式.md",
+    "语言/GoLang/Go 语法/并发/并发控制.md",
+    "语言/GoLang/Go 语法/变量.md",
+    "语言/GoLang/Go 语法/控制结构.md",
+    "语言/GoLang/GoLang.md",
+    "语言/GoLang/Go 语法/并发/并发.md",
+    "语言/GoLang/Go 语法/并发/字节池.md",
+    "语言/GoLang/Go 语法/异常处理/Error.md",
+    "语言/GoLang/Go 语法/异常处理/异常处理.md",
+    "语言/GoLang/Go 语法/数据类型.md",
+    "语言/GoLang/Go 语法/异常处理/panic.md",
+    "语言/GoLang/Go 语法/结构体与接口/接口.md",
+    "语言/GoLang/Go 语法/结构体与接口/组合.md",
+    "语言/GoLang/Go 语法/结构体与接口/结构体.md",
+    "语言/GoLang/Go 语法/结构体与接口/类型断言.md",
+    "任务.md",
     "库/JS与CSS库/Vue3/Vue Router/Vue Router.md",
+    "库/JS与CSS库/Vue3/Vue Router/重定向.md",
     "库/JS与CSS库/Vue3/Vue Router/HTML5 历史记录模式.md",
     "库/JS与CSS库/Vue3/Vue Router/props 传参.md",
     "库/JS与CSS库/Vue3/Vue Router/嵌套路由.md",
     "库/JS与CSS库/Vue3/Vue Router/命名路由.md",
-    "库/JS与CSS库/Vue3/Vue Router/路由元信息.md",
-    "库/JS与CSS库/Vue3/Vue Router/路由钩子函数.md",
-    "库/JS与CSS库/Vue3/Vue Router/例：登录权限验证.md",
-    "库/JS与CSS库/Vue3/Vue Router/编程式导航.md",
-    "库/JS与CSS库/Vue3/Vue Router/$route.md",
-    "库/JS与CSS库/Vue3/Vue3.md",
-    "库/JS与CSS库/Vue3/渲染函数/渲染函数.md",
-    "库/JS与CSS库/Vue3/渲染函数/指令等价方案/v-on 等价方案.md",
-    "库/JS与CSS库/Vue3/渲染函数/指令等价方案/v-model 等价方案.md",
-    "库/JS与CSS库/Vue3/渲染函数/指令等价方案/指令等价方案.md",
-    "任务.md",
-    "_resources/codes/Vue/Vue3/hellovue/counter.html",
-    "_resources/codes/Vue/Vue3/hellovue/js/vue.global.js",
-    "_resources/codes/Vue/Vue3/hellovue/js",
-    "_resources/codes/Vue/Vue3/hellovue/index.html",
-    "_resources/codes/Vue/Vue3/hellovue",
-    "_resources/codes/Vue/Vue3",
-    "_resources/codes/Vue",
-    "库/JS与CSS库/Vue3/单文件组件/script setup 写法.md",
-    "库/JS与CSS库/Vue3/单文件组件/webpack.md",
-    "库/JS与CSS库/Vue3/单文件组件/单文件组件.md",
-    "库/JS与CSS库/Vue3/内置指令/内置指令.md",
-    "库/JS与CSS库/Vue3/过渡与动画/过渡与动画.md",
-    "库/JS与CSS库/Swiper.md",
-    "库/JS与CSS库/mysql2.md",
-    "库/JS与CSS库/JWT 相关.md",
-    "库/JS与CSS库/过时/jQuery.md",
-    "库/JS与CSS库/过时",
-    "语言/GoLang/Go 语法",
-    "语言/Go",
     "_resources/images/Pasted image 20240907170039.png",
     "_resources/images/Pasted image 20240905154001.png",
     "_resources/images/Pasted image 20240905153635.png",
