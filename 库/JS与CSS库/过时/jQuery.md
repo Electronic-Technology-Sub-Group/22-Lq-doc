@@ -146,7 +146,7 @@ jQuery 使用 `$('选择器')` 通过 CSS 的选择器选择元素，返回一�
 
 # Ajax
 
-jQuery 封装的实现[[../../语言/HTML/HTML API/HTML API#Ajax|Ajax]]的简单方法，最常用的包括：
+jQuery 封装的实现[[../../../语言/HTML/HTML API/HTML API#Ajax|Ajax]]的简单方法，最常用的包括：
 - `$.get(url, [data], [callback: function(res)])`
 - `$.post(url, [data], [callback: function(res)])`
 - `$.ajax({type: 'GET'|'POST', url: string, data: object, success: function()})

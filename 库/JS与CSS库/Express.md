@@ -1,7 +1,5 @@
 高度包容、快速而极简的 Node.js Web 框架，封装了 `http` 模块
 
-[Express - Node.js Web 应用程序框架 (expressjs.com)](http://expressjs.com/zh-cn/)
-
 # 路由
 
 使用路由可快速匹配请求 URL 和处理函数：`app.MATHOD(PATH, FUNC)`，通过 `listen` 方法开启服务器
@@ -206,3 +204,13 @@ function mw1(req, res, next) {
 ```
 
 - 若字符串格式符合查询字符串格式，可使用 NodeJS 的 `querystring` 模块的 `parse` 函数解析
+
+# 参考
+
+```cardlink
+url: http://expressjs.com/zh-cn/
+title: "Express - Node.js Web 应用程序框架"
+host: expressjs.com
+favicon: https://expressjs.com/images/favicon.png
+image: https://expressjs.com/images/og.png
+```

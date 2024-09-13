@@ -11,27 +11,28 @@
 	- `template.render(source, data, options)`：编译并返回根据模板生成的代码
 - 参数说明
 	- `path`：模板文件路径
-		- NodeJS 中，表示通过文件路径获取模板
-		- 浏览器中，表示通过 `document.getElementById(path).innerHTML` 获取模板
-		- 注意：为防止浏览器中模板被渲染，可将其放入 `<script type="text/html">` 标签中
+		- NodeJS：通过文件路径获取模板
+		- 浏览器：通过 `document.getElementById(path).innerHTML` 获取模板
 	- `data`：模板对象，用于替换对应占位符
 	- `options`：选项
 
+> [!attention] 为防止浏览器中模板被渲染，可将模板放入 `<script type="text/html">` 中
+
 ## 预编译与插件
 
-- [[库/JS与CSS库/Vue3/单文件组件/webpack]]：`art-template-loader`
+- [[../../工具/Node.js/webpack|webpack]]：`art-template-loader`
 - [[Express]]：`express-art-template`
 - [[Koa]]：`koa-art-template`
  
 # 语法
 
-## 一些概念等
+> [!note] 原文输出：不经 HTML 转义，直接输出内容，可用于输出 HTML 结构，但可能存在安全风险
 
-- 原文输出：不经过 HTML 转义，直接输出内容，可用于输出 HTML 结构，但可能存在安全风险
-- 模板继承：块级的模板内容替换，允许替换两端之间的所有内容
-- 过滤器：就是个函数
-	- 通过 `template.defaults.imports.过滤器名 = 过滤器函数` 定义
-	- 过滤器函数定义为 `(value[, params]) => value`
+> [!note] 模板继承：块级的模板内容替换，允许替换两端之间的所有内容
+
+> [!note] 过滤器：一种特殊函数
+> - 通过 `template.defaults.imports.过滤器名 = 过滤器函数` 定义
+> - 过滤器函数定义为 `(value[, params]) => value`
 
 ## 标准语法
 

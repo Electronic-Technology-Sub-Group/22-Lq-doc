@@ -1,5 +1,3 @@
-# script setup 写法
-
 # 组件配置
 
 * `<script setup>` 中任何变量、方法都会映射到组件空间

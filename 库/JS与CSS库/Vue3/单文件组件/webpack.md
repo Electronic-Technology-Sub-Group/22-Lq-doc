@@ -40,6 +40,7 @@ npm i vue @vue/compiler-sfc --save-dev
         plugins: [ new Plugin() ]
     }
     ```
+
 2. 创建 `app.vue` 组件文件
 
     ```html
@@ -57,6 +58,7 @@ npm i vue @vue/compiler-sfc --save-dev
     }
     </script>
     ```
+
 3. 创建入口文件 `main.js`
 
     ```js
@@ -65,6 +67,7 @@ npm i vue @vue/compiler-sfc --save-dev
 
     cerateApp(App).mount('#app')
     ```
+
 4. 构建，创建 `html` 文件并使用
 
     ```html

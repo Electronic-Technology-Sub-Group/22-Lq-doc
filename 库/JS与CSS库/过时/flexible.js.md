@@ -2,7 +2,7 @@
 <script src="http://g.tbcdn.cn/mtb/lib-flexible/0.3.4/??flexible_css.js,flexible.js"></script>
 ```
 
-*已过时：使用 vw 单位可完美替代 rem 单位，且大多数浏览器已经支持*
+> [!error] *已过时：使用 vw 单位可完美替代 rem 单位，且大多数浏览器已经支持*
 
 官方文档：[使用Flexible实现手淘H5页面的终端适配 · Issue #17 · amfe/article (github.com)](https://github.com/amfe/article/issues/17)
 
