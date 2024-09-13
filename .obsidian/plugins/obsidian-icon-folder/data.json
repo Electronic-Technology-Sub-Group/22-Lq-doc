@@ -201,8 +201,6 @@
   "库/JS与CSS库/Bootstrap.md": "RiBootstrapLine",
   "库/JS与CSS库/ECharts.md": "SiApacheecharts",
   "库/JS与CSS库/Express.md": "SiExpress",
-  "库/JS与CSS库/flexible.js.md": "SiJavascript",
-  "库/JS与CSS库/jQuery.md": "SiJquery",
   "库/JS与CSS库/JWT 相关.md": "SiJavascript",
   "库/JS与CSS库/mysql2.md": "SiJavascript",
   "库/JS与CSS库/Swiper.md": "SiSwiper",
@@ -318,5 +316,7 @@
   "工具/依赖版本管理/Java.md": "RiJavaFill",
   "工具/包管理器/Pacman.md": "SiArchlinux",
   "库/Java/Spring": "SiSpring",
-  "语言/GoLang/Go 语法": "SiGo"
+  "语言/GoLang/Go 语法": "SiGo",
+  "库/JS与CSS库/过时/flexible.js.md": "SiJavascript",
+  "库/JS与CSS库/过时/jQuery.md": "SiJquery"
 }
