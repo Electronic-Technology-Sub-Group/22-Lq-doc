@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "SiJson",
       "SiMysql",
       "SiGo",
       "SiSpring",
-      "SiSpringboot",
-      "SiArchlinux"
+      "SiSpringboot"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -321,5 +321,6 @@
   "库/JS与CSS库/过时/jQuery.md": "SiJquery",
   "工具/MySQL 8.0/存储对象/视图.md": {
     "iconName": "SiMysql"
-  }
+  },
+  "库/Java/Jackson.md": "SiJson"
 }

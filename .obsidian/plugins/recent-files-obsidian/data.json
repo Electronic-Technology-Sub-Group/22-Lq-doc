@@ -1,6 +1,62 @@
 {
   "recentFiles": [
     {
+      "basename": "Jackson",
+      "path": "库/Java/Jackson.md"
+    },
+    {
+      "basename": "Java",
+      "path": "库/Java/Java.md"
+    },
+    {
+      "basename": "任务",
+      "path": "任务.md"
+    },
+    {
+      "basename": "webpack",
+      "path": "工具/Node.js/webpack.md"
+    },
+    {
+      "basename": "NPM 常用命令",
+      "path": "工具/Node.js/NPM 常用命令.md"
+    },
+    {
+      "basename": "Node.js",
+      "path": "工具/Node.js/Node.js.md"
+    },
+    {
+      "basename": "AutoX",
+      "path": "工具/AutoX.md"
+    },
+    {
+      "basename": "PostgreSQL",
+      "path": "工具/PostgreSQL.md"
+    },
+    {
+      "basename": "Maven",
+      "path": "工具/编译器/Maven.md"
+    },
+    {
+      "basename": "插件",
+      "path": "工具/Obsidian/插件/插件.md"
+    },
+    {
+      "basename": "Image in Editor",
+      "path": "工具/Obsidian/插件/Image in Editor.md"
+    },
+    {
+      "basename": "PlantUML",
+      "path": "工具/PlantUML.md"
+    },
+    {
+      "basename": "Meta Bind",
+      "path": "工具/Obsidian/插件/Meta Bind.md"
+    },
+    {
+      "basename": "Advanced URI",
+      "path": "工具/Obsidian/插件/Advanced URI/Advanced URI.md"
+    },
+    {
       "basename": "同步原语",
       "path": "语言/GoLang/Go 语法/并发/同步原语.md"
     },
@@ -73,10 +129,6 @@
       "path": "语言/GoLang/Go 语法/结构体与接口/类型断言.md"
     },
     {
-      "basename": "任务",
-      "path": "任务.md"
-    },
-    {
       "basename": "Vue Router",
       "path": "库/JS与CSS库/Vue3/Vue Router/Vue Router.md"
     },
@@ -147,58 +199,6 @@
     {
       "basename": "函数",
       "path": "语言/GoLang/Go 语法/函数.md"
-    },
-    {
-      "basename": "Code Styler",
-      "path": "工具/Obsidian/插件/Code Styler.md"
-    },
-    {
-      "basename": "锁",
-      "path": "工具/MySQL 8.0/锁.md"
-    },
-    {
-      "basename": "主从复制",
-      "path": "工具/MySQL 8.0/主从复制.md"
-    },
-    {
-      "basename": "约束",
-      "path": "工具/MySQL 8.0/约束.md"
-    },
-    {
-      "basename": "语句优化",
-      "path": "工具/MySQL 8.0/语句优化.md"
-    },
-    {
-      "basename": "索引",
-      "path": "工具/MySQL 8.0/索引.md"
-    },
-    {
-      "basename": "数据类型",
-      "path": "工具/MySQL 8.0/数据类型.md"
-    },
-    {
-      "basename": "日志",
-      "path": "工具/MySQL 8.0/日志.md"
-    },
-    {
-      "basename": "权限控制",
-      "path": "工具/MySQL 8.0/权限控制.md"
-    },
-    {
-      "basename": "内部函数",
-      "path": "工具/MySQL 8.0/内部函数.md"
-    },
-    {
-      "basename": "管理工具",
-      "path": "工具/MySQL 8.0/管理工具.md"
-    },
-    {
-      "basename": "分页查询",
-      "path": "工具/MySQL 8.0/分页查询.md"
-    },
-    {
-      "basename": "分库分表及读写分离",
-      "path": "工具/MySQL 8.0/分库分表及读写分离.md"
     }
   ],
   "omittedPaths": []

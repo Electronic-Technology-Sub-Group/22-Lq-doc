@@ -6,10 +6,18 @@ Maven 是一款 Java 依赖管理、构建、打包工具
 - 构建管理：提供编译、测试、打包、部署过程的独立任务
 # 项目结构
 
-![[Pasted image 20230922122320.png]]
 
 一个基本的 Maven 项目根目录包含一个 `pom.xml` 和 `src` 目录。
 
+`````col
+````col-md
+flexGrow=1
+===
+![[Pasted image 20230922122320.png]]
+````
+````col-md
+flexGrow=1
+===
 ```dirtree
 - pom.xml: Maven 配置文件
 - src: 项目源代码文件
@@ -20,10 +28,12 @@ Maven 是一款 Java 依赖管理、构建、打包工具
       - WEBINF/web.xml
   - test: 测试项目
 ```
+````
+`````
 
 `pom.xml` 是 Maven 的核心配置文件，是一个 XML 类型文档。项目信息、依赖管理、打包任务等均在该文件中配置。该文档以 `<project>` 标签为跟标签，表示一个项目。
 
-```xml title:pom.xml
+```xml title:pom.xml fold
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -41,6 +51,7 @@ Maven 是一款 Java 依赖管理、构建、打包工具
 
 </project>
 ```
+
 # 项目信息
 
 `<project>` 中记录了项目基本属性
@@ -54,11 +65,12 @@ Maven 是一款 Java 依赖管理、构建、打包工具
 	- `jar`：默认
 	- `war`：web 项目，生成 `.war` 文件
 	- `pom`：不打包
+
 # 依赖管理
 
-项目依赖定义于 `<dependencies>` 标签中，使用标签 `<dependency>` 声明，使用 `<groupId>`，`<artifactId>`，`<version>` 三个标签定位
+ `<dependencies>` 标签中，`<dependency>` 声明一个依赖项，使用 `<groupId>`，`<artifactId>`，`<version>` 三个标签定位依赖
 
-`<dependency>` 还有一个 `<scope>` 标签定义包的适用范围，可省略，默认为 compile
+`<dependency>` 的 `<scope>` 标签定义包的适用范围，可省略，默认为 `compile`
 - `compile`：默认，打包和运行时均可用（`src/main`，`src/test` 均可用）
 - `test`：仅测试时可用（仅 `src/test` 可用，如 JUnit）
 - `runtime`：仅运行时可用（`src/main`，`src/test` 均不可用，但运行时使用，如 JDBC 相关）
@@ -81,9 +93,6 @@ Maven 是一款 Java 依赖管理、构建、打包工具
 </project>
 ```
 
-> [!summary]- 检索 Maven 仓库的网站：
-> - mvnrepository.com
-
 > [!note]- 依赖传递
 > 当导入了一个依赖时，会自动导入该依赖的所依赖的所有依赖
 > - 实现了自动依赖管理
@@ -97,7 +106,19 @@ Maven 是一款 Java 依赖管理、构建、打包工具
 > 1. 依赖链短的优先
 > 2. 依赖链长度相同时，`<dependency>` 出现位置靠前的优先
 
-- [ ] ⏬ 本地缓存
+## 本地缓存
+
+Maven 本地缓存默认在 `~/.m2/repository/` 目录下，可以在 `%M2_HOME%/conf/settings.xml` 中进行配置
+
+```xml
+<settings xmlns="http://maven.apache.org/SETTINGS/1.0.0"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0 
+   http://maven.apache.org/xsd/settings-1.0.0.xsd">
+      <localRepository>本地缓存路径</localRepository>
+</settings>
+```
+
 # 属性
 
 标签中多个相同的值可以考提取成变量统一管理，在 `<properties>` 标签中声明。
@@ -126,3 +147,9 @@ Maven 是一款 Java 依赖管理、构建、打包工具
     </dependencies>
 </project>
 ```
+
+# 相关网站
+
+[Maven Repository](https://mvnrepository.com/)
+
+[Fetching Data#aaio](https://mvnrepository.com/)
