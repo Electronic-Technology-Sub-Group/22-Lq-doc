@@ -1,6 +1,3 @@
----
-icon: SiObsidian
----
 > [!note] 笔记 note
 
 > [!info] 信息 info

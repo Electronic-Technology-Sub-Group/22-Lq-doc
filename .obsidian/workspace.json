@@ -4,15 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "0173db46964b56b2",
+        "id": "e8da1e6a014c0065",
         "type": "tabs",
         "children": [
           {
-            "id": "5f4acdbcf8f4cba3",
+            "id": "2c24144cd3522264",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "语言/文档/PlantUML.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
             }
           }
         ]
@@ -44,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "JEP309",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -89,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "语言/文档/PlantUML.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,6 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "语言/文档/PlantUML.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +133,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "语言/文档/PlantUML.md"
+              }
             }
           },
           {
@@ -211,38 +220,39 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "5f4acdbcf8f4cba3",
+  "active": "2c24144cd3522264",
   "lastOpenFiles": [
+    "课程/计算机网络/计算机网络.md",
+    "课程/计算机网络/1 概述.md",
+    "语言/文档/LaTeX.md",
+    "工具/Obsidian/插件/Spaced Repetition.md",
+    "课程/计算机网络",
     "任务.md",
-    "语言/Java/JDK 工具/jwebserver.md",
-    "语言/Java/JDK 工具/jshell.md",
-    "语言/Java/JDK API/JShell API.md",
-    "语言/Java/JDK 工具/JDK 工具.md",
-    "语言/Java/JDK 工具/jdeprscan.md",
-    "语言/Java/JDK 工具/java.md",
-    "语言/XPath.md",
-    "语言/编码相关/代码不朽.md",
-    "语言/VB6/GDI+.md",
+    "课程/计算机网络/物理层.md",
+    "库/游戏相关/Minecraft Core Mod/Mixin/Mixin.md",
+    "库/游戏相关/Minecraft Core Mod/Mixin/Mixin 配置.md",
+    "库/游戏相关/Minecraft Core Mod/Mixin/原始类成员访问.md",
+    "库/游戏相关/Minecraft Core Mod/Mixin/隐式接口实现.md",
+    "库/游戏相关/Minecraft Core Mod/Mixin/添加成员.md",
+    "库/游戏相关/Minecraft Core Mod/Mixin/访问受限成员.md",
+    "库/游戏相关/Minecraft Core Mod/Mixin/方法注入.md",
+    "库/游戏相关/Minecraft Core Mod/Mixin/方法重写.md",
+    "库/游戏相关/Minecraft Core Mod/Mixin/方法局部修改.md",
+    "库/游戏相关/Minecraft Core Mod/Mixin/调试.md",
+    "库/游戏相关/Minecraft Core Mod/Mixin/编译配置.md",
+    "库/Python/PyQt6/输入控件/输入控件.md",
+    "库/Python/PyQt6/表项控件/表项控件.md",
+    "库/Python/PyQt6/窗口/窗口.md",
+    "库/Python/PyQt6/窗口/QMainWindow/QMainWindow.md",
+    "库/Python/PyQt6/窗口/QDialog/QDialog.md",
+    "库/Python/PyQt6/显示控件/显示控件.md",
+    "库/Python/PyQt6/按钮控件/按钮控件.md",
+    "库/Python/PyQt6/容器控件/容器控件.md",
+    "库/Python/PyQt6/事件/事件.md",
     "_resources/documents/~$6 GDI+ 入门教程.docx",
     "_resources/documents/VB6 GDI+ 入门教程.pdf",
-    "语言/VB6/VB6 GDI+ 入门教程.md",
     "语言/VB6",
     "_resources/documents/VB6 GDI+ 入门教程.docx",
-    "工具/Obsidian/插件/插件.md",
-    "工具/编译器/Vue CLI.md",
-    "工具/编译器/Vite.md",
-    "工具/序列号.md",
-    "工具/AutoX.md",
-    "工具/ffmpeg.md",
-    "工具/编译器/CMake.md",
-    "工具/PostgreSQL.md",
-    "课程/计算机网络.md",
-    "游戏/Minecraft 相关.md",
-    "游戏/杀戮尖塔.md",
-    "语言/Java/Jigsaw 模块/Jigsaw 模块.md",
-    "语言/Java/JMX.md",
-    "语言/Java/JavaAgent.md",
-    "语言/Java/垃圾收集器.md",
     "_resources/images/Pasted image 20240917130624.png",
     "库/Java/Manifold",
     "_resources/images/Pasted image 20240917123912.png",
@@ -253,7 +263,6 @@
     "_resources/images/Pasted image 20240917112425.png",
     "_resources/images/Pasted image 20240917111458.jpg",
     "_resources/codes/go/go_generic_func.go",
-    "_resources/codes/go/go_test_main_test.go",
     "_resources/images/20240917_209_goland64.png",
     "_resources/images/20240917_208_goland64.png",
     "_resources/images/20240917_207_goland64.png",

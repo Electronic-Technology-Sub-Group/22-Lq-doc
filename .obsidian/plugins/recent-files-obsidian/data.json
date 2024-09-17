@@ -1,200 +1,204 @@
 {
   "recentFiles": [
     {
+      "basename": "PlantUML",
+      "path": "语言/文档/PlantUML.md"
+    },
+    {
+      "basename": "计算机网络",
+      "path": "课程/计算机网络/计算机网络.md"
+    },
+    {
+      "basename": "1 概述",
+      "path": "课程/计算机网络/1 概述.md"
+    },
+    {
+      "basename": "LaTeX",
+      "path": "语言/文档/LaTeX.md"
+    },
+    {
+      "basename": "Spaced Repetition",
+      "path": "工具/Obsidian/插件/Spaced Repetition.md"
+    },
+    {
       "basename": "任务",
       "path": "任务.md"
     },
     {
-      "basename": "jwebserver",
-      "path": "语言/Java/JDK 工具/jwebserver.md"
+      "basename": "Mixin",
+      "path": "库/游戏相关/Minecraft Core Mod/Mixin/Mixin.md"
     },
     {
-      "basename": "jshell",
-      "path": "语言/Java/JDK 工具/jshell.md"
+      "basename": "Mixin 配置",
+      "path": "库/游戏相关/Minecraft Core Mod/Mixin/Mixin 配置.md"
     },
     {
-      "basename": "JDK 工具",
-      "path": "语言/Java/JDK 工具/JDK 工具.md"
+      "basename": "原始类成员访问",
+      "path": "库/游戏相关/Minecraft Core Mod/Mixin/原始类成员访问.md"
     },
     {
-      "basename": "jdeprscan",
-      "path": "语言/Java/JDK 工具/jdeprscan.md"
+      "basename": "隐式接口实现",
+      "path": "库/游戏相关/Minecraft Core Mod/Mixin/隐式接口实现.md"
     },
     {
-      "basename": "java",
-      "path": "语言/Java/JDK 工具/java.md"
+      "basename": "添加成员",
+      "path": "库/游戏相关/Minecraft Core Mod/Mixin/添加成员.md"
     },
     {
-      "basename": "XPath",
-      "path": "语言/XPath.md"
+      "basename": "访问受限成员",
+      "path": "库/游戏相关/Minecraft Core Mod/Mixin/访问受限成员.md"
     },
     {
-      "basename": "代码不朽",
-      "path": "语言/编码相关/代码不朽.md"
+      "basename": "方法注入",
+      "path": "库/游戏相关/Minecraft Core Mod/Mixin/方法注入.md"
     },
     {
-      "basename": "GDI+",
-      "path": "语言/VB6/GDI+.md"
+      "basename": "方法重写",
+      "path": "库/游戏相关/Minecraft Core Mod/Mixin/方法重写.md"
     },
     {
-      "basename": "插件",
-      "path": "工具/Obsidian/插件/插件.md"
+      "basename": "方法局部修改",
+      "path": "库/游戏相关/Minecraft Core Mod/Mixin/方法局部修改.md"
     },
     {
-      "basename": "Vue CLI",
-      "path": "工具/编译器/Vue CLI.md"
+      "basename": "调试",
+      "path": "库/游戏相关/Minecraft Core Mod/Mixin/调试.md"
     },
     {
-      "basename": "Vite",
-      "path": "工具/编译器/Vite.md"
+      "basename": "编译配置",
+      "path": "库/游戏相关/Minecraft Core Mod/Mixin/编译配置.md"
     },
     {
-      "basename": "序列号",
-      "path": "工具/序列号.md"
+      "basename": "输入控件",
+      "path": "库/Python/PyQt6/输入控件/输入控件.md"
     },
     {
-      "basename": "AutoX",
-      "path": "工具/AutoX.md"
+      "basename": "表项控件",
+      "path": "库/Python/PyQt6/表项控件/表项控件.md"
     },
     {
-      "basename": "ffmpeg",
-      "path": "工具/ffmpeg.md"
+      "basename": "窗口",
+      "path": "库/Python/PyQt6/窗口/窗口.md"
     },
     {
-      "basename": "CMake",
-      "path": "工具/编译器/CMake.md"
+      "basename": "QMainWindow",
+      "path": "库/Python/PyQt6/窗口/QMainWindow/QMainWindow.md"
     },
     {
-      "basename": "PostgreSQL",
-      "path": "工具/PostgreSQL.md"
+      "basename": "QDialog",
+      "path": "库/Python/PyQt6/窗口/QDialog/QDialog.md"
     },
     {
-      "basename": "计算机网络",
-      "path": "课程/计算机网络.md"
+      "basename": "显示控件",
+      "path": "库/Python/PyQt6/显示控件/显示控件.md"
     },
     {
-      "basename": "Minecraft 相关",
-      "path": "游戏/Minecraft 相关.md"
+      "basename": "按钮控件",
+      "path": "库/Python/PyQt6/按钮控件/按钮控件.md"
     },
     {
-      "basename": "杀戮尖塔",
-      "path": "游戏/杀戮尖塔.md"
+      "basename": "容器控件",
+      "path": "库/Python/PyQt6/容器控件/容器控件.md"
     },
     {
-      "basename": "Jigsaw 模块",
-      "path": "语言/Java/Jigsaw 模块/Jigsaw 模块.md"
+      "basename": "事件",
+      "path": "库/Python/PyQt6/事件/事件.md"
     },
     {
-      "basename": "JMX",
-      "path": "语言/Java/JMX.md"
+      "basename": "PyQt6",
+      "path": "库/Python/PyQt6/PyQt6.md"
     },
     {
-      "basename": "JavaAgent",
-      "path": "语言/Java/JavaAgent.md"
+      "basename": "自建服务器",
+      "path": "工具/远程连接与共享/ZeroTier/自建服务器.md"
     },
     {
-      "basename": "垃圾收集器",
-      "path": "语言/Java/垃圾收集器.md"
+      "basename": "ZeroTier",
+      "path": "工具/远程连接与共享/ZeroTier/ZeroTier.md"
     },
     {
-      "basename": "获取类的源文件",
-      "path": "语言/Java/获取类的源文件.md"
+      "basename": "Gradle 修改缓存位置",
+      "path": "工具/编译器/Gradle/Gradle 修改缓存位置.md"
     },
     {
-      "basename": "编译时注解",
-      "path": "语言/Java/编译时注解.md"
+      "basename": "Gradle 代理设置",
+      "path": "工具/编译器/Gradle/Gradle 代理设置.md"
     },
     {
-      "basename": "Java",
-      "path": "语言/Java/Java.md"
+      "basename": "编码GBK的不可映射字符",
+      "path": "工具/编译器/Gradle/编码GBK的不可映射字符.md"
     },
     {
-      "basename": "Python",
-      "path": "库/Python/Python.md"
+      "basename": "Gradle 托管属性",
+      "path": "工具/编译器/Gradle/Gradle 8.5/文档/Gradle 托管属性.md"
     },
     {
-      "basename": "Manifold",
-      "path": "库/Java/Manifold.md"
+      "basename": "Gradle 项目基础",
+      "path": "工具/编译器/Gradle/Gradle 8.5/教程/Gradle 项目基础.md"
     },
     {
-      "basename": "AspectJ",
-      "path": "库/Java/AspectJ.md"
+      "basename": "Gradle 基础结构",
+      "path": "工具/编译器/Gradle/Gradle 8.5/教程/Gradle 基础结构.md"
     },
     {
-      "basename": "Obsidian",
-      "path": "工具/Obsidian/Obsidian.md"
+      "basename": "自定义 Gradle 插件",
+      "path": "工具/编译器/Gradle/Gradle 8.5/教程/自定义 Gradle 插件.md"
     },
     {
-      "basename": "Java",
-      "path": "库/Java/Java.md"
+      "basename": "ShadowJar",
+      "path": "工具/编译器/Gradle/Gradle 8.5/插件/ShadowJar.md"
     },
     {
-      "basename": "Jackson",
-      "path": "库/Java/Jackson.md"
+      "basename": "Maven Publish",
+      "path": "工具/编译器/Gradle/Gradle 8.5/插件/Maven Publish.md"
     },
     {
-      "basename": "jakarta",
-      "path": "语言/Java/jakarta/jakarta.md"
+      "basename": "选择毛发",
+      "path": "工具/Photoshop/选择毛发.md"
     },
     {
-      "basename": "语法",
-      "path": "语言/Java/语法/语法.md"
+      "basename": "内容识别",
+      "path": "工具/Photoshop/内容识别.md"
     },
     {
-      "basename": "JSR107 缓存规范",
-      "path": "语言/Java/jakarta/JSR107 缓存规范.md"
+      "basename": "磨皮",
+      "path": "工具/Photoshop/磨皮.md"
     },
     {
-      "basename": "JSR380 数据校验",
-      "path": "语言/Java/jakarta/JSR380 数据校验.md"
+      "basename": "纠正歪斜物体",
+      "path": "工具/Photoshop/纠正歪斜物体.md"
     },
     {
-      "basename": "JSR250 通用注解",
-      "path": "语言/Java/jakarta/JSR250 通用注解.md"
+      "basename": "更换物品颜色",
+      "path": "工具/Photoshop/更换物品颜色.md"
     },
     {
-      "basename": "jsr-250",
-      "path": "_resources/documents/jsr-250.pdf"
+      "basename": "图层",
+      "path": "工具/Photoshop/Photoshop 图形图像处理项目教程/图层.md"
     },
     {
-      "basename": "Image in Editor",
-      "path": "工具/Obsidian/插件/Image in Editor.md"
+      "basename": "通道",
+      "path": "工具/Photoshop/Photoshop 图形图像处理项目教程/通道.md"
     },
     {
-      "basename": "Iconize",
-      "path": "工具/Obsidian/插件/Iconize.md"
+      "basename": "蒙版",
+      "path": "工具/Photoshop/Photoshop 图形图像处理项目教程/蒙版.md"
     },
     {
-      "basename": "Java Http Client",
-      "path": "语言/Java/JDK API/Java Http Client.md"
+      "basename": "滤镜",
+      "path": "工具/Photoshop/Photoshop 图形图像处理项目教程/滤镜.md"
     },
     {
-      "basename": "JSR330 依赖注入",
-      "path": "语言/Java/jakarta/JSR330 依赖注入.md"
+      "basename": "基本操作",
+      "path": "工具/Photoshop/Photoshop 图形图像处理项目教程/基本操作.md"
     },
     {
-      "basename": "间接渲染",
-      "path": "库/OpenGL/间接渲染.md"
+      "basename": "常用工具",
+      "path": "工具/Photoshop/Photoshop 图形图像处理项目教程/常用工具.md"
     },
     {
-      "basename": "实例化渲染",
-      "path": "库/OpenGL/实例化渲染.md"
-    },
-    {
-      "basename": "OpenGL",
-      "path": "库/OpenGL/OpenGL.md"
-    },
-    {
-      "basename": "3D 坐标空间",
-      "path": "库/OpenGL/3D 坐标空间.md"
-    },
-    {
-      "basename": "Assimp",
-      "path": "库/OpenGL/Assimp.md"
-    },
-    {
-      "basename": "GLSL",
-      "path": "库/OpenGL/GLSL.md"
+      "basename": "Photoshop 图形图像处理项目教程",
+      "path": "工具/Photoshop/Photoshop 图形图像处理项目教程/Photoshop 图形图像处理项目教程.md"
     }
   ],
   "omittedPaths": []

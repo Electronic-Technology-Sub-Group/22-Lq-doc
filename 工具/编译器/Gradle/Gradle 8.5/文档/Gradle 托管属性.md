@@ -1,6 +1,3 @@
----
-icon: SiGradle
----
 Gradle 托管属性用于构建脚本任务、插件等的可配置属性配置，其类型包括：
 - `Property<T>`
 - `RegularFileProperty`

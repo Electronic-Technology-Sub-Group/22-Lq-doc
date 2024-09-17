@@ -1,14 +1,3 @@
----
-_filters: []
-_contexts: []
-_links: []
-_sort:
-  field: rank
-  asc: false
-  group: false
-_template: ""
-_templateName: ""
----
 主窗口，`QWidget` 的一个派生类，包括菜单栏、工具栏、状态栏、标题栏等
 * 有一个中心窗口
 * 不能 `setLayout`

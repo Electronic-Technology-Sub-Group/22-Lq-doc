@@ -1,6 +1,3 @@
----
-icon: SiDocker
----
 Docker 存放数据的资源有两类：
 * 由 storage driver 管理的容器层和镜像层，数据难以持久化和共享
 *  `data volume`  数据卷，将宿主机目录作为存储使用

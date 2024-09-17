@@ -1,6 +1,3 @@
----
-icon: SiDocker
----
 Docker Swarm 是 Docker 官方集群管理工具，将 Docker 主机池转变为单个虚拟 Docker 主机，通过一个入口统一管理这些 Docker 主机的资源。
 
 ![[Docker Swarm 2024-08-06 22.59.01.excalidraw]]

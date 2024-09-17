@@ -1,6 +1,3 @@
----
-icon: SiDocker
----
 # 定制镜像
 
 * `docker commit`：将现有的镜像叠加上容器存储层，创建新镜像

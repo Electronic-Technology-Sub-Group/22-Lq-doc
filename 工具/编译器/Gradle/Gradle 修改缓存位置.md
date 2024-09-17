@@ -1,6 +1,3 @@
----
-icon: SiGradle
----
 # 全局
 
 ```properties title:'gradle安装目录/bin/gradle'

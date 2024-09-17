@@ -1,6 +1,3 @@
----
-icon: SiGradle
----
 # 目录结构
 
 Gradle 目录分为两部分 - Gradle 用户目录和项目目录。前者存放 Gradle 本体需要的公共配置文件和缓存文件，后者为被 Gradle 管理的项目。

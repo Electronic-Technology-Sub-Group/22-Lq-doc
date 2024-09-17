@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "SiUml",
+      "SiGradle",
       "LiBinary",
       "SiVisualbasic",
-      "RiJavaFill",
-      "SiFfmpeg",
-      "ApLuxon"
+      "RiJavaFill"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -40,33 +40,6 @@
   "工具/远程连接与共享": "LiSyncSmall",
   "工具/Android": "SiAndroid",
   "工具/Docker": "SiDocker",
-  "工具/Docker/Docker Compose": "SiDocker",
-  "工具/Docker/应用容器化.md": {
-    "iconName": "SiDocker"
-  },
-  "工具/Docker/操作容器.md": {
-    "iconName": "SiDocker"
-  },
-  "工具/Docker/日志管理.md": "SiDocker",
-  "工具/Docker/网络模式.md": "SiDocker",
-  "工具/Docker/Docker 存储.md": {
-    "iconName": "SiDocker"
-  },
-  "工具/Docker/Docker 镜像.md": {
-    "iconName": "SiDocker"
-  },
-  "工具/Docker/Docker 容器.md": {
-    "iconName": "SiDocker"
-  },
-  "工具/Docker/Docker Swarm.md": {
-    "iconName": "SiDocker"
-  },
-  "工具/Docker/Docker Compose/模板文件.md": {
-    "iconName": "SiDocker"
-  },
-  "工具/Docker/Docker Compose/指令.md": {
-    "iconName": "SiDocker"
-  },
   "工具/洛雪": "ApLxmusic",
   "工具/洛雪/1.2 兼容 1.1 垫片.md": {
     "iconName": "ApLxmusic"
@@ -97,40 +70,6 @@
     "iconName": "SiObsidian"
   },
   "工具/Photoshop": "SiAdobephotoshop",
-  "工具/Photoshop/Photoshop 图形图像处理项目教程": "SiAdobephotoshop",
-  "工具/Photoshop/Photoshop 图形图像处理项目教程/常用工具.md": {
-    "iconName": "SiAdobePhotoshop"
-  },
-  "工具/Photoshop/Photoshop 图形图像处理项目教程/基本操作.md": {
-    "iconName": "SiAdobePhotoshop"
-  },
-  "工具/Photoshop/Photoshop 图形图像处理项目教程/滤镜.md": {
-    "iconName": "SiAdobePhotoshop"
-  },
-  "工具/Photoshop/Photoshop 图形图像处理项目教程/蒙版.md": {
-    "iconName": "SiAdobePhotoshop"
-  },
-  "工具/Photoshop/Photoshop 图形图像处理项目教程/通道.md": {
-    "iconName": "SiAdobePhotoshop"
-  },
-  "工具/Photoshop/Photoshop 图形图像处理项目教程/图层.md": {
-    "iconName": "SiAdobePhotoshop"
-  },
-  "工具/Photoshop/更换物品颜色.md": {
-    "iconName": "SiAdobePhotoshop"
-  },
-  "工具/Photoshop/纠正歪斜物体.md": {
-    "iconName": "SiAdobePhotoshop"
-  },
-  "工具/Photoshop/磨皮.md": {
-    "iconName": "SiAdobePhotoshop"
-  },
-  "工具/Photoshop/内容识别.md": {
-    "iconName": "SiAdobePhotoshop"
-  },
-  "工具/Photoshop/选择毛发.md": {
-    "iconName": "SiAdobePhotoshop"
-  },
   "工具/Steam/linux 使用 proton 安装 Windows 游戏.md": "SiSteam",
   "工具/Steam": "SiSteam",
   "工具/Steam/删除成就.md": "SiSteam",
@@ -140,36 +79,6 @@
   "库/游戏相关/Melvor Idle Mod/Melvor Idle Context.md": "ApMelvor",
   "库/游戏相关/Minecraft Core Mod": "ApMinecraft",
   "库/游戏相关/Minecraft Core Mod/Mixin": "ApSponge",
-  "库/游戏相关/Minecraft Core Mod/Mixin/编译配置.md": {
-    "iconName": "ApSponge"
-  },
-  "库/游戏相关/Minecraft Core Mod/Mixin/调试.md": {
-    "iconName": "ApSponge"
-  },
-  "库/游戏相关/Minecraft Core Mod/Mixin/方法局部修改.md": {
-    "iconName": "ApSponge"
-  },
-  "库/游戏相关/Minecraft Core Mod/Mixin/方法重写.md": {
-    "iconName": "ApSponge"
-  },
-  "库/游戏相关/Minecraft Core Mod/Mixin/方法注入.md": {
-    "iconName": "ApSponge"
-  },
-  "库/游戏相关/Minecraft Core Mod/Mixin/访问受限成员.md": {
-    "iconName": "ApSponge"
-  },
-  "库/游戏相关/Minecraft Core Mod/Mixin/添加成员.md": {
-    "iconName": "ApSponge"
-  },
-  "库/游戏相关/Minecraft Core Mod/Mixin/原始类成员访问.md": {
-    "iconName": "ApSponge"
-  },
-  "库/游戏相关/Minecraft Core Mod/Mixin/Mixin 配置.md": {
-    "iconName": "ApSponge"
-  },
-  "库/游戏相关/Minecraft Core Mod/Mixin/隐式接口实现.md": {
-    "iconName": "ApSponge"
-  },
   "库/游戏相关/Minecraft Core Mod/接口注入.md": "ApFabric",
   "库/游戏相关/Minecraft Java Mod": "ApMinecraft",
   "库/游戏相关/Minecraft Java Mod/构建问题": "ApMinecraft",
@@ -208,10 +117,6 @@
   "库/Python/Jinja2.md": "SiJinja",
   "库/Python/pymysql.md": "SiMysql",
   "库/Python/PySpark.md": "SiApachespark",
-  "文档/LaTeX.md": "SiLatex",
-  "文档/Markdown.md": "SiMarkdown",
-  "文档/TOML.md": "SiToml",
-  "文档/YAML.md": "SiYaml",
   "语言/C Cpp": "SiC",
   "语言/C Cpp/C 和指针": "SiC",
   "语言/C Cpp/C++": "SiCplusplus",
@@ -252,7 +157,6 @@
   "工具/编译器/g++.md": "SiGnu",
   "工具/编译器/Mingw64 安装.md": "ApMingw64",
   "工具/编译器/Gradle": "SiGradle",
-  "工具/编译器/Gradle/Gradle 8.5": "SiGradle",
   "工具/编译器/Gradle/Gradle 代理设置.md": {
     "iconName": "SiGradle"
   },
@@ -260,27 +164,6 @@
     "iconName": "SiGradle"
   },
   "工具/编译器/Gradle/编码GBK的不可映射字符.md": {
-    "iconName": "SiGradle"
-  },
-  "工具/编译器/Gradle/Gradle 8.5/教程": "SiGradle",
-  "工具/编译器/Gradle/Gradle 8.5/插件": "SiGradle",
-  "工具/编译器/Gradle/Gradle 8.5/文档": "SiGradle",
-  "工具/编译器/Gradle/Gradle 8.5/教程/Gradle 基础结构.md": {
-    "iconName": "SiGradle"
-  },
-  "工具/编译器/Gradle/Gradle 8.5/教程/Gradle 项目基础.md": {
-    "iconName": "SiGradle"
-  },
-  "工具/编译器/Gradle/Gradle 8.5/教程/自定义 Gradle 插件.md": {
-    "iconName": "SiGradle"
-  },
-  "工具/编译器/Gradle/Gradle 8.5/插件/Maven Publish.md": {
-    "iconName": "SiGradle"
-  },
-  "工具/编译器/Gradle/Gradle 8.5/文档/Gradle 托管属性.md": {
-    "iconName": "SiGradle"
-  },
-  "工具/编译器/Gradle/Gradle 8.5/插件/ShadowJar.md": {
     "iconName": "SiGradle"
   },
   "工具/编译器/Maven.md": "SiApachemaven",
@@ -291,7 +174,6 @@
   "工具/编译器/GNUMake": "SiMake",
   "工具/命令行/bash": "LiTerminal",
   "工具/命令行": "LiCommand",
-  "文档/Mermaid.md": "SiMermaid",
   "工具/AutoX.md": "ApAutox",
   "工具/Linux/Arch": "SiArchlinux",
   "工具/Linux/Arch/Arch 安装.md": "SiArchlinux",
@@ -306,17 +188,20 @@
   "库/Java/Spring": "SiSpring",
   "库/JS与CSS库/过时/flexible.js.md": "SiJavascript",
   "库/JS与CSS库/过时/jQuery.md": "SiJquery",
-  "工具/MySQL 8.0/存储对象/视图.md": {
-    "iconName": "SiMysql"
-  },
   "库/Java/Jackson.md": "SiJson",
   "工具/序列号.md": "RiAppsLine",
   "语言/Go": "SiGo",
   "语言/Go/Go 语法": "SiGo",
-  "文档/PlantUML.md": "LiDocumentPlantuml",
   "库/JS与CSS库/luxon.md": "ApLuxon",
   "工具/ffmpeg.md": "SiFfmpeg",
   "工具/编译器/Vue CLI.md": "SiVuedotjs",
   "工具/编译器/Vite.md": "SiVite",
-  "语言/VB6": "SiVisualbasic"
+  "语言/VB6": "SiVisualbasic",
+  "语言/文档/LaTeX.md": "SiLatex",
+  "语言/文档/Markdown.md": "SiMarkdown",
+  "语言/文档/Mermaid.md": "SiMermaid",
+  "语言/文档/TOML.md": "SiToml",
+  "语言/文档/YAML.md": "SiYaml",
+  "工具/编译器/Gradle/Gradle 8.5": "SiGradle",
+  "语言/文档/PlantUML.md": "SiUml"
 }

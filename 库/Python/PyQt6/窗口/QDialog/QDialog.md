@@ -1,14 +1,3 @@
----
-_filters: []
-_contexts: []
-_links: []
-_sort:
-  field: rank
-  asc: false
-  group: false
-_template: ""
-_templateName: ""
----
 `QDialog` 是对话框基类，一般用来执行短期任务，或与用户进行互动。
 * 应用程序模态对话框：该对话框为程序唯一能与用户交互的部件
 * 窗口模态对话框：阻止该对话框的父窗口、父窗口的父窗口直到顶层窗口的交互

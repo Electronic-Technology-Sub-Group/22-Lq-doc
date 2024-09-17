@@ -1,6 +1,3 @@
----
-icon: ApSponge
----
 Mixin 配置文件位于 `resources/[modid].mixins.json` 中
 
 ```json
