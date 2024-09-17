@@ -1,6 +1,3 @@
----
-icon: SiLinux
----
 Linux Namespace 是 Linux 内核提供的工具，可以隔离一系列系统资源，包括进程树、网络接口、挂载点等。
 
 Linux Namespace 可以做到 UID 级别隔离。

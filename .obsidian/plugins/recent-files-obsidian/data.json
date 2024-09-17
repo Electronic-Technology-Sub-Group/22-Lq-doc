@@ -1,204 +1,200 @@
 {
   "recentFiles": [
     {
-      "basename": "Jackson",
-      "path": "库/Java/Jackson.md"
-    },
-    {
-      "basename": "Java",
-      "path": "库/Java/Java.md"
-    },
-    {
       "basename": "任务",
       "path": "任务.md"
     },
     {
-      "basename": "webpack",
-      "path": "工具/Node.js/webpack.md"
+      "basename": "jwebserver",
+      "path": "语言/Java/JDK 工具/jwebserver.md"
     },
     {
-      "basename": "NPM 常用命令",
-      "path": "工具/Node.js/NPM 常用命令.md"
+      "basename": "jshell",
+      "path": "语言/Java/JDK 工具/jshell.md"
     },
     {
-      "basename": "Node.js",
-      "path": "工具/Node.js/Node.js.md"
+      "basename": "JDK 工具",
+      "path": "语言/Java/JDK 工具/JDK 工具.md"
     },
     {
-      "basename": "AutoX",
-      "path": "工具/AutoX.md"
+      "basename": "jdeprscan",
+      "path": "语言/Java/JDK 工具/jdeprscan.md"
     },
     {
-      "basename": "PostgreSQL",
-      "path": "工具/PostgreSQL.md"
+      "basename": "java",
+      "path": "语言/Java/JDK 工具/java.md"
     },
     {
-      "basename": "Maven",
-      "path": "工具/编译器/Maven.md"
+      "basename": "XPath",
+      "path": "语言/XPath.md"
+    },
+    {
+      "basename": "代码不朽",
+      "path": "语言/编码相关/代码不朽.md"
+    },
+    {
+      "basename": "GDI+",
+      "path": "语言/VB6/GDI+.md"
     },
     {
       "basename": "插件",
       "path": "工具/Obsidian/插件/插件.md"
     },
     {
+      "basename": "Vue CLI",
+      "path": "工具/编译器/Vue CLI.md"
+    },
+    {
+      "basename": "Vite",
+      "path": "工具/编译器/Vite.md"
+    },
+    {
+      "basename": "序列号",
+      "path": "工具/序列号.md"
+    },
+    {
+      "basename": "AutoX",
+      "path": "工具/AutoX.md"
+    },
+    {
+      "basename": "ffmpeg",
+      "path": "工具/ffmpeg.md"
+    },
+    {
+      "basename": "CMake",
+      "path": "工具/编译器/CMake.md"
+    },
+    {
+      "basename": "PostgreSQL",
+      "path": "工具/PostgreSQL.md"
+    },
+    {
+      "basename": "计算机网络",
+      "path": "课程/计算机网络.md"
+    },
+    {
+      "basename": "Minecraft 相关",
+      "path": "游戏/Minecraft 相关.md"
+    },
+    {
+      "basename": "杀戮尖塔",
+      "path": "游戏/杀戮尖塔.md"
+    },
+    {
+      "basename": "Jigsaw 模块",
+      "path": "语言/Java/Jigsaw 模块/Jigsaw 模块.md"
+    },
+    {
+      "basename": "JMX",
+      "path": "语言/Java/JMX.md"
+    },
+    {
+      "basename": "JavaAgent",
+      "path": "语言/Java/JavaAgent.md"
+    },
+    {
+      "basename": "垃圾收集器",
+      "path": "语言/Java/垃圾收集器.md"
+    },
+    {
+      "basename": "获取类的源文件",
+      "path": "语言/Java/获取类的源文件.md"
+    },
+    {
+      "basename": "编译时注解",
+      "path": "语言/Java/编译时注解.md"
+    },
+    {
+      "basename": "Java",
+      "path": "语言/Java/Java.md"
+    },
+    {
+      "basename": "Python",
+      "path": "库/Python/Python.md"
+    },
+    {
+      "basename": "Manifold",
+      "path": "库/Java/Manifold.md"
+    },
+    {
+      "basename": "AspectJ",
+      "path": "库/Java/AspectJ.md"
+    },
+    {
+      "basename": "Obsidian",
+      "path": "工具/Obsidian/Obsidian.md"
+    },
+    {
+      "basename": "Java",
+      "path": "库/Java/Java.md"
+    },
+    {
+      "basename": "Jackson",
+      "path": "库/Java/Jackson.md"
+    },
+    {
+      "basename": "jakarta",
+      "path": "语言/Java/jakarta/jakarta.md"
+    },
+    {
+      "basename": "语法",
+      "path": "语言/Java/语法/语法.md"
+    },
+    {
+      "basename": "JSR107 缓存规范",
+      "path": "语言/Java/jakarta/JSR107 缓存规范.md"
+    },
+    {
+      "basename": "JSR380 数据校验",
+      "path": "语言/Java/jakarta/JSR380 数据校验.md"
+    },
+    {
+      "basename": "JSR250 通用注解",
+      "path": "语言/Java/jakarta/JSR250 通用注解.md"
+    },
+    {
+      "basename": "jsr-250",
+      "path": "_resources/documents/jsr-250.pdf"
+    },
+    {
       "basename": "Image in Editor",
       "path": "工具/Obsidian/插件/Image in Editor.md"
     },
     {
-      "basename": "PlantUML",
-      "path": "工具/PlantUML.md"
+      "basename": "Iconize",
+      "path": "工具/Obsidian/插件/Iconize.md"
     },
     {
-      "basename": "Meta Bind",
-      "path": "工具/Obsidian/插件/Meta Bind.md"
+      "basename": "Java Http Client",
+      "path": "语言/Java/JDK API/Java Http Client.md"
     },
     {
-      "basename": "Advanced URI",
-      "path": "工具/Obsidian/插件/Advanced URI/Advanced URI.md"
+      "basename": "JSR330 依赖注入",
+      "path": "语言/Java/jakarta/JSR330 依赖注入.md"
     },
     {
-      "basename": "同步原语",
-      "path": "语言/GoLang/Go 语法/并发/同步原语.md"
+      "basename": "间接渲染",
+      "path": "库/OpenGL/间接渲染.md"
     },
     {
-      "basename": "集合",
-      "path": "语言/GoLang/Go 语法/集合.md"
+      "basename": "实例化渲染",
+      "path": "库/OpenGL/实例化渲染.md"
     },
     {
-      "basename": "协程与管道",
-      "path": "语言/GoLang/Go 语法/并发/协程与管道.md"
+      "basename": "OpenGL",
+      "path": "库/OpenGL/OpenGL.md"
     },
     {
-      "basename": "Go 语法",
-      "path": "语言/GoLang/Go 语法/Go 语法.md"
+      "basename": "3D 坐标空间",
+      "path": "库/OpenGL/3D 坐标空间.md"
     },
     {
-      "basename": "并发模式",
-      "path": "语言/GoLang/Go 语法/并发/并发模式.md"
+      "basename": "Assimp",
+      "path": "库/OpenGL/Assimp.md"
     },
     {
-      "basename": "并发控制",
-      "path": "语言/GoLang/Go 语法/并发/并发控制.md"
-    },
-    {
-      "basename": "变量",
-      "path": "语言/GoLang/Go 语法/变量.md"
-    },
-    {
-      "basename": "控制结构",
-      "path": "语言/GoLang/Go 语法/控制结构.md"
-    },
-    {
-      "basename": "GoLang",
-      "path": "语言/GoLang/GoLang.md"
-    },
-    {
-      "basename": "字节池",
-      "path": "语言/GoLang/Go 语法/并发/字节池.md"
-    },
-    {
-      "basename": "Error",
-      "path": "语言/GoLang/Go 语法/异常处理/Error.md"
-    },
-    {
-      "basename": "异常处理",
-      "path": "语言/GoLang/Go 语法/异常处理/异常处理.md"
-    },
-    {
-      "basename": "数据类型",
-      "path": "语言/GoLang/Go 语法/数据类型.md"
-    },
-    {
-      "basename": "panic",
-      "path": "语言/GoLang/Go 语法/异常处理/panic.md"
-    },
-    {
-      "basename": "接口",
-      "path": "语言/GoLang/Go 语法/结构体与接口/接口.md"
-    },
-    {
-      "basename": "组合",
-      "path": "语言/GoLang/Go 语法/结构体与接口/组合.md"
-    },
-    {
-      "basename": "结构体",
-      "path": "语言/GoLang/Go 语法/结构体与接口/结构体.md"
-    },
-    {
-      "basename": "类型断言",
-      "path": "语言/GoLang/Go 语法/结构体与接口/类型断言.md"
-    },
-    {
-      "basename": "Vue Router",
-      "path": "库/JS与CSS库/Vue3/Vue Router/Vue Router.md"
-    },
-    {
-      "basename": "重定向",
-      "path": "库/JS与CSS库/Vue3/Vue Router/重定向.md"
-    },
-    {
-      "basename": "HTML5 历史记录模式",
-      "path": "库/JS与CSS库/Vue3/Vue Router/HTML5 历史记录模式.md"
-    },
-    {
-      "basename": "props 传参",
-      "path": "库/JS与CSS库/Vue3/Vue Router/props 传参.md"
-    },
-    {
-      "basename": "嵌套路由",
-      "path": "库/JS与CSS库/Vue3/Vue Router/嵌套路由.md"
-    },
-    {
-      "basename": "命名路由",
-      "path": "库/JS与CSS库/Vue3/Vue Router/命名路由.md"
-    },
-    {
-      "basename": "路由元信息",
-      "path": "库/JS与CSS库/Vue3/Vue Router/路由元信息.md"
-    },
-    {
-      "basename": "路由钩子函数",
-      "path": "库/JS与CSS库/Vue3/Vue Router/路由钩子函数.md"
-    },
-    {
-      "basename": "例：登录权限验证",
-      "path": "库/JS与CSS库/Vue3/Vue Router/例：登录权限验证.md"
-    },
-    {
-      "basename": "编程式导航",
-      "path": "库/JS与CSS库/Vue3/Vue Router/编程式导航.md"
-    },
-    {
-      "basename": "$route",
-      "path": "库/JS与CSS库/Vue3/Vue Router/$route.md"
-    },
-    {
-      "basename": "Vue3",
-      "path": "库/JS与CSS库/Vue3/Vue3.md"
-    },
-    {
-      "basename": "渲染函数",
-      "path": "库/JS与CSS库/Vue3/渲染函数/渲染函数.md"
-    },
-    {
-      "basename": "v-on 等价方案",
-      "path": "库/JS与CSS库/Vue3/渲染函数/指令等价方案/v-on 等价方案.md"
-    },
-    {
-      "basename": "v-model 等价方案",
-      "path": "库/JS与CSS库/Vue3/渲染函数/指令等价方案/v-model 等价方案.md"
-    },
-    {
-      "basename": "指令等价方案",
-      "path": "库/JS与CSS库/Vue3/渲染函数/指令等价方案/指令等价方案.md"
-    },
-    {
-      "basename": "script setup 写法",
-      "path": "库/JS与CSS库/Vue3/单文件组件/script setup 写法.md"
-    },
-    {
-      "basename": "函数",
-      "path": "语言/GoLang/Go 语法/函数.md"
+      "basename": "GLSL",
+      "path": "库/OpenGL/GLSL.md"
     }
   ],
   "omittedPaths": []

@@ -1,7 +1,0 @@
-- [ ] Jackson
-- [ ] SpEL
-- [ ] AppCDS
-- [ ] JEP309 Dynamic Class-File Constants
-- [ ] JEP181 Nest-Based Access Control
-- [ ] 🔺 manifold：Java 扩展方法/自定义运算符库
-- [ ] AspectJ

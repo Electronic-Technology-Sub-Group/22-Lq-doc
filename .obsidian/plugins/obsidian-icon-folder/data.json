@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
-      "SiJson",
-      "SiMysql",
-      "SiGo",
-      "SiSpring",
-      "SiSpringboot"
+      "LiBinary",
+      "SiVisualbasic",
+      "RiJavaFill",
+      "SiFfmpeg",
+      "ApLuxon"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -81,9 +81,6 @@
   "工具/Jetbrains/Jetbrains 控制台乱码.md": "SiJetbrains",
   "工具/Linux": "SiLinux",
   "工具/Linux/系统组件": "SiLinux",
-  "工具/Linux/系统组件/Union File System.md": {
-    "iconName": "SiLinux"
-  },
   "工具/Linux/关闭默认钥匙环密码.md": "SiLinux",
   "工具/Linux/极路由获取永久root权限.md": "ApGee",
   "工具/Linux/Alibaba Cloud Linux 安装 MySql.md": "SiAlibabacloud",
@@ -218,10 +215,9 @@
   "语言/C Cpp": "SiC",
   "语言/C Cpp/C 和指针": "SiC",
   "语言/C Cpp/C++": "SiCplusplus",
-  "语言/Class 字节码": "RiJavaFill",
+  "语言/Class 字节码": "LiBinary",
   "语言/CSharp": "SiCsharp",
   "语言/CSS": "SiCss3",
-  "语言/GoLang": "SiGo",
   "语言/groovy": "SiApachegroovy",
   "语言/HTML": "SiHtml5",
   "语言/Java": "RiJavaFill",
@@ -248,18 +244,10 @@
   "工具/Linux/Debian 系/平板电脑安装Ubuntu教程.md": "SiUbuntu",
   "工具/Linux/Debian 系/Linux mint 安装 snap.md": "SiLinuxmint",
   "工具/Linux/Debian 系/Linux Mint 修复搜狗输入法.md": "SiLinuxmint",
-  "工具/Linux/系统组件/Cgroups.md": {
-    "iconName": "SiLinux"
-  },
-  "工具/Linux/系统组件/Namespace.md": {
-    "iconName": "SiLinux"
-  },
   "工具/PlantUML.md": "SiUml",
   "工具/Vim/Vim.md": "SiVim",
   "工具/Vim": "SiVim",
-  "工具/Vue CLI.md": "SiVuedotjs",
   "工具/PyInstaller.md": "SiPython",
-  "工具/Vite.md": "SiVite",
   "工具/编译器": "SiCompilerexplorer",
   "工具/编译器/g++.md": "SiGnu",
   "工具/编译器/Mingw64 安装.md": "ApMingw64",
@@ -316,11 +304,19 @@
   "工具/依赖版本管理/Java.md": "RiJavaFill",
   "工具/包管理器/Pacman.md": "SiArchlinux",
   "库/Java/Spring": "SiSpring",
-  "语言/GoLang/Go 语法": "SiGo",
   "库/JS与CSS库/过时/flexible.js.md": "SiJavascript",
   "库/JS与CSS库/过时/jQuery.md": "SiJquery",
   "工具/MySQL 8.0/存储对象/视图.md": {
     "iconName": "SiMysql"
   },
-  "库/Java/Jackson.md": "SiJson"
+  "库/Java/Jackson.md": "SiJson",
+  "工具/序列号.md": "RiAppsLine",
+  "语言/Go": "SiGo",
+  "语言/Go/Go 语法": "SiGo",
+  "文档/PlantUML.md": "LiDocumentPlantuml",
+  "库/JS与CSS库/luxon.md": "ApLuxon",
+  "工具/ffmpeg.md": "SiFfmpeg",
+  "工具/编译器/Vue CLI.md": "SiVuedotjs",
+  "工具/编译器/Vite.md": "SiVite",
+  "语言/VB6": "SiVisualbasic"
 }

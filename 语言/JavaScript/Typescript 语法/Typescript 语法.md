@@ -21,3 +21,10 @@ title: "入门教程 - TypeScript 中文文档"
 host: nodejs.cn
 favicon: https://img.nodejs.cn/logo/typescript.png
 ```
+
+```cardlink
+url: https://nodejs.cn/typescript/reference/
+title: "参考手册 - TypeScript 中文文档"
+host: nodejs.cn
+favicon: https://img.nodejs.cn/logo/typescript.png
+```

@@ -87,10 +87,6 @@ export { es6 as default } from `bar`
 export * as otherIdentifier from 'emmmm' // ES2020 后支持
 ```
 
-# 继承
-
-- [ ] 模块之间允许继承
-
 # 动态加载
 #es2020
 

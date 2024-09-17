@@ -1,6 +1,3 @@
----
-icon: SiLinux
----
 Linux Cgroups 提供对一组进程及子进程的资源限制、限制和统计，包括 CPU、内存、存储、网络等，主要由 `cgroups` 、`subsystem`  和 `hierarchy`  组成
 
 * `cgroups`：一种进程分组管理机制。一个 `cgroups` 包含一组进程，并在这个进程组里增加 Linux subsystem 参数配置

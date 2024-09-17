@@ -4,54 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "286218b8eb2172ca",
+        "id": "0173db46964b56b2",
         "type": "tabs",
         "children": [
           {
-            "id": "1491d74d7a727084",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "语言/GoLang/Go 语法/Go 语法.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "f03fdeaa4f92d464",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "任务.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "fb04d3ca9fb2ff5a",
+            "id": "5f4acdbcf8f4cba3",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "库/Java/Jackson.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -80,7 +44,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "JEP309",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -125,7 +89,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "库/Java/Jackson.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -142,7 +105,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "库/Java/Jackson.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -164,9 +126,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "库/Java/Jackson.md"
-              }
+              "state": {}
             }
           },
           {
@@ -251,54 +211,54 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "fb04d3ca9fb2ff5a",
+  "active": "5f4acdbcf8f4cba3",
   "lastOpenFiles": [
-    "库/Java/Java.md",
-    "库/Java/Jackson.md",
     "任务.md",
-    "工具/Node.js/webpack.md",
-    "工具/Node.js/NPM 常用命令.md",
-    "工具/Node.js/Node.js.md",
-    "工具/AutoX.md",
-    "工具/PostgreSQL.md",
-    "工具/编译器/Maven.md",
+    "语言/Java/JDK 工具/jwebserver.md",
+    "语言/Java/JDK 工具/jshell.md",
+    "语言/Java/JDK API/JShell API.md",
+    "语言/Java/JDK 工具/JDK 工具.md",
+    "语言/Java/JDK 工具/jdeprscan.md",
+    "语言/Java/JDK 工具/java.md",
+    "语言/XPath.md",
+    "语言/编码相关/代码不朽.md",
+    "语言/VB6/GDI+.md",
+    "_resources/documents/~$6 GDI+ 入门教程.docx",
+    "_resources/documents/VB6 GDI+ 入门教程.pdf",
+    "语言/VB6/VB6 GDI+ 入门教程.md",
+    "语言/VB6",
+    "_resources/documents/VB6 GDI+ 入门教程.docx",
     "工具/Obsidian/插件/插件.md",
-    "工具/Obsidian/插件/QuickAdd.md",
-    "工具/Obsidian/插件/Image in Editor.md",
-    "工具/PlantUML.md",
-    "工具/Obsidian/插件/Meta Bind.md",
-    "工具/Obsidian/插件/Advanced URI/Advanced URI.md",
-    "语言/GoLang/Go 语法/并发/同步原语.md",
-    "语言/GoLang/Go 语法/集合.md",
-    "_resources/codes/go/go_cond.go",
-    "_resources/codes/go/main.go",
-    "_resources/codes/go/go_waitgroup.go",
-    "_resources/codes/go/go_wait.go",
-    "_resources/codes/go/go_rwmutex.go",
-    "_resources/codes/go/go_mutex.go",
-    "语言/GoLang/Go 语法/并发/协程与管道.md",
-    "语言/GoLang/Go 语法/Go 语法.md",
-    "_resources/codes/go/go_shared_value.go",
-    "_resources/codes/go/go_.mod",
-    "_resources/codes/go/go.mod",
-    "_resources/codes/go",
-    "语言/GoLang/Go 语法/并发/并发模式.md",
-    "语言/GoLang/Go 语法/并发/并发控制.md",
-    "语言/GoLang/Go 语法/变量.md",
-    "语言/GoLang/Go 语法/控制结构.md",
-    "语言/GoLang/GoLang.md",
-    "语言/GoLang/Go 语法/并发/并发.md",
-    "语言/GoLang/Go 语法/并发/字节池.md",
+    "工具/编译器/Vue CLI.md",
+    "工具/编译器/Vite.md",
+    "工具/序列号.md",
+    "工具/AutoX.md",
+    "工具/ffmpeg.md",
+    "工具/编译器/CMake.md",
+    "工具/PostgreSQL.md",
+    "课程/计算机网络.md",
+    "游戏/Minecraft 相关.md",
+    "游戏/杀戮尖塔.md",
+    "语言/Java/Jigsaw 模块/Jigsaw 模块.md",
+    "语言/Java/JMX.md",
+    "语言/Java/JavaAgent.md",
+    "语言/Java/垃圾收集器.md",
+    "_resources/images/Pasted image 20240917130624.png",
+    "库/Java/Manifold",
+    "_resources/images/Pasted image 20240917123912.png",
+    "_resources/documents/bean_validation-2_0_0_Final-spec.pdf",
+    "_resources/documents/jsr-250.pdf",
+    "_resources/documents/jsr-250.pdf.crdownload",
+    "_resources/images/Pasted image 20240917120415.png",
+    "_resources/images/Pasted image 20240917112425.png",
+    "_resources/images/Pasted image 20240917111458.jpg",
+    "_resources/codes/go/go_generic_func.go",
+    "_resources/codes/go/go_test_main_test.go",
+    "_resources/images/20240917_209_goland64.png",
+    "_resources/images/20240917_208_goland64.png",
+    "_resources/images/20240917_207_goland64.png",
     "_resources/images/Pasted image 20240907170039.png",
     "_resources/images/Pasted image 20240905154001.png",
-    "_resources/images/Pasted image 20240905153635.png",
-    "_resources/images/Pasted image 20240905153433.png",
-    "_resources/images/Pasted image 20240905153214.png",
-    "_resources/images/Pasted image 20240905012706.png",
-    "_resources/images/Pasted image 20240905003420.png",
-    "_resources/images/Pasted image 20240905003350.png",
-    "_resources/images/Pasted image 20240904235110.png",
-    "_resources/images/Pasted image 20240904235102.png",
     "语言/C Cpp/C++更新图.canvas",
     "语言/C Cpp/C++ 语法/C++ 语法.canvas",
     "语言/Class 字节码/Untitled.canvas",

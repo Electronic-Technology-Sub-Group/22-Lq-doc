@@ -1,8 +1,10 @@
-- [ ] Http Client：`java.net.http` 模块 #java9 #java19incubator #java11
-* [ ] jakarta
-	* [ ] JSR250：围绕 Resource 的一系列注解，`jakarta.annotation`
-	* [ ] JSR341：统一表达式语言，于 Java7 引入
-	* [ ] JSR380：Bean Validation 2.0，用于 Java8 的 bean 验证的标准框架
-	    * [ ] Hibernate Validator：JSR380 的一个实现
-	* [ ] JSR107 JCache
-	* [ ] JPA
+# 参考
+
+```cardlink
+url: https://jeps.dev/
+title: "欢迎来到JDK特性站 | JEPs"
+description: "本站整理的所有JDK的新特性，从JDK8开始到最新版本的JDK，并且持续更新中。"
+host: jeps.dev
+favicon: https://jeps.dev/img/nanoduke.ico
+image: https://jeps.dev/img/docusaurus-social-card.jpg
+```
