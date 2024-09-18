@@ -1,6 +1,74 @@
 {
   "recentFiles": [
     {
+      "basename": "绑定属性 v-bind",
+      "path": "库/JS与CSS/Vue3/内置指令/绑定属性 v-bind.md"
+    },
+    {
+      "basename": "内置指令",
+      "path": "库/JS与CSS/Vue3/内置指令/内置指令.md"
+    },
+    {
+      "basename": "条件渲染 v-if v-show",
+      "path": "库/JS与CSS/Vue3/内置指令/条件渲染 v-if v-show.md"
+    },
+    {
+      "basename": "Vue3",
+      "path": "库/JS与CSS/Vue3/Vue3.md"
+    },
+    {
+      "basename": "属性监听",
+      "path": "库/JS与CSS/Vue3/属性监听/属性监听.md"
+    },
+    {
+      "basename": "webpack",
+      "path": "工具/Node.js/webpack.md"
+    },
+    {
+      "basename": "任务",
+      "path": "任务.md"
+    },
+    {
+      "basename": "插值表达式",
+      "path": "库/JS与CSS/Vue3/插值表达式.md"
+    },
+    {
+      "basename": "属性监听器",
+      "path": "库/JS与CSS/Vue3/属性监听/属性监听器.md"
+    },
+    {
+      "basename": "embed 代码片段",
+      "path": "_resources/templates/embed 代码片段.md"
+    },
+    {
+      "basename": "code 代码引用",
+      "path": "_resources/templates/code 代码引用.md"
+    },
+    {
+      "basename": "计算属性",
+      "path": "库/JS与CSS/Vue3/属性监听/计算属性.md"
+    },
+    {
+      "basename": "生命周期",
+      "path": "库/JS与CSS/Vue3/生命周期.md"
+    },
+    {
+      "basename": "生命周期 2024-09-18 23.36.19.excalidraw",
+      "path": "_resources/images/生命周期 2024-09-18 23.36.19.excalidraw.md"
+    },
+    {
+      "basename": "Vue UI 组件库",
+      "path": "库/JS与CSS/Vue3/Vue UI 组件库/Vue UI 组件库.md"
+    },
+    {
+      "basename": "ElementPlus",
+      "path": "库/JS与CSS/ElementPlus/ElementPlus.md"
+    },
+    {
+      "basename": "组合式 API 中 el-input 输入异常",
+      "path": "库/JS与CSS/ElementPlus/组合式 API 中 el-input 输入异常.md"
+    },
+    {
       "basename": "组合式 API",
       "path": "库/JS与CSS/Vue3/组合式 API/组合式 API.md"
     },
@@ -9,24 +77,8 @@
       "path": "库/JS与CSS/Vue3/组合式 API/响应式侦听.md"
     },
     {
-      "basename": "响应式属性",
-      "path": "库/JS与CSS/Vue3/属性监听/响应式属性/响应式属性.md"
-    },
-    {
-      "basename": "属性监听器",
-      "path": "库/JS与CSS/Vue3/属性监听/属性监听器.md"
-    },
-    {
-      "basename": "属性监听",
-      "path": "库/JS与CSS/Vue3/属性监听/属性监听.md"
-    },
-    {
       "basename": "计算属性",
       "path": "库/JS与CSS/Vue3/组合式 API/计算属性.md"
-    },
-    {
-      "basename": "生命周期",
-      "path": "库/JS与CSS/Vue3/生命周期.md"
     },
     {
       "basename": "异步组件",
@@ -117,16 +169,8 @@
       "path": "库/JS与CSS/Vue3/组件/组件通信/自定义事件/中央事件总线 mitt/中央事件总线 mitt.md"
     },
     {
-      "basename": "ElementPlus",
-      "path": "库/JS与CSS/ElementPlus.md"
-    },
-    {
       "basename": "yay error while loading shared libraries libalpm.so",
       "path": "工具/Linux/Arch/yay error while loading shared libraries libalpm.so.md"
-    },
-    {
-      "basename": "Vue3",
-      "path": "库/JS与CSS/Vue3/Vue3.md"
     },
     {
       "basename": "flexible.js",
@@ -139,10 +183,6 @@
     {
       "basename": "Jackson",
       "path": "库/Java/Jackson.md"
-    },
-    {
-      "basename": "任务",
-      "path": "任务.md"
     },
     {
       "basename": "manim",
@@ -159,46 +199,6 @@
     {
       "basename": "QProgressBar",
       "path": "库/Python/PyQt6/显示控件/QProgressBar.md"
-    },
-    {
-      "basename": "显示控件",
-      "path": "库/Python/PyQt6/显示控件/显示控件.md"
-    },
-    {
-      "basename": "PyQt6",
-      "path": "库/Python/PyQt6/PyQt6.md"
-    },
-    {
-      "basename": "pymysql",
-      "path": "库/Python/pymysql.md"
-    },
-    {
-      "basename": "Python",
-      "path": "库/Python/Python.md"
-    },
-    {
-      "basename": "PlantUML",
-      "path": "语言/文档/PlantUML.md"
-    },
-    {
-      "basename": "计算机网络",
-      "path": "课程/计算机网络/计算机网络.md"
-    },
-    {
-      "basename": "1 概述",
-      "path": "课程/计算机网络/1 概述.md"
-    },
-    {
-      "basename": "LaTeX",
-      "path": "语言/文档/LaTeX.md"
-    },
-    {
-      "basename": "Spaced Repetition",
-      "path": "工具/Obsidian/插件/Spaced Repetition.md"
-    },
-    {
-      "basename": "Mixin",
-      "path": "库/游戏相关/Minecraft Core Mod/Mixin/Mixin.md"
     }
   ],
   "omittedPaths": []

@@ -8,28 +8,13 @@
         "type": "tabs",
         "children": [
           {
-            "id": "2c85e68c57f3b505",
+            "id": "1a9393b50389bbac",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "库/Python/manim/manim.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "84b74c3ef6030475",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "任务.md",
+                "file": "库/JS与CSS/Vue3/Vue3.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -38,12 +23,27 @@
             }
           },
           {
-            "id": "ffb36648e5fbff50",
+            "id": "39bd14c5c93aef94",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "库/JS与CSS/Vue3/内置指令/内置指令.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "29a6b4b926b12dac",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "库/JS与CSS/Vue3/组合式 API/组合式 API.md",
+                "file": "库/JS与CSS/Vue3/内置指令/绑定属性 v-bind.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -125,7 +125,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "库/JS与CSS/Vue3/组合式 API/组合式 API.md",
+                "file": "库/JS与CSS/Vue3/内置指令/绑定属性 v-bind.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -142,7 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "库/JS与CSS/Vue3/组合式 API/组合式 API.md",
+                "file": "库/JS与CSS/Vue3/内置指令/绑定属性 v-bind.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -165,7 +165,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "库/JS与CSS/Vue3/组合式 API/组合式 API.md"
+                "file": "库/JS与CSS/Vue3/内置指令/绑定属性 v-bind.md"
               }
             }
           },
@@ -198,14 +198,6 @@
             }
           },
           {
-            "id": "2c5ab77f41c9eba1",
-            "type": "leaf",
-            "state": {
-              "type": "review-queue-list-view",
-              "state": {}
-            }
-          },
-          {
             "id": "67db8a2767b56420",
             "type": "leaf",
             "state": {
@@ -220,9 +212,17 @@
               "type": "mermaid-toolbar-view",
               "state": {}
             }
+          },
+          {
+            "id": "c0d35d75d2b050d2",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 9
       }
     ],
     "direction": "horizontal",
@@ -251,54 +251,54 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "ffb36648e5fbff50",
+  "active": "29a6b4b926b12dac",
   "lastOpenFiles": [
-    "库/JS与CSS/Vue3/组合式 API/响应式侦听.md",
-    "库/JS与CSS/Vue3/属性监听/响应式属性/响应式属性.md",
-    "库/JS与CSS/Vue3/属性监听/属性监听器.md",
+    "库/JS与CSS/Vue3/内置指令/内置指令.md",
+    "库/JS与CSS/Vue3/内置指令/条件渲染 v-if v-show.md",
+    "_resources/codes/Vue/Vue3/hellovue/v-bind-style-completed.html",
+    "_resources/codes/Vue/Vue3/hellovue/v-bind-style.html",
+    "_resources/codes/Vue/Vue3/hellovue/v-bind-class-methods.html",
+    "库/JS与CSS/Vue3/内置指令/绑定属性 v-bind.md",
+    "_resources/codes/Vue/Vue3/hellovue/v-bind-class.html",
+    "库/JS与CSS/Vue3/Vue3.md",
     "库/JS与CSS/Vue3/属性监听/属性监听.md",
-    "库/JS与CSS/Vue3/组合式 API/计算属性.md",
-    "库/JS与CSS/Vue3/组合式 API/组合式 API.md",
+    "工具/Node.js/webpack.md",
+    "任务.md",
+    "_resources/codes/Vue/Vue3/hellovue/images/ok.gif",
+    "_resources/codes/Meta Bind/exampleVault/Other/Images/subfolder/img_frozen_branch.jpg",
+    "_resources/codes/Meta Bind/exampleVault/Other/Images/img_drops.jpg",
+    "_resources/codes/Meta Bind/exampleVault/Other/Images/img_butterfly.webp",
+    "_resources/documents/img/ext[d3-shape]rounded-circular-sector.png",
+    "_resources/codes/node.js/webpack/loaders/images/test.jpg",
+    "_resources/codes/Meta Bind/exampleVault/Other/Images/subfolder",
+    "_resources/codes/node.js/webpack/loaders/images",
+    "_resources/codes/Vue/Vue3/hellovue/v-bind.html",
+    "_resources/codes/Vue/Vue3/hellovue/images",
+    "库/JS与CSS/Vue3/属性监听/响应式属性/响应式属性.md",
+    "库/JS与CSS/Vue3/属性监听/响应式属性.md",
+    "库/JS与CSS/Vue3/属性监听/响应式属性/响应式对象的一个实现.md",
+    "库/JS与CSS/Vue3/插值表达式.md",
+    "库/JS与CSS/Vue3/属性监听/属性监听器.md",
+    "_resources/templates/embed 代码片段.md",
+    "_resources/templates/code 代码引用.md",
+    "_resources/codes/Vue/Vue3/hellovue/watch.html",
+    "库/JS与CSS/Vue3/属性监听/计算属性.md",
+    "_resources/codes/Vue/Vue3/hellovue/computed-name.html",
     "库/JS与CSS/Vue3/生命周期.md",
+    "_resources/images/生命周期 2024-09-18 23.36.19.excalidraw.md",
+    "库/JS与CSS/Vue3/Vue UI 组件库/Vue UI 组件库.md",
+    "库/JS与CSS/ElementPlus/ElementPlus.md",
+    "库/JS与CSS/ElementPlus/组合式 API 中 el-input 输入异常.md",
+    "库/JS与CSS/Vue3/组合式 API/组合式 API.md",
+    "库/JS与CSS/Vue3/组合式 API/响应式侦听.md",
+    "库/JS与CSS/Vue3/组合式 API/计算属性.md",
     "库/JS与CSS/Vue3/单文件组件/异步组件.md",
     "库/JS与CSS/Vue3/单文件组件/单文件组件.md",
     "库/JS与CSS/Vue3/单文件组件/script setup 写法.md",
-    "库/JS与CSS/Vue3/单文件组件/组件样式.md",
-    "语言/Class 字节码/《深入理解 JVM 字节码》/class 文件/版本号.md",
-    "库/Java/Spring/Spring Web MVC/验证与数据绑定/数据绑定/@InitBinder.md",
-    "库/Java/Spring/遇到的问题/403 forbidden error.md",
-    "库/Java/Spring/Spring Web MVC/Controller 控制器/@ExceptionHandler.md",
-    "库/JS与CSS/Vue3/组件/异步组件.md",
-    "库/JS与CSS/Vue3/组件/组件通信/组件链传递.md",
-    "库/JS与CSS/Vue3/组件/动态组件.md",
-    "库/JS与CSS/Vue3/组件/引用组件.md",
-    "库/JS与CSS/Vue3/组件/未命名.md",
-    "库/JS与CSS/Vue3/单文件组件/teleport 组件.md",
-    "库/JS与CSS/Vue3/单文件组件/webpack.md",
-    "库/JS与CSS/Vue3/组件/组件通信/组件通信.md",
-    "库/JS与CSS/Vue3/组件/插槽/插槽.md",
-    "库/JS与CSS/Vue3/组件/组件.md",
-    "库/JS与CSS/Vue3/组合式 API/变量驱动 CSS.md",
-    "工具/Node.js/插件配置",
     "_resources/images/Pasted image 20240918124834.png",
-    "库/Python/manim",
-    "_resources/codes/manim/SquareToCircle.py",
-    "_resources/codes/manim/SquareAndCircle.py",
-    "_resources/codes/manim/CreateCircle.py",
-    "_resources/codes/manim/AnimatedSquareAndCircle.py",
-    "_resources/codes/manim",
-    "_resources/codes/New",
-    "_resources/codes/新建文件夹",
-    "_resources/images/SquareToCircle.py",
     "_resources/images/Pasted image 20240918084734.png",
     "_resources/images/Pasted image 20240918083837.png",
     "_resources/images/Pasted image 20240917130624.png",
-    "_resources/images/Pasted image 20240917123912.png",
-    "_resources/images/Pasted image 20240917120415.png",
-    "_resources/images/Pasted image 20240917112425.png",
-    "_resources/images/Pasted image 20240917111458.jpg",
-    "_resources/images/20240917_209_goland64.png",
-    "_resources/images/20240917_208_goland64.png",
     "语言/C Cpp/C++更新图.canvas",
     "语言/C Cpp/C++ 语法/C++ 语法.canvas",
     "语言/Class 字节码/Untitled.canvas",

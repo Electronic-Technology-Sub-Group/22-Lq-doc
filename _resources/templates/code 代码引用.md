@@ -1,6 +1,10 @@
 <%*
 function parse_path(path) {
     path = path.replaceAll('\\', '/')
+    const abs = '_resources/codes'
+    if (path.includes(abs)) {
+        path = path.substring(path.indexOf(abs) + abs.length + 1)
+    }
     while (path.startsWith('/')) {
         path = path.substring(1)
     }

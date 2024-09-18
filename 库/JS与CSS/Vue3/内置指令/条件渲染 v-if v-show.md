@@ -1,5 +1,3 @@
-# 条件渲染 v-if v-show
-
 # `v-if`
 
 条件渲染使用一组连续的 `v-if`，`v-else-if`，`v-else` 标签元素

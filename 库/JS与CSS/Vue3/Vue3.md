@@ -17,42 +17,61 @@ Vue 本身只是一个 js 库，通过尽可能简单的 API 实现数据绑定�
 
 # Hello Vue
 
+* 通过 `Vue.createApp( app配置 )` 创建一个 Vue app
+* 通过 `app.mount(selector)` 绑定 HTML 元素
+
 `````col
+````col-md
+flexGrow=1
+===
+```embed-html
+PATH: "vault://_resources/codes/Vue/Vue3/hellovue/index.html"
+LINES: "9-23"
+```
+````
 ````col-md
 flexGrow=1
 ===
 ![[image-20240521153840-npwpols.png]]
 ````
-````col-md
-flexGrow=2
-===
-* 通过 `Vue.createApp( app配置 )` 创建一个 Vue app
-* 通过 `app.mount(selector)`绑定 HTML 元素
-````
 `````
-
-```reference
-file: "@/_resources/codes/Vue/Vue3/hellovue/index.html"
-start: 9
-end: 23
-```
 
 Vue 采取声明式渲染，利用模板将数据渲染到 DOM 中，任何数据变化都会响应式应用到页面上
 
+`````col
+````col-md
+flexGrow=1
+===
 ```embed-html
 PATH: "vault://_resources/codes/Vue/Vue3/hellovue/counter.html"
 LINES: "6,9-11,13-25"
 TITLE: 页面中每隔 1s 数字加一
 ```
-
+````
+````col-md
+flexGrow=1
+===
 * 任何一个 app 配置中的函数 `this` 都指向该 app
-* `mounted` 是一个 Vue 生命周期钩子函数，在其中注册了一个定时器，每秒修改 `counter` 的值
+* `mounted` 是一个 Vue 生命周期钩子函数，在其中每秒修改 `counter` 的值
 * `{{ ... }}` 为模板的插值表达式
+````
+`````
 
 ---
 
 - [[生命周期]]
 - [[插值表达式]]
+- [[属性监听/属性监听|属性监听]]
+- [[内置指令/内置指令|内置指令]]
+- [[组件/组件|组件]]
+- [[过渡与动画/过渡与动画|过渡与动画]]
+- [[自定义指令/自定义指令|自定义指令]]
+- [[渲染函数/渲染函数|渲染函数]]
+- [[组合式 API/组合式 API|组合式 API]]
+- [[单文件组件/单文件组件|单文件组件]]
+- [[Vue Router/Vue Router|Vue Router]]
+- [[Vuex/Vuex|Vuex]]
+- [[Vue UI 组件库/Vue UI 组件库|Vue UI 组件库]]
 
 # 参考
 
@@ -62,4 +81,12 @@ title: "Vue.js 3.x从入门到实战（微课视频版）"
 description: "图书Vue.js 3.x从入门到实战（微课视频版） 介绍、书评、论坛及推荐"
 host: book.douban.com
 image: https://img9.doubanio.com/view/subject/l/public/s34590775.jpg
+```
+
+```cardlink
+url: https://book.douban.com/subject/36116376/
+title: "Vue.js 3.0企业级管理后台开发实战：基于Element Plus"
+description: "《Vue.js 3.0企业级管理后台开发实战：基于Element Plus》系统全面、由浅入深介绍了管理后台开发的各方面知识、经验和技巧，包括企业内部真实的项目开发方式、项目原型、API接口文档、AP..."
+host: book.douban.com
+image: https://img9.doubanio.com/view/subject/l/public/s34325466.jpg
 ```
