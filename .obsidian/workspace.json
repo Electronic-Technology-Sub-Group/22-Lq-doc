@@ -4,23 +4,54 @@
     "type": "split",
     "children": [
       {
-        "id": "e8da1e6a014c0065",
+        "id": "0fed4360c97586d5",
         "type": "tabs",
         "children": [
           {
-            "id": "2c24144cd3522264",
+            "id": "b1bed432a8312b57",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "任务.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "2c85e68c57f3b505",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "库/Python/manim/manim.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "27c0efc862625320",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "语言/文档/PlantUML.md",
-                "mode": "preview",
+                "file": "库/Python/manim/模块.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -94,7 +125,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "语言/文档/PlantUML.md",
+                "file": "库/Python/manim/模块.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "语言/文档/PlantUML.md",
+                "file": "库/Python/manim/模块.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +165,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "语言/文档/PlantUML.md"
+                "file": "库/Python/manim/模块.md"
               }
             }
           },
@@ -220,14 +251,35 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "2c24144cd3522264",
+  "active": "27c0efc862625320",
   "lastOpenFiles": [
+    "_resources/images/Pasted image 20240918124834.png",
+    "库/Python/manim/manim.md",
+    "库/Python/manim/模块.md",
+    "库/Python/manim/场景.md",
+    "任务.md",
+    "库/Python/manim",
+    "_resources/codes/manim/SquareToCircle.py",
+    "_resources/codes/manim/SquareAndCircle.py",
+    "_resources/codes/manim/CreateCircle.py",
+    "_resources/codes/manim/AnimatedSquareAndCircle.py",
+    "_resources/codes/manim",
+    "_resources/codes/New",
+    "_resources/codes/新建文件夹",
+    "库/Python/PyQt6/显示控件/QProgressBar.md",
+    "库/Python/PyQt6/显示控件/显示控件.md",
+    "库/Python/PyQt6/PyQt6.md",
+    "_resources/images/SquareToCircle.py",
+    "_resources/images/Pasted image 20240918084734.png",
+    "库/Python/pymysql.md",
+    "库/Python/Python.md",
+    "_resources/images/Pasted image 20240918083837.png",
+    "语言/文档/PlantUML.md",
     "课程/计算机网络/计算机网络.md",
     "课程/计算机网络/1 概述.md",
     "语言/文档/LaTeX.md",
     "工具/Obsidian/插件/Spaced Repetition.md",
     "课程/计算机网络",
-    "任务.md",
     "课程/计算机网络/物理层.md",
     "库/游戏相关/Minecraft Core Mod/Mixin/Mixin.md",
     "库/游戏相关/Minecraft Core Mod/Mixin/Mixin 配置.md",
@@ -239,35 +291,14 @@
     "库/游戏相关/Minecraft Core Mod/Mixin/方法重写.md",
     "库/游戏相关/Minecraft Core Mod/Mixin/方法局部修改.md",
     "库/游戏相关/Minecraft Core Mod/Mixin/调试.md",
-    "库/游戏相关/Minecraft Core Mod/Mixin/编译配置.md",
-    "库/Python/PyQt6/输入控件/输入控件.md",
-    "库/Python/PyQt6/表项控件/表项控件.md",
-    "库/Python/PyQt6/窗口/窗口.md",
-    "库/Python/PyQt6/窗口/QMainWindow/QMainWindow.md",
-    "库/Python/PyQt6/窗口/QDialog/QDialog.md",
-    "库/Python/PyQt6/显示控件/显示控件.md",
-    "库/Python/PyQt6/按钮控件/按钮控件.md",
-    "库/Python/PyQt6/容器控件/容器控件.md",
-    "库/Python/PyQt6/事件/事件.md",
-    "_resources/documents/~$6 GDI+ 入门教程.docx",
-    "_resources/documents/VB6 GDI+ 入门教程.pdf",
-    "语言/VB6",
-    "_resources/documents/VB6 GDI+ 入门教程.docx",
     "_resources/images/Pasted image 20240917130624.png",
-    "库/Java/Manifold",
     "_resources/images/Pasted image 20240917123912.png",
-    "_resources/documents/bean_validation-2_0_0_Final-spec.pdf",
-    "_resources/documents/jsr-250.pdf",
-    "_resources/documents/jsr-250.pdf.crdownload",
     "_resources/images/Pasted image 20240917120415.png",
     "_resources/images/Pasted image 20240917112425.png",
     "_resources/images/Pasted image 20240917111458.jpg",
-    "_resources/codes/go/go_generic_func.go",
     "_resources/images/20240917_209_goland64.png",
     "_resources/images/20240917_208_goland64.png",
     "_resources/images/20240917_207_goland64.png",
-    "_resources/images/Pasted image 20240907170039.png",
-    "_resources/images/Pasted image 20240905154001.png",
     "语言/C Cpp/C++更新图.canvas",
     "语言/C Cpp/C++ 语法/C++ 语法.canvas",
     "语言/Class 字节码/Untitled.canvas",

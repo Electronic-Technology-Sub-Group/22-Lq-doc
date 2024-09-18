@@ -1,6 +1,42 @@
 {
   "recentFiles": [
     {
+      "basename": "模块",
+      "path": "库/Python/manim/模块.md"
+    },
+    {
+      "basename": "manim",
+      "path": "库/Python/manim/manim.md"
+    },
+    {
+      "basename": "场景",
+      "path": "库/Python/manim/场景.md"
+    },
+    {
+      "basename": "任务",
+      "path": "任务.md"
+    },
+    {
+      "basename": "QProgressBar",
+      "path": "库/Python/PyQt6/显示控件/QProgressBar.md"
+    },
+    {
+      "basename": "显示控件",
+      "path": "库/Python/PyQt6/显示控件/显示控件.md"
+    },
+    {
+      "basename": "PyQt6",
+      "path": "库/Python/PyQt6/PyQt6.md"
+    },
+    {
+      "basename": "pymysql",
+      "path": "库/Python/pymysql.md"
+    },
+    {
+      "basename": "Python",
+      "path": "库/Python/Python.md"
+    },
+    {
       "basename": "PlantUML",
       "path": "语言/文档/PlantUML.md"
     },
@@ -19,10 +55,6 @@
     {
       "basename": "Spaced Repetition",
       "path": "工具/Obsidian/插件/Spaced Repetition.md"
-    },
-    {
-      "basename": "任务",
-      "path": "任务.md"
     },
     {
       "basename": "Mixin",
@@ -89,10 +121,6 @@
       "path": "库/Python/PyQt6/窗口/QDialog/QDialog.md"
     },
     {
-      "basename": "显示控件",
-      "path": "库/Python/PyQt6/显示控件/显示控件.md"
-    },
-    {
       "basename": "按钮控件",
       "path": "库/Python/PyQt6/按钮控件/按钮控件.md"
     },
@@ -103,10 +131,6 @@
     {
       "basename": "事件",
       "path": "库/Python/PyQt6/事件/事件.md"
-    },
-    {
-      "basename": "PyQt6",
-      "path": "库/Python/PyQt6/PyQt6.md"
     },
     {
       "basename": "自建服务器",
@@ -175,30 +199,6 @@
     {
       "basename": "图层",
       "path": "工具/Photoshop/Photoshop 图形图像处理项目教程/图层.md"
-    },
-    {
-      "basename": "通道",
-      "path": "工具/Photoshop/Photoshop 图形图像处理项目教程/通道.md"
-    },
-    {
-      "basename": "蒙版",
-      "path": "工具/Photoshop/Photoshop 图形图像处理项目教程/蒙版.md"
-    },
-    {
-      "basename": "滤镜",
-      "path": "工具/Photoshop/Photoshop 图形图像处理项目教程/滤镜.md"
-    },
-    {
-      "basename": "基本操作",
-      "path": "工具/Photoshop/Photoshop 图形图像处理项目教程/基本操作.md"
-    },
-    {
-      "basename": "常用工具",
-      "path": "工具/Photoshop/Photoshop 图形图像处理项目教程/常用工具.md"
-    },
-    {
-      "basename": "Photoshop 图形图像处理项目教程",
-      "path": "工具/Photoshop/Photoshop 图形图像处理项目教程/Photoshop 图形图像处理项目教程.md"
     }
   ],
   "omittedPaths": []

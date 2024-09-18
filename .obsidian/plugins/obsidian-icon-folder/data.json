@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "ApManim",
       "SiUml",
       "SiGradle",
       "LiBinary",
-      "SiVisualbasic",
-      "RiJavaFill"
+      "SiVisualbasic"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -203,5 +203,7 @@
   "语言/文档/TOML.md": "SiToml",
   "语言/文档/YAML.md": "SiYaml",
   "工具/编译器/Gradle/Gradle 8.5": "SiGradle",
-  "语言/文档/PlantUML.md": "SiUml"
+  "语言/文档/PlantUML.md": "SiUml",
+  "库/Python/manim/manim.md": "ApManim",
+  "库/Python/manim": "ApManim"
 }
