@@ -1,5 +1,3 @@
-# 中央事件总线 mitt
-
 Vue 推荐使用一个空 Vue 实例作为中央事件总线媒介。
 
 Vue.js 3.x 移除了 `$on`，`$off` 和 `$once` API，推荐使用 `mitt` 外部库实现

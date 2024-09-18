@@ -15,7 +15,7 @@
 
 * props：使用 `defineProps` 接收父组件传递的 `props` 值
 * 自定义事件：使用 `defineEmits` 向父组件抛出自定义事件
-* 使用 `defineExpose` 将数据暴露给父组件，父组件通过在子组件上添加 `ref` 属性接收
+* 使用 `defineExpose` 将数据或方法暴露给父组件，父组件通过子组件上的 `ref` 属性接收
 
 > `src/App.vue`：父组件
 >

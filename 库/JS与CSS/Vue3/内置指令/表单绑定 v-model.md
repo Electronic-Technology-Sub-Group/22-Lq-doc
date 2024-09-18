@@ -1,9 +1,9 @@
-# 表单绑定 v-model
-
 `v-model` 可以在 `<input>`、`<textarea>` 和 `<select>` 元素上完成双向绑定
 
 * 对应元素忽略 `value`、`checked`、`selected` 的初始值，使用 Vue 实例作为初始数据
 * 双向绑定：对应元素数据改变时将直接反映到 Vue app 属性值，反之亦然
+
+> [!note] v-model 实际触发 `update:modelValue` 事件，并携带 `modelValue` 类型数据
 
 ```js
 Vue.createApp({

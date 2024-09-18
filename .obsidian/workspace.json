@@ -8,21 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "b1bed432a8312b57",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "任务.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              },
-              "pinned": true
-            }
-          },
-          {
             "id": "2c85e68c57f3b505",
             "type": "leaf",
             "pinned": true,
@@ -38,12 +23,27 @@
             }
           },
           {
-            "id": "27c0efc862625320",
+            "id": "84b74c3ef6030475",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "任务.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "ffb36648e5fbff50",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "库/Python/manim/模块.md",
+                "file": "库/JS与CSS/Vue3/组合式 API/组合式 API.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -80,7 +80,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "watchEffec",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -125,7 +125,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "库/Python/manim/模块.md",
+                "file": "库/JS与CSS/Vue3/组合式 API/组合式 API.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -142,7 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "库/Python/manim/模块.md",
+                "file": "库/JS与CSS/Vue3/组合式 API/组合式 API.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -165,7 +165,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "库/Python/manim/模块.md"
+                "file": "库/JS与CSS/Vue3/组合式 API/组合式 API.md"
               }
             }
           },
@@ -251,13 +251,36 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "27c0efc862625320",
+  "active": "ffb36648e5fbff50",
   "lastOpenFiles": [
+    "库/JS与CSS/Vue3/组合式 API/响应式侦听.md",
+    "库/JS与CSS/Vue3/属性监听/响应式属性/响应式属性.md",
+    "库/JS与CSS/Vue3/属性监听/属性监听器.md",
+    "库/JS与CSS/Vue3/属性监听/属性监听.md",
+    "库/JS与CSS/Vue3/组合式 API/计算属性.md",
+    "库/JS与CSS/Vue3/组合式 API/组合式 API.md",
+    "库/JS与CSS/Vue3/生命周期.md",
+    "库/JS与CSS/Vue3/单文件组件/异步组件.md",
+    "库/JS与CSS/Vue3/单文件组件/单文件组件.md",
+    "库/JS与CSS/Vue3/单文件组件/script setup 写法.md",
+    "库/JS与CSS/Vue3/单文件组件/组件样式.md",
+    "语言/Class 字节码/《深入理解 JVM 字节码》/class 文件/版本号.md",
+    "库/Java/Spring/Spring Web MVC/验证与数据绑定/数据绑定/@InitBinder.md",
+    "库/Java/Spring/遇到的问题/403 forbidden error.md",
+    "库/Java/Spring/Spring Web MVC/Controller 控制器/@ExceptionHandler.md",
+    "库/JS与CSS/Vue3/组件/异步组件.md",
+    "库/JS与CSS/Vue3/组件/组件通信/组件链传递.md",
+    "库/JS与CSS/Vue3/组件/动态组件.md",
+    "库/JS与CSS/Vue3/组件/引用组件.md",
+    "库/JS与CSS/Vue3/组件/未命名.md",
+    "库/JS与CSS/Vue3/单文件组件/teleport 组件.md",
+    "库/JS与CSS/Vue3/单文件组件/webpack.md",
+    "库/JS与CSS/Vue3/组件/组件通信/组件通信.md",
+    "库/JS与CSS/Vue3/组件/插槽/插槽.md",
+    "库/JS与CSS/Vue3/组件/组件.md",
+    "库/JS与CSS/Vue3/组合式 API/变量驱动 CSS.md",
+    "工具/Node.js/插件配置",
     "_resources/images/Pasted image 20240918124834.png",
-    "库/Python/manim/manim.md",
-    "库/Python/manim/模块.md",
-    "库/Python/manim/场景.md",
-    "任务.md",
     "库/Python/manim",
     "_resources/codes/manim/SquareToCircle.py",
     "_resources/codes/manim/SquareAndCircle.py",
@@ -266,31 +289,9 @@
     "_resources/codes/manim",
     "_resources/codes/New",
     "_resources/codes/新建文件夹",
-    "库/Python/PyQt6/显示控件/QProgressBar.md",
-    "库/Python/PyQt6/显示控件/显示控件.md",
-    "库/Python/PyQt6/PyQt6.md",
     "_resources/images/SquareToCircle.py",
     "_resources/images/Pasted image 20240918084734.png",
-    "库/Python/pymysql.md",
-    "库/Python/Python.md",
     "_resources/images/Pasted image 20240918083837.png",
-    "语言/文档/PlantUML.md",
-    "课程/计算机网络/计算机网络.md",
-    "课程/计算机网络/1 概述.md",
-    "语言/文档/LaTeX.md",
-    "工具/Obsidian/插件/Spaced Repetition.md",
-    "课程/计算机网络",
-    "课程/计算机网络/物理层.md",
-    "库/游戏相关/Minecraft Core Mod/Mixin/Mixin.md",
-    "库/游戏相关/Minecraft Core Mod/Mixin/Mixin 配置.md",
-    "库/游戏相关/Minecraft Core Mod/Mixin/原始类成员访问.md",
-    "库/游戏相关/Minecraft Core Mod/Mixin/隐式接口实现.md",
-    "库/游戏相关/Minecraft Core Mod/Mixin/添加成员.md",
-    "库/游戏相关/Minecraft Core Mod/Mixin/访问受限成员.md",
-    "库/游戏相关/Minecraft Core Mod/Mixin/方法注入.md",
-    "库/游戏相关/Minecraft Core Mod/Mixin/方法重写.md",
-    "库/游戏相关/Minecraft Core Mod/Mixin/方法局部修改.md",
-    "库/游戏相关/Minecraft Core Mod/Mixin/调试.md",
     "_resources/images/Pasted image 20240917130624.png",
     "_resources/images/Pasted image 20240917123912.png",
     "_resources/images/Pasted image 20240917120415.png",
@@ -298,7 +299,6 @@
     "_resources/images/Pasted image 20240917111458.jpg",
     "_resources/images/20240917_209_goland64.png",
     "_resources/images/20240917_208_goland64.png",
-    "_resources/images/20240917_207_goland64.png",
     "语言/C Cpp/C++更新图.canvas",
     "语言/C Cpp/C++ 语法/C++ 语法.canvas",
     "语言/Class 字节码/Untitled.canvas",
