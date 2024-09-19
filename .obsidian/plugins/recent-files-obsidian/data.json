@@ -1,16 +1,44 @@
 {
   "recentFiles": [
     {
+      "basename": "构建状态信息",
+      "path": "库/Java/Spring/Spring Web MVC/RESTful Web 服务/构建状态信息.md"
+    },
+    {
+      "basename": "RESTful Web 服务",
+      "path": "库/Java/Spring/Spring Web MVC/RESTful Web 服务/RESTful Web 服务.md"
+    },
+    {
+      "basename": "Spring Web MVC",
+      "path": "库/Java/Spring/Spring Web MVC/Spring Web MVC.md"
+    },
+    {
+      "basename": "响应式操作 MongoDB",
+      "path": "库/Java/Spring/反应式 RESTful Web 服务/响应式操作 MongoDB.md"
+    },
+    {
+      "basename": "反应式 RESTful Web 服务",
+      "path": "库/Java/Spring/反应式 RESTful Web 服务/反应式 RESTful Web 服务.md"
+    },
+    {
+      "basename": "Spring WebFlux 配置",
+      "path": "库/Java/Spring/反应式 RESTful Web 服务/Spring WebFlux 配置.md"
+    },
+    {
+      "basename": "任务",
+      "path": "任务.md"
+    },
+    {
+      "basename": "Vue3",
+      "path": "库/JS与CSS/Vue3/Vue3.md"
+    },
+    {
       "basename": "组合式 API",
       "path": "库/JS与CSS/Vue3/组合式 API/组合式 API.md"
     },
     {
       "basename": "响应式属性",
       "path": "库/JS与CSS/Vue3/属性监听/响应式属性.md"
-    },
-    {
-      "basename": "Vue3",
-      "path": "库/JS与CSS/Vue3/Vue3.md"
     },
     {
       "basename": "设置远程仓库",
@@ -93,10 +121,6 @@
       "path": "工具/Photoshop/Photoshop 图形图像处理项目教程/Photoshop 图形图像处理项目教程.md"
     },
     {
-      "basename": "任务",
-      "path": "任务.md"
-    },
-    {
       "basename": "依赖库",
       "path": "工具/编译器/CMake/依赖库.md"
     },
@@ -175,30 +199,6 @@
     {
       "basename": "@InitBinder",
       "path": "库/Java/Spring/Spring Web MVC/验证与数据绑定/数据绑定/@InitBinder.md"
-    },
-    {
-      "basename": "403 forbidden error",
-      "path": "库/Java/Spring/遇到的问题/403 forbidden error.md"
-    },
-    {
-      "basename": "@ExceptionHandler",
-      "path": "库/Java/Spring/Spring Web MVC/Controller 控制器/@ExceptionHandler.md"
-    },
-    {
-      "basename": "异步组件",
-      "path": "库/JS与CSS/Vue3/组件/异步组件.md"
-    },
-    {
-      "basename": "组件链传递",
-      "path": "库/JS与CSS/Vue3/组件/组件通信/组件链传递.md"
-    },
-    {
-      "basename": "动态组件",
-      "path": "库/JS与CSS/Vue3/组件/动态组件.md"
-    },
-    {
-      "basename": "引用组件",
-      "path": "库/JS与CSS/Vue3/组件/引用组件.md"
     }
   ],
   "omittedPaths": []
