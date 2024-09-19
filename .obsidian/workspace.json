@@ -8,21 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "1a9393b50389bbac",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "库/JS与CSS/Vue3/Vue3.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              },
-              "pinned": true
-            }
-          },
-          {
             "id": "39bd14c5c93aef94",
             "type": "leaf",
             "pinned": true,
@@ -38,12 +23,27 @@
             }
           },
           {
-            "id": "29a6b4b926b12dac",
+            "id": "2e0d5d35e4a5b406",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "任务.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "37b13d226e69a708",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "库/JS与CSS/Vue3/内置指令/绑定属性 v-bind.md",
+                "file": "工具/编译器/CMake.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -125,7 +125,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "库/JS与CSS/Vue3/内置指令/绑定属性 v-bind.md",
+                "file": "工具/编译器/CMake.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -142,7 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "库/JS与CSS/Vue3/内置指令/绑定属性 v-bind.md",
+                "file": "工具/编译器/CMake.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -165,7 +165,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "库/JS与CSS/Vue3/内置指令/绑定属性 v-bind.md"
+                "file": "工具/编译器/CMake.md"
               }
             }
           },
@@ -251,29 +251,34 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "29a6b4b926b12dac",
+  "active": "37b13d226e69a708",
   "lastOpenFiles": [
+    "_resources/codes/cmake/hello/build/answer",
+    "_resources/codes/cmake/hello/build/CMakeFiles/Progress/3",
+    "_resources/codes/cmake/hello/build/CMakeFiles/answer.dir/answer.cpp.o",
+    "_resources/codes/cmake/hello/build/CMakeFiles/answer.dir/answer.cpp.o.d",
+    "_resources/codes/cmake/hello/build/CMakeFiles/Progress/2",
+    "_resources/codes/cmake/hello/build/CMakeFiles/answer.dir/main.cpp.o",
+    "_resources/codes/cmake/hello/build/CMakeFiles/answer.dir/main.cpp.o.d",
+    "_resources/codes/cmake/hello/build/CMakeFiles/Progress/1",
+    "_resources/codes/cmake/hello/build/CMakeFiles/Progress/count.txt",
+    "_resources/codes/cmake/hello/build/CMakeFiles/Progress",
+    "_resources/codes/cmake/hello/build/CMakeFiles/Makefile.cmake",
+    "任务.md",
     "库/JS与CSS/Vue3/内置指令/内置指令.md",
-    "库/JS与CSS/Vue3/内置指令/条件渲染 v-if v-show.md",
-    "_resources/codes/Vue/Vue3/hellovue/v-bind-style-completed.html",
-    "_resources/codes/Vue/Vue3/hellovue/v-bind-style.html",
-    "_resources/codes/Vue/Vue3/hellovue/v-bind-class-methods.html",
+    "工具/编译器/GNUMake/问题/missing separator.md",
+    "工具/编译器/CMake.md",
     "库/JS与CSS/Vue3/内置指令/绑定属性 v-bind.md",
-    "_resources/codes/Vue/Vue3/hellovue/v-bind-class.html",
+    "库/JS与CSS/Vue3/内置指令/条件渲染 v-if v-show.md",
     "库/JS与CSS/Vue3/Vue3.md",
     "库/JS与CSS/Vue3/属性监听/属性监听.md",
     "工具/Node.js/webpack.md",
-    "任务.md",
     "_resources/codes/Vue/Vue3/hellovue/images/ok.gif",
     "_resources/codes/Meta Bind/exampleVault/Other/Images/subfolder/img_frozen_branch.jpg",
     "_resources/codes/Meta Bind/exampleVault/Other/Images/img_drops.jpg",
     "_resources/codes/Meta Bind/exampleVault/Other/Images/img_butterfly.webp",
     "_resources/documents/img/ext[d3-shape]rounded-circular-sector.png",
     "_resources/codes/node.js/webpack/loaders/images/test.jpg",
-    "_resources/codes/Meta Bind/exampleVault/Other/Images/subfolder",
-    "_resources/codes/node.js/webpack/loaders/images",
-    "_resources/codes/Vue/Vue3/hellovue/v-bind.html",
-    "_resources/codes/Vue/Vue3/hellovue/images",
     "库/JS与CSS/Vue3/属性监听/响应式属性/响应式属性.md",
     "库/JS与CSS/Vue3/属性监听/响应式属性.md",
     "库/JS与CSS/Vue3/属性监听/响应式属性/响应式对象的一个实现.md",
@@ -281,9 +286,7 @@
     "库/JS与CSS/Vue3/属性监听/属性监听器.md",
     "_resources/templates/embed 代码片段.md",
     "_resources/templates/code 代码引用.md",
-    "_resources/codes/Vue/Vue3/hellovue/watch.html",
     "库/JS与CSS/Vue3/属性监听/计算属性.md",
-    "_resources/codes/Vue/Vue3/hellovue/computed-name.html",
     "库/JS与CSS/Vue3/生命周期.md",
     "_resources/images/生命周期 2024-09-18 23.36.19.excalidraw.md",
     "库/JS与CSS/Vue3/Vue UI 组件库/Vue UI 组件库.md",
@@ -292,9 +295,6 @@
     "库/JS与CSS/Vue3/组合式 API/组合式 API.md",
     "库/JS与CSS/Vue3/组合式 API/响应式侦听.md",
     "库/JS与CSS/Vue3/组合式 API/计算属性.md",
-    "库/JS与CSS/Vue3/单文件组件/异步组件.md",
-    "库/JS与CSS/Vue3/单文件组件/单文件组件.md",
-    "库/JS与CSS/Vue3/单文件组件/script setup 写法.md",
     "_resources/images/Pasted image 20240918124834.png",
     "_resources/images/Pasted image 20240918084734.png",
     "_resources/images/Pasted image 20240918083837.png",

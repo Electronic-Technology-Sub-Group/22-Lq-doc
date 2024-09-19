@@ -1,4 +1,29 @@
-- [ ] CMake
+利用 cmake 的代码，将其编译成 makefile 等其他编译工具的脚本。
+
+CMake 脚本位于 `CMakeLists.txt` 中，基本结构为：
+
+```cmake
+# 设置 CMake 最低版本
+cmake_minimum_required(VERSION <minimum-cmake-version>)
+# 设置项目名
+project(<project-name>)
+
+# 添加可执行文件
+add_executable(<target> <dependencies>)
+```
+
+CMake 依赖只需要指定 `cpp` 源文件，不需要指定头文件，CMake 会自动查找依赖的头文件。
+
+```reference
+file: "@/_resources/codes/cmake/hello/CMakeLists.txt"
+lang: "cmake"
+```
+
+CMake 构建分为两步：
+1. 生成构建脚本：`cmake -B build`
+	- `-B`：指定构建目录
+	- `-G`：指定构建工具
+2. 构建：`cmake --build build`
 
 # 参考
 
