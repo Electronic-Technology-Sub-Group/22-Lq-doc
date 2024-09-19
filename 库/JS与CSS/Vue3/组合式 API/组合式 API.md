@@ -99,3 +99,19 @@ Vue.create({
 
   ![[image-20240527020803-yjrc4nh.png]]
 
+# getCurrentInstance
+
+用于访问内部组件实例，只能在 `setup` 或生命周期函数中使用，也可以访问 `globalProperties`
+- `ctx`：用于开发环境
+- `proxy`：用于生产环境
+
+```js
+import { getCurrentInstance } from "vue"
+export default {
+    setup() {
+        const instance = getCurrentInstance()
+        // 获取 globalProperties
+        const {ctx, proxy} = instance.appContext.config.globalProperties;
+    }
+}
+```

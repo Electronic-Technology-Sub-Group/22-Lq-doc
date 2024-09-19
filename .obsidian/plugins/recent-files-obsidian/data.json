@@ -1,12 +1,112 @@
 {
   "recentFiles": [
     {
-      "basename": "CMake",
-      "path": "工具/编译器/CMake.md"
+      "basename": "组合式 API",
+      "path": "库/JS与CSS/Vue3/组合式 API/组合式 API.md"
+    },
+    {
+      "basename": "响应式属性",
+      "path": "库/JS与CSS/Vue3/属性监听/响应式属性.md"
+    },
+    {
+      "basename": "Vue3",
+      "path": "库/JS与CSS/Vue3/Vue3.md"
+    },
+    {
+      "basename": "设置远程仓库",
+      "path": "工具/git/设置远程仓库.md"
+    },
+    {
+      "basename": "指针",
+      "path": "工具/git/基本操作/指针.md"
+    },
+    {
+      "basename": "整理",
+      "path": "工具/git/基本操作/整理.md"
+    },
+    {
+      "basename": "远程",
+      "path": "工具/git/基本操作/远程.md"
+    },
+    {
+      "basename": "提交",
+      "path": "工具/git/基本操作/提交.md"
+    },
+    {
+      "basename": "标签",
+      "path": "工具/git/基本操作/标签.md"
+    },
+    {
+      "basename": "基本操作",
+      "path": "工具/git/基本操作/基本操作.md"
+    },
+    {
+      "basename": "组件样式",
+      "path": "库/JS与CSS/Vue3/单文件组件/组件样式.md"
+    },
+    {
+      "basename": "script setup 写法",
+      "path": "库/JS与CSS/Vue3/单文件组件/script setup 写法.md"
+    },
+    {
+      "basename": "组件",
+      "path": "库/JS与CSS/Vue3/组件/组件.md"
+    },
+    {
+      "basename": "单文件组件",
+      "path": "库/JS与CSS/Vue3/单文件组件/单文件组件.md"
+    },
+    {
+      "basename": "ESLint",
+      "path": "工具/ESLint.md"
+    },
+    {
+      "basename": "响应式侦听",
+      "path": "库/JS与CSS/Vue3/组合式 API/响应式侦听.md"
+    },
+    {
+      "basename": "属性监听器",
+      "path": "库/JS与CSS/Vue3/属性监听/属性监听器.md"
+    },
+    {
+      "basename": "组件链传递",
+      "path": "库/JS与CSS/Vue3/组合式 API/组件链传递.md"
+    },
+    {
+      "basename": "生命周期函数",
+      "path": "库/JS与CSS/Vue3/组合式 API/生命周期函数.md"
+    },
+    {
+      "basename": "计算属性",
+      "path": "库/JS与CSS/Vue3/组合式 API/计算属性.md"
+    },
+    {
+      "basename": "模板引用",
+      "path": "库/JS与CSS/Vue3/组合式 API/模板引用.md"
+    },
+    {
+      "basename": "计算属性",
+      "path": "库/JS与CSS/Vue3/属性监听/计算属性.md"
+    },
+    {
+      "basename": "Photoshop 图形图像处理项目教程",
+      "path": "工具/Photoshop/Photoshop 图形图像处理项目教程/Photoshop 图形图像处理项目教程.md"
     },
     {
       "basename": "任务",
       "path": "任务.md"
+    },
+    {
+      "basename": "依赖库",
+      "path": "工具/编译器/CMake/依赖库.md"
+    },
+    {
+      "basename": "CMake",
+      "path": "工具/编译器/CMake/CMake.md"
+    },
+    {
+      "basename": "子项目",
+      "path": "工具/编译器/CMake/子项目.md"
     },
     {
       "basename": "内置指令",
@@ -25,10 +125,6 @@
       "path": "库/JS与CSS/Vue3/内置指令/条件渲染 v-if v-show.md"
     },
     {
-      "basename": "Vue3",
-      "path": "库/JS与CSS/Vue3/Vue3.md"
-    },
-    {
       "basename": "属性监听",
       "path": "库/JS与CSS/Vue3/属性监听/属性监听.md"
     },
@@ -41,20 +137,12 @@
       "path": "库/JS与CSS/Vue3/插值表达式.md"
     },
     {
-      "basename": "属性监听器",
-      "path": "库/JS与CSS/Vue3/属性监听/属性监听器.md"
-    },
-    {
       "basename": "embed 代码片段",
       "path": "_resources/templates/embed 代码片段.md"
     },
     {
       "basename": "code 代码引用",
       "path": "_resources/templates/code 代码引用.md"
-    },
-    {
-      "basename": "计算属性",
-      "path": "库/JS与CSS/Vue3/属性监听/计算属性.md"
     },
     {
       "basename": "生命周期",
@@ -77,32 +165,8 @@
       "path": "库/JS与CSS/ElementPlus/组合式 API 中 el-input 输入异常.md"
     },
     {
-      "basename": "组合式 API",
-      "path": "库/JS与CSS/Vue3/组合式 API/组合式 API.md"
-    },
-    {
-      "basename": "响应式侦听",
-      "path": "库/JS与CSS/Vue3/组合式 API/响应式侦听.md"
-    },
-    {
-      "basename": "计算属性",
-      "path": "库/JS与CSS/Vue3/组合式 API/计算属性.md"
-    },
-    {
       "basename": "异步组件",
       "path": "库/JS与CSS/Vue3/单文件组件/异步组件.md"
-    },
-    {
-      "basename": "单文件组件",
-      "path": "库/JS与CSS/Vue3/单文件组件/单文件组件.md"
-    },
-    {
-      "basename": "script setup 写法",
-      "path": "库/JS与CSS/Vue3/单文件组件/script setup 写法.md"
-    },
-    {
-      "basename": "组件样式",
-      "path": "库/JS与CSS/Vue3/单文件组件/组件样式.md"
     },
     {
       "basename": "版本号",
@@ -135,70 +199,6 @@
     {
       "basename": "引用组件",
       "path": "库/JS与CSS/Vue3/组件/引用组件.md"
-    },
-    {
-      "basename": "teleport 组件",
-      "path": "库/JS与CSS/Vue3/单文件组件/teleport 组件.md"
-    },
-    {
-      "basename": "webpack",
-      "path": "库/JS与CSS/Vue3/单文件组件/webpack.md"
-    },
-    {
-      "basename": "组件通信",
-      "path": "库/JS与CSS/Vue3/组件/组件通信/组件通信.md"
-    },
-    {
-      "basename": "插槽",
-      "path": "库/JS与CSS/Vue3/组件/插槽/插槽.md"
-    },
-    {
-      "basename": "组件",
-      "path": "库/JS与CSS/Vue3/组件/组件.md"
-    },
-    {
-      "basename": "组件链传递",
-      "path": "库/JS与CSS/Vue3/组合式 API/组件链传递.md"
-    },
-    {
-      "basename": "表单绑定 v-model",
-      "path": "库/JS与CSS/Vue3/内置指令/表单绑定 v-model.md"
-    },
-    {
-      "basename": "自定义事件",
-      "path": "库/JS与CSS/Vue3/组件/组件通信/自定义事件/自定义事件.md"
-    },
-    {
-      "basename": "mitt 的一个简单实现",
-      "path": "库/JS与CSS/Vue3/组件/组件通信/自定义事件/中央事件总线 mitt/mitt 的一个简单实现.md"
-    },
-    {
-      "basename": "中央事件总线 mitt",
-      "path": "库/JS与CSS/Vue3/组件/组件通信/自定义事件/中央事件总线 mitt/中央事件总线 mitt.md"
-    },
-    {
-      "basename": "yay error while loading shared libraries libalpm.so",
-      "path": "工具/Linux/Arch/yay error while loading shared libraries libalpm.so.md"
-    },
-    {
-      "basename": "flexible.js",
-      "path": "库/JS与CSS/flexible.js.md"
-    },
-    {
-      "basename": "Vue Router",
-      "path": "库/JS与CSS/Vue3/Vue Router/Vue Router.md"
-    },
-    {
-      "basename": "Jackson",
-      "path": "库/Java/Jackson.md"
-    },
-    {
-      "basename": "manim",
-      "path": "库/Python/manim/manim.md"
-    },
-    {
-      "basename": "模块",
-      "path": "库/Python/manim/模块.md"
     }
   ],
   "omittedPaths": []

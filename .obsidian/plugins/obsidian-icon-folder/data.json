@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "SiEslint",
+      "SiCmake",
       "SiAdobephotoshop",
       "ApManim",
-      "SiUml",
-      "SiGradle",
-      "LiBinary"
+      "SiUml"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -156,7 +156,6 @@
     "iconName": "SiGradle"
   },
   "工具/编译器/Maven.md": "SiApachemaven",
-  "工具/编译器/CMake.md": "SiCmake",
   "工具/PostgreSQL.md": "SiPostgresql",
   "工具/Android/a2dp.md": "LiBluetooth",
   "工具/编译器/GNUMake/GNUMake.md": "SiMake",
@@ -205,5 +204,9 @@
   "库/JS与CSS/luxon.md": "ApLuxon",
   "库/JS与CSS/mysql2.md": "SiJavascript",
   "库/JS与CSS/jQuery.md": "SiJquery",
-  "库/JS与CSS/flexible.js.md": "SiJavascript"
+  "库/JS与CSS/flexible.js.md": "SiJavascript",
+  "工具/编译器/CMake/CMake.md": "SiCmake",
+  "工具/编译器/CMake": "SiCmake",
+  "工具/Photoshop/Photoshop 图形图像处理项目教程": "SiAdobephotoshop",
+  "工具/ESLint.md": "SiEslint"
 }

@@ -57,6 +57,15 @@ flexGrow=1
 ````
 `````
 
+# globalProperties
+
+Vue 3.0 应用配置属性，用于挂载全局属性或方法
+
+```js
+const app = createApp({})
+app.config.globalProperties.$http = () => {}
+```
+
 ---
 
 - [[生命周期]]
