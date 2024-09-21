@@ -1,5 +1,3 @@
-# 组合式 API 中 el-input 输入异常
-
 涉及组件：`element-plus` 的 `<el-form>` 和 `<el-input>`
 
 将选项式 API 的代码转换成组合式 API 后，`<el-form>` 中的 `<el-input>` 出现输入问题
@@ -99,7 +97,7 @@ const cancel = () => loginForm.resetFields()
 
 修复：
 
-将 `ref` 与 `:model` 绑定到不同对象中，`ref` 指定值需要使用 `Vue.ref` 创建
+将 `ref` 与 `:model` 绑定到不同对象中，响应式可以使用 `Vue.ref` 创建 `ref` 变量
 
 ```html
 <script setup>

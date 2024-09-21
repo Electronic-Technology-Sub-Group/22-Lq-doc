@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "SiVuedotjs",
+      "SiAxios",
       "SiEslint",
       "SiCmake",
-      "SiAdobephotoshop",
-      "ApManim",
-      "SiUml"
+      "SiAdobephotoshop"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -179,8 +179,6 @@
   "语言/Go": "SiGo",
   "语言/Go/Go 语法": "SiGo",
   "工具/ffmpeg.md": "SiFfmpeg",
-  "工具/编译器/Vue CLI.md": "SiVuedotjs",
-  "工具/编译器/Vite.md": "SiVite",
   "语言/VB6": "SiVisualbasic",
   "语言/文档/LaTeX.md": "SiLatex",
   "语言/文档/Markdown.md": "SiMarkdown",
@@ -199,7 +197,6 @@
   "库/JS与CSS/Express.md": "SiExpress",
   "库/JS与CSS/JWT 相关.md": "SiJavascript",
   "库/JS与CSS/Swiper.md": "SiSwiper",
-  "库/JS与CSS/Vue3": "SiVuedotjs",
   "库/JS与CSS/art-template.md": "SiJavascript",
   "库/JS与CSS/luxon.md": "ApLuxon",
   "库/JS与CSS/mysql2.md": "SiJavascript",
@@ -208,5 +205,10 @@
   "工具/编译器/CMake/CMake.md": "SiCmake",
   "工具/编译器/CMake": "SiCmake",
   "工具/Photoshop/Photoshop 图形图像处理项目教程": "SiAdobephotoshop",
-  "工具/ESLint.md": "SiEslint"
+  "工具/ESLint.md": "SiEslint",
+  "库/JS与CSS/Axios.md": "SiAxios",
+  "工具/Vue": "SiVuedotjs",
+  "工具/Vue/Vue CLI.md": "SiVuedotjs",
+  "工具/Vue/Vite.md": "SiVite",
+  "库/JS与CSS/Vue/Vue3": "SiVuedotjs"
 }

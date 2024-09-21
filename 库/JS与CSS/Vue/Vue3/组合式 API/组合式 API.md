@@ -104,6 +104,7 @@ Vue.create({
 用于访问内部组件实例，只能在 `setup` 或生命周期函数中使用，也可以访问 `globalProperties`
 - `ctx`：用于开发环境
 - `proxy`：用于生产环境
+	- `$ref`：获取 `ref` 引用的元素
 
 ```js
 import { getCurrentInstance } from "vue"

@@ -1,5 +1,3 @@
-# 组合式 API 中 el-form 相关方法缺失
-
 涉及组件：`element-plus` 的 `<el-form>`
 
 将选项式 API 的代码转换成组合式 API 后，`<el-form>` 绑定的对象无相关方法
