@@ -9,15 +9,17 @@ Markdown LaTeX 数学公式与标准 LaTeX 公式类似
 
 常见希腊字符包括
 
-|代码|字符|代码|字符|代码|字符|
-| ------| --------| ------| --------| ------| --------|
-|`\alpha`|\alpha|`\omega`|\omega|`\sigma`|\sigma|
-|`\beta`|\beta|`\phi`|\phi|`\theta`|\theta|
-|`\delta`|\delta|`\pi`|\pi|`\Delta`|\Delta|
-|`\eta`|\eta|`\psi`|\psi|`\Sigma`|\Sigma|
-|`\mu`|\mu|`\rho`|\rho|`\Pi`|\Pi|
+| 代码       | 字符       | 代码       | 字符       | 代码       | 字符       |
+| -------- | -------- | -------- | -------- | -------- | -------- |
+| `\alpha` | $\alpha$ | `\omega` | $\omega$ | `\sigma` | $\sigma$ |
+| `\beta`  | $\beta$  | `\phi`   | $\phi$   | `\theta` | $\theta$ |
+| `\delta` | $\delta$ | `\pi`    | $\pi$    | `\Delta` | $\Delta$ |
+| `\eta`   | $\eta$   | `\psi`   | $\psi$   | `\Sigma` | $\Sigma$ |
+| `\mu`    | $\mu$    | `\rho`   | $\rho$   | `\Pi`    | $\Pi$    |
 * 如果存在，首字母大写表示对应的大写字母，如 `\delta` 对应 `\Delta`，`\psi` 对应 `\Psi` 等
 * `$o$` 符号就是字母 `o`，不需要转义
+
+
 
 其余详见 [[#附录#希腊与希伯来字符]]
 ## 变体字符
