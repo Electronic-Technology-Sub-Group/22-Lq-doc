@@ -8,35 +8,21 @@
         "type": "tabs",
         "children": [
           {
-            "id": "3e82f11a3c95f782",
+            "id": "bb6451ed086c1adf",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "任务.md",
-                "mode": "preview",
+                "file": "个人笔记/每日任务.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "pinned": true
             }
-          },
-          {
-            "id": "c79954788ba12b2a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "库/JS与CSS/Vue/SvgIcon 图标组件.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -65,7 +51,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "useRouter",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -110,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "库/JS与CSS/Vue/SvgIcon 图标组件.md",
+                "file": "个人笔记/每日任务.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "库/JS与CSS/Vue/SvgIcon 图标组件.md",
+                "file": "个人笔记/每日任务.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "库/JS与CSS/Vue/SvgIcon 图标组件.md"
+                "file": "个人笔记/每日任务.md"
               }
             }
           },
@@ -236,53 +222,54 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "c79954788ba12b2a",
+  "active": "bb6451ed086c1adf",
   "lastOpenFiles": [
-    "库/JS与CSS/Vue/Vue3/Vue3.md",
+    "语言/文档/LaTeX.md",
+    "语言/文档/Markdown.md",
+    "个人笔记/每日任务.md",
+    "库/Python/数学分析相关库.md",
+    "课程/大数据与机器学习/大数据与机器学习.md",
+    "课程/大数据与机器学习/房价预测与回归问题.md",
+    "_resources/images/Pasted image 20240922140256.png",
+    "个人笔记/分支任务.md",
+    "库/Python/manim/模块.md",
+    "任务.md",
+    "个人笔记/流量卡绑定应用.md",
+    "课程/大数据与机器学习",
+    "库/Python/manim/manim.md",
+    "库/Python/manim/'latex' is not recognized as an internal or external command, operable program or batch file..md",
+    "库/Python/manim/场景.md",
+    "库/Python/manim/配置.md",
     "库/JS与CSS/Vue/SvgIcon 图标组件.md",
+    "_resources/codes/manim/MobjectPosition.py",
+    "_resources/codes/manim/CountAnimation.py",
+    "_resources/templates/code 代码引用.md",
+    "工具/Obsidian/Obsidian.md",
+    "_resources/templates/embed 代码片段.md",
+    "_resources/codes/Templater/Untitled.md",
+    "_resources/codes/Templater/template_sample.md",
+    "_resources/_resources.md",
+    "_resources/codes/manim/AnimateExample.py",
+    "_resources/codes/manim/SomeAnimation.py",
+    "库/JS与CSS/Vue/Vue3/Vue3.md",
     "_resources/images/Pasted image 20240921155458.png",
     "_resources/images/Pasted image 20240921155040.png",
     "库/JS与CSS/Vue/Vue3/Vue Router/路由信息.md",
     "库/JS与CSS/Vue",
-    "任务.md",
     "_resources/images/Pasted image 20240920183452.png",
     "库/JS与CSS/Vue/Vue3/Vue Router/props 传参.md",
     "库/JS与CSS/Vue/Vue3/Vue Router/HTML5 历史记录模式.md",
     "库/JS与CSS/Vue/Vue3/Vue Router/重定向.md",
-    "库/JS与CSS/Vue/Vue3/Vue Router/嵌套路由.md",
-    "库/JS与CSS/Vue/Vue3/Vue Router/命名路由.md",
-    "库/JS与CSS/Vue/Vue3/Vue Router/路由元信息.md",
-    "库/JS与CSS/Vue/Vue3/Vue Router/路由钩子函数.md",
-    "库/JS与CSS/Vue/Vue3/Vue Router/例：登录权限验证.md",
-    "库/JS与CSS/Vue/Vue3/Vue Router/编程式导航.md",
-    "库/JS与CSS/Vue/Vue3/Vue Router/Vue Router.md",
-    "库/JS与CSS/ElementPlus/el-menu 右侧边线.md",
-    "库/JS与CSS/Vue/Vue3/组合式 API/组合式 API.md",
-    "库/JS与CSS/Vue/Vue3/组件/组件.md",
-    "库/JS与CSS/Vue/Vue3/单文件组件/单文件组件.md",
-    "库/JS与CSS/ElementPlus/Vue 中 el-input 输入异常.md",
-    "库/JS与CSS/ElementPlus/按需导入 ElMessage 样式错误.md",
-    "库/JS与CSS/ElementPlus/Vue 中 el-form 相关方法缺失.md",
     "_resources/images/Pasted image 20240920153334.png",
     "_resources/images/Pasted image 20240920153305.png",
-    "库/JS与CSS/Axios.md",
-    "工具/Vue/vue-cli-service.md",
-    "工具/Vue/Vite.md",
     "工具/Vue",
-    "库/JS与CSS/Vue/接口代理.md",
     "库/JS与CSS/Vue",
     "_resources/codes/cmake/hello-thirdlib/answer/include/answer.hpp",
     "_resources/codes/cmake/hello-thirdlib/answer/answer.cpp",
-    "_resources/codes/cmake/hello-thirdlib/answer/CMakeLists.txt",
-    "_resources/codes/cmake/hello-thirdlib/CMakeLists.txt",
-    "_resources/codes/cmake/hello-thirdlib/main.cpp",
-    "_resources/codes/cmake/hello-thirdlib/answer/include",
-    "_resources/codes/cmake/hello-thirdlib/answer",
     "_resources/codes/Vue/Vue3/hellovue/images/ok.gif",
     "_resources/codes/Meta Bind/exampleVault/Other/Images/subfolder/img_frozen_branch.jpg",
     "_resources/codes/Meta Bind/exampleVault/Other/Images/img_drops.jpg",
     "_resources/codes/Meta Bind/exampleVault/Other/Images/img_butterfly.webp",
-    "_resources/documents/img/ext[d3-shape]rounded-circular-sector.png",
     "语言/C Cpp/C++更新图.canvas",
     "语言/C Cpp/C++ 语法/C++ 语法.canvas",
     "语言/Class 字节码/Untitled.canvas",

@@ -1,8 +1,72 @@
 {
   "recentFiles": [
     {
+      "basename": "每日任务",
+      "path": "个人笔记/每日任务.md"
+    },
+    {
+      "basename": "LaTeX",
+      "path": "语言/文档/LaTeX.md"
+    },
+    {
+      "basename": "Markdown",
+      "path": "语言/文档/Markdown.md"
+    },
+    {
+      "basename": "数学分析相关库",
+      "path": "库/Python/数学分析相关库.md"
+    },
+    {
+      "basename": "模块",
+      "path": "库/Python/manim/模块.md"
+    },
+    {
+      "basename": "流量卡绑定应用",
+      "path": "个人笔记/流量卡绑定应用.md"
+    },
+    {
+      "basename": "manim",
+      "path": "库/Python/manim/manim.md"
+    },
+    {
+      "basename": "'latex' is not recognized as an internal or external command, operable program or batch file.",
+      "path": "库/Python/manim/'latex' is not recognized as an internal or external command, operable program or batch file..md"
+    },
+    {
+      "basename": "场景",
+      "path": "库/Python/manim/场景.md"
+    },
+    {
+      "basename": "配置",
+      "path": "库/Python/manim/配置.md"
+    },
+    {
       "basename": "SvgIcon 图标组件",
       "path": "库/JS与CSS/Vue/SvgIcon 图标组件.md"
+    },
+    {
+      "basename": "code 代码引用",
+      "path": "_resources/templates/code 代码引用.md"
+    },
+    {
+      "basename": "Obsidian",
+      "path": "工具/Obsidian/Obsidian.md"
+    },
+    {
+      "basename": "embed 代码片段",
+      "path": "_resources/templates/embed 代码片段.md"
+    },
+    {
+      "basename": "Untitled",
+      "path": "_resources/codes/Templater/Untitled.md"
+    },
+    {
+      "basename": "template_sample",
+      "path": "_resources/codes/Templater/template_sample.md"
+    },
+    {
+      "basename": "_resources",
+      "path": "_resources/_resources.md"
     },
     {
       "basename": "Vue3",
@@ -11,10 +75,6 @@
     {
       "basename": "路由信息",
       "path": "库/JS与CSS/Vue/Vue3/Vue Router/路由信息.md"
-    },
-    {
-      "basename": "任务",
-      "path": "任务.md"
     },
     {
       "basename": "props 传参",
@@ -135,70 +195,6 @@
     {
       "basename": "指针",
       "path": "工具/git/基本操作/指针.md"
-    },
-    {
-      "basename": "整理",
-      "path": "工具/git/基本操作/整理.md"
-    },
-    {
-      "basename": "远程",
-      "path": "工具/git/基本操作/远程.md"
-    },
-    {
-      "basename": "提交",
-      "path": "工具/git/基本操作/提交.md"
-    },
-    {
-      "basename": "标签",
-      "path": "工具/git/基本操作/标签.md"
-    },
-    {
-      "basename": "基本操作",
-      "path": "工具/git/基本操作/基本操作.md"
-    },
-    {
-      "basename": "组件样式",
-      "path": "库/JS与CSS/Vue/Vue3/单文件组件/组件样式.md"
-    },
-    {
-      "basename": "script setup 写法",
-      "path": "库/JS与CSS/Vue/Vue3/单文件组件/script setup 写法.md"
-    },
-    {
-      "basename": "ESLint",
-      "path": "工具/ESLint.md"
-    },
-    {
-      "basename": "响应式侦听",
-      "path": "库/JS与CSS/Vue/Vue3/组合式 API/响应式侦听.md"
-    },
-    {
-      "basename": "属性监听器",
-      "path": "库/JS与CSS/Vue/Vue3/属性监听/属性监听器.md"
-    },
-    {
-      "basename": "组件链传递",
-      "path": "库/JS与CSS/Vue/Vue3/组合式 API/组件链传递.md"
-    },
-    {
-      "basename": "生命周期函数",
-      "path": "库/JS与CSS/Vue/Vue3/组合式 API/生命周期函数.md"
-    },
-    {
-      "basename": "计算属性",
-      "path": "库/JS与CSS/Vue/Vue3/组合式 API/计算属性.md"
-    },
-    {
-      "basename": "模板引用",
-      "path": "库/JS与CSS/Vue/Vue3/组合式 API/模板引用.md"
-    },
-    {
-      "basename": "计算属性",
-      "path": "库/JS与CSS/Vue/Vue3/属性监听/计算属性.md"
-    },
-    {
-      "basename": "Photoshop 图形图像处理项目教程",
-      "path": "工具/Photoshop/Photoshop 图形图像处理项目教程/Photoshop 图形图像处理项目教程.md"
     }
   ],
   "omittedPaths": []

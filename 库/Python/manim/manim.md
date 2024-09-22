@@ -68,3 +68,4 @@ image: https://www.manim.community/banner.png
 
 - [[场景]]
 - [[模块]]
+- [[配置]]
