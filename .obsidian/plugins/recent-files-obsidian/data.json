@@ -1,6 +1,62 @@
 {
   "recentFiles": [
     {
+      "basename": "属性",
+      "path": "语言/CSharp/CSharp 语法/类型/类/属性.md"
+    },
+    {
+      "basename": "类",
+      "path": "语言/CSharp/CSharp 语法/类型/类/类.md"
+    },
+    {
+      "basename": "函数",
+      "path": "语言/CSharp/CSharp 语法/类型/类/函数.md"
+    },
+    {
+      "basename": "结构体",
+      "path": "语言/CSharp/CSharp 语法/类型/结构体.md"
+    },
+    {
+      "basename": "CSharp 语法",
+      "path": "语言/CSharp/CSharp 语法/CSharp 语法.md"
+    },
+    {
+      "basename": "类型",
+      "path": "语言/CSharp/CSharp 语法/类型/类型.md"
+    },
+    {
+      "basename": "指针",
+      "path": "语言/CSharp/CSharp 语法/指针.md"
+    },
+    {
+      "basename": "命名空间",
+      "path": "语言/CSharp/CSharp 语法/命名空间.md"
+    },
+    {
+      "basename": "基本语法",
+      "path": "语言/CSharp/CSharp 语法/基本语法/基本语法.md"
+    },
+    {
+      "basename": "流程控制",
+      "path": "语言/CSharp/CSharp 语法/流程控制.md"
+    },
+    {
+      "basename": "CSharp 并行任务",
+      "path": "语言/CSharp/CSharp 语法/CSharp 并行任务.md"
+    },
+    {
+      "basename": "CSharp 反射",
+      "path": "语言/CSharp/CSharp 语法/CSharp 反射.md"
+    },
+    {
+      "basename": "文档注释",
+      "path": "语言/CSharp/CSharp 语法/基本语法/文档注释.md"
+    },
+    {
+      "basename": "语言",
+      "path": "语言/语言.md"
+    },
+    {
       "basename": "每日任务",
       "path": "个人笔记/每日任务.md"
     },
@@ -143,58 +199,6 @@
     {
       "basename": "Vue 中 el-form 相关方法缺失",
       "path": "库/JS与CSS/ElementPlus/Vue 中 el-form 相关方法缺失.md"
-    },
-    {
-      "basename": "Axios",
-      "path": "库/JS与CSS/Axios.md"
-    },
-    {
-      "basename": "vue-cli-service",
-      "path": "工具/Vue/vue-cli-service.md"
-    },
-    {
-      "basename": "Vite",
-      "path": "工具/Vue/Vite.md"
-    },
-    {
-      "basename": "渲染函数",
-      "path": "库/JS与CSS/Vue/Vue3/渲染函数/渲染函数.md"
-    },
-    {
-      "basename": "构建状态信息",
-      "path": "库/Java/Spring/Spring Web MVC/RESTful Web 服务/构建状态信息.md"
-    },
-    {
-      "basename": "RESTful Web 服务",
-      "path": "库/Java/Spring/Spring Web MVC/RESTful Web 服务/RESTful Web 服务.md"
-    },
-    {
-      "basename": "Spring Web MVC",
-      "path": "库/Java/Spring/Spring Web MVC/Spring Web MVC.md"
-    },
-    {
-      "basename": "响应式操作 MongoDB",
-      "path": "库/Java/Spring/反应式 RESTful Web 服务/响应式操作 MongoDB.md"
-    },
-    {
-      "basename": "反应式 RESTful Web 服务",
-      "path": "库/Java/Spring/反应式 RESTful Web 服务/反应式 RESTful Web 服务.md"
-    },
-    {
-      "basename": "Spring WebFlux 配置",
-      "path": "库/Java/Spring/反应式 RESTful Web 服务/Spring WebFlux 配置.md"
-    },
-    {
-      "basename": "响应式属性",
-      "path": "库/JS与CSS/Vue/Vue3/属性监听/响应式属性.md"
-    },
-    {
-      "basename": "设置远程仓库",
-      "path": "工具/git/设置远程仓库.md"
-    },
-    {
-      "basename": "指针",
-      "path": "工具/git/基本操作/指针.md"
     }
   ],
   "omittedPaths": []

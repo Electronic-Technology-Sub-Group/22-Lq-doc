@@ -8,21 +8,50 @@
         "type": "tabs",
         "children": [
           {
-            "id": "bb6451ed086c1adf",
+            "id": "8dac21c9330c421b",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "个人笔记/每日任务.md",
+                "file": "语言/CSharp/CSharp 语法/CSharp 语法.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "pinned": true
             }
+          },
+          {
+            "id": "812203a8cbe29646",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "语言/CSharp/CSharp 语法/类型/类/类.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "1bda083faf74a4c7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "语言/CSharp/CSharp 语法/类型/类/属性.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -96,7 +125,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "个人笔记/每日任务.md",
+                "file": "语言/CSharp/CSharp 语法/类型/类/属性.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "个人笔记/每日任务.md",
+                "file": "语言/CSharp/CSharp 语法/类型/类/属性.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +165,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "个人笔记/每日任务.md"
+                "file": "语言/CSharp/CSharp 语法/类型/类/属性.md"
               }
             }
           },
@@ -222,8 +251,25 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "bb6451ed086c1adf",
+  "active": "1bda083faf74a4c7",
   "lastOpenFiles": [
+    "语言/CSharp/CSharp 语法/类型/类/类.md",
+    "语言/CSharp/CSharp 语法/类型/类/函数.md",
+    "语言/CSharp/CSharp 语法/类型/类/属性.md",
+    "语言/CSharp/CSharp 语法/类型/结构体.md",
+    "语言/CSharp/CSharp 语法/类型/类",
+    "语言/CSharp/CSharp 语法/CSharp 语法.md",
+    "语言/CSharp/CSharp 语法/类型/类型.md",
+    "语言/CSharp/CSharp 语法/指针.md",
+    "语言/CSharp/CSharp 语法/命名空间.md",
+    "语言/CSharp/CSharp 语法/基本语法/基本语法.md",
+    "语言/CSharp/CSharp 语法/基本语法",
+    "语言/CSharp/CSharp 语法/类型",
+    "语言/CSharp/CSharp 语法/流程控制.md",
+    "语言/CSharp/CSharp 语法/CSharp 并行任务.md",
+    "语言/CSharp/CSharp 语法/CSharp 反射.md",
+    "语言/CSharp/CSharp 语法/基本语法/文档注释.md",
+    "语言/语言.md",
     "语言/文档/LaTeX.md",
     "语言/文档/Markdown.md",
     "个人笔记/每日任务.md",
@@ -237,35 +283,17 @@
     "个人笔记/流量卡绑定应用.md",
     "课程/大数据与机器学习",
     "库/Python/manim/manim.md",
-    "库/Python/manim/'latex' is not recognized as an internal or external command, operable program or batch file..md",
-    "库/Python/manim/场景.md",
-    "库/Python/manim/配置.md",
-    "库/JS与CSS/Vue/SvgIcon 图标组件.md",
     "_resources/codes/manim/MobjectPosition.py",
     "_resources/codes/manim/CountAnimation.py",
-    "_resources/templates/code 代码引用.md",
-    "工具/Obsidian/Obsidian.md",
-    "_resources/templates/embed 代码片段.md",
-    "_resources/codes/Templater/Untitled.md",
-    "_resources/codes/Templater/template_sample.md",
-    "_resources/_resources.md",
     "_resources/codes/manim/AnimateExample.py",
     "_resources/codes/manim/SomeAnimation.py",
-    "库/JS与CSS/Vue/Vue3/Vue3.md",
     "_resources/images/Pasted image 20240921155458.png",
     "_resources/images/Pasted image 20240921155040.png",
-    "库/JS与CSS/Vue/Vue3/Vue Router/路由信息.md",
     "库/JS与CSS/Vue",
     "_resources/images/Pasted image 20240920183452.png",
-    "库/JS与CSS/Vue/Vue3/Vue Router/props 传参.md",
-    "库/JS与CSS/Vue/Vue3/Vue Router/HTML5 历史记录模式.md",
-    "库/JS与CSS/Vue/Vue3/Vue Router/重定向.md",
     "_resources/images/Pasted image 20240920153334.png",
     "_resources/images/Pasted image 20240920153305.png",
     "工具/Vue",
-    "库/JS与CSS/Vue",
-    "_resources/codes/cmake/hello-thirdlib/answer/include/answer.hpp",
-    "_resources/codes/cmake/hello-thirdlib/answer/answer.cpp",
     "_resources/codes/Vue/Vue3/hellovue/images/ok.gif",
     "_resources/codes/Meta Bind/exampleVault/Other/Images/subfolder/img_frozen_branch.jpg",
     "_resources/codes/Meta Bind/exampleVault/Other/Images/img_drops.jpg",
