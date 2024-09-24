@@ -1,204 +1,204 @@
 {
   "recentFiles": [
     {
-      "basename": "属性",
-      "path": "语言/CSharp/CSharp 语法/类型/类/属性.md"
-    },
-    {
-      "basename": "类",
-      "path": "语言/CSharp/CSharp 语法/类型/类/类.md"
-    },
-    {
-      "basename": "函数",
-      "path": "语言/CSharp/CSharp 语法/类型/类/函数.md"
-    },
-    {
-      "basename": "结构体",
-      "path": "语言/CSharp/CSharp 语法/类型/结构体.md"
-    },
-    {
-      "basename": "CSharp 语法",
-      "path": "语言/CSharp/CSharp 语法/CSharp 语法.md"
-    },
-    {
-      "basename": "类型",
-      "path": "语言/CSharp/CSharp 语法/类型/类型.md"
-    },
-    {
-      "basename": "指针",
-      "path": "语言/CSharp/CSharp 语法/指针.md"
-    },
-    {
-      "basename": "命名空间",
-      "path": "语言/CSharp/CSharp 语法/命名空间.md"
-    },
-    {
-      "basename": "基本语法",
-      "path": "语言/CSharp/CSharp 语法/基本语法/基本语法.md"
-    },
-    {
-      "basename": "流程控制",
-      "path": "语言/CSharp/CSharp 语法/流程控制.md"
-    },
-    {
-      "basename": "CSharp 并行任务",
-      "path": "语言/CSharp/CSharp 语法/CSharp 并行任务.md"
-    },
-    {
-      "basename": "CSharp 反射",
-      "path": "语言/CSharp/CSharp 语法/CSharp 反射.md"
-    },
-    {
-      "basename": "文档注释",
-      "path": "语言/CSharp/CSharp 语法/基本语法/文档注释.md"
-    },
-    {
-      "basename": "语言",
-      "path": "语言/语言.md"
-    },
-    {
-      "basename": "每日任务",
-      "path": "个人笔记/每日任务.md"
-    },
-    {
-      "basename": "LaTeX",
-      "path": "语言/文档/LaTeX.md"
-    },
-    {
-      "basename": "Markdown",
-      "path": "语言/文档/Markdown.md"
-    },
-    {
-      "basename": "数学分析相关库",
-      "path": "库/Python/数学分析相关库.md"
-    },
-    {
-      "basename": "模块",
-      "path": "库/Python/manim/模块.md"
-    },
-    {
-      "basename": "流量卡绑定应用",
-      "path": "个人笔记/流量卡绑定应用.md"
-    },
-    {
-      "basename": "manim",
-      "path": "库/Python/manim/manim.md"
-    },
-    {
-      "basename": "'latex' is not recognized as an internal or external command, operable program or batch file.",
-      "path": "库/Python/manim/'latex' is not recognized as an internal or external command, operable program or batch file..md"
-    },
-    {
-      "basename": "场景",
-      "path": "库/Python/manim/场景.md"
-    },
-    {
-      "basename": "配置",
-      "path": "库/Python/manim/配置.md"
-    },
-    {
-      "basename": "SvgIcon 图标组件",
-      "path": "库/JS与CSS/Vue/SvgIcon 图标组件.md"
-    },
-    {
-      "basename": "code 代码引用",
-      "path": "_resources/templates/code 代码引用.md"
-    },
-    {
-      "basename": "Obsidian",
-      "path": "工具/Obsidian/Obsidian.md"
-    },
-    {
-      "basename": "embed 代码片段",
-      "path": "_resources/templates/embed 代码片段.md"
-    },
-    {
-      "basename": "Untitled",
-      "path": "_resources/codes/Templater/Untitled.md"
-    },
-    {
-      "basename": "template_sample",
-      "path": "_resources/codes/Templater/template_sample.md"
-    },
-    {
-      "basename": "_resources",
-      "path": "_resources/_resources.md"
+      "basename": "Vue Router",
+      "path": "库/JS与CSS/Vue/Vue3/Vue Router/Vue Router.md"
     },
     {
       "basename": "Vue3",
       "path": "库/JS与CSS/Vue/Vue3/Vue3.md"
     },
     {
-      "basename": "路由信息",
-      "path": "库/JS与CSS/Vue/Vue3/Vue Router/路由信息.md"
+      "basename": "每日任务",
+      "path": "个人笔记/每日任务.md"
     },
     {
-      "basename": "props 传参",
-      "path": "库/JS与CSS/Vue/Vue3/Vue Router/props 传参.md"
-    },
-    {
-      "basename": "HTML5 历史记录模式",
-      "path": "库/JS与CSS/Vue/Vue3/Vue Router/HTML5 历史记录模式.md"
-    },
-    {
-      "basename": "重定向",
-      "path": "库/JS与CSS/Vue/Vue3/Vue Router/重定向.md"
-    },
-    {
-      "basename": "嵌套路由",
-      "path": "库/JS与CSS/Vue/Vue3/Vue Router/嵌套路由.md"
-    },
-    {
-      "basename": "命名路由",
-      "path": "库/JS与CSS/Vue/Vue3/Vue Router/命名路由.md"
-    },
-    {
-      "basename": "路由元信息",
-      "path": "库/JS与CSS/Vue/Vue3/Vue Router/路由元信息.md"
-    },
-    {
-      "basename": "路由钩子函数",
-      "path": "库/JS与CSS/Vue/Vue3/Vue Router/路由钩子函数.md"
-    },
-    {
-      "basename": "例：登录权限验证",
-      "path": "库/JS与CSS/Vue/Vue3/Vue Router/例：登录权限验证.md"
-    },
-    {
-      "basename": "编程式导航",
-      "path": "库/JS与CSS/Vue/Vue3/Vue Router/编程式导航.md"
-    },
-    {
-      "basename": "Vue Router",
-      "path": "库/JS与CSS/Vue/Vue3/Vue Router/Vue Router.md"
-    },
-    {
-      "basename": "el-menu 右侧边线",
-      "path": "库/JS与CSS/ElementPlus/el-menu 右侧边线.md"
-    },
-    {
-      "basename": "组合式 API",
-      "path": "库/JS与CSS/Vue/Vue3/组合式 API/组合式 API.md"
-    },
-    {
-      "basename": "组件",
-      "path": "库/JS与CSS/Vue/Vue3/组件/组件.md"
+      "basename": "webpack",
+      "path": "库/JS与CSS/Vue/Vue3/单文件组件/webpack.md"
     },
     {
       "basename": "单文件组件",
       "path": "库/JS与CSS/Vue/Vue3/单文件组件/单文件组件.md"
     },
     {
-      "basename": "Vue 中 el-input 输入异常",
-      "path": "库/JS与CSS/ElementPlus/Vue 中 el-input 输入异常.md"
+      "basename": "teleport 组件",
+      "path": "库/JS与CSS/Vue/Vue3/单文件组件/teleport 组件.md"
     },
     {
-      "basename": "按需导入 ElMessage 样式错误",
-      "path": "库/JS与CSS/ElementPlus/按需导入 ElMessage 样式错误.md"
+      "basename": "组件样式",
+      "path": "库/JS与CSS/Vue/Vue3/单文件组件/组件样式.md"
     },
     {
-      "basename": "Vue 中 el-form 相关方法缺失",
-      "path": "库/JS与CSS/ElementPlus/Vue 中 el-form 相关方法缺失.md"
+      "basename": "异步组件",
+      "path": "库/JS与CSS/Vue/Vue3/单文件组件/异步组件.md"
+    },
+    {
+      "basename": "单文件组件 2024-09-25 02.35.34.excalidraw",
+      "path": "_resources/images/单文件组件 2024-09-25 02.35.34.excalidraw.md"
+    },
+    {
+      "basename": "组合式 API",
+      "path": "库/JS与CSS/Vue/Vue3/组合式 API/组合式 API.md"
+    },
+    {
+      "basename": "自定义事件",
+      "path": "库/JS与CSS/Vue/Vue3/组合式 API/自定义事件.md"
+    },
+    {
+      "basename": "响应式侦听",
+      "path": "库/JS与CSS/Vue/Vue3/组合式 API/响应式侦听.md"
+    },
+    {
+      "basename": "计算属性",
+      "path": "库/JS与CSS/Vue/Vue3/组合式 API/计算属性.md"
+    },
+    {
+      "basename": "模板引用",
+      "path": "库/JS与CSS/Vue/Vue3/组合式 API/模板引用.md"
+    },
+    {
+      "basename": "组件链传递",
+      "path": "库/JS与CSS/Vue/Vue3/组合式 API/组件链传递.md"
+    },
+    {
+      "basename": "生命周期函数",
+      "path": "库/JS与CSS/Vue/Vue3/组合式 API/生命周期函数.md"
+    },
+    {
+      "basename": "过渡与动画",
+      "path": "库/JS与CSS/Vue/Vue3/过渡与动画/过渡与动画.md"
+    },
+    {
+      "basename": "transition",
+      "path": "库/JS与CSS/Vue/Vue3/过渡与动画/transition/transition.md"
+    },
+    {
+      "basename": "JS 动画",
+      "path": "库/JS与CSS/Vue/Vue3/过渡与动画/transition/JS 动画.md"
+    },
+    {
+      "basename": "CSS 动画",
+      "path": "库/JS与CSS/Vue/Vue3/过渡与动画/transition/CSS 动画.md"
+    },
+    {
+      "basename": "CSS 过渡",
+      "path": "库/JS与CSS/Vue/Vue3/过渡与动画/transition/CSS 过渡.md"
+    },
+    {
+      "basename": "style 类",
+      "path": "库/JS与CSS/Vue/Vue3/过渡与动画/transition/style 类.md"
+    },
+    {
+      "basename": "引用组件",
+      "path": "库/JS与CSS/Vue/Vue3/组件/引用组件.md"
+    },
+    {
+      "basename": "组件",
+      "path": "库/JS与CSS/Vue/Vue3/组件/组件.md"
+    },
+    {
+      "basename": "异步组件",
+      "path": "库/JS与CSS/Vue/Vue3/组件/异步组件.md"
+    },
+    {
+      "basename": "动态组件",
+      "path": "库/JS与CSS/Vue/Vue3/组件/动态组件.md"
+    },
+    {
+      "basename": "作用域插槽",
+      "path": "库/JS与CSS/Vue/Vue3/组件/插槽/作用域插槽.md"
+    },
+    {
+      "basename": "插槽",
+      "path": "库/JS与CSS/Vue/Vue3/组件/插槽/插槽.md"
+    },
+    {
+      "basename": "具名插槽",
+      "path": "库/JS与CSS/Vue/Vue3/组件/插槽/具名插槽.md"
+    },
+    {
+      "basename": "组件通信",
+      "path": "库/JS与CSS/Vue/Vue3/组件/组件通信/组件通信.md"
+    },
+    {
+      "basename": "组件链传递",
+      "path": "库/JS与CSS/Vue/Vue3/组件/组件通信/组件链传递.md"
+    },
+    {
+      "basename": "props",
+      "path": "库/JS与CSS/Vue/Vue3/组件/组件通信/props/props.md"
+    },
+    {
+      "basename": "数据验证",
+      "path": "库/JS与CSS/Vue/Vue3/组件/组件通信/props/数据验证.md"
+    },
+    {
+      "basename": "embed 代码片段",
+      "path": "_resources/templates/embed 代码片段.md"
+    },
+    {
+      "basename": "code 代码引用",
+      "path": "_resources/templates/code 代码引用.md"
+    },
+    {
+      "basename": "组件注册",
+      "path": "库/JS与CSS/Vue/Vue3/组件/组件注册.md"
+    },
+    {
+      "basename": "内置指令",
+      "path": "库/JS与CSS/Vue/Vue3/内置指令/内置指令.md"
+    },
+    {
+      "basename": "v-model",
+      "path": "库/JS与CSS/Vue/Vue3/内置指令/v-model.md"
+    },
+    {
+      "basename": "v-on",
+      "path": "库/JS与CSS/Vue/Vue3/内置指令/v-on.md"
+    },
+    {
+      "basename": "v-for",
+      "path": "库/JS与CSS/Vue/Vue3/内置指令/v-for.md"
+    },
+    {
+      "basename": "条件渲染",
+      "path": "库/JS与CSS/Vue/Vue3/内置指令/条件渲染.md"
+    },
+    {
+      "basename": "v-bind",
+      "path": "库/JS与CSS/Vue/Vue3/内置指令/v-bind.md"
+    },
+    {
+      "basename": "属性监听器",
+      "path": "库/JS与CSS/Vue/Vue3/属性监听/属性监听器.md"
+    },
+    {
+      "basename": "属性监听",
+      "path": "库/JS与CSS/Vue/Vue3/属性监听/属性监听.md"
+    },
+    {
+      "basename": "计算属性",
+      "path": "库/JS与CSS/Vue/Vue3/属性监听/计算属性.md"
+    },
+    {
+      "basename": "插值表达式",
+      "path": "库/JS与CSS/Vue/Vue3/插值表达式.md"
+    },
+    {
+      "basename": "SvgIcon 图标组件",
+      "path": "库/JS与CSS/Vue/SvgIcon 图标组件.md"
+    },
+    {
+      "basename": "数学分析相关库",
+      "path": "库/Python/数学分析相关库.md"
+    },
+    {
+      "basename": "属性",
+      "path": "语言/CSharp/CSharp 语法/类型/类/属性.md"
+    },
+    {
+      "basename": "类",
+      "path": "语言/CSharp/CSharp 语法/类型/类/类.md"
     }
   ],
   "omittedPaths": []

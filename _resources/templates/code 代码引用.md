@@ -14,7 +14,7 @@ function parse_path(path) {
     }
     return path
 }
-let filepath = await tp.system.prompt('代码文件：')
+let filepath = parse_path(await tp.system.prompt('代码文件：'))
 let range = await tp.system.prompt('范围：', '')
 let start = NaN
 let end = NaN
@@ -33,7 +33,7 @@ if (range.startsWith('-')) {
 let lang = await tp.system.prompt('语言：', '')
 -%>
 ```reference
-file: "@/_resources/codes/<% parse_path(filepath) %>"
+file: "@/_resources/codes/<% filepath %>"
 <%* if (lang != '') { -%>
 lang: "<% lang %>"
 <%* } -%>

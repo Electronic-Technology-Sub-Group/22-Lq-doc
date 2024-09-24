@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "RiSortNumberAsc",
       "SiVuedotjs",
       "SiAxios",
       "SiEslint",
-      "SiCmake",
-      "SiAdobephotoshop"
+      "SiCmake"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -210,5 +210,6 @@
   "工具/Vue": "SiVuedotjs",
   "工具/Vue/Vue CLI.md": "SiVuedotjs",
   "工具/Vue/Vite.md": "SiVite",
-  "库/JS与CSS/Vue/Vue3": "SiVuedotjs"
+  "库/JS与CSS/Vue/Vue3": "SiVuedotjs",
+  "库/Python/数学分析相关库.md": "RiSortNumberAsc"
 }

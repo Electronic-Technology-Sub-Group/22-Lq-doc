@@ -14,7 +14,7 @@ function parse_path(path) {
     }
     return path
 }
-let filepath = await tp.system.prompt('代码文件：')
+let filepath = parse_path(await tp.system.prompt('代码文件：'))
 let dot = filepath.lastIndexOf(".")
 let defaultLang = "plant"
 if (dot >= 0) {
@@ -24,7 +24,7 @@ let lang = await tp.system.prompt('语言：', defaultLang, true)
 let title = await tp.system.prompt('标题：')
 -%>
 ```embed-<% lang %>
-PATH: "vault://_resources/codes/<% parse_path(filepath) %>"
+PATH: "vault://_resources/codes/<% filepath %>"
 LINES: "<% await tp.system.prompt('行号：') %>"
 <%* if (title != '') { -%>
 TITLE: "<% title %>"

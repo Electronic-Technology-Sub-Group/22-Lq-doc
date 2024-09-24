@@ -1,11 +1,8 @@
-# webpack
-
-`webpack` 可以使用 `vue-loader` 加载器加载 `.vue` 单文件组件，所需要的组件有：
-
+`webpack` 使用 `vue-loader` 加载器加载 `.vue` 单文件组件，所需要的组件有：
 * `vue-loader`：用于 `.vue` 文件的加载器
 * `vue-template-compiler`：将 Vue 模板预编译成 JS 函数
 
-`Vue`、`vue-template-compiler` 版本相同
+> [!attention] `Vue`、`vue-template-compiler` 要求版本相同
 
 `Vue3.x` 使用 `@vue/compiler-sfc` 取代了 `vue-template-compiler`，同样需要保持与 `vue` 版本相同（通常最新的都是相同的）
 

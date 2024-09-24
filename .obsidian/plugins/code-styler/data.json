@@ -312,7 +312,7 @@
         "title": {
           "textFont": "",
           "textBold": false,
-          "textItalic": false
+          "textItalic": true
         },
         "languageTag": {
           "display": "none",
@@ -385,11 +385,7 @@
           "activeCodeblockLineColour": "--color-base-30",
           "activeEditorLineColour": "--color-base-20",
           "defaultColour": "--text-highlight-bg",
-          "alternativeHighlights": {
-            "error": "#E02525",
-            "info": "#01E211",
-            "warn": "#FCFC99"
-          }
+          "alternativeHighlights": {}
         },
         "inline": {
           "backgroundColour": "--code-background",
@@ -432,11 +428,7 @@
           "activeCodeblockLineColour": "--color-base-30",
           "activeEditorLineColour": "--color-base-20",
           "defaultColour": "--text-highlight-bg",
-          "alternativeHighlights": {
-            "error": "#ED481A",
-            "info": "#E28301FF",
-            "warn": "#348E5FFF"
-          }
+          "alternativeHighlights": {}
         },
         "inline": {
           "backgroundColour": "--code-background",

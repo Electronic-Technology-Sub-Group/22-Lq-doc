@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "0fed4360c97586d5",
+        "id": "c417b988c8b76508",
         "type": "tabs",
         "children": [
           {
-            "id": "8dac21c9330c421b",
+            "id": "26d0f194014911c1",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "语言/CSharp/CSharp 语法/CSharp 语法.md",
+                "file": "个人笔记/每日任务.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -23,14 +23,14 @@
             }
           },
           {
-            "id": "812203a8cbe29646",
+            "id": "361e0e4682cecd77",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "语言/CSharp/CSharp 语法/类型/类/类.md",
-                "mode": "source",
+                "file": "库/JS与CSS/Vue/Vue3/Vue3.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               },
@@ -38,16 +38,18 @@
             }
           },
           {
-            "id": "1bda083faf74a4c7",
+            "id": "59b09012d90e1e7b",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "语言/CSharp/CSharp 语法/类型/类/属性.md",
+                "file": "库/JS与CSS/Vue/Vue3/组合式 API/组合式 API.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
-              }
+              },
+              "pinned": true
             }
           }
         ],
@@ -109,7 +111,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 207.50572967529297
+    "width": 285.51103591918945
   },
   "right": {
     "id": "2f5d582e60864eba",
@@ -125,7 +127,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "语言/CSharp/CSharp 语法/类型/类/属性.md",
+                "file": "库/JS与CSS/Vue/Vue3/组合式 API/组合式 API.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -142,7 +144,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "语言/CSharp/CSharp 语法/类型/类/属性.md",
+                "file": "库/JS与CSS/Vue/Vue3/组合式 API/组合式 API.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -165,7 +167,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "语言/CSharp/CSharp 语法/类型/类/属性.md"
+                "file": "库/JS与CSS/Vue/Vue3/组合式 API/组合式 API.md"
               }
             }
           },
@@ -251,53 +253,92 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "1bda083faf74a4c7",
+  "floating": {
+    "id": "5383cc9cfa874aa1",
+    "type": "floating",
+    "children": [
+      {
+        "id": "3eb786b34f2a0b07",
+        "type": "window",
+        "children": [
+          {
+            "id": "f2b82084c5241357",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "a19819c2ad1e1c5b",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "库/JS与CSS/Vue/Vue3/单文件组件/script setup 写法.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 3062,
+        "y": 22,
+        "width": 1423,
+        "height": 902,
+        "maximize": true,
+        "zoom": 0.5
+      }
+    ]
+  },
+  "active": "59b09012d90e1e7b",
   "lastOpenFiles": [
-    "语言/CSharp/CSharp 语法/类型/类/类.md",
-    "语言/CSharp/CSharp 语法/类型/类/函数.md",
-    "语言/CSharp/CSharp 语法/类型/类/属性.md",
-    "语言/CSharp/CSharp 语法/类型/结构体.md",
-    "语言/CSharp/CSharp 语法/类型/类",
-    "语言/CSharp/CSharp 语法/CSharp 语法.md",
-    "语言/CSharp/CSharp 语法/类型/类型.md",
-    "语言/CSharp/CSharp 语法/指针.md",
-    "语言/CSharp/CSharp 语法/命名空间.md",
-    "语言/CSharp/CSharp 语法/基本语法/基本语法.md",
-    "语言/CSharp/CSharp 语法/基本语法",
-    "语言/CSharp/CSharp 语法/类型",
-    "语言/CSharp/CSharp 语法/流程控制.md",
-    "语言/CSharp/CSharp 语法/CSharp 并行任务.md",
-    "语言/CSharp/CSharp 语法/CSharp 反射.md",
-    "语言/CSharp/CSharp 语法/基本语法/文档注释.md",
-    "语言/语言.md",
-    "语言/文档/LaTeX.md",
-    "语言/文档/Markdown.md",
+    "库/JS与CSS/Vue/Vue3/单文件组件/script setup 写法.md",
+    "库/JS与CSS/Vue/Vue3/单文件组件/单文件组件.md",
+    "库/JS与CSS/Vue/Vue3/组合式 API/组合式 API.md",
+    "库/JS与CSS/Vue/Vue3/组合式 API/自定义事件.md",
+    "库/JS与CSS/Vue/Vue3/组合式 API/响应式侦听.md",
+    "库/JS与CSS/Vue/Vue3/组合式 API/计算属性.md",
+    "库/JS与CSS/Vue/Vue3/组合式 API/模板引用.md",
+    "_resources/codes/Vue/Vue3/hellovue/template-ref.html",
+    "库/JS与CSS/Vue/Vue3/组合式 API/组件链传递.md",
+    "_resources/codes/Vue/Vue3/hellovue/mymap-provide.html",
+    "_resources/codes/Vue/Vue3/hellovue/setup-return-function.html",
+    "_resources/codes/Vue/Vue3/hellovue/setup-return-object.html",
+    "_resources/codes/Vue/Vue3/hellovue/setup-proxy.html",
+    "库/JS与CSS/Vue/Vue3/组合式 API/生命周期函数.md",
+    "库/JS与CSS/Vue/Vue3/Vue3.md",
     "个人笔记/每日任务.md",
-    "库/Python/数学分析相关库.md",
-    "课程/大数据与机器学习/大数据与机器学习.md",
-    "课程/大数据与机器学习/房价预测与回归问题.md",
-    "_resources/images/Pasted image 20240922140256.png",
-    "个人笔记/分支任务.md",
-    "库/Python/manim/模块.md",
-    "任务.md",
-    "个人笔记/流量卡绑定应用.md",
-    "课程/大数据与机器学习",
-    "库/Python/manim/manim.md",
-    "_resources/codes/manim/MobjectPosition.py",
-    "_resources/codes/manim/CountAnimation.py",
-    "_resources/codes/manim/AnimateExample.py",
-    "_resources/codes/manim/SomeAnimation.py",
-    "_resources/images/Pasted image 20240921155458.png",
-    "_resources/images/Pasted image 20240921155040.png",
-    "库/JS与CSS/Vue",
-    "_resources/images/Pasted image 20240920183452.png",
-    "_resources/images/Pasted image 20240920153334.png",
-    "_resources/images/Pasted image 20240920153305.png",
-    "工具/Vue",
+    "库/JS与CSS/Vue/Vue3/渲染函数/指令等价方案/指令等价方案.md",
+    "库/JS与CSS/Vue/Vue3/渲染函数/渲染函数.md",
+    "库/JS与CSS/Vue/Vue3/渲染函数.md",
+    "库/JS与CSS/Vue/Vue3/渲染函数/指令等价方案/v-on 等价方案.md",
+    "库/JS与CSS/Vue/Vue3/渲染函数/指令等价方案/v-model 等价方案.md",
+    "_resources/codes/Vue/Vue3/hellovue/vnode_unique.html",
+    "_resources/codes/Vue/Vue3/hellovue/myanchored2.html",
+    "_resources/codes/Vue/Vue3/hellovue/myanchored.html",
+    "库/JS与CSS/Vue/Vue3/自定义指令/自定义指令.md",
+    "库/JS与CSS/Vue/Vue3/自定义指令.md",
+    "_resources/codes/Vue/Vue3/hellovue/v-birthdayformat.html",
+    "_resources/codes/Vue/Vue3/hellovue/v-time.html",
+    "库/JS与CSS/Vue/Vue3/过渡与动画/过渡与动画.md",
+    "库/JS与CSS/Vue/Vue3/过渡与动画/transition-group/transition-group.md",
+    "库/JS与CSS/Vue/Vue3/过渡与动画/transition-group.md",
+    "库/JS与CSS/Vue/Vue3/过渡与动画/transition-group/例：列表平滑过渡.md",
+    "库/JS与CSS/Vue/Vue3/过渡与动画/transition-group/例：插入、删除元素.md",
+    "库/JS与CSS/Vue/Vue3/过渡与动画/transition/transition.md",
+    "库/JS与CSS/Vue/Vue3/过渡与动画/transition/JS 动画.md",
+    "库/JS与CSS/Vue/Vue3/过渡与动画/transition/CSS 动画.md",
+    "_resources/codes/node.js/webpack/loaders/images/test.jpg",
     "_resources/codes/Vue/Vue3/hellovue/images/ok.gif",
     "_resources/codes/Meta Bind/exampleVault/Other/Images/subfolder/img_frozen_branch.jpg",
     "_resources/codes/Meta Bind/exampleVault/Other/Images/img_drops.jpg",
     "_resources/codes/Meta Bind/exampleVault/Other/Images/img_butterfly.webp",
+    "_resources/documents/img/ext[d3-shape]rounded-circular-sector.png",
+    "_resources/images/20240924_209_chrome.gif",
+    "_resources/images/Pasted image 20240922140256.png",
+    "_resources/images/Pasted image 20240921155458.png",
+    "_resources/images/Pasted image 20240921155040.png",
     "语言/C Cpp/C++更新图.canvas",
     "语言/C Cpp/C++ 语法/C++ 语法.canvas",
     "语言/Class 字节码/Untitled.canvas",
