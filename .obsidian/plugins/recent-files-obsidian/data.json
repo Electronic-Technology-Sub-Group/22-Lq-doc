@@ -1,6 +1,166 @@
 {
   "recentFiles": [
     {
+      "basename": "泛型",
+      "path": "语言/CSharp/CSharp 语法/泛型.md"
+    },
+    {
+      "basename": "CSharp 语法",
+      "path": "语言/CSharp/CSharp 语法/CSharp 语法.md"
+    },
+    {
+      "basename": "CSharp 8 更新记录",
+      "path": "语言/CSharp/更新记录/CSharp 8 更新记录.md"
+    },
+    {
+      "basename": "CSharp 7 更新记录",
+      "path": "语言/CSharp/更新记录/CSharp 7 更新记录.md"
+    },
+    {
+      "basename": "异常处理",
+      "path": "语言/CSharp/CSharp 语法/异常处理.md"
+    },
+    {
+      "basename": "命名空间",
+      "path": "语言/CSharp/CSharp 语法/命名空间.md"
+    },
+    {
+      "basename": "类型",
+      "path": "语言/CSharp/CSharp 语法/类型/类型.md"
+    },
+    {
+      "basename": "接口",
+      "path": "语言/CSharp/CSharp 语法/类型/接口.md"
+    },
+    {
+      "basename": "枚举",
+      "path": "语言/CSharp/CSharp 语法/类型/枚举.md"
+    },
+    {
+      "basename": "运算符",
+      "path": "语言/CSharp/CSharp 语法/类型/运算符.md"
+    },
+    {
+      "basename": "类型转换",
+      "path": "语言/CSharp/CSharp 语法/类型/类型转换.md"
+    },
+    {
+      "basename": "结构体",
+      "path": "语言/CSharp/CSharp 语法/类型/值类型/结构体.md"
+    },
+    {
+      "basename": "值类型",
+      "path": "语言/CSharp/CSharp 语法/类型/值类型/值类型.md"
+    },
+    {
+      "basename": "类",
+      "path": "语言/CSharp/CSharp 语法/类型/类/类.md"
+    },
+    {
+      "basename": "函数",
+      "path": "语言/CSharp/CSharp 语法/类型/类/函数.md"
+    },
+    {
+      "basename": "属性",
+      "path": "语言/CSharp/CSharp 语法/类型/类/属性.md"
+    },
+    {
+      "basename": "流程控制",
+      "path": "语言/CSharp/CSharp 语法/流程控制.md"
+    },
+    {
+      "basename": "基本语法",
+      "path": "语言/CSharp/CSharp 语法/基本语法/基本语法.md"
+    },
+    {
+      "basename": "文档注释",
+      "path": "语言/CSharp/CSharp 语法/基本语法/文档注释.md"
+    },
+    {
+      "basename": "组合式 API",
+      "path": "库/JS与CSS/Vue/Vue3/组合式 API/组合式 API.md"
+    },
+    {
+      "basename": "CSharp 10 更新记录",
+      "path": "语言/CSharp/更新记录/CSharp 10 更新记录.md"
+    },
+    {
+      "basename": "CSharp 9 更新记录",
+      "path": "语言/CSharp/更新记录/CSharp 9 更新记录.md"
+    },
+    {
+      "basename": "CSharp 12 更新记录",
+      "path": "语言/CSharp/更新记录/CSharp 12 更新记录.md"
+    },
+    {
+      "basename": "CSharp 11 更新记录",
+      "path": "语言/CSharp/更新记录/CSharp 11 更新记录.md"
+    },
+    {
+      "basename": "平台调用",
+      "path": "语言/CSharp/CSharp 语法/平台调用.md"
+    },
+    {
+      "basename": "动态类型",
+      "path": "语言/CSharp/CSharp 语法/动态类型.md"
+    },
+    {
+      "basename": "反射",
+      "path": "语言/CSharp/CSharp 语法/反射.md"
+    },
+    {
+      "basename": "预处理指令",
+      "path": "语言/CSharp/CSharp 语法/预处理指令.md"
+    },
+    {
+      "basename": "内存与资源",
+      "path": "语言/CSharp/CSharp 语法/内存与资源.md"
+    },
+    {
+      "basename": "锁与同步",
+      "path": "语言/CSharp/CSharp 语法/锁与同步.md"
+    },
+    {
+      "basename": "并行任务",
+      "path": "语言/CSharp/CSharp 语法/并行任务.md"
+    },
+    {
+      "basename": "网络",
+      "path": "语言/CSharp/CSharp 语法/网络.md"
+    },
+    {
+      "basename": "文件与流",
+      "path": "语言/CSharp/CSharp 语法/文件与流.md"
+    },
+    {
+      "basename": "委托与事件",
+      "path": "语言/CSharp/CSharp 语法/委托与事件.md"
+    },
+    {
+      "basename": "集合",
+      "path": "语言/CSharp/CSharp 语法/集合.md"
+    },
+    {
+      "basename": "字符串",
+      "path": "语言/CSharp/CSharp 语法/字符串.md"
+    },
+    {
+      "basename": "数组与元组",
+      "path": "语言/CSharp/CSharp 语法/数组与元组.md"
+    },
+    {
+      "basename": "文件系统",
+      "path": "工具/命令行/bash/文件系统.md"
+    },
+    {
+      "basename": "系统管理",
+      "path": "工具/命令行/bash/系统管理.md"
+    },
+    {
+      "basename": "权限管理",
+      "path": "工具/命令行/bash/权限管理.md"
+    },
+    {
       "basename": "Vue Router",
       "path": "库/JS与CSS/Vue/Vue3/Vue Router/Vue Router.md"
     },
@@ -37,168 +197,8 @@
       "path": "_resources/images/单文件组件 2024-09-25 02.35.34.excalidraw.md"
     },
     {
-      "basename": "组合式 API",
-      "path": "库/JS与CSS/Vue/Vue3/组合式 API/组合式 API.md"
-    },
-    {
       "basename": "自定义事件",
       "path": "库/JS与CSS/Vue/Vue3/组合式 API/自定义事件.md"
-    },
-    {
-      "basename": "响应式侦听",
-      "path": "库/JS与CSS/Vue/Vue3/组合式 API/响应式侦听.md"
-    },
-    {
-      "basename": "计算属性",
-      "path": "库/JS与CSS/Vue/Vue3/组合式 API/计算属性.md"
-    },
-    {
-      "basename": "模板引用",
-      "path": "库/JS与CSS/Vue/Vue3/组合式 API/模板引用.md"
-    },
-    {
-      "basename": "组件链传递",
-      "path": "库/JS与CSS/Vue/Vue3/组合式 API/组件链传递.md"
-    },
-    {
-      "basename": "生命周期函数",
-      "path": "库/JS与CSS/Vue/Vue3/组合式 API/生命周期函数.md"
-    },
-    {
-      "basename": "过渡与动画",
-      "path": "库/JS与CSS/Vue/Vue3/过渡与动画/过渡与动画.md"
-    },
-    {
-      "basename": "transition",
-      "path": "库/JS与CSS/Vue/Vue3/过渡与动画/transition/transition.md"
-    },
-    {
-      "basename": "JS 动画",
-      "path": "库/JS与CSS/Vue/Vue3/过渡与动画/transition/JS 动画.md"
-    },
-    {
-      "basename": "CSS 动画",
-      "path": "库/JS与CSS/Vue/Vue3/过渡与动画/transition/CSS 动画.md"
-    },
-    {
-      "basename": "CSS 过渡",
-      "path": "库/JS与CSS/Vue/Vue3/过渡与动画/transition/CSS 过渡.md"
-    },
-    {
-      "basename": "style 类",
-      "path": "库/JS与CSS/Vue/Vue3/过渡与动画/transition/style 类.md"
-    },
-    {
-      "basename": "引用组件",
-      "path": "库/JS与CSS/Vue/Vue3/组件/引用组件.md"
-    },
-    {
-      "basename": "组件",
-      "path": "库/JS与CSS/Vue/Vue3/组件/组件.md"
-    },
-    {
-      "basename": "异步组件",
-      "path": "库/JS与CSS/Vue/Vue3/组件/异步组件.md"
-    },
-    {
-      "basename": "动态组件",
-      "path": "库/JS与CSS/Vue/Vue3/组件/动态组件.md"
-    },
-    {
-      "basename": "作用域插槽",
-      "path": "库/JS与CSS/Vue/Vue3/组件/插槽/作用域插槽.md"
-    },
-    {
-      "basename": "插槽",
-      "path": "库/JS与CSS/Vue/Vue3/组件/插槽/插槽.md"
-    },
-    {
-      "basename": "具名插槽",
-      "path": "库/JS与CSS/Vue/Vue3/组件/插槽/具名插槽.md"
-    },
-    {
-      "basename": "组件通信",
-      "path": "库/JS与CSS/Vue/Vue3/组件/组件通信/组件通信.md"
-    },
-    {
-      "basename": "组件链传递",
-      "path": "库/JS与CSS/Vue/Vue3/组件/组件通信/组件链传递.md"
-    },
-    {
-      "basename": "props",
-      "path": "库/JS与CSS/Vue/Vue3/组件/组件通信/props/props.md"
-    },
-    {
-      "basename": "数据验证",
-      "path": "库/JS与CSS/Vue/Vue3/组件/组件通信/props/数据验证.md"
-    },
-    {
-      "basename": "embed 代码片段",
-      "path": "_resources/templates/embed 代码片段.md"
-    },
-    {
-      "basename": "code 代码引用",
-      "path": "_resources/templates/code 代码引用.md"
-    },
-    {
-      "basename": "组件注册",
-      "path": "库/JS与CSS/Vue/Vue3/组件/组件注册.md"
-    },
-    {
-      "basename": "内置指令",
-      "path": "库/JS与CSS/Vue/Vue3/内置指令/内置指令.md"
-    },
-    {
-      "basename": "v-model",
-      "path": "库/JS与CSS/Vue/Vue3/内置指令/v-model.md"
-    },
-    {
-      "basename": "v-on",
-      "path": "库/JS与CSS/Vue/Vue3/内置指令/v-on.md"
-    },
-    {
-      "basename": "v-for",
-      "path": "库/JS与CSS/Vue/Vue3/内置指令/v-for.md"
-    },
-    {
-      "basename": "条件渲染",
-      "path": "库/JS与CSS/Vue/Vue3/内置指令/条件渲染.md"
-    },
-    {
-      "basename": "v-bind",
-      "path": "库/JS与CSS/Vue/Vue3/内置指令/v-bind.md"
-    },
-    {
-      "basename": "属性监听器",
-      "path": "库/JS与CSS/Vue/Vue3/属性监听/属性监听器.md"
-    },
-    {
-      "basename": "属性监听",
-      "path": "库/JS与CSS/Vue/Vue3/属性监听/属性监听.md"
-    },
-    {
-      "basename": "计算属性",
-      "path": "库/JS与CSS/Vue/Vue3/属性监听/计算属性.md"
-    },
-    {
-      "basename": "插值表达式",
-      "path": "库/JS与CSS/Vue/Vue3/插值表达式.md"
-    },
-    {
-      "basename": "SvgIcon 图标组件",
-      "path": "库/JS与CSS/Vue/SvgIcon 图标组件.md"
-    },
-    {
-      "basename": "数学分析相关库",
-      "path": "库/Python/数学分析相关库.md"
-    },
-    {
-      "basename": "属性",
-      "path": "语言/CSharp/CSharp 语法/类型/类/属性.md"
-    },
-    {
-      "basename": "类",
-      "path": "语言/CSharp/CSharp 语法/类型/类/类.md"
     }
   ],
   "omittedPaths": []
