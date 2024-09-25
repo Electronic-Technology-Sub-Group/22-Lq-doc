@@ -2,32 +2,32 @@
 
 1. 注册导航配置
 
-    ```html
-    <router-link to="/">首页</router-link>
-    ```
+```html
+<router-link to="/">首页</router-link>
+```
 
-    ```js
-    const routes = [{
-      path: '/',
-      name: 'home',
-      component: HomeView,
-      // 设置 props 参数
-      props: { uname: '张三', upwd: '123456' }
-    }]
-    ```
+```js
+const routes = [{
+  path: '/',
+  name: 'home',
+  component: HomeView,
+  // 设置 props 参数
+  props: { uname: '张三', upwd: '123456' }
+}]
+```
 
 2. 视图组件配置
 
-    ```html
-    <script>
-    export default {
-        name: 'HomeView',
-        props: {
-            uname: { type: String, default: 'lisi' },
-            upwd:  { type: String, default: '000000' }
-        }
+```html
+<script>
+export default {
+    name: 'HomeView',
+    props: {
+        uname: { type: String, default: 'lisi' },
+        upwd:  { type: String, default: '000000' }
     }
-    </script>
-    ```
+}
+</script>
+```
 
 ‍

@@ -2,7 +2,7 @@ Spring AOP 基于代理，将目标对象创建一个代理对象。运行时，
 
 > [!note] 若目标对象没有实现任何接口时，使用 GCLIB 代理；否则，使用 JavaSE 代理
 
-![[../../../../_resources/images/Spring AOP 2024-09-09 22.15.48.excalidraw|80%]]
+![[../../../../../_resources/images/Spring AOP 2024-09-09 22.15.48.excalidraw|80%]]
 
 要开启 Spring AOP，需要创建 `<aop:aspectj-autoproxy />` 元素或存在一个 `@EnableAspectJAutoProxy` 注解
 

@@ -29,5 +29,9 @@
 
 ---
 
-- [[../../../_resources/documents/spring/Upgrading to Spring Framework 6.x|Upgrading to Spring Framework 6.x]]
+- [[../../../../_resources/documents/spring/Upgrading to Spring Framework 6.x|Upgrading to Spring Framework 6.x]]
+
+---
+
+# 参考
 

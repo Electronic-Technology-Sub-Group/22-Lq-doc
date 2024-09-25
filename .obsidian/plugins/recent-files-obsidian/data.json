@@ -1,204 +1,204 @@
 {
   "recentFiles": [
     {
-      "basename": "集合",
-      "path": "语言/CSharp/CSharp 语法/类型/集合.md"
+      "basename": "Spring Cloud",
+      "path": "库/Java/Spring/Spring Cloud/Spring Cloud.md"
     },
     {
-      "basename": "类型",
-      "path": "语言/CSharp/CSharp 语法/类型/类型.md"
+      "basename": "每日任务",
+      "path": "个人笔记/每日任务.md"
     },
     {
-      "basename": "数组与元组",
-      "path": "语言/CSharp/CSharp 语法/类型/数组与元组.md"
+      "basename": "Spring",
+      "path": "库/Java/Spring/Spring/Spring.md"
     },
     {
-      "basename": "泛型",
-      "path": "语言/CSharp/CSharp 语法/类型/泛型.md"
+      "basename": "Spring Security 保护应用程序",
+      "path": "库/Java/Spring/Spring/Spring Security 保护应用程序/Spring Security 保护应用程序.md"
     },
     {
-      "basename": "字符串",
-      "path": "语言/CSharp/CSharp 语法/类型/字符串.md"
+      "basename": "Web 请求安全配置",
+      "path": "库/Java/Spring/Spring/Spring Security 保护应用程序/Web 请求安全配置.md"
     },
     {
-      "basename": "正则",
-      "path": "语言/CSharp/CSharp 语法/类型/正则.md"
+      "basename": "ACL 模块保护域对象安全性",
+      "path": "库/Java/Spring/Spring/Spring Security 保护应用程序/ACL 模块保护域对象安全性/ACL 模块保护域对象安全性.md"
     },
     {
-      "basename": "接口",
-      "path": "语言/CSharp/CSharp 语法/类型/接口.md"
+      "basename": "Thymeleaf",
+      "path": "库/Java/Thymeleaf/Thymeleaf.md"
     },
     {
-      "basename": "枚举",
-      "path": "语言/CSharp/CSharp 语法/类型/枚举.md"
+      "basename": "Manifold",
+      "path": "库/Java/Manifold.md"
     },
     {
-      "basename": "运算符",
-      "path": "语言/CSharp/CSharp 语法/类型/运算符.md"
+      "basename": "JMX",
+      "path": "语言/Java/JMX.md"
     },
     {
-      "basename": "类型转换",
-      "path": "语言/CSharp/CSharp 语法/类型/类型转换.md"
+      "basename": "JavaAgent",
+      "path": "语言/Java/JavaAgent.md"
     },
     {
-      "basename": "类",
-      "path": "语言/CSharp/CSharp 语法/类型/类/类.md"
+      "basename": "垃圾收集器",
+      "path": "语言/Java/垃圾收集器.md"
     },
     {
-      "basename": "密封类",
-      "path": "语言/CSharp/CSharp 语法/类型/类/密封类.md"
+      "basename": "获取类的源文件",
+      "path": "语言/Java/获取类的源文件.md"
     },
     {
-      "basename": "抽象类",
-      "path": "语言/CSharp/CSharp 语法/类型/类/抽象类.md"
+      "basename": "编译时注解",
+      "path": "语言/Java/编译时注解.md"
     },
     {
-      "basename": "继承",
-      "path": "语言/CSharp/CSharp 语法/类型/类/继承.md"
+      "basename": "IoC 容器",
+      "path": "库/Java/Spring/Spring/IoC 容器/IoC 容器.md"
     },
     {
-      "basename": "部分类",
-      "path": "语言/CSharp/CSharp 语法/类型/类/部分类.md"
+      "basename": "Vue3",
+      "path": "库/JS与CSS/Vue/Vue3/Vue3.md"
     },
     {
-      "basename": "匿名类",
-      "path": "语言/CSharp/CSharp 语法/类型/类/匿名类.md"
+      "basename": "Vue Router",
+      "path": "库/JS与CSS/Vue/Vue3/Vue Router/Vue Router.md"
     },
     {
-      "basename": "反射",
-      "path": "语言/CSharp/CSharp 语法/反射.md"
+      "basename": "ElementPlus",
+      "path": "库/JS与CSS/ElementPlus/ElementPlus.md"
     },
     {
-      "basename": "构造与析构",
-      "path": "语言/CSharp/CSharp 语法/类型/类/构造与析构.md"
+      "basename": "按需导入 ElMessage 样式错误",
+      "path": "库/JS与CSS/ElementPlus/按需导入 ElMessage 样式错误.md"
     },
     {
-      "basename": "值类型",
-      "path": "语言/CSharp/CSharp 语法/类型/值类型/值类型.md"
+      "basename": "el-menu 右侧边线",
+      "path": "库/JS与CSS/ElementPlus/el-menu 右侧边线.md"
     },
     {
-      "basename": "结构体布局",
-      "path": "语言/CSharp/CSharp 语法/类型/值类型/结构体布局.md"
+      "basename": "Vue 中 el-form 相关方法缺失",
+      "path": "库/JS与CSS/ElementPlus/Vue 中 el-form 相关方法缺失.md"
+    },
+    {
+      "basename": "Vue 中 el-input 输入异常",
+      "path": "库/JS与CSS/ElementPlus/Vue 中 el-input 输入异常.md"
+    },
+    {
+      "basename": "SvgIcon 图标组件",
+      "path": "库/JS与CSS/Vue/SvgIcon 图标组件.md"
+    },
+    {
+      "basename": "游戏素材提取工具",
+      "path": "工具/游戏素材提取工具.md"
+    },
+    {
+      "basename": "Vite",
+      "path": "工具/Vue/Vite/Vite.md"
+    },
+    {
+      "basename": "Vue CLI",
+      "path": "工具/Vue/Vue CLI.md"
+    },
+    {
+      "basename": "Failed to parse source for import analysis because the content contains invalid JS syntax. Install @vitejsplugin-vue to handle .vue files.",
+      "path": "工具/Vue/Vite/Failed to parse source for import analysis because the content contains invalid JS syntax. Install @vitejsplugin-vue to handle .vue files..md"
+    },
+    {
+      "basename": "Error listen EACCES permission denied 18000",
+      "path": "工具/Vue/Vite/Error listen EACCES permission denied 18000.md"
+    },
+    {
+      "basename": "Vuex",
+      "path": "库/JS与CSS/Vue/Vue3/Vuex/Vuex.md"
+    },
+    {
+      "basename": "modules",
+      "path": "库/JS与CSS/Vue/Vue3/Vuex/modules.md"
+    },
+    {
+      "basename": "getters",
+      "path": "库/JS与CSS/Vue/Vue3/Vuex/getters.md"
+    },
+    {
+      "basename": "state 与计算属性",
+      "path": "库/JS与CSS/Vue/Vue3/Vuex/state 与计算属性.md"
+    },
+    {
+      "basename": "例：登录权限验证",
+      "path": "库/JS与CSS/Vue/Vue3/Vue Router/例：登录权限验证.md"
+    },
+    {
+      "basename": "路由元信息",
+      "path": "库/JS与CSS/Vue/Vue3/Vue Router/路由元信息.md"
+    },
+    {
+      "basename": "路由钩子函数",
+      "path": "库/JS与CSS/Vue/Vue3/Vue Router/路由钩子函数.md"
+    },
+    {
+      "basename": "HTML5 历史记录模式",
+      "path": "库/JS与CSS/Vue/Vue3/Vue Router/HTML5 历史记录模式.md"
+    },
+    {
+      "basename": "props 传参",
+      "path": "库/JS与CSS/Vue/Vue3/Vue Router/props 传参.md"
+    },
+    {
+      "basename": "重定向",
+      "path": "库/JS与CSS/Vue/Vue3/Vue Router/重定向.md"
+    },
+    {
+      "basename": "嵌套路由",
+      "path": "库/JS与CSS/Vue/Vue3/Vue Router/嵌套路由.md"
+    },
+    {
+      "basename": "命名路由",
+      "path": "库/JS与CSS/Vue/Vue3/Vue Router/命名路由.md"
+    },
+    {
+      "basename": "编程式导航",
+      "path": "库/JS与CSS/Vue/Vue3/Vue Router/编程式导航.md"
+    },
+    {
+      "basename": "单文件组件",
+      "path": "库/JS与CSS/Vue/Vue3/单文件组件/单文件组件.md"
+    },
+    {
+      "basename": "webpack",
+      "path": "库/JS与CSS/Vue/Vue3/单文件组件/webpack.md"
+    },
+    {
+      "basename": "teleport 组件",
+      "path": "库/JS与CSS/Vue/Vue3/单文件组件/teleport 组件.md"
+    },
+    {
+      "basename": "异步组件",
+      "path": "库/JS与CSS/Vue/Vue3/单文件组件/异步组件.md"
+    },
+    {
+      "basename": "组件样式",
+      "path": "库/JS与CSS/Vue/Vue3/单文件组件/组件样式.md"
     },
     {
       "basename": "组合式 API",
       "path": "库/JS与CSS/Vue/Vue3/组合式 API/组合式 API.md"
     },
     {
-      "basename": "结构体",
-      "path": "语言/CSharp/CSharp 语法/类型/值类型/结构体.md"
+      "basename": "自定义事件",
+      "path": "库/JS与CSS/Vue/Vue3/组合式 API/自定义事件.md"
     },
     {
-      "basename": "基本类型",
-      "path": "语言/CSharp/CSharp 语法/类型/值类型/基本类型.md"
+      "basename": "响应式侦听",
+      "path": "库/JS与CSS/Vue/Vue3/组合式 API/响应式侦听.md"
     },
     {
-      "basename": "可空类型",
-      "path": "语言/CSharp/CSharp 语法/类型/值类型/可空类型.md"
+      "basename": "计算属性",
+      "path": "库/JS与CSS/Vue/Vue3/组合式 API/计算属性.md"
     },
     {
-      "basename": "CSharp 语法",
-      "path": "语言/CSharp/CSharp 语法/CSharp 语法.md"
-    },
-    {
-      "basename": "文档注释",
-      "path": "语言/CSharp/CSharp 语法/基本语法/文档注释.md"
-    },
-    {
-      "basename": "基本语法",
-      "path": "语言/CSharp/CSharp 语法/基本语法/基本语法.md"
-    },
-    {
-      "basename": "并行任务",
-      "path": "语言/CSharp/CSharp 语法/并行任务.md"
-    },
-    {
-      "basename": "CSharp 8 更新记录",
-      "path": "语言/CSharp/更新记录/CSharp 8 更新记录.md"
-    },
-    {
-      "basename": "CSharp 7 更新记录",
-      "path": "语言/CSharp/更新记录/CSharp 7 更新记录.md"
-    },
-    {
-      "basename": "异常处理",
-      "path": "语言/CSharp/CSharp 语法/异常处理.md"
-    },
-    {
-      "basename": "命名空间",
-      "path": "语言/CSharp/CSharp 语法/命名空间.md"
-    },
-    {
-      "basename": "函数",
-      "path": "语言/CSharp/CSharp 语法/类型/类/函数.md"
-    },
-    {
-      "basename": "属性",
-      "path": "语言/CSharp/CSharp 语法/类型/类/属性.md"
-    },
-    {
-      "basename": "流程控制",
-      "path": "语言/CSharp/CSharp 语法/流程控制.md"
-    },
-    {
-      "basename": "CSharp 10 更新记录",
-      "path": "语言/CSharp/更新记录/CSharp 10 更新记录.md"
-    },
-    {
-      "basename": "CSharp 9 更新记录",
-      "path": "语言/CSharp/更新记录/CSharp 9 更新记录.md"
-    },
-    {
-      "basename": "CSharp 12 更新记录",
-      "path": "语言/CSharp/更新记录/CSharp 12 更新记录.md"
-    },
-    {
-      "basename": "CSharp 11 更新记录",
-      "path": "语言/CSharp/更新记录/CSharp 11 更新记录.md"
-    },
-    {
-      "basename": "平台调用",
-      "path": "语言/CSharp/CSharp 语法/平台调用.md"
-    },
-    {
-      "basename": "动态类型",
-      "path": "语言/CSharp/CSharp 语法/类型/动态类型.md"
-    },
-    {
-      "basename": "预处理指令",
-      "path": "语言/CSharp/CSharp 语法/预处理指令.md"
-    },
-    {
-      "basename": "内存与资源",
-      "path": "语言/CSharp/CSharp 语法/内存与资源.md"
-    },
-    {
-      "basename": "锁与同步",
-      "path": "语言/CSharp/CSharp 语法/锁与同步.md"
-    },
-    {
-      "basename": "网络",
-      "path": "语言/CSharp/CSharp 语法/网络.md"
-    },
-    {
-      "basename": "文件与流",
-      "path": "语言/CSharp/CSharp 语法/文件与流.md"
-    },
-    {
-      "basename": "委托与事件",
-      "path": "语言/CSharp/CSharp 语法/委托与事件.md"
-    },
-    {
-      "basename": "文件系统",
-      "path": "工具/命令行/bash/文件系统.md"
-    },
-    {
-      "basename": "系统管理",
-      "path": "工具/命令行/bash/系统管理.md"
-    },
-    {
-      "basename": "权限管理",
-      "path": "工具/命令行/bash/权限管理.md"
+      "basename": "模板引用",
+      "path": "库/JS与CSS/Vue/Vue3/组合式 API/模板引用.md"
     }
   ],
   "omittedPaths": []

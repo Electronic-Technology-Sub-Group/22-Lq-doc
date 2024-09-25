@@ -1,8 +1,21 @@
-Vue 默认历史记录模式为 Hash 模式，通过 `createWebHashHistory()` 创建；HTML5 历史记录模式通过 `createWebHistory()` 创建。二者区别在于：
+
+`````col
+````col-md
+flexGrow=1
+===
+- Vue 默认历史记录模式为 Hash 模式，通过 `createWebHashHistory()` 创建
+- HTML5 历史记录模式通过 `createWebHistory()` 创建
+````
+````col-md
+flexGrow=1
+===
 
 | createWebHashHistory 模式  | createWebHistory 模式    |
 | ------------------------ | ---------------------- |
 | `localhost:8080/#/Login` | `localhost:8080/Login` |
+
+````
+`````
 
 ```js
 import { createRouter, createWebHistory } from 'vue-router'

@@ -20,4 +20,4 @@ start: 5
 end: 17
 ```
 
-![[../../../../../_resources/images/Pasted image 20240907170039.png]]
+![[../../../../../../_resources/images/Pasted image 20240907170039.png]]

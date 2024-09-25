@@ -1,6 +1,6 @@
 Thymeleaf 是一个用于 Web 服务器的 Java 模板引擎。
 
-> [!note] 方言：默认使用 [[OGNL]]。Spring 环境下使用 [[../Spring/Spring 表达式语言/Spring 表达式语言|SpringEL]]
+> [!note] 方言：默认使用 [[OGNL]]。Spring 环境下使用 [[../Spring/Spring/Spring 表达式语言/Spring 表达式语言|SpringEL]]
 
 * [[配置和集成模板引擎/配置和集成模板引擎|配置和集成模板引擎]]。
 * [[HTML 模式/HTML 模式|HTML 模式]]，使用标签属性处理

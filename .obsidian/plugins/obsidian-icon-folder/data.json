@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "SiSpring",
+      "SiVite",
       "RiSortNumberAsc",
       "SiVuedotjs",
-      "SiAxios",
-      "SiEslint",
-      "SiCmake"
+      "SiAxios"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -173,7 +173,6 @@
   "工具/依赖版本管理": "SiGooglecampaignmanager360",
   "工具/依赖版本管理/Java.md": "RiJavaFill",
   "工具/包管理器/Pacman.md": "SiArchlinux",
-  "库/Java/Spring": "SiSpring",
   "库/Java/Jackson.md": "SiJson",
   "工具/序列号.md": "RiAppsLine",
   "语言/Go": "SiGo",
@@ -209,7 +208,11 @@
   "库/JS与CSS/Axios.md": "SiAxios",
   "工具/Vue": "SiVuedotjs",
   "工具/Vue/Vue CLI.md": "SiVuedotjs",
-  "工具/Vue/Vite.md": "SiVite",
   "库/JS与CSS/Vue/Vue3": "SiVuedotjs",
-  "库/Python/数学分析相关库.md": "RiSortNumberAsc"
+  "库/Python/数学分析相关库.md": "RiSortNumberAsc",
+  "工具/Vue/Vite": "SiVite",
+  "工具/Vue/Vite/Vite.md": "SiVite",
+  "库/Java/Spring/Spring": "SiSpring",
+  "库/Java/Spring": "SiSpring",
+  "库/Java/Spring/Spring Cloud": "SiSpring"
 }

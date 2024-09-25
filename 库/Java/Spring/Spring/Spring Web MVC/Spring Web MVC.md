@@ -6,7 +6,7 @@ Spring Web MVC 框架是一个非侵入式 MVC 框架。
 * 模型数据：向用户显示数据，通常为一个 Map 作为 JSP 模板的各个值。
 * 逻辑名称：展示模型数据的页面
 
-![[../../../../_resources/images/Spring Web MVC 2024-09-10 00.36.41.excalidraw|50%]]
+![[../../../../../_resources/images/Spring Web MVC 2024-09-10 00.36.41.excalidraw|50%]]
 
 > [!hint] 使用 `pageContext` 可以获取当前请求的目录，可用于组装链接：
 `<form name="fixedDepositList" method="post" action="${pageContext.request.contextPath}/fixedDeposit/list}">`
@@ -61,7 +61,7 @@ LINES: "10-12"
 - `InternalResourceViewResolver` 可以指定前缀和后缀
 - `ThymeleafViewResolver` 用于 `thymeleaf`
 
-![[../../../../_resources/images/Spring Web MVC 2024-09-10 02.13.42.excalidraw|50%]]
+![[../../../../../_resources/images/Spring Web MVC 2024-09-10 02.13.42.excalidraw|50%]]
 
 `web.xml` 为 Web 应用部署描述，该文档根标签为 `<web-app>`。使用 SpringBoot 时不需要该配置
 -  `<servlet>` 标签声明了一个 Servlet，这里使用 [[DispatcherServlet]]，请求由该 Servlet 截取并发送到相应服务器。

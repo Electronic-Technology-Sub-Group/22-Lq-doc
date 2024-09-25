@@ -1,6 +1,6 @@
 `DispatcherServlet` 使用 `HandlerMapping` 和 `ViewResolver` 处理请求
 
-![[../../../../_resources/images/DispatcherServlet 2024-09-10 19.21.13.excalidraw|50%]]
+![[../../../../../_resources/images/DispatcherServlet 2024-09-10 19.21.13.excalidraw|50%]]
 
 1. 请求被 `DispatcherServlet` 拦截
 2. `DispatcherServlet` 根据路径查找对应 Controller 对象以处理请求

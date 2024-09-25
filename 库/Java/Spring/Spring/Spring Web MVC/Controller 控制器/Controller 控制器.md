@@ -8,7 +8,7 @@
 | 注解                  | 注解对象               | 对应 XML 配置                                  |
 | ------------------- | ------------------ | ------------------------------------------ |
 | `@RequestMapping`   | `Controller` 实现类   | `SimpleUrlHandlerMapping` 中 `urlMap` 配置的路径 |
-| [[@RequestMapping]] | `Controller` 中的方法  | 注解映射的子路径，支持通配符                             |
+| [[@RequestMapping/@RequestMapping]] | `Controller` 中的方法  | 注解映射的子路径，支持通配符                             |
 | `@RequestParamaram` | `Controller` 中方法参数 | 指定查询参数                                     |
 
 - [[@ExceptionHandler]]
