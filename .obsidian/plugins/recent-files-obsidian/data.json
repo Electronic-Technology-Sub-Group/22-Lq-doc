@@ -1,16 +1,44 @@
 {
   "recentFiles": [
     {
+      "basename": "Lombok",
+      "path": "库/Java/Lombok.md"
+    },
+    {
+      "basename": "Manifold",
+      "path": "库/Java/Manifold.md"
+    },
+    {
+      "basename": "Spring Cloud",
+      "path": "库/Java/Spring/Spring Cloud/Spring Cloud.md"
+    },
+    {
+      "basename": "每日任务",
+      "path": "个人笔记/每日任务.md"
+    },
+    {
+      "basename": "组合式 API",
+      "path": "库/JS与CSS/Vue/Vue3/组合式 API/组合式 API.md"
+    },
+    {
+      "basename": "ReactiveX",
+      "path": "库/ReactiveX.md"
+    },
+    {
+      "basename": "JUnit 5",
+      "path": "库/Java/JUnit 5.md"
+    },
+    {
+      "basename": "Jackson",
+      "path": "库/Java/Jackson.md"
+    },
+    {
       "basename": "命名路由",
       "path": "库/JS与CSS/Vue/Vue3/Vue Router/命名路由.md"
     },
     {
       "basename": "编程式导航",
       "path": "库/JS与CSS/Vue/Vue3/Vue Router/编程式导航.md"
-    },
-    {
-      "basename": "组合式 API",
-      "path": "库/JS与CSS/Vue/Vue3/组合式 API/组合式 API.md"
     },
     {
       "basename": "CSharp 7 更新记录",
@@ -129,14 +157,6 @@
       "path": "语言/CSharp/CSharp 语法/类型/接口.md"
     },
     {
-      "basename": "Spring Cloud",
-      "path": "库/Java/Spring/Spring Cloud/Spring Cloud.md"
-    },
-    {
-      "basename": "每日任务",
-      "path": "个人笔记/每日任务.md"
-    },
-    {
       "basename": "Spring",
       "path": "库/Java/Spring/Spring/Spring.md"
     },
@@ -155,10 +175,6 @@
     {
       "basename": "Thymeleaf",
       "path": "库/Java/Thymeleaf/Thymeleaf.md"
-    },
-    {
-      "basename": "Manifold",
-      "path": "库/Java/Manifold.md"
     },
     {
       "basename": "JMX",
@@ -183,22 +199,6 @@
     {
       "basename": "IoC 容器",
       "path": "库/Java/Spring/Spring/IoC 容器/IoC 容器.md"
-    },
-    {
-      "basename": "Vue3",
-      "path": "库/JS与CSS/Vue/Vue3/Vue3.md"
-    },
-    {
-      "basename": "Vue Router",
-      "path": "库/JS与CSS/Vue/Vue3/Vue Router/Vue Router.md"
-    },
-    {
-      "basename": "ElementPlus",
-      "path": "库/JS与CSS/ElementPlus/ElementPlus.md"
-    },
-    {
-      "basename": "按需导入 ElMessage 样式错误",
-      "path": "库/JS与CSS/ElementPlus/按需导入 ElMessage 样式错误.md"
     }
   ],
   "omittedPaths": []

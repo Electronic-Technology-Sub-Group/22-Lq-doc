@@ -4,51 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "c417b988c8b76508",
+        "id": "325396b397590c4d",
         "type": "tabs",
         "children": [
           {
-            "id": "26d0f194014911c1",
+            "id": "269f9c40ada55512",
             "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "empty",
-              "state": {},
-              "pinned": true
-            }
-          },
-          {
-            "id": "361e0e4682cecd77",
-            "type": "leaf",
-            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "库/JS与CSS/Vue/Vue3/Vue3.md",
+                "file": "库/Java/Lombok.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "59b09012d90e1e7b",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "库/JS与CSS/Vue/Vue3/组合式 API/组合式 API.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              },
-              "pinned": true
+              }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -122,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "库/JS与CSS/Vue/Vue3/组合式 API/组合式 API.md",
+                "file": "库/Java/Lombok.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "库/JS与CSS/Vue/Vue3/组合式 API/组合式 API.md",
+                "file": "库/Java/Lombok.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "库/JS与CSS/Vue/Vue3/组合式 API/组合式 API.md"
+                "file": "库/Java/Lombok.md"
               }
             }
           },
@@ -248,44 +220,18 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "floating": {
-    "id": "5383cc9cfa874aa1",
-    "type": "floating",
-    "children": [
-      {
-        "id": "3eb786b34f2a0b07",
-        "type": "window",
-        "children": [
-          {
-            "id": "f2b82084c5241357",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "a19819c2ad1e1c5b",
-                "type": "leaf",
-                "state": {
-                  "type": "empty",
-                  "state": {}
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 3062,
-        "y": 22,
-        "width": 1423,
-        "height": 902,
-        "maximize": true,
-        "zoom": 0.5
-      }
-    ]
-  },
-  "active": "a19819c2ad1e1c5b",
+  "active": "269f9c40ada55512",
   "lastOpenFiles": [
+    "库/Java/Manifold.md",
+    "库/Java/Lombok.md",
+    "库/Java/Spring/Spring Cloud/Spring Cloud.md",
+    "个人笔记/每日任务.md",
+    "库/JS与CSS/Vue/Vue3/组合式 API/组合式 API.md",
+    "库/ReactiveX.md",
+    "库/Java/JUnit 5.md",
+    "库/Java/Jackson.md",
     "库/JS与CSS/Vue/Vue3/单文件组件/script setup 写法.md",
     "库/JS与CSS/Vue/Vue3/单文件组件/单文件组件.md",
-    "库/JS与CSS/Vue/Vue3/组合式 API/组合式 API.md",
     "库/JS与CSS/Vue/Vue3/组合式 API/自定义事件.md",
     "库/JS与CSS/Vue/Vue3/组合式 API/响应式侦听.md",
     "库/JS与CSS/Vue/Vue3/组合式 API/计算属性.md",
@@ -298,7 +244,6 @@
     "_resources/codes/Vue/Vue3/hellovue/setup-proxy.html",
     "库/JS与CSS/Vue/Vue3/组合式 API/生命周期函数.md",
     "库/JS与CSS/Vue/Vue3/Vue3.md",
-    "个人笔记/每日任务.md",
     "库/JS与CSS/Vue/Vue3/渲染函数/指令等价方案/指令等价方案.md",
     "库/JS与CSS/Vue/Vue3/渲染函数/渲染函数.md",
     "库/JS与CSS/Vue/Vue3/渲染函数.md",
@@ -313,12 +258,6 @@
     "_resources/codes/Vue/Vue3/hellovue/v-time.html",
     "库/JS与CSS/Vue/Vue3/过渡与动画/过渡与动画.md",
     "库/JS与CSS/Vue/Vue3/过渡与动画/transition-group/transition-group.md",
-    "库/JS与CSS/Vue/Vue3/过渡与动画/transition-group.md",
-    "库/JS与CSS/Vue/Vue3/过渡与动画/transition-group/例：列表平滑过渡.md",
-    "库/JS与CSS/Vue/Vue3/过渡与动画/transition-group/例：插入、删除元素.md",
-    "库/JS与CSS/Vue/Vue3/过渡与动画/transition/transition.md",
-    "库/JS与CSS/Vue/Vue3/过渡与动画/transition/JS 动画.md",
-    "库/JS与CSS/Vue/Vue3/过渡与动画/transition/CSS 动画.md",
     "_resources/codes/node.js/webpack/loaders/images/test.jpg",
     "_resources/codes/Vue/Vue3/hellovue/images/ok.gif",
     "_resources/codes/Meta Bind/exampleVault/Other/Images/subfolder/img_frozen_branch.jpg",
