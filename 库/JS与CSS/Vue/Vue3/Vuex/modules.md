@@ -39,3 +39,5 @@ store.state.a
 ```
 ````
 `````
+
+> [!note] 导出的 `module` 对象可以包含一个 `namespaced` 布尔值，默认 `false`，`true` 可将模块限定到命名空间下，解决模块化空间问题。

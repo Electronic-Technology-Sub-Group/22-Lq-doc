@@ -1,10 +1,6 @@
-# mutations 与 actions
-
 # `mutations`
 
-提交 `mutations` 是更改 `store` 状态的唯一方法，类似于事件。
-
-`mutations` 是唯一可以直接修改 `state` 的方式，`actions` 通过 `mutations` 间接修改 `state`
+> [!important] `mutations` 是直接修改 `store` 的唯一方法，`action` 通过提交 `mutations` 间接更改 `store` 状态，类似于事件。
 
 * 每个 `mutation` 都有一个类型（`type`：`string`）和回调函数（`handler`：`(state, ...) => void`）
 * 只能在 `mutation` 的回调函数 `handler` 中更改 `state`。
@@ -16,7 +12,7 @@
 * 提交载荷：`$store.commit(<type>, <payload>)`，`<payload>` 即额外参数，称为载荷
 * 对象：`$store.commit(object)`，要求 `object` 中包含一个 `type` 属性
 
-ES2015 支持使用常量作为计算属性命名，推荐使用常量
+> [!success] ES2015 支持使用常量作为计算属性命名，推荐使用常量
 
 ```js
 // mutation-types
@@ -40,7 +36,7 @@ const store = createStore({
 
 # `actions`
 
-`actions` 类似 `mutations` 可以用于该变 `state`，但 `actions` 不直接该变 `state`，而是通过提交 `mutation` 的形式修改 `state`
+`actions` 类似 `mutations` 可以用于该变 `state`，但 `actions` 通过提交 `mutation` 间接修改 `state`
 
 `actions` 与 `mutations` 的使用方式基本相同，除了：
 
@@ -74,4 +70,32 @@ export default createStore({
 })
 ```
 
-‍
+提交异步任务：
+
+```js title:store/app.js
+const actions {
+    loginAction(context, requestData) {
+        return new Promise((resolve, reject) => {
+            // 执行一个异步操作
+            login(requestData).then(resolve).catch(reject)
+        })
+    }
+}
+```
+
+```html title:component.vue
+<script setup>
+import { useStore } from "vuex"
+
+const store = useStore()
+
+function login() {
+    // 创建 requestData 数据对象
+    const loginData = {}
+    // 调用 app module 的 loginAction actions
+    store.dispatch("app/loginAction", loginData)
+         .then( /* do something */ )
+         .catch( /* do something */ )
+}
+</script>
+```

@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "mutations 与 actions",
+      "path": "库/JS与CSS/Vue/Vue3/Vuex/mutations 与 actions.md"
+    },
+    {
+      "basename": "modules",
+      "path": "库/JS与CSS/Vue/Vue3/Vuex/modules.md"
+    },
+    {
+      "basename": "Vuex",
+      "path": "库/JS与CSS/Vue/Vue3/Vuex/Vuex.md"
+    },
+    {
+      "basename": "SvgIcon 图标组件",
+      "path": "库/JS与CSS/Vue/SvgIcon 图标组件.md"
+    },
+    {
       "basename": "Lombok",
       "path": "库/Java/Lombok.md"
     },
@@ -183,22 +199,6 @@
     {
       "basename": "JavaAgent",
       "path": "语言/Java/JavaAgent.md"
-    },
-    {
-      "basename": "垃圾收集器",
-      "path": "语言/Java/垃圾收集器.md"
-    },
-    {
-      "basename": "获取类的源文件",
-      "path": "语言/Java/获取类的源文件.md"
-    },
-    {
-      "basename": "编译时注解",
-      "path": "语言/Java/编译时注解.md"
-    },
-    {
-      "basename": "IoC 容器",
-      "path": "库/Java/Spring/Spring/IoC 容器/IoC 容器.md"
     }
   ],
   "omittedPaths": []

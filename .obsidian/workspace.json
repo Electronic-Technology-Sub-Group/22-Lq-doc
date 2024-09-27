@@ -4,23 +4,37 @@
     "type": "split",
     "children": [
       {
-        "id": "325396b397590c4d",
+        "id": "d2a57604ba638a29",
         "type": "tabs",
         "children": [
           {
-            "id": "269f9c40ada55512",
+            "id": "186c248cf64eac75",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "库/Java/Lombok.md",
-                "mode": "preview",
+                "file": "库/JS与CSS/Vue/Vue3/Vuex/Vuex.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a5188dd01061d151",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "库/JS与CSS/Vue/Vue3/Vuex/mutations 与 actions.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -94,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "库/Java/Lombok.md",
+                "file": "库/JS与CSS/Vue/Vue3/Vuex/mutations 与 actions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "库/Java/Lombok.md",
+                "file": "库/JS与CSS/Vue/Vue3/Vuex/mutations 与 actions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "库/Java/Lombok.md"
+                "file": "库/JS与CSS/Vue/Vue3/Vuex/mutations 与 actions.md"
               }
             }
           },
@@ -220,10 +234,13 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "269f9c40ada55512",
+  "active": "a5188dd01061d151",
   "lastOpenFiles": [
-    "库/Java/Manifold.md",
+    "库/JS与CSS/Vue/Vue3/Vuex/modules.md",
+    "库/JS与CSS/Vue/Vue3/Vuex/Vuex.md",
+    "库/JS与CSS/Vue/SvgIcon 图标组件.md",
     "库/Java/Lombok.md",
+    "库/Java/Manifold.md",
     "库/Java/Spring/Spring Cloud/Spring Cloud.md",
     "个人笔记/每日任务.md",
     "库/JS与CSS/Vue/Vue3/组合式 API/组合式 API.md",
@@ -253,11 +270,8 @@
     "_resources/codes/Vue/Vue3/hellovue/myanchored2.html",
     "_resources/codes/Vue/Vue3/hellovue/myanchored.html",
     "库/JS与CSS/Vue/Vue3/自定义指令/自定义指令.md",
-    "库/JS与CSS/Vue/Vue3/自定义指令.md",
     "_resources/codes/Vue/Vue3/hellovue/v-birthdayformat.html",
     "_resources/codes/Vue/Vue3/hellovue/v-time.html",
-    "库/JS与CSS/Vue/Vue3/过渡与动画/过渡与动画.md",
-    "库/JS与CSS/Vue/Vue3/过渡与动画/transition-group/transition-group.md",
     "_resources/codes/node.js/webpack/loaders/images/test.jpg",
     "_resources/codes/Vue/Vue3/hellovue/images/ok.gif",
     "_resources/codes/Meta Bind/exampleVault/Other/Images/subfolder/img_frozen_branch.jpg",

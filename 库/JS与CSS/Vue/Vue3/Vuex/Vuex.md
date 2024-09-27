@@ -85,7 +85,7 @@ Vue.createApp({
     createApp(App).use(store).mount('#app')
     ```
 
-Vuex 的核心 `store`是一个容器，包含应用中的大部分状态。使用 `store` 替代全局对象的优势为：
+`store`是一个容器，包含应用中的大部分状态。使用 `store` 替代全局对象的优势为：
 * Vuex 状态是响应式的，`store` 状态发生变化时 Vue 实例组件也会高效更新
 * 用户不能直接更新 `store` 中的状态，需要显示提交 `mutation` 以便跟踪每个状态变化
 
