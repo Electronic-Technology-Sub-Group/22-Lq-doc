@@ -4,37 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "d2a57604ba638a29",
+        "id": "2b033325bbe99231",
         "type": "tabs",
         "children": [
           {
-            "id": "186c248cf64eac75",
+            "id": "773395e0567a4cc5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "库/JS与CSS/Vue/Vue3/Vuex/Vuex.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a5188dd01061d151",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "库/JS与CSS/Vue/Vue3/Vuex/mutations 与 actions.md",
+                "file": "语言/CSS/Sass/语法.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -108,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "库/JS与CSS/Vue/Vue3/Vuex/mutations 与 actions.md",
+                "file": "语言/CSS/Sass/语法.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "库/JS与CSS/Vue/Vue3/Vuex/mutations 与 actions.md",
+                "file": "语言/CSS/Sass/语法.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "库/JS与CSS/Vue/Vue3/Vuex/mutations 与 actions.md"
+                "file": "语言/CSS/Sass/语法.md"
               }
             }
           },
@@ -234,8 +220,16 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "a5188dd01061d151",
+  "active": "773395e0567a4cc5",
   "lastOpenFiles": [
+    "语言/CSS/Sass/级联.md",
+    "语言/CSS/Sass/语法.md",
+    "语言/CSS/Sass/混合.md",
+    "语言/CSS/Sass",
+    "语言/CSharp/CSharp 语法/类型/集合.md",
+    "库/JS与CSS/ECharts.md",
+    "库/JS与CSS/Vue/Vue UI 组件库.md",
+    "库/JS与CSS/Vue/Vue3/Vuex/mutations 与 actions.md",
     "库/JS与CSS/Vue/Vue3/Vuex/modules.md",
     "库/JS与CSS/Vue/Vue3/Vuex/Vuex.md",
     "库/JS与CSS/Vue/SvgIcon 图标组件.md",
@@ -260,18 +254,10 @@
     "_resources/codes/Vue/Vue3/hellovue/setup-return-object.html",
     "_resources/codes/Vue/Vue3/hellovue/setup-proxy.html",
     "库/JS与CSS/Vue/Vue3/组合式 API/生命周期函数.md",
-    "库/JS与CSS/Vue/Vue3/Vue3.md",
-    "库/JS与CSS/Vue/Vue3/渲染函数/指令等价方案/指令等价方案.md",
-    "库/JS与CSS/Vue/Vue3/渲染函数/渲染函数.md",
-    "库/JS与CSS/Vue/Vue3/渲染函数.md",
-    "库/JS与CSS/Vue/Vue3/渲染函数/指令等价方案/v-on 等价方案.md",
-    "库/JS与CSS/Vue/Vue3/渲染函数/指令等价方案/v-model 等价方案.md",
     "_resources/codes/Vue/Vue3/hellovue/vnode_unique.html",
     "_resources/codes/Vue/Vue3/hellovue/myanchored2.html",
     "_resources/codes/Vue/Vue3/hellovue/myanchored.html",
-    "库/JS与CSS/Vue/Vue3/自定义指令/自定义指令.md",
     "_resources/codes/Vue/Vue3/hellovue/v-birthdayformat.html",
-    "_resources/codes/Vue/Vue3/hellovue/v-time.html",
     "_resources/codes/node.js/webpack/loaders/images/test.jpg",
     "_resources/codes/Vue/Vue3/hellovue/images/ok.gif",
     "_resources/codes/Meta Bind/exampleVault/Other/Images/subfolder/img_frozen_branch.jpg",

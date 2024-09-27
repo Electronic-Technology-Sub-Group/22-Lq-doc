@@ -1,6 +1,30 @@
 {
   "recentFiles": [
     {
+      "basename": "语法",
+      "path": "语言/CSS/Sass/语法.md"
+    },
+    {
+      "basename": "级联",
+      "path": "语言/CSS/Sass/级联.md"
+    },
+    {
+      "basename": "混合",
+      "path": "语言/CSS/Sass/混合.md"
+    },
+    {
+      "basename": "集合",
+      "path": "语言/CSharp/CSharp 语法/类型/集合.md"
+    },
+    {
+      "basename": "ECharts",
+      "path": "库/JS与CSS/ECharts.md"
+    },
+    {
+      "basename": "Vue UI 组件库",
+      "path": "库/JS与CSS/Vue/Vue UI 组件库.md"
+    },
+    {
       "basename": "mutations 与 actions",
       "path": "库/JS与CSS/Vue/Vue3/Vuex/mutations 与 actions.md"
     },
@@ -153,10 +177,6 @@
       "path": "语言/CSharp/CSharp 语法/类型/动态类型.md"
     },
     {
-      "basename": "集合",
-      "path": "语言/CSharp/CSharp 语法/类型/集合.md"
-    },
-    {
       "basename": "枚举",
       "path": "语言/CSharp/CSharp 语法/类型/枚举.md"
     },
@@ -179,26 +199,6 @@
     {
       "basename": "Spring Security 保护应用程序",
       "path": "库/Java/Spring/Spring/Spring Security 保护应用程序/Spring Security 保护应用程序.md"
-    },
-    {
-      "basename": "Web 请求安全配置",
-      "path": "库/Java/Spring/Spring/Spring Security 保护应用程序/Web 请求安全配置.md"
-    },
-    {
-      "basename": "ACL 模块保护域对象安全性",
-      "path": "库/Java/Spring/Spring/Spring Security 保护应用程序/ACL 模块保护域对象安全性/ACL 模块保护域对象安全性.md"
-    },
-    {
-      "basename": "Thymeleaf",
-      "path": "库/Java/Thymeleaf/Thymeleaf.md"
-    },
-    {
-      "basename": "JMX",
-      "path": "语言/Java/JMX.md"
-    },
-    {
-      "basename": "JavaAgent",
-      "path": "语言/Java/JavaAgent.md"
     }
   ],
   "omittedPaths": []

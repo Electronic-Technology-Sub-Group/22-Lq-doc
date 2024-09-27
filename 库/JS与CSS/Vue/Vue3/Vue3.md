@@ -80,7 +80,7 @@ app.config.globalProperties.$http = () => {}
 - [[单文件组件/单文件组件|单文件组件]]
 - [[Vue Router/Vue Router|Vue Router]]
 - [[Vuex/Vuex|Vuex]]
-- [[Vue UI 组件库|Vue UI 组件库]]
+- [[../Vue UI 组件库|Vue UI 组件库]]
 
 # 参考
 
