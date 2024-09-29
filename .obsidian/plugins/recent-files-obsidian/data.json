@@ -1,8 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "hello world",
+      "path": "库/Java/Spring/Spring Cloud/hello world.md"
+    },
+    {
       "basename": "Spring Cloud",
       "path": "库/Java/Spring/Spring Cloud/Spring Cloud.md"
+    },
+    {
+      "basename": "Spring Cloud 子项目",
+      "path": "库/Java/Spring/Spring Cloud/Spring Cloud 子项目.md"
+    },
+    {
+      "basename": "每日任务",
+      "path": "个人笔记/每日任务.md"
     },
     {
       "basename": "Spring Cloud 2024-09-29 14.20.10.excalidraw",
@@ -31,10 +43,6 @@
     {
       "basename": "标准",
       "path": "标准/标准.md"
-    },
-    {
-      "basename": "每日任务",
-      "path": "个人笔记/每日任务.md"
     },
     {
       "basename": "Local REST API",
@@ -191,14 +199,6 @@
     {
       "basename": "元组",
       "path": "语言/CSharp/CSharp 语法/类型/元组.md"
-    },
-    {
-      "basename": "数组",
-      "path": "语言/CSharp/CSharp 语法/类型/数组.md"
-    },
-    {
-      "basename": "类型",
-      "path": "语言/CSharp/CSharp 语法/类型/类型.md"
     }
   ],
   "omittedPaths": []
