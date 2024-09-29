@@ -5,7 +5,7 @@
 操作以资源为核心，如 `/users/{id}`
 
 > [!note] HATEOAS 原则
-> Hypermedia As The Engine Of Application State，返回的结果中包含提供的相关资源链接，以便得到后续要访问的地址
+> Hypermedia As The Engine Of Application State，直接访问 API 时返回的结果中包含提供的相关资源链接，以便得到后续要访问的地址
 
 例：访问 Github 的 API 地址（`api.github.com`）时返回：
 
@@ -49,13 +49,43 @@
 
 # 正确使用 HTTP 请求方式和状态码
 
-| 请求方式   | 说明   |
-| ------ | ---- |
-| GET    | 获取资源 |
-| POST   | 创建资源 |
-| DELETE |      |
-| PATCH  |      |
+`````col
+````col-md
+flexGrow=1
+===
+# 请求方式
+
+| 请求方式   | 说明               |
+| ------ | ---------------- |
+| GET    | 获取资源             |
+| POST   | 创建资源             |
+| DELETE | 删除资源             |
+| PATCH  | 更新资源，但常被 POST 代替 |
+
+````
+````col-md
+flexGrow=1
+===
+# 状态码
+
+- 2XX：成功处理
+- 3XX：重定向，对应资源位置发生变化
+- 4XX：客户端请求错误
+- 5XX：服务器错误
+````
+`````
 
 # 查询及分页原则
 
-- 其他指导原则
+通过路径中查询条件进行过滤、分页和排序设定
+- `?<property>=<value>`
+- `?limit=<count>`
+- `?page=<page>`
+- `?sort=<properties>(,ASC|DESC)`
+
+# 其他指导原则
+
+- 默认使用 `json` 作为返回类型，需要其他类型使用 `Accept` 请求头指定
+- 所有 API 使用同一个专用域名，如 `api.xxx.com/...`
+- 请求中带有 API 版本，如 `api.xxx.com/v1/...`
+- 请求发生错误时，返回错误码和详细信息

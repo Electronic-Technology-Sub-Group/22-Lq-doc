@@ -1,20 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "Jetbrains 控制台乱码",
-      "path": "工具/Jetbrains/Jetbrains 控制台乱码.md"
+      "basename": "Spring Cloud",
+      "path": "库/Java/Spring/Spring Cloud/Spring Cloud.md"
+    },
+    {
+      "basename": "Spring Cloud 2024-09-29 14.20.10.excalidraw",
+      "path": "_resources/images/Spring Cloud 2024-09-29 14.20.10.excalidraw.md"
     },
     {
       "basename": "RESTful",
       "path": "标准/RESTful.md"
-    },
-    {
-      "basename": "HTTP",
-      "path": "标准/HTTP.md"
-    },
-    {
-      "basename": "标准",
-      "path": "标准/标准.md"
     },
     {
       "basename": "扩展配置",
@@ -23,6 +19,18 @@
     {
       "basename": "自动配置",
       "path": "库/Java/Spring/Spring Boot/自动配置.md"
+    },
+    {
+      "basename": "Jetbrains 控制台乱码",
+      "path": "工具/Jetbrains/Jetbrains 控制台乱码.md"
+    },
+    {
+      "basename": "HTTP",
+      "path": "标准/HTTP.md"
+    },
+    {
+      "basename": "标准",
+      "path": "标准/标准.md"
     },
     {
       "basename": "每日任务",
@@ -157,10 +165,6 @@
       "path": "库/Java/Manifold.md"
     },
     {
-      "basename": "Spring Cloud",
-      "path": "库/Java/Spring/Spring Cloud/Spring Cloud.md"
-    },
-    {
       "basename": "组合式 API",
       "path": "库/JS与CSS/Vue/Vue3/组合式 API/组合式 API.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "类型",
       "path": "语言/CSharp/CSharp 语法/类型/类型.md"
-    },
-    {
-      "basename": "CSharp 语法",
-      "path": "语言/CSharp/CSharp 语法/CSharp 语法.md"
     }
   ],
   "omittedPaths": []
