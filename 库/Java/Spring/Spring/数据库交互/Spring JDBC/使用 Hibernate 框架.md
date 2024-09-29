@@ -14,6 +14,10 @@ start: 7
 end: 28
 ```
 
+> [!note] 自定义映射
+> 如果需要自定义映射规则，可使用 `spring.jpa.properties.hibernate.physical_naming_strategy` 配置一个 `PhysicalNamingStrategy` 实现
+> - 可继承自 `PhysicalNamingStrategyStandardImpl`
+
 2. 配置 `SessionFactory`：创建 Hibernate 的 Session 对象的工厂
 	- 使用 `packageToScan` 指定一个包用于自动扫描，或使用 `annotatedClasses` 手动指定持久类
 

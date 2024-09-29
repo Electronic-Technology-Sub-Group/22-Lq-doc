@@ -50,5 +50,7 @@
   "oz-clear-unused-images",
   "various-complements",
   "obsidian-completr",
-  "easy-typing-obsidian"
+  "easy-typing-obsidian",
+  "obsidian-local-rest-api",
+  "obsidian-git"
 ]

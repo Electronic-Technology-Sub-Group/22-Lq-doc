@@ -4,23 +4,52 @@
     "type": "split",
     "children": [
       {
-        "id": "2b033325bbe99231",
+        "id": "fa8e2059089763c3",
         "type": "tabs",
         "children": [
           {
-            "id": "773395e0567a4cc5",
+            "id": "cc9cad84c17aa562",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "个人笔记/每日任务.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "ab84dd99e79fc732",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "语言/CSS/Sass/语法.md",
+                "file": "标准/RESTful.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
+          },
+          {
+            "id": "87684a113468e4d9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "工具/Jetbrains/Jetbrains 控制台乱码.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -49,7 +78,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "REST",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -94,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "语言/CSS/Sass/语法.md",
+                "file": "工具/Jetbrains/Jetbrains 控制台乱码.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "语言/CSS/Sass/语法.md",
+                "file": "工具/Jetbrains/Jetbrains 控制台乱码.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "语言/CSS/Sass/语法.md"
+                "file": "工具/Jetbrains/Jetbrains 控制台乱码.md"
               }
             }
           },
@@ -200,6 +229,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-git:Open Git source control": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
       "templates:插入模板": true,
@@ -220,44 +250,45 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "773395e0567a4cc5",
+  "active": "87684a113468e4d9",
   "lastOpenFiles": [
-    "语言/CSS/Sass/级联.md",
-    "语言/CSS/Sass/语法.md",
-    "语言/CSS/Sass/混合.md",
-    "语言/CSS/Sass",
-    "语言/CSharp/CSharp 语法/类型/集合.md",
-    "库/JS与CSS/ECharts.md",
-    "库/JS与CSS/Vue/Vue UI 组件库.md",
-    "库/JS与CSS/Vue/Vue3/Vuex/mutations 与 actions.md",
-    "库/JS与CSS/Vue/Vue3/Vuex/modules.md",
-    "库/JS与CSS/Vue/Vue3/Vuex/Vuex.md",
-    "库/JS与CSS/Vue/SvgIcon 图标组件.md",
-    "库/Java/Lombok.md",
-    "库/Java/Manifold.md",
-    "库/Java/Spring/Spring Cloud/Spring Cloud.md",
+    "标准/RESTful.md",
+    "标准/HTTP.md",
+    "标准/标准.md",
+    "库/Java/Spring/Spring Boot/扩展配置.md",
+    "库/Java/Spring/Spring Boot/自动配置.md",
     "个人笔记/每日任务.md",
-    "库/JS与CSS/Vue/Vue3/组合式 API/组合式 API.md",
-    "库/ReactiveX.md",
-    "库/Java/JUnit 5.md",
+    "Web剪辑/Local Rest API for Obsidian Interactive API Documentation.md",
+    "工具/Obsidian/插件/Local REST API.md",
+    "_resources/images/20240928_213_Obsidian.png",
+    "Web剪辑",
+    "_resources/documents/Local REST API for Obsidian openapi.yaml",
+    "_resources/_resources.md",
+    "_resources/documents/openapi.yaml",
+    "_resources/documents/未确认 213705.crdownload",
+    "Web/2. 运行与部署  Obcsapi.md",
+    "网页剪辑/Obsidian Web Clipper Test Note.md",
+    "Web",
+    "在 Microsoft Edge 中安全地浏览 Web - Microsoft 支持.md",
+    "语言/Java/Jigsaw 模块/打破封装.md",
+    "语言/Class 字节码/《深入理解 JVM 字节码》/字节码应用/cglib.md",
+    "网页剪辑/desafd.md",
+    "网页剪辑/desafd.md.crswap",
+    "网页剪辑",
+    "个人笔记/未命名.md",
+    "个人笔记/流量卡绑定应用.md",
     "库/Java/Jackson.md",
-    "库/JS与CSS/Vue/Vue3/单文件组件/script setup 写法.md",
-    "库/JS与CSS/Vue/Vue3/单文件组件/单文件组件.md",
-    "库/JS与CSS/Vue/Vue3/组合式 API/自定义事件.md",
-    "库/JS与CSS/Vue/Vue3/组合式 API/响应式侦听.md",
-    "库/JS与CSS/Vue/Vue3/组合式 API/计算属性.md",
-    "库/JS与CSS/Vue/Vue3/组合式 API/模板引用.md",
-    "_resources/codes/Vue/Vue3/hellovue/template-ref.html",
-    "库/JS与CSS/Vue/Vue3/组合式 API/组件链传递.md",
-    "_resources/codes/Vue/Vue3/hellovue/mymap-provide.html",
-    "_resources/codes/Vue/Vue3/hellovue/setup-return-function.html",
-    "_resources/codes/Vue/Vue3/hellovue/setup-return-object.html",
-    "_resources/codes/Vue/Vue3/hellovue/setup-proxy.html",
-    "库/JS与CSS/Vue/Vue3/组合式 API/生命周期函数.md",
-    "_resources/codes/Vue/Vue3/hellovue/vnode_unique.html",
-    "_resources/codes/Vue/Vue3/hellovue/myanchored2.html",
-    "_resources/codes/Vue/Vue3/hellovue/myanchored.html",
-    "_resources/codes/Vue/Vue3/hellovue/v-birthdayformat.html",
+    "库/Java/Spring/Spring/数据库交互/Spring JDBC/使用 Hibernate 框架.md",
+    "库/Java/Spring/Spring Boot",
+    "库/Java/Spring/Spring/数据库交互/Spring JDBC/Spring JDBC.md",
+    "库/Java/Spring/Spring/数据库交互/数据库交互.md",
+    "库/Java/Spring/Spring/Spring.md",
+    "库/Java/Thymeleaf/Thymeleaf.md",
+    "库/Java/Spring/Spring/数据库交互/Spring boot 多数据库源配置.md",
+    "库/Java/Spring/Spring JPA 映射规则.md",
+    "库/Java/Spring/Spring JPA.md",
+    "库/Java/Spring/Spring Framework",
+    "语言/CSS/Sass",
     "_resources/codes/node.js/webpack/loaders/images/test.jpg",
     "_resources/codes/Vue/Vue3/hellovue/images/ok.gif",
     "_resources/codes/Meta Bind/exampleVault/Other/Images/subfolder/img_frozen_branch.jpg",
@@ -267,7 +298,6 @@
     "_resources/images/20240924_209_chrome.gif",
     "_resources/images/Pasted image 20240922140256.png",
     "_resources/images/Pasted image 20240921155458.png",
-    "_resources/images/Pasted image 20240921155040.png",
     "语言/C Cpp/C++更新图.canvas",
     "语言/C Cpp/C++ 语法/C++ 语法.canvas",
     "语言/Class 字节码/Untitled.canvas",

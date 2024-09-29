@@ -16,14 +16,16 @@
     * `Slice<T>`：额外提供是否包含下一页
   * 排序：`find...(..., Sort sort)`，`Sort` 表示排序方式
   * 可返回 `List<T>` 的对象还可以返回 `Stream<T>`，使用流不需要等待所有结果全部查询，而是查询出一个结果后立刻返回
-    > [!attention] 使用 `Stream` 查询，应当在使用后调用 `close` 方法或使用 `try-resource` 结构
+
+ > [!attention] 使用 `Stream` 查询，应当在使用后调用 `close` 方法或使用 `try-resource` 结构
     
     * 异步：使用 `@Async` 注解标注，并返回 `CompletableFuture`，`Future` 或 `ListenableFuture`，且使用 `@EnableAsync` 注解 `@Configuration` 注解的类
 
-    ```java
-    @Async
-    CompletableFuture<List<FixedDepositDetails>> findAllByFdAmount(int fdAmount);
-    ```
+```java
+@Async
+CompletableFuture<List<FixedDepositDetails>> findAllByFdAmount(int fdAmount);
+```
+
     * 自定义：使用 `@Query` 注解可以自定义 [[JPQL 查询语句]]
 * 保存：`T save(T value)`，相当于 `insert` + `update`
 * 删除：`void delete(T value)`，`deleteBy...(...)`

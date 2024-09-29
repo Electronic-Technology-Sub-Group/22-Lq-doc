@@ -1,6 +1,114 @@
 {
   "recentFiles": [
     {
+      "basename": "Jetbrains 控制台乱码",
+      "path": "工具/Jetbrains/Jetbrains 控制台乱码.md"
+    },
+    {
+      "basename": "RESTful",
+      "path": "标准/RESTful.md"
+    },
+    {
+      "basename": "HTTP",
+      "path": "标准/HTTP.md"
+    },
+    {
+      "basename": "标准",
+      "path": "标准/标准.md"
+    },
+    {
+      "basename": "扩展配置",
+      "path": "库/Java/Spring/Spring Boot/扩展配置.md"
+    },
+    {
+      "basename": "自动配置",
+      "path": "库/Java/Spring/Spring Boot/自动配置.md"
+    },
+    {
+      "basename": "每日任务",
+      "path": "个人笔记/每日任务.md"
+    },
+    {
+      "basename": "Local REST API",
+      "path": "工具/Obsidian/插件/Local REST API.md"
+    },
+    {
+      "basename": "_resources",
+      "path": "_resources/_resources.md"
+    },
+    {
+      "basename": "打破封装",
+      "path": "语言/Java/Jigsaw 模块/打破封装.md"
+    },
+    {
+      "basename": "cglib",
+      "path": "语言/Class 字节码/《深入理解 JVM 字节码》/字节码应用/cglib.md"
+    },
+    {
+      "basename": "流量卡绑定应用",
+      "path": "个人笔记/流量卡绑定应用.md"
+    },
+    {
+      "basename": "Jackson",
+      "path": "库/Java/Jackson.md"
+    },
+    {
+      "basename": "使用 Hibernate 框架",
+      "path": "库/Java/Spring/Spring/数据库交互/Spring JDBC/使用 Hibernate 框架.md"
+    },
+    {
+      "basename": "Spring JDBC",
+      "path": "库/Java/Spring/Spring/数据库交互/Spring JDBC/Spring JDBC.md"
+    },
+    {
+      "basename": "数据库交互",
+      "path": "库/Java/Spring/Spring/数据库交互/数据库交互.md"
+    },
+    {
+      "basename": "Spring",
+      "path": "库/Java/Spring/Spring/Spring.md"
+    },
+    {
+      "basename": "Thymeleaf",
+      "path": "库/Java/Thymeleaf/Thymeleaf.md"
+    },
+    {
+      "basename": "Spring boot 多数据库源配置",
+      "path": "库/Java/Spring/Spring/数据库交互/Spring boot 多数据库源配置.md"
+    },
+    {
+      "basename": "Spring Data MongoDB",
+      "path": "库/Java/Spring/Spring/数据库交互/Spring Data/Spring Data MongoDB.md"
+    },
+    {
+      "basename": "Querydsl",
+      "path": "库/Java/Spring/Spring/数据库交互/Spring Data/Querydsl.md"
+    },
+    {
+      "basename": "配置 Spring Data JPA",
+      "path": "库/Java/Spring/Spring/数据库交互/Spring Data/配置 Spring Data JPA.md"
+    },
+    {
+      "basename": "Spring Data",
+      "path": "库/Java/Spring/Spring/数据库交互/Spring Data/Spring Data.md"
+    },
+    {
+      "basename": "Repository SQL 方法",
+      "path": "库/Java/Spring/Spring/数据库交互/Spring Data/Repository SQL 方法/Repository SQL 方法.md"
+    },
+    {
+      "basename": "注解驱动开发",
+      "path": "库/Java/Spring/Spring/注解驱动开发/注解驱动开发.md"
+    },
+    {
+      "basename": "依赖注入",
+      "path": "库/Java/Spring/Spring/依赖注入/依赖注入.md"
+    },
+    {
+      "basename": "IoC 容器",
+      "path": "库/Java/Spring/Spring/IoC 容器/IoC 容器.md"
+    },
+    {
       "basename": "语法",
       "path": "语言/CSS/Sass/语法.md"
     },
@@ -53,10 +161,6 @@
       "path": "库/Java/Spring/Spring Cloud/Spring Cloud.md"
     },
     {
-      "basename": "每日任务",
-      "path": "个人笔记/每日任务.md"
-    },
-    {
       "basename": "组合式 API",
       "path": "库/JS与CSS/Vue/Vue3/组合式 API/组合式 API.md"
     },
@@ -67,10 +171,6 @@
     {
       "basename": "JUnit 5",
       "path": "库/Java/JUnit 5.md"
-    },
-    {
-      "basename": "Jackson",
-      "path": "库/Java/Jackson.md"
     },
     {
       "basename": "命名路由",
@@ -99,106 +199,6 @@
     {
       "basename": "CSharp 语法",
       "path": "语言/CSharp/CSharp 语法/CSharp 语法.md"
-    },
-    {
-      "basename": "平台调用",
-      "path": "语言/CSharp/CSharp 语法/平台调用.md"
-    },
-    {
-      "basename": "指针",
-      "path": "语言/CSharp/CSharp 语法/指针.md"
-    },
-    {
-      "basename": "反射",
-      "path": "语言/CSharp/CSharp 语法/反射.md"
-    },
-    {
-      "basename": "预处理指令",
-      "path": "语言/CSharp/CSharp 语法/预处理指令.md"
-    },
-    {
-      "basename": "内存与资源",
-      "path": "语言/CSharp/CSharp 语法/内存与资源.md"
-    },
-    {
-      "basename": "锁与同步",
-      "path": "语言/CSharp/CSharp 语法/锁与同步.md"
-    },
-    {
-      "basename": "并行任务",
-      "path": "语言/CSharp/CSharp 语法/并行任务.md"
-    },
-    {
-      "basename": "网络",
-      "path": "语言/CSharp/CSharp 语法/网络.md"
-    },
-    {
-      "basename": "文件与流",
-      "path": "语言/CSharp/CSharp 语法/文件与流/文件与流.md"
-    },
-    {
-      "basename": "管道",
-      "path": "语言/CSharp/CSharp 语法/文件与流/管道.md"
-    },
-    {
-      "basename": "流",
-      "path": "语言/CSharp/CSharp 语法/文件与流/流.md"
-    },
-    {
-      "basename": "内存映射",
-      "path": "语言/CSharp/CSharp 语法/文件与流/内存映射.md"
-    },
-    {
-      "basename": "文件流",
-      "path": "语言/CSharp/CSharp 语法/文件与流/文件流.md"
-    },
-    {
-      "basename": "文件监视",
-      "path": "语言/CSharp/CSharp 语法/文件与流/文件监视.md"
-    },
-    {
-      "basename": "压缩文件流",
-      "path": "语言/CSharp/CSharp 语法/文件与流/压缩文件流.md"
-    },
-    {
-      "basename": "委托",
-      "path": "语言/CSharp/CSharp 语法/委托.md"
-    },
-    {
-      "basename": "异常处理",
-      "path": "语言/CSharp/CSharp 语法/异常处理.md"
-    },
-    {
-      "basename": "命名空间",
-      "path": "语言/CSharp/CSharp 语法/命名空间.md"
-    },
-    {
-      "basename": "动态类型",
-      "path": "语言/CSharp/CSharp 语法/类型/动态类型.md"
-    },
-    {
-      "basename": "枚举",
-      "path": "语言/CSharp/CSharp 语法/类型/枚举.md"
-    },
-    {
-      "basename": "字符串",
-      "path": "语言/CSharp/CSharp 语法/类型/字符串.md"
-    },
-    {
-      "basename": "类型转换",
-      "path": "语言/CSharp/CSharp 语法/类型/类型转换.md"
-    },
-    {
-      "basename": "接口",
-      "path": "语言/CSharp/CSharp 语法/类型/接口.md"
-    },
-    {
-      "basename": "Spring",
-      "path": "库/Java/Spring/Spring/Spring.md"
-    },
-    {
-      "basename": "Spring Security 保护应用程序",
-      "path": "库/Java/Spring/Spring/Spring Security 保护应用程序/Spring Security 保护应用程序.md"
     }
   ],
   "omittedPaths": []

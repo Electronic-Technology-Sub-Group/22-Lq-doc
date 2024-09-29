@@ -212,11 +212,11 @@
   "库/Python/数学分析相关库.md": "RiSortNumberAsc",
   "工具/Vue/Vite": "SiVite",
   "工具/Vue/Vite/Vite.md": "SiVite",
-  "库/Java/Spring/Spring": "SiSpring",
   "库/Java/Spring": "SiSpring",
   "库/Java/Spring/Spring Cloud": "SiSpring",
   "库/Java/Lombok.md": "ApLombok",
   "库/JS与CSS/Vue": "SiVuedotjs",
   "库/JS与CSS/Vue/ElementPlus": "ApElementPlus",
-  "语言/CSS/Sass": "SiSass"
+  "语言/CSS/Sass": "SiSass",
+  "库/Java/Spring/Spring": "SiSpring"
 }
