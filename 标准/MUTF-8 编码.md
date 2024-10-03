@@ -6,4 +6,4 @@
 	- `0x0001 0000-0x0010 FFFF`：四字节，`0xXXXXXXXX` -> `11110XXX 10XXXXXX 10XXXXXX 10XXXXXX`
 
 例：机 `0b 0110 011100 111010`
-![[常量池 2024-08-01 14.04.58.excalidraw]]
+![[../_resources/images/常量池 2024-08-01 14.04.58.excalidraw]]

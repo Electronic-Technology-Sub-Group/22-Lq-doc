@@ -44,7 +44,7 @@ Doing job:coding
 >>>> end intercept
 ```
 
-![[cglib 2024-08-02 23.21.58.excalidraw]]
+![[../../../../_resources/images/cglib 2024-08-02 23.21.58.excalidraw]]
 cglib 通过生成子类方式产生动态代理，可以通过设置将生成的类保存到磁盘中
 
 ```java

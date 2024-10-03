@@ -1,6 +1,6 @@
 Docker Swarm 是 Docker 官方集群管理工具，将 Docker 主机池转变为单个虚拟 Docker 主机，通过一个入口统一管理这些 Docker 主机的资源。
 
-![[Docker Swarm 2024-08-06 22.59.01.excalidraw]]
+![[../../_resources/images/Docker Swarm 2024-08-06 22.59.01.excalidraw]]
 
 * Swarm：SwarmKit，嵌入 Docker 引擎的集群管理和编排工具
 * Node：Docker 引擎集群的一个实例，可被视为 Docker 节点
@@ -9,10 +9,10 @@ Docker Swarm 是 Docker 官方集群管理工具，将 Docker 主机池转变为
 * Service：任务的定义，是群体系统的中心结构，是用户与群体交互的主要根源，通过 `docker service ls`  查看
 * Task：运行在工作节点上的容器，或容器包含的应用，是集群中调度的最小单元
 
-![[Docker Swarm 2024-08-06 23.00.03.excalidraw]]
+![[../../_resources/images/Docker Swarm 2024-08-06 23.00.03.excalidraw]]
 # 工作流
 
-‍![[Docker Swarm 2024-08-06 23.02.18.excalidraw]]
+‍![[../../_resources/images/Docker Swarm 2024-08-06 23.02.18.excalidraw]]
 Swarm manager：
 * API：创建对象 - 接收命令并创建 Service 对象
 * Orchestrator：服务编排 - 为 Service 对象创建的任务进行编排

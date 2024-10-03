@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
-      "SiSass",
-      "ApElementPlus",
-      "ApLombok",
-      "SiSpring",
-      "SiVite"
+      "SiPowershell",
+      "‼",
+      "RiH2",
+      "LiDatabase",
+      "SiSass"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -57,7 +57,6 @@
   "工具/Linux/关闭默认钥匙环密码.md": "SiLinux",
   "工具/Linux/极路由获取永久root权限.md": "ApGee",
   "工具/Linux/Alibaba Cloud Linux 安装 MySql.md": "SiAlibabacloud",
-  "工具/MySQL 8.0": "SiMysql",
   "工具/Node.js": "SiNodedotjs",
   "工具/Node.js/NPM 常用命令.md": "SiNpm",
   "工具/Node.js/webpack.md": "SiWebpack",
@@ -156,7 +155,6 @@
     "iconName": "SiGradle"
   },
   "工具/编译器/Maven.md": "SiApachemaven",
-  "工具/PostgreSQL.md": "SiPostgresql",
   "工具/Android/a2dp.md": "LiBluetooth",
   "工具/编译器/GNUMake/GNUMake.md": "SiMake",
   "工具/编译器/GNUMake": "SiMake",
@@ -174,7 +172,6 @@
   "工具/依赖版本管理/Java.md": "RiJavaFill",
   "工具/包管理器/Pacman.md": "SiArchlinux",
   "库/Java/Jackson.md": "SiJson",
-  "工具/序列号.md": "RiAppsLine",
   "语言/Go": "SiGo",
   "语言/Go/Go 语法": "SiGo",
   "工具/ffmpeg.md": "SiFfmpeg",
@@ -218,5 +215,12 @@
   "库/JS与CSS/Vue": "SiVuedotjs",
   "库/JS与CSS/Vue/ElementPlus": "ApElementPlus",
   "语言/CSS/Sass": "SiSass",
-  "库/Java/Spring/Spring": "SiSpring"
+  "库/Java/Spring/Spring": "SiSpring",
+  "工具/数据库": "LiDatabase",
+  "工具/数据库/MySQL 8.0": "SiMysql",
+  "工具/数据库/PostgreSQL.md": "SiPostgresql",
+  "工具/数据库/H2.md": "RiH2",
+  "工具/激活与注册": "‼",
+  "工具/激活与注册/序列号.md": "RiAppsLine",
+  "工具/激活与注册/KMS 激活.md": "SiPowershell"
 }

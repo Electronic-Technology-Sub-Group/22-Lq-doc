@@ -8,7 +8,7 @@ Android 设备多使用 ARM 结构，采用基于寄存器的虚拟机。Android
 
 通过 `dx` 工具可以将 `.class` 文件编译为 `.dex` 文件。与 `.class` 文件不同，Android 将所有源代码文件都编译进一个 `dex` 文件中，且默认使用小端字节序存储。
 
-![[字节码 2024-08-03 15.41.53.excalidraw]]
+![[../../../_resources/images/字节码 2024-08-03 15.41.53.excalidraw]]
 
 ```
 struct dex {
@@ -231,7 +231,7 @@ foo:(II)I
   return v0
 ```
 ````
-![[字节码 2024-08-03 15.47.30.excalidraw]]
+![[../../../_resources/images/字节码 2024-08-03 15.47.30.excalidraw]]
 ## 条件跳转
 
 ```java

@@ -222,7 +222,7 @@ public static int chooseNear(int i) {
 ```
 ````
 `````
-![[JVM 字节码 2024-08-01 17.59.13.excalidraw]]
+![[../../../_resources/images/JVM 字节码 2024-08-01 17.59.13.excalidraw]]
 * 断层的 switch：当 case 值比较分散时，switch 采用 `lookupswitch` 的形式，并使用二分查找的方式进行搜索，时间复杂度 $O(\log n)$
 
 `````col
@@ -286,7 +286,7 @@ public static int test(String name) {
 }
 ```
 
-![[JVM 字节码 2024-08-01 18.16.09.excalidraw]]
+![[../../../_resources/images/JVM 字节码 2024-08-01 18.16.09.excalidraw]]
 当发生哈希冲突时等效代码如下：
 
 `````col
@@ -401,7 +401,7 @@ public void test() {
 ```
 ````
 `````
-![[JVM 字节码 2024-08-01 22.34.32.excalidraw]]
+![[../../../_resources/images/JVM 字节码 2024-08-01 22.34.32.excalidraw]]
 与普通的 try-catch 块相比，虚拟机在进入 `finally` 块前将 `return` 结果进行缓存，因此 `finally` 块不影响返回值。
 
 `````col

@@ -1,8 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "hello world",
-      "path": "库/Java/Spring/Spring Cloud/hello world.md"
+      "basename": "每日任务",
+      "path": "个人笔记/每日任务.md"
+    },
+    {
+      "basename": "服务网关",
+      "path": "库/Java/Spring/Spring Cloud/服务网关.md"
+    },
+    {
+      "basename": "服务网关 2024-10-03 23.38.33.excalidraw",
+      "path": "_resources/images/服务网关 2024-10-03 23.38.33.excalidraw.md"
     },
     {
       "basename": "Spring Cloud",
@@ -13,8 +21,128 @@
       "path": "库/Java/Spring/Spring Cloud/Spring Cloud 子项目.md"
     },
     {
-      "basename": "每日任务",
-      "path": "个人笔记/每日任务.md"
+      "basename": "微服务容错",
+      "path": "库/Java/Spring/Spring Cloud/微服务容错.md"
+    },
+    {
+      "basename": "服务治理与负载均衡",
+      "path": "库/Java/Spring/Spring Cloud/服务治理与负载均衡/服务治理与负载均衡.md"
+    },
+    {
+      "basename": "客户端负载均衡 LoadBalancer",
+      "path": "库/Java/Spring/Spring Cloud/服务治理与负载均衡/客户端负载均衡 LoadBalancer.md"
+    },
+    {
+      "basename": "服务治理 Eureka",
+      "path": "库/Java/Spring/Spring Cloud/服务治理与负载均衡/服务治理 Eureka.md"
+    },
+    {
+      "basename": "服务调用 Feign",
+      "path": "库/Java/Spring/Spring Cloud/服务治理与负载均衡/服务调用 Feign.md"
+    },
+    {
+      "basename": "Dubbo",
+      "path": "语言/Class 字节码/《深入理解 JVM 字节码》/字节码应用/Dubbo.md"
+    },
+    {
+      "basename": "服务健康监控 Actuator",
+      "path": "库/Java/Spring/Spring Cloud/服务治理与负载均衡/服务健康监控 Actuator.md"
+    },
+    {
+      "basename": "异构服务 Sidecar",
+      "path": "库/Java/Spring/Spring Cloud/服务治理与负载均衡/异构服务 Sidecar.md"
+    },
+    {
+      "basename": "hello world",
+      "path": "库/Java/Spring/Spring Cloud/hello world.md"
+    },
+    {
+      "basename": "服务治理 Eureka 2024-10-02 12.10.10.excalidraw",
+      "path": "_resources/images/服务治理 Eureka 2024-10-02 12.10.10.excalidraw.md"
+    },
+    {
+      "basename": "客户端负载均衡 Ribbon 2024-10-01 18.59.23.excalidraw",
+      "path": "_resources/images/客户端负载均衡 Ribbon 2024-10-01 18.59.23.excalidraw.md"
+    },
+    {
+      "basename": "客户端负载均衡 Ribbon 2024-10-01 18.52.09.excalidraw",
+      "path": "_resources/images/客户端负载均衡 Ribbon 2024-10-01 18.52.09.excalidraw.md"
+    },
+    {
+      "basename": "客户端负载均衡 Ribbon 2024-10-01 18.49.37.excalidraw",
+      "path": "_resources/images/客户端负载均衡 Ribbon 2024-10-01 18.49.37.excalidraw.md"
+    },
+    {
+      "basename": "KMS 激活",
+      "path": "工具/激活与注册/KMS 激活.md"
+    },
+    {
+      "basename": "序列号",
+      "path": "工具/激活与注册/序列号.md"
+    },
+    {
+      "basename": "服务治理 Eureka 2024-10-01 17.53.13.excalidraw",
+      "path": "_resources/images/服务治理 Eureka 2024-10-01 17.53.13.excalidraw.md"
+    },
+    {
+      "basename": "Multi-Column Markdown",
+      "path": "工具/Obsidian/插件/Multi-Column Markdown.md"
+    },
+    {
+      "basename": "Obsidian Columns",
+      "path": "工具/Obsidian/插件/Obsidian Columns.md"
+    },
+    {
+      "basename": "Minitabs",
+      "path": "工具/Obsidian/插件/Minitabs.md"
+    },
+    {
+      "basename": "Tabs",
+      "path": "工具/Obsidian/插件/Tabs.md"
+    },
+    {
+      "basename": "Embed Code File",
+      "path": "工具/Obsidian/插件/Embed Code File.md"
+    },
+    {
+      "basename": "components-20240311173710-o6zuhj3",
+      "path": "_resources/images/components-20240311173710-o6zuhj3.png"
+    },
+    {
+      "basename": "Docker Swarm 2024-08-06 22.59.01.excalidraw",
+      "path": "_resources/images/Docker Swarm 2024-08-06 22.59.01.excalidraw.md"
+    },
+    {
+      "basename": "网络模式 2024-08-06 22.32.32.excalidraw",
+      "path": "_resources/images/网络模式 2024-08-06 22.32.32.excalidraw.md"
+    },
+    {
+      "basename": "常量池 2024-08-01 14.04.58.excalidraw",
+      "path": "_resources/images/常量池 2024-08-01 14.04.58.excalidraw.md"
+    },
+    {
+      "basename": "并发模式 2024-09-15 20.51.58.excalidraw",
+      "path": "_resources/images/并发模式 2024-09-15 20.51.58.excalidraw.md"
+    },
+    {
+      "basename": "并发模式 2024-09-15 19.37.56.excalidraw",
+      "path": "_resources/images/并发模式 2024-09-15 19.37.56.excalidraw.md"
+    },
+    {
+      "basename": "插件化注解 2024-08-02 22.25.55.excalidraw",
+      "path": "_resources/images/插件化注解 2024-08-02 22.25.55.excalidraw.md"
+    },
+    {
+      "basename": "PostgreSQL",
+      "path": "工具/数据库/PostgreSQL.md"
+    },
+    {
+      "basename": "H2",
+      "path": "工具/数据库/H2.md"
+    },
+    {
+      "basename": "PyInstaller",
+      "path": "工具/PyInstaller.md"
     },
     {
       "basename": "Spring Cloud 2024-09-29 14.20.10.excalidraw",
@@ -71,134 +199,6 @@
     {
       "basename": "使用 Hibernate 框架",
       "path": "库/Java/Spring/Spring/数据库交互/Spring JDBC/使用 Hibernate 框架.md"
-    },
-    {
-      "basename": "Spring JDBC",
-      "path": "库/Java/Spring/Spring/数据库交互/Spring JDBC/Spring JDBC.md"
-    },
-    {
-      "basename": "数据库交互",
-      "path": "库/Java/Spring/Spring/数据库交互/数据库交互.md"
-    },
-    {
-      "basename": "Spring",
-      "path": "库/Java/Spring/Spring/Spring.md"
-    },
-    {
-      "basename": "Thymeleaf",
-      "path": "库/Java/Thymeleaf/Thymeleaf.md"
-    },
-    {
-      "basename": "Spring boot 多数据库源配置",
-      "path": "库/Java/Spring/Spring/数据库交互/Spring boot 多数据库源配置.md"
-    },
-    {
-      "basename": "Spring Data MongoDB",
-      "path": "库/Java/Spring/Spring/数据库交互/Spring Data/Spring Data MongoDB.md"
-    },
-    {
-      "basename": "Querydsl",
-      "path": "库/Java/Spring/Spring/数据库交互/Spring Data/Querydsl.md"
-    },
-    {
-      "basename": "配置 Spring Data JPA",
-      "path": "库/Java/Spring/Spring/数据库交互/Spring Data/配置 Spring Data JPA.md"
-    },
-    {
-      "basename": "Spring Data",
-      "path": "库/Java/Spring/Spring/数据库交互/Spring Data/Spring Data.md"
-    },
-    {
-      "basename": "Repository SQL 方法",
-      "path": "库/Java/Spring/Spring/数据库交互/Spring Data/Repository SQL 方法/Repository SQL 方法.md"
-    },
-    {
-      "basename": "注解驱动开发",
-      "path": "库/Java/Spring/Spring/注解驱动开发/注解驱动开发.md"
-    },
-    {
-      "basename": "依赖注入",
-      "path": "库/Java/Spring/Spring/依赖注入/依赖注入.md"
-    },
-    {
-      "basename": "IoC 容器",
-      "path": "库/Java/Spring/Spring/IoC 容器/IoC 容器.md"
-    },
-    {
-      "basename": "语法",
-      "path": "语言/CSS/Sass/语法.md"
-    },
-    {
-      "basename": "级联",
-      "path": "语言/CSS/Sass/级联.md"
-    },
-    {
-      "basename": "混合",
-      "path": "语言/CSS/Sass/混合.md"
-    },
-    {
-      "basename": "集合",
-      "path": "语言/CSharp/CSharp 语法/类型/集合.md"
-    },
-    {
-      "basename": "ECharts",
-      "path": "库/JS与CSS/ECharts.md"
-    },
-    {
-      "basename": "Vue UI 组件库",
-      "path": "库/JS与CSS/Vue/Vue UI 组件库.md"
-    },
-    {
-      "basename": "mutations 与 actions",
-      "path": "库/JS与CSS/Vue/Vue3/Vuex/mutations 与 actions.md"
-    },
-    {
-      "basename": "modules",
-      "path": "库/JS与CSS/Vue/Vue3/Vuex/modules.md"
-    },
-    {
-      "basename": "Vuex",
-      "path": "库/JS与CSS/Vue/Vue3/Vuex/Vuex.md"
-    },
-    {
-      "basename": "SvgIcon 图标组件",
-      "path": "库/JS与CSS/Vue/SvgIcon 图标组件.md"
-    },
-    {
-      "basename": "Lombok",
-      "path": "库/Java/Lombok.md"
-    },
-    {
-      "basename": "Manifold",
-      "path": "库/Java/Manifold.md"
-    },
-    {
-      "basename": "组合式 API",
-      "path": "库/JS与CSS/Vue/Vue3/组合式 API/组合式 API.md"
-    },
-    {
-      "basename": "ReactiveX",
-      "path": "库/ReactiveX.md"
-    },
-    {
-      "basename": "JUnit 5",
-      "path": "库/Java/JUnit 5.md"
-    },
-    {
-      "basename": "命名路由",
-      "path": "库/JS与CSS/Vue/Vue3/Vue Router/命名路由.md"
-    },
-    {
-      "basename": "编程式导航",
-      "path": "库/JS与CSS/Vue/Vue3/Vue Router/编程式导航.md"
-    },
-    {
-      "basename": "CSharp 7 更新记录",
-      "path": "语言/CSharp/更新记录/CSharp 7 更新记录.md"
-    },
-    {
-      "basename": "元组",
-      "path": "语言/CSharp/CSharp 语法/类型/元组.md"
     }
   ],
   "omittedPaths": []

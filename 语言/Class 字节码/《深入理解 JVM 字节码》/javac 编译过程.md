@@ -1,6 +1,6 @@
 java 编译分为前端编译和后端编译，javac 负责前端编译。
 
-![[javac 编译过程 2024-08-02 08.03.34.excalidraw]]
+![[../../../_resources/images/javac 编译过程 2024-08-02 08.03.34.excalidraw]]
 
 `javac` 本身由 Java 编写，没有 YACC、Lex 等生成工具，代码精简高效。
 
@@ -58,7 +58,7 @@ token.identifier
 
 词法分析后是语法分析（`syntax analyze`），在词法分析的基础上分析记号之间的关系，构造抽象语法树（`AST`，`Abstract Syntax Tree`）。AST 的每个节点是一个语法单元，是后面语义分析、语法校验、代码生成的基础。
 
-![[javac 编译过程 2024-08-02 08.12.39.excalidraw]]
+![[../../../_resources/images/javac 编译过程 2024-08-02 08.12.39.excalidraw]]
 # enter 生成符号表
 
 * 解析和填充符号表（`symbol table`）：遍历 AST 信息存储到符号表中，便于快速查询

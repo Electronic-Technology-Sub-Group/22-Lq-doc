@@ -1,6 +1,6 @@
 > [!note] Maven 库：`org.javassist:javassist`
 
-![[Javassist 2024-08-02 22.17.02.excalidraw]]
+![[../../../../_resources/images/Javassist 2024-08-02 22.17.02.excalidraw]]
 
 * 新增方法
 

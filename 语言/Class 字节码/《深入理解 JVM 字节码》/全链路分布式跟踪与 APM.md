@@ -5,7 +5,7 @@
 
 全链路分布式跟踪用于解决微服务出现问题时难以查找问题来源的问题。该技术起于 2005 Google 的 Dapper 设计与实现，每个请求有对应的 TraceID(一次用户请求，所有链路上子过程节点共用)，SpanID(一次处理过程)，ParentID(父节点) 完成对一次访问服务的追踪。
 
-![[全链路分布式跟踪与 APM 2024-08-03 15.26.57.excalidraw]]
+![[../../../_resources/images/全链路分布式跟踪与 APM 2024-08-03 15.26.57.excalidraw]]
 
 Dapper 促生了多个开源实现，后来出现了原生计算基金会（Cloud Native Computing Foundation，CNCF），创建了 OpenTracing 规范，定义了一套通用接口。
 

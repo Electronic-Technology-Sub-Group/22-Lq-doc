@@ -41,7 +41,7 @@ public static void premain(String agentArgument, Instrumentation instrumentation
 * `agentArgument`：`Agent` 启动参数
 * `instrumentation`：`Instrumentation` 对象
 
-![[Java Instrumentation 2024-08-02 22.21.09.excalidraw]]
+![[../../../_resources/images/Java Instrumentation 2024-08-02 22.21.09.excalidraw]]
 # JVM Attach API
 
 从 JDK 6 开始，JVM 支持动态 Attach Agent，可在 JVM 启动后在任意时刻远程加载 Agent Jar 包，底层主要依赖于信号和 Unix 域套接字。

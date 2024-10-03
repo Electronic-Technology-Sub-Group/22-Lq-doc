@@ -1,57 +1,21 @@
 {
   "main": {
-    "id": "0880c97603515ecb",
+    "id": "5324373015726ba8",
     "type": "split",
     "children": [
       {
-        "id": "fa8e2059089763c3",
+        "id": "a70fd690d17f0fee",
         "type": "tabs",
         "children": [
           {
-            "id": "ab84dd99e79fc732",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "个人笔记/每日任务.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "787dfbde7767a977",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "库/Java/Spring/Spring Cloud/Spring Cloud.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "d1747d7b5e6a3fd8",
+            "id": "be324b6b911c7230",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "库/Java/Spring/Spring Cloud/hello world.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -80,7 +44,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "REST",
+                "query": "UserServiceFallback",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -109,8 +73,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 285.51103591918945,
-    "collapsed": true
+    "width": 285.51103591918945
   },
   "right": {
     "id": "2f5d582e60864eba",
@@ -126,7 +89,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "库/Java/Spring/Spring Cloud/hello world.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +105,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "库/Java/Spring/Spring Cloud/hello world.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -165,9 +126,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "库/Java/Spring/Spring Cloud/hello world.md"
-              }
+              "state": {}
             }
           },
           {
@@ -215,20 +174,27 @@
             }
           },
           {
-            "id": "c0d35d75d2b050d2",
+            "id": "e87d85eef5f24664",
             "type": "leaf",
             "state": {
               "type": "review-queue-list-view",
               "state": {}
             }
+          },
+          {
+            "id": "e3a46f844993a3d2",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 9
+        "currentTab": 10
       }
     ],
     "direction": "horizontal",
-    "width": 278.5,
-    "collapsed": true
+    "width": 278.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -253,53 +219,53 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "d1747d7b5e6a3fd8",
+  "active": "be324b6b911c7230",
   "lastOpenFiles": [
-    "库/Java/Spring/Spring Cloud/Spring Cloud.md",
-    "库/Java/Spring/Spring Cloud/hello world.md",
-    "_resources/codes/spring-cloud/helloworld-service-discovery/target/generated-sources/annotations",
-    "_resources/codes/spring-cloud/helloworld-service-discovery/target/generated-sources",
-    "_resources/codes/spring-cloud/helloworld-service-discovery/target/classes/com/example/helloworldservicediscovery/HelloworldServiceDiscoveryApplication.class",
-    "_resources/codes/spring-cloud/helloworld-service-discovery/target/classes/com/example/helloworldservicediscovery",
-    "_resources/codes/spring-cloud/helloworld-service-discovery/target/classes/com/example",
-    "_resources/codes/spring-cloud/helloworld-service-discovery/target/classes/com",
-    "_resources/codes/spring-cloud/helloworld-service-discovery/target/classes/application.properties",
-    "_resources/codes/spring-cloud/helloworld-service-discovery/target/classes",
-    "_resources/codes/spring-cloud/helloworld-service-discovery/target",
-    "_resources/codes/spring-cloud/helloworld-service-discovery/mvnw.cmd",
-    "_resources/codes/spring-cloud/helloworld-service-discovery/HELP.md",
-    "_resources/codes/spring-cloud/helloworld-service-consumer/HELP.md",
-    "_resources/codes/spring-cloud/helloworld-service-provider/HELP.md",
-    "库/Java/Spring/Spring Cloud/Spring Cloud 子项目.md",
     "个人笔记/每日任务.md",
-    "_resources/images/Spring Cloud 2024-09-29 14.20.10.excalidraw.md",
-    "工具/Jetbrains/Jetbrains 控制台乱码.md",
-    "标准/RESTful.md",
-    "标准/HTTP.md",
-    "标准/标准.md",
-    "库/Java/Spring/Spring Boot/扩展配置.md",
-    "库/Java/Spring/Spring Boot/自动配置.md",
-    "Web剪辑/Local Rest API for Obsidian Interactive API Documentation.md",
-    "工具/Obsidian/插件/Local REST API.md",
-    "_resources/images/20240928_213_Obsidian.png",
-    "_resources/_resources.md",
-    "Web/2. 运行与部署  Obcsapi.md",
-    "网页剪辑/Obsidian Web Clipper Test Note.md",
-    "在 Microsoft Edge 中安全地浏览 Web - Microsoft 支持.md",
-    "语言/Java/Jigsaw 模块/打破封装.md",
-    "语言/Class 字节码/《深入理解 JVM 字节码》/字节码应用/cglib.md",
-    "网页剪辑/desafd.md",
-    "个人笔记/未命名.md",
-    "个人笔记/流量卡绑定应用.md",
-    "_resources/codes/node.js/webpack/loaders/images/test.jpg",
-    "_resources/codes/Vue/Vue3/hellovue/images/ok.gif",
-    "_resources/codes/Meta Bind/exampleVault/Other/Images/subfolder/img_frozen_branch.jpg",
-    "_resources/codes/Meta Bind/exampleVault/Other/Images/img_drops.jpg",
-    "_resources/codes/Meta Bind/exampleVault/Other/Images/img_butterfly.webp",
+    "库/Java/Spring/Spring Cloud/服务网关.md",
+    "_resources/codes/spring-cloud/shopping-product-service-resttemplate/src/main/java/com/example/shopping/api/BC4E110.tmp",
+    "_resources/images/服务网关 2024-10-03 23.38.33.excalidraw.md",
+    "库/Java/Spring/Spring Cloud/Spring Cloud.md",
+    "库/Java/Spring/Spring Cloud/Spring Cloud 子项目.md",
+    "库/Java/Spring/Spring Cloud/微服务容错.md",
+    "库/Java/Spring/Spring Cloud/服务治理与负载均衡/服务治理与负载均衡.md",
+    "库/Java/Spring/Spring Cloud/服务治理与负载均衡/客户端负载均衡 LoadBalancer.md",
+    "库/Java/Spring/Spring Cloud/服务治理与负载均衡/服务治理 Eureka.md",
+    "库/Java/Spring/Spring Cloud/服务治理与负载均衡/服务调用 Feign.md",
+    "语言/Class 字节码/《深入理解 JVM 字节码》/字节码应用/Dubbo.md",
+    "_resources/codes/spring-cloud/shopping-product-service/src/main/java/com/example/shopping/service/UserServiceFallback.java",
+    "_resources/codes/spring-cloud/shopping-product-service/src/main/resources/BC435A1.tmp",
+    "_resources/codes/spring-cloud/shopping-product-service/src/main/java/com/example/shopping/config/CircuitBreakerConfiguration.java",
+    "_resources/codes/spring-cloud/shopping-product-service/src/main/java/com/example/shopping/config",
+    "_resources/codes/spring-cloud/shopping-product-service-resttemplate/src/main/java/com/example/shopping/config/CircuitBreakerConfiguration.java",
+    "_resources/codes/spring-cloud/shopping-product-service-resttemplate/src/main/java/com/example/shopping/config",
+    "库/Java/Spring/Spring Cloud/服务治理与负载均衡/服务健康监控 Actuator.md",
+    "库/Java/Spring/Spring Cloud/服务治理与负载均衡/异构服务 Sidecar.md",
+    "_resources/codes/spring-cloud/shopping-user-api/src/main/java/com/example/shopping/api/UserService.java",
+    "_resources/codes/spring-cloud/shopping-user-api/src/main/java/com/example/shopping/dto/UserDto.java",
+    "_resources/codes/spring-cloud/shopping-user-api/target/classes/com/example/shopping/dto/UserDto.class",
+    "_resources/codes/spring-cloud/shopping-user-api/HELP.md",
+    "_resources/codes/spring-cloud/shopping-service-discovery/HELP.md",
+    "_resources/codes/spring-cloud/shopping-product-service/HELP.md",
+    "_resources/codes/spring-cloud/shopping-user-service/HELP.md",
+    "库/Java/Spring/Spring Cloud/hello world.md",
+    "_resources/images/服务治理 Eureka 2024-10-02 12.10.10.excalidraw.md",
+    "库/Java/Spring/Spring Cloud/服务治理与负载均衡/Eureka 2.md",
+    "_resources/codes/spring-cloud/shopping-product-service-resttemplate/HELP.md",
+    "_resources/images/Pasted image 20241001231721.png",
+    "_resources/images/Pasted image 20241001231313.png",
+    "_resources/images/Pasted image 20241001231206.png",
+    "_resources/images/客户端负载均衡 Ribbon 2024-10-01 18.59.23.excalidraw.md",
+    "_resources/images/客户端负载均衡 Ribbon 2024-10-01 18.52.09.excalidraw.md",
+    "_resources/images/客户端负载均衡 Ribbon 2024-10-01 18.49.37.excalidraw.md",
+    "工具/激活与注册/KMS 激活.md",
+    "_resources/images/00A8F200.png",
+    "_resources/images/20241001_217_msedge.png",
+    "_resources/images/20241001_216_msedge.png",
+    "_resources/images/20241001_215_msedge.png",
+    "_resources/images/20241001_214_msedge.png",
+    "_resources/images/components-20240311173710-o6zuhj3.png",
     "_resources/documents/img/ext[d3-shape]rounded-circular-sector.png",
-    "_resources/images/20240924_209_chrome.gif",
-    "_resources/images/Pasted image 20240922140256.png",
-    "_resources/images/Pasted image 20240921155458.png",
     "语言/C Cpp/C++更新图.canvas",
     "语言/C Cpp/C++ 语法/C++ 语法.canvas",
     "语言/Class 字节码/Untitled.canvas",

@@ -1,6 +1,6 @@
 ASM API 分为基于事件触发的 Core API 和基于对象操作的 Tree API，可类比 XML 解析的 SAX 和 DOM 解析。核心是 Core API
 
-![[ASM 2024-08-02 11.12.29.excalidraw]]
+![[../../../../_resources/images/ASM 2024-08-02 11.12.29.excalidraw]]
 
 `asm-commons` 则提供了一系列辅助类和方法，如 AdviceAdapter 可以更方便的修改函数
 # CoreAPI

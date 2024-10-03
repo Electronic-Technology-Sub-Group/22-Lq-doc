@@ -1,4 +1,4 @@
-![[Drawing 2024-08-06 22.15.21.excalidraw]]
+![[../../_resources/images/Drawing 2024-08-06 22.15.21.excalidraw]]
 
 `Docker` 是一种轻量级虚拟化技术。相比传统虚拟化技术或虚拟机来说，特点有：
 * 轻量，高效：由 Docker 引擎负责调度和隔离，不需要每个容器运行一个系统
