@@ -63,24 +63,24 @@ LINES: "12,20-21,27-28,35-36,42-43,44"
 tab: User 服务
 
 ```embed-xml
-PATH: "vault://_resources/codes/spring-cloud/shopping-user-service/pom.xml"
+PATH: "vault://_resources/codes/spring-cloud/shopping-user-service-before6.3.2/pom.xml"
 LINES: "63-67"
 ```
 
 ```embed-java
-PATH: "vault://_resources/codes/spring-cloud/shopping-user-service/src/main/java/com/example/shopping/api/UserEndpoint.java"
+PATH: "vault://_resources/codes/spring-cloud/shopping-user-service-before6.3.2/src/main/java/com/example/shopping/api/UserEndpoint.java"
 LINES: "14-18,47"
 ```
 
 tab: Product 服务
 
 ```embed-xml
-PATH: "vault://_resources/codes/spring-cloud/shopping-product-service/pom.xml"
+PATH: "vault://_resources/codes/spring-cloud/shopping-product-service-before6.3.2/pom.xml"
 LINES: "80-84"
 ```
 
 ```embed-java
-PATH: "vault://_resources/codes/spring-cloud/shopping-product-service/src/main/java/com/example/shopping/service/UserService.java"
-LINES: "9-11"
+PATH: "vault://_resources/codes/spring-cloud/shopping-product-service-before6.3.2/src/main/java/com/example/shopping/service/UserService.java"
+LINES: "5-7"
 ```
 ````

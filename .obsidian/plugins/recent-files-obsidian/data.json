@@ -1,12 +1,36 @@
 {
   "recentFiles": [
     {
+      "basename": "服务网关",
+      "path": "库/Java/Spring/Spring Cloud/服务网关.md"
+    },
+    {
+      "basename": "服务治理 Eureka",
+      "path": "库/Java/Spring/Spring Cloud/服务治理与负载均衡/服务治理 Eureka.md"
+    },
+    {
+      "basename": "微服务容错",
+      "path": "库/Java/Spring/Spring Cloud/微服务容错.md"
+    },
+    {
+      "basename": "服务调用 Feign",
+      "path": "库/Java/Spring/Spring Cloud/服务治理与负载均衡/服务调用 Feign.md"
+    },
+    {
+      "basename": "服务治理与负载均衡",
+      "path": "库/Java/Spring/Spring Cloud/服务治理与负载均衡/服务治理与负载均衡.md"
+    },
+    {
       "basename": "每日任务",
       "path": "个人笔记/每日任务.md"
     },
     {
-      "basename": "服务网关",
-      "path": "库/Java/Spring/Spring Cloud/服务网关.md"
+      "basename": "全形字",
+      "path": "标准/全形字.md"
+    },
+    {
+      "basename": "Spring Cloud 子项目",
+      "path": "库/Java/Spring/Spring Cloud/Spring Cloud 子项目.md"
     },
     {
       "basename": "服务网关 2024-10-03 23.38.33.excalidraw",
@@ -17,28 +41,8 @@
       "path": "库/Java/Spring/Spring Cloud/Spring Cloud.md"
     },
     {
-      "basename": "Spring Cloud 子项目",
-      "path": "库/Java/Spring/Spring Cloud/Spring Cloud 子项目.md"
-    },
-    {
-      "basename": "微服务容错",
-      "path": "库/Java/Spring/Spring Cloud/微服务容错.md"
-    },
-    {
-      "basename": "服务治理与负载均衡",
-      "path": "库/Java/Spring/Spring Cloud/服务治理与负载均衡/服务治理与负载均衡.md"
-    },
-    {
       "basename": "客户端负载均衡 LoadBalancer",
       "path": "库/Java/Spring/Spring Cloud/服务治理与负载均衡/客户端负载均衡 LoadBalancer.md"
-    },
-    {
-      "basename": "服务治理 Eureka",
-      "path": "库/Java/Spring/Spring Cloud/服务治理与负载均衡/服务治理 Eureka.md"
-    },
-    {
-      "basename": "服务调用 Feign",
-      "path": "库/Java/Spring/Spring Cloud/服务治理与负载均衡/服务调用 Feign.md"
     },
     {
       "basename": "Dubbo",
@@ -195,10 +199,6 @@
     {
       "basename": "Jackson",
       "path": "库/Java/Jackson.md"
-    },
-    {
-      "basename": "使用 Hibernate 框架",
-      "path": "库/Java/Spring/Spring/数据库交互/Spring JDBC/使用 Hibernate 框架.md"
     }
   ],
   "omittedPaths": []
