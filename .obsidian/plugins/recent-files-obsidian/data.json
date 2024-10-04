@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "README",
+      "path": "README.md"
+    },
+    {
       "basename": "服务网关",
       "path": "库/Java/Spring/Spring Cloud/服务网关.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "流量卡绑定应用",
       "path": "个人笔记/流量卡绑定应用.md"
-    },
-    {
-      "basename": "Jackson",
-      "path": "库/Java/Jackson.md"
     }
   ],
   "omittedPaths": []
