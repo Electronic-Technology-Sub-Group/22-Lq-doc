@@ -1,14 +1,16 @@
-用于制作多系统 U 盘的工具，一个 U 盘可以包含多个系统，在[这里](https://www.ventoy.net/cn/download.html)下载。
+用于制作多系统 U 盘的工具，一个 U 盘可以包含多个系统。`Ventoy2Disk.exe` 可以安装或升级 `Ventoy`，`VentoyPlugson.exe` 选择启动用于打开配置页面。
 
-解压后，`Ventoy2Disk.exe` 可以安装或升级 `Ventoy`，`VentoyPlugson.exe` 选择启动用于打开配置页面。
-
-# 配置标签
-
-在配置页各个标签中，第一个不带后缀的是默认配置，`legacy` 、`uefi` 、`ia32` 、`mips` 等可以设定从不同平台启动的差异化配置
-
-通常在第一个标签中设置即可。
+```cardlink
+url: https://www.ventoy.net/cn/download.html
+title: "Ventoy"
+description: "Ventoy is an open source tool to create bootable USB drive for ISO files. With ventoy, you don't need to format the disk again and again, you just need to copy the iso file to the USB drive and boot it."
+host: www.ventoy.net
+favicon: https://www.ventoy.net/favicon.ico
+```
 
 # 配置
+
+在配置页各个标签中，第一个不带后缀的是默认配置，`legacy` 、`uefi` 、`ia32` 、`mips` 等可以设定从不同平台启动的差异化配置
 
 ## 语言
 

@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiGlobe",
+      "LiGitBranch",
+      "LiGitCompareArrows",
       "SiPowershell",
-      "‼",
-      "RiH2",
-      "LiDatabase",
-      "SiSass"
+      "‼"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -222,5 +222,7 @@
   "工具/数据库/H2.md": "RiH2",
   "工具/激活与注册": "‼",
   "工具/激活与注册/序列号.md": "RiAppsLine",
-  "工具/激活与注册/KMS 激活.md": "SiPowershell"
+  "工具/激活与注册/KMS 激活.md": "SiPowershell",
+  "工具/git/BFG Repo-Cleaner.md": "LiGitCompareArrows",
+  "工具/git/设置远程仓库.md": "LiGlobe"
 }

@@ -1,68 +1,128 @@
 {
   "recentFiles": [
     {
-      "basename": "README",
-      "path": "README.md"
-    },
-    {
-      "basename": "服务网关",
-      "path": "库/Java/Spring/Spring Cloud/服务网关.md"
-    },
-    {
-      "basename": "服务治理 Eureka",
-      "path": "库/Java/Spring/Spring Cloud/服务治理与负载均衡/服务治理 Eureka.md"
-    },
-    {
-      "basename": "微服务容错",
-      "path": "库/Java/Spring/Spring Cloud/微服务容错.md"
-    },
-    {
-      "basename": "服务调用 Feign",
-      "path": "库/Java/Spring/Spring Cloud/服务治理与负载均衡/服务调用 Feign.md"
-    },
-    {
-      "basename": "服务治理与负载均衡",
-      "path": "库/Java/Spring/Spring Cloud/服务治理与负载均衡/服务治理与负载均衡.md"
-    },
-    {
       "basename": "每日任务",
       "path": "个人笔记/每日任务.md"
     },
     {
-      "basename": "全形字",
-      "path": "标准/全形字.md"
-    },
-    {
-      "basename": "Spring Cloud 子项目",
-      "path": "库/Java/Spring/Spring Cloud/Spring Cloud 子项目.md"
-    },
-    {
-      "basename": "服务网关 2024-10-03 23.38.33.excalidraw",
-      "path": "_resources/images/服务网关 2024-10-03 23.38.33.excalidraw.md"
+      "basename": "分布式微服务跟踪 Sleuth",
+      "path": "库/Java/Spring/Spring Cloud/分布式微服务跟踪 Sleuth.md"
     },
     {
       "basename": "Spring Cloud",
       "path": "库/Java/Spring/Spring Cloud/Spring Cloud.md"
     },
     {
-      "basename": "客户端负载均衡 LoadBalancer",
-      "path": "库/Java/Spring/Spring Cloud/服务治理与负载均衡/客户端负载均衡 LoadBalancer.md"
+      "basename": "消息驱动",
+      "path": "库/Java/Spring/Spring Cloud/消息驱动.md"
     },
     {
-      "basename": "Dubbo",
-      "path": "语言/Class 字节码/《深入理解 JVM 字节码》/字节码应用/Dubbo.md"
+      "basename": "微服务应用安全 Security",
+      "path": "库/Java/Spring/Spring Cloud/微服务应用安全 Security.md"
     },
     {
-      "basename": "服务健康监控 Actuator",
-      "path": "库/Java/Spring/Spring Cloud/服务治理与负载均衡/服务健康监控 Actuator.md"
+      "basename": "服务网关 Gateway",
+      "path": "库/Java/Spring/Spring Cloud/服务网关 Gateway.md"
+    },
+    {
+      "basename": "Spring Cloud 子项目",
+      "path": "库/Java/Spring/Spring Cloud/Spring Cloud 子项目.md"
+    },
+    {
+      "basename": "微服务容错 Resilience4j",
+      "path": "库/Java/Spring/Spring Cloud/微服务容错 Resilience4j.md"
+    },
+    {
+      "basename": "统一配置中心 Config",
+      "path": "库/Java/Spring/Spring Cloud/统一配置中心 Config.md"
+    },
+    {
+      "basename": "服务治理与负载均衡",
+      "path": "库/Java/Spring/Spring Cloud/服务治理与负载均衡/服务治理与负载均衡.md"
+    },
+    {
+      "basename": "统一配置中心 2024-10-05 20.40.21.excalidraw",
+      "path": "_resources/images/统一配置中心 2024-10-05 20.40.21.excalidraw.md"
+    },
+    {
+      "basename": "服务治理 Eureka",
+      "path": "库/Java/Spring/Spring Cloud/服务治理与负载均衡/服务治理 Eureka.md"
+    },
+    {
+      "basename": "服务调用 Feign",
+      "path": "库/Java/Spring/Spring Cloud/服务治理与负载均衡/服务调用 Feign.md"
+    },
+    {
+      "basename": "统一配置中心 2024-10-05 17.48.27.excalidraw",
+      "path": "_resources/images/统一配置中心 2024-10-05 17.48.27.excalidraw.md"
+    },
+    {
+      "basename": "hello world",
+      "path": "库/Java/Spring/Spring Cloud/hello world.md"
+    },
+    {
+      "basename": "BFG Repo-Cleaner",
+      "path": "工具/git/BFG Repo-Cleaner.md"
+    },
+    {
+      "basename": "AutoX",
+      "path": "工具/AutoX.md"
+    },
+    {
+      "basename": "PlantUML",
+      "path": "工具/PlantUML.md"
+    },
+    {
+      "basename": "Ventoy",
+      "path": "工具/Ventoy.md"
+    },
+    {
+      "basename": "ESLint",
+      "path": "工具/ESLint.md"
+    },
+    {
+      "basename": "ffmpeg",
+      "path": "工具/ffmpeg.md"
+    },
+    {
+      "basename": "JDK 工具",
+      "path": "语言/Java/JDK 工具/JDK 工具.md"
+    },
+    {
+      "basename": "流量卡绑定应用",
+      "path": "个人笔记/private/流量卡绑定应用.md"
+    },
+    {
+      "basename": "github.com port 22 Connection refused",
+      "path": "工具/git/github.com port 22 Connection refused.md"
     },
     {
       "basename": "异构服务 Sidecar",
       "path": "库/Java/Spring/Spring Cloud/服务治理与负载均衡/异构服务 Sidecar.md"
     },
     {
-      "basename": "hello world",
-      "path": "库/Java/Spring/Spring Cloud/hello world.md"
+      "basename": "客户端负载均衡 LoadBalancer",
+      "path": "库/Java/Spring/Spring Cloud/服务治理与负载均衡/客户端负载均衡 LoadBalancer.md"
+    },
+    {
+      "basename": "服务健康监控 Actuator",
+      "path": "库/Java/Spring/Spring Cloud/服务治理与负载均衡/服务健康监控 Actuator.md"
+    },
+    {
+      "basename": "README",
+      "path": "README.md"
+    },
+    {
+      "basename": "全形字",
+      "path": "标准/全形字.md"
+    },
+    {
+      "basename": "服务网关 2024-10-03 23.38.33.excalidraw",
+      "path": "_resources/images/服务网关 2024-10-03 23.38.33.excalidraw.md"
+    },
+    {
+      "basename": "Dubbo",
+      "path": "语言/Class 字节码/《深入理解 JVM 字节码》/字节码应用/Dubbo.md"
     },
     {
       "basename": "服务治理 Eureka 2024-10-02 12.10.10.excalidraw",
@@ -139,66 +199,6 @@
     {
       "basename": "插件化注解 2024-08-02 22.25.55.excalidraw",
       "path": "_resources/images/插件化注解 2024-08-02 22.25.55.excalidraw.md"
-    },
-    {
-      "basename": "PostgreSQL",
-      "path": "工具/数据库/PostgreSQL.md"
-    },
-    {
-      "basename": "H2",
-      "path": "工具/数据库/H2.md"
-    },
-    {
-      "basename": "PyInstaller",
-      "path": "工具/PyInstaller.md"
-    },
-    {
-      "basename": "Spring Cloud 2024-09-29 14.20.10.excalidraw",
-      "path": "_resources/images/Spring Cloud 2024-09-29 14.20.10.excalidraw.md"
-    },
-    {
-      "basename": "RESTful",
-      "path": "标准/RESTful.md"
-    },
-    {
-      "basename": "扩展配置",
-      "path": "库/Java/Spring/Spring Boot/扩展配置.md"
-    },
-    {
-      "basename": "自动配置",
-      "path": "库/Java/Spring/Spring Boot/自动配置.md"
-    },
-    {
-      "basename": "Jetbrains 控制台乱码",
-      "path": "工具/Jetbrains/Jetbrains 控制台乱码.md"
-    },
-    {
-      "basename": "HTTP",
-      "path": "标准/HTTP.md"
-    },
-    {
-      "basename": "标准",
-      "path": "标准/标准.md"
-    },
-    {
-      "basename": "Local REST API",
-      "path": "工具/Obsidian/插件/Local REST API.md"
-    },
-    {
-      "basename": "_resources",
-      "path": "_resources/_resources.md"
-    },
-    {
-      "basename": "打破封装",
-      "path": "语言/Java/Jigsaw 模块/打破封装.md"
-    },
-    {
-      "basename": "cglib",
-      "path": "语言/Class 字节码/《深入理解 JVM 字节码》/字节码应用/cglib.md"
-    },
-    {
-      "basename": "流量卡绑定应用",
-      "path": "个人笔记/流量卡绑定应用.md"
     }
   ],
   "omittedPaths": []

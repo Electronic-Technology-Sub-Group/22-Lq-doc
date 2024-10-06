@@ -25,7 +25,7 @@ eureka.client.service-url.defaultZone=http://localhost:8260/eureka
 实现 Spring 主类
 
 ```reference hl:9
-file: "@/_resources/codes/spring-cloud/shopping-service-discovery-before4.7/src/main/java/com/example/shopping/ShoppingServiceDiscovery.java"
+file: "@/_resources/codes/spring-cloud/shopping-service-discovery/src/main/java/com/example/shopping/ShoppingServiceDiscovery.java"
 start: 8
 ```
 
@@ -152,7 +152,7 @@ Eureka 实现中遵循 AP 原则，即优先保证可用性、分区容忍性，
 >[!attention] Eureka 服务器不支持同步信息的二次传播，因此 `service-url` 应列出所有可用服务器
 
 ```reference
-file: "@/_resources/codes/spring-cloud/shopping-service-discovery-before4.7/src/main/resources/application-sdpeer0.properties"
+file: "@/_resources/codes/spring-cloud/shopping-service-discovery/src/main/resources/application-sdpeer0.properties"
 start: 4
 end: 7
 ```
@@ -171,13 +171,13 @@ end: 7
 >[!error] 服务器需要关闭 CSRF 防御机制
 
 ```reference
-file: "@/_resources/codes/spring-cloud/shopping-service-discovery-before4.7/src/main/resources/application.properties"
+file: "@/_resources/codes/spring-cloud/shopping-service-discovery/src/main/resources/application.properties"
 start: 13
 end: 14
 ```
 
 ```reference hl:19,22
-file: "@/_resources/codes/spring-cloud/shopping-service-discovery-before4.7/src/main/java/com/example/shopping/config/SecurityConfig.java"
+file: "@/_resources/codes/spring-cloud/shopping-service-discovery/src/main/java/com/example/shopping/config/SecurityConfig.java"
 start: 10
 ```
 

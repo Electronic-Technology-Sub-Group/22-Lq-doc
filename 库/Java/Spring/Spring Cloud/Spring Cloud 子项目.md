@@ -1,21 +1,8 @@
-
 # 消息中间件
 
 `Spring Cloud Stream` 子项目提供消息收发等功能，可方便的与 `Kafka`、`RabbitMQ` 等中间件集成
 
 `Spring Cloud Bus` 子项目对 Stream 项目进行扩展，可作为消息总线，用于服务器集群中状态的传播
-
-# 分布式配置
-
-`Spring Cloud Config` 子项目具有中心化、版本控制、动态更新和语言独立等特性
-- `Config Server`：配置服务器，集中管理所有配置文件
-- `Config Client`：配置客户端
-
-# 微服务链路追踪
-
-`Spring Cloud Sleuth` 子项目提供微服务之间调用的链路追踪，通过全局 ID 串联各个微服务节点的请求
-
-可以将采集的数据转发到 `Zipkin` 存储、统计和分析
 
 # 微服务安全
 

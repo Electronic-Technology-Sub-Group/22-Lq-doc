@@ -51,36 +51,27 @@ flexGrow=1
 ````
 `````
 
+>[!warning] `application.properties` 与 `bootstrap.properties`
+>- `application.properties`：常规 SpringBoot 配置，如应用名数据库、接口等
+>- `bootstrap.properties`：加载时间更早，优先级更高，常用于 Spring Cloud 的配置
+
+> [!error] Spring boot 2.4 后，`bootstrap.properties` 不再自动加载，需要依赖 `spring-cloud-starter-bootstrap` 并通过参数或环境变量将 `spring.cloud.bootstrap.enabled` 设置为 `true`
+
 ---
 
 - [[Spring Cloud 子项目]]
 - [[hello world]]
 - [[服务治理与负载均衡/服务治理与负载均衡|服务治理与负载均衡]]：如何在服务实例不断上下线的情况下，正常向消费者提供服务
-- [[微服务容错]]
-- [[服务网关]]：API 服务网关为微服务提供统一入口
-	- 微服务映射
-	- 服务路由管理
-	- 请求过滤
-	- AB 测试
-	- 金丝雀测试
-- 统一配置
-	- 加载与刷新
-	- 配置存储
-	- 版本管理
-	- 加密解密
-- 微服务监控：将分散在多个日志的调用串联成完整请求链，解决调试和跟踪分析问题
-	- 日志聚合
-	- 日志监控
-	- 调用链监控
-	- 可视化分析
-	- 健康检查
-	- Metrics 监控
-- 微服务通信
+- [[微服务容错 Resilience4j]]
+- [[服务网关 Gateway]]：API 服务网关为微服务提供统一入口
+- [[统一配置中心 Config]]：集中管理微服务配置
+- [[分布式微服务跟踪 Sleuth]]：将分散在多个日志的调用串联成完整请求链，解决调试和跟踪分析问题
+- [[消息驱动]]
 	- 基于 RESTful 协议
 	- 消息中间件整合
 	- 发布订阅模式
 	- 远程事件
-- 微服务安全
+- [[微服务应用安全 Security]]
 	- Session 管理
 	- 单点登陆
 	- OAuth 认证

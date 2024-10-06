@@ -6,11 +6,11 @@
 ![[Pasted image 20240806163613.png]]
 
 * 检查 DNS 服务器，使用 `ipconfig /flushdns` 清空 DNS 缓存
-* 使用 443 端口替代 22 端口：修改 `/.ssh/config`（Windows 是 `C:\User\用户名\.ssh\config`）文件
+* 使用 443 端口替代 22 端口：修改 `~/.ssh/config`（Windows 是 `C:\User\用户名\.ssh\config`）文件
 
 使用该方法的前提是 `ssh -T -p 443 git@ssh.github.com` 必须能正常连接
 
-```
+```console
 Host github.com
 User git
 Hostname ssh.github.com
@@ -21,11 +21,11 @@ Port 443
 * 设置 git 代理
 
 ```bash
-//http || https
+# http || https
 git config --global http.proxy 127.0.0.1:7890
 git config --global https.proxy 127.0.0.1:7890
 
-//sock5代理
+# sock5代理
 git config --global http.proxy socks5 127.0.0.1:7891
 git config --global https.proxy socks5 127.0.0.1:7891
 ```

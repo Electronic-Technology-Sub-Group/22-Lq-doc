@@ -4,7 +4,7 @@ Feign 是一个声明式 WebService 客户端，用于防止 URL 字符串拼接
 - 支持 Hystrix 及其回退功能，支持 LoadBalancer 负载均衡
 - 支持 HTTP 请求、响应压缩
 
->[!note] Feign 已被替换成其社区版 `OpenFeign`
+>[!missing] Feign 已被替换成其社区版 `OpenFeign`
 
 # 简化服务调用
 
@@ -63,24 +63,24 @@ LINES: "12,20-21,27-28,35-36,42-43,44"
 tab: User 服务
 
 ```embed-xml
-PATH: "vault://_resources/codes/spring-cloud/shopping-user-service-before6.3.2/pom.xml"
+PATH: "vault://_resources/codes/spring-cloud/shopping-user-service-before7/pom.xml"
 LINES: "63-67"
 ```
 
 ```embed-java
-PATH: "vault://_resources/codes/spring-cloud/shopping-user-service-before6.3.2/src/main/java/com/example/shopping/api/UserEndpoint.java"
+PATH: "vault://_resources/codes/spring-cloud/shopping-user-service-before7/src/main/java/com/example/shopping/api/UserEndpoint.java"
 LINES: "14-18,47"
 ```
 
 tab: Product 服务
 
 ```embed-xml
-PATH: "vault://_resources/codes/spring-cloud/shopping-product-service-before6.3.2/pom.xml"
+PATH: "vault://_resources/codes/spring-cloud/shopping-product-service-before7/pom.xml"
 LINES: "80-84"
 ```
 
 ```embed-java
-PATH: "vault://_resources/codes/spring-cloud/shopping-product-service-before6.3.2/src/main/java/com/example/shopping/service/UserService.java"
-LINES: "5-7"
+PATH: "vault://_resources/codes/spring-cloud/shopping-product-service-before7/src/main/java/com/example/shopping/service/UserService.java"
+LINES: "5-10"
 ```
 ````

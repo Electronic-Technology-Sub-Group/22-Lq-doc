@@ -23,7 +23,7 @@
 
 `Ribbon` 子项目与 `Eureka` 无缝结合，提供第二种负载均衡策略
 
-> [!caution] Ribbon 已停更，被 Spring Cloud LoadBalancer 代替，属于 Spring Cloud Commons 项目
+> [!missing] Ribbon 已停更，被 Spring Cloud LoadBalancer 代替，属于 Spring Cloud Commons 项目
 
 # 客户端负载均衡
 

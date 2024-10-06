@@ -4,20 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "c2b46cee49326cef",
+        "id": "d5c133d38d73d393",
         "type": "tabs",
         "children": [
           {
-            "id": "d2193687d6f69644",
+            "id": "2781b28b4fedc190",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -49,7 +44,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "shopping-gateway",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -94,7 +89,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +105,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,9 +126,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "README.md"
-              }
+              "state": {}
             }
           },
           {
@@ -228,47 +219,47 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "d2193687d6f69644",
+  "active": "2781b28b4fedc190",
   "lastOpenFiles": [
-    "README.md",
-    "库/Java/Spring/Spring Cloud/服务网关.md",
-    "库/Java/Spring/Spring Cloud/服务治理与负载均衡/服务治理 Eureka.md",
-    "库/Java/Spring/Spring Cloud/微服务容错.md",
-    "库/Java/Spring/Spring Cloud/服务治理与负载均衡/服务调用 Feign.md",
-    "_resources/codes/spring-cloud/b",
-    "_resources/codes/spring-cloud/新建文件夹",
-    "_resources/codes/spring-cloud/before6.3.2-route-test",
-    "_resources/codes/spring-cloud/shopping-user-service-before6.3.2/src/main/java/com/example/shopping/service/UserServiceImpl.java",
-    "_resources/codes/spring-cloud/shopping-user-service-before6.3.2/src/main/java/com/example/shopping/service/UserService.java",
-    "_resources/codes/spring-cloud/shopping-user-service-before6.3.2/src/main/java/com/example/shopping/utils/HibernatePhysicalTableNameStrategy.java",
-    "_resources/codes/spring-cloud/shopping-user-service-before6.3.2/src/main/java/com/example/shopping/repository/UserRepositoryImpl.java",
-    "_resources/codes/spring-cloud/shopping-user-service-before6.3.2/src/main/java/com/example/shopping/repository/UserRepositoryExtension.java",
-    "_resources/codes/spring-cloud/shopping-user-service-before6.3.2/src/main/java/com/example/shopping/repository/UserRepository.java",
-    "_resources/codes/spring-cloud/shopping-user-service-before6.3.2/src/main/java/com/example/shopping/exception/UserNotFoundException.java",
-    "_resources/codes/spring-cloud/shopping-gateway/HELP.md",
-    "库/Java/Spring/Spring Cloud/服务治理与负载均衡/服务治理与负载均衡.md",
     "个人笔记/每日任务.md",
-    "标准/全形字.md",
-    "库/Java/Spring/Spring Cloud/Spring Cloud 子项目.md",
-    "_resources/images/服务网关 2024-10-03 23.38.33.excalidraw.md",
+    "库/Java/Spring/Spring Cloud/分布式微服务跟踪 Sleuth.md",
     "库/Java/Spring/Spring Cloud/Spring Cloud.md",
-    "库/Java/Spring/Spring Cloud/服务治理与负载均衡/客户端负载均衡 LoadBalancer.md",
-    "语言/Class 字节码/《深入理解 JVM 字节码》/字节码应用/Dubbo.md",
-    "库/Java/Spring/Spring Cloud/服务治理与负载均衡/服务健康监控 Actuator.md",
-    "库/Java/Spring/Spring Cloud/服务治理与负载均衡/异构服务 Sidecar.md",
-    "_resources/codes/spring-cloud/shopping-user-api/HELP.md",
-    "_resources/codes/spring-cloud/shopping-service-discovery/HELP.md",
-    "_resources/codes/spring-cloud/shopping-product-service/HELP.md",
+    "库/Java/Spring/Spring Cloud/消息驱动.md",
+    "库/Java/Spring/Spring Cloud/微服务应用安全 Security.md",
+    "库/Java/Spring/Spring Cloud/服务网关 Gateway.md",
+    "库/Java/Spring/Spring Cloud/Spring Cloud 子项目.md",
+    "库/Java/Spring/Spring Cloud/微服务容错 Resilience4j.md",
+    "库/Java/Spring/Spring Cloud/统一配置中心 Config.md",
+    "_resources/codes/spring-cloud/shopping-config-server/src/test/java/com/example/shoppingconfigserver/ShoppingConfigServerApplicationTests.java",
+    "_resources/codes/spring-cloud/shopping-config-server/src/main/java/com/example/shoppingconfigserver/ShoppingConfigServer.java",
+    "_resources/codes/spring-cloud/shopping-config-server/target/classes/com/example/shoppingconfigserver/ShoppingConfigServer.class",
+    "_resources/codes/spring-cloud/shopping-config-server/src/test/java/com/example/shoppingconfigserver",
+    "_resources/codes/spring-cloud/shopping-config-server/src/main/java/com/example/shoppingconfigserver",
+    "_resources/codes/spring-cloud/shopping-config-server/target/classes/com/example/shoppingconfigserver",
+    "_resources/codes/spring-cloud/shopping-config-server/src/test/java/com/example",
+    "_resources/codes/spring-cloud/shopping-config-server/src/main/java/com/example",
+    "_resources/codes/spring-cloud/shopping-config-server/target/classes/com/example",
+    "_resources/codes/spring-cloud/shopping-config-server/src/test/java/com",
+    "_resources/codes/spring-cloud/shopping-config-server/HELP.md",
     "_resources/codes/spring-cloud/shopping-user-service/HELP.md",
+    "_resources/codes/spring-cloud/shopping-product-service/HELP.md",
+    "库/Java/Spring/Spring Cloud/服务治理与负载均衡/服务治理与负载均衡.md",
+    "_resources/images/统一配置中心 2024-10-05 20.40.21.excalidraw.md",
+    "库/Java/Spring/Spring Cloud/服务治理与负载均衡/服务治理 Eureka.md",
+    "_resources/codes/spring-cloud/shopping-gateway/HELP.md",
+    "库/Java/Spring/Spring Cloud/服务治理与负载均衡/服务调用 Feign.md",
+    "_resources/images/统一配置中心 2024-10-05 17.48.27.excalidraw.md",
     "库/Java/Spring/Spring Cloud/hello world.md",
-    "_resources/images/服务治理 Eureka 2024-10-02 12.10.10.excalidraw.md",
-    "库/Java/Spring/Spring Cloud/服务治理与负载均衡/Eureka 2.md",
-    "_resources/codes/spring-cloud/shopping-product-service-resttemplate/HELP.md",
+    "工具/git/BFG Repo-Cleaner.md",
+    "_resources/codes/spring-cloud/shopping-product-service-before6.3.4/HELP.md",
+    "_resources/codes/spring-cloud/shopping-product-service-before-6.3.4/HELP.md",
+    "工具/AutoX.md",
+    "工具/PlantUML.md",
+    "工具/Ventoy.md",
+    "工具/ESLint.md",
     "_resources/images/Pasted image 20241001231721.png",
     "_resources/images/Pasted image 20241001231313.png",
     "_resources/images/Pasted image 20241001231206.png",
-    "_resources/images/客户端负载均衡 Ribbon 2024-10-01 18.59.23.excalidraw.md",
-    "_resources/images/客户端负载均衡 Ribbon 2024-10-01 18.52.09.excalidraw.md",
     "_resources/images/00A8F200.png",
     "_resources/images/20241001_217_msedge.png",
     "_resources/images/20241001_216_msedge.png",
