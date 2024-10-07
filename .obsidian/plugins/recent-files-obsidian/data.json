@@ -5,16 +5,48 @@
       "path": "个人笔记/每日任务.md"
     },
     {
+      "basename": "分布式微服务跟踪 Sleuth 2024-10-06 13.35.24.excalidraw",
+      "path": "_resources/images/分布式微服务跟踪 Sleuth 2024-10-06 13.35.24.excalidraw.md"
+    },
+    {
       "basename": "分布式微服务跟踪 Sleuth",
       "path": "库/Java/Spring/Spring Cloud/分布式微服务跟踪 Sleuth.md"
+    },
+    {
+      "basename": "消息驱动 Stream",
+      "path": "库/Java/Spring/Spring Cloud/消息驱动 Stream.md"
+    },
+    {
+      "basename": "Error parsing request header. Our best guess of the apiKey is 0",
+      "path": "工具/Kafka/Error parsing request header. Our best guess of the apiKey is 0.md"
+    },
+    {
+      "basename": "zookeeper is not a recognized option",
+      "path": "工具/Kafka/zookeeper is not a recognized option.md"
+    },
+    {
+      "basename": "Spring Cloud 子项目",
+      "path": "库/Java/Spring/Spring Cloud/Spring Cloud 子项目.md"
     },
     {
       "basename": "Spring Cloud",
       "path": "库/Java/Spring/Spring Cloud/Spring Cloud.md"
     },
     {
-      "basename": "消息驱动",
-      "path": "库/Java/Spring/Spring Cloud/消息驱动.md"
+      "basename": "服务治理与负载均衡",
+      "path": "库/Java/Spring/Spring Cloud/服务治理与负载均衡/服务治理与负载均衡.md"
+    },
+    {
+      "basename": "消息驱动 Stream 2024-10-07 00.06.27.excalidraw",
+      "path": "_resources/images/消息驱动 Stream 2024-10-07 00.06.27.excalidraw.md"
+    },
+    {
+      "basename": "输入行太长 命令语法不正确",
+      "path": "工具/Kafka/输入行太长 命令语法不正确.md"
+    },
+    {
+      "basename": "消息驱动 Stream 2024-10-07 02.14.20.excalidraw",
+      "path": "_resources/images/消息驱动 Stream 2024-10-07 02.14.20.excalidraw.md"
     },
     {
       "basename": "微服务应用安全 Security",
@@ -25,20 +57,12 @@
       "path": "库/Java/Spring/Spring Cloud/服务网关 Gateway.md"
     },
     {
-      "basename": "Spring Cloud 子项目",
-      "path": "库/Java/Spring/Spring Cloud/Spring Cloud 子项目.md"
-    },
-    {
       "basename": "微服务容错 Resilience4j",
       "path": "库/Java/Spring/Spring Cloud/微服务容错 Resilience4j.md"
     },
     {
       "basename": "统一配置中心 Config",
       "path": "库/Java/Spring/Spring Cloud/统一配置中心 Config.md"
-    },
-    {
-      "basename": "服务治理与负载均衡",
-      "path": "库/Java/Spring/Spring Cloud/服务治理与负载均衡/服务治理与负载均衡.md"
     },
     {
       "basename": "统一配置中心 2024-10-05 20.40.21.excalidraw",
@@ -175,30 +199,6 @@
     {
       "basename": "components-20240311173710-o6zuhj3",
       "path": "_resources/images/components-20240311173710-o6zuhj3.png"
-    },
-    {
-      "basename": "Docker Swarm 2024-08-06 22.59.01.excalidraw",
-      "path": "_resources/images/Docker Swarm 2024-08-06 22.59.01.excalidraw.md"
-    },
-    {
-      "basename": "网络模式 2024-08-06 22.32.32.excalidraw",
-      "path": "_resources/images/网络模式 2024-08-06 22.32.32.excalidraw.md"
-    },
-    {
-      "basename": "常量池 2024-08-01 14.04.58.excalidraw",
-      "path": "_resources/images/常量池 2024-08-01 14.04.58.excalidraw.md"
-    },
-    {
-      "basename": "并发模式 2024-09-15 20.51.58.excalidraw",
-      "path": "_resources/images/并发模式 2024-09-15 20.51.58.excalidraw.md"
-    },
-    {
-      "basename": "并发模式 2024-09-15 19.37.56.excalidraw",
-      "path": "_resources/images/并发模式 2024-09-15 19.37.56.excalidraw.md"
-    },
-    {
-      "basename": "插件化注解 2024-08-02 22.25.55.excalidraw",
-      "path": "_resources/images/插件化注解 2024-08-02 22.25.55.excalidraw.md"
     }
   ],
   "omittedPaths": []

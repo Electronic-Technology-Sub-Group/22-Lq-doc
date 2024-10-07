@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "SiApachekafka",
       "LiGlobe",
       "LiGitBranch",
       "LiGitCompareArrows",
-      "SiPowershell",
-      "‼"
+      "SiPowershell"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -224,5 +224,6 @@
   "工具/激活与注册/序列号.md": "RiAppsLine",
   "工具/激活与注册/KMS 激活.md": "SiPowershell",
   "工具/git/BFG Repo-Cleaner.md": "LiGitCompareArrows",
-  "工具/git/设置远程仓库.md": "LiGlobe"
+  "工具/git/设置远程仓库.md": "LiGlobe",
+  "工具/Kafka": "SiApachekafka"
 }

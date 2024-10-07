@@ -52,6 +52,12 @@
       "icon": "image",
       "name": "Iconize: Set icon for file",
       "mode": "any"
+    },
+    {
+      "id": "obsidian-excalidraw-plugin:Downloaded/Boolean Operations",
+      "icon": "codesandbox",
+      "name": "Excalidraw: (Script) Downloaded/Boolean Operations",
+      "mode": "any"
     }
   ],
   "macros": [],

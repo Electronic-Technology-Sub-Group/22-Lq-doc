@@ -1,8 +1,3 @@
-# 消息中间件
-
-`Spring Cloud Stream` 子项目提供消息收发等功能，可方便的与 `Kafka`、`RabbitMQ` 等中间件集成
-
-`Spring Cloud Bus` 子项目对 Stream 项目进行扩展，可作为消息总线，用于服务器集群中状态的传播
 
 # 微服务安全
 

@@ -4,15 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "d5c133d38d73d393",
+        "id": "4509724f8bf84da7",
         "type": "tabs",
         "children": [
           {
-            "id": "2781b28b4fedc190",
+            "id": "e7a7b303c61786dc",
             "type": "leaf",
+            "pinned": true,
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "个人笔记/每日任务.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              },
+              "pinned": true
             }
           }
         ]
@@ -89,6 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "个人笔记/每日任务.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,6 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "个人笔记/每日任务.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +135,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "个人笔记/每日任务.md"
+              }
             }
           },
           {
@@ -219,8 +230,9 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "2781b28b4fedc190",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "_resources/images/分布式微服务跟踪 Sleuth 2024-10-06 13.35.24.excalidraw.md",
     "个人笔记/每日任务.md",
     "库/Java/Spring/Spring Cloud/分布式微服务跟踪 Sleuth.md",
     "库/Java/Spring/Spring Cloud/Spring Cloud.md",
@@ -256,7 +268,6 @@
     "工具/AutoX.md",
     "工具/PlantUML.md",
     "工具/Ventoy.md",
-    "工具/ESLint.md",
     "_resources/images/Pasted image 20241001231721.png",
     "_resources/images/Pasted image 20241001231313.png",
     "_resources/images/Pasted image 20241001231206.png",
