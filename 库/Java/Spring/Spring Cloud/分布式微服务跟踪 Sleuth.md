@@ -25,5 +25,4 @@ flexGrow=1
 只需要在项目中添加 `org.springframework.cloud:spring-cloud-starter-sleuth` 依赖即可启用
 
 > [!missing] Spring Cloud 2022.0 开始，使用 Micrometer Tracing 替代 Spring Cloud Sleuth，该项目是 Sleuth 的一个分支
-
-- [ ] Tracing, ELK(Elasticsearch Logstash Kibana), Zipkin
+> - [ ] Tracing, ELK(Elasticsearch Logstash Kibana), Zipkin

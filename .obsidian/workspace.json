@@ -4,22 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "4509724f8bf84da7",
+        "id": "0b8925e1e3d8c91e",
         "type": "tabs",
         "children": [
           {
-            "id": "e7a7b303c61786dc",
+            "id": "6d806ef463074db5",
             "type": "leaf",
-            "pinned": true,
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "个人笔记/每日任务.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              },
-              "pinned": true
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -51,7 +44,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "shopping-product-service-before9",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -96,7 +89,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "个人笔记/每日任务.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +105,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "个人笔记/每日任务.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,9 +126,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "个人笔记/每日任务.md"
-              }
+              "state": {}
             }
           },
           {
@@ -230,44 +219,44 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "6d806ef463074db5",
   "lastOpenFiles": [
-    "_resources/images/分布式微服务跟踪 Sleuth 2024-10-06 13.35.24.excalidraw.md",
+    "库/Java/Spring/Spring Cloud/消息驱动 Stream.md",
+    "库/Java/Spring/Spring Cloud/Spring Cloud.md",
+    "库/Java/Spring/Spring Cloud/微服务与 Docker.md",
+    "库/Java/Spring/Spring Cloud/微服务应用安全 Security.md",
+    "库/Java/Spring/Spring Cloud/Spring Cloud 子项目.md",
+    "库/Java/Spring/Spring Cloud/统一配置中心 Config.md",
     "个人笔记/每日任务.md",
     "库/Java/Spring/Spring Cloud/分布式微服务跟踪 Sleuth.md",
-    "库/Java/Spring/Spring Cloud/Spring Cloud.md",
-    "库/Java/Spring/Spring Cloud/消息驱动.md",
-    "库/Java/Spring/Spring Cloud/微服务应用安全 Security.md",
     "库/Java/Spring/Spring Cloud/服务网关 Gateway.md",
-    "库/Java/Spring/Spring Cloud/Spring Cloud 子项目.md",
+    "工具/Kafka/Kafka.md",
+    "_resources/codes/spring-cloud/config-repo-files/userservice.properties",
+    "_resources/codes/spring-cloud/config-repo-files/userservice-dev.properties",
+    "_resources/codes/spring-cloud/config-repo-files/productservice.properties",
+    "_resources/codes/spring-cloud/config-repo-files/productservice-dev.properties",
+    "_resources/codes/spring-cloud/config-repo-files/application.properties",
+    "_resources/codes/spring-cloud/config-repo-files/application-dev.properties",
+    "_resources/codes/spring-cloud/config-repo-files",
+    "_resources/codes/spring-cloud/shopping-product-service/src/main/java/com/example/shopping/service/UserService.java",
+    "_resources/codes/spring-cloud/shopping-product-service/src/main/java/com/example/shopping/service/UserRemoteClient.java",
+    "_resources/codes/spring-cloud/shopping-product-service/src/main/java/com/example/shopping/service/UserFallbackFactory.java",
+    "_resources/codes/spring-cloud/shopping-product-service/HELP.md",
+    "工具/数据库/H2.md",
+    "工具/应用端口表.md",
+    "工具/未命名.md",
+    "工具/vfox.md",
+    "工具/chsrc.md",
+    "工具/Kafka/zookeeper is not a recognized option.md",
+    "工具/Kafka/Error parsing request header. Our best guess of the apiKey is 0.md",
+    "工具/Kafka/输入行太长 命令语法不正确.md",
+    "_resources/images/分布式微服务跟踪 Sleuth 2024-10-06 13.35.24.excalidraw.md",
+    "库/Java/Spring/Spring Cloud/消息驱动.md",
     "库/Java/Spring/Spring Cloud/微服务容错 Resilience4j.md",
-    "库/Java/Spring/Spring Cloud/统一配置中心 Config.md",
-    "_resources/codes/spring-cloud/shopping-config-server/src/test/java/com/example/shoppingconfigserver/ShoppingConfigServerApplicationTests.java",
-    "_resources/codes/spring-cloud/shopping-config-server/src/main/java/com/example/shoppingconfigserver/ShoppingConfigServer.java",
-    "_resources/codes/spring-cloud/shopping-config-server/target/classes/com/example/shoppingconfigserver/ShoppingConfigServer.class",
-    "_resources/codes/spring-cloud/shopping-config-server/src/test/java/com/example/shoppingconfigserver",
-    "_resources/codes/spring-cloud/shopping-config-server/src/main/java/com/example/shoppingconfigserver",
-    "_resources/codes/spring-cloud/shopping-config-server/target/classes/com/example/shoppingconfigserver",
-    "_resources/codes/spring-cloud/shopping-config-server/src/test/java/com/example",
-    "_resources/codes/spring-cloud/shopping-config-server/src/main/java/com/example",
-    "_resources/codes/spring-cloud/shopping-config-server/target/classes/com/example",
-    "_resources/codes/spring-cloud/shopping-config-server/src/test/java/com",
     "_resources/codes/spring-cloud/shopping-config-server/HELP.md",
     "_resources/codes/spring-cloud/shopping-user-service/HELP.md",
-    "_resources/codes/spring-cloud/shopping-product-service/HELP.md",
     "库/Java/Spring/Spring Cloud/服务治理与负载均衡/服务治理与负载均衡.md",
     "_resources/images/统一配置中心 2024-10-05 20.40.21.excalidraw.md",
-    "库/Java/Spring/Spring Cloud/服务治理与负载均衡/服务治理 Eureka.md",
-    "_resources/codes/spring-cloud/shopping-gateway/HELP.md",
-    "库/Java/Spring/Spring Cloud/服务治理与负载均衡/服务调用 Feign.md",
-    "_resources/images/统一配置中心 2024-10-05 17.48.27.excalidraw.md",
-    "库/Java/Spring/Spring Cloud/hello world.md",
-    "工具/git/BFG Repo-Cleaner.md",
-    "_resources/codes/spring-cloud/shopping-product-service-before6.3.4/HELP.md",
-    "_resources/codes/spring-cloud/shopping-product-service-before-6.3.4/HELP.md",
-    "工具/AutoX.md",
-    "工具/PlantUML.md",
-    "工具/Ventoy.md",
     "_resources/images/Pasted image 20241001231721.png",
     "_resources/images/Pasted image 20241001231313.png",
     "_resources/images/Pasted image 20241001231206.png",

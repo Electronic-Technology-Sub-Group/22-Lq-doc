@@ -213,7 +213,7 @@ end: 11
 在微服务中使用 Spring Cloud Gateway 网关访问
 
 ```reference
-file: "@/_resources/codes/spring-cloud/shopping-product-service/src/main/resources/application.properties"
+file: "@/_resources/codes/spring-cloud/shopping-product-service-before9/src/main/resources/application.properties"
 start: 5
 end: 5
 ```
@@ -242,5 +242,4 @@ spring.cloud.config.fail-fast=true
 
 ## 动态刷新
 
-依赖于 `spring-boot-starter-actuator` 后，使用 `/refresh` 端点刷新，或通过 `Spring Cloud Bus` 刷新，详见
-- [ ] 消息总线引用
+依赖于 `spring-boot-starter-actuator` 后，使用 `/refresh` 端点刷新，或通过 `Spring Cloud Bus` 刷新，详见[[消息驱动 Stream#消息总线 Bus|消息总线]]。

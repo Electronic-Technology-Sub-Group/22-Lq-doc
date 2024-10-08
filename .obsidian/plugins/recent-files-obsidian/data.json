@@ -1,36 +1,68 @@
 {
   "recentFiles": [
     {
-      "basename": "每日任务",
-      "path": "个人笔记/每日任务.md"
+      "basename": "消息驱动 Stream",
+      "path": "库/Java/Spring/Spring Cloud/消息驱动 Stream.md"
     },
     {
-      "basename": "分布式微服务跟踪 Sleuth 2024-10-06 13.35.24.excalidraw",
-      "path": "_resources/images/分布式微服务跟踪 Sleuth 2024-10-06 13.35.24.excalidraw.md"
+      "basename": "Spring Cloud",
+      "path": "库/Java/Spring/Spring Cloud/Spring Cloud.md"
+    },
+    {
+      "basename": "微服务与 Docker",
+      "path": "库/Java/Spring/Spring Cloud/微服务与 Docker.md"
+    },
+    {
+      "basename": "微服务应用安全 Security",
+      "path": "库/Java/Spring/Spring Cloud/微服务应用安全 Security.md"
+    },
+    {
+      "basename": "统一配置中心 Config",
+      "path": "库/Java/Spring/Spring Cloud/统一配置中心 Config.md"
+    },
+    {
+      "basename": "每日任务",
+      "path": "个人笔记/每日任务.md"
     },
     {
       "basename": "分布式微服务跟踪 Sleuth",
       "path": "库/Java/Spring/Spring Cloud/分布式微服务跟踪 Sleuth.md"
     },
     {
-      "basename": "消息驱动 Stream",
-      "path": "库/Java/Spring/Spring Cloud/消息驱动 Stream.md"
+      "basename": "服务网关 Gateway",
+      "path": "库/Java/Spring/Spring Cloud/服务网关 Gateway.md"
     },
     {
-      "basename": "Error parsing request header. Our best guess of the apiKey is 0",
-      "path": "工具/Kafka/Error parsing request header. Our best guess of the apiKey is 0.md"
+      "basename": "Kafka",
+      "path": "工具/Kafka/Kafka.md"
+    },
+    {
+      "basename": "H2",
+      "path": "工具/数据库/H2.md"
+    },
+    {
+      "basename": "vfox",
+      "path": "工具/vfox.md"
+    },
+    {
+      "basename": "chsrc",
+      "path": "工具/chsrc.md"
     },
     {
       "basename": "zookeeper is not a recognized option",
       "path": "工具/Kafka/zookeeper is not a recognized option.md"
     },
     {
-      "basename": "Spring Cloud 子项目",
-      "path": "库/Java/Spring/Spring Cloud/Spring Cloud 子项目.md"
+      "basename": "Error parsing request header. Our best guess of the apiKey is 0",
+      "path": "工具/Kafka/Error parsing request header. Our best guess of the apiKey is 0.md"
     },
     {
-      "basename": "Spring Cloud",
-      "path": "库/Java/Spring/Spring Cloud/Spring Cloud.md"
+      "basename": "输入行太长 命令语法不正确",
+      "path": "工具/Kafka/输入行太长 命令语法不正确.md"
+    },
+    {
+      "basename": "分布式微服务跟踪 Sleuth 2024-10-06 13.35.24.excalidraw",
+      "path": "_resources/images/分布式微服务跟踪 Sleuth 2024-10-06 13.35.24.excalidraw.md"
     },
     {
       "basename": "服务治理与负载均衡",
@@ -41,28 +73,12 @@
       "path": "_resources/images/消息驱动 Stream 2024-10-07 00.06.27.excalidraw.md"
     },
     {
-      "basename": "输入行太长 命令语法不正确",
-      "path": "工具/Kafka/输入行太长 命令语法不正确.md"
-    },
-    {
       "basename": "消息驱动 Stream 2024-10-07 02.14.20.excalidraw",
       "path": "_resources/images/消息驱动 Stream 2024-10-07 02.14.20.excalidraw.md"
     },
     {
-      "basename": "微服务应用安全 Security",
-      "path": "库/Java/Spring/Spring Cloud/微服务应用安全 Security.md"
-    },
-    {
-      "basename": "服务网关 Gateway",
-      "path": "库/Java/Spring/Spring Cloud/服务网关 Gateway.md"
-    },
-    {
       "basename": "微服务容错 Resilience4j",
       "path": "库/Java/Spring/Spring Cloud/微服务容错 Resilience4j.md"
-    },
-    {
-      "basename": "统一配置中心 Config",
-      "path": "库/Java/Spring/Spring Cloud/统一配置中心 Config.md"
     },
     {
       "basename": "统一配置中心 2024-10-05 20.40.21.excalidraw",
@@ -183,22 +199,6 @@
     {
       "basename": "Obsidian Columns",
       "path": "工具/Obsidian/插件/Obsidian Columns.md"
-    },
-    {
-      "basename": "Minitabs",
-      "path": "工具/Obsidian/插件/Minitabs.md"
-    },
-    {
-      "basename": "Tabs",
-      "path": "工具/Obsidian/插件/Tabs.md"
-    },
-    {
-      "basename": "Embed Code File",
-      "path": "工具/Obsidian/插件/Embed Code File.md"
-    },
-    {
-      "basename": "components-20240311173710-o6zuhj3",
-      "path": "_resources/images/components-20240311173710-o6zuhj3.png"
     }
   ],
   "omittedPaths": []

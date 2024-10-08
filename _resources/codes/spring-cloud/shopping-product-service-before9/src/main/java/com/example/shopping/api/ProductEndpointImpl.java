@@ -7,6 +7,7 @@ import com.example.shopping.entity.Product;
 import com.example.shopping.service.ProductService;
 import com.example.shopping.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.data.domain.Pageable;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
@@ -19,6 +20,7 @@ public class ProductEndpointImpl implements ProductEndpoint {
     @Autowired
     private ProductService productService;
     @Autowired
+    @Qualifier("com.example.shopping.service.UserService")
     private UserService userService;
 
     @Override

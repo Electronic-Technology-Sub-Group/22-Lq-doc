@@ -68,15 +68,7 @@ flexGrow=1
 - [[分布式微服务跟踪 Sleuth]]：将分散在多个日志的调用串联成完整请求链，解决调试和跟踪分析问题
 - [[消息驱动 Stream]]
 - [[微服务应用安全 Security]]
-	- Session 管理
-	- 单点登陆
-	- OAuth 认证
-	- JWT 授权
-- 微服务部署与编排：实现自动的大规模上下线
-	- Docker
-	- K8s
-	- 服务编排
-	- 自动发布
+- [[微服务与 Docker]]
 
 # 其他子项目
 
@@ -95,4 +87,13 @@ title: "Spring Cloud微服务架构开发实战"
 description: "本书首先从微服务架构兴起的背景讲起，探讨了为何在分布式系统开发中微服务架构将逐渐取代单体架构，然后对SpringCloud所提供的微服务组件及解决方案进行了一一讲解，从而让读者不但可以系统地学习SpringCloud的相关知识，而且还可以全面掌握微服务架构应用的设计、开发、部署和运维等知识。本书共11章，分为3篇。1篇为微服务开发基础——SpringBoot框架及使用；2篇为SpringClou…"
 host: read.douban.com
 image: https://pic.arkread.com/cover/ebook/f/55385581.1653702212.jpg!cover_default.jpg
+```
+
+```cardlink
+url: https://spring.io/projects/spring-cloud
+title: "Spring Cloud"
+description: "Level up your Java code and explore what Spring can do for you."
+host: spring.io
+favicon: https://spring.io/favicon-32x32.png?v=96334d577af708644f6f0495dd1c7bc8
+image: https://spring.io/img/og-spring.png
 ```

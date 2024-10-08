@@ -25,6 +25,57 @@ Spring Cloud Stream 使用订阅者模式
 
 # 添加消息功能
 
+## Redis 缓存数据库
+
+Redis 是一个将数据缓存在内存中，再定期写入文件中的键值对数据库
+
+> [!warning] 官方版本 Windows 下需要 WSL 支持，也可以使用他人编译的[非官方版本](https://github.com/zkteco-home/redis-windows)
+
+```cardlink
+url: https://redis.io/docs/latest/get-started/
+title: "Community Edition"
+description: "Get started with Redis Community Edition"
+host: redis.io
+favicon: https://redis.io/docs/latest/images/favicons/favicon-196x196.png
+```
+
+Spring 依赖：`org.springframework.boot:spring-boot-starter-data-redis`（在 NoSQL 分类中），内置驱动和 Lettuce 客户端，配置后可直接使用 `RedisTemplate` 读写数据库
+
+```reference
+file: "@/_resources/codes/spring-cloud/config-repo-files/productservice.properties"
+start: 10
+end: 14
+```
+
+配置中使用 `RedisTemplate` 访问
+
+```reference
+file: "@/_resources/codes/spring-cloud/shopping-product-service/src/main/java/com/example/shopping/config/RedisConfiguration.java"
+start: 14
+end: 24
+```
+
+使用时加一层 Redis 的 Repository 即可
+
+`````col
+````col-md
+flexGrow=1
+===
+```embed-java
+PATH: "vault://_resources/codes/spring-cloud/shopping-product-service/src/main/java/com/example/shopping/repository/UserRedisRepository.java"
+LINES: "22-26,31-33,38-43,48-50"
+```
+````
+````col-md
+flexGrow=1
+===
+```embed-java
+PATH: "vault://_resources/codes/spring-cloud/shopping-product-service/src/main/java/com/example/shopping/service/UserService.java"
+LINES: "20-24,32-40,43,45-47,50,52-56"
+```
+````
+`````
+
 ## Kafka 消息系统
 
 Spring Cloud Stream 只是一个消息系统的接口，实际还需要一个消息系统实现，支持 Kafka、RabbitMQ 等工具
@@ -56,7 +107,7 @@ image: http://apache-kafka.org/images/apache-kafka.png
 .\bin\windows\kafka-server-start .\config\server.properties
 ```
 
-测试（发送端和接收端分别是两个命令行窗口）：
+测试（发送端和接收端分别是两个命令行窗口），此时在发送端发送的数据，接收端应该可以看到。
 
 ```bash
 # 创建 Topic
@@ -67,20 +118,22 @@ image: http://apache-kafka.org/images/apache-kafka.png
 .\bin\windows\kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic springcloud-msg --from-beginning
 ```
 
-在发送端发送的数据，接收端应该可以看到
+把 Kafka 整合到 Spring Boot 项目中，先添加 `org.springframework.cloud:spring-cloud-starter-stream-kafka` 依赖，使用 `@EnableBindding` 开启
 
-## Redis 缓存数据库
+> [!error] 原书内容已过时，只记录目录待后续补全
+> - [ ] TODO Spring Cloud Stream & Kafka & Spring Cloud Bus
+> 	- Stream & Kafka
+> 		- 实例
+> 		- 自定义消息通道
+> 		- 单元测试
+> 		- 错误处理
+> 		- 消息处理分发
+> 		- 消费者组与消息分区
+> 		- 消息绑定器
+> 	- Bus
+> 		- 配置自动刷新
+> 		- 发布自定义事件
 
-Redis 是一个将数据缓存在内存中，再定期写入文件中的键值对数据库
+# 消息总线 Bus
 
-> [!warning] 官方版本 Windows 下需要 WSL 支持，也可以使用他人编译的[非官方版本](https://github.com/zkteco-home/redis-windows)
-
-```cardlink
-url: https://redis.io/docs/latest/get-started/
-title: "Community Edition"
-description: "Get started with Redis Community Edition"
-host: redis.io
-favicon: https://redis.io/docs/latest/images/favicons/favicon-196x196.png
-```
-
-Spring 依赖：`org.springframework.boot:spring-boot-starter-data-redis`（在 NoSQL 分类中），内置 Lettuce 客户端，配置后可直接使用 `RedisTemplate` 读写数据库
+基于 Spring Cloud Stream + Spring 事件模型的消息库
