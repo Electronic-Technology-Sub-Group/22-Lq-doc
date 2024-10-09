@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "分布式微服务跟踪 Sleuth",
+      "path": "库/Java/Spring/Spring Cloud/分布式微服务跟踪 Sleuth.md"
+    },
+    {
       "basename": "每日任务",
       "path": "个人笔记/每日任务.md"
     },
@@ -131,10 +135,6 @@
     {
       "basename": "统一配置中心 Config",
       "path": "库/Java/Spring/Spring Cloud/统一配置中心 Config.md"
-    },
-    {
-      "basename": "分布式微服务跟踪 Sleuth",
-      "path": "库/Java/Spring/Spring Cloud/分布式微服务跟踪 Sleuth.md"
     },
     {
       "basename": "服务网关 Gateway",

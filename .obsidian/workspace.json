@@ -21,8 +21,22 @@
               },
               "pinned": true
             }
+          },
+          {
+            "id": "3679a0a769202ac2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "库/Java/Spring/Spring Cloud/分布式微服务跟踪 Sleuth.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -51,7 +65,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "ACID",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -76,7 +90,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -96,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "个人笔记/每日任务.md",
+                "file": "库/Java/Spring/Spring Cloud/分布式微服务跟踪 Sleuth.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "个人笔记/每日任务.md",
+                "file": "库/Java/Spring/Spring Cloud/分布式微服务跟踪 Sleuth.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "个人笔记/每日任务.md"
+                "file": "库/Java/Spring/Spring Cloud/分布式微服务跟踪 Sleuth.md"
               }
             }
           },
@@ -230,13 +245,24 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "3679a0a769202ac2",
   "lastOpenFiles": [
-    "课程/算法/排序/冒泡排序.md",
+    "_resources/codes/spring-cloud/config-repo-files/!!!提交时删除 .git 目录",
+    "_resources/codes/spring-cloud/config-repo-files/!!!使用创建 git 仓库初始化",
+    "_resources/codes/spring-cloud/config-repo-files-before9/!!!提交时删除 .git 目录",
+    "_resources/codes/spring-cloud/config-repo-files-before9/新建 文本文档.txt",
+    "_resources/codes/spring-cloud/config-repo-files-before9/!!!使用创建 git 仓库初始化",
+    "_resources/codes/spring-cloud/config-repo-files-before9/!!!使用创建 git 仓库初始化，提交时删除 .git 文件",
+    "_resources/codes/spring-cloud/config-repo-files-before9/!!!自己创建一个 git 仓库",
+    "_resources/codes/spring-cloud/config-repo-files-before9/创建 git 仓库.bat",
+    "_resources/codes/spring-cloud/config-repo-files/创建 git 仓库.bat",
+    "_resources/images/Pasted image 20241010013136.png",
     "个人笔记/每日任务.md",
+    "_resources/codes/spring-cloud/config-repo-files/userservice.properties",
+    "_resources/codes/spring-cloud/config-repo-files/userservice-dev.properties",
+    "课程/算法/排序/冒泡排序.md",
     "工具/数据库/NoSQL/一致性管理方法/Quorum 的 NWR 策略.md",
     "工具/数据库/NoSQL/NoSQL.md",
-    "工具/数据库/NoSQL/一致性管理方法",
     "工具/数据库/NoSQL/未命名.md",
     "工具/数据库/NoSQL/一致性管理方法/Paxos 算法.md",
     "工具/数据库/NoSQL/一致性管理方法/Raft 算法.md",
@@ -249,10 +275,8 @@
     "工具/数据库/NoSQL/文档数据库.md",
     "工具/数据库/NoSQL/图数据库.md",
     "工具/数据库/MySQL 8.0/MySQL 8.0.md",
-    "工具/数据库/NoSQL",
     "工具/Linux/Linux.md",
     "工具/Linux/系统组件/Systemd.md",
-    "工具/Linux/系统组件/未命名",
     "语言/Go/Go 语法/数据类型/结构体与接口/接口.md",
     "语言/Go/Go 语法/数据类型/基础类型.md",
     "语言/Go/Go 语法/数据类型/结构体与接口/组合.md",
@@ -260,14 +284,6 @@
     "语言/Go/Go 语法/数据类型/结构体与接口/结构体.md",
     "语言/Go/Go 语法/数据类型/数据类型.md",
     "语言/Go/Go 语法/控制结构.md",
-    "语言/Go/Go 语法/Go 语法.md",
-    "_resources/codes/spring-cloud/config-repo-files/userservice.properties",
-    "_resources/codes/spring-cloud/config-repo-files/userservice-dev.properties",
-    "_resources/codes/spring-cloud/config-repo-files/productservice.properties",
-    "_resources/codes/spring-cloud/config-repo-files/productservice-dev.properties",
-    "_resources/codes/spring-cloud/config-repo-files/application.properties",
-    "_resources/codes/spring-cloud/config-repo-files/application-dev.properties",
-    "_resources/codes/spring-cloud/config-repo-files",
     "_resources/images/Pasted image 20241001231721.png",
     "_resources/images/Pasted image 20241001231313.png",
     "_resources/images/Pasted image 20241001231206.png",
@@ -277,7 +293,6 @@
     "_resources/images/20241001_215_msedge.png",
     "_resources/images/20241001_214_msedge.png",
     "_resources/images/components-20240311173710-o6zuhj3.png",
-    "_resources/documents/img/ext[d3-shape]rounded-circular-sector.png",
     "语言/C Cpp/C++更新图.canvas",
     "语言/C Cpp/C++ 语法/C++ 语法.canvas",
     "语言/Class 字节码/Untitled.canvas",

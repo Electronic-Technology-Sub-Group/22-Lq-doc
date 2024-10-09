@@ -24,5 +24,51 @@ flexGrow=1
 
 只需要在项目中添加 `org.springframework.cloud:spring-cloud-starter-sleuth` 依赖即可启用
 
-> [!missing] Spring Cloud 2022.0 开始，使用 Micrometer Tracing 替代 Spring Cloud Sleuth，该项目是 Sleuth 的一个分支
-> - [ ] Tracing, ELK(Elasticsearch Logstash Kibana), Zipkin
+> [!missing] Spring Cloud 2022.0 开始，使用 Micrometer Tracing 替代 Spring Cloud Sleuth，该项目实质是 Sleuth 跟踪部分的一个分支
+
+```cardlink
+url: https://micrometer.io/
+title: "Micrometer Application Observability"
+description: "Application observability facade for the most popular observability tools. Think SLF4J, but for observability."
+host: micrometer.io
+favicon: https://micrometer.io/favicon-32x32.png?v=4c58a9ad30498f838fae3e07ebd4ea42
+image: https://micrometer.io/img/og-micrometer.png
+```
+
+# Zipkin
+
+`Zipkin` 可以可视化形式呈现外部请求跨多个微服务之间的服务跟踪数据和耗时
+
+```cardlink
+url: https://zipkin.io/
+title: "OpenZipkin · A distributed tracing system"
+host: zipkin.io
+```
+
+> [!note] 推荐 **Jaeger**
+
+Zipkin 需要 Java17+ 启动，下载 `zipkin-server` 后使用 `java -jar` 运行即可，其默认 HTTP 端口为 9411
+
+# Micrometer Tracing
+
+添加依赖：
+- `org.springframework.boot:spring-boot-starter-actuator`
+- `io.micrometer:micrometer-tracing`
+Zipkin 桥接：
+- `io.micrometer:micrometer-tracing-bridge-brave`
+- `io.micrometer:micrometer-observation`
+- `io.zipkin.reporter2:zipkin-reporter-brave`
+Feign 支持：
+- `io.github.openfeign:feign-micrometer`
+
+配置：
+
+```reference
+file: "@/_resources/codes/spring-cloud/config-repo-files/application.properties"
+start: 25
+end: 29
+```
+
+之后即可在 `http://127.0.0.1:9411/zipkin` 中看到请求记录
+
+![[../../../../_resources/images/Pasted image 20241010013136.png]]
