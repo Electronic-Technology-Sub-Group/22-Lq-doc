@@ -1,6 +1,8 @@
 #obsidian
 .trash
 个人笔记/private
+.obsidian/plugins/global-proxy/data.json
+.obsidian/plugins/recent-files-obsidian/data.json
 
 # js
 **/node_modules

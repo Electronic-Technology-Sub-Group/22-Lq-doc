@@ -1,5 +1,5 @@
 {
-  "enableProxy": true,
+  "enableProxy": false,
   "httpProxy": "http://localhost:10809",
   "httpsProxy": "https://localhost:10809",
   "socksProxy": "socks://localhost:10808",

@@ -4,15 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "0b8925e1e3d8c91e",
+        "id": "4509724f8bf84da7",
         "type": "tabs",
         "children": [
           {
-            "id": "6d806ef463074db5",
+            "id": "e7a7b303c61786dc",
             "type": "leaf",
+            "pinned": true,
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "个人笔记/每日任务.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              },
+              "pinned": true
             }
           }
         ]
@@ -44,7 +51,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "shopping-product-service-before9",
+                "query": "ACID",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -73,7 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 285.51103591918945
+    "width": 200
   },
   "right": {
     "id": "2f5d582e60864eba",
@@ -89,6 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "个人笔记/每日任务.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,6 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "个人笔记/每日任务.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +135,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "个人笔记/每日任务.md"
+              }
             }
           },
           {
@@ -219,18 +230,37 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "6d806ef463074db5",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "库/Java/Spring/Spring Cloud/消息驱动 Stream.md",
-    "库/Java/Spring/Spring Cloud/Spring Cloud.md",
-    "库/Java/Spring/Spring Cloud/微服务与 Docker.md",
-    "库/Java/Spring/Spring Cloud/微服务应用安全 Security.md",
-    "库/Java/Spring/Spring Cloud/Spring Cloud 子项目.md",
-    "库/Java/Spring/Spring Cloud/统一配置中心 Config.md",
+    "课程/算法/排序/冒泡排序.md",
     "个人笔记/每日任务.md",
-    "库/Java/Spring/Spring Cloud/分布式微服务跟踪 Sleuth.md",
-    "库/Java/Spring/Spring Cloud/服务网关 Gateway.md",
-    "工具/Kafka/Kafka.md",
+    "工具/数据库/NoSQL/一致性管理方法/Quorum 的 NWR 策略.md",
+    "工具/数据库/NoSQL/NoSQL.md",
+    "工具/数据库/NoSQL/一致性管理方法",
+    "工具/数据库/NoSQL/未命名.md",
+    "工具/数据库/NoSQL/一致性管理方法/Paxos 算法.md",
+    "工具/数据库/NoSQL/一致性管理方法/Raft 算法.md",
+    "工具/数据库/NoSQL/一致性管理方法/向量时钟机制.md",
+    "语言/SQL/SQL 基础语法/事务.md",
+    "工具/数据库/NoSQL/列族数据库.md",
+    "课程/分布式系统.md",
+    "库/Java/Spring/Spring Cloud/服务治理与负载均衡/服务治理 Eureka.md",
+    "工具/数据库/NoSQL/键值数据库.md",
+    "工具/数据库/NoSQL/文档数据库.md",
+    "工具/数据库/NoSQL/图数据库.md",
+    "工具/数据库/MySQL 8.0/MySQL 8.0.md",
+    "工具/数据库/NoSQL",
+    "工具/Linux/Linux.md",
+    "工具/Linux/系统组件/Systemd.md",
+    "工具/Linux/系统组件/未命名",
+    "语言/Go/Go 语法/数据类型/结构体与接口/接口.md",
+    "语言/Go/Go 语法/数据类型/基础类型.md",
+    "语言/Go/Go 语法/数据类型/结构体与接口/组合.md",
+    "语言/Go/Go 语法/数据类型/结构体与接口/类型断言.md",
+    "语言/Go/Go 语法/数据类型/结构体与接口/结构体.md",
+    "语言/Go/Go 语法/数据类型/数据类型.md",
+    "语言/Go/Go 语法/控制结构.md",
+    "语言/Go/Go 语法/Go 语法.md",
     "_resources/codes/spring-cloud/config-repo-files/userservice.properties",
     "_resources/codes/spring-cloud/config-repo-files/userservice-dev.properties",
     "_resources/codes/spring-cloud/config-repo-files/productservice.properties",
@@ -238,25 +268,6 @@
     "_resources/codes/spring-cloud/config-repo-files/application.properties",
     "_resources/codes/spring-cloud/config-repo-files/application-dev.properties",
     "_resources/codes/spring-cloud/config-repo-files",
-    "_resources/codes/spring-cloud/shopping-product-service/src/main/java/com/example/shopping/service/UserService.java",
-    "_resources/codes/spring-cloud/shopping-product-service/src/main/java/com/example/shopping/service/UserRemoteClient.java",
-    "_resources/codes/spring-cloud/shopping-product-service/src/main/java/com/example/shopping/service/UserFallbackFactory.java",
-    "_resources/codes/spring-cloud/shopping-product-service/HELP.md",
-    "工具/数据库/H2.md",
-    "工具/应用端口表.md",
-    "工具/未命名.md",
-    "工具/vfox.md",
-    "工具/chsrc.md",
-    "工具/Kafka/zookeeper is not a recognized option.md",
-    "工具/Kafka/Error parsing request header. Our best guess of the apiKey is 0.md",
-    "工具/Kafka/输入行太长 命令语法不正确.md",
-    "_resources/images/分布式微服务跟踪 Sleuth 2024-10-06 13.35.24.excalidraw.md",
-    "库/Java/Spring/Spring Cloud/消息驱动.md",
-    "库/Java/Spring/Spring Cloud/微服务容错 Resilience4j.md",
-    "_resources/codes/spring-cloud/shopping-config-server/HELP.md",
-    "_resources/codes/spring-cloud/shopping-user-service/HELP.md",
-    "库/Java/Spring/Spring Cloud/服务治理与负载均衡/服务治理与负载均衡.md",
-    "_resources/images/统一配置中心 2024-10-05 20.40.21.excalidraw.md",
     "_resources/images/Pasted image 20241001231721.png",
     "_resources/images/Pasted image 20241001231313.png",
     "_resources/images/Pasted image 20241001231206.png",

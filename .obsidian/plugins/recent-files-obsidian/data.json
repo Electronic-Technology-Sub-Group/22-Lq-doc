@@ -1,8 +1,120 @@
 {
   "recentFiles": [
     {
+      "basename": "每日任务",
+      "path": "个人笔记/每日任务.md"
+    },
+    {
+      "basename": "冒泡排序",
+      "path": "课程/算法/排序/冒泡排序.md"
+    },
+    {
+      "basename": "Quorum 的 NWR 策略",
+      "path": "工具/数据库/NoSQL/一致性管理方法/Quorum 的 NWR 策略.md"
+    },
+    {
+      "basename": "NoSQL",
+      "path": "工具/数据库/NoSQL/NoSQL.md"
+    },
+    {
+      "basename": "Paxos 算法",
+      "path": "工具/数据库/NoSQL/一致性管理方法/Paxos 算法.md"
+    },
+    {
+      "basename": "Raft 算法",
+      "path": "工具/数据库/NoSQL/一致性管理方法/Raft 算法.md"
+    },
+    {
+      "basename": "向量时钟机制",
+      "path": "工具/数据库/NoSQL/一致性管理方法/向量时钟机制.md"
+    },
+    {
+      "basename": "事务",
+      "path": "语言/SQL/SQL 基础语法/事务.md"
+    },
+    {
+      "basename": "列族数据库",
+      "path": "工具/数据库/NoSQL/列族数据库.md"
+    },
+    {
+      "basename": "分布式系统",
+      "path": "课程/分布式系统.md"
+    },
+    {
+      "basename": "服务治理 Eureka",
+      "path": "库/Java/Spring/Spring Cloud/服务治理与负载均衡/服务治理 Eureka.md"
+    },
+    {
+      "basename": "键值数据库",
+      "path": "工具/数据库/NoSQL/键值数据库.md"
+    },
+    {
+      "basename": "文档数据库",
+      "path": "工具/数据库/NoSQL/文档数据库.md"
+    },
+    {
+      "basename": "图数据库",
+      "path": "工具/数据库/NoSQL/图数据库.md"
+    },
+    {
+      "basename": "MySQL 8.0",
+      "path": "工具/数据库/MySQL 8.0/MySQL 8.0.md"
+    },
+    {
+      "basename": "Linux",
+      "path": "工具/Linux/Linux.md"
+    },
+    {
+      "basename": "Systemd",
+      "path": "工具/Linux/系统组件/Systemd.md"
+    },
+    {
+      "basename": "接口",
+      "path": "语言/Go/Go 语法/数据类型/结构体与接口/接口.md"
+    },
+    {
+      "basename": "基础类型",
+      "path": "语言/Go/Go 语法/数据类型/基础类型.md"
+    },
+    {
+      "basename": "组合",
+      "path": "语言/Go/Go 语法/数据类型/结构体与接口/组合.md"
+    },
+    {
+      "basename": "类型断言",
+      "path": "语言/Go/Go 语法/数据类型/结构体与接口/类型断言.md"
+    },
+    {
+      "basename": "结构体",
+      "path": "语言/Go/Go 语法/数据类型/结构体与接口/结构体.md"
+    },
+    {
+      "basename": "数据类型",
+      "path": "语言/Go/Go 语法/数据类型/数据类型.md"
+    },
+    {
+      "basename": "控制结构",
+      "path": "语言/Go/Go 语法/控制结构.md"
+    },
+    {
+      "basename": "Go 语法",
+      "path": "语言/Go/Go 语法/Go 语法.md"
+    },
+    {
+      "basename": "Go",
+      "path": "语言/Go/Go.md"
+    },
+    {
+      "basename": "语言",
+      "path": "语言/语言.md"
+    },
+    {
       "basename": "消息驱动 Stream",
       "path": "库/Java/Spring/Spring Cloud/消息驱动 Stream.md"
+    },
+    {
+      "basename": "sh 文件无法运行",
+      "path": "工具/Linux/sh 文件无法运行.md"
     },
     {
       "basename": "Spring Cloud",
@@ -19,10 +131,6 @@
     {
       "basename": "统一配置中心 Config",
       "path": "库/Java/Spring/Spring Cloud/统一配置中心 Config.md"
-    },
-    {
-      "basename": "每日任务",
-      "path": "个人笔记/每日任务.md"
     },
     {
       "basename": "分布式微服务跟踪 Sleuth",
@@ -85,120 +193,12 @@
       "path": "_resources/images/统一配置中心 2024-10-05 20.40.21.excalidraw.md"
     },
     {
-      "basename": "服务治理 Eureka",
-      "path": "库/Java/Spring/Spring Cloud/服务治理与负载均衡/服务治理 Eureka.md"
-    },
-    {
       "basename": "服务调用 Feign",
       "path": "库/Java/Spring/Spring Cloud/服务治理与负载均衡/服务调用 Feign.md"
     },
     {
       "basename": "统一配置中心 2024-10-05 17.48.27.excalidraw",
       "path": "_resources/images/统一配置中心 2024-10-05 17.48.27.excalidraw.md"
-    },
-    {
-      "basename": "hello world",
-      "path": "库/Java/Spring/Spring Cloud/hello world.md"
-    },
-    {
-      "basename": "BFG Repo-Cleaner",
-      "path": "工具/git/BFG Repo-Cleaner.md"
-    },
-    {
-      "basename": "AutoX",
-      "path": "工具/AutoX.md"
-    },
-    {
-      "basename": "PlantUML",
-      "path": "工具/PlantUML.md"
-    },
-    {
-      "basename": "Ventoy",
-      "path": "工具/Ventoy.md"
-    },
-    {
-      "basename": "ESLint",
-      "path": "工具/ESLint.md"
-    },
-    {
-      "basename": "ffmpeg",
-      "path": "工具/ffmpeg.md"
-    },
-    {
-      "basename": "JDK 工具",
-      "path": "语言/Java/JDK 工具/JDK 工具.md"
-    },
-    {
-      "basename": "流量卡绑定应用",
-      "path": "个人笔记/private/流量卡绑定应用.md"
-    },
-    {
-      "basename": "github.com port 22 Connection refused",
-      "path": "工具/git/github.com port 22 Connection refused.md"
-    },
-    {
-      "basename": "异构服务 Sidecar",
-      "path": "库/Java/Spring/Spring Cloud/服务治理与负载均衡/异构服务 Sidecar.md"
-    },
-    {
-      "basename": "客户端负载均衡 LoadBalancer",
-      "path": "库/Java/Spring/Spring Cloud/服务治理与负载均衡/客户端负载均衡 LoadBalancer.md"
-    },
-    {
-      "basename": "服务健康监控 Actuator",
-      "path": "库/Java/Spring/Spring Cloud/服务治理与负载均衡/服务健康监控 Actuator.md"
-    },
-    {
-      "basename": "README",
-      "path": "README.md"
-    },
-    {
-      "basename": "全形字",
-      "path": "标准/全形字.md"
-    },
-    {
-      "basename": "服务网关 2024-10-03 23.38.33.excalidraw",
-      "path": "_resources/images/服务网关 2024-10-03 23.38.33.excalidraw.md"
-    },
-    {
-      "basename": "Dubbo",
-      "path": "语言/Class 字节码/《深入理解 JVM 字节码》/字节码应用/Dubbo.md"
-    },
-    {
-      "basename": "服务治理 Eureka 2024-10-02 12.10.10.excalidraw",
-      "path": "_resources/images/服务治理 Eureka 2024-10-02 12.10.10.excalidraw.md"
-    },
-    {
-      "basename": "客户端负载均衡 Ribbon 2024-10-01 18.59.23.excalidraw",
-      "path": "_resources/images/客户端负载均衡 Ribbon 2024-10-01 18.59.23.excalidraw.md"
-    },
-    {
-      "basename": "客户端负载均衡 Ribbon 2024-10-01 18.52.09.excalidraw",
-      "path": "_resources/images/客户端负载均衡 Ribbon 2024-10-01 18.52.09.excalidraw.md"
-    },
-    {
-      "basename": "客户端负载均衡 Ribbon 2024-10-01 18.49.37.excalidraw",
-      "path": "_resources/images/客户端负载均衡 Ribbon 2024-10-01 18.49.37.excalidraw.md"
-    },
-    {
-      "basename": "KMS 激活",
-      "path": "工具/激活与注册/KMS 激活.md"
-    },
-    {
-      "basename": "序列号",
-      "path": "工具/激活与注册/序列号.md"
-    },
-    {
-      "basename": "服务治理 Eureka 2024-10-01 17.53.13.excalidraw",
-      "path": "_resources/images/服务治理 Eureka 2024-10-01 17.53.13.excalidraw.md"
-    },
-    {
-      "basename": "Multi-Column Markdown",
-      "path": "工具/Obsidian/插件/Multi-Column Markdown.md"
-    },
-    {
-      "basename": "Obsidian Columns",
-      "path": "工具/Obsidian/插件/Obsidian Columns.md"
     }
   ],
   "omittedPaths": []
