@@ -50,7 +50,7 @@ end: 14
 配置中使用 `RedisTemplate` 访问
 
 ```reference
-file: "@/_resources/codes/spring-cloud/shopping-product-service/src/main/java/com/example/shopping/config/RedisConfiguration.java"
+file: "@/_resources/codes/spring-cloud/shopping-product-service-before9.4/src/main/java/com/example/shopping/config/RedisConfiguration.java"
 start: 14
 end: 24
 ```
@@ -62,7 +62,7 @@ end: 24
 flexGrow=1
 ===
 ```embed-java
-PATH: "vault://_resources/codes/spring-cloud/shopping-product-service/src/main/java/com/example/shopping/repository/UserRedisRepository.java"
+PATH: "vault://_resources/codes/spring-cloud/shopping-product-service-before9.4/src/main/java/com/example/shopping/repository/UserRedisRepository.java"
 LINES: "22-26,31-33,38-43,48-50"
 ```
 ````
@@ -70,7 +70,7 @@ LINES: "22-26,31-33,38-43,48-50"
 flexGrow=1
 ===
 ```embed-java
-PATH: "vault://_resources/codes/spring-cloud/shopping-product-service/src/main/java/com/example/shopping/service/UserService.java"
+PATH: "vault://_resources/codes/spring-cloud/shopping-product-service-before9.4/src/main/java/com/example/shopping/service/UserService.java"
 LINES: "20-24,32-40,43,45-47,50,52-56"
 ```
 ````
@@ -118,21 +118,78 @@ image: http://apache-kafka.org/images/apache-kafka.png
 .\bin\windows\kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic springcloud-msg --from-beginning
 ```
 
-把 Kafka 整合到 Spring Boot 项目中，先添加 `org.springframework.cloud:spring-cloud-starter-stream-kafka` 依赖，使用 `@EnableBindding` 开启
+把 Kafka 整合到 Spring Boot 项目中，先添加 `org.springframework.cloud:spring-cloud-starter-stream-kafka` 依赖即可
 
-> [!error] 原书内容已过时，只记录目录待后续补全
-> - [ ] TODO Spring Cloud Stream & Kafka & Spring Cloud Bus
-> 	- Stream & Kafka
-> 		- 实例
-> 		- 自定义消息通道
-> 		- 单元测试
-> 		- 错误处理
-> 		- 消息处理分发
-> 		- 消费者组与消息分区
-> 		- 消息绑定器
-> 	- Bus
-> 		- 配置自动刷新
-> 		- 发布自定义事件
+## 声明消息通道
+
+配置 Kafka 参数
+
+```reference
+file: "@/_resources/codes/spring-cloud/hello-stream-receiver/src/main/resources/application.properties"
+start: 5
+end: 7
+```
+
+``````tabs
+tab: 消息发送端
+
+- 配置：`spring.cloud.stream.bindings.<绑定名>-out[-<分区>]` 表示通过某通道（某分区）发送的数据配置
+	- **绑定名**用于后面发送数据
+	- `destination` 属性指定通道名
+
+```embed-properties
+PATH: "vault://_resources/codes/spring-cloud/hello-stream-sender/src/main/resources/application.properties"
+LINES: "8-9"
+```
+
+- 发送：通过自动装配 `StreamBridge` 的 `send(绑定名, 数据)` 发送
+
+```embed-java
+PATH: "vault://_resources/codes/spring-cloud/hello-stream-sender/src/main/java/com/example/hellostreamsender/SenderController.java"
+LINES: "12-19"
+```
+
+> 还可以通过其他方式发送数据：
+> - 注入一个名为 `绑定名` 的 Supplier 对象，在其他对象中获取该对象并调用
+> - 注入一个 `KafkaTemplate` 类型的对象，通过该对象发送数据
+> - 使用 Kafka 原生 `KafkaProducer` 类发送，该方法不依赖于 Spring Cloud Stream
+
+tab: 消息接收端
+
+- 配置：`spring.cloud.stream.bindings.<绑定名>-in[-<分区>]` 表示通过某通道（某分区）接收数据
+	- **绑定名**用于后面接收数据
+	- `destination` 属性指定通道名
+
+```embed-properties
+PATH: "vault://_resources/codes/spring-cloud/hello-stream-receiver/src/main/resources/application.properties"
+LINES: "8-10"
+```
+
+- 接收：使用 `@EnableKafka` 开启 Kafka 监听，使用 `@KafkaListener(topics, groupId)` 注解消息处理函数
+
+`````col
+````col-md
+flexGrow=1
+===
+```embed-java
+PATH: "vault://_resources/codes/spring-cloud/hello-stream-receiver/src/main/java/com/example/hellostreamreceiver/HelloStreamReceiver.java"
+LINES: "7-9"
+```
+````
+````col-md
+flexGrow=1
+===
+```embed-java
+PATH: "vault://_resources/codes/spring-cloud/hello-stream-receiver/src/main/java/com/example/hellostreamreceiver/ReceiverController.java"
+LINES: "17-21"
+```
+````
+`````
+
+> 其他接收数据方式：
+> - 使用 Kafka 本身的 `KafkaConsumer` API
+> - 使用 `@EnableKafkaStreams` 通过 Kafka Stream API 处理复杂数据
+``````
 
 # 消息总线 Bus
 

@@ -1,12 +1,36 @@
 {
   "recentFiles": [
     {
+      "basename": "消息驱动 Stream",
+      "path": "库/Java/Spring/Spring Cloud/消息驱动 Stream.md"
+    },
+    {
       "basename": "分布式微服务跟踪 Sleuth",
       "path": "库/Java/Spring/Spring Cloud/分布式微服务跟踪 Sleuth.md"
     },
     {
+      "basename": "服务调用 Feign",
+      "path": "库/Java/Spring/Spring Cloud/服务治理与负载均衡/服务调用 Feign.md"
+    },
+    {
+      "basename": "命名空间",
+      "path": "语言/C Cpp/C++/命名空间/命名空间.md"
+    },
+    {
+      "basename": "函数",
+      "path": "语言/C Cpp/C++/函数/函数.md"
+    },
+    {
+      "basename": "C++",
+      "path": "语言/C Cpp/C++/C++.md"
+    },
+    {
       "basename": "每日任务",
       "path": "个人笔记/每日任务.md"
+    },
+    {
+      "basename": "Raft 算法",
+      "path": "工具/数据库/NoSQL/一致性管理方法/Raft 算法.md"
     },
     {
       "basename": "冒泡排序",
@@ -23,10 +47,6 @@
     {
       "basename": "Paxos 算法",
       "path": "工具/数据库/NoSQL/一致性管理方法/Paxos 算法.md"
-    },
-    {
-      "basename": "Raft 算法",
-      "path": "工具/数据库/NoSQL/一致性管理方法/Raft 算法.md"
     },
     {
       "basename": "向量时钟机制",
@@ -113,10 +133,6 @@
       "path": "语言/语言.md"
     },
     {
-      "basename": "消息驱动 Stream",
-      "path": "库/Java/Spring/Spring Cloud/消息驱动 Stream.md"
-    },
-    {
       "basename": "sh 文件无法运行",
       "path": "工具/Linux/sh 文件无法运行.md"
     },
@@ -183,22 +199,6 @@
     {
       "basename": "消息驱动 Stream 2024-10-07 02.14.20.excalidraw",
       "path": "_resources/images/消息驱动 Stream 2024-10-07 02.14.20.excalidraw.md"
-    },
-    {
-      "basename": "微服务容错 Resilience4j",
-      "path": "库/Java/Spring/Spring Cloud/微服务容错 Resilience4j.md"
-    },
-    {
-      "basename": "统一配置中心 2024-10-05 20.40.21.excalidraw",
-      "path": "_resources/images/统一配置中心 2024-10-05 20.40.21.excalidraw.md"
-    },
-    {
-      "basename": "服务调用 Feign",
-      "path": "库/Java/Spring/Spring Cloud/服务治理与负载均衡/服务调用 Feign.md"
-    },
-    {
-      "basename": "统一配置中心 2024-10-05 17.48.27.excalidraw",
-      "path": "_resources/images/统一配置中心 2024-10-05 17.48.27.excalidraw.md"
     }
   ],
   "omittedPaths": []

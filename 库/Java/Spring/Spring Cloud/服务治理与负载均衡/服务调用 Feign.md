@@ -56,7 +56,7 @@ OpenFeign 支持继承，可以将服务接口拆出来单独成包，在服务�
 tab: User API
 
 ```embed-java
-PATH: "vault://_resources/codes/spring-cloud/shopping-user-api/src/main/java/com/example/shopping/api/UserService.java"
+PATH: "vault://_resources/codes/spring-cloud/shopping-user-api-before9.4/src/main/java/com/example/shopping/api/UserService.java"
 LINES: "12,20-21,27-28,35-36,42-43,44"
 ```
 

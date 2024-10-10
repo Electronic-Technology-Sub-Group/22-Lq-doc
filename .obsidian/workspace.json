@@ -23,27 +23,12 @@
             }
           },
           {
-            "id": "8c595663f58f20dd",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "工具/数据库/NoSQL/NoSQL.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "09f429a50b0c90de",
+            "id": "b7558ada25152788",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "工具/数据库/NoSQL/一致性管理方法/Raft 算法.md",
+                "file": "库/Java/Spring/Spring Cloud/消息驱动 Stream.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -51,7 +36,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -80,7 +65,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "config-repo-files-before9.4",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -105,11 +90,12 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 299.51103591918945
   },
   "right": {
     "id": "2f5d582e60864eba",
@@ -125,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "工具/数据库/NoSQL/一致性管理方法/Raft 算法.md",
+                "file": "库/Java/Spring/Spring Cloud/消息驱动 Stream.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -142,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "工具/数据库/NoSQL/一致性管理方法/Raft 算法.md",
+                "file": "库/Java/Spring/Spring Cloud/消息驱动 Stream.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -165,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "工具/数据库/NoSQL/一致性管理方法/Raft 算法.md"
+                "file": "库/Java/Spring/Spring Cloud/消息驱动 Stream.md"
               }
             }
           },
@@ -234,8 +220,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 278.5,
-    "collapsed": true
+    "width": 278.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -260,29 +245,37 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "09f429a50b0c90de",
+  "active": "b7558ada25152788",
   "lastOpenFiles": [
+    "_resources/codes/spring-cloud/config-repo-files-before9/创建 git 仓库.sh",
+    "_resources/codes/spring-cloud/config-repo-files/创建 git 仓库.sh",
+    "_resources/codes/spring-cloud/config-repo-files/创建 git 仓库.bat",
+    "_resources/codes/spring-cloud/config-repo-files/userservice-dev.properties",
+    "_resources/codes/spring-cloud/config-repo-files/userservice.properties",
+    "_resources/codes/spring-cloud/config-repo-files/!!!提交时删除 .git 目录",
+    "_resources/codes/spring-cloud/config-repo-files/productservice.properties",
+    "_resources/codes/spring-cloud/config-repo-files/application.properties",
+    "_resources/codes/spring-cloud/config-repo-files/productservice-dev.properties",
+    "_resources/codes/spring-cloud/config-repo-files/application-dev.properties",
+    "_resources/codes/spring-cloud/config-repo-files/!!!使用创建 git 仓库初始化",
+    "库/Java/Spring/Spring Cloud/分布式微服务跟踪 Sleuth.md",
+    "库/Java/Spring/Spring Cloud/服务治理与负载均衡/服务调用 Feign.md",
+    "库/Java/Spring/Spring Cloud/消息驱动 Stream.md",
+    "_resources/codes/spring-cloud/hello-stream-sender/HELP.md",
+    "_resources/codes/spring-cloud/hello-stream-receiver/HELP.md",
+    "语言/C Cpp/C++/命名空间/命名空间.md",
+    "语言/C Cpp/C++/函数/函数.md",
+    "语言/C Cpp/C++/C++.md",
+    "个人笔记/每日任务.md",
+    "工具/数据库/NoSQL/一致性管理方法/Raft 算法.md",
     "工具/数据库/NoSQL/NoSQL.md",
     "工具/数据库/NoSQL/一致性管理方法/Paxos 算法.md",
     "_resources/images/Paxos 算法 2024-10-10 10.59.05.excalidraw.md",
     "_resources/images/Paxos 算法 2024-10-10 10.55.38.excalidraw.md",
     "工具/数据库/NoSQL/一致性管理方法/Quorum 的 NWR 策略.md",
-    "个人笔记/每日任务.md",
-    "库/Java/Spring/Spring Cloud/分布式微服务跟踪 Sleuth.md",
-    "_resources/codes/spring-cloud/config-repo-files/!!!提交时删除 .git 目录",
-    "_resources/codes/spring-cloud/config-repo-files/!!!使用创建 git 仓库初始化",
-    "_resources/codes/spring-cloud/config-repo-files-before9/!!!提交时删除 .git 目录",
-    "_resources/codes/spring-cloud/config-repo-files-before9/新建 文本文档.txt",
-    "_resources/codes/spring-cloud/config-repo-files-before9/!!!使用创建 git 仓库初始化",
-    "_resources/codes/spring-cloud/config-repo-files-before9/!!!使用创建 git 仓库初始化，提交时删除 .git 文件",
-    "_resources/codes/spring-cloud/config-repo-files-before9/!!!自己创建一个 git 仓库",
-    "_resources/codes/spring-cloud/config-repo-files-before9/创建 git 仓库.bat",
-    "_resources/codes/spring-cloud/config-repo-files/创建 git 仓库.bat",
     "_resources/images/Pasted image 20241010013136.png",
-    "_resources/codes/spring-cloud/config-repo-files/userservice.properties",
     "课程/算法/排序/冒泡排序.md",
     "工具/数据库/NoSQL/未命名.md",
-    "工具/数据库/NoSQL/一致性管理方法/Raft 算法.md",
     "工具/数据库/NoSQL/一致性管理方法/向量时钟机制.md",
     "语言/SQL/SQL 基础语法/事务.md",
     "工具/数据库/NoSQL/列族数据库.md",
@@ -291,14 +284,6 @@
     "工具/数据库/NoSQL/键值数据库.md",
     "工具/数据库/NoSQL/文档数据库.md",
     "工具/数据库/NoSQL/图数据库.md",
-    "工具/数据库/MySQL 8.0/MySQL 8.0.md",
-    "工具/Linux/Linux.md",
-    "工具/Linux/系统组件/Systemd.md",
-    "语言/Go/Go 语法/数据类型/结构体与接口/接口.md",
-    "语言/Go/Go 语法/数据类型/基础类型.md",
-    "语言/Go/Go 语法/数据类型/结构体与接口/组合.md",
-    "语言/Go/Go 语法/数据类型/结构体与接口/类型断言.md",
-    "语言/Go/Go 语法/数据类型/结构体与接口/结构体.md",
     "_resources/images/Pasted image 20241001231721.png",
     "_resources/images/Pasted image 20241001231313.png",
     "_resources/images/Pasted image 20241001231206.png",
