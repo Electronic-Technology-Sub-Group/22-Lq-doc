@@ -1,10 +1,14 @@
 #obsidian
 .trash
 个人笔记/private
-.obsidian/plugins/global-proxy/data.json
-.obsidian/plugins/recent-files-obsidian/data.json
+.obsidian/plugins/global-proxy/
+.obsidian/plugins/various-complements/histories.json
+.obsidian/plugins/recent-files-obsidian/
 
 # js
 **/node_modules
 **/dist
 package-lock.json
+
+# Kate
+*.kate-swp
