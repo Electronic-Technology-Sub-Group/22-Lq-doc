@@ -1,8 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "微服务应用安全 Security",
+      "path": "库/Java/Spring/Spring Cloud/微服务应用安全 Security.md"
+    },
+    {
+      "basename": "每日任务",
+      "path": "个人笔记/每日任务.md"
+    },
+    {
       "basename": "消息驱动 Stream",
       "path": "库/Java/Spring/Spring Cloud/消息驱动 Stream.md"
+    },
+    {
+      "basename": "class B cannot be cast to class(B is in module java.base of loader 'bootstrap'; class is in unnamed module of loader 'app')",
+      "path": "库/Java/Spring/class B cannot be cast to class(B is in module java.base of loader 'bootstrap'; class is in unnamed module of loader 'app').md"
     },
     {
       "basename": "分布式微服务跟踪 Sleuth",
@@ -23,10 +35,6 @@
     {
       "basename": "C++",
       "path": "语言/C Cpp/C++/C++.md"
-    },
-    {
-      "basename": "每日任务",
-      "path": "个人笔记/每日任务.md"
     },
     {
       "basename": "Raft 算法",
@@ -145,10 +153,6 @@
       "path": "库/Java/Spring/Spring Cloud/微服务与 Docker.md"
     },
     {
-      "basename": "微服务应用安全 Security",
-      "path": "库/Java/Spring/Spring Cloud/微服务应用安全 Security.md"
-    },
-    {
       "basename": "统一配置中心 Config",
       "path": "库/Java/Spring/Spring Cloud/统一配置中心 Config.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "消息驱动 Stream 2024-10-07 00.06.27.excalidraw",
       "path": "_resources/images/消息驱动 Stream 2024-10-07 00.06.27.excalidraw.md"
-    },
-    {
-      "basename": "消息驱动 Stream 2024-10-07 02.14.20.excalidraw",
-      "path": "_resources/images/消息驱动 Stream 2024-10-07 02.14.20.excalidraw.md"
     }
   ],
   "omittedPaths": []

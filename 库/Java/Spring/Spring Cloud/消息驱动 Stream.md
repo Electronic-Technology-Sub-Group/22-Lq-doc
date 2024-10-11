@@ -191,6 +191,50 @@ LINES: "17-21"
 > - 使用 `@EnableKafkaStreams` 通过 Kafka Stream API 处理复杂数据
 ``````
 
+## 错误处理
+
+出现异常时，Spring 会将异常信息封装为 `ErrorMessage` 并通过 `spring.cloud.stream.bindings.error.destination` 指定的通道发送，默认为 `errorChannel`
+
+## 消息分区
+
+消费者组：多个消费者实例共享一个 ID，组内所有成员共同处理一个通道的消息，一条消息会被一个组中的一个实例处理
+
+再平衡：rebalance，规定一个消费者组下的成员如何分配订阅的消息通道的消息分区
+
+数据分片：一个主题可分为多个分片，并保证具有相同特征的数据被同一消费者处理
+
+## 消息绑定器
+
+Spring Cloud Stream 提供抽象绑定器作为中间层，实现同时与多个消息中间件（Kafka，RabbitMQ 等）连接，使应用代码与中间件解耦。
+
+- 通常引入对应中间件的依赖即可，也可以自定义绑定器，需要实现 Binder 接口，并在 `META-INF/spring.binders` 中声明
+- 默认绑定器使用 `spring.cloud.stream.bindings.[input/output].binder` 配置
+- 绑定器设置使用 x `spring.cloud.stream.binders.<绑定器名>` 配置
+- 具体某个通道的绑定器使用 `spring.cloud.stream.bindings.<name>.binder=<绑定器名>` 配置
+
 # 消息总线 Bus
 
 基于 Spring Cloud Stream + Spring 事件模型的消息库
+- 事件：ApplicationEvent
+- 事件监听器：ApplicationListener
+- 事件发布者：ApplicationEventPublisher
+
+引入依赖 `org.springframework.cloud:spring-cloud-starter-bus-kafka`，按照前面的方法配置好 Kafka 参数即可完成 Spring Cloud Bus 的引入
+
+> [!note] 针对 RabbitMQ 的依赖为 `spring-cloud-starter-bus-amqp`，通过 `string.rabbitmq` 配置
+
+## 自动更新配置
+
+在微服务子项目和配置服务器都引入 Spring Cloud Bus，在配置服务器修改配置文件后，通过 `/bus/refresh` 即可刷新配置
+- `/bus/refresh`：刷新所有配置
+- `/bus/refresh?destination=<service>`：更新某微服务
+- `/bus/refresh?destination=<service>:<port>`：更新某端口上的某微服务
+- 支持 `**` 通配符
+
+## 自定义事件
+
+- 事件类：创建继承自 `RemoteApplicationEvent` 的类
+	- 发布者和接收者都应可访问该类，或有一致类
+	- 发送时使用 Json 序列化，可通过 `@JsonTypeName` 手动指定类名
+- 监听器：注入一个实现 `ApplicationListener<T>` 的类
+- 发布事件：通过 `ApplicationContext#pushEvent` 发送事件，使用 `@RemoteApplicationEventScan` 指定事件类包
