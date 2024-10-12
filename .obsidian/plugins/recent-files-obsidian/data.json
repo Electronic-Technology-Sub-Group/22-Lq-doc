@@ -1,20 +1,84 @@
 {
   "recentFiles": [
     {
-      "basename": "微服务应用安全 Security",
-      "path": "库/Java/Spring/Spring Cloud/微服务应用安全 Security.md"
-    },
-    {
       "basename": "每日任务",
       "path": "个人笔记/每日任务.md"
     },
     {
-      "basename": "消息驱动 Stream",
-      "path": "库/Java/Spring/Spring Cloud/消息驱动 Stream.md"
+      "basename": "图数据库",
+      "path": "工具/数据库/NoSQL/图数据库.md"
+    },
+    {
+      "basename": "图数据库 2024-10-12 15.45.34.excalidraw",
+      "path": "_resources/images/图数据库 2024-10-12 15.45.34.excalidraw.md"
+    },
+    {
+      "basename": "NoSQL",
+      "path": "工具/数据库/NoSQL/NoSQL.md"
+    },
+    {
+      "basename": "图数据库 2024-10-12 15.20.35.excalidraw",
+      "path": "_resources/images/图数据库 2024-10-12 15.20.35.excalidraw.md"
+    },
+    {
+      "basename": "向量时钟机制",
+      "path": "工具/数据库/NoSQL/一致性管理方法/向量时钟机制.md"
+    },
+    {
+      "basename": "Raft 算法",
+      "path": "工具/数据库/NoSQL/一致性管理方法/Raft 算法.md"
+    },
+    {
+      "basename": "路由钩子函数",
+      "path": "库/JS与CSS/Vue/Vue3/Vue Router/路由钩子函数.md"
+    },
+    {
+      "basename": "路由信息",
+      "path": "库/JS与CSS/Vue/Vue3/Vue Router/路由信息.md"
+    },
+    {
+      "basename": "Vue UI 组件库",
+      "path": "库/JS与CSS/Vue/Vue UI 组件库.md"
+    },
+    {
+      "basename": "目录别名",
+      "path": "工具/Javascript/webpack/目录别名.md"
+    },
+    {
+      "basename": "webpack",
+      "path": "工具/Javascript/webpack/webpack.md"
+    },
+    {
+      "basename": "Vue CLI",
+      "path": "工具/Javascript/Vue CLI/Vue CLI.md"
+    },
+    {
+      "basename": "vue-cli-service",
+      "path": "工具/Javascript/Vue CLI/vue-cli-service.md"
+    },
+    {
+      "basename": "NPM 常用命令",
+      "path": "工具/Javascript/NPM 常用命令.md"
+    },
+    {
+      "basename": "Vite",
+      "path": "工具/Javascript/Vite/Vite.md"
+    },
+    {
+      "basename": "SvgIcon 图标组件",
+      "path": "库/JS与CSS/Vue/SvgIcon 图标组件.md"
     },
     {
       "basename": "class B cannot be cast to class(B is in module java.base of loader 'bootstrap'; class is in unnamed module of loader 'app')",
       "path": "库/Java/Spring/class B cannot be cast to class(B is in module java.base of loader 'bootstrap'; class is in unnamed module of loader 'app').md"
+    },
+    {
+      "basename": "微服务应用安全 Security",
+      "path": "库/Java/Spring/Spring Cloud/微服务应用安全 Security.md"
+    },
+    {
+      "basename": "消息驱动 Stream",
+      "path": "库/Java/Spring/Spring Cloud/消息驱动 Stream.md"
     },
     {
       "basename": "分布式微服务跟踪 Sleuth",
@@ -37,10 +101,6 @@
       "path": "语言/C Cpp/C++/C++.md"
     },
     {
-      "basename": "Raft 算法",
-      "path": "工具/数据库/NoSQL/一致性管理方法/Raft 算法.md"
-    },
-    {
       "basename": "冒泡排序",
       "path": "课程/算法/排序/冒泡排序.md"
     },
@@ -49,16 +109,8 @@
       "path": "工具/数据库/NoSQL/一致性管理方法/Quorum 的 NWR 策略.md"
     },
     {
-      "basename": "NoSQL",
-      "path": "工具/数据库/NoSQL/NoSQL.md"
-    },
-    {
       "basename": "Paxos 算法",
       "path": "工具/数据库/NoSQL/一致性管理方法/Paxos 算法.md"
-    },
-    {
-      "basename": "向量时钟机制",
-      "path": "工具/数据库/NoSQL/一致性管理方法/向量时钟机制.md"
     },
     {
       "basename": "事务",
@@ -83,10 +135,6 @@
     {
       "basename": "文档数据库",
       "path": "工具/数据库/NoSQL/文档数据库.md"
-    },
-    {
-      "basename": "图数据库",
-      "path": "工具/数据库/NoSQL/图数据库.md"
     },
     {
       "basename": "MySQL 8.0",
@@ -151,54 +199,6 @@
     {
       "basename": "微服务与 Docker",
       "path": "库/Java/Spring/Spring Cloud/微服务与 Docker.md"
-    },
-    {
-      "basename": "统一配置中心 Config",
-      "path": "库/Java/Spring/Spring Cloud/统一配置中心 Config.md"
-    },
-    {
-      "basename": "服务网关 Gateway",
-      "path": "库/Java/Spring/Spring Cloud/服务网关 Gateway.md"
-    },
-    {
-      "basename": "Kafka",
-      "path": "工具/Kafka/Kafka.md"
-    },
-    {
-      "basename": "H2",
-      "path": "工具/数据库/H2.md"
-    },
-    {
-      "basename": "vfox",
-      "path": "工具/vfox.md"
-    },
-    {
-      "basename": "chsrc",
-      "path": "工具/chsrc.md"
-    },
-    {
-      "basename": "zookeeper is not a recognized option",
-      "path": "工具/Kafka/zookeeper is not a recognized option.md"
-    },
-    {
-      "basename": "Error parsing request header. Our best guess of the apiKey is 0",
-      "path": "工具/Kafka/Error parsing request header. Our best guess of the apiKey is 0.md"
-    },
-    {
-      "basename": "输入行太长 命令语法不正确",
-      "path": "工具/Kafka/输入行太长 命令语法不正确.md"
-    },
-    {
-      "basename": "分布式微服务跟踪 Sleuth 2024-10-06 13.35.24.excalidraw",
-      "path": "_resources/images/分布式微服务跟踪 Sleuth 2024-10-06 13.35.24.excalidraw.md"
-    },
-    {
-      "basename": "服务治理与负载均衡",
-      "path": "库/Java/Spring/Spring Cloud/服务治理与负载均衡/服务治理与负载均衡.md"
-    },
-    {
-      "basename": "消息驱动 Stream 2024-10-07 00.06.27.excalidraw",
-      "path": "_resources/images/消息驱动 Stream 2024-10-07 00.06.27.excalidraw.md"
     }
   ],
   "omittedPaths": []
