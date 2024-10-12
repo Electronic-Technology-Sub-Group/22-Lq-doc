@@ -1,12 +1,84 @@
 {
   "recentFiles": [
     {
-      "basename": "微服务应用安全 Security",
-      "path": "库/Java/Spring/Spring Cloud/微服务应用安全 Security.md"
+      "basename": "模块私有性",
+      "path": "语言/Rust/Rust 语法/模块私有性.md"
+    },
+    {
+      "basename": "包与模块",
+      "path": "语言/Rust/Rust 语法/包与模块.md"
+    },
+    {
+      "basename": "String",
+      "path": "语言/Rust/Rust 语法/集合与字符串/String.md"
+    },
+    {
+      "basename": "模式匹配",
+      "path": "语言/Rust/Rust 语法/流程控制/模式匹配.md"
+    },
+    {
+      "basename": "循环",
+      "path": "语言/Rust/Rust 语法/流程控制/循环.md"
+    },
+    {
+      "basename": "never type",
+      "path": "语言/Rust/Rust 语法/数据类型/never type.md"
+    },
+    {
+      "basename": "元组",
+      "path": "语言/Rust/Rust 语法/数据类型/元组.md"
+    },
+    {
+      "basename": "数字、字符、布尔",
+      "path": "语言/Rust/Rust 语法/数据类型/数字、字符、布尔.md"
+    },
+    {
+      "basename": "数组",
+      "path": "语言/Rust/Rust 语法/数据类型/数组.md"
+    },
+    {
+      "basename": "结构体",
+      "path": "语言/Rust/Rust 语法/数据类型/结构体.md"
+    },
+    {
+      "basename": "数据类型",
+      "path": "语言/Rust/Rust 语法/数据类型/数据类型.md"
+    },
+    {
+      "basename": "proxychains4",
+      "path": "工具/Linux/proxychains4.md"
+    },
+    {
+      "basename": "关闭默认钥匙环密码",
+      "path": "工具/Linux/关闭默认钥匙环密码.md"
+    },
+    {
+      "basename": "Github SSH 登录",
+      "path": "工具/git/Github SSH 登录.md"
+    },
+    {
+      "basename": "Vmware linux 屏幕闪烁",
+      "path": "工具/Linux/Vmware linux 屏幕闪烁.md"
+    },
+    {
+      "basename": "Ubuntu 24+ 安装 VMware Tools",
+      "path": "工具/Linux/Debian 系/Ubuntu 24+ 安装 VMware Tools.md"
+    },
+    {
+      "basename": "sudo 配置",
+      "path": "工具/Linux/sudo 配置.md"
+    },
+    {
+      "basename": "sh 文件无法运行",
+      "path": "工具/Linux/sh 文件无法运行.md"
     },
     {
       "basename": "每日任务",
       "path": "个人笔记/每日任务.md"
+    },
+    {
+      "basename": "微服务应用安全 Security",
+      "path": "库/Java/Spring/Spring Cloud/微服务应用安全 Security.md"
     },
     {
       "basename": "消息驱动 Stream",
@@ -127,78 +199,6 @@
     {
       "basename": "控制结构",
       "path": "语言/Go/Go 语法/控制结构.md"
-    },
-    {
-      "basename": "Go 语法",
-      "path": "语言/Go/Go 语法/Go 语法.md"
-    },
-    {
-      "basename": "Go",
-      "path": "语言/Go/Go.md"
-    },
-    {
-      "basename": "语言",
-      "path": "语言/语言.md"
-    },
-    {
-      "basename": "sh 文件无法运行",
-      "path": "工具/Linux/sh 文件无法运行.md"
-    },
-    {
-      "basename": "Spring Cloud",
-      "path": "库/Java/Spring/Spring Cloud/Spring Cloud.md"
-    },
-    {
-      "basename": "微服务与 Docker",
-      "path": "库/Java/Spring/Spring Cloud/微服务与 Docker.md"
-    },
-    {
-      "basename": "统一配置中心 Config",
-      "path": "库/Java/Spring/Spring Cloud/统一配置中心 Config.md"
-    },
-    {
-      "basename": "服务网关 Gateway",
-      "path": "库/Java/Spring/Spring Cloud/服务网关 Gateway.md"
-    },
-    {
-      "basename": "Kafka",
-      "path": "工具/Kafka/Kafka.md"
-    },
-    {
-      "basename": "H2",
-      "path": "工具/数据库/H2.md"
-    },
-    {
-      "basename": "vfox",
-      "path": "工具/vfox.md"
-    },
-    {
-      "basename": "chsrc",
-      "path": "工具/chsrc.md"
-    },
-    {
-      "basename": "zookeeper is not a recognized option",
-      "path": "工具/Kafka/zookeeper is not a recognized option.md"
-    },
-    {
-      "basename": "Error parsing request header. Our best guess of the apiKey is 0",
-      "path": "工具/Kafka/Error parsing request header. Our best guess of the apiKey is 0.md"
-    },
-    {
-      "basename": "输入行太长 命令语法不正确",
-      "path": "工具/Kafka/输入行太长 命令语法不正确.md"
-    },
-    {
-      "basename": "分布式微服务跟踪 Sleuth 2024-10-06 13.35.24.excalidraw",
-      "path": "_resources/images/分布式微服务跟踪 Sleuth 2024-10-06 13.35.24.excalidraw.md"
-    },
-    {
-      "basename": "服务治理与负载均衡",
-      "path": "库/Java/Spring/Spring Cloud/服务治理与负载均衡/服务治理与负载均衡.md"
-    },
-    {
-      "basename": "消息驱动 Stream 2024-10-07 00.06.27.excalidraw",
-      "path": "_resources/images/消息驱动 Stream 2024-10-07 00.06.27.excalidraw.md"
     }
   ],
   "omittedPaths": []

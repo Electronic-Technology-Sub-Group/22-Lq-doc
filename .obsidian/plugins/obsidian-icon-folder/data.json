@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "SiUbuntu",
       "LiDatabase",
       "LiWaypoints",
       "ApVfox",
-      "ApChsrc",
-      "SiApachekafka"
+      "ApChsrc"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -228,5 +228,6 @@
   "工具/Kafka": "SiApachekafka",
   "工具/chsrc.md": "ApChsrc",
   "工具/vfox.md": "ApVfox",
-  "工具/数据库/NoSQL": "LiDatabase"
+  "工具/数据库/NoSQL": "LiDatabase",
+  "工具/Linux/Debian 系/Ubuntu 24+ 安装 VMware Tools.md": "SiUbuntu"
 }
