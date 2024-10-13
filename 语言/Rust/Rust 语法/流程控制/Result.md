@@ -56,7 +56,9 @@ fn read_from_file(file: &str) -> Result<String, io::Error> {
 }
 ```
 
-此时可通过 `?` 运算符简写，函数返回值必须是 `Result` 类型。`main()`  函数允许返回 `Result<(), E>` 类型
+此时可通过 `?` 运算符简写，函数返回值必须是 `Result` 类型。
+
+> [!important] `main()`  函数允许返回 `Result<(), E>` 类型
 
 > [!success] `?` 运算符也可以用于 `Option`  枚举
 
