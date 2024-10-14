@@ -42,6 +42,8 @@ fn add(i: i32, j: i32) -> i32 {
 - [[测试]]
 - [[并发基础]]
 
+---
+
 运行时的参数可以通过 `env` 包获取
 
 ```rust
@@ -63,6 +65,7 @@ Rust 提供 `rustup`、`rustc` 和 `cargo` 工具更新、生成、编译、运�
 -  `rustc` ：编译源码，生成可执行文件，默认在源码目录
     -  `rustc -v`：查看版本，常用于检查 Rust 是否安装成功
     -  `rustc <rs文件>` ：编译源程序
+    - `rustc-env=VAR=VALUE`：设置运行时环境变量
 -  `cargo` ：生成、调试程序，也用于发布程序或 lib
     -  `cargo -v` ：查看版本，常用于检查 Rust 是否安装成功
     -  `cargo new <项目名>`：创建一个新的 Rust 项目
