@@ -53,15 +53,23 @@ flexGrow=1
 
 OAuth 2.0 提供四种客户端授权模式：
 
+`````col
+````col-md
+flexGrow=1
+===
 - 授权码（Authorization Code）模式：OAuth 2.0 最完整、最严密的模式
-	1. 用户访问授权客户端，客户端引导用户到授权服务器
-	2. 用户选择是否允许给客户端授权
-	3. 用户同意授权，授权服务器重定向到客户端指定地址并携带授权码
-	4. 客户端收到授权码，附加重定向页面，经客户端后台向授权服务器请求令牌
-	5. 授权服务器校验授权码后，向客户端发送请求令牌和更新令牌并重定向
-
+  1. 用户访问授权客户端，客户端引导用户到授权服务器
+  2. 用户选择是否允许给客户端授权
+  3. 用户同意授权，授权服务器重定向到客户端指定地址并携带授权码
+  4. 客户端收到授权码，附加重定向页面，经客户端后台向授权服务器请求令牌
+  5. 授权服务器校验授权码后，向客户端发送请求令牌和更新令牌并重定向
+````
+````col-md
+flexGrow=1
+===
 ![[../../../../_resources/images/微服务应用安全 Security 2024-10-16 01.16.47.excalidraw|80%]]
-
+````
+`````
 - 简化（Implicit）模式：客户端不通过后台服务器，直接向授权服务器申请令牌
 - 密码模式（Resource Owner Password Credentials）：客户端通过用户名、密码直接从授权服务器获取授权
 - 客户端模式：客户端直接以客户端名义申请授权，实际不存在授权问题
@@ -70,5 +78,11 @@ OAuth 2.0 提供四种客户端授权模式：
 > - OAuth 验证服务端：`org.springframework.boot:spring-boot-starter-oauth2-authorization-server`
 > - OAuth 资源服务端：`org.springframework.boot:spring-boot-starter-oauth2-resource-server`
 > - OAuth 客户端：`org.springframework.boot:spring-boot-starter-oauth2-client`
+
+## 认证服务器
+
+## 资源服务器
+
+## 客户端
 
 # JWT 认证
